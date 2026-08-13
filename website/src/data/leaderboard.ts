@@ -11,6 +11,7 @@ export type ModelRow = {
 };
 
 export const LEADERBOARD: ModelRow[] = [
+  { name: "GPT-5.6-sol", provider: "OpenAI", family: "openai", openSource: false, passAt1: 50.0, passAt1Sd: 2.6, passAt3: 62.2, passCube: 31.0, turns: 43.2 },
   { name: "GPT-5.5", provider: "OpenAI", family: "openai", openSource: false, passAt1: 46.3, passAt1Sd: 1.2, passAt3: 57.4, passCube: 28.0, turns: 41.9 },
   { name: "Claude Opus 4.6", provider: "Anthropic", family: "anthropic", openSource: false, passAt1: 31.7, passAt1Sd: 2.3, passAt3: 41.5, passCube: 18.0, turns: 25.2 },
   { name: "Claude Opus 4.7", provider: "Anthropic", family: "anthropic", openSource: false, passAt1: 29.3, passAt1Sd: 2.5, passAt3: 37.9, passCube: 18.0, turns: 16.2 },

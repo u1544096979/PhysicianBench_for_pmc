@@ -18,6 +18,7 @@ export const TASK_TYPES = [
 
 /** Pass@1 (%) by model x specialty */
 export const SPECIALTY_BREAKDOWN: Record<string, Record<string, number>> = {
+  "GPT-5.6-sol":    { cardio: 66.7, endo: 69.2, gi: 50.0, id: 50.0, psych: 41.7, heme: 48.7, neph: 33.3, pulm: 46.3 },
   "GPT-5.5":        { cardio: 55.6, endo: 59.0, gi: 57.1, id: 38.9, psych: 33.3, heme: 48.7, neph: 29.2, pulm: 48.1 },
   "Claude Opus 4.6": { cardio: 27.8, endo: 35.9, gi: 35.7, id: 38.9, psych: 27.1, heme: 30.8, neph: 33.3, pulm: 25.9 },
   "Claude Opus 4.7": { cardio: 38.9, endo: 28.2, gi: 28.6, id: 22.2, psych: 18.8, heme: 30.8, neph: 33.3, pulm: 38.9 },
@@ -34,6 +35,7 @@ export const SPECIALTY_BREAKDOWN: Record<string, Record<string, number>> = {
 
 /** Pass@1 (%) by model x task type */
 export const TASKTYPE_BREAKDOWN: Record<string, Record<string, number>> = {
+  "GPT-5.6-sol":     { diag: 59.0, med: 46.2, treat: 46.9, workup: 52.0 },
   "GPT-5.5":         { diag: 46.2, med: 41.0, treat: 40.7, workup: 54.9 },
   "Claude Opus 4.6": { diag: 43.6, med: 28.2, treat: 21.0, workup: 38.2 },
   "Claude Opus 4.7": { diag: 41.0, med: 26.9, treat: 22.2, workup: 32.4 },
@@ -48,18 +50,22 @@ export const TASKTYPE_BREAKDOWN: Record<string, Record<string, number>> = {
   "Grok-4.20":       { diag: 2.6,  med: 7.7,  treat: 2.5,  workup: 6.9 },
 };
 
-/** % of failed checkpoints per category, averaged over 3 runs */
+/** % of failed checkpoints per category, pooled over 3 runs (2010 checkpoints each).
+ *  Recomputed 2026-08-12 after fixing a regex in scripts/score_failure_breakdown.py
+ *  that matched pytest's summary section as well as its progress lines, counting
+ *  every checkpoint twice and mis-attributing the neighbouring test's status. */
 export const FAILURE_BREAKDOWN: Record<string, { dr: number; cr: number; ae: number; doc: number }> = {
-  "GPT-5.5":            { dr: 10.0, cr: 42.5, ae: 19.4, doc: 28.1 },
-  "Claude Opus 4.6":    { dr: 10.0, cr: 50.4, ae: 17.4, doc: 22.2 },
-  "Claude Opus 4.7":    { dr: 14.2, cr: 48.3, ae: 14.3, doc: 23.2 },
-  "GPT-5.4":            { dr: 10.3, cr: 46.1, ae: 20.6, doc: 23.0 },
-  "Claude Sonnet 4.6":  { dr: 11.8, cr: 50.2, ae: 18.8, doc: 19.2 },
-  "Kimi-K2.6":          { dr: 11.9, cr: 50.3, ae: 19.1, doc: 18.7 },
-  "Qwen3.6-Plus":       { dr: 11.6, cr: 53.8, ae: 19.3, doc: 15.3 },
-  "MiniMax M2.7":       { dr: 13.7, cr: 50.4, ae: 20.0, doc: 15.9 },
-  "MiMo-v2.5-Pro":      { dr: 12.6, cr: 52.2, ae: 17.5, doc: 17.7 },
-  "DeepSeek V4-Pro":    { dr: 12.4, cr: 58.3, ae: 15.3, doc: 14.0 },
-  "Gemini Pro 3.1":     { dr: 15.2, cr: 50.1, ae: 19.7, doc: 15.0 },
-  "Grok-4.20":          { dr: 13.6, cr: 54.4, ae: 18.7, doc: 13.4 },
+  "GPT-5.6-sol":        { dr: 12.3, cr: 56.1, ae: 14.6, doc: 16.9 },
+  "GPT-5.5":            { dr: 11.9, cr: 50.4, ae: 19.8, doc: 18.0 },
+  "Claude Opus 4.6":    { dr: 10.7, cr: 48.5, ae: 15.2, doc: 25.6 },
+  "Claude Opus 4.7":    { dr: 16.3, cr: 49.0, ae: 11.4, doc: 23.3 },
+  "GPT-5.4":            { dr: 11.0, cr: 46.5, ae: 21.0, doc: 21.5 },
+  "Claude Sonnet 4.6":  { dr: 11.5, cr: 47.5, ae: 17.1, doc: 23.9 },
+  "Kimi-K2.6":          { dr: 12.0, cr: 46.3, ae: 18.5, doc: 23.2 },
+  "Qwen3.6-Plus":       { dr: 9.4,  cr: 49.8, ae: 19.6, doc: 21.2 },
+  "MiniMax M2.7":       { dr: 13.2, cr: 43.8, ae: 18.5, doc: 24.5 },
+  "MiMo-v2.5-Pro":      { dr: 12.0, cr: 49.3, ae: 15.4, doc: 23.3 },
+  "DeepSeek V4-Pro":    { dr: 10.3, cr: 55.8, ae: 14.0, doc: 20.0 },
+  "Gemini Pro 3.1":     { dr: 14.2, cr: 45.5, ae: 18.3, doc: 22.0 },
+  "Grok-4.20":          { dr: 11.8, cr: 50.8, ae: 17.8, doc: 19.5 },
 };
