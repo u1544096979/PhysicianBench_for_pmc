@@ -22,6 +22,7 @@ dist/
 jobs/
 logs/
 .env
+.worktrees/
 
 # Per-task transient state 
 tasks/*/*/workspace/
