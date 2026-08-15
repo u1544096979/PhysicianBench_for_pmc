@@ -424,50 +424,11 @@ FILE_TOOL_SCHEMAS = [
 ]
 
 
-def register_all_tools(registry: ToolRegistry):
-    """Register all FHIR tools and file tools into the registry."""
-    from tools.fhir_api_functions import (
-        fhir_condition_search_problems,
-        fhir_observation_search_labs,
-        fhir_observation_search_vitals,
-        fhir_patient_search_demographics,
-        fhir_procedure_search_orders,
-        fhir_medication_request_search_orders,
-        fhir_document_reference_search_clinical_notes,
-        fhir_service_request_search,
-        fhir_observation_search_social_history,
-        fhir_medication_request_create,
-        fhir_communication_create_message,
-        fhir_service_request_create,
-        fhir_appointment_create,
-    )
+def register_all_tools(registry: ToolRegistry, data_root=None):
+    """Register the 14 CSV category tools and the file tool."""
+    from pathlib import Path
+    from tools.csv_category_tools import register_category_tools
     from tools.file_tools import write_file
-
-    # Map function names to functions
-    fhir_funcs = {
-        "fhir_condition_search_problems": fhir_condition_search_problems,
-        "fhir_observation_search_labs": fhir_observation_search_labs,
-        "fhir_observation_search_vitals": fhir_observation_search_vitals,
-        "fhir_patient_search_demographics": fhir_patient_search_demographics,
-        "fhir_procedure_search_orders": fhir_procedure_search_orders,
-        "fhir_medication_request_search_orders": fhir_medication_request_search_orders,
-        "fhir_document_reference_search_clinical_notes": fhir_document_reference_search_clinical_notes,
-        "fhir_service_request_search": fhir_service_request_search,
-        "fhir_observation_search_social_history": fhir_observation_search_social_history,
-        "fhir_medication_request_create": fhir_medication_request_create,
-        "fhir_communication_create_message": fhir_communication_create_message,
-        "fhir_service_request_create": fhir_service_request_create,
-        "fhir_appointment_create": fhir_appointment_create,
-    }
-
-    file_funcs = {
-        "write_file": write_file,
-    }
-
-    for schema in FHIR_TOOL_SCHEMAS:
-        name = schema["name"]
-        registry.register(name, fhir_funcs[name], schema)
-
-    for schema in FILE_TOOL_SCHEMAS:
-        name = schema["name"]
-        registry.register(name, file_funcs[name], schema)
+    root = Path(data_root) if data_root else Path(__file__).resolve().parents[1] / "data" / "oncology_complete_trajectory"
+    register_category_tools(registry, root)
+    registry.register("write_file", write_file, FILE_TOOL_SCHEMAS[0])
