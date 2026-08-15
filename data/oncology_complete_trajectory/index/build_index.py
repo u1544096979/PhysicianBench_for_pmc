@@ -23,8 +23,10 @@ REQUIRED_COLUMNS = (
     "unit",
     "method",
     "source",
+    "_record_source",
     "event_date",
     "category",
+    "pipeline_version",
 )
 
 
@@ -103,6 +105,8 @@ def build_index(data_root: Path) -> dict[str, Any]:
 def load_case_csv(case_id: str, data_root: Path) -> Path:
     """Return the source CSV for ``case_id``; reject unknown IDs."""
     csv_dir = _csv_directory(Path(data_root))
+    if not case_id or Path(case_id).name != case_id or Path(case_id).suffix:
+        raise KeyError(f"Invalid oncology case id: {case_id}")
     path = csv_dir / f"{case_id}.csv"
     if not path.is_file():
         raise KeyError(f"Unknown oncology case id: {case_id}")

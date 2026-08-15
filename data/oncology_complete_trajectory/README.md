@@ -8,7 +8,8 @@
 
 ```bash
 mkdir -p data/oncology_complete_trajectory/raw
-ln -s /path/to/oncology_complete_trajectory data/oncology_complete_trajectory/raw/csv
+ln -s /gpfs/flash/home/gwh/code/pmc_case_data_audit/data/oncology_complete_trajectory/csv \
+  data/oncology_complete_trajectory/raw/csv
 python -m data.oncology_complete_trajectory.index.build_index
 ```
 
