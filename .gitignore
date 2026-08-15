@@ -28,3 +28,7 @@ logs/
 tasks/*/*/workspace/
 tasks/*/*/logs/
 tasks/*/*/tests/__pycache__/
+
+# Oncology CSV generated state (keep index/manifest.json trackable)
+data/oncology_complete_trajectory/index/*.jsonl
+data/oncology_complete_trajectory/generated/
