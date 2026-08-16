@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any, Literal, TypedDict
 
 CheckpointKind = Literal["retrieval", "reasoning", "documentation"]
@@ -15,6 +16,22 @@ class GenerationState(TypedDict, total=False):
     checkpoint_drafts: list[dict[str, Any]]
     validation_errors: list[str]
     review_status: str
+
+
+@dataclass(frozen=True)
+class EventGroup:
+    group_id: str
+    event_date: str
+    first_source_row: int
+    category: str
+    events: list[dict[str, str]]
+
+
+@dataclass(frozen=True)
+class CleaningResult:
+    cleaned_csv: Path
+    target_group_id: str
+    target_events: list[dict[str, str]]
 
 
 @dataclass(frozen=True)

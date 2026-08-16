@@ -7,7 +7,7 @@ from typing import Any
 from tools.csv_event_store import CsvEventStore
 from tools.csv_event_types import EventQuery, SUPPORTED_CATEGORIES
 
-from .schemas import GenerationState, validate_state
+from .schemas import EventGroup, GenerationState, validate_state
 
 
 def load_case(data_root: Path, case_id: str) -> dict[str, Any]:
@@ -19,11 +19,35 @@ def load_case(data_root: Path, case_id: str) -> dict[str, Any]:
 
 
 def build_timeline(state: GenerationState) -> dict[str, Any]:
-    events = sorted(state.get("raw_events", []), key=lambda e: (e.get("event_date", ""), e.get("encnt_no", ""), e.get("group_id", ""), e.get("_source_row", "")))
-    groups: dict[str, list[dict[str, str]]] = {}
-    for event in events:
-        groups.setdefault(event.get("group_id", ""), []).append(event)
-    return {"raw_events": events, "candidate_segments": list(groups.values())}
+    events = sorted(state.get("raw_events", []), key=_source_row)
+    return {"raw_events": events, "candidate_segments": [group.events for group in build_event_groups(events)]}
+
+
+def _source_row(event: dict[str, str]) -> int:
+    try:
+        return int(event.get("_source_row", ""))
+    except (TypeError, ValueError) as exc:
+        raise ValueError("event is missing a numeric _source_row") from exc
+
+
+def build_event_groups(events: list[dict[str, str]]) -> list[EventGroup]:
+    groups_by_id: dict[str, list[dict[str, str]]] = {}
+    for event in sorted(events, key=_source_row):
+        groups_by_id.setdefault(event.get("group_id", ""), []).append(event)
+
+    groups = []
+    for group_events in groups_by_id.values():
+        first = group_events[0]
+        groups.append(
+            EventGroup(
+                group_id=first.get("group_id", ""),
+                event_date=first.get("event_date", ""),
+                first_source_row=_source_row(first),
+                category=first.get("category", ""),
+                events=group_events,
+            )
+        )
+    return sorted(groups, key=lambda group: group.first_source_row)
 
 
 def parse_model_json(client, prompt: str) -> dict[str, Any]:
