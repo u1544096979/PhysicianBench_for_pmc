@@ -1,11 +1,19 @@
 import csv
+from copy import deepcopy
 from pathlib import Path
+
+import pytest
 
 from pipeline.oncology_generation.schemas import EventGroup, validate_state
 
 
 def _event(row: str, group_id: str, feature_name: str, value: str, category: str = "病理"):
-    return {"_source_row": row, "group_id": group_id, "event_date": "2024-01-01", "category": category, "feature_name": feature_name, "value": value}
+    return {
+        "_source_row": row, "group_id": group_id, "event_date": "2024-01-01", "category": category,
+        "feature_name": feature_name, "value": value, "subject": "患者A", "feature_type": "文本",
+        "actual_value": value, "extra_value": "extra", "unit": "", "method": "病理检查",
+        "source": "病理报告", "_record_source": "fixture", "pipeline_version": "v1",
+    }
 
 
 def _state(tmp_path: Path, instruction: str = "请判断患者的诊断并说明依据。"):
@@ -17,14 +25,21 @@ def _state(tmp_path: Path, instruction: str = "请判断患者的诊断并说明
         writer.writeheader()
         writer.writerow({"group_id": "g1", "feature_name": "症状", "value": "咳嗽"})
     return {
+        "data_root": tmp_path,
         "raw_events": [_event("2", "g1", "症状", "咳嗽", "病史"), *target_events, _event("4", "g3", "治疗", "手术", "手术")],
         "event_groups": [
             EventGroup("g1", "2024-01-01", 2, "病史", [_event("2", "g1", "症状", "咳嗽", "病史")]),
-            EventGroup("g2", "2024-01-01", 3, "病理", target_events),
+            EventGroup("g2", "2024-01-01", 3, "病理", deepcopy(target_events)),
             EventGroup("g3", "2024-01-01", 4, "手术", [_event("4", "g3", "治疗", "手术", "手术")]),
         ],
         "target_group_id": "g2", "target_events": target_events,
-        "task_draft": {"instruction": instruction}, "cleaned_path": cleaned,
+        "task_draft": {
+            "selection_rationale": "病理结果明确",
+            "role": "oncologist",
+            "instruction": instruction,
+            "deliverable": "诊断意见",
+        },
+        "cleaned_path": cleaned,
     }
 
 
@@ -52,5 +67,28 @@ def test_validation_rejects_cleaned_target_following_groups_and_answer_leak(tmp_
 
 def test_validation_rejects_output_outside_cleaned_directory(tmp_path):
     state = _state(tmp_path)
-    state["cleaned_path"] = tmp_path / "raw" / "case.csv"
+    external_cleaned = tmp_path / "external" / "cleaned"
+    external_cleaned.mkdir(parents=True)
+    state["cleaned_path"] = external_cleaned / "case.csv"
+    state["cleaned_path"].write_text("group_id\n", encoding="utf-8")
     assert any("cleaned directory" in error for error in validate_state(state))
+
+
+def test_validation_rejects_target_event_with_rewritten_original_field(tmp_path):
+    state = _state(tmp_path)
+    state["target_events"] = deepcopy(state["target_events"])
+    state["target_events"][0]["subject"] = "被改写患者"
+
+    errors = validate_state(state)
+
+    assert any("trace" in error for error in errors)
+
+
+@pytest.mark.parametrize("missing", ["selection_rationale", "role", "instruction", "deliverable"])
+def test_validation_rejects_task_draft_missing_required_field(tmp_path, missing):
+    state = _state(tmp_path)
+    del state["task_draft"][missing]
+
+    errors = validate_state(state)
+
+    assert any(missing in error for error in errors)

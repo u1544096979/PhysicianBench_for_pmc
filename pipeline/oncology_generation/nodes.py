@@ -15,7 +15,7 @@ def load_case(data_root: Path, case_id: str) -> dict[str, Any]:
     store = CsvEventStore(data_root)
     for category in SUPPORTED_CATEGORIES:
         events.extend(store.query(EventQuery(case_id, category=category, limit=10000)))
-    return {"case_id": case_id, "raw_events": events}
+    return {"case_id": case_id, "data_root": Path(data_root), "raw_events": events}
 
 
 def build_timeline(state: GenerationState) -> dict[str, Any]:
@@ -68,6 +68,11 @@ def select_target_group(state: GenerationState, client) -> dict[str, Any]:
         f"完整病例：{context}"
     )
     result = parse_model_json(client, prompt)
+    required_fields = ("target_group_id", "selection_rationale", "role", "instruction", "deliverable")
+    for field in required_fields:
+        value = result.get(field)
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError(f"model result missing required field: {field}")
     target_id = str(result.get("target_group_id", ""))
     target_group = next((group for group in state.get("event_groups", []) if group.group_id == target_id), None)
     if target_group is None:

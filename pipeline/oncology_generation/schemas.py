@@ -7,6 +7,7 @@ from typing import Any, TypedDict
 
 class GenerationState(TypedDict, total=False):
     case_id: str
+    data_root: Path
     raw_events: list[dict[str, str]]
     event_groups: list[EventGroup]
     target_group_id: str
@@ -62,11 +63,19 @@ def validate_state(state: GenerationState, allowed_tools: set[str] | None = None
         errors.append("cleaned path is missing")
     else:
         path = Path(cleaned_path)
-        if path.parent.name != "cleaned":
-            errors.append("cleaned output path is outside cleaned directory")
+        data_root = state.get("data_root")
+        if data_root is None:
+            errors.append("data root is missing")
+            cleaned_root = None
+        else:
+            cleaned_root = (Path(data_root) / "cleaned").resolve()
+            try:
+                path.resolve().relative_to(cleaned_root)
+            except ValueError:
+                errors.append("cleaned output path is outside current data_root/cleaned directory")
         if not path.is_file():
             errors.append(f"cleaned file does not exist: {path}")
-        else:
+        elif cleaned_root is not None:
             import csv
             with path.open("r", encoding="utf-8-sig", newline="") as stream:
                 cleaned_groups = {row.get("group_id", "") for row in csv.DictReader(stream)}
@@ -75,7 +84,12 @@ def validate_state(state: GenerationState, allowed_tools: set[str] | None = None
             if leaked:
                 errors.append(f"cleaned file contains target or following groups: {sorted(leaked)}")
 
-    instruction = str(state.get("task_draft", {}).get("instruction", ""))
+    task_draft = state.get("task_draft", {})
+    for field in ("selection_rationale", "role", "instruction", "deliverable"):
+        value = task_draft.get(field)
+        if not isinstance(value, str) or not value.strip():
+            errors.append(f"task draft missing required field: {field}")
+    instruction = str(task_draft.get("instruction", ""))
     source_events = target_group.events if target_group is not None else target_events
     target_values = {event.get("value", "") for event in source_events if event.get("value", "")}
     leaked_values = [value for value in target_values if value in instruction]
@@ -84,8 +98,8 @@ def validate_state(state: GenerationState, allowed_tools: set[str] | None = None
     return errors
 
 
-def _event_key(event: dict[str, str]) -> tuple[str, str, str, str]:
-    return (event.get("_source_row", ""), event.get("category", ""), event.get("feature_name", ""), event.get("value", ""))
+def _event_key(event: dict[str, str]) -> tuple[tuple[str, str], ...]:
+    return tuple(sorted((str(key), str(value)) for key, value in event.items()))
 
 
 def _is_diagnostic_event(event: dict[str, str]) -> bool:

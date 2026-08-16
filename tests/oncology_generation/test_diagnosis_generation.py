@@ -30,6 +30,19 @@ class FakeClient:
         return type("Response", (), {"content": '{"target_group_id":"g2","selection_rationale":"明确病理诊断","role":"oncologist","instruction":"请判断诊断并说明依据。","deliverable":"诊断意见"}'})()
 
 
+def test_select_target_group_rejects_incomplete_model_result():
+    class IncompleteClient:
+        def chat(self, messages):
+            return type("Response", (), {"content": '{"target_group_id":"g2","role":"oncologist","instruction":"请判断。","deliverable":"诊断意见"}'})()
+
+    events = [{"_source_row": "2", "group_id": "g2", "category": "病理", "feature_name": "病理诊断", "value": "肺腺癌"}]
+    state = {"raw_events": events, "event_groups": [EventGroup("g2", "2024-01-01", 2, "病理", events)]}
+
+    import pytest
+    with pytest.raises(ValueError, match="selection_rationale"):
+        select_target_group(state, IncompleteClient())
+
+
 def test_select_target_group_indexes_real_group_and_drafts_task():
     events = [{"_source_row": "2", "group_id": "g2", "category": "病理", "feature_name": "病理诊断", "value": "肺腺癌"}]
     state = {"raw_events": events, "event_groups": [EventGroup("g2", "2024-01-01", 2, "病理", events)]}
