@@ -93,9 +93,10 @@ def validate_state(state: GenerationState, allowed_tools: set[str] | None = None
         if not isinstance(value, str) or not value.strip():
             errors.append(f"task draft missing required field: {field}")
     instruction = str(task_draft.get("instruction", ""))
+    normalized_instruction = instruction.casefold()
     source_events = target_group.events if target_group is not None else target_events
-    target_values = {event.get("value", "") for event in source_events if event.get("value", "")}
-    leaked_values = [value for value in target_values if value in instruction]
+    target_values = {str(event.get("value", "")) for event in source_events if event.get("value", "")}
+    leaked_values = [value for value in target_values if value.casefold() in normalized_instruction]
     if leaked_values:
         errors.append(f"task instruction contains target value: {leaked_values}")
     return errors

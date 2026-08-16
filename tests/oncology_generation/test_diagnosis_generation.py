@@ -9,13 +9,13 @@ from pipeline.oncology_generation.schemas import EventGroup
 from tools.csv_event_types import EVENT_COLUMNS
 
 
-def _write_case(root: Path) -> None:
+def _write_case(root: Path, target_value: str = "肺腺癌") -> None:
     source = root / "raw" / "csv" / "case-1.csv"
     source.parent.mkdir(parents=True)
     fields = [*EVENT_COLUMNS, "source_extra"]
     rows = [
         {"case_id": "case-1", "group_id": "g1", "event_date": "2024-01-01", "category": "病史", "feature_name": "症状", "value": "咳嗽"},
-        {"case_id": "case-1", "group_id": "g2", "event_date": "2024-01-02", "category": "病理", "feature_name": "病理诊断", "value": "肺腺癌", "source_extra": "源文件扩展列"},
+        {"case_id": "case-1", "group_id": "g2", "event_date": "2024-01-02", "category": "病理", "feature_name": "病理诊断", "value": target_value, "source_extra": "源文件扩展列"},
         {"case_id": "case-1", "group_id": "g3", "event_date": "2024-01-03", "category": "手术", "feature_name": "治疗", "value": "切除"},
     ]
     with source.open("w", encoding="utf-8", newline="") as stream:
@@ -38,6 +38,11 @@ class JsonClient:
 
     def chat(self, messages):
         return type("Response", (), {"content": self.content})()
+
+
+class CaseInsensitiveLeakClient:
+    def chat(self, messages):
+        return type("Response", (), {"content": '{"target_group_id":"g2","selection_rationale":"明确病理诊断","role":"oncologist","instruction":"The likely stage is iiia.","deliverable":"诊断意见"}'})()
 
 
 @pytest.mark.parametrize("content", ["[]", "null", '"text"'])
@@ -80,3 +85,12 @@ def test_graph_uses_fixed_diagnosis_generation_sequence(tmp_path):
     assert state["target_group_id"] == "g2"
     assert state["target_events"][0]["value"] == "肺腺癌"
     assert state["cleaned_path"] == tmp_path / "cleaned" / "case-1.csv"
+
+
+def test_graph_rejects_case_insensitive_target_value_leak(tmp_path):
+    _write_case(tmp_path, target_value="IIIA")
+
+    state = build_generation_graph(tmp_path, CaseInsensitiveLeakClient(), set()).invoke({"case_id": "case-1"})
+
+    assert state["review_status"] == "needs_revision"
+    assert any("instruction" in error and "value" in error for error in state["validation_errors"])

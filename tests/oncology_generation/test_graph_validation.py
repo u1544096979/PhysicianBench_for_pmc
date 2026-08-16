@@ -65,6 +65,17 @@ def test_validation_rejects_cleaned_target_following_groups_and_answer_leak(tmp_
     assert any("instruction" in error and "value" in error for error in errors)
 
 
+def test_validation_rejects_case_insensitive_answer_leak(tmp_path):
+    state = _state(tmp_path, instruction="The likely stage is iiia.")
+    state["event_groups"][1].events[0]["value"] = "IIIA"
+    state["target_events"][0]["value"] = "IIIA"
+    state["raw_events"][1]["value"] = "IIIA"
+
+    errors = validate_state(state)
+
+    assert any("instruction" in error and "value" in error for error in errors)
+
+
 def test_validation_rejects_output_outside_cleaned_directory(tmp_path):
     state = _state(tmp_path)
     external_cleaned = tmp_path / "external" / "cleaned"
