@@ -15,6 +15,7 @@ import json
 import os
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -54,12 +55,23 @@ def _read_agent_final_output(job_dir: Path) -> str:
 
 def _write_json(path: Path, payload: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary_path = path.with_suffix(path.suffix + ".tmp")
-    temporary_path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+    temporary_file = tempfile.NamedTemporaryFile(
+        mode="w",
         encoding="utf-8",
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        delete=False,
     )
-    temporary_path.replace(path)
+    temporary_path = Path(temporary_file.name)
+    try:
+        with temporary_file:
+            temporary_file.write(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+            temporary_file.flush()
+            os.fsync(temporary_file.fileno())
+        os.replace(temporary_path, path)
+    finally:
+        temporary_path.unlink(missing_ok=True)
 
 
 def write_diagnosis_evaluation(
@@ -142,6 +154,7 @@ def main(argv: list[str] | None = None) -> int:
         env=env,
     )
     ground_truth_path = task_dir / "ground_truth.json"
+    evaluator_passed = True
     if ground_truth_path.is_file():
         artifact_root = job_dir or task_dir
         diagnosis_path = write_diagnosis_evaluation(task_dir, artifact_root)
@@ -149,7 +162,16 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Diagnosis eval: {diagnosis_path}")
         if diagnosis_payload["evaluator_error"]:
             print(f"Evaluator error: {diagnosis_payload['evaluator_error']}")
-    return result.returncode
+        evaluator_passed = (
+            diagnosis_payload["evaluator_error"] is None
+            and diagnosis_payload.get("rule", {}).get("label") == "correct"
+            and diagnosis_payload.get("judge", {}).get("label") == "correct"
+        )
+        if not evaluator_passed:
+            print("Diagnosis evaluator did not pass")
+    if result.returncode != 0:
+        return result.returncode
+    return 0 if evaluator_passed else 1
 
 
 if __name__ == "__main__":

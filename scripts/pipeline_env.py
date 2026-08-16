@@ -26,9 +26,12 @@ def load_model_env(prefix: str) -> ModelEnv:
         for key, value in os.environ.items()
         if key.startswith(env_prefix) and value
     }
-    return ModelEnv(
-        model=values.pop("MODEL", None),
-        api_key=values.pop("API_KEY", None),
-        base_url=values.pop("BASE_URL", None),
-        extra=values,
-    )
+    model = values.pop("MODEL", None)
+    api_key = values.pop("API_KEY", None)
+    base_url = values.pop("BASE_URL", None)
+    if bool(api_key) != bool(base_url):
+        raise ValueError(
+            f"{normalized_prefix}_API_KEY and {normalized_prefix}_BASE_URL "
+            "must be configured together"
+        )
+    return ModelEnv(model=model, api_key=api_key, base_url=base_url, extra=values)

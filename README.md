@@ -64,7 +64,10 @@ AGENT_EVAL_API_KEY=your-agent-eval-api-key
 AGENT_EVAL_BASE_URL=https://your-agent-eval-provider.example/v1
 ```
 
-`--model` overrides `AGENT_EVAL_MODEL` for a local run. If stage-specific credentials are unset, the existing OpenRouter, Anthropic, or OpenAI backend environment variables remain available as fallback.
+`--model` overrides `AGENT_EVAL_MODEL` for a local run. `API_KEY` and `BASE_URL`
+must be configured together for each stage. When both stage-specific credential
+fields are unset, the existing OpenRouter, Anthropic, or OpenAI backend environment
+variables remain available as fallback.
 
 ## Quick Start
 
@@ -81,6 +84,11 @@ This will:
 2. Open only `cleaned/<case_id>.csv` through the read-only CSV tools.
 3. Run the agent and pytest verifier.
 4. Write trajectory, workspace, verifier logs, and metadata to `jobs/<batch>/<task>/`.
+
+Evaluation succeeds only when pytest passes and both the deterministic diagnosis
+rule and model judge return `correct`. Partial/incorrect results and evaluator
+errors are preserved in `logs/verifier/diagnosis_eval.json` and produce a non-zero
+runner exit code.
 
 The legacy `tasks/v1` commands, `--fhir-image`, and `--port` are intentionally unsupported in this copy. Use an upstream FHIR-enabled checkout for those tasks.
 
