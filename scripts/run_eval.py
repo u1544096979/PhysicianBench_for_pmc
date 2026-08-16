@@ -38,11 +38,11 @@ def main():
     job_dir = Path(args.job_dir).resolve() if args.job_dir else None
 
     print(f"Running tests: {test_path}")
-    print(f"FHIR URL:      {args.fhir_url}")
+    print("Backend:       oncology CSV")
     print(f"Job dir:       {job_dir or '(fallback to in-task layout)'}")
     print()
 
-    env = {**os.environ, "FHIR_BASE_URL": args.fhir_url}
+    env = dict(os.environ)
     if job_dir:
         env["JOB_DIR"] = str(job_dir)
         cwd = job_dir / "workspace"

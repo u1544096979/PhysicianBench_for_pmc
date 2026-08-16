@@ -142,8 +142,9 @@ def prepare_workspace(job_dir: Path, task_dir: Path) -> Path:
 
 
 def run_agent(
-    task_dir: Path, job_dir: Path, fhir_url: str, model: str, max_steps: int,
+    task_dir: Path, job_dir: Path, fhir_url: str | None, model: str, max_steps: int,
     temperature: float | None, parallel_tool_calls: bool, reasoning_effort: str | None,
+    data_root: Path | None = None,
 ) -> bool:
     """Run the mini agent in-process. All outputs land under job_dir."""
     print("[3/4] Running agent...")
@@ -157,7 +158,8 @@ def run_agent(
         f"Output files should be saved under: {workspace / 'output'}/\n"
     )
 
-    os.environ["FHIR_BASE_URL"] = fhir_url + "/"
+    if fhir_url:
+        os.environ["FHIR_BASE_URL"] = fhir_url + "/"
 
     from agent.llm_client import LLMClient
     from agent.mini_agent import MiniAgent
@@ -169,7 +171,7 @@ def run_agent(
     trajectory_path = agent_log_dir / "trajectory.log"
 
     registry = ToolRegistry()
-    register_all_tools(registry)
+    register_all_tools(registry, data_root=data_root)
     agent = MiniAgent(
         client=LLMClient(model_id=model),
         registry=registry,
@@ -199,7 +201,7 @@ def run_agent(
         return False
 
 
-def run_evaluation(task_dir: Path, job_dir: Path, fhir_url: str) -> bool:
+def run_evaluation(task_dir: Path, job_dir: Path, fhir_url: str | None = None) -> bool:
     """Run pytest evaluation. Writes verifier logs to job_dir."""
     print("[4/4] Running evaluation...")
     test_file = task_dir / "tests" / "test_outputs.py"
@@ -215,7 +217,6 @@ def run_evaluation(task_dir: Path, job_dir: Path, fhir_url: str) -> bool:
             sys.executable,
             str(REPO_ROOT / "scripts" / "run_eval.py"),
             str(task_dir),
-            "--fhir-url", fhir_url,
             "--job-dir", str(job_dir),
         ],
         capture_output=True, text=True,
@@ -258,6 +259,9 @@ def main():
     parser.add_argument("--job-dir",
                         help="Explicit per-task job directory. If omitted, one is auto-created "
                              "under jobs/<batch>/<task>/.")
+    parser.add_argument("--data-root", type=Path,
+                        default=REPO_ROOT / "data" / "oncology_complete_trajectory",
+                        help="Oncology CSV data root")
 
     args = parser.parse_args()
 
@@ -282,32 +286,26 @@ def main():
             temperature=str(args.temperature) if args.temperature is not None else "default",
         )
 
-    fhir_url = f"http://localhost:{args.port}/fhir"
-
     print(f"Task:    {task_dir.name}")
     print(f"Job:     {job_dir}")
-    print(f"Image:   {args.fhir_image}")
-    print(f"FHIR:    {fhir_url}")
+    print(f"CSV:     {args.data_root}")
     print(f"Model:   {args.model}")
     print()
-
-    container_name = start_fhir_container(args.fhir_image, args.port)
-    if not container_name:
-        sys.exit(1)
 
     task_cost = None
     success = True
     try:
-        print("[2/4] Skipping data import (pre-loaded in Docker image)")
+        print("[1/4] Using read-only oncology CSV data")
         print()
 
         if not args.skip_agent:
             usage_before = get_openrouter_usage()
             if not run_agent(
-                task_dir, job_dir, fhir_url, args.model, args.max_steps,
+                task_dir, job_dir, None, args.model, args.max_steps,
                 temperature=args.temperature,
                 parallel_tool_calls=not args.no_parallel_tools,
                 reasoning_effort=args.reasoning_effort,
+                data_root=args.data_root,
             ):
                 print("WARNING: Agent exited with error, continuing to eval...")
             usage_after = get_openrouter_usage()
@@ -318,12 +316,12 @@ def main():
             print("[3/4] Skipping agent (--skip-agent)")
 
         if not args.skip_eval:
-            success = run_evaluation(task_dir, job_dir, fhir_url)
+            success = run_evaluation(task_dir, job_dir)
         else:
             print("[4/4] Skipping evaluation (--skip-eval)")
 
     finally:
-        stop_fhir_container(container_name)
+        pass
 
     pytest_file = job_dir / "logs" / "verifier" / "pytest_output.txt"
     test_results = parse_pytest_results(pytest_file.read_text()) if pytest_file.exists() else {}
@@ -334,7 +332,7 @@ def main():
         max_steps=args.max_steps,
         temperature=args.temperature,
         reasoning_effort=args.reasoning_effort,
-        fhir_url=fhir_url,
+        data_root=str(args.data_root),
         success=success,
         test_results=test_results,
         task_cost_usd=task_cost,
