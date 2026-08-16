@@ -44,13 +44,14 @@ def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) ->
     instruction = str(state.get("task_draft", {}).get("instruction", "")).strip()
     if not instruction:
         raise ValueError("task draft has no instruction")
-    lowered = instruction.lower()
-    if "ground_truth" in lowered or "pass_criteria" in lowered:
+    normalized_instruction = instruction.casefold()
+    if "ground_truth" in normalized_instruction or "pass_criteria" in normalized_instruction:
         raise ValueError("task instruction leaks evaluator fields")
     leaked_values = [
         str(event.get("value", ""))
         for event in target_events
-        if str(event.get("value", "")) and str(event.get("value", "")) in instruction
+        if str(event.get("value", ""))
+        and str(event.get("value", "")).casefold() in normalized_instruction
     ]
     if leaked_values:
         raise ValueError(f"task instruction leaks target values: {leaked_values}")

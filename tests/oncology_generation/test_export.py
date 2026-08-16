@@ -102,3 +102,15 @@ def test_export_requires_langgraph_materialized_cleaned_csv(tmp_path: Path):
 
     with pytest.raises(ValueError, match="materialized cleaned CSV"):
         export_task(state, tmp_path / "tasks", cleaned_root)
+
+
+def test_export_rejects_case_insensitive_target_value_leakage(tmp_path: Path):
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_path = cleaned_root / "case-1.csv"
+    cleaned_root.mkdir()
+    cleaned_path.write_text("case_id\ncase-1\n", encoding="utf-8")
+    state = _state(cleaned_path)
+    state["task_draft"]["instruction"] = "The likely stage is iiia."
+
+    with pytest.raises(ValueError, match="target values"):
+        export_task(state, tmp_path / "tasks", cleaned_root)
