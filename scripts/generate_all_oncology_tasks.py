@@ -13,6 +13,14 @@ from pipeline.oncology_generation.review_queue import ReviewItem, append_review_
 from scripts.generate_oncology_task import export_task
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
+PILOT_CASE_IDS = (
+    "71af50c891bd0e80cd017c8beb2bb446",
+    "15c35bb60e48e62f9beb9fd127248e03",
+    "7df4bd9af484dcec897b2f2726e01db2",
+    "01864b911256ca7332f7974165d7aeb8",
+    "aca554ac1716cf2fb7e2b94d80590e52",
+)
+
 
 @dataclass
 class BatchSummary:
@@ -23,18 +31,21 @@ class BatchSummary:
     errors: dict[str, str] = field(default_factory=dict)
 
 
-def generate_all_cases(data_root: Path, output_root: Path, max_workers: int = 1, client=None) -> BatchSummary:
+def generate_all_cases(
+    data_root: Path,
+    output_root: Path,
+    max_workers: int = 1,
+    client=None,
+    case_ids: list[str] | tuple[str, ...] | None = None,
+) -> BatchSummary:
     if max_workers != 1:
         raise ValueError("parallel generation is not enabled until sequential output is verified")
-    csv_dir = data_root / "raw" / "csv"
-    if not csv_dir.is_dir():
-        csv_dir = data_root
     summary = BatchSummary()
     review_path = data_root / "generated" / "review_queue.jsonl"
     llm = client or LLMClient(model_id="openai/gpt-5.5")
     allowed_tools = {name for _, name, _ in CATEGORY_TOOL_SPECS}
-    for csv_path in sorted(csv_dir.glob("*.csv")):
-        case_id = csv_path.stem
+    selected_case_ids = tuple(case_ids) if case_ids is not None else PILOT_CASE_IDS
+    for case_id in selected_case_ids:
         summary.processed += 1
         if (output_root / case_id).exists():
             summary.exported += 1
@@ -43,7 +54,7 @@ def generate_all_cases(data_root: Path, output_root: Path, max_workers: int = 1,
             state = run_generation(case_id, data_root, llm, allowed_tools)
             if state.get("validation_errors"):
                 raise ValueError("; ".join(state["validation_errors"]))
-            export_task(state, output_root)
+            export_task(state, output_root, data_root / "cleaned")
             summary.exported += 1
         except Exception as exc:
             summary.rejected += 1
@@ -57,8 +68,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-root", type=Path, default=Path("data/oncology_complete_trajectory"))
     parser.add_argument("--output-root", type=Path, default=Path("tasks/oncology-v1"))
+    parser.add_argument("--case-id", "--case-ids", nargs="+", dest="case_ids")
     args = parser.parse_args()
-    print(generate_all_cases(args.data_root, args.output_root).__dict__)
+    print(generate_all_cases(args.data_root, args.output_root, case_ids=args.case_ids).__dict__)
 
 
 if __name__ == "__main__":

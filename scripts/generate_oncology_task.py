@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 from typing import Any
 
@@ -13,28 +14,65 @@ from agent.llm_client import LLMClient
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
 
-def export_task(state: dict[str, Any], output_root: Path) -> Path:
+def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) -> Path:
     task_id = str(state.get("case_id", "")).strip()
     if not task_id or "/" in task_id or "\\" in task_id:
         raise ValueError("state must contain a safe case_id")
     task_dir = Path(output_root) / task_id
     if task_dir.exists():
         raise FileExistsError(f"approved task already exists: {task_dir}")
+
+    cleaned_root = Path(cleaned_root)
+    cleaned_path = Path(state.get("cleaned_path", ""))
+    expected_cleaned_path = cleaned_root / f"{task_id}.csv"
+    if not cleaned_path.is_file() or cleaned_path.resolve() != expected_cleaned_path.resolve():
+        raise ValueError(f"state must reference the materialized cleaned CSV: {expected_cleaned_path}")
+
+    target_group_id = str(state.get("target_group_id", "")).strip()
+    target_events = state.get("target_events", [])
+    if not target_group_id or not isinstance(target_events, list) or not target_events:
+        raise ValueError("state must contain a target group and its events")
+    if any(str(event.get("group_id", "")) != target_group_id for event in target_events):
+        raise ValueError("target events must all belong to target_group_id")
+    source_rows = [str(event.get("_source_row", "")).strip() for event in target_events]
+    if any(not source_row for source_row in source_rows):
+        raise ValueError("target events must retain source row references")
+    target_event_date = str(target_events[0].get("event_date", "")).strip()
+    if not target_event_date:
+        raise ValueError("target events must retain the target date")
+
     instruction = str(state.get("task_draft", {}).get("instruction", "")).strip()
     if not instruction:
         raise ValueError("task draft has no instruction")
     lowered = instruction.lower()
     if "ground_truth" in lowered or "pass_criteria" in lowered:
         raise ValueError("task instruction leaks evaluator fields")
+    leaked_values = [
+        str(event.get("value", ""))
+        for event in target_events
+        if str(event.get("value", "")) and str(event.get("value", "")) in instruction
+    ]
+    if leaked_values:
+        raise ValueError(f"task instruction leaks target values: {leaked_values}")
+
     task_dir.mkdir(parents=True)
     (task_dir / "instruction.md").write_text(instruction + "\n", encoding="utf-8")
     metadata = state.get("task_draft", {})
-    tags = json.dumps(metadata.get("tags", ["Oncology", "CSV trajectory"]), ensure_ascii=False)
-    (task_dir / "task.toml").write_text(f"[metadata]\ntags = {tags}\n", encoding="utf-8")
+    tags = json.dumps(metadata.get("tags", ["Oncology", "Diagnosis & Interpretation"]), ensure_ascii=False)
+    relative_data_root = Path(os.path.relpath(cleaned_root, start=task_dir)).as_posix()
+    task_toml = (
+        "[metadata]\n"
+        f"case_id = {json.dumps(task_id, ensure_ascii=False)}\n"
+        f"data_root = {json.dumps(relative_data_root, ensure_ascii=False)}\n"
+        f"tags = {tags}\n"
+    )
+    (task_dir / "task.toml").write_text(task_toml, encoding="utf-8")
     ground_truth = {
         "case_id": task_id,
-        "selected_segment": state.get("selected_segment", {}),
-        "checkpoints": state.get("checkpoint_drafts", []),
+        "target_group_id": target_group_id,
+        "target_event_date": target_event_date,
+        "source_rows": source_rows,
+        "target_events": target_events,
     }
     (task_dir / "ground_truth.json").write_text(json.dumps(ground_truth, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (task_dir / "tests").mkdir()
@@ -57,10 +95,10 @@ def test_documentation_output_exists():
     assert output, "Agent did not produce a deliverable in workspace/output"
 
 
-def test_checkpoint_evidence_is_present():
-    for checkpoint in GROUND_TRUTH["checkpoints"]:
-        assert checkpoint["kind"] in {"retrieval", "reasoning", "documentation"}
-        assert checkpoint["evidence_refs"]
+def test_ground_truth_retains_source_events():
+    assert GROUND_TRUTH["target_group_id"]
+    assert GROUND_TRUTH["target_events"]
+    assert GROUND_TRUTH["source_rows"]
 '''
 
 
@@ -76,7 +114,7 @@ def main() -> None:
     state = run_generation(args.case_id, args.data_root, client, allowed_tools)
     if state.get("validation_errors"):
         raise SystemExit("generation rejected: " + "; ".join(state["validation_errors"]))
-    print(export_task(state, args.output_root))
+    print(export_task(state, args.output_root, args.data_root / "cleaned"))
 
 
 if __name__ == "__main__":
