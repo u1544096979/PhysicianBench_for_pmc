@@ -39,9 +39,12 @@ def test_materialize_cleaned_case_removes_target_and_following_groups(tmp_path: 
 
     assert [event["group_id"] for event in result.target_events] == ["g2", "g2"]
     assert [event["_source_row"] for event in result.target_events] == ["3", "4"]
-    with cleaned.open(encoding="utf-8", newline="") as stream:
+    assert result.cleaned_csv != cleaned
+    assert result.cleaned_csv.parent == cleaned.parent
+    with result.cleaned_csv.open(encoding="utf-8", newline="") as stream:
         written = list(csv.DictReader(stream))
     assert [row["group_id"] for row in written] == ["g1"]
+    assert not cleaned.exists()
     assert source.read_bytes() == original
 
 

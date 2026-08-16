@@ -241,7 +241,6 @@ echo "============================================================"
 echo "Model:     $MODEL"
 echo "Temp:      ${TEMPERATURE:-api-default}"
 echo "Reasoning: ${REASONING_EFFORT:-disabled}"
-echo "Image:     $FHIR_IMAGE"
 if [ "$N_RUNS" -gt 1 ]; then
     echo "Runs:      $N_RUNS"
     echo "Tasks:     ${#tasks_to_run[@]} per run"

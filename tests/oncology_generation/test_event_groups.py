@@ -27,4 +27,3 @@ def test_build_event_groups_preserves_source_first_occurrence_and_all_rows():
     assert groups[0].first_source_row == 10
     assert groups[0].category == "诊断"
     assert groups[0].events == events[:2]
-

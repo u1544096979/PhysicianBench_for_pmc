@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from pathlib import Path
 from typing import Any
@@ -97,12 +98,35 @@ def materialize_cleaned_node(state: GenerationState, data_root: Path) -> dict[st
         state["target_group_id"],
         cleaned_root=cleaned_root,
     )
-    return {"target_events": result.target_events, "cleaned_path": result.cleaned_csv}
+    return {
+        "target_events": result.target_events,
+        "cleaned_path": result.cleaned_csv,
+        "final_cleaned_path": cleaned_root / f"{state['case_id']}.csv",
+    }
 
 
 def validate_node(state: GenerationState) -> dict[str, Any]:
-    errors = validate_state(state)
-    return {"validation_errors": errors, "review_status": "approved" if not errors else "needs_revision"}
+    staged_path = Path(state["cleaned_path"])
+    final_path = Path(state["final_cleaned_path"])
+    try:
+        errors = validate_state(state)
+        if final_path.exists():
+            errors.append(f"final cleaned file already exists: {final_path}")
+        if not errors:
+            try:
+                os.link(staged_path, final_path)
+            except FileExistsError:
+                errors.append(f"final cleaned file already exists: {final_path}")
+            else:
+                staged_path.unlink()
+                return {
+                    "cleaned_path": final_path,
+                    "validation_errors": [],
+                    "review_status": "approved",
+                }
+        return {"validation_errors": errors, "review_status": "needs_revision"}
+    finally:
+        staged_path.unlink(missing_ok=True)
 
 
 def persist_state(state: GenerationState, output_root: Path) -> None:

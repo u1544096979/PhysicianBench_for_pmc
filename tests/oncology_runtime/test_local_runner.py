@@ -2,6 +2,7 @@ import logging
 import csv
 import json
 import os
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -181,7 +182,11 @@ def test_cleaned_root_hides_raw_case_with_same_id(tmp_path):
     _write_case(tmp_path / "cleaned", "cleaned diagnosis")
 
     registry = ToolRegistry()
-    register_all_tools(registry, data_root=resolve_cleaned_data_root(tmp_path))
+    register_all_tools(
+        registry,
+        data_root=resolve_cleaned_data_root(tmp_path),
+        workspace_root=tmp_path / "workspace",
+    )
     result = registry.dispatch("csv_search_diagnosis_events", {"case_id": "case-1"})
 
     assert [event["value"] for event in result["events"]] == ["cleaned diagnosis"]
@@ -198,7 +203,11 @@ def test_cleaned_case_symlink_cannot_read_raw_case(tmp_path):
     (cleaned_root / "case-1.csv").symlink_to(raw_root / "case-1.csv")
 
     registry = ToolRegistry()
-    register_all_tools(registry, data_root=resolve_cleaned_data_root(tmp_path))
+    register_all_tools(
+        registry,
+        data_root=resolve_cleaned_data_root(tmp_path),
+        workspace_root=tmp_path / "workspace",
+    )
     result = registry.dispatch("csv_search_diagnosis_events", {"case_id": "case-1"})
 
     assert "outside oncology CSV data root" in result["error"]
@@ -240,7 +249,10 @@ def test_run_agent_uses_agent_eval_environment_and_cleaned_root(monkeypatch, tmp
     monkeypatch.setattr(
         tool_registry,
         "register_all_tools",
-        lambda registry, data_root: captured.setdefault("data_root", data_root),
+        lambda registry, data_root, workspace_root: captured.update(
+            data_root=data_root,
+            workspace_root=workspace_root,
+        ),
     )
 
     class FakeAgent:
@@ -268,6 +280,87 @@ def test_run_agent_uses_agent_eval_environment_and_cleaned_root(monkeypatch, tmp
         "base_url": "https://agent.example/v1",
     }
     assert captured["data_root"] == cleaned_root
+    assert captured["workspace_root"] == tmp_path / "job" / "workspace"
+
+
+def test_run_agent_removes_stale_stdout_before_failure(monkeypatch, tmp_path):
+    from agent import mini_agent
+    from scripts import run_task
+
+    task_dir = tmp_path / "task"
+    task_dir.mkdir()
+    (task_dir / "instruction.md").write_text("Inspect case-1", encoding="utf-8")
+    job_dir = tmp_path / "job"
+    stdout = job_dir / "logs" / "agent" / "stdout.txt"
+    stdout.parent.mkdir(parents=True)
+    stdout.write_text("stale successful answer", encoding="utf-8")
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_root.mkdir()
+
+    class FailingAgent:
+        def __init__(self, **kwargs):
+            pass
+
+        def run(self, instruction):
+            raise RuntimeError("current run failed")
+
+    monkeypatch.setattr(mini_agent, "MiniAgent", FailingAgent)
+    monkeypatch.setattr("agent.llm_client.LLMClient", lambda **kwargs: object())
+
+    assert not run_task.run_agent(
+        task_dir,
+        job_dir,
+        model="model",
+        max_steps=5,
+        temperature=None,
+        parallel_tool_calls=True,
+        reasoning_effort=None,
+        data_root=cleaned_root,
+    )
+    assert not stdout.exists()
+    assert "current run failed" in (stdout.parent / "stderr.txt").read_text()
+
+
+def test_main_does_not_evaluate_after_agent_failure(monkeypatch, tmp_path):
+    from scripts import job_manager, run_task
+
+    task_dir = tmp_path / "case-1"
+    task_dir.mkdir()
+    (task_dir / "instruction.md").write_text("Inspect case-1", encoding="utf-8")
+    data_root = tmp_path / "data"
+    cleaned_root = data_root / "cleaned"
+    _write_case(cleaned_root, "cleaned diagnosis")
+    _write_task_contract(task_dir, cleaned_root)
+    job_dir = tmp_path / "job"
+
+    monkeypatch.setattr(run_task, "run_agent", lambda *args, **kwargs: False)
+    monkeypatch.setattr(
+        run_task,
+        "run_evaluation",
+        lambda *args, **kwargs: pytest.fail("evaluation ran after agent failure"),
+    )
+    monkeypatch.setattr(job_manager, "write_metadata", lambda *args, **kwargs: None)
+
+    result = run_task.main(
+        [
+            str(task_dir),
+            "--data-root",
+            str(data_root),
+            "--job-dir",
+            str(job_dir),
+        ]
+    )
+
+    assert result == 1
+
+
+def test_csv_batch_shell_has_no_fhir_variable_and_parses():
+    script = Path(__file__).resolve().parents[2] / "scripts" / "run_batch_task.sh"
+
+    assert "FHIR_IMAGE" not in script.read_text(encoding="utf-8")
+    result = subprocess.run(["bash", "-n", str(script)], capture_output=True, text=True)
+
+    assert result.returncode == 0, result.stderr
 
 
 def test_local_main_never_invokes_subprocess_and_has_one_job_dir_option(

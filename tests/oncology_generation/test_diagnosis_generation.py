@@ -89,8 +89,27 @@ def test_graph_uses_fixed_diagnosis_generation_sequence(tmp_path):
 
 def test_graph_rejects_case_insensitive_target_value_leak(tmp_path):
     _write_case(tmp_path, target_value="IIIA")
+    final_cleaned = tmp_path / "cleaned" / "case-1.csv"
+    final_cleaned.parent.mkdir()
+    final_cleaned.write_text("existing cleaned data\n", encoding="utf-8")
 
     state = build_generation_graph(tmp_path, CaseInsensitiveLeakClient(), set()).invoke({"case_id": "case-1"})
 
     assert state["review_status"] == "needs_revision"
     assert any("instruction" in error and "value" in error for error in state["validation_errors"])
+    assert final_cleaned.read_text(encoding="utf-8") == "existing cleaned data\n"
+    assert not list(final_cleaned.parent.glob(".case-1.*.tmp"))
+
+
+def test_graph_does_not_overwrite_existing_cleaned_file_on_valid_rerun(tmp_path):
+    _write_case(tmp_path)
+    final_cleaned = tmp_path / "cleaned" / "case-1.csv"
+    final_cleaned.parent.mkdir()
+    final_cleaned.write_text("existing cleaned data\n", encoding="utf-8")
+
+    state = build_generation_graph(tmp_path, FakeClient(), set()).invoke({"case_id": "case-1"})
+
+    assert state["review_status"] == "needs_revision"
+    assert any("already exists" in error for error in state["validation_errors"])
+    assert final_cleaned.read_text(encoding="utf-8") == "existing cleaned data\n"
+    assert not list(final_cleaned.parent.glob(".case-1.*.tmp"))

@@ -164,9 +164,11 @@ def run_agent(
     agent_log_dir = job_dir / "logs" / "agent"
     agent_log_dir.mkdir(parents=True, exist_ok=True)
     trajectory_path = agent_log_dir / "trajectory.log"
+    for stale_name in ("stdout.txt", "stderr.txt", "trajectory.log"):
+        (agent_log_dir / stale_name).unlink(missing_ok=True)
 
     registry = ToolRegistry()
-    register_all_tools(registry, data_root=data_root)
+    register_all_tools(registry, data_root=data_root, workspace_root=workspace)
     model_env = load_model_env("AGENT_EVAL")
     model_id = model or model_env.model or DEFAULT_MODEL
     agent = MiniAgent(
@@ -307,20 +309,22 @@ def main(argv: list[str] | None = None) -> int:
     print()
 
     task_cost = None
+    agent_passed = True
     success = True
     print("[1/4] Using read-only cleaned oncology CSV data")
     print()
 
     if not args.skip_agent:
         usage_before = get_openrouter_usage()
-        if not run_agent(
+        agent_passed = run_agent(
             task_dir, job_dir, model_id, args.max_steps,
             temperature=args.temperature,
             parallel_tool_calls=not args.no_parallel_tools,
             reasoning_effort=args.reasoning_effort,
             data_root=cleaned_root,
-        ):
-            print("WARNING: Agent exited with error, continuing to eval...")
+        )
+        if not agent_passed:
+            print("ERROR: Agent exited with error; evaluation skipped")
         usage_after = get_openrouter_usage()
         if usage_before is not None and usage_after is not None:
             task_cost = round(usage_after - usage_before, 6)
@@ -328,7 +332,9 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print("[3/4] Skipping agent (--skip-agent)")
 
-    if not args.skip_eval:
+    if not agent_passed:
+        success = False
+    elif not args.skip_eval:
         success = run_evaluation(task_dir, job_dir)
     else:
         print("[4/4] Skipping evaluation (--skip-eval)")

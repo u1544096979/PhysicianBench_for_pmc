@@ -19,6 +19,7 @@ class GenerationState(TypedDict, total=False):
     target_events: list[dict[str, str]]
     task_draft: dict[str, Any]
     cleaned_path: Path
+    final_cleaned_path: Path
     validation_errors: list[str]
     review_status: str
 

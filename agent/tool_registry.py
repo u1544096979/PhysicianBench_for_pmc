@@ -424,11 +424,17 @@ FILE_TOOL_SCHEMAS = [
 ]
 
 
-def register_all_tools(registry: ToolRegistry, data_root=None):
+def register_all_tools(registry: ToolRegistry, data_root=None, workspace_root=None):
     """Register the 14 CSV category tools and the file tool."""
     from pathlib import Path
     from tools.csv_category_tools import register_category_tools
-    from tools.file_tools import write_file
+    from tools.file_tools import make_workspace_write_file
+    if workspace_root is None:
+        raise ValueError("workspace_root is required to register write_file safely")
     root = Path(data_root) if data_root else Path(__file__).resolve().parents[1] / "data" / "oncology_complete_trajectory"
     register_category_tools(registry, root)
-    registry.register("write_file", write_file, FILE_TOOL_SCHEMAS[0])
+    registry.register(
+        "write_file",
+        make_workspace_write_file(Path(workspace_root)),
+        FILE_TOOL_SCHEMAS[0],
+    )

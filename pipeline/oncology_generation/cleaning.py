@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import os
+import tempfile
 from pathlib import Path
 
 from .nodes import build_event_groups
@@ -57,13 +58,29 @@ def materialize_cleaned_case(
     target_events = groups[target_index].events
 
     cleaned_csv.parent.mkdir(parents=True, exist_ok=True)
-    with cleaned_csv.open("w", encoding="utf-8", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(retained_events)
+    temporary_file = tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf-8",
+        newline="",
+        dir=cleaned_csv.parent,
+        prefix=f".{cleaned_csv.stem}.",
+        suffix=".tmp",
+        delete=False,
+    )
+    staged_csv = Path(temporary_file.name)
+    try:
+        with temporary_file as stream:
+            writer = csv.DictWriter(stream, fieldnames=fieldnames, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(retained_events)
+            stream.flush()
+            os.fsync(stream.fileno())
+    except Exception:
+        staged_csv.unlink(missing_ok=True)
+        raise
 
     return CleaningResult(
-        cleaned_csv=cleaned_csv,
+        cleaned_csv=staged_csv,
         target_group_id=target_group_id,
         target_events=target_events,
     )
