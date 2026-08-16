@@ -4,13 +4,14 @@
 from __future__ import annotations
 
 import argparse
+import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
 from agent.llm_client import LLMClient
 from pipeline.oncology_generation.graph import run_generation
 from pipeline.oncology_generation.review_queue import ReviewItem, append_review_item
-from scripts.generate_oncology_task import export_task
+from scripts.generate_oncology_task import export_task, is_complete_task_dir
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
 PILOT_CASE_IDS = (
@@ -47,7 +48,7 @@ def generate_all_cases(
     selected_case_ids = tuple(case_ids) if case_ids is not None else PILOT_CASE_IDS
     for case_id in selected_case_ids:
         summary.processed += 1
-        if (output_root / case_id).exists():
+        if is_complete_task_dir(output_root / case_id, expected_case_id=case_id):
             summary.exported += 1
             continue
         try:
@@ -60,8 +61,19 @@ def generate_all_cases(
             summary.rejected += 1
             summary.review_queue += 1
             summary.errors[case_id] = str(exc)
-            append_review_item(review_path, ReviewItem(case_id, [str(exc)], str(data_root / "generated" / case_id)))
+            state_path = _persist_failure_state(data_root, case_id, exc)
+            append_review_item(review_path, ReviewItem(case_id, [str(exc)], str(state_path)))
     return summary
+
+
+def _persist_failure_state(data_root: Path, case_id: str, error: Exception) -> Path:
+    state_path = data_root / "generated" / case_id / "state.json"
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    state = {"case_id": case_id, "error": str(error), "review_status": "needs_revision"}
+    temporary_path = state_path.with_suffix(".json.tmp")
+    temporary_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary_path.replace(state_path)
+    return state_path
 
 
 def main() -> None:

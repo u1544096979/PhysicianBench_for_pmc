@@ -6,19 +6,22 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
+import tempfile
+import tomllib
 from pathlib import Path
 from typing import Any
 
 from pipeline.oncology_generation.graph import run_generation
+from pipeline.oncology_generation.leakage import find_leaked_target_values
 from agent.llm_client import LLMClient
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
 
 def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) -> Path:
     task_id = str(state.get("case_id", "")).strip()
-    if not task_id or "/" in task_id or "\\" in task_id:
-        raise ValueError("state must contain a safe case_id")
-    task_dir = Path(output_root) / task_id
+    output_root = Path(output_root)
+    task_dir = _task_dir(output_root, task_id)
     if task_dir.exists():
         raise FileExistsError(f"approved task already exists: {task_dir}")
 
@@ -47,27 +50,25 @@ def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) ->
     normalized_instruction = instruction.casefold()
     if "ground_truth" in normalized_instruction or "pass_criteria" in normalized_instruction:
         raise ValueError("task instruction leaks evaluator fields")
-    leaked_values = [
-        str(event.get("value", ""))
-        for event in target_events
-        if str(event.get("value", ""))
-        and str(event.get("value", "")).casefold() in normalized_instruction
-    ]
+    leaked_values = find_leaked_target_values(
+        instruction,
+        (event.get("value", "") for event in target_events if event.get("value", "")),
+    )
     if leaked_values:
         raise ValueError(f"task instruction leaks target values: {leaked_values}")
 
-    task_dir.mkdir(parents=True)
-    (task_dir / "instruction.md").write_text(instruction + "\n", encoding="utf-8")
     metadata = state.get("task_draft", {})
-    tags = json.dumps(metadata.get("tags", ["Oncology", "Diagnosis & Interpretation"]), ensure_ascii=False)
+    tags = metadata.get("tags", ["Oncology", "Diagnosis & Interpretation"])
+    if not isinstance(tags, list) or any(not isinstance(tag, str) for tag in tags):
+        raise ValueError("task tags must be a list of strings")
+
     relative_data_root = Path(os.path.relpath(cleaned_root, start=task_dir)).as_posix()
     task_toml = (
         "[metadata]\n"
         f"case_id = {json.dumps(task_id, ensure_ascii=False)}\n"
         f"data_root = {json.dumps(relative_data_root, ensure_ascii=False)}\n"
-        f"tags = {tags}\n"
+        f"tags = {json.dumps(tags, ensure_ascii=False)}\n"
     )
-    (task_dir / "task.toml").write_text(task_toml, encoding="utf-8")
     ground_truth = {
         "case_id": task_id,
         "target_group_id": target_group_id,
@@ -75,10 +76,81 @@ def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) ->
         "source_rows": source_rows,
         "target_events": target_events,
     }
-    (task_dir / "ground_truth.json").write_text(json.dumps(ground_truth, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    output_root.mkdir(parents=True, exist_ok=True)
+    staging_dir = Path(tempfile.mkdtemp(prefix=f".{task_id}.", dir=output_root))
+    try:
+        _write_task_files(staging_dir, instruction, task_toml, ground_truth)
+        if not is_complete_task_dir(staging_dir, expected_case_id=task_id):
+            raise ValueError("staged task does not satisfy the task contract")
+        staging_dir.rename(task_dir)
+    finally:
+        if staging_dir.exists():
+            shutil.rmtree(staging_dir)
+    return task_dir
+
+
+def _task_dir(output_root: Path, task_id: str) -> Path:
+    if not task_id or task_id in {".", ".."} or "/" in task_id or "\\" in task_id:
+        raise ValueError("state must contain a safe case_id")
+    if Path(task_id).is_absolute() or Path(task_id).name != task_id:
+        raise ValueError("state must contain a safe case_id")
+    task_dir = output_root / task_id
+    try:
+        task_dir.resolve().relative_to(output_root.resolve())
+    except ValueError as exc:
+        raise ValueError("state must contain a safe case_id") from exc
+    return task_dir
+
+
+def _write_task_files(task_dir: Path, instruction: str, task_toml: str, ground_truth: dict[str, Any]) -> None:
+    (task_dir / "instruction.md").write_text(instruction + "\n", encoding="utf-8")
+    (task_dir / "task.toml").write_text(task_toml, encoding="utf-8")
+    (task_dir / "ground_truth.json").write_text(
+        json.dumps(ground_truth, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     (task_dir / "tests").mkdir()
     (task_dir / "tests/test_outputs.py").write_text(_test_source(), encoding="utf-8")
-    return task_dir
+
+
+def is_complete_task_dir(task_dir: Path, expected_case_id: str | None = None) -> bool:
+    task_dir = Path(task_dir)
+    if not task_dir.is_dir():
+        return False
+    if {path.name for path in task_dir.iterdir()} != {"instruction.md", "task.toml", "ground_truth.json", "tests"}:
+        return False
+    tests_dir = task_dir / "tests"
+    if not tests_dir.is_dir() or {path.name for path in tests_dir.iterdir()} != {"test_outputs.py"}:
+        return False
+    try:
+        instruction = (task_dir / "instruction.md").read_text(encoding="utf-8").strip()
+        metadata = tomllib.loads((task_dir / "task.toml").read_text(encoding="utf-8"))["metadata"]
+        ground_truth = json.loads((task_dir / "ground_truth.json").read_text(encoding="utf-8"))
+    except (OSError, KeyError, TypeError, ValueError, tomllib.TOMLDecodeError, json.JSONDecodeError):
+        return False
+    case_id = expected_case_id or task_dir.name
+    tags = metadata.get("tags") if isinstance(metadata, dict) else None
+    data_root = metadata.get("data_root") if isinstance(metadata, dict) else None
+    return bool(
+        instruction
+        and isinstance(metadata, dict)
+        and metadata.get("case_id") == case_id
+        and isinstance(data_root, str)
+        and data_root
+        and not Path(data_root).is_absolute()
+        and isinstance(tags, list)
+        and all(isinstance(tag, str) for tag in tags)
+        and isinstance(ground_truth, dict)
+        and ground_truth.get("case_id") == case_id
+        and ground_truth.get("target_group_id")
+        and ground_truth.get("target_event_date")
+        and isinstance(ground_truth.get("source_rows"), list)
+        and ground_truth["source_rows"]
+        and isinstance(ground_truth.get("target_events"), list)
+        and ground_truth["target_events"]
+        and (tests_dir / "test_outputs.py").is_file()
+    )
 
 
 def _test_source() -> str:

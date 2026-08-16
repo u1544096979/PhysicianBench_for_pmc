@@ -4,6 +4,7 @@ from pathlib import Path
 
 import pytest
 
+from pipeline.oncology_generation.leakage import diagnostic_fragments
 from pipeline.oncology_generation.schemas import EventGroup, validate_state
 
 
@@ -16,8 +17,12 @@ def _event(row: str, group_id: str, feature_name: str, value: str, category: str
     }
 
 
-def _state(tmp_path: Path, instruction: str = "请判断患者的诊断并说明依据。"):
-    target_events = [_event("3", "g2", "病理诊断", "肺腺癌")]
+def _state(
+    tmp_path: Path,
+    instruction: str = "请判断患者的诊断并说明依据。",
+    target_value: str = "肺腺癌",
+):
+    target_events = [_event("3", "g2", "病理诊断", target_value)]
     cleaned = tmp_path / "cleaned" / "case.csv"
     cleaned.parent.mkdir()
     with cleaned.open("w", encoding="utf-8", newline="") as stream:
@@ -74,6 +79,35 @@ def test_validation_rejects_case_insensitive_answer_leak(tmp_path):
     errors = validate_state(state)
 
     assert any("instruction" in error and "value" in error for error in errors)
+
+
+def test_validation_rejects_diagnostic_fragment_leak(tmp_path):
+    state = _state(
+        tmp_path,
+        instruction="请根据现有资料判断是否为肺腺癌。",
+        target_value="病理提示肺腺癌，结合临床",
+    )
+
+    errors = validate_state(state)
+
+    assert any("instruction" in error and "value" in error for error in errors)
+
+
+def test_validation_ignores_non_diagnostic_short_fragments(tmp_path):
+    state = _state(
+        tmp_path,
+        instruction="请考虑癌症可能并给出下一步建议。",
+        target_value="考虑，癌",
+    )
+
+    assert validate_state(state) == []
+
+
+def test_diagnostic_fragment_minimum_rules():
+    assert diagnostic_fragments("病理提示肺腺癌，结合临床") == ("肺腺癌",)
+    assert diagnostic_fragments("病理提示：肺腺癌（结合临床）") == ("肺腺癌",)
+    assert diagnostic_fragments("IIIA") == ("iiia",)
+    assert diagnostic_fragments("癌，abc，结合临床") == ()
 
 
 def test_validation_rejects_output_outside_cleaned_directory(tmp_path):

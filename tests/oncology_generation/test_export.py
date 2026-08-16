@@ -4,7 +4,9 @@ from pathlib import Path
 
 import pytest
 
-from scripts.generate_oncology_task import export_task
+from scripts import generate_oncology_task as export_module
+
+export_task = export_module.export_task
 
 
 def _state(cleaned_path: Path):
@@ -51,6 +53,7 @@ def test_export_writes_task_contract(tmp_path: Path):
     assert {p.name for p in task_dir.iterdir()} == {"instruction.md", "task.toml", "ground_truth.json", "tests"}
     assert (task_dir / "tests/test_outputs.py").is_file()
     assert not (task_dir / "case-1.csv").exists()
+    assert not list(output_root.glob(".case-1.*"))
     assert cleaned_path.is_file()
 
     ground_truth = json.loads((task_dir / "ground_truth.json").read_text())
@@ -114,3 +117,75 @@ def test_export_rejects_case_insensitive_target_value_leakage(tmp_path: Path):
 
     with pytest.raises(ValueError, match="target values"):
         export_task(state, tmp_path / "tasks", cleaned_root)
+
+
+def test_export_rejects_diagnostic_fragment_leakage(tmp_path: Path):
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_path = cleaned_root / "case-1.csv"
+    cleaned_root.mkdir()
+    cleaned_path.write_text("case_id\ncase-1\n", encoding="utf-8")
+    state = _state(cleaned_path)
+    state["target_events"][0]["value"] = "病理提示肺腺癌，结合临床"
+    state["task_draft"]["instruction"] = "请判断是否为肺腺癌。"
+
+    with pytest.raises(ValueError, match="target values"):
+        export_task(state, tmp_path / "tasks", cleaned_root)
+
+
+def test_export_cleans_staging_directory_when_write_fails(tmp_path: Path, monkeypatch):
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_path = cleaned_root / "case-1.csv"
+    cleaned_root.mkdir()
+    cleaned_path.write_text("case_id\ncase-1\n", encoding="utf-8")
+    output_root = tmp_path / "tasks"
+    original_write_text = Path.write_text
+
+    def fail_ground_truth(path, *args, **kwargs):
+        if path.name == "ground_truth.json":
+            raise OSError("simulated write failure")
+        return original_write_text(path, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "write_text", fail_ground_truth)
+
+    with pytest.raises(OSError, match="simulated write failure"):
+        export_task(_state(cleaned_path), output_root, cleaned_root)
+
+    assert not (output_root / "case-1").exists()
+    assert not list(output_root.glob(".case-1.*"))
+
+
+@pytest.mark.parametrize("tags", [None, "Oncology", ["Oncology", 1], {"Oncology"}])
+def test_export_rejects_tags_that_are_not_list_of_strings(tmp_path: Path, tags):
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_path = cleaned_root / "case-1.csv"
+    cleaned_root.mkdir()
+    cleaned_path.write_text("case_id\ncase-1\n", encoding="utf-8")
+    state = _state(cleaned_path)
+    state["task_draft"]["tags"] = tags
+
+    with pytest.raises(ValueError, match="tags"):
+        export_task(state, tmp_path / "tasks", cleaned_root)
+
+
+@pytest.mark.parametrize("case_id", [".", "..", "../escape", "nested/case", "nested\\case", "/absolute"])
+def test_export_rejects_unsafe_case_id_boundaries(tmp_path: Path, case_id: str):
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_root.mkdir()
+    state = _state(cleaned_root / "case-1.csv")
+    state["case_id"] = case_id
+
+    with pytest.raises(ValueError, match="safe case_id"):
+        export_task(state, tmp_path / "tasks", cleaned_root)
+
+
+def test_export_rejects_case_id_symlink_that_escapes_output_root(tmp_path: Path):
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_path = cleaned_root / "case-1.csv"
+    cleaned_root.mkdir()
+    cleaned_path.write_text("case_id\ncase-1\n", encoding="utf-8")
+    output_root = tmp_path / "tasks"
+    output_root.mkdir()
+    (output_root / "case-1").symlink_to(tmp_path / "outside", target_is_directory=True)
+
+    with pytest.raises(ValueError, match="safe case_id"):
+        export_task(_state(cleaned_path), output_root, cleaned_root)
