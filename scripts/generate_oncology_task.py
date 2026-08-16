@@ -168,6 +168,8 @@ def test_ground_truth_retains_source_events():
     assert GROUND_TRUTH["target_group_id"]
     assert GROUND_TRUTH["target_events"]
     assert GROUND_TRUTH["source_rows"]
+    assert all(event["feature_name"] for event in GROUND_TRUTH["target_events"])
+    assert all(event["value"] for event in GROUND_TRUTH["target_events"])
 '''
 
 

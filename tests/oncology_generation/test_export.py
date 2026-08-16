@@ -73,6 +73,9 @@ def test_export_writes_task_contract(tmp_path: Path):
     assert metadata["tags"] == ["Oncology", "Diagnosis & Interpretation"]
     assert "pass_criteria" not in (task_dir / "instruction.md").read_text()
     assert "肺腺癌" not in (task_dir / "instruction.md").read_text()
+    test_source = (task_dir / "tests/test_outputs.py").read_text(encoding="utf-8")
+    assert 'event["feature_name"]' in test_source
+    assert 'event["value"]' in test_source
 
 
 def test_export_refuses_overwrite_and_leakage(tmp_path: Path):
