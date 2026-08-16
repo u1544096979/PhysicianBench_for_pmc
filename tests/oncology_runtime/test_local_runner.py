@@ -1,5 +1,7 @@
 import logging
 import csv
+import json
+import os
 from pathlib import Path
 
 import pytest
@@ -161,6 +163,16 @@ def _write_case(root: Path, value: str) -> None:
         writer.writerow(row)
 
 
+def _write_task_contract(task_dir: Path, cleaned_root: Path, case_id: str = "case-1") -> None:
+    relative_data_root = Path(os.path.relpath(cleaned_root, start=task_dir)).as_posix()
+    (task_dir / "task.toml").write_text(
+        "[metadata]\n"
+        f"case_id = {json.dumps(case_id)}\n"
+        f"data_root = {json.dumps(relative_data_root)}\n",
+        encoding="utf-8",
+    )
+
+
 def test_cleaned_root_hides_raw_case_with_same_id(tmp_path):
     from agent.tool_registry import ToolRegistry, register_all_tools
     from scripts.run_task import resolve_cleaned_data_root
@@ -263,11 +275,13 @@ def test_local_main_never_invokes_subprocess_and_has_one_job_dir_option(
 ):
     from scripts import job_manager, run_task
 
-    task_dir = tmp_path / "task"
+    task_dir = tmp_path / "case-1"
     task_dir.mkdir()
     (task_dir / "instruction.md").write_text("Inspect case-1", encoding="utf-8")
     data_root = tmp_path / "data"
-    (data_root / "cleaned").mkdir(parents=True)
+    cleaned_root = data_root / "cleaned"
+    _write_case(cleaned_root, "cleaned diagnosis")
+    _write_task_contract(task_dir, cleaned_root)
 
     monkeypatch.setattr(
         run_task.subprocess,
@@ -289,3 +303,71 @@ def test_local_main_never_invokes_subprocess_and_has_one_job_dir_option(
             "--skip-eval",
         ]
     ) == 0
+
+
+def test_local_cli_help_is_csv_only():
+    from scripts import run_task
+
+    help_text = run_task.build_parser().format_help()
+
+    assert "CSV-only oncology task runner" in help_text
+    assert "tasks/oncology-v1/<case_id>" in help_text
+    assert "FHIR" not in help_text
+    assert "Docker" not in help_text
+
+
+def test_local_main_rejects_task_without_oncology_case_id(capsys, tmp_path):
+    from scripts import run_task
+
+    task_dir = tmp_path / "task-without-case-id"
+    task_dir.mkdir()
+    (task_dir / "instruction.md").write_text("Inspect the case", encoding="utf-8")
+    (task_dir / "task.toml").write_text("[metadata]\ntags = [\"Oncology\"]\n", encoding="utf-8")
+    data_root = tmp_path / "data"
+    (data_root / "cleaned").mkdir(parents=True)
+    job_dir = tmp_path / "job"
+
+    result = run_task.main(
+        [
+            str(task_dir),
+            "--data-root",
+            str(data_root),
+            "--job-dir",
+            str(job_dir),
+            "--skip-agent",
+            "--skip-eval",
+        ]
+    )
+
+    assert result == 1
+    assert "Oncology task metadata.case_id is required" in capsys.readouterr().out
+    assert not job_dir.exists()
+
+
+def test_local_main_rejects_task_without_cleaned_case_csv(capsys, tmp_path):
+    from scripts import run_task
+
+    task_dir = tmp_path / "case-1"
+    task_dir.mkdir()
+    (task_dir / "instruction.md").write_text("Inspect case-1", encoding="utf-8")
+    data_root = tmp_path / "data"
+    cleaned_root = data_root / "cleaned"
+    cleaned_root.mkdir(parents=True)
+    _write_task_contract(task_dir, cleaned_root)
+    job_dir = tmp_path / "job"
+
+    result = run_task.main(
+        [
+            str(task_dir),
+            "--data-root",
+            str(data_root),
+            "--job-dir",
+            str(job_dir),
+            "--skip-agent",
+            "--skip-eval",
+        ]
+    )
+
+    assert result == 1
+    assert "Cleaned oncology CSV missing for case_id 'case-1'" in capsys.readouterr().out
+    assert not job_dir.exists()

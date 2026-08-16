@@ -5,20 +5,20 @@
 # logs, eval output, metadata) land in jobs/<batch>/<task>/.
 #
 # Usage:
-#   bash scripts/run_batch_task.sh                                    # all tasks in tasks/v1/
-#   bash scripts/run_batch_task.sh aortic_aneurysm_cad postmenopausal_bleeding   # specific tasks
+#   bash scripts/run_batch_task.sh                                    # all tasks in tasks/oncology-v1/
+#   bash scripts/run_batch_task.sh <case_id> [<case_id> ...]           # specific tasks
 #   bash scripts/run_batch_task.sh --model openai/gpt-5.5
 #   bash scripts/run_batch_task.sh --model anthropic/claude-opus-4.7 --n_runs 3
 #   bash scripts/run_batch_task.sh --max-tasks 10
 #   bash scripts/run_batch_task.sh --resume jobs/2026-04-29__03-57-03__openai_gpt-5.5__high__t0
-#   bash scripts/run_batch_task.sh --task-dir tasks/v1
+#   bash scripts/run_batch_task.sh --task-dir tasks/oncology-v1
 #   bash scripts/run_batch_task.sh --data-root data/oncology_complete_trajectory
 
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-TASK_DIR="$REPO_ROOT/tasks/v1"
+TASK_DIR="$REPO_ROOT/tasks/oncology-v1"
 
 # ---------------------------------------------------------------------------
 # Defaults

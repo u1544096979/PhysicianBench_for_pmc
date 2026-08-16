@@ -214,7 +214,7 @@ Expected: FAIL because the stage-specific environment loader does not exist.
 
 - [ ] **Step 5: Remove FHIR lifecycle from the CSV runner path.**
 
-在 `scripts/run_task.py` 增加本地 CSV 模式：默认把 `data_root / "cleaned"` 作为工具根目录，调用现有 `register_all_tools(registry, data_root=...)`，不执行 Docker、端口映射或 FHIR readiness 检查。保留现有 FHIR 参数仅作为明确兼容分支，CSV 任务不能进入该分支。
+将 `scripts/run_task.py` 改为本副本专用的本地 CSV runner：默认把 `data_root / "cleaned"` 作为工具根目录，调用现有 `register_all_tools(registry, data_root=...)`，不包含 Docker、端口映射、FHIR readiness 检查或 FHIR 参数兼容分支。上游 `tasks/v1` FHIR 工作流不在本副本支持范围内。
 
 - [ ] **Step 6: Add runtime isolation tests.**
 

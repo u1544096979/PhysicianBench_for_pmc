@@ -9,7 +9,7 @@
 
 ## Overview
 
-PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. It comprises 100 long-horizon tasks (670 sub-checkpoints) adapted from real primary-care/specialty consultations across 21 specialties, executed in an EHR environment with real patient records accessed via standard FHIR APIs. Solving each task requires retrieving data across encounters, reasoning over heterogeneous clinical information, executing consequential clinical actions, and producing clinical documentation. 
+PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. The upstream benchmark contains 100 long-horizon FHIR tasks. This repository copy implements the oncology diagnosis-generation workflow as local, read-only CSV tasks backed exclusively by `data/oncology_complete_trajectory/cleaned/`; it does not include the Docker/FHIR compatibility layer required by upstream `tasks/v1`.
 
 ## Main Results
 
@@ -39,52 +39,57 @@ Then install project dependencies:
 uv sync
 ```
 
-### 2. Load the EHR Docker image
+### 2. Prepare oncology CSV data
 
-The benchmark runs against a FHIR server pre-loaded with patient records, distributed as a Docker image archive on Stanford Redivis:
+Local task execution requires a generated task and its matching cleaned case:
 
-> 📦 **EHR Docker image:** [stanford.redivis.com/datasets/a0ek-0ad8tjsw9](https://stanford.redivis.com/datasets/a0ek-0ad8tjsw9)
-
-After downloading `physicianbench-fhir-v1.tar.gz`, load it into Docker:
-
-```bash
-gunzip -c physicianbench-fhir-v1.tar.gz | docker load
+```text
+tasks/oncology-v1/<case_id>/task.toml
+data/oncology_complete_trajectory/cleaned/<case_id>.csv
 ```
 
-`run_task.py` and `run_batch_task.sh` will spin up a fresh container from this image per task and tear it down afterward, so no manual server management is required.
+The runner never reads `raw/csv` and rejects cleaned files that resolve outside the cleaned directory. See [the oncology data guide](data/oncology_complete_trajectory/README.md) for raw data setup and task generation.
 
-### 3. Configure model API keys
+### 3. Configure the two model environments
 
-Create a `.env` file in the repo root with one of the supported backends — set whichever key matches the provider you want to use:
+Copy `.env.example` to `.env` and set separate generation and evaluation credentials:
 
 ```bash
-# Pick one (priority: OpenRouter > Anthropic > OpenAI)
-OPENROUTER_API_KEY=sk-or-...
-ANTHROPIC_API_KEY=sk-ant-...
-OPENAI_API_KEY=sk-...
+GENERATION_MODEL=your-generation-model
+GENERATION_API_KEY=your-generation-api-key
+GENERATION_BASE_URL=https://your-generation-provider.example/v1
+
+AGENT_EVAL_MODEL=your-agent-eval-model
+AGENT_EVAL_API_KEY=your-agent-eval-api-key
+AGENT_EVAL_BASE_URL=https://your-agent-eval-provider.example/v1
 ```
 
-Models are passed via `--model`. Use OpenRouter-style IDs when going through OpenRouter (e.g., `openai/gpt-5.5`, `anthropic/claude-opus-4.7`), or native model IDs for the Anthropic / OpenAI APIs (e.g., `claude-opus-4-7`, `gpt-5.5`).
+`--model` overrides `AGENT_EVAL_MODEL` for a local run. If stage-specific credentials are unset, the existing OpenRouter, Anthropic, or OpenAI backend environment variables remain available as fallback.
 
 ## Quick Start
 
 ### Run a single task
 
 ```bash
-uv run python scripts/run_task.py tasks/v1/aortic_aneurysm_cad \
-    --model openai/gpt-5.5 --reasoning-effort high
+uv run python scripts/run_task.py tasks/oncology-v1/<case_id> \
+    --data-root data/oncology_complete_trajectory \
+    --reasoning-effort high
 ```
 
 This will:
-1. Start a fresh FHIR container.
-2. Run the agent against the task instruction.
-3. Run the pytest verifier for the task's checkpoints.
-4. Tear down the container and write all artifacts (trajectory, workspace, eval logs, metadata) to `jobs/<batch>/<task>/`.
+1. Validate `task.toml` contains an oncology `case_id` and cleaned-data contract.
+2. Open only `cleaned/<case_id>.csv` through the read-only CSV tools.
+3. Run the agent and pytest verifier.
+4. Write trajectory, workspace, verifier logs, and metadata to `jobs/<batch>/<task>/`.
 
-### Run the full benchmark
+The legacy `tasks/v1` commands, `--fhir-image`, and `--port` are intentionally unsupported in this copy. Use an upstream FHIR-enabled checkout for those tasks.
+
+### Run all generated oncology tasks
 
 ```bash
-bash scripts/run_batch_task.sh --model openai/gpt-5.5 --reasoning-effort high
+bash scripts/run_batch_task.sh \
+    --data-root data/oncology_complete_trajectory \
+    --reasoning-effort high
 ```
 
 Available parameters:
@@ -98,16 +103,15 @@ Available parameters:
 | `--max-tasks` | `0` (all) | Cap the number of tasks to run, useful for smoke tests. |
 | `--max-steps` | `100` | Max LLM ↔ tool steps per task before the agent is force-stopped. |
 | `--resume` | — | Path to an existing batch job dir; skips already-completed tasks and continues. |
-| `--task-dir` | `tasks/v1` | Root directory of task folders. |
-| `--fhir-image` | `fhir-full:v1` | Docker image tag of the pre-loaded FHIR server. |
-| `--port` | `18080` | Host port to map the FHIR container to. |
-| *(positional args)* | — | Specific task names to run (e.g., `aortic_aneurysm_cad chronic_cough_geriatric`). If omitted, all tasks under `--task-dir` are run. |
+| `--task-dir` | `tasks/oncology-v1` | Root directory of generated oncology task folders. |
+| `--data-root` | `data/oncology_complete_trajectory` | Dataset root containing `cleaned/<case_id>.csv`. |
+| *(positional args)* | — | Specific oncology `case_id` task directories. If omitted, all tasks under `--task-dir` are run. |
 
 Examples:
 
 ```bash
-# Specific tasks only
-bash scripts/run_batch_task.sh aortic_aneurysm_cad chronic_cough_geriatric
+# Specific cases only
+bash scripts/run_batch_task.sh <case_id> [<case_id> ...]
 
 # Multiple runs per task (for pass@k)
 bash scripts/run_batch_task.sh --model anthropic/claude-opus-4.7 --n_runs 3

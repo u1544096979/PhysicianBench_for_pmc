@@ -15,10 +15,10 @@ Flow:
   4. Write metadata.json into job_dir
 
 Usage:
-    python scripts/run_task.py tasks/v1/aortic_aneurysm_cad \\
+    python scripts/run_task.py tasks/oncology-v1/<case_id> \\
         --model openai/gpt-5.5 --reasoning-effort high
 
-    python scripts/run_task.py tasks/v1/aortic_aneurysm_cad \\
+    python scripts/run_task.py tasks/oncology-v1/<case_id> \\
         --skip-agent     # eval only (re-grade an existing job dir)
 
     python scripts/run_task.py tasks/oncology-v1/<case_id> \\
@@ -30,6 +30,7 @@ import json
 import os
 import subprocess
 import sys
+import tomllib
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -98,6 +99,43 @@ def resolve_cleaned_data_root(data_root: Path) -> Path:
     if not cleaned_root.is_dir():
         raise FileNotFoundError(f"Cleaned oncology CSV directory not found: {cleaned_root}")
     return cleaned_root
+
+
+def validate_oncology_task_contract(task_dir: Path, cleaned_root: Path) -> str:
+    """Validate that a task explicitly targets one cleaned oncology case."""
+    task_toml = task_dir / "task.toml"
+    if not task_toml.is_file():
+        raise ValueError(f"Oncology task contract missing: {task_toml}")
+    try:
+        metadata = tomllib.loads(task_toml.read_text(encoding="utf-8"))["metadata"]
+    except (OSError, KeyError, TypeError, tomllib.TOMLDecodeError) as exc:
+        raise ValueError(f"Invalid oncology task contract: {task_toml}") from exc
+
+    case_id = metadata.get("case_id") if isinstance(metadata, dict) else None
+    if not isinstance(case_id, str) or not case_id.strip():
+        raise ValueError("Oncology task metadata.case_id is required")
+    if case_id != case_id.strip() or Path(case_id).name != case_id or Path(case_id).suffix:
+        raise ValueError(f"Invalid oncology task case_id: {case_id!r}")
+    if task_dir.name != case_id:
+        raise ValueError(
+            f"Oncology task directory name must match metadata.case_id: {case_id!r}"
+        )
+
+    configured_data_root = metadata.get("data_root")
+    if not isinstance(configured_data_root, str) or not configured_data_root:
+        raise ValueError("Oncology task metadata.data_root is required")
+    if Path(configured_data_root).is_absolute():
+        raise ValueError("Oncology task metadata.data_root must be relative")
+    if (task_dir / configured_data_root).resolve() != cleaned_root.resolve():
+        raise ValueError("Oncology task metadata.data_root must resolve to the cleaned data root")
+
+    from data.oncology_complete_trajectory.index.build_index import load_case_csv
+
+    try:
+        load_case_csv(case_id, cleaned_root)
+    except KeyError as exc:
+        raise ValueError(f"Cleaned oncology CSV missing for case_id {case_id!r}") from exc
+    return case_id
 
 
 def run_agent(
@@ -199,10 +237,10 @@ def run_evaluation(task_dir: Path, job_dir: Path) -> bool:
 # ---------------------------------------------------------------------------
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Run a single PhysicianBench task end-to-end")
+    parser = argparse.ArgumentParser(description="CSV-only oncology task runner")
     parser.add_argument(
         "task_folder",
-        help="Path to task folder, e.g. tasks/v1/aortic_aneurysm_cad",
+        help="Path to task folder, e.g. tasks/oncology-v1/<case_id>",
     )
     parser.add_argument("--model", "-m",
                         help="Model ID (OpenRouter format)")
@@ -238,6 +276,7 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         cleaned_root = resolve_cleaned_data_root(args.data_root)
+        case_id = validate_oncology_task_contract(task_dir, cleaned_root)
     except (FileNotFoundError, ValueError) as exc:
         print(f"ERROR: {exc}")
         return 1
@@ -261,6 +300,7 @@ def main(argv: list[str] | None = None) -> int:
         )
 
     print(f"Task:    {task_dir.name}")
+    print(f"Case:    {case_id}")
     print(f"Job:     {job_dir}")
     print(f"CSV:     {cleaned_root}")
     print(f"Model:   {model_id}")
