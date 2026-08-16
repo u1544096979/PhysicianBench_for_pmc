@@ -9,13 +9,9 @@ from scripts.generate_oncology_task import export_task
 def _state():
     return {
         "case_id": "case-1",
-        "selected_segment": {"group_id": "g1"},
+        "target_group_id": "g1",
+        "target_events": [],
         "task_draft": {"instruction": "Review the patient's oncology trajectory and write a concise assessment."},
-        "checkpoint_drafts": [{
-            "kind": "retrieval", "objective": "Find diagnosis", "tool_names": ["csv_search_diagnosis_events"],
-            "evidence_refs": [{"row": 2, "category": "诊断", "feature_name": "诊断名称", "value": "淋巴瘤"}],
-            "verification": "trajectory", "pass_criteria": "diagnosis retrieved",
-        }],
     }
 
 

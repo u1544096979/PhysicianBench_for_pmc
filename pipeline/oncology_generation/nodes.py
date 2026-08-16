@@ -20,7 +20,7 @@ def load_case(data_root: Path, case_id: str) -> dict[str, Any]:
 
 def build_timeline(state: GenerationState) -> dict[str, Any]:
     events = sorted(state.get("raw_events", []), key=_source_row)
-    return {"raw_events": events, "candidate_segments": [group.events for group in build_event_groups(events)]}
+    return {"raw_events": events, "event_groups": build_event_groups(events)}
 
 
 def _source_row(event: dict[str, str]) -> int:
@@ -59,24 +59,32 @@ def parse_model_json(client, prompt: str) -> dict[str, Any]:
         raise ValueError(f"model returned invalid JSON: {exc}") from exc
 
 
-def select_anchor(state: GenerationState, client) -> dict[str, Any]:
-    compact = json.dumps(state.get("candidate_segments", [])[:20], ensure_ascii=False)
-    return {"selected_segment": parse_model_json(client, f"Select one real clinical event segment as task anchor. Return JSON with group_id, rationale, evidence_refs. Data: {compact}")}
+def select_target_group(state: GenerationState, client) -> dict[str, Any]:
+    context = json.dumps({"case_id": state.get("case_id"), "events": state.get("raw_events", [])}, ensure_ascii=False)
+    prompt = (
+        "从完整病例中选择一个真实诊断性事件组。目标可以来自任意 category，但必须有明确的 feature_name/value 诊断信息。"
+        "不得泄漏目标组的 value；instruction 只能描述任务，不得写出答案。"
+        "只返回 JSON：target_group_id、selection_rationale、role、instruction、deliverable。"
+        f"完整病例：{context}"
+    )
+    result = parse_model_json(client, prompt)
+    target_id = str(result.get("target_group_id", ""))
+    target_group = next((group for group in state.get("event_groups", []) if group.group_id == target_id), None)
+    if target_group is None:
+        raise ValueError(f"model selected unknown target group: {target_id}")
+    draft = {key: result[key] for key in ("selection_rationale", "role", "instruction", "deliverable") if key in result}
+    return {"target_group_id": target_id, "target_events": target_group.events, "task_draft": draft}
 
 
-def draft_task(state: GenerationState, client) -> dict[str, Any]:
-    segment = json.dumps(state.get("selected_segment", {}), ensure_ascii=False)
-    return {"task_draft": parse_model_json(client, f"Draft a clinical Agent task from this evidence. Do not reveal evaluator criteria or answers. Return JSON with title, instruction, deliverable. Evidence: {segment}")}
+def materialize_cleaned_node(state: GenerationState, data_root: Path) -> dict[str, Any]:
+    from .cleaning import materialize_cleaned_case
+
+    result = materialize_cleaned_case(data_root / "raw" / "csv" / f"{state['case_id']}.csv", data_root / "cleaned" / f"{state['case_id']}.csv", state["target_group_id"])
+    return {"target_events": result.target_events, "cleaned_path": result.cleaned_csv}
 
 
-def draft_checkpoints(state: GenerationState, client) -> dict[str, Any]:
-    context = json.dumps({"task": state.get("task_draft", {}), "events": state.get("raw_events", [])}, ensure_ascii=False)
-    result = parse_model_json(client, f"Generate 3-6 retrieval/reasoning/documentation checkpoints. Each must cite raw event refs and tools. Return JSON {{\"checkpoints\": [...]}}. Context: {context}")
-    return {"checkpoint_drafts": result.get("checkpoints", [])}
-
-
-def validate_node(state: GenerationState, allowed_tools: set[str]) -> dict[str, Any]:
-    errors = validate_state(state, allowed_tools)
+def validate_node(state: GenerationState) -> dict[str, Any]:
+    errors = validate_state(state)
     return {"validation_errors": errors, "review_status": "approved" if not errors else "needs_revision"}
 
 
