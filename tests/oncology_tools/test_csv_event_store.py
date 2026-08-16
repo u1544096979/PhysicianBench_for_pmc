@@ -46,3 +46,16 @@ def test_query_validates_inputs_and_missing_case(tmp_path: Path):
         store.query(EventQuery("case-1", limit=0))
     with pytest.raises(KeyError):
         store.query(EventQuery("missing"))
+
+
+def test_query_rejects_case_symlink_outside_data_root(tmp_path: Path):
+    raw_root = tmp_path / "raw" / "csv"
+    cleaned_root = tmp_path / "cleaned"
+    _write_case(raw_root)
+    cleaned_root.mkdir()
+    (cleaned_root / "case-1.csv").symlink_to(raw_root / "case-1.csv")
+
+    store = CsvEventStore(cleaned_root)
+
+    with pytest.raises(KeyError, match="outside oncology CSV data root"):
+        store.query(EventQuery("case-1"))

@@ -107,7 +107,16 @@ def load_case_csv(case_id: str, data_root: Path) -> Path:
     csv_dir = _csv_directory(Path(data_root))
     if not case_id or Path(case_id).name != case_id or Path(case_id).suffix:
         raise KeyError(f"Invalid oncology case id: {case_id}")
-    path = csv_dir / f"{case_id}.csv"
+    csv_root = csv_dir.resolve()
+    candidate = csv_dir / f"{case_id}.csv"
+    try:
+        path = candidate.resolve(strict=True)
+    except (OSError, RuntimeError):
+        raise KeyError(f"Unknown oncology case id: {case_id}")
+    try:
+        path.relative_to(csv_root)
+    except ValueError as exc:
+        raise KeyError(f"Oncology case is outside oncology CSV data root: {case_id}") from exc
     if not path.is_file():
         raise KeyError(f"Unknown oncology case id: {case_id}")
     return path

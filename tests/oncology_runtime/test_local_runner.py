@@ -175,6 +175,24 @@ def test_cleaned_root_hides_raw_case_with_same_id(tmp_path):
     assert [event["value"] for event in result["events"]] == ["cleaned diagnosis"]
 
 
+def test_cleaned_case_symlink_cannot_read_raw_case(tmp_path):
+    from agent.tool_registry import ToolRegistry, register_all_tools
+    from scripts.run_task import resolve_cleaned_data_root
+
+    raw_root = tmp_path / "raw" / "csv"
+    cleaned_root = tmp_path / "cleaned"
+    _write_case(raw_root, "raw diagnosis")
+    cleaned_root.mkdir()
+    (cleaned_root / "case-1.csv").symlink_to(raw_root / "case-1.csv")
+
+    registry = ToolRegistry()
+    register_all_tools(registry, data_root=resolve_cleaned_data_root(tmp_path))
+    result = registry.dispatch("csv_search_diagnosis_events", {"case_id": "case-1"})
+
+    assert "outside oncology CSV data root" in result["error"]
+    assert "raw diagnosis" not in str(result)
+
+
 def test_cleaned_root_cannot_escape_dataset_boundary(tmp_path):
     from scripts.run_task import resolve_cleaned_data_root
 
