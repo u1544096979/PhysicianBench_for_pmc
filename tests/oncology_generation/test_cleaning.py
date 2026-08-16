@@ -1,6 +1,8 @@
 import csv
 from pathlib import Path
 
+import pytest
+
 from pipeline.oncology_generation.cleaning import materialize_cleaned_case
 
 
@@ -54,3 +56,13 @@ def test_materialize_cleaned_case_rejects_unknown_target(tmp_path: Path):
     else:
         raise AssertionError("unknown target group should fail")
 
+
+def test_materialize_cleaned_case_rejects_same_source_and_destination(tmp_path: Path):
+    source = tmp_path / "raw.csv"
+    with source.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=HEADER)
+        writer.writeheader()
+        writer.writerow(_row("g1", "2024-01-01", "诊断", "A"))
+
+    with pytest.raises(ValueError, match="source_csv and cleaned_csv must differ"):
+        materialize_cleaned_case(source, source, target_group_id="g1")

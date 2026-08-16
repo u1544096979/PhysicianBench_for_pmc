@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import os
 from pathlib import Path
 
 from .nodes import build_event_groups
@@ -12,6 +13,12 @@ def materialize_cleaned_case(
 ) -> CleaningResult:
     source_csv = Path(source_csv)
     cleaned_csv = Path(cleaned_csv)
+    same_path = source_csv.resolve() == cleaned_csv.resolve()
+    if not same_path and source_csv.exists() and cleaned_csv.exists():
+        same_path = os.path.samefile(source_csv, cleaned_csv)
+    if same_path:
+        raise ValueError("source_csv and cleaned_csv must differ")
+
     with source_csv.open("r", encoding="utf-8-sig", newline="") as stream:
         reader = csv.DictReader(stream)
         fieldnames = reader.fieldnames or []
