@@ -7,7 +7,7 @@ pytest. The test file derives output/trajectory paths from the JOB_DIR env
 var (set here from --job-dir) with a fallback to the in-task layout.
 
 Usage:
-    python scripts/run_eval.py <task_folder> [--fhir-url URL] [--job-dir DIR]
+    python scripts/run_eval.py <task_folder> [--job-dir DIR]
 """
 
 import argparse
@@ -20,7 +20,6 @@ from pathlib import Path
 def main():
     parser = argparse.ArgumentParser(description="Run evaluation for a single task")
     parser.add_argument("task_folder", help="Path to task folder")
-    parser.add_argument("--fhir-url", default="http://localhost:8080/fhir")
     parser.add_argument(
         "--job-dir",
         help="Per-task job directory (provides workspace/ and logs/). "

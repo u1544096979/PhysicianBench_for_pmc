@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # Batch runner for PhysicianBench.
 #
-# For each task in tasks/v1/, spins up a fresh fhir-full Docker container
-# and runs the agent + eval via run_task.py. All artifacts (workspace,
+# For each task, runs the local CSV agent + eval via run_task.py. All artifacts (workspace,
 # logs, eval output, metadata) land in jobs/<batch>/<task>/.
 #
 # Usage:
@@ -13,7 +12,7 @@
 #   bash scripts/run_batch_task.sh --max-tasks 10
 #   bash scripts/run_batch_task.sh --resume jobs/2026-04-29__03-57-03__openai_gpt-5.5__high__t0
 #   bash scripts/run_batch_task.sh --task-dir tasks/v1
-#   bash scripts/run_batch_task.sh --fhir-image fhir-full:v2 --port 28080
+#   bash scripts/run_batch_task.sh --data-root data/oncology_complete_trajectory
 
 set -euo pipefail
 
@@ -31,8 +30,7 @@ REASONING_EFFORT="high"
 MAX_TASKS=0
 MAX_STEPS=100
 RESUME_DIR=""
-FHIR_IMAGE="fhir-full:v1"
-PORT=18080
+DATA_ROOT="$REPO_ROOT/data/oncology_complete_trajectory"
 TASK_TARGETS=()
 
 while [[ $# -gt 0 ]]; do
@@ -45,8 +43,7 @@ while [[ $# -gt 0 ]]; do
         --max-steps)           MAX_STEPS="$2"; shift 2 ;;
         --resume)              RESUME_DIR="$2"; shift 2 ;;
         --task-dir)            TASK_DIR="$2"; shift 2 ;;
-        --fhir-image)          FHIR_IMAGE="$2"; shift 2 ;;
-        --port)                PORT="$2"; shift 2 ;;
+        --data-root)           DATA_ROOT="$2"; shift 2 ;;
         --*)                   echo "Unknown flag: $1"; exit 1 ;;
         *)                     TASK_TARGETS+=("$1"); shift ;;
     esac
@@ -56,10 +53,12 @@ done
 if [[ "$TASK_DIR" != /* ]]; then
     TASK_DIR="$REPO_ROOT/$TASK_DIR"
 fi
+if [[ "$DATA_ROOT" != /* ]]; then
+    DATA_ROOT="$REPO_ROOT/$DATA_ROOT"
+fi
 
 echo "PhysicianBench Batch Runner"
-echo "  FHIR image:  $FHIR_IMAGE"
-echo "  Port:        $PORT"
+echo "  Data root:   $DATA_ROOT"
 echo "  Model:       $MODEL"
 echo "  Temperature: ${TEMPERATURE:-api-default} (n_runs=$N_RUNS)"
 echo "  Reasoning:   ${REASONING_EFFORT:-disabled}"
@@ -193,8 +192,7 @@ for run in $(seq 1 "$N_RUNS"); do
             "$task_rel_path"
             --model "$MODEL"
             --max-steps "$MAX_STEPS"
-            --fhir-image "$FHIR_IMAGE"
-            --port "$PORT"
+            --data-root "$DATA_ROOT"
         )
         if [ -n "$TEMPERATURE" ]; then
             RUN_ARGS+=(--temperature "$TEMPERATURE")

@@ -14,6 +14,7 @@ from pipeline.oncology_generation.graph import run_generation
 from pipeline.oncology_generation.paths import safe_case_path
 from pipeline.oncology_generation.review_queue import ReviewItem, append_review_item
 from scripts.generate_oncology_task import export_task, is_complete_task_dir
+from scripts.pipeline_env import load_model_env
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
 PILOT_CASE_IDS = (
@@ -45,7 +46,12 @@ def generate_all_cases(
         raise ValueError("parallel generation is not enabled until sequential output is verified")
     summary = BatchSummary()
     review_path = data_root / "generated" / "review_queue.jsonl"
-    llm = client or LLMClient(model_id="openai/gpt-5.5")
+    model_env = load_model_env("GENERATION")
+    llm = client or LLMClient(
+        model_id=model_env.model or "openai/gpt-5.5",
+        api_key=model_env.api_key,
+        base_url=model_env.base_url,
+    )
     allowed_tools = {name for _, name, _ in CATEGORY_TOOL_SPECS}
     selected_case_ids = tuple(case_ids) if case_ids is not None else PILOT_CASE_IDS
     for case_id in selected_case_ids:

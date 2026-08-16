@@ -16,6 +16,7 @@ from pipeline.oncology_generation.graph import run_generation
 from pipeline.oncology_generation.leakage import find_leaked_target_values
 from pipeline.oncology_generation.paths import safe_case_path
 from agent.llm_client import LLMClient
+from scripts.pipeline_env import load_model_env
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
 
@@ -175,9 +176,14 @@ def main() -> None:
     parser.add_argument("case_id")
     parser.add_argument("--data-root", type=Path, default=Path("data/oncology_complete_trajectory"))
     parser.add_argument("--output-root", type=Path, default=Path("tasks/oncology-v1"))
-    parser.add_argument("--model", default="openai/gpt-5.5")
+    parser.add_argument("--model")
     args = parser.parse_args()
-    client = LLMClient(model_id=args.model)
+    model_env = load_model_env("GENERATION")
+    client = LLMClient(
+        model_id=args.model or model_env.model or "openai/gpt-5.5",
+        api_key=model_env.api_key,
+        base_url=model_env.base_url,
+    )
     allowed_tools = {name for _, name, _ in CATEGORY_TOOL_SPECS}
     state = run_generation(args.case_id, args.data_root, client, allowed_tools)
     if state.get("validation_errors"):

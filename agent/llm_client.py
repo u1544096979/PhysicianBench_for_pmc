@@ -83,9 +83,17 @@ class LLMClient:
     ):
         self.model_id = model_id
 
-        if api_key and base_url:
-            # Explicit override: use exactly what was passed
+        if api_key is not None or base_url is not None:
             backend_name = "explicit"
+            if api_key is None or base_url is None:
+                try:
+                    _, detected_key, detected_url = _resolve_backend()
+                except ValueError:
+                    if api_key is None:
+                        raise
+                else:
+                    api_key = api_key or detected_key
+                    base_url = base_url or detected_url
         else:
             # Auto-detect from env vars (priority: OpenRouter > Anthropic > OpenAI)
             backend_name, api_key, base_url = _resolve_backend()
