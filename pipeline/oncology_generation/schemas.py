@@ -1,9 +1,12 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, TypedDict
 
+from tools.csv_event_types import EVENT_COLUMNS
+
+TRACE_FIELDS = (*EVENT_COLUMNS, "_source_row")
 
 class GenerationState(TypedDict, total=False):
     case_id: str
@@ -99,7 +102,7 @@ def validate_state(state: GenerationState, allowed_tools: set[str] | None = None
 
 
 def _event_key(event: dict[str, str]) -> tuple[tuple[str, str], ...]:
-    return tuple(sorted((str(key), str(value)) for key, value in event.items()))
+    return tuple((field, str(event.get(field, ""))) for field in TRACE_FIELDS)
 
 
 def _is_diagnostic_event(event: dict[str, str]) -> bool:

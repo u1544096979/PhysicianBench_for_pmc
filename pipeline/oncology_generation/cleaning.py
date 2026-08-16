@@ -9,7 +9,10 @@ from .schemas import CleaningResult
 
 
 def materialize_cleaned_case(
-    source_csv: Path, cleaned_csv: Path, target_group_id: str
+    source_csv: Path,
+    cleaned_csv: Path,
+    target_group_id: str,
+    cleaned_root: Path | None = None,
 ) -> CleaningResult:
     source_csv = Path(source_csv)
     cleaned_csv = Path(cleaned_csv)
@@ -18,6 +21,17 @@ def materialize_cleaned_case(
         same_path = os.path.samefile(source_csv, cleaned_csv)
     if same_path:
         raise ValueError("source_csv and cleaned_csv must differ")
+
+    output_root = Path(cleaned_root) if cleaned_root is not None else cleaned_csv.parent
+    if output_root.is_symlink():
+        raise ValueError(f"cleaned root must not be a symlink: {output_root}")
+    if cleaned_csv.is_symlink():
+        raise ValueError(f"cleaned output must not be a symlink: {cleaned_csv}")
+    resolved_root = output_root.resolve()
+    try:
+        cleaned_csv.resolve().relative_to(resolved_root)
+    except ValueError as exc:
+        raise ValueError(f"cleaned output resolves outside cleaned root: {cleaned_csv}") from exc
 
     with source_csv.open("r", encoding="utf-8-sig", newline="") as stream:
         reader = csv.DictReader(stream)

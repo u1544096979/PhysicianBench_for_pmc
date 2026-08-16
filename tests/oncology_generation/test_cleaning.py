@@ -66,3 +66,23 @@ def test_materialize_cleaned_case_rejects_same_source_and_destination(tmp_path: 
 
     with pytest.raises(ValueError, match="source_csv and cleaned_csv must differ"):
         materialize_cleaned_case(source, source, target_group_id="g1")
+
+
+def test_materialize_cleaned_case_rejects_symlink_before_overwriting_external_file(tmp_path: Path):
+    source = tmp_path / "raw.csv"
+    with source.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=HEADER)
+        writer.writeheader()
+        writer.writerow(_row("g1", "2024-01-01", "诊断", "A"))
+
+    external = tmp_path / "external.csv"
+    external.write_text("do not overwrite\n", encoding="utf-8")
+    cleaned_root = tmp_path / "cleaned"
+    cleaned_root.mkdir()
+    cleaned = cleaned_root / "case.csv"
+    cleaned.symlink_to(external)
+
+    with pytest.raises(ValueError, match="outside cleaned root|symlink"):
+        materialize_cleaned_case(source, cleaned, target_group_id="g1")
+
+    assert external.read_text(encoding="utf-8") == "do not overwrite\n"

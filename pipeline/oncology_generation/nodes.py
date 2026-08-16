@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -52,11 +53,16 @@ def build_event_groups(events: list[dict[str, str]]) -> list[EventGroup]:
 
 def parse_model_json(client, prompt: str) -> dict[str, Any]:
     response = client.chat([{"role": "user", "content": prompt}])
-    content = response.content or ""
+    content = (response.content or "").strip()
+    fenced = re.search(r"```(?:json)?\s*(.*?)\s*```", content, flags=re.IGNORECASE | re.DOTALL)
+    payload = fenced.group(1) if fenced else content
     try:
-        return json.loads(content)
+        result = json.loads(payload)
     except json.JSONDecodeError as exc:
         raise ValueError(f"model returned invalid JSON: {exc}") from exc
+    if not isinstance(result, dict):
+        raise ValueError("model JSON must be a top-level object")
+    return result
 
 
 def select_target_group(state: GenerationState, client) -> dict[str, Any]:
@@ -84,7 +90,13 @@ def select_target_group(state: GenerationState, client) -> dict[str, Any]:
 def materialize_cleaned_node(state: GenerationState, data_root: Path) -> dict[str, Any]:
     from .cleaning import materialize_cleaned_case
 
-    result = materialize_cleaned_case(data_root / "raw" / "csv" / f"{state['case_id']}.csv", data_root / "cleaned" / f"{state['case_id']}.csv", state["target_group_id"])
+    cleaned_root = data_root / "cleaned"
+    result = materialize_cleaned_case(
+        data_root / "raw" / "csv" / f"{state['case_id']}.csv",
+        cleaned_root / f"{state['case_id']}.csv",
+        state["target_group_id"],
+        cleaned_root=cleaned_root,
+    )
     return {"target_events": result.target_events, "cleaned_path": result.cleaned_csv}
 
 
