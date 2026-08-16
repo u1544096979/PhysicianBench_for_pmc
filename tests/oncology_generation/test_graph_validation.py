@@ -112,11 +112,31 @@ def test_diagnostic_fragment_minimum_rules():
     assert diagnostic_fragments("癌，abc，结合临床") == ()
 
 
+def test_diagnostic_fragments_split_unicode_symbols_and_whitespace():
+    assert diagnostic_fragments("病理提示=>肺腺癌") == ("肺腺癌",)
+    assert diagnostic_fragments("病理提示->肺腺癌") == ("肺腺癌",)
+    assert diagnostic_fragments("病理提示 肺腺癌 结合临床") == ("肺腺癌",)
+    assert diagnostic_fragments("HER2+") == ("her2",)
+
+
 def test_validation_rejects_ascii_delimited_diagnostic_fragment(tmp_path):
     state = _state(
         tmp_path,
         instruction="请判断是否为肺腺癌。",
         target_value="病理提示|肺腺癌|结合临床",
+    )
+
+    errors = validate_state(state)
+
+    assert any("instruction" in error and "value" in error for error in errors)
+
+
+@pytest.mark.parametrize("target_value", ["病理提示=>肺腺癌", "病理提示->肺腺癌"])
+def test_validation_rejects_symbol_delimited_diagnostic_fragment(tmp_path, target_value):
+    state = _state(
+        tmp_path,
+        instruction="请判断是否为肺腺癌。",
+        target_value=target_value,
     )
 
     errors = validate_state(state)

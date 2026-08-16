@@ -64,6 +64,7 @@
 - [ ] 为非法 case_id 使用 generated root 内的摘要 failure state 路径。
 - [ ] 将 state 和 review queue 记录改为 best-effort，记录基础设施错误后继续批次。
 - [ ] 增加 `|`、`=`、`:`、`/`、`\\` 分隔符回归测试。
+- [ ] 将 splitter 统一为 Unicode punctuation/symbol/whitespace 边界，并覆盖 `=>`、`->` 和 `HER2+`。
 
 ### Task 4: 验证与提交
 
