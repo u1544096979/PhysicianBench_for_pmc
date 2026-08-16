@@ -4,12 +4,14 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
 from agent.llm_client import LLMClient
 from pipeline.oncology_generation.graph import run_generation
+from pipeline.oncology_generation.paths import safe_case_path
 from pipeline.oncology_generation.review_queue import ReviewItem, append_review_item
 from scripts.generate_oncology_task import export_task, is_complete_task_dir
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
@@ -48,10 +50,11 @@ def generate_all_cases(
     selected_case_ids = tuple(case_ids) if case_ids is not None else PILOT_CASE_IDS
     for case_id in selected_case_ids:
         summary.processed += 1
-        if is_complete_task_dir(output_root / case_id, expected_case_id=case_id):
-            summary.exported += 1
-            continue
         try:
+            task_dir = safe_case_path(output_root, case_id)
+            if is_complete_task_dir(task_dir, expected_case_id=case_id):
+                summary.exported += 1
+                continue
             state = run_generation(case_id, data_root, llm, allowed_tools)
             if state.get("validation_errors"):
                 raise ValueError("; ".join(state["validation_errors"]))
@@ -59,21 +62,40 @@ def generate_all_cases(
             summary.exported += 1
         except Exception as exc:
             summary.rejected += 1
-            summary.review_queue += 1
-            summary.errors[case_id] = str(exc)
-            state_path = _persist_failure_state(data_root, case_id, exc)
-            append_review_item(review_path, ReviewItem(case_id, [str(exc)], str(state_path)))
+            errors = [str(exc)]
+            state_path = data_root / "generated" / "_unavailable_state.json"
+            try:
+                state_path = _failure_state_path(data_root, case_id)
+                _persist_failure_state(state_path, case_id, exc)
+            except Exception as state_exc:
+                errors.append(f"state persistence failed: {state_exc}")
+            try:
+                append_review_item(review_path, ReviewItem(case_id, list(errors), str(state_path)))
+                summary.review_queue += 1
+            except Exception as review_exc:
+                errors.append(f"review queue append failed: {review_exc}")
+            summary.errors[case_id] = "; ".join(errors)
     return summary
 
 
-def _persist_failure_state(data_root: Path, case_id: str, error: Exception) -> Path:
-    state_path = data_root / "generated" / case_id / "state.json"
+def _failure_state_path(data_root: Path, case_id: str) -> Path:
+    generated_root = data_root / "generated"
+    try:
+        case_root = safe_case_path(generated_root, case_id)
+    except ValueError:
+        digest = hashlib.sha256(str(case_id).encode("utf-8")).hexdigest()[:16]
+        case_root = generated_root / "_invalid_case_ids" / digest
+    state_path = case_root / "state.json"
+    state_path.resolve().relative_to(generated_root.resolve())
+    return state_path
+
+
+def _persist_failure_state(state_path: Path, case_id: str, error: Exception) -> None:
     state_path.parent.mkdir(parents=True, exist_ok=True)
     state = {"case_id": case_id, "error": str(error), "review_status": "needs_revision"}
     temporary_path = state_path.with_suffix(".json.tmp")
     temporary_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary_path.replace(state_path)
-    return state_path
 
 
 def main() -> None:

@@ -14,12 +14,13 @@ from typing import Any
 
 from pipeline.oncology_generation.graph import run_generation
 from pipeline.oncology_generation.leakage import find_leaked_target_values
+from pipeline.oncology_generation.paths import safe_case_path
 from agent.llm_client import LLMClient
 from tools.csv_category_tools import CATEGORY_TOOL_SPECS
 
 
 def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) -> Path:
-    task_id = str(state.get("case_id", "")).strip()
+    task_id = str(state.get("case_id", ""))
     output_root = Path(output_root)
     task_dir = _task_dir(output_root, task_id)
     if task_dir.exists():
@@ -91,16 +92,10 @@ def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) ->
 
 
 def _task_dir(output_root: Path, task_id: str) -> Path:
-    if not task_id or task_id in {".", ".."} or "/" in task_id or "\\" in task_id:
-        raise ValueError("state must contain a safe case_id")
-    if Path(task_id).is_absolute() or Path(task_id).name != task_id:
-        raise ValueError("state must contain a safe case_id")
-    task_dir = output_root / task_id
     try:
-        task_dir.resolve().relative_to(output_root.resolve())
+        return safe_case_path(output_root, task_id)
     except ValueError as exc:
         raise ValueError("state must contain a safe case_id") from exc
-    return task_dir
 
 
 def _write_task_files(task_dir: Path, instruction: str, task_toml: str, ground_truth: dict[str, Any]) -> None:

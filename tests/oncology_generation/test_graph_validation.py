@@ -106,8 +106,22 @@ def test_validation_ignores_non_diagnostic_short_fragments(tmp_path):
 def test_diagnostic_fragment_minimum_rules():
     assert diagnostic_fragments("病理提示肺腺癌，结合临床") == ("肺腺癌",)
     assert diagnostic_fragments("病理提示：肺腺癌（结合临床）") == ("肺腺癌",)
+    for separator in "|=:/\\":
+        assert diagnostic_fragments(f"病理提示{separator}肺腺癌{separator}结合临床") == ("肺腺癌",)
     assert diagnostic_fragments("IIIA") == ("iiia",)
     assert diagnostic_fragments("癌，abc，结合临床") == ()
+
+
+def test_validation_rejects_ascii_delimited_diagnostic_fragment(tmp_path):
+    state = _state(
+        tmp_path,
+        instruction="请判断是否为肺腺癌。",
+        target_value="病理提示|肺腺癌|结合临床",
+    )
+
+    errors = validate_state(state)
+
+    assert any("instruction" in error and "value" in error for error in errors)
 
 
 def test_validation_rejects_output_outside_cleaned_directory(tmp_path):

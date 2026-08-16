@@ -50,6 +50,21 @@
 - [ ] 在 exporter 写入前完成 tags/case_id 校验。
 - [ ] 在 batch 异常分支先原子写 state.json，再 append review queue。
 
+### Task 3A: 安全路径与异常收尾复审
+
+**Files:**
+- Create: `pipeline/oncology_generation/paths.py`
+- Modify: `pipeline/oncology_generation/leakage.py`
+- Modify: `scripts/generate_oncology_task.py`
+- Modify: `scripts/generate_all_oncology_tasks.py`
+- Test: `tests/oncology_generation/test_graph_validation.py`
+- Test: `tests/oncology_generation/test_batch_generation.py`
+
+- [ ] 统一验证所有 case_id，并拒绝 output/generated root 外逃 symlink。
+- [ ] 为非法 case_id 使用 generated root 内的摘要 failure state 路径。
+- [ ] 将 state 和 review queue 记录改为 best-effort，记录基础设施错误后继续批次。
+- [ ] 增加 `|`、`=`、`:`、`/`、`\\` 分隔符回归测试。
+
 ### Task 4: 验证与提交
 
 **Files:**

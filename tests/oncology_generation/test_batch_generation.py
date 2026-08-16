@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 from scripts import generate_all_oncology_tasks as batch_module
 
 generate_all_cases = batch_module.generate_all_cases
@@ -140,3 +142,93 @@ def test_batch_explicit_case_list_overrides_pilots(tmp_path: Path):
     assert summary.processed == 1
     assert summary.exported == 1
     assert summary.rejected == 0
+
+
+@pytest.mark.parametrize("unsafe_case_id", [".", "..", "../escape"])
+def test_batch_rejects_unsafe_case_ids_without_escaping_generated_root(tmp_path: Path, unsafe_case_id: str):
+    _write_complete_task(tmp_path / "tasks/case-2", "case-2")
+
+    summary = generate_all_cases(
+        tmp_path,
+        tmp_path / "tasks",
+        case_ids=[unsafe_case_id, "case-2"],
+        client=FakeClient(),
+    )
+
+    assert summary.processed == 2
+    assert summary.exported == 1
+    assert summary.rejected == 1
+    assert "safe case_id" in summary.errors[unsafe_case_id]
+    generated_root = (tmp_path / "generated").resolve()
+    review_items = [json.loads(line) for line in (generated_root / "review_queue.jsonl").read_text().splitlines()]
+    state_path = Path(review_items[0]["state_path"]).resolve()
+    state_path.relative_to(generated_root)
+    assert state_path.is_file()
+
+
+def test_batch_does_not_resume_task_symlink_outside_output_root(tmp_path: Path):
+    outside_task = tmp_path / "outside/case-1"
+    _write_complete_task(outside_task, "case-1")
+    output_root = tmp_path / "tasks"
+    output_root.mkdir()
+    (output_root / "case-1").symlink_to(outside_task, target_is_directory=True)
+    _write_complete_task(output_root / "case-2", "case-2")
+
+    summary = generate_all_cases(
+        tmp_path,
+        output_root,
+        case_ids=["case-1", "case-2"],
+        client=FakeClient(),
+    )
+
+    assert summary.processed == 2
+    assert summary.exported == 1
+    assert summary.rejected == 1
+    assert "safe case_id" in summary.errors["case-1"]
+
+
+def test_batch_continues_when_failure_state_parent_is_a_file(tmp_path: Path):
+    raw = tmp_path / "raw/csv"
+    raw.mkdir(parents=True)
+    (raw / "case-1.csv").write_text("case_id\ncase-1\n")
+    generated_root = tmp_path / "generated"
+    generated_root.mkdir()
+    (generated_root / "case-1").write_text("occupied", encoding="utf-8")
+    _write_complete_task(tmp_path / "tasks/case-2", "case-2")
+
+    summary = generate_all_cases(
+        tmp_path,
+        tmp_path / "tasks",
+        case_ids=["case-1", "case-2"],
+        client=FakeClient(),
+    )
+
+    assert summary.processed == 2
+    assert summary.exported == 1
+    assert summary.rejected == 1
+    assert "state persistence failed" in summary.errors["case-1"]
+    assert (generated_root / "review_queue.jsonl").is_file()
+
+
+def test_batch_continues_when_review_queue_append_fails(tmp_path: Path, monkeypatch):
+    raw = tmp_path / "raw/csv"
+    raw.mkdir(parents=True)
+    (raw / "case-1.csv").write_text("case_id\ncase-1\n")
+    _write_complete_task(tmp_path / "tasks/case-2", "case-2")
+
+    def fail_review_queue(*args, **kwargs):
+        raise OSError("review queue unavailable")
+
+    monkeypatch.setattr(batch_module, "append_review_item", fail_review_queue)
+
+    summary = generate_all_cases(
+        tmp_path,
+        tmp_path / "tasks",
+        case_ids=["case-1", "case-2"],
+        client=FakeClient(),
+    )
+
+    assert summary.processed == 2
+    assert summary.exported == 1
+    assert summary.rejected == 1
+    assert "review queue append failed" in summary.errors["case-1"]

@@ -22,6 +22,10 @@ tags 必须是非空或空的 `list[str]`，其中每项都是字符串；非法
 
 batch 捕获任何 case 级异常后，先写入真实存在的 `generated/<case_id>/state.json`，至少包含 `case_id`、`error` 和 `review_status=needs_revision`，再将该 state 文件路径写入 review queue。
 
+后续安全复审统一使用 `safe_case_path` 校验 exporter、batch resume 和 failure state 路径。`.`、`..`、路径分隔符、首尾空白及 resolve 后逃逸 root 的 symlink 都被拒绝；非法 ID 的失败状态使用 generated root 内的摘要目录。state 持久化和 review queue append 均为 best-effort，任一步失败会追加到 batch summary，但不能终止后续 case。
+
+诊断片段拆分除 Unicode 标点外，显式支持 `|`、`=`、`:`、`/`、`\\` 等常见 ASCII 分隔符。
+
 ## 测试
 
 所有测试使用 `tmp_path`。覆盖诊断片段提取和短词忽略、临时目录失败清理、完整/残缺 resume、early failure state、非法 tags、TOML 可解析及 case_id 边界，并运行 Task 3 focused tests 与 `tests/oncology_generation` 全套。

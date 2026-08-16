@@ -6,6 +6,7 @@ from collections.abc import Iterable
 
 _PREFIX_RE = re.compile(r"^(?:病理(?:提示|诊断(?:为)?|考虑|符合)|诊断(?:为)?|考虑|符合)[\s:：-]*")
 _NON_DIAGNOSTIC_PREFIXES = ("结合临床", "建议", "请", "进一步", "待")
+_ASCII_SEPARATORS = frozenset("|=:/\\")
 
 
 def diagnostic_fragments(value: object) -> tuple[str, ...]:
@@ -47,7 +48,7 @@ def _split_fragments(value: str) -> list[str]:
     fragments: list[str] = []
     current: list[str] = []
     for char in value:
-        if char in "\r\n" or unicodedata.category(char).startswith("P"):
+        if char in "\r\n" or char in _ASCII_SEPARATORS or unicodedata.category(char).startswith("P"):
             if current:
                 fragments.append("".join(current))
                 current = []
