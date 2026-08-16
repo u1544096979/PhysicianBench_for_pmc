@@ -19,39 +19,33 @@ Use score 1 only with correct, score 0 only with incorrect, and a score strictly
 
 _JSON_FENCE_RE = re.compile(r"\A\s*```(?:json)?\s*(.*?)\s*```\s*\Z", re.DOTALL | re.IGNORECASE)
 _VALID_LABELS = {"correct", "partially_correct", "incorrect"}
-_NEGATION_PREFIXES = (
-    "排除",
-    "不支持",
-    "不考虑",
-    "不是",
-    "并非",
-    "否认",
-    "未见",
-    "未诊断为",
-    "无",
-    "negativefor",
-    "doesnotsupport",
-    "donotsupport",
-    "notsupport",
-    "noevidenceof",
-    "ruledout",
-    "ruleout",
-    "excluded",
-    "exclude",
-    "without",
-    "not",
-    "no",
+_CLAUSE_SPLIT_RE = re.compile(
+    r"[\r\n。！？!?；;，,]+|\b(?:but|however)\b|(?:但是|但|然而|不过)",
+    re.IGNORECASE,
 )
-_NEGATION_SUFFIXES = ("阴性", "已排除", "被排除", "negative", "ruledout", "excluded")
+_NEGATED_PREFIX_RE = re.compile(
+    r"(?:"
+    r"(?:排除|不支持|不考虑|不是|并非|否认|未见|未诊断为|无)[^\r\n。！？!?；;，,]{0,12}"
+    r"|(?:no\s+evidence\s+of|does?\s+not\s+support|not\s+supported|"
+    r"rule(?:d)?\s+out|exclude(?:d)?|without|not|no)"
+    r"(?:\s+[\w-]+){0,4}\s*"
+    r")$",
+    re.IGNORECASE,
+)
+_NEGATED_SUFFIX_RE = re.compile(
+    r"^\s*(?:"
+    r"阴性|已排除|被排除|可能性(?:较低|低|小)|低可能性"
+    r"|(?:is\s+)?(?:negative|unlikely|ruled\s+out|excluded)\b"
+    r"|(?:has\s+)?low\s+(?:probability|likelihood)\b"
+    r")",
+    re.IGNORECASE,
+)
+_PREFIX_WINDOW = 64
+_SUFFIX_WINDOW = 40
 
 
 class JudgeParseError(ValueError):
     """The judge returned content that violates the response contract."""
-
-
-def _normalize_for_match(value: object) -> str:
-    normalized = unicodedata.normalize("NFKC", str(value)).casefold()
-    return "".join(character for character in normalized if not character.isspace())
 
 
 def _diagnostic_targets(target_events: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -66,41 +60,30 @@ def _diagnostic_targets(target_events: list[dict[str, str]]) -> list[dict[str, s
     return targets
 
 
-def _strip_boundary_punctuation(value: str) -> str:
-    start = 0
-    end = len(value)
-    while start < end and unicodedata.category(value[start]).startswith("P"):
-        start += 1
-    while end > start and unicodedata.category(value[end - 1]).startswith("P"):
-        end -= 1
-    return value[start:end]
+def _phrase_pattern(value: str) -> re.Pattern[str]:
+    characters = [re.escape(character) for character in value if not character.isspace()]
+    return re.compile(r"\s*".join(characters), re.IGNORECASE)
 
 
 def _has_non_negated_match(text: str, value: str) -> bool:
-    start = 0
-    while True:
-        match_at = text.find(value, start)
-        if match_at < 0:
-            return False
-        prefix = _strip_boundary_punctuation(text[max(0, match_at - 32):match_at])
-        suffix_start = match_at + len(value)
-        suffix = _strip_boundary_punctuation(text[suffix_start:suffix_start + 12])
-        negated = any(prefix.endswith(marker) for marker in _NEGATION_PREFIXES) or any(
-            suffix.startswith(marker) for marker in _NEGATION_SUFFIXES
-        )
-        if not negated:
-            return True
-        start = match_at + len(value)
+    phrase_pattern = _phrase_pattern(unicodedata.normalize("NFKC", value).casefold())
+    normalized_text = unicodedata.normalize("NFKC", text).casefold()
+    for clause in _CLAUSE_SPLIT_RE.split(normalized_text):
+        for match in phrase_pattern.finditer(clause):
+            prefix = clause[max(0, match.start() - _PREFIX_WINDOW):match.start()]
+            suffix = clause[match.end():match.end() + _SUFFIX_WINDOW]
+            if not _NEGATED_PREFIX_RE.search(prefix) and not _NEGATED_SUFFIX_RE.match(suffix):
+                return True
+    return False
 
 
 def evaluate_diagnosis_rules(agent_text: str, target_events: list[dict[str, str]]) -> dict[str, Any]:
     """Score literal diagnosis target values found in the agent's final output."""
-    normalized_agent = _normalize_for_match(agent_text)
     targets = _diagnostic_targets(target_events)
     matched = [
         target
         for target in targets
-        if _has_non_negated_match(normalized_agent, _normalize_for_match(target["value"]))
+        if _has_non_negated_match(agent_text, target["value"])
     ]
     missing = [target for target in targets if target not in matched]
     score = len(matched) / len(targets) if targets else 0.0

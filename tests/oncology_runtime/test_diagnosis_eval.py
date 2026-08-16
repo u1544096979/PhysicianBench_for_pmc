@@ -93,15 +93,36 @@ def test_rules_classify_incorrect_without_scoring_date_or_source_metadata():
 
 
 @pytest.mark.parametrize(
-    "content",
+    ("content", "feature_name", "value"),
     [
-        "排除肺腺癌，不支持肺腺癌诊断。",
-        "The findings do not support lung adenocarcinoma.",
+        ("排除肺腺癌，不支持肺腺癌诊断。", "诊断", "肺腺癌"),
+        ("不支持诊断为肺腺癌。", "诊断", "肺腺癌"),
+        ("未见明确肺腺癌证据。", "诊断", "肺腺癌"),
+        ("The findings do not support lung adenocarcinoma.", "diagnosis", "lung adenocarcinoma"),
+        ("No evidence of recurrent lung adenocarcinoma.", "diagnosis", "lung adenocarcinoma"),
     ],
 )
-def test_rules_do_not_match_negated_diagnosis(content):
+def test_rules_do_not_match_negated_diagnosis(content, feature_name, value):
+    result = evaluate_diagnosis_rules(
+        content,
+        [{"feature_name": feature_name, "value": value}],
+    )
+
+    assert result["label"] == "incorrect"
+    assert result["score"] == 0.0
+    assert result["matched"] == []
+
+
+@pytest.mark.parametrize(
+    "content",
+    [
+        "肺腺癌可能性低。",
+        "Lung adenocarcinoma is unlikely.",
+    ],
+)
+def test_rules_do_not_match_low_likelihood_diagnosis(content):
     target_events = [{"feature_name": "诊断", "value": "肺腺癌"}]
-    if content.startswith("The"):
+    if content.startswith("Lung"):
         target_events = [{"feature_name": "diagnosis", "value": "lung adenocarcinoma"}]
 
     result = evaluate_diagnosis_rules(content, target_events)
@@ -118,6 +139,16 @@ def test_rules_match_positive_diagnosis_even_when_negated_occurrence_also_exists
     )
 
     assert result["label"] == "correct"
+
+
+def test_rules_do_not_carry_negation_into_later_positive_sentence():
+    result = evaluate_diagnosis_rules(
+        "未见明确肺腺癌证据。最终病理诊断为肺腺癌。",
+        [{"feature_name": "诊断", "value": "肺腺癌"}],
+    )
+
+    assert result["label"] == "correct"
+    assert result["score"] == 1.0
 
 
 @pytest.mark.parametrize(
