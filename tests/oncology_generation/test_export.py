@@ -71,9 +71,17 @@ def test_export_writes_task_contract(tmp_path: Path):
     assert metadata["case_id"] == "case-1"
     assert metadata["data_root"] == "../../../data/oncology_complete_trajectory/cleaned"
     assert metadata["tags"] == ["Oncology", "Diagnosis & Interpretation"]
-    assert "pass_criteria" not in (task_dir / "instruction.md").read_text()
-    assert "肺腺癌" not in (task_dir / "instruction.md").read_text()
+    instruction = (task_dir / "instruction.md").read_text()
+    assert "你是一名肿瘤科医生" in instruction
+    assert "当前诊断时点：2024-03-18" in instruction
+    assert "病例 CSV 查询工具" in instruction
+    assert "任务：Review the patient's oncology trajectory" in instruction
+    assert "output/diagnosis_report.md" in instruction
+    assert "诊断名称、诊断编码、分期系统及分期结果、诊断依据" in instruction
+    assert "pass_criteria" not in instruction
+    assert "肺腺癌" not in instruction
     test_source = (task_dir / "tests/test_outputs.py").read_text(encoding="utf-8")
+    assert 'output" / "diagnosis_report.md"' in test_source
     assert 'event["feature_name"]' in test_source
     assert 'event["value"]' in test_source
 

@@ -28,8 +28,9 @@ class FakeClient:
     def chat(self, messages):
         prompt = messages[0]["content"]
         assert "不得泄漏目标组的 value" in prompt
+        assert "必须使用中文" in prompt
         assert "target_group_id" in prompt
-        return type("Response", (), {"content": '{"target_group_id":"g2","selection_rationale":"明确病理诊断","role":"oncologist","instruction":"请判断诊断并说明依据。","deliverable":"诊断意见"}'})()
+        return type("Response", (), {"content": '{"target_group_id":"g2","selection_rationale":"明确病理诊断","role":"肿瘤科医生","instruction":"请判断诊断并说明依据。","deliverable":"诊断意见"}'})()
 
 
 class JsonClient:

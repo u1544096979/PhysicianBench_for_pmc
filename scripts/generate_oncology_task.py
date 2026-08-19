@@ -46,20 +46,23 @@ def export_task(state: dict[str, Any], output_root: Path, cleaned_root: Path) ->
     if not target_event_date:
         raise ValueError("target events must retain the target date")
 
-    instruction = str(state.get("task_draft", {}).get("instruction", "")).strip()
-    if not instruction:
+    task_draft = state.get("task_draft", {})
+    task_instruction = str(task_draft.get("instruction", "")).strip()
+    role = str(task_draft.get("role", "肿瘤科医生")).strip() or "肿瘤科医生"
+    if not task_instruction:
         raise ValueError("task draft has no instruction")
-    normalized_instruction = instruction.casefold()
+    normalized_instruction = task_instruction.casefold()
     if "ground_truth" in normalized_instruction or "pass_criteria" in normalized_instruction:
         raise ValueError("task instruction leaks evaluator fields")
     leaked_values = find_leaked_target_values(
-        instruction,
+        task_instruction,
         (event.get("value", "") for event in target_events if event.get("value", "")),
     )
     if leaked_values:
         raise ValueError(f"task instruction leaks target values: {leaked_values}")
 
-    metadata = state.get("task_draft", {})
+    instruction = _compose_instruction(role, target_event_date, task_instruction)
+    metadata = task_draft
     tags = metadata.get("tags", ["Oncology", "Diagnosis & Interpretation"])
     if not isinstance(tags, list) or any(not isinstance(tag, str) for tag in tags):
         raise ValueError("task tags must be a list of strings")
@@ -108,6 +111,19 @@ def _write_task_files(task_dir: Path, instruction: str, task_toml: str, ground_t
     )
     (task_dir / "tests").mkdir()
     (task_dir / "tests/test_outputs.py").write_text(_test_source(), encoding="utf-8")
+
+
+def _compose_instruction(role: str, cutoff_date: str, task_instruction: str) -> str:
+    return (
+        f"你是一名{role}。\n\n"
+        f"当前诊断时点：{cutoff_date}。\n"
+        "你只能通过病例 CSV 查询工具访问该诊断时点之前已经公开的病例数据；"
+        "诊断事件本身及其之后的数据不可访问。\n\n"
+        f"任务：{task_instruction}\n\n"
+        "请基于查询到的证据完成判断，并将最终结果保存为："
+        "`output/diagnosis_report.md`。\n"
+        "文件至少包含以下内容：诊断名称、诊断编码、分期系统及分期结果、诊断依据。"
+    )
 
 
 def is_complete_task_dir(task_dir: Path, expected_case_id: str | None = None) -> bool:
@@ -160,8 +176,9 @@ GROUND_TRUTH = json.loads((TASK_DIR / "ground_truth.json").read_text())
 
 
 def test_documentation_output_exists():
-    output = list((Path.cwd() / "output").glob("*"))
-    assert output, "Agent did not produce a deliverable in workspace/output"
+    report = Path.cwd() / "output" / "diagnosis_report.md"
+    assert report.is_file(), "Agent did not produce output/diagnosis_report.md"
+    assert report.read_text(encoding="utf-8").strip(), "Diagnosis report is empty"
 
 
 def test_ground_truth_retains_source_events():

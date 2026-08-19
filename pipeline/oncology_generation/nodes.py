@@ -71,6 +71,7 @@ def select_target_group(state: GenerationState, client) -> dict[str, Any]:
     prompt = (
         "从完整病例中选择一个真实诊断性事件组。目标可以来自任意 category，但必须有明确的 feature_name/value 诊断信息。"
         "不得泄漏目标组的 value；instruction 只能描述任务，不得写出答案。"
+        "role、instruction 和 deliverable 必须使用中文。"
         "只返回 JSON：target_group_id、selection_rationale、role、instruction、deliverable。"
         f"完整病例：{context}"
     )
