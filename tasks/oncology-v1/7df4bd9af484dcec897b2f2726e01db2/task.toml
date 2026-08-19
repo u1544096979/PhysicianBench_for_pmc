@@ -1,0 +1,4 @@
+[metadata]
+case_id = "7df4bd9af484dcec897b2f2726e01db2"
+data_root = "../../../data/oncology_complete_trajectory/cleaned"
+tags = ["Oncology", "Diagnosis & Interpretation"]

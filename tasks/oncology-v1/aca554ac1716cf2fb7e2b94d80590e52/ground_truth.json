@@ -1,0 +1,51 @@
+{
+  "case_id": "aca554ac1716cf2fb7e2b94d80590e52",
+  "target_group_id": "b1c3b7f8-5c8c-4d7a-bb1a-9b5e1c2d5555",
+  "target_event_date": "2021-11-11",
+  "source_rows": [
+    "11",
+    "12"
+  ],
+  "target_events": [
+    {
+      "case_id": "aca554ac1716cf2fb7e2b94d80590e52",
+      "encnt_no": "14141ff9370f60509c654ebbd9cff7bc",
+      "group_id": "b1c3b7f8-5c8c-4d7a-bb1a-9b5e1c2d5555",
+      "subject": "患者",
+      "feature_name": "病理诊断",
+      "feature_code": "",
+      "feature_type": "文本型",
+      "value": "结肠癌，G1低级别腺癌，起源于管状绒毛状腺瘤伴高级别异型增生",
+      "actual_value": "",
+      "extra_value": "活检标本病理证实",
+      "unit": "",
+      "method": "结肠镜活检病理",
+      "source": "LLM提取",
+      "_record_source": "论文病例报告",
+      "event_date": "2021-11-11",
+      "category": "病理",
+      "pipeline_version": "v1",
+      "_source_row": "11"
+    },
+    {
+      "case_id": "aca554ac1716cf2fb7e2b94d80590e52",
+      "encnt_no": "14141ff9370f60509c654ebbd9cff7bc",
+      "group_id": "b1c3b7f8-5c8c-4d7a-bb1a-9b5e1c2d5555",
+      "subject": "肿瘤组织",
+      "feature_name": "免疫组化",
+      "feature_code": "",
+      "feature_type": "文本型",
+      "value": "MMR蛋白表达正常（MLH1、PMS2、MSH2、MSH6）",
+      "actual_value": "",
+      "extra_value": "dMMR阴性，pMMR",
+      "unit": "",
+      "method": "免疫组化",
+      "source": "LLM提取",
+      "_record_source": "论文病例报告",
+      "event_date": "2021-11-16",
+      "category": "病理",
+      "pipeline_version": "v1",
+      "_source_row": "12"
+    }
+  ]
+}
