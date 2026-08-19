@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,8d0f1d5d-6bb8-4f4c-a5f8-4e6b3cb2f6a1,患者,入院年龄,,数值型,79,79,,岁,,LLM提取,论文病例报告,2017-01-01,入院,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,1c7f0d5d-6b6c-44c4-b8ed-3eaf6b5b2b5b,患者,诊断名称,,类别型,右腮腺导管癌,,伴右侧面神经麻痹；局部晚期,,,LLM提取,论文病例报告,2017-01-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,1c7f0d5d-6b6c-44c4-b8ed-3eaf6b5b2b5b,患者,临床分期,,类别型,T4a N2 M0,,,,,LLM提取,论文病例报告,2017-01-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,2f7c2c1a-4d2d-4f39-9fd7-0e5d3f0f5f6a,FDG-PET,影像所见,,文本型,右腮腺4 cm肿瘤，右颈部I-III区多发淋巴结受累（31个中8个），局部晚期病变,,,,FDG-PET,LLM提取,论文病例报告,2017-01-01,影像,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,2f7c2c1a-4d2d-4f39-9fd7-0e5d3f0f5f6a,FDG-PET,影像结论,,文本型,局部晚期右腮腺肿瘤并颈部淋巴结转移,,,,FDG-PET,LLM提取,论文病例报告,2017-01-01,影像,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,3d1d0d5d-67a8-4b5f-a4d2-6c2b5f4d9b11,患者,手术名称,,类别型,右全腮腺切除术,,合并右颈清扫术、颞下窝清扫术,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,3d1d0d5d-67a8-4b5f-a4d2-6c2b5f4d9b11,患者,麻醉方式,,类别型,,,文中未述,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,4a6a6f4d-8d1a-4d8c-9d3a-5a0f3c6b7d2c,患者,病理诊断,,文本型,唾液腺导管癌,,伴淋巴管侵犯、包膜外扩展、神经周围侵犯,,,LLM提取,论文病例报告,2017-01-01,病理,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,4a6a6f4d-8d1a-4d8c-9d3a-5a0f3c6b7d2c,患者,标本部位,,类别型,右腮腺,,,,,LLM提取,论文病例报告,2017-01-01,病理,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,5b7b4a2d-0d6c-4f76-8d7f-2d8f0e5c9f33,患者,放疗,,类别型,术后放射治疗,,持续6周,,,LLM提取,论文病例报告,2017-02-01,病程,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,6c8d8f5a-1d2e-4c6b-9f8a-3e4d5f6a7b8c,患者,诊断名称,,类别型,转移性唾液腺导管癌,,转移至肺、骨及肾旁腺,,,LLM提取,论文病例报告,2018-08-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,6c8d8f5a-1d2e-4c6b-9f8a-3e4d5f6a7b8c,患者,分子标志物,,类别型,AR过表达,,>90%肿瘤细胞核表达,,免疫组化,LLM提取,论文病例报告,2018-08-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,6c8d8f5a-1d2e-4c6b-9f8a-3e4d5f6a7b8c,患者,HER2状态,,类别型,HER2阳性,,IHC 3+；SISH扩增,,免疫组化/银增强原位杂交,LLM提取,论文病例报告,2018-08-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,6c8d8f5a-1d2e-4c6b-9f8a-3e4d5f6a7b8c,患者,PDL1状态,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2018-08-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,7d9e0a1b-2c3d-4e5f-8a9b-0c1d2e3f4a5b,标本,AKT1基因扩增,,类别型,扩增,,NGS（FoundationOne CDx）,,NGS,LLM提取,论文病例报告,2018-08-01,检验,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,7d9e0a1b-2c3d-4e5f-8a9b-0c1d2e3f4a5b,标本,CDK6基因扩增,,类别型,扩增,,NGS（FoundationOne CDx）,,NGS,LLM提取,论文病例报告,2018-08-01,检验,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,8e1f2a3b-4c5d-6e7f-8a9b-1c2d3e4f5a6b,患者,药品名称,,类别型,比卡鲁胺,,联合戈舍瑞林、RANKL抑制剂,,,LLM提取,论文病例报告,2018-06-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,8e1f2a3b-4c5d-6e7f-8a9b-1c2d3e4f5a6b,患者,剂量,,数值型,150,150,,mg/日,,LLM提取,论文病例报告,2018-06-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,8e1f2a3b-4c5d-6e7f-8a9b-1c2d3e4f5a6b,患者,用药周期,,文本型,每日,,,,,LLM提取,论文病例报告,2018-06-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,9f1a2b3c-4d5e-6f7a-8b9c-1d2e3f4a5b6c,患者,治疗方案,,类别型,比卡鲁胺/戈舍瑞林,,合并RANKL抑制剂,,,LLM提取,论文病例报告,2018-06-01,病程,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,9f1a2b3c-4d5e-6f7a-8b9c-1d2e3f4a5b6c,患者,治疗反应,,类别型,部分缓解,,2个月后FDG-PET显示,,FDG-PET,LLM提取,论文病例报告,2018-08-01,评估,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,aa2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d,患者,诊断名称,,类别型,转移进展,,纵隔后腔静脉旁淋巴结、右肺支气管旁转移灶、右肾上腺转移、肝S7病灶,,FDG-PET,LLM提取,论文病例报告,2019-02-01,诊断,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ab3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,药品名称,,类别型,恩杂鲁胺,,第二代AR阻断剂,,,LLM提取,论文病例报告,2019-07-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ab3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,治疗方案,,类别型,恩杂鲁胺/戈舍瑞林,,,,,LLM提取,论文病例报告,2019-07-01,病程,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ab3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,治疗反应,,类别型,部分缓解,,文中表格总结,,,LLM提取,论文病例报告,2019-07-01,评估,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,bc4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f,患者,治疗方案,,类别型,T-DM1,,靶向HER2治疗,,,LLM提取,论文病例报告,2020-08-01,病程,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,bc4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f,患者,药品名称,,类别型,ado-trastuzumab emtansine,,T-DM1,,,LLM提取,论文病例报告,2020-08-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,bc4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f,患者,剂量,,数值型,,,文中未述,,,LLM提取,论文病例报告,2020-08-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,bd5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f90,FDG-PET,影像结论,,文本型,部分代谢性缓解，SUVmax较前下降约40%,,,,FDG-PET,LLM提取,论文病例报告,2020-10-01,影像,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,bd5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f90,患者,治疗反应,,类别型,部分缓解,,T-DM1治疗后,,FDG-PET,LLM提取,论文病例报告,2020-10-01,评估,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ce6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9012,患者,药品名称,,类别型,奈拉替尼,,不可逆酪氨酸激酶抑制剂,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ce6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9012,患者,剂量,,数值型,240,240,,mg/日,,LLM提取,论文病例报告,2021-07-01,用药,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ce6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9012,患者,治疗方案,,类别型,奈拉替尼单药,,,,,LLM提取,论文病例报告,2021-07-01,病程,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,ce6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9012,患者,治疗反应,,类别型,疾病稳定,,耐受良好,,,LLM提取,论文病例报告,2021-07-01,评估,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,df7a8b9c-0d1e-2f3a-4b5c-6d7e8f901234,患者,不良反应名称,,类别型,腹泻,,文中说明奈拉替尼治疗期间未见剂量限制毒性，且无严重不良事件,,,LLM提取,论文病例报告,2021-07-01,不良反应,v1
+d2fc5ed84a19f43b2c914cd2e247f5b8,132ef95b03fa852cf70a4ac1dc2baefe_1,e8b9c0d1-e2f3-4a5b-6c7d-8e9f01234567,患者,随访结果,,文本型,2018年6月至2021年11月期间总体保持良好体能状态、认知和心理状态；治疗相关不良反应总体耐受良好；2021年11月因患者移居国外失访,,约3年疾病控制,,,LLM提取,论文病例报告,2021-11-01,病程,v1

@@ -1,0 +1,35 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,7f4f6c2e-7c1d-4a3a-9f2f-1c7f1ad8b7a1,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2014-07-20,病史,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,7f4f6c2e-7c1d-4a3a-9f2f-1c7f1ad8b7a1,患者,年龄,,数值型,50,50,,岁,,LLM提取,论文病例报告,2014-07-20,病史,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,7f4f6c2e-7c1d-4a3a-9f2f-1c7f1ad8b7a1,患者,主诉,,文本型,咳嗽、咳痰、左胸痛20天,,,,,LLM提取,论文病例报告,2014-07-20,病史,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,2b8d8e62-6f8b-4e6f-bf5d-4b1d2f8d9f72,患者,影像所见,,文本型,胸部CT示左肺约2.5×2.0 cm病灶，纵隔未见肿大淋巴结，未见其他部位转移,,,,胸部CT,LLM提取,论文病例报告,2014-07-12,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,2b8d8e62-6f8b-4e6f-bf5d-4b1d2f8d9f72,患者,影像结论,,类别型,左上肺癌，临床分期cT1bN0M0，Stage IA,,,,胸部CT,LLM提取,论文病例报告,2014-07-12,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,c0f0c8e1-5b0e-4df4-8b20-4d5f5c3b0f9a,患者,手术名称,,类别型,左肺上叶癌切除术及淋巴结清扫术,,,,,LLM提取,论文病例报告,2014-07-25,手术,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,c0f0c8e1-5b0e-4df4-8b20-4d5f5c3b0f9a,患者,手术结果,,文本型,顺利完成,,,,,LLM提取,论文病例报告,2014-07-25,手术,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,d6c3c4c0-1c71-4d62-9d83-4a6c1d5b8f10,肿瘤标本,病理诊断,,文本型,左肺上叶中分化腺癌，大小2.5×2×1.8 cm；纵隔主动脉旁淋巴结及多发脏层胸膜转移,,,,术后病理,LLM提取,论文病例报告,2014-07-25,病理,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,d6c3c4c0-1c71-4d62-9d83-4a6c1d5b8f10,肿瘤标本,免疫组化,,文本型,TTF-1+，Syn-，Ki-67 20%，CD31+，CK+，EGFR-，ALK-,,,,免疫组织化学,LLM提取,论文病例报告,2014-07-25,病理,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,d6c3c4c0-1c71-4d62-9d83-4a6c1d5b8f10,肿瘤标本,分化程度,,类别型,中分化,,,,术后病理,LLM提取,论文病例报告,2014-07-25,病理,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,a9b3b2a4-6d5b-4b0e-8b4f-5d2d8b4e1a21,患者,诊断名称,,类别型,左肺上叶腺癌,,,,,LLM提取,论文病例报告,2014-07-25,诊断,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,a9b3b2a4-6d5b-4b0e-8b4f-5d2d8b4e1a21,患者,临床分期,,类别型,pT1N2M1，Stage IV,,术后病理提示胸膜转移,,,LLM提取,论文病例报告,2014-07-25,诊断,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,a9b3b2a4-6d5b-4b0e-8b4f-5d2d8b4e1a21,患者,分子标志物,,类别型,EGFR阴性，ALK阴性,,,,,LLM提取,论文病例报告,2014-07-25,诊断,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,e3d8c0c7-2a92-4d6a-b7a8-8f3c4a7d1c31,患者,药品名称,,类别型,吉西他滨,,联合顺铂,,,LLM提取,论文病例报告,2016-08-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,e3d8c0c7-2a92-4d6a-b7a8-8f3c4a7d1c31,患者,药品名称,,类别型,顺铂,,联合吉西他滨,,,LLM提取,论文病例报告,2016-08-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,e3d8c0c7-2a92-4d6a-b7a8-8f3c4a7d1c31,患者,用药周期,,文本型,4个周期,,2016-08至2016-12,,,LLM提取,论文病例报告,2016-08-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,f1a2c3d4-5b6e-4f71-9a8b-1c2d3e4f5a67,患者,疗效评估,,类别型,疾病稳定,,,,胸部CT,LLM提取,论文病例报告,2016-12-15,评估,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,f1a2c3d4-5b6e-4f71-9a8b-1c2d3e4f5a67,患者,影像所见,,文本型,4周期化疗后胸部CT示疾病稳定,,,,胸部CT,LLM提取,论文病例报告,2016-12-15,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,9f8e7d6c-5b4a-4c3d-8e2f-7a6b5c4d3e2f,患者,影像所见,,文本型,胸部CT示左侧胸膜多发转移灶,,,,胸部CT,LLM提取,论文病例报告,2017-05-31,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,9f8e7d6c-5b4a-4c3d-8e2f-7a6b5c4d3e2f,患者,影像结论,,类别型,疾病进展,,,,胸部CT,LLM提取,论文病例报告,2017-05-31,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,b2c1d3e4-f5a6-4b7c-8d9e-0a1b2c3d4e5f,肿瘤标本,检验项目,,类别型,KIF5B/RET融合基因,,EGFR、KRAS、ALK、MET均阴性,,PCR,LLM提取,论文病例报告,2017-05-31,检验,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,b2c1d3e4-f5a6-4b7c-8d9e-0a1b2c3d4e5f,肿瘤标本,分子标志物,,类别型,RET融合阳性,,,,PCR,LLM提取,论文病例报告,2017-05-31,诊断,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,c4d5e6f7-8a9b-4c0d-9e1f-2a3b4c5d6e7f,患者,药品名称,,类别型,卡博替尼,,140 mg口服，每日1次,,,LLM提取,论文病例报告,2017-06-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,c4d5e6f7-8a9b-4c0d-9e1f-2a3b4c5d6e7f,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2017-06-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,c4d5e6f7-8a9b-4c0d-9e1f-2a3b4c5d6e7f,患者,剂量,,数值型,140,140,,mg,,LLM提取,论文病例报告,2017-06-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,d7e8f9a0-b1c2-4d3e-8f4a-5b6c7d8e9f01,患者,疗效评估,,类别型,疾病稳定,,胸痛缓解/消失,,胸部CT,LLM提取,论文病例报告,2017-07-01,评估,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,d7e8f9a0-b1c2-4d3e-8f4a-5b6c7d8e9f01,患者,不良反应名称,,类别型,皮疹,,CTCAE 4.0，II级,,,LLM提取,论文病例报告,2017-07-01,不良反应,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,d7e8f9a0-b1c2-4d3e-8f4a-5b6c7d8e9f01,患者,处理措施,,文本型,继续治疗，未见严重不良事件,,,,,LLM提取,论文病例报告,2017-07-01,不良反应,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,e0f1a2b3-c4d5-4e6f-8a7b-9c0d1e2f3a4b,患者,影像所见,,文本型,治疗5个月后胸部CT仍示疾病稳定,,,,胸部CT,LLM提取,论文病例报告,2017-11-09,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,e0f1a2b3-c4d5-4e6f-8a7b-9c0d1e2f3a4b,患者,疗效评估,,类别型,疾病稳定,,,,胸部CT,LLM提取,论文病例报告,2017-11-09,评估,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,f4e5d6c7-b8a9-4c0d-9e1f-2a3b4c5d6e7a,患者,影像结论,,类别型,疾病进展,,卡博替尼治疗约9个月后,,胸部CT,LLM提取,论文病例报告,2018-03-01,影像,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,f4e5d6c7-b8a9-4c0d-9e1f-2a3b4c5d6e7a,患者,治疗反应,,类别型,PFS超过9个月,,,,,LLM提取,论文病例报告,2018-03-01,病程,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,f4e5d6c7-b8a9-4c0d-9e1f-2a3b4c5d6e7a,患者,药品名称,,类别型,卡博替尼,,停药,,,LLM提取,论文病例报告,2018-03-01,用药,v1
+16c3d5b4a4ae141adbd592e6ff1dcdf2,65027d0f30b823c03ce35519cf9d0827,f4e5d6c7-b8a9-4c0d-9e1f-2a3b4c5d6e7a,患者,出院诊断,,类别型,晚期肺腺癌，RET融合阳性,,,,,LLM提取,论文病例报告,2018-03-01,出院,v1

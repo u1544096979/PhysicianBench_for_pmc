@@ -1,0 +1,66 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,5b3f4a5e-8f7a-4c15-8b7f-7f7f0d2b3c01,患者,病史,,文本型,自2017年起因肝脂肪变和轻度肝酶升高由家庭医生随访。,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,5b3f4a5e-8f7a-4c15-8b7f-7f7f0d2b3c01,患者,既往史,,文本型,血脂异常、肝脂肪变、动脉高血压、非毒性多结节性甲状腺肿。,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,c2c9f7f8-0f38-4d38-8a0e-8c1e1c9b5b11,患者,入院年龄,,数值型,70,70,,岁,,LLM提取,论文病例报告,2019-01-01,入院,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,c2c9f7f8-0f38-4d38-8a0e-8c1e1c9b5b11,患者,主诉,,文本型,进行性乏力、体重下降约10 kg/年、右上腹痛、潮热和夜间盗汗。,,,,,LLM提取,论文病例报告,2019-01-01,入院,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d3bf98a4-7d76-4f2c-8e7e-3f6c7a2d5c21,患者,一般状况,,文本型,消瘦，BMI 22 kg/m2，体温36.8℃，生命体征平稳，无明显黄疸，无腹部压痛，肝脾及浅表淋巴结未触及肿大。,,,,体格检查,LLM提取,论文病例报告,2019-01-01,评估,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d3bf98a4-7d76-4f2c-8e7e-3f6c7a2d5c21,患者,血压,,文本型,120/70,,,mmHg,体格检查,LLM提取,论文病例报告,2019-01-01,评估,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d3bf98a4-7d76-4f2c-8e7e-3f6c7a2d5c21,患者,脉搏,,数值型,88,88,,bpm,体格检查,LLM提取,论文病例报告,2019-01-01,评估,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,白细胞计数,,数值型,10.04,10.04,参考范围4.0-9.8,×10^9/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,血红蛋白,,数值型,125,125,参考范围128-160,g/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,血小板计数,,数值型,328,328,参考范围130-400,×10^9/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,C反应蛋白,,数值型,55.4,55.4,参考范围≤5,mg/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,天冬氨酸氨基转移酶,,数值型,76,76,参考范围<40,U/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,丙氨酸氨基转移酶,,数值型,135,135,参考范围<40,U/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,γ-谷氨酰转移酶,,数值型,344,344,参考范围≤36,U/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,碱性磷酸酶,,数值型,376,376,参考范围40-150,U/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,总胆红素,,数值型,30,30,参考范围<21,μmol/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,白蛋白,,数值型,36.2,36.2,参考范围36-52,g/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,钾,,数值型,4.3,4.3,参考范围3.8-5.3,mmol/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,钠,,数值型,132,132,参考范围134-145,mmol/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,凝血酶原活动度,,数值型,95,95,参考范围70%-130%,%,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,INR（Owren法）,,数值型,1.02,1.02,参考范围0.90-1.19,,Owren法,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,肌酐,,数值型,51,51,参考范围62-11,µmol/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,尿素,,数值型,3.7,3.7,参考范围2.5-7.5,mmol/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,CA19-9,,数值型,111.98,111.98,参考范围<37,kU/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,CEA,,数值型,1.0,1.0,参考范围<5,mkg/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,AFP,,数值型,1.30,1.3,参考范围0.5-5.5,kU/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,HBsAg,,类别型,阴性,,0.11；negative,,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,Anti-HCV,,类别型,阴性,,0.11；negative,,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,AMA-M2,,类别型,阴性,,Negative,,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,ANA,,类别型,阴性,,1:40；参考范围<1:40,,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d4f1b9dd-6f4e-45fd-9f1f-4a8d1a0a3b31,血液,IgG4,,数值型,0.653,0.653,参考范围0.08-1.40,g/L,,LLM提取,论文病例报告,2019-01-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,8e0a0f77-1ad6-4d89-9f4c-8c5b1a1f3d41,腹部超声,影像所见,,文本型,右叶及S4段肝内胆管扩张，胆囊和胆总管未见结石，无明显肝门区肿瘤征象。,,,,腹部超声,LLM提取,论文病例报告,2019-01-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,8e0a0f77-1ad6-4d89-9f4c-8c5b1a1f3d41,腹部超声,影像结论,,文本型,肝内胆管扩张，提示胆道梗阻可能。,,,,腹部超声,LLM提取,论文病例报告,2019-01-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,9b5a1df2-5c7e-4f2a-8a15-3f5a5f0a4d51,MRCP,影像所见,,文本型,近端胆总管及肝门部胆管狭窄，双侧延伸至叶段胆管；肝内外周胆管扩张；影像类似肝门部胆管癌，Bismuth-Corlette IV型/Klatskin瘤。,,,,增强磁共振胰胆管成像,LLM提取,论文病例报告,2019-01-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,9b5a1df2-5c7e-4f2a-8a15-3f5a5f0a4d51,MRCP,影像结论,,文本型,肝门部周围软组织肿块伴胆管狭窄，考虑肝门部胆管癌。,,,,增强磁共振胰胆管成像,LLM提取,论文病例报告,2019-01-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,a7f2b7be-0a23-4a74-9d3d-5d5e7d2f6e61,ERCP,影像所见,,文本型,近端胆总管及汇合部紧狭，累及左右肝管，右肝管和左肝管因完全阻塞未显影。,,,,内镜逆行胰胆管造影,LLM提取,论文病例报告,2019-01-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,a7f2b7be-0a23-4a74-9d3d-5d5e7d2f6e61,ERCP,影像结论,,文本型,影像表现典型为肝门部胆管癌，Bismuth-Corlette IV型。,,,,内镜逆行胰胆管造影,LLM提取,论文病例报告,2019-01-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,f0b3f2c3-2d0e-4d4f-9d6e-6f7c8a9b7d71,ERCP,手术名称,,类别型,内镜逆行胰胆管造影及胆道支架置入,,首次ERCP,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,f0b3f2c3-2d0e-4d4f-9d6e-6f7c8a9b7d71,ERCP,手术结果,,文本型,取活检；置入7 Fr 12 cm猪尾支架至左肝管；因无意进入胰管，置入5 Fr 5 cm胰管预防性支架。,,,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,b1f4a8d9-9f0a-4ccf-8d1f-1c2d3e4f5a61,胆道活检,病理诊断,,文本型,未见恶性肿瘤证据。,,首次ERCP活检,,组织学检查,LLM提取,论文病例报告,2019-01-01,病理,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,c4d5e6f7-8a9b-4c0d-8e1f-2a3b4c5d6e71,直接胆道镜活检,病理诊断,,文本型,未见异型改变。,,重复活检,,组织学检查,LLM提取,论文病例报告,2019-01-01,病理,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,d6e7f8a9-b1c2-4d3e-9f0a-3b4c5d6e7f81,肝穿刺/淋巴结穿刺,病理诊断,,文本型,符合炎性肌纤维母细胞瘤/炎性假瘤（IMT/IPT）。,,超声引导下肝和淋巴结活检,,组织学检查,LLM提取,论文病例报告,2019-04-01,病理,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,e7f8a9b1-c2d3-4e5f-9a0b-4c5d6e7f8a91,第二次MRCP,影像所见,,文本型,肝门部周围胆管周围肿块，阻塞左右主肝管和叶段胆管；VIII、VII段见环形强化簇状病灶，考虑小脓肿；可见心膈淋巴结增大。,,,,磁共振胰胆管成像,LLM提取,论文病例报告,2019-07-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,e7f8a9b1-c2d3-4e5f-9a0b-4c5d6e7f8a91,第二次MRCP,影像结论,,文本型,病灶范围与前次相似，伴胆管炎相关小脓肿及淋巴结增大。,,首次诊断后3个月,,磁共振胰胆管成像,LLM提取,论文病例报告,2019-07-01,影像,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,f1a2b3c4-d5e6-4f70-8a9b-5c6d7e8f9a01,诊断,诊断名称,,类别型,肝门部胆管癌,,MDT初步诊断,,,LLM提取,论文病例报告,2019-01-01,诊断,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,f1a2b3c4-d5e6-4f70-8a9b-5c6d7e8f9a01,诊断,临床分期,,类别型,Bismuth-Corlette IV型,,,,,LLM提取,论文病例报告,2019-01-01,诊断,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,f2a3b4c5-d6e7-4f81-9a0b-6c7d8e9f0a12,诊断,诊断名称,,类别型,胆道炎性肌纤维母细胞瘤,,最终诊断,,,LLM提取,论文病例报告,2019-07-01,诊断,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,f2a3b4c5-d6e7-4f81-9a0b-6c7d8e9f0a12,诊断,诊断名称,,类别型,主胆管狭窄,,最终诊断,,,LLM提取,论文病例报告,2019-07-01,诊断,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,a9b8c7d6-e5f4-4a3b-9c8d-7e6f5a4b3c21,患者,药品名称,,类别型,泼尼松龙,,40 mg/日起始，1个月疗程，逐渐减量,,,LLM提取,论文病例报告,2019-07-01,用药,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,a9b8c7d6-e5f4-4a3b-9c8d-7e6f5a4b3c21,患者,药品名称,,类别型,塞来昔布,,100 mg/日,,,LLM提取,论文病例报告,2019-07-01,用药,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,a9b8c7d6-e5f4-4a3b-9c8d-7e6f5a4b3c21,患者,治疗方案,,类别型,糖皮质激素联合NSAIDs,,一线保守治疗,,,LLM提取,论文病例报告,2019-07-01,病程,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,a9b8c7d6-e5f4-4a3b-9c8d-7e6f5a4b3c21,患者,治疗反应,,类别型,无效,,感染并发症明显,,,LLM提取,论文病例报告,2019-07-01,病程,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,bb1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d41,患者,药品名称,,类别型,甲氨蝶呤,,与长春花碱/长春新碱方案作为二线化疗,,,LLM提取,论文病例报告,2020-07-01,用药,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,bb1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d41,患者,药品名称,,类别型,长春花碱/长春新碱,,与甲氨蝶呤联合,,,LLM提取,论文病例报告,2020-07-01,用药,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,bb1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d41,患者,治疗方案,,类别型,甲氨蝶呤联合长春花碱/长春新碱化疗,,二线治疗,,,LLM提取,论文病例报告,2020-07-01,病程,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,bb1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d41,患者,治疗反应,,类别型,无明显获益,,3个周期后MRCP无改善,,,LLM提取,论文病例报告,2020-07-01,病程,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,cc2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e51,患者,病程,,文本型,反复胆管炎和脓毒症住院，随后继续化疗共5个周期后因感染反复而停止。,,并感染COVID-19,,,LLM提取,论文病例报告,2020-11-01,病程,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,dd3e4f5a-6b7c-4d8e-9f0a-1b2c3d4e5f61,患者,不良反应名称,,类别型,胆管炎,,反复发生,,,LLM提取,论文病例报告,2020-11-01,不良反应,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,dd3e4f5a-6b7c-4d8e-9f0a-1b2c3d4e5f61,患者,不良反应名称,,类别型,脓毒症,,反复发生,,,LLM提取,论文病例报告,2020-11-01,不良反应,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,dd3e4f5a-6b7c-4d8e-9f0a-1b2c3d4e5f61,患者,不良反应名称,,类别型,COVID-19感染,,,,,LLM提取,论文病例报告,2020-11-01,不良反应,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,ee4f5a6b-7c8d-4e9f-0a1b-2c3d4e5f6a71,患者,病程,,文本型,COVID-19后出现胆囊炎，因支架阻塞胆囊管；全身CT见肝门部胆道狭窄不变，胆囊增大，胆囊底新发实性肿块，右肺门淋巴结增大。,,约初诊后22个月,,,LLM提取,论文病例报告,2021-09-01,病程,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,ff5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b81,胆囊底新发肿块活检,病理诊断,,文本型,纤维化改变，未见恶性肿瘤证据。,,经皮胆囊造瘘后取材,,组织学检查,LLM提取,论文病例报告,2021-09-01,病理,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,ff5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b81,患者,处理措施,,文本型,行经皮胆囊造瘘引流。,,用于控制感染及胆囊炎,,,LLM提取,论文病例报告,2021-09-01,手术,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,ff5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b81,患者,CA19-9,,数值型,7884,7884,较前显著升高,kU/L,,LLM提取,论文病例报告,2021-09-01,检验,v1
+2aa294edb1c83abddfe39be734f9e7ed,a32f5383cec4afe95fa2d0a0c22164a8,gg6b7c8d-9e0f-4a1b-2c3d-4e5f6a7b8c91,患者,出院状况,,文本型,目前生存24个月，总体情况尚可，但仍需永久支架并反复处理感染。,,末次随访,,,LLM提取,论文病例报告,2021-09-01,病程,v1

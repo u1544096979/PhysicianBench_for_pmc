@@ -1,0 +1,33 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2d8d4e0a-6e1f-4b9f-9a3e-6a7f0cbb4d11,患者,年龄,,数值型,42,42,,岁,,LLM提取,论文病例报告,2018-01-01,病史,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2d8d4e0a-6e1f-4b9f-9a3e-6a7f0cbb4d11,患者,现病史,,文本型,2018年因直肠出血就诊，发现直肠乙状结肠息肉，后考虑局部切缘电灼处理不完全，初步认为为息肉内T1癌。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,9b4f3e72-9f7b-4c6d-9c1b-6a8d6e1a0c22,结肠镜,检查所见,,文本型,发现2 cm直肠乙状结肠息肉，整块切除；肿瘤细胞侵入黏膜肌层。,,,,结肠镜,LLM提取,论文病例报告,2018-01-01,病理,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,3fd0c7f8-2e0f-4c73-9f0d-2e5b3c0f9a13,CT,影像所见,,文本型,胸/腹/盆腔CT未见转移性病变或直肠周围淋巴结肿大；直肠壁增厚约8 mm。,,,,CT,LLM提取,论文病例报告,2018-01-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,5b1f6a0d-3a2c-4c9d-8f1a-7e2b4c3d5e16,EUS,影像所见,,文本型,下消化道超声内镜显示瘢痕，活检阴性，未见残留癌。,,,,EUS,LLM提取,论文病例报告,2018-01-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,7c9a1f2e-8b3d-4d6f-9c1a-1e2b3c4d5f17,EUS,影像所见,,文本型,6个月后复查EUS仍未见残留癌。,,,,EUS,LLM提取,论文病例报告,2018-07-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,8e1a2b3c-4d5f-4a6b-9c1d-2e3f4a5b6c18,结肠镜,影像所见,,文本型,再过6个月复查结肠镜证实无残留癌。,,,,结肠镜,LLM提取,论文病例报告,2019-01-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c19,患者,诊断名称,,类别型,直肠腺癌,,病理分期/临床分期：stage III，pT4N1M0,,,LLM提取,论文病例报告,2023-01-01,诊断,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c19,患者,临床分期,,类别型,T4N1,,MRI盆腔分期,,MRI,LLM提取,论文病例报告,2023-01-01,诊断,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d20,CT,影像所见,,文本型,CT显示直肠肿块，无转移。,,,,CT,LLM提取,论文病例报告,2023-01-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e21,MRI,影像所见,,文本型,盆腔MRI提示T4N1肿瘤。,,,,MRI,LLM提取,论文病例报告,2023-01-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f22,患者,分子标志物,,类别型,KRAS/NRAS突变阴性，微卫星稳定（MSS）,,,,下一代测序,LLM提取,论文病例报告,2023-01-01,诊断,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a23,患者,治疗方案,,类别型,总新辅助治疗,,卡培他滨+同步放疗，后行8个周期CAPOX,,,LLM提取,论文病例报告,2023-01-01,病程,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a23,患者,周期数,,数值型,8,8,CAPOX,周期,,LLM提取,论文病例报告,2023-01-01,病程,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b24,患者,治疗反应,,类别型,改善,,7个月后复查MRI显示直肠病灶改善，未见明确直肠周围淋巴结肿大,,MRI,LLM提取,论文病例报告,2023-08-01,评估,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b24,MRI,影像所见,,文本型,7个月后复查MRI显示直肠病灶改善，未见明确直肠周围淋巴结肿大。,,,,MRI,LLM提取,论文病例报告,2023-08-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b24,CT,影像所见,,文本型,全身CT未见远处转移。,,,,CT,LLM提取,论文病例报告,2023-08-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,0a1b2c3d-4e5f-4a6b-8c9d-1e2f3a4b5c25,患者,手术名称,,类别型,低位前切除术,,,,,LLM提取,论文病例报告,2023-08-01,手术,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,0a1b2c3d-4e5f-4a6b-8c9d-1e2f3a4b5c25,患者,手术结果,,文本型,术后病理未见残余癌。,,17枚淋巴结均阴性（0/17）,,,LLM提取,论文病例报告,2023-08-01,手术,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,0a1b2c3d-4e5f-4a6b-8c9d-1e2f3a4b5c25,患者,病理诊断,,文本型,未见残余癌,,0/17淋巴结阳性,,术后病理,LLM提取,论文病例报告,2023-08-01,病理,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,1b2c3d4e-5f6a-4b7c-8d9e-2f3a4b5c6d26,患者,现病史,,文本型,术后6个月出现消化不良、早饱、体重下降、黄疸、尿色加深及陶土色便。,,,,,LLM提取,论文病例报告,2024-02-01,病史,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,1b2c3d4e-5f6a-4b7c-8d9e-2f3a4b5c6d26,患者,查体,,文本型,就诊急诊时以消化不良、早饱、体重下降、黄疸、尿色加深、陶土色便为主诉。,,,,,LLM提取,论文病例报告,2024-02-01,评估,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2c3d4e5f-6a7b-4c8d-9e0f-3a4b5c6d7e27,血液,总胆红素,,数值型,8.3,8.3,,mg/dL,,LLM提取,论文病例报告,2024-02-01,检验,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2c3d4e5f-6a7b-4c8d-9e0f-3a4b5c6d7e27,血液,丙氨酸氨基转移酶,,数值型,464,464,,U/L,,LLM提取,论文病例报告,2024-02-01,检验,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2c3d4e5f-6a7b-4c8d-9e0f-3a4b5c6d7e27,血液,天门冬氨酸氨基转移酶,,数值型,216,216,,U/L,,LLM提取,论文病例报告,2024-02-01,检验,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2c3d4e5f-6a7b-4c8d-9e0f-3a4b5c6d7e27,血液,碱性磷酸酶,,数值型,232,232,,IU/L,,LLM提取,论文病例报告,2024-02-01,检验,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,2c3d4e5f-6a7b-4c8d-9e0f-3a4b5c6d7e27,血液,脂肪酶,,数值型,265,265,,U/L,,LLM提取,论文病例报告,2024-02-01,检验,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,3d4e5f6a-7b8c-4d9e-0f1a-4b5c6d7e8f28,CT,影像所见,,文本型,腹盆腔CT显示胆囊扩张、胆总管扩张及胰管扩张至9 mm，胰头部突然截断。,,,,CT,LLM提取,论文病例报告,2024-02-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,4e5f6a7b-8c9d-4e0f-1a2b-5c6d7e8f9a29,MRI,影像所见,,文本型,腹盆腔MRI显示胆囊扩张、胆总管扩张及胰管扩张。,,,,MRI,LLM提取,论文病例报告,2024-02-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,5f6a7b8c-9d0e-4f1a-2b3c-6d7e8f9a0b30,EUS,影像所见,,文本型,存在胆道梗阻，胰头部见2.53 × 2.24 cm肿块，疑侵及门静脉，并伴近端胰管扩张至8.9 mm。,,,,EUS,LLM提取,论文病例报告,2024-02-01,影像,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,6a7b8c9d-0e1f-4a2b-3c4d-7e8f9a0b1c31,胰头肿块,病理诊断,,文本型,转移性结肠腺癌,,EUS-FNA活检,,病理学,LLM提取,论文病例报告,2024-02-01,病理,v1
+49cc2a4a163710cee04f7192e381ae49,8ffe3d3b4bec12e2519cdeca07901a2d,6a7b8c9d-0e1f-4a2b-3c4d-7e8f9a0b1c31,胰头肿块,免疫组化,,文本型,AE1/AE3阳性，CDX2阳性，CK7阴性，CK20阳性。,,支持结肠来源,,免疫组化,LLM提取,论文病例报告,2024-02-01,病理,v1

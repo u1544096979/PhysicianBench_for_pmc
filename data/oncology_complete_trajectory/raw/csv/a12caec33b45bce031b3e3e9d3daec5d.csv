@@ -1,0 +1,65 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,7f8d2c0a-3d3b-4d7b-9c7a-2d0e9b5f5f01,患者,入院年龄,,数值型,72,72,,岁,,LLM提取,论文病例报告,,入院,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,b2c6d0b8-5a4f-4f9f-8f6c-4f2d7f1ef0a1,患者,主诉,,文本型,发热、腹痛,,,,,LLM提取,论文病例报告,2024-08-01,病史,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,b2c6d0b8-5a4f-4f9f-8f6c-4f2d7f1ef0a1,患者,既往史,,文本型,无糖尿病、慢性肾病、慢性肝病或自身免疫性疾病病史,,,,,LLM提取,论文病例报告,2024-08-01,病史,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,3d4b7f7d-4a43-4c41-9a2b-2d4b2f3b9b2c,患者,诊断名称,,类别型,膀胱癌,,,,,LLM提取,论文病例报告,2023-03-01,诊断,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,a11de2b0-0c2b-4a1c-9d7d-7d6d8f7e9a2f,患者,手术名称,,类别型,经尿道膀胱肿瘤切除术（TURBT）,,,,,LLM提取,论文病例报告,2023-03-01,手术,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,c9f5c2a0-1fd1-4a7e-9c4e-2a2d4d6c9b11,药品,药品名称,,类别型,膀胱内卡介苗免疫治疗（Immunobladder®，Tokyo-172）,,,,,LLM提取,论文病例报告,2023-04-01,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,c9f5c2a0-1fd1-4a7e-9c4e-2a2d4d6c9b11,药品,剂量,,数值型,80,80,,mg,,LLM提取,论文病例报告,2023-04-01,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,c9f5c2a0-1fd1-4a7e-9c4e-2a2d4d6c9b11,药品,给药途径,,类别型,膀胱内注入,,,,,LLM提取,论文病例报告,2023-04-01,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,c9f5c2a0-1fd1-4a7e-9c4e-2a2d4d6c9b11,药品,用药周期,,文本型,每周1次，共完成3次；第4次计划给药时因药物性肝损伤停用,,,,,LLM提取,论文病例报告,2023-04-01,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,f1a2a93e-5b36-4f4f-8a7d-4f8a2d3f9c10,患者,病理/检查所见,,文本型,2023年7月随机膀胱活检未见复发证据,,,,,LLM提取,论文病例报告,2023-07-01,病理,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,e6d4a8b1-2b55-4d9d-9a0a-1d2a8d5c4e33,患者,影像所见,,文本型,常规体检腹部超声发现不规则腹主动脉瘤，较2023年既往筛查未见，推测为新发,,,,腹部超声,LLM提取,论文病例报告,2024-03-01,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,9b7d4c3f-7a1d-4e5b-9f2b-3c4d5e6f7a81,患者,影像所见,,文本型,增强CT示肾下腹主动脉瘤，呈部分囊状，壁不规则增厚/改变，周围脂肪密度增高，提示感染性动脉瘤可能,,,,增强CT,LLM提取,论文病例报告,2024-04-01,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,9b7d4c3f-7a1d-4e5b-9f2b-3c4d5e6f7a81,患者,影像所见,,文本型,FDG-PET/CT示动脉壁FDG摄取明显增高，合并双肺弥漫性磨玻璃影,,,,FDG-PET/CT,LLM提取,论文病例报告,2024-08-01,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0d6c4a3b-9e2f-4b5c-8d1a-5b6c7d8e9f01,标本,检验项目,,类别型,常见细菌血培养,,2024-04-22采集阴性,,,LLM提取,论文病例报告,2024-04-22,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0d6c4a3b-9e2f-4b5c-8d1a-5b6c7d8e9f01,标本,检验项目,,类别型,抗酸菌血培养,,2024-04-22采集阴性,,,LLM提取,论文病例报告,2024-04-22,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,3a1b2c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,患者,治疗方案,,文本型,ERCP并抗生素治疗,,因疑似胆管炎,,,LLM提取,论文病例报告,2024-04-01,病程,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,5e7f8a9b-1c2d-4e3f-9a0b-1c2d3e4f5a6b,患者,手术名称,,类别型,腔内动脉瘤修复术（EVAR）,,,,,LLM提取,论文病例报告,2024-05-29,手术,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,5e7f8a9b-1c2d-4e3f-9a0b-1c2d3e4f5a6b,患者,麻醉方式,,类别型,未提及,,术前常规预防用头孢唑林,,,LLM提取,论文病例报告,2024-05-29,手术,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f,患者,主诉,,文本型,低热、腹痛逐渐加重,,,,,LLM提取,论文病例报告,2024-07-01,病史,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,入院状况,,文本型,神志清楚，体重57.7 kg，T 38.1℃，HR 98次/分，BP 84/50 mmHg，SpO2 88%（室内空气），RR 24次/分，腹中线及右腹部压痛,,,,,LLM提取,论文病例报告,2024-08-01,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,一般状况_体温,,文本型,38.1℃,,,,,LLM提取,论文病例报告,2024-08-01,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,一般状况_血压,,文本型,84/50 mmHg,,,mmHg,,LLM提取,论文病例报告,2024-08-01,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,一般状况_心率,,数值型,98,98,,次/分,,LLM提取,论文病例报告,2024-08-01,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,一般状况_呼吸频率,,数值型,24,24,,次/分,,LLM提取,论文病例报告,2024-08-01,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,一般状况_血氧饱和度,,数值型,88,88,室内空气,%,,LLM提取,论文病例报告,2024-08-01,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,f0a1b2c3-d4e5-4f6a-8b9c-0d1e2f3a4b5c,标本,检验项目,,类别型,常见细菌血培养,,day 0阴性,,,LLM提取,论文病例报告,2024-08-01,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,f0a1b2c3-d4e5-4f6a-8b9c-0d1e2f3a4b5c,标本,检验项目,,类别型,抗酸菌血培养,,day 0阴性,,,LLM提取,论文病例报告,2024-08-01,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5e,患者,临床处理,,文本型,再次ERCP并接受抗生素治疗；原定主动脉手术延期,,因怀疑复发性胆管炎,,,LLM提取,论文病例报告,2024-08-01,病程,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,检验项目,,类别型,IGRA（T-SPOT.TB®）,,阴性,,,LLM提取,论文病例报告,2024-08-01,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,9b7d4c3f-7a1d-4e5b-9f2b-3c4d5e6f7a81,患者,影像所见,,文本型,增强CT示动脉瘤快速增大，壁强化明显,,,,增强CT,LLM提取,论文病例报告,2024-08-01,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,9b7d4c3f-7a1d-4e5b-9f2b-3c4d5e6f7a81,患者,影像所见,,文本型,肺部双侧弥漫性磨玻璃影,,,,增强CT,LLM提取,论文病例报告,2024-08-01,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,9b7d4c3f-7a1d-4e5b-9f2b-3c4d5e6f7a81,患者,影像所见,,文本型,FDG-PET/CT示腹主动脉壁FDG摄取明显,,,,FDG-PET/CT,LLM提取,论文病例报告,2024-08-01,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,6c7d8e9f-0a1b-4c5d-8e9f-1a2b3c4d5e6f,患者,治疗方案,,文本型,美罗培南+万古霉素经验治疗,,效果不佳,,,LLM提取,论文病例报告,2024-08-01,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,7e8f9a0b-1c2d-4e3f-9f0a-1b2c3d4e5f6a,患者,手术名称,,类别型,支架移除并人工血管置换术,,,,,LLM提取,论文病例报告,2024-08-12,手术,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,7e8f9a0b-1c2d-4e3f-9f0a-1b2c3d4e5f6a,患者,手术结果,,文本型,术中主动脉壁切开见大量脓液，Ziehl-Neelsen染色见抗酸杆菌,,,,,LLM提取,论文病例报告,2024-08-12,手术,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,7e8f9a0b-1c2d-4e3f-9f0a-1b2c3d4e5f6a,标本,检验项目,,类别型,GENECUBE系统MTBC实时PCR,,阳性,,实时PCR,LLM提取,论文病例报告,2024-08-12,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,7e8f9a0b-1c2d-4e3f-9f0a-1b2c3d4e5f6a,标本,检验项目,,类别型,鉴别PCR提示M. bovis BCG,,,,PCR,LLM提取,论文病例报告,2024-08-12,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,患者,治疗方案,,文本型,术后第1天开始异烟肼+利福平+乙胺丁醇三联抗结核治疗,,计划总疗程9个月,,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,药品,药品名称,,类别型,异烟肼,,,,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,药品,剂量,,数值型,250,250,,mg/日,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,药品,药品名称,,类别型,利福平,,,,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,药品,剂量,,数值型,450,450,,mg/日,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,药品,药品名称,,类别型,乙胺丁醇,,,,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,0f1e2d3c-4b5a-4c6d-8e9f-0a1b2c3d4e5f,药品,剂量,,数值型,750,750,,mg/日,,LLM提取,论文病例报告,2024-08-13,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,诊断名称,,类别型,感染性腹主动脉瘤/真菌样动脉瘤,,伴脓毒性休克和ARDS,,,LLM提取,论文病例报告,2024-08-13,诊断,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,诊断名称,,类别型,播散性BCG感染,,伴脓毒性休克和ARDS,,,LLM提取,论文病例报告,2024-08-13,诊断,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,诊断名称,,类别型,脓毒性休克,,,,,LLM提取,论文病例报告,2024-08-13,诊断,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,患者,诊断名称,,类别型,急性呼吸窘迫综合征（ARDS）,,,,,LLM提取,论文病例报告,2024-08-13,诊断,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,aabbccdd-eeff-4a11-8899-001122334455,标本,检验项目,,类别型,血培养（分枝杆菌）,,day 0、day 12阳性,,,LLM提取,论文病例报告,2024-08-13,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,aabbccdd-eeff-4a11-8899-001122334455,标本,检验项目,,类别型,主动脉脓液培养（分枝杆菌）,,day 12阳性,,,LLM提取,论文病例报告,2024-08-13,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,aabbccdd-eeff-4a11-8899-001122334455,标本,检验项目,,类别型,BAL液培养（分枝杆菌）,,day 18阳性,,,LLM提取,论文病例报告,2024-08-13,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,aabbccdd-eeff-4a11-8899-001122334455,标本,检验项目,,类别型,尿液培养（分枝杆菌）,,阳性,,,LLM提取,论文病例报告,2024-08-13,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,11223344-5566-4788-99aa-bbccddeeff00,标本,检验项目,,类别型,BAL直接PCR,,阴性,,PCR,LLM提取,论文病例报告,2024-08-13,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,11223344-5566-4788-99aa-bbccddeeff00,标本,检验项目,,类别型,尿液直接PCR,,阴性,,PCR,LLM提取,论文病例报告,2024-08-13,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,99887766-5544-4c33-2211-00aabbccddeeff,患者,影像所见,,文本型,术后肺部磨玻璃影迅速加重，出现呼吸衰竭/ARDS，CT示牵拉性支气管扩张，后续激素治疗后逐渐改善,,,,CT,LLM提取,论文病例报告,2024-08-18,影像,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,99887766-5544-4c33-2211-00aabbccddeeff,患者,评估方法,,类别型,Berlin标准,,符合中度ARDS,,,LLM提取,论文病例报告,2024-08-18,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,99887766-5544-4c33-2211-00aabbccddeeff,患者,血气结果,,文本型,FiO2 0.55时PaO2 68.0 mmHg，PaO2/FiO2 123.6，CPAP+PEEP 6 cmH2O,,中度ARDS,,动脉血气分析,LLM提取,论文病例报告,2024-08-18,评估,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,ccddee11-2233-4455-6677-8899aabbccdd,患者,治疗方案,,文本型,糖皮质激素治疗ARDS：氢化可的松200 mg/日×4天，后改甲泼尼龙60 mg/日×7天，再改为倍他米松9 mg/日持续,,肺部病变逐渐改善,,,LLM提取,论文病例报告,2024-08-18,用药,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,eeddccbb-aabb-4f66-9988-776655443322,标本,检验项目,,类别型,BAL细胞学,,WBC 200/µL，淋巴细胞72%，Class II,,,LLM提取,论文病例报告,2024-08-18,检验,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,ffeeddcc-bbaa-4a55-8899-667788990011,患者,病理诊断,,文本型,切除的主动脉壁标本见脓性炎症并证实抗酸杆菌感染,,,,病理学检查,LLM提取,论文病例报告,2024-08-12,病理,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,ffeeddcc-bbaa-4a55-8899-667788990011,患者,免疫组化,,文本型,未提及,,,,,LLM提取,论文病例报告,2024-08-12,病理,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,出院诊断,,类别型,感染性腹主动脉瘤/真菌样动脉瘤，播散性BCG感染，脓毒性休克，ARDS,,,,,LLM提取,论文病例报告,2024-08-18,出院,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,出院状况,,类别型,术后呼吸状态逐渐改善，系统情况趋于稳定,,,,,LLM提取,论文病例报告,2024-08-18,出院,v1
+a12caec33b45bce031b3e3e9d3daec5d,bc144ab33da89f482d01142d1fc948a8,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,出院医嘱,,文本型,继续异烟肼、利福平、乙胺丁醇抗结核治疗，计划总疗程9个月，并长期随访血管及肺部并发症,,,,,LLM提取,论文病例报告,2024-08-18,出院,v1

@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,0f0f3b58-0d03-4b1f-a7f4-8f6e8de7d7a1,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2021-05-01,病史,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,0f0f3b58-0d03-4b1f-a7f4-8f6e8de7d7a1,患者,年龄,,数值型,51岁,51,,岁,,LLM提取,论文病例报告,2021-05-01,病史,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,0f0f3b58-0d03-4b1f-a7f4-8f6e8de7d7a1,患者,既往史,,文本型,2型糖尿病、肥胖、哮喘,,,,,LLM提取,论文病例报告,2021-05-01,病史,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,9d4c2c3d-1ad1-4a1d-8f7e-8d6f2b4f8a61,患者,主诉,,文本型,颈部肿块迅速增大、呼吸困难,,自2021-01起,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,c4f5f5fd-7b35-49d4-9db9-5f3c7f0b2d11,患者,入院科室,,类别型,甲状腺/头颈肿瘤相关专科,,首次在本中心就诊,,,LLM提取,论文病例报告,2021-05-01,入院,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,2c7a9e8d-5d0a-4b2e-a2c0-6e8f3d7b1c22,左甲状腺叶,超声所见,,文本型,低回声、异质性实性结节,,49×35×63 mm,mm,颈部超声,LLM提取,论文病例报告,2021-01-01,影像,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,3a4f0e15-1cb7-4b1e-a6db-9b9f0b5f5d33,标本,穿刺活检结果,,类别型,未能诊断,,细针穿刺活检,,,LLM提取,论文病例报告,2021-01-01,病理,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,5d8e2b7f-2d0c-4e1f-9b6c-4f7a8a9c1d44,左甲状腺叶,影像所见,,文本型,巨大肿块，伴坏死区，导致气管移位和狭窄；颈总动脉及颈静脉移位，无明显壁侵犯；无淋巴结或肺转移,,100×108×80 mm；SUVmax 24.4,mm,颈部及胸部CT、FDG-PET,LLM提取,论文病例报告,2021-05-01,影像,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,5d8e2b7f-2d0c-4e1f-9b6c-4f7a8a9c1d44,左甲状腺叶,影像结论,,文本型,初始时判定为不可切除,,,,颈部及胸部CT、FDG-PET,LLM提取,论文病例报告,2021-05-01,影像,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,6c0d3f6d-8a2b-4a5e-9c1b-7c8d9e0f1a55,标本,病理诊断,,文本型,间变性甲状腺癌,,活检样本；PAX8、TTF1局灶阳性,,组织病理学,LLM提取,论文病例报告,2021-05-01,病理,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,7d1e2f3a-9b4c-4d5e-a6f7-8a9b0c1d2e66,血清,甲状腺球蛋白,,数值型,35.2 ng/mL,35.2,参考范围 <55,ng/mL,,LLM提取,论文病例报告,2021-05-01,检验,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,7d1e2f3a-9b4c-4d5e-a6f7-8a9b0c1d2e66,血清,降钙素,,数值型,<2.0 pg/mL,2.0,参考范围 <8.5,pg/mL,,LLM提取,论文病例报告,2021-05-01,检验,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,8e2f3a4b-0c1d-4e5f-9a6b-7c8d9e0f1a77,肿瘤组织,BRAF状态,,类别型,野生型,,Idylla™ NRAS-BRAF-EGFR S492R Mutation assay,,实时PCR,LLM提取,论文病例报告,2021-05-01,诊断,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,9f3a4b5c-1d2e-4f6a-8b7c-9d0e1f2a3b88,患者,治疗方案,,类别型,仑伐替尼,,等待NGS结果期间启动,,,LLM提取,论文病例报告,2021-05-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,9f3a4b5c-1d2e-4f6a-8b7c-9d0e1f2a3b88,患者,剂量,,数值型,24 mg daily,24,,mg/日,,LLM提取,论文病例报告,2021-05-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,10a4b5c6-2d3e-4f7a-9b8c-0d1e2f3a4b99,颈部CT,影像所见,,文本型,肿块较前稳定，气管腔面积增大,,94×98×72 mm；体积344 cm3；气管腔面积126 mm,,CT,LLM提取,论文病例报告,2021-06-01,影像,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,11b5c6d7-3e4f-4a8b-9c0d-1e2f3a4b5caa,肿瘤组织,融合基因,,类别型,ETV6–NTRK3融合,,NGS检出,,Ampliseq TM for Illumina Focus Panel,LLM提取,论文病例报告,2021-06-01,诊断,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,12c6d7e8-4f5a-4b9c-0d1e-2f3a4b5c6dbb,患者,不良反应名称,,类别型,高血压、黏膜炎、腹泻、甲状腺功能减退,,轻-中度,,,LLM提取,论文病例报告,2021-06-01,不良反应,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,13d7e8f9-5a6b-4c0d-1e2f-3a4b5c6d7ecc,患者,治疗方案,,类别型,恩曲替尼,,由仑伐替尼更换,,,LLM提取,论文病例报告,2021-08-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,13d7e8f9-5a6b-4c0d-1e2f-3a4b5c6d7ecc,患者,剂量,,数值型,600 mg daily,600,,mg/日,,LLM提取,论文病例报告,2021-08-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,14e8f9a0-6b7c-4d1e-2f3a-4b5c6d7e8fdd,患者,症状,,文本型,吞咽困难、声音嘶哑、颈部肿块增大,,开始恩曲替尼后2天,,,LLM提取,论文病例报告,2021-08-03,病程,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,15f9a0b1-7c8d-4e2f-3a4b-5c6d7e8f9aee,患者,处理措施,,文本型,住院并给予地塞米松4 mg每6小时,,考虑恩曲替尼相关坏死炎症,,,LLM提取,论文病例报告,2021-08-03,不良反应,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,16a0b1c2-8d9e-4f3a-4b5c-6d7e8f9a0bff,患者,症状,,文本型,肿瘤体积明显缩小，临床改善,,激素治疗后一周,,,LLM提取,论文病例报告,2021-08-10,病程,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,17b1c2d3-9e0f-4a5b-6c7d-8e9f0a1b2c00,患者,疗效评估,,类别型,临床稳定,,继续恩曲替尼,,,LLM提取,论文病例报告,2021-09-12,评估,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,18c2d3e4-a1b2-4c5d-6e7f-8f9a0b1c2d11,颈部CT,影像所见,,文本型,肿瘤明显缩小，气管受压改善，未见颈总动脉或椎前肌侵犯,,78×67×52 mm；体积141.3 cm3,,CT,LLM提取,论文病例报告,2021-09-01,影像,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,19d3e4f5-b2c3-4d6e-7f8a-9b0c1d2e3f22,颈部CT,影像所见,,文本型,肿瘤进一步缩小，未见邻近结构侵犯,,68×60×49 mm；体积104.3 cm3,,CT,LLM提取,论文病例报告,2021-09-22,影像,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,手术名称,,类别型,全甲状腺切除术+中央区淋巴清扫,,肿瘤已变为可切除,,,LLM提取,论文病例报告,2021-09-22,手术,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,手术结果,,文本型,切除后病理见残余ATC及治疗相关改变,,pT4a R2 pN1a,,,LLM提取,论文病例报告,2021-09-22,手术,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,标本,病理诊断,,文本型,残余间变性甲状腺癌，伴气管侵犯及治疗相关改变,,右叶另见2处乳头状微癌（6 mm、9 mm）及1枚2 mm转移性甲状旁/甲状腺周围淋巴结,,组织病理学,LLM提取,论文病例报告,2021-09-22,病理,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,分期,,类别型,pT4a R2 pN1a,,,,,LLM提取,论文病例报告,2021-09-22,诊断,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,治疗方案,,类别型,术后恢复恩曲替尼,,放疗前暂停,,,LLM提取,论文病例报告,2021-09-22,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,放疗,,数值型,60 Grays,60,,Gy,,LLM提取,论文病例报告,2021-10-01,病程,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,治疗方案,,类别型,紫杉醇每周一次,,联合放疗,,,LLM提取,论文病例报告,2021-10-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,剂量,,数值型,45 mg/m2,45,,mg/m2,,LLM提取,论文病例报告,2021-10-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,治疗完成情况,,文本型,完成辅助放疗,,2022-02-18结束,,,LLM提取,论文病例报告,2022-02-18,病程,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,治疗方案,,类别型,恩曲替尼,,2022-03-15恢复,,,LLM提取,论文病例报告,2022-03-15,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,剂量,,数值型,600 mg/day,600,,mg/日,,LLM提取,论文病例报告,2022-03-15,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,不良反应名称,,类别型,关节痛、肌痛,,需停药3天并减量,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,剂量,,数值型,400 mg/day,400,因关节痛和肌痛减量,mg/日,,LLM提取,论文病例报告,2022-04-01,用药,v1
+560d45b08caaffb03ed3f45cf31a24fc,0a662a3cb39c433741ba13765c029aaf,1ae4f506-c3d4-4e5f-8a9b-0c1d2e3f4a33,患者,影像结论,,文本型,放疗后炎症改变，无明确复发/进展证据,,FDG-PET 2022-06；颈胸CT 2022-09予以证实,,FDG-PET、颈胸部CT,LLM提取,论文病例报告,2022-09-01,影像,v1

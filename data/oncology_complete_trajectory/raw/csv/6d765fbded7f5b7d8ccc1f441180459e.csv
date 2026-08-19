@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,4f3f0f42-7b3b-4b0f-8c9d-4a9f3f7d5d1d,患者,入院年龄,,数值型,75,75,,岁,,LLM提取,论文病例报告,2023-11-01,入院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,4f3f0f42-7b3b-4b0f-8c9d-4a9f3f7d5d1d,患者,入院科室,,类别型,General Medicine,,General Clinic首诊后收治,,,LLM提取,论文病例报告,2023-11-01,入院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,4f3f0f42-7b3b-4b0f-8c9d-4a9f3f7d5d1d,患者,入院途径,,类别型,门诊后入院,,,,,LLM提取,论文病例报告,2023-11-01,入院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,4f3f0f42-7b3b-4b0f-8c9d-4a9f3f7d5d1d,患者,主诉,,文本型,头晕1天,,伴多饮多尿10余年,,,LLM提取,论文病例报告,2023-11-01,病史,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,4f3f0f42-7b3b-4b0f-8c9d-4a9f3f7d5d1d,患者,现病史,,文本型,2023年11月首次就诊，因头晕1天及多饮多尿10余年就诊。,,,,,LLM提取,论文病例报告,2023-11-01,病史,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血液,血红蛋白,,数值型,91,91,参考范围130–175 g/l；轻度贫血,g/l,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,粪便,粪便隐血,,类别型,阳性,,,,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血清,H. pylori IgG抗体,,类别型,阳性,,,,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血清,H. pylori现感染标志物,,类别型,阳性,,,,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血清,甲胎蛋白,,数值型,183.70,183.70,参考范围0–7 ng/ml,ng/ml,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血清,肝功能,,类别型,正常,,,,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血清,乙肝指标,,类别型,正常,,,,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,血清,其他胃肠道肿瘤标志物,,类别型,正常,,,,,LLM提取,论文病例报告,2023-11-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,腹部CT,影像所见,,文本型,未见明显肝脏异常。,,,,CT,LLM提取,论文病例报告,2023-11-01,影像,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,腹部CT,影像结论,,文本型,未见显著肝脏异常。,,,,CT,LLM提取,论文病例报告,2023-11-01,影像,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,患者,诊断名称,,类别型,2型糖尿病,,初始诊断,,,LLM提取,论文病例报告,2023-11-01,诊断,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,9f7f5f2e-f4d9-4eb8-84ad-0d5df5d0d3fb,患者,诊断名称,,类别型,高血压,,初始诊断,,,LLM提取,论文病例报告,2023-11-01,诊断,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,b9d7c8fb-7d5a-4c4d-87b0-1e0c4f71f0c4,患者,药品名称,,类别型,奥美拉唑,,抑酸治疗,,,LLM提取,论文病例报告,2023-11-01,用药,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,b9d7c8fb-7d5a-4c4d-87b0-1e0c4f71f0c4,患者,药品名称,,类别型,硫糖铝,,胃黏膜保护,,,LLM提取,论文病例报告,2023-11-01,用药,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,b9d7c8fb-7d5a-4c4d-87b0-1e0c4f71f0c4,患者,治疗反应,,类别型,好转,,症状缓解，粪便隐血转阴后出院,,,LLM提取,论文病例报告,2023-11-01,病程,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,b9d7c8fb-7d5a-4c4d-87b0-1e0c4f71f0c4,患者,出院状况,,类别型,症状缓解后患者要求出院,,,,,LLM提取,论文病例报告,2023-11-01,出院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,b9d7c8fb-7d5a-4c4d-87b0-1e0c4f71f0c4,患者,出院医嘱,,文本型,继续随访；此前已进行抑酸及胃保护治疗。,,,,,LLM提取,论文病例报告,2023-11-01,出院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,f4f7a3c8-4d8e-4d2c-9d3d-92f3ed9b0a11,血清,甲胎蛋白,,数值型,314.15,314.15,出院后1个月复查,ng/ml,,LLM提取,论文病例报告,2023-12-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,患者,入院年龄,,数值型,75,75,,岁,,LLM提取,论文病例报告,2023-12-15,入院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,患者,入院科室,,类别型,General Medicine,,再次入院,,,LLM提取,论文病例报告,2023-12-15,入院,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,血清,甲胎蛋白,,数值型,397.70,397.70,再次入院时升高,ng/ml,,LLM提取,论文病例报告,2023-12-15,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,上消化道内镜,影像所见,,文本型,食管（距门齿40 cm）至贲门见不规则隆起和凹陷，表面覆白苔，见火山口样隆起结节，病灶组织脆，易出血。,,提示溃疡性胃癌，Borrmann II,,内镜,LLM提取,论文病例报告,2023-12-15,影像,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,上消化道内镜,影像结论,,文本型,食管贲门癌。,,,,内镜,LLM提取,论文病例报告,2023-12-15,影像,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,增强胸腹CT,影像所见,,文本型,贲门及胃底小弯侧胃壁增厚并强化。,,进一步明确病变范围,,增强CT,LLM提取,论文病例报告,2023-12-15,影像,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,增强胸腹CT,影像结论,,文本型,提示胃癌病变范围。,,,,增强CT,LLM提取,论文病例报告,2023-12-15,影像,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,胃镜活检,病理诊断,,文本型,低分化癌，局灶见肝样特征。,,,,HE染色,LLM提取,论文病例报告,2023-12-15,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,胃镜活检,免疫组化,,文本型,AFP（部分阳性）、Hep Par 1（灶性阳性）、CK19（斑片状阳性）、CDX2（弥漫/均一阳性）,,,,IHC,LLM提取,论文病例报告,2023-12-15,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,患者,诊断名称,,类别型,AFP阳性胃癌,,基于血清AFP升高及肿瘤AFP染色阳性,,,LLM提取,论文病例报告,2023-12-15,诊断,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,1c1a8d3f-0fb4-4c5c-9d29-9f46b2f7a5c2,患者,诊断名称,,类别型,胃肝样腺癌,,基于肝样病理特征,,,LLM提取,论文病例报告,2023-12-15,诊断,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,患者,手术名称,,类别型,3D腹腔镜辅助下根治性全胃切除术,,合并食管空肠Roux-en-Y吻合,,,LLM提取,论文病例报告,2024-01-01,手术,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,患者,麻醉方式,,类别型,未提及,,,,,LLM提取,论文病例报告,2024-01-01,手术,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,患者,手术结果,,文本型,顺利完成手术,,,,,LLM提取,论文病例报告,2024-01-01,手术,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,患者,出血量,,数值型,,,未提及,,,LLM提取,论文病例报告,2024-01-01,手术,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,病理诊断,ICD-O 8211/3,文本型,低分化（G3）弥漫型管状腺癌,,Borrmann III；T3N0M0,,病理,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,标本部位,,类别型,贲门小弯侧,,病灶位于该处,,,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,肿瘤大小,,数值型,6.5×6.0×2.0,,,cm,,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,浸润深度,,文本型,侵及浆下层,,,,,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,血管癌栓,,类别型,阳性,,,,,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,淋巴结转移,,类别型,阴性,,未见淋巴结癌转移,,,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,手术切除标本,免疫组化,,文本型,HER2(2+)、Ki67(90%+)、PMS2局灶阳性、MLH1阳性、MSH2阳性、MSH6阳性、AFP阳性、SALL4局灶阳性、GPC3阳性；EBER和p53阴性,,,,IHC/ISH,LLM提取,论文病例报告,2024-01-01,病理,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,d2c63f9b-8f7a-4e5e-9f1b-8c2a3f4e6d77,血清,甲胎蛋白,,数值型,正常,,术后降至正常范围,,,LLM提取,论文病例报告,2024-01-01,检验,v1
+6d765fbded7f5b7d8ccc1f441180459e,cfe71d49890a31a2d0cb633ee6b623c3_1,6a0a1c2d-3b4e-4f5a-9c6d-7e8f9012a3b4,患者,随访结果,,文本型,存活，术后恢复良好。,,电话随访,,,LLM提取,论文病例报告,2024-04-01,病程,v1

@@ -1,0 +1,44 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,7b0f5f7c-ef79-4b9e-8d5b-07e9f9ef35c8,患者,入院年龄,,数值型,52,52,,岁,,LLM提取,论文病例报告,2025-04-27,入院,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,7b0f5f7c-ef79-4b9e-8d5b-07e9f9ef35c8,患者,入院主诉,,文本型,右乳肿块1个月,,,,,LLM提取,论文病例报告,2025-04-27,入院,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,d4f2b4f2-7e89-4a6b-9b4c-0d2b2c6d4ef0,患者,既往史,,文本型,论文未提及明确既往肿瘤家族史外的系统既往史,,,,,LLM提取,论文病例报告,2025-04-27,病史,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,d4f2b4f2-7e89-4a6b-9b4c-0d2b2c6d4ef0,患者,个人史,,文本型,论文未提及,,,,,LLM提取,论文病例报告,2025-04-27,病史,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,d4f2b4f2-7e89-4a6b-9b4c-0d2b2c6d4ef0,患者,家族史,,文本型,无明确家族肿瘤史,,,,,LLM提取,论文病例报告,2025-04-27,病史,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,2d7bdf64-0c7f-4f40-8e73-57e0ed0a7d7e,患者,查体,,文本型,双乳对称，皮肤无红肿、破溃、橘皮样改变；右乳外侧可触及约2×1 cm质硬、活动差肿块，无皮肤粘连；双腋窝及锁骨上区未扪及肿大淋巴结,,,,,LLM提取,论文病例报告,2025-04-27,评估,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,e9d8e2d2-b4af-4f0b-95f2-4b0dc0f3c4e1,右乳,超声所见,,文本型,右乳实性肿块，约2.1×1.6×1.6 cm，边界欠清、分叶/毛刺样，内部回声不均，CDFI血流丰富，BI-RADS 5类,,印象：可能乳腺癌,,彩色多普勒超声,LLM提取,论文病例报告,2025-04-27,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,e9d8e2d2-b4af-4f0b-95f2-4b0dc0f3c4e1,右乳,超声结论,,类别型,BI-RADS 5类,,,,彩色多普勒超声,LLM提取,论文病例报告,2025-04-27,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,4c1cf9bb-6c32-4a5e-9b24-5f5c0d6e6d5a,右乳,钼靶所见,,文本型,右乳上中外象限致密不规则肿块影，约1.6×2.1 cm，边缘不规则分叶，BI-RADS 4C类,,,,乳腺X线摄影,LLM提取,论文病例报告,2025-04-27,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,4c1cf9bb-6c32-4a5e-9b24-5f5c0d6e6d5a,右乳,钼靶结论,,类别型,BI-RADS 4C类,,,,乳腺X线摄影,LLM提取,论文病例报告,2025-04-27,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,1ab7c6ad-ff63-47a1-9cf7-0c8c1b8fcb7b,右乳,MRI所见,,文本型,右乳外下象限圆形肿块，约1.9×1.4×1.7 cm，提示乳腺癌,,,,乳腺MRI,LLM提取,论文病例报告,2025-04-27,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,3a6c3b2e-6f8c-4d2e-8c0c-9f7d5e1d8f90,右乳,病理诊断,,文本型,穿刺活检示右乳浸润性癌，非特殊类型，组织学III级,,,,空芯针穿刺活检,LLM提取,论文病例报告,2025-04-27,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,3a6c3b2e-6f8c-4d2e-8c0c-9f7d5e1d8f90,右乳,免疫组化,,文本型,ER(-)，PR(-)，Her-2(2+)，Ki-67(70%+),,FISH未见HER2扩增,,,LLM提取,论文病例报告,2025-04-27,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,3a6c3b2e-6f8c-4d2e-8c0c-9f7d5e1d8f90,右乳,HER2状态,,类别型,阴性,,IHC 2+，FISH无扩增,,FISH,LLM提取,论文病例报告,2025-04-27,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,0e6de6ef-0a4f-46f8-82f0-9a9a0fdd7a7a,患者,诊断名称,,类别型,右乳三阴性乳腺癌,,T2N1M0，IIb期,,,LLM提取,论文病例报告,2025-04-27,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,6b7f0c42-8d5d-4e1a-9b2a-7f5b1a2d0d3f,患者,诊断名称,,类别型,直肠中分化腺癌,,临床初步诊断,,结肠镜/病理,LLM提取,论文病例报告,2025-04-27,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,a5e1d3a7-3f2b-4a4d-9f0a-8d4c2c1b7e66,结肠/直肠标本,病理诊断,,文本型,切除标本大部分为坏死，局灶形态符合中分化腺癌,,提示结直肠癌,,手术后病理,LLM提取,论文病例报告,2025-04-27,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,9b9c6d2a-1f77-4e22-8b8a-1d9a7c4c2f11,患者,诊断名称,,类别型,多原发恶性肿瘤,,右乳癌合并直肠癌,,,LLM提取,论文病例报告,2025-04-27,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,右乳,手术名称,,类别型,右乳保乳手术,,联合前哨淋巴结活检+腋窝淋巴结清扫,,,LLM提取,论文病例报告,2025-04-29,手术,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,右乳,手术结果,,文本型,成功切除肿瘤,,,,,LLM提取,论文病例报告,2025-04-29,手术,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,右乳,病理诊断,,文本型,浸润性癌，肿瘤大小2.4×1.7×1.4 cm,,,,术后病理,LLM提取,论文病例报告,2025-04-29,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,腋窝前哨淋巴结,病理结果,,类别型,转移阳性,,3枚前哨淋巴结中1枚有癌转移,,术后病理,LLM提取,论文病例报告,2025-04-29,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,右乳,免疫组化,,文本型,ER(-)，PR(-)，Her-2(2+)，Ki-67(60%+),,FISH无HER2扩增,,,LLM提取,论文病例报告,2025-04-29,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,右乳,HER2状态,,类别型,阴性,,IHC 2+，FISH无扩增,,FISH,LLM提取,论文病例报告,2025-04-29,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,右乳,基因检测,,文本型,BRCA1和BRCA2未检出突变,,,,基因检测,LLM提取,论文病例报告,2025-04-29,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,患者,临床分期,,类别型,IIb期,,右乳三阴性乳腺癌T2N1M0,,,LLM提取,论文病例报告,2025-04-29,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,8c4c6a2d-7e5e-4a8b-9c3c-2a2b3d4e5f60,患者,诊断名称,,类别型,右乳三阴性乳腺癌,,T2N1M0，IIb期,,,LLM提取,论文病例报告,2025-04-29,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,f1c3d4e5-b6a7-48c9-9d0e-1f2a3b4c5d6e,患者,影像所见,,文本型,增强CT示乙状结肠壁不均匀增厚，肠腔不规则狭窄，周围脂肪间隙模糊，周围可见多发软组织结节影，最大约1.1×1.0 cm,,提示结肠癌,,增强CT,LLM提取,论文病例报告,2025-05-11,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,f1c3d4e5-b6a7-48c9-9d0e-1f2a3b4c5d6e,患者,影像结论,,文本型,考虑结肠癌,,,,增强CT,LLM提取,论文病例报告,2025-05-11,影像,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,b2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,直肠,手术名称,,类别型,腹腔镜直肠癌根治术,,Dixon术,,,LLM提取,论文病例报告,2025-05-13,手术,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,b2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,直肠,病理诊断,,文本型,直肠溃疡型中分化腺癌，大小5×5×1.7 cm，侵及黏膜下层/浆膜下层，伴脉管侵犯,,,,术后病理,LLM提取,论文病例报告,2025-05-13,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,b2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,直肠,淋巴结结果,,类别型,阴性,,0/18,,术后病理,LLM提取,论文病例报告,2025-05-13,病理,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,b2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,直肠,MSS状态,,类别型,稳定,,pMMR/MSS,,基因检测,LLM提取,论文病例报告,2025-05-13,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,b2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,患者,诊断名称,,类别型,直肠腺癌,,pT3N0M0，IIa期,,,LLM提取,论文病例报告,2025-05-13,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,b2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,患者,临床分期,,类别型,IIa期,,直肠腺癌pT3N0M0,,,LLM提取,论文病例报告,2025-05-13,诊断,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,c3d4e5f6-a7b8-49c0-9d1e-2a3b4c5d6e7f,患者,治疗方案,,类别型,TP方案,,白蛋白紫杉醇+卡铂，术后辅助化疗,,,LLM提取,论文病例报告,2025-06-03,用药,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,c3d4e5f6-a7b8-49c0-9d1e-2a3b4c5d6e7f,患者,周期数,,数值型,6,6,计划并完成,个周期,,LLM提取,论文病例报告,2025-06-03,用药,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,c3d4e5f6-a7b8-49c0-9d1e-2a3b4c5d6e7f,患者,治疗反应,,类别型,疾病稳定,,完成6周期后病情稳定,,,LLM提取,论文病例报告,2025-06-03,病程,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,c3d4e5f6-a7b8-49c0-9d1e-2a3b4c5d6e7f,患者,不良反应名称,,类别型,骨髓抑制,,IV级，伴发热/发热性中性粒细胞减少,,,LLM提取,论文病例报告,2025-06-03,不良反应,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,c3d4e5f6-a7b8-49c0-9d1e-2a3b4c5d6e7f,患者,分级,,类别型,IV级,,第1周期后出现,,,LLM提取,论文病例报告,2025-06-03,不良反应,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,c3d4e5f6-a7b8-49c0-9d1e-2a3b4c5d6e7f,患者,处理措施,,文本型,予短效G-CSF（Neupogen）升白、抗感染及支持治疗；自第2周期起预防性长效G-CSF（Tolevol）加强,,,,,LLM提取,论文病例报告,2025-06-03,不良反应,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,d7e8f9a0-b1c2-4d3e-8f90-a1b2c3d4e5f6,患者,疗效评估,,类别型,缓解,,三个月随访影像未见复发或转移,,影像学随访,LLM提取,论文病例报告,2025-09-03,评估,v1
+92aa1b60d384c08db763af4d1a6efe04,01af773af2d4d07b85e648fdd9e19beb,d7e8f9a0-b1c2-4d3e-8f90-a1b2c3d4e5f6,患者,随访结果,,文本型,病情稳定，无复发或转移证据,,随访3个月,,,LLM提取,论文病例报告,2025-09-03,病程,v1

@@ -1,0 +1,64 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,2d7c9f4b-7d43-4f64-9c0f-6b7a5d1d6d8d,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2019-02-01,病史,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,2d7c9f4b-7d43-4f64-9c0f-6b7a5d1d6d8d,患者,年龄,,数值型,65岁,65,,岁,,LLM提取,论文病例报告,2019-02-01,病史,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,2d7c9f4b-7d43-4f64-9c0f-6b7a5d1d6d8d,患者,现病史,,文本型,左乳房肿块2周后就诊。,,,,,LLM提取,论文病例报告,2019-02-01,病史,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,7f0b2f6b-5d7a-4d2c-8c36-8f7c9b6f2d11,PET/CT,影像所见,,文本型,左乳房内上象限不规则软组织结节；多发淋巴结转移（左腋窝、左锁骨上、右盆壁、右髂窝、双侧颈动脉鞘、双侧肺门及纵隔）；骨转移（右股骨近端及右股骨颈）。,,,,PET/CT,LLM提取,论文病例报告,2019-02-12,影像,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,7f0b2f6b-5d7a-4d2c-8c36-8f7c9b6f2d11,PET/CT,影像结论,,类别型,左乳癌伴多发淋巴结及骨转移,,,,PET/CT,LLM提取,论文病例报告,2019-02-12,影像,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,c7d1a9f2-8ad6-4d2a-8c40-2f8c4a4f2d22,左乳房肿块,病理诊断,,文本型,浸润性导管癌（IDC）,,,,活检,LLM提取,论文病例报告,2019-02-14,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,c7d1a9f2-8ad6-4d2a-8c40-2f8c4a4f2d22,左腋窝淋巴结,病理诊断,,文本型,癌转移,,,,活检,LLM提取,论文病例报告,2019-02-14,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,c7d1a9f2-8ad6-4d2a-8c40-2f8c4a4f2d22,左乳房肿块,标本部位,,类别型,左乳房,,,,活检,LLM提取,论文病例报告,2019-02-14,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,c7d1a9f2-8ad6-4d2a-8c40-2f8c4a4f2d22,左乳房肿块,免疫组化,,文本型,"ER (+++, 80%); PR (+, 55%); AR (+, 90%); C-erbB-2 (−); Ki-67 (+, about 30%); CK5/6 (−); E-cadherin (+); GATA-3 (+); P120 (membrane+)",,,,IHC,LLM提取,论文病例报告,2019-02-14,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,e3c1d5d6-4b49-4f73-9f6a-8d5d8d5b8c33,患者,诊断名称,,类别型,乳腺癌IV期,,cT2N3M1,,,LLM提取,论文病例报告,2019-02-24,诊断,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,e3c1d5d6-4b49-4f73-9f6a-8d5d8d5b8c33,患者,临床分期,,类别型,cT2N3M1,,stage IV,,,LLM提取,论文病例报告,2019-02-24,诊断,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,e3c1d5d6-4b49-4f73-9f6a-8d5d8d5b8c33,患者,HER2状态,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-02-24,诊断,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,e3c1d5d6-4b49-4f73-9f6a-8d5d8d5b8c33,患者,分子标志物,,类别型,HR阳性,,ER阳性；PR阳性,,,LLM提取,论文病例报告,2019-02-24,诊断,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,f8c0a7a2-5b98-4c1d-9d2e-1f8a7b3d4e44,患者,治疗方案,,类别型,Nab-白蛋白紫杉醇,,"200 mg d1,8",mg,,LLM提取,论文病例报告,2019-02-25,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,f8c0a7a2-5b98-4c1d-9d2e-1f8a7b3d4e44,患者,剂量,,数值型,200,200,"d1,8",mg,,LLM提取,论文病例报告,2019-02-25,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,f8c0a7a2-5b98-4c1d-9d2e-1f8a7b3d4e44,患者,用药周期,,文本型,5个周期,,,,,LLM提取,论文病例报告,2019-02-25,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,9d6b4d0c-8e2a-4db8-9b8f-6f7d2a1c5e55,患者,治疗方案,,类别型,氟维司群,,500 mg q4w,mg,,LLM提取,论文病例报告,2019-05-21,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,9d6b4d0c-8e2a-4db8-9b8f-6f7d2a1c5e55,患者,剂量,,数值型,500,500,q4w,mg,,LLM提取,论文病例报告,2019-05-21,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,9d6b4d0c-8e2a-4db8-9b8f-6f7d2a1c5e55,患者,用药周期,,文本型,5个周期,,,,,LLM提取,论文病例报告,2019-05-21,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,3a7b5c6d-9e1f-4a2c-8b3d-7c8e9f0a1b66,患者,疗效评估,,类别型,疾病进展（PD）,,左腋窝及左锁骨上淋巴结进展；PFS 7.1个月,,CT,LLM提取,论文病例报告,2019-09-29,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,3a7b5c6d-9e1f-4a2c-8b3d-7c8e9f0a1b66,患者,评估方法,,类别型,CT,,,,CT,LLM提取,论文病例报告,2019-09-29,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,5b2c6d7e-8f9a-4b0c-9d1e-2f3a4b5c6d77,患者,治疗方案,,类别型,卡培他滨,,1.5 g bid d1-14,g,,LLM提取,论文病例报告,2019-09-30,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,5b2c6d7e-8f9a-4b0c-9d1e-2f3a4b5c6d77,患者,剂量,,数值型,1.5,1.5,bid d1-14,g,,LLM提取,论文病例报告,2019-09-30,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6c7d8e9f-1a2b-4c3d-8e4f-5a6b7c8d9e88,患者,治疗方案,,类别型,氟维司群,,500 mg q4w,mg,,LLM提取,论文病例报告,2019-09-30,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6c7d8e9f-1a2b-4c3d-8e4f-5a6b7c8d9e88,患者,剂量,,数值型,500,500,q4w,mg,,LLM提取,论文病例报告,2019-09-30,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6c7d8e9f-1a2b-4c3d-8e4f-5a6b7c8d9e88,患者,用药周期,,文本型,6-11个周期,,,,,LLM提取,论文病例报告,2019-09-30,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,7e8f9a0b-1c2d-4e3f-8a4b-5c6d7e8f9a99,患者,疗效评估,,类别型,疾病进展（PD）,,PFS 5.4个月,,CT,LLM提取,论文病例报告,2020-03-12,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,7e8f9a0b-1c2d-4e3f-8a4b-5c6d7e8f9a99,患者,评估方法,,类别型,CT,,,,CT,LLM提取,论文病例报告,2020-03-12,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8a9b0c1d-2e3f-4a5b-9c6d-7e8f9a0b1caa,患者,治疗方案,,类别型,FCN-437c,,300 mg qd,mg,,LLM提取,论文病例报告,2020-03-27,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8a9b0c1d-2e3f-4a5b-9c6d-7e8f9a0b1caa,患者,剂量,,数值型,300,300,qd,mg,,LLM提取,论文病例报告,2020-03-27,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,9bac0d1e-2f3a-4b5c-9d6e-7f8a9b0c1dbb,患者,疗效评估,,类别型,疾病进展（PD）,,PFS 2个月,,CT,LLM提取,论文病例报告,2020-05-28,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,9bac0d1e-2f3a-4b5c-9d6e-7f8a9b0c1dbb,患者,评估方法,,类别型,CT,,,,CT,LLM提取,论文病例报告,2020-05-28,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,acbd0e1f-2f3a-4b5c-9d6e-7f8a9b0c1dcc,患者,治疗方案,,类别型,紫杉醇,,"120 mg d1,8",mg,,LLM提取,论文病例报告,2020-05-28,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,acbd0e1f-2f3a-4b5c-9d6e-7f8a9b0c1dcc,患者,剂量,,数值型,120,120,"d1,8",mg,,LLM提取,论文病例报告,2020-05-28,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,bdce0f1a-2b3c-4d5e-9f6a-7b8c9d0e1edd,患者,病理诊断,,文本型,乳腺癌转移灶,,左锁骨上区及左腋窝淋巴结,,超声引导活检,LLM提取,论文病例报告,2020-07-01,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,bdce0f1a-2b3c-4d5e-9f6a-7b8c9d0e1edd,患者,免疫组化,,文本型,"ER (−); PR (−); Her2 (0); Ki-67 (+, 60%); GATA-3 (+); hMAM (−)；ER (+++, 80%); PR (−); AR (+++, 80%); Her2 (0); Ki-67 (+, 60%); EGFR (+); CK5/6 (−)",,,,IHC,LLM提取,论文病例报告,2020-07-01,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,e5df0a1b-2c3d-4e5f-9a6b-7c8d9e0f1aee,淋巴结（左锁骨上）,基因检测结果,,文本型,TMB高；RB1失活突变；PI3K-AKT1与FGF-CCND1通路异常激活；共9个可报告突变,,ATRX S79*；ARID1A G933fs*3；RB1 S397*；AKT1 E17K；PIK3CA H1047R；CCND1扩增；FGF19扩增；FGF4扩增；FGF3扩增；TMB 18 muts/Mb,,FoundationOne CDx/NGS,LLM提取,论文病例报告,2020-07-01,检验,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,f6e0a1b2-3c4d-5e6f-9a7b-8c9d0e1f2aff,患者,治疗方案,,类别型,艾立布林,,"2 mg d1,8",mg,,LLM提取,论文病例报告,2020-08-10,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,f6e0a1b2-3c4d-5e6f-9a7b-8c9d0e1f2aff,患者,剂量,,数值型,2,2,"d1,8",mg,,LLM提取,论文病例报告,2020-08-10,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,f6e0a1b2-3c4d-5e6f-9a7b-8c9d0e1f2aff,患者,用药周期,,文本型,4个周期,,,,,LLM提取,论文病例报告,2020-08-10,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d,患者,疗效评估,,类别型,左腋窝淋巴结缩小,,,,SCT,LLM提取,论文病例报告,2020-09-22,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e,患者,疗效评估,,类别型,疾病进展（PD）,,CT/MRI提示广泛淋巴结进展；PFS 4.3个月,,CT和MRI,LLM提取,论文病例报告,2020-12-21,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e,患者,评估方法,,类别型,CT和MRI,,,,CT和MRI,LLM提取,论文病例报告,2020-12-21,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f,右髂血管淋巴结,病理诊断,,文本型,乳腺癌转移灶,,,,活检,LLM提取,论文病例报告,2020-12-21,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f,右髂血管淋巴结,免疫组化,,文本型,"ER (++, 30%); PR (+, 20%); AR (+++, 80%); Her2 (1+); Ki-67 (+, 30%); SOX10 (−); GATA-3 (+); hMAM (−); Muc-1 (+); Sy (+); CgA (−); CD5/6 (−)",,,,IHC,LLM提取,论文病例报告,2020-12-21,病理,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f80,右髂血管淋巴结,基因检测结果,,文本型,TMB高；未检出RB1失活突变；共16个可报告突变,,MAP2K1 C121S；TET2 R1516*；SGK1 G181R；SMAD4 S32fs*1；PIK3CA H1047R；CDKN2A P114L；AKT1 E17K；TP53 E326*；CDKN2A T79I；CDKN2A R99C；ARID1A G933fs*3；KRAS G13D；FGF4扩增；FGF19扩增；FGF3扩增；CCND1扩增；TMB 19 muts/Mb,,FoundationOne CDx/NGS,LLM提取,论文病例报告,2020-12-21,检验,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8091,患者,放疗方案,,文本型,髂血管淋巴结放疗,,5个周期,,,LLM提取,论文病例报告,2020-12-23,病程,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8091,患者,治疗方案,,类别型,艾立布林,,"2 mg d1,8",mg,,LLM提取,论文病例报告,2020-12-23,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8091,患者,剂量,,数值型,2,2,"d1,8",mg,,LLM提取,论文病例报告,2020-12-23,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8091,患者,用药周期,,文本型,5-7个周期,,,,,LLM提取,论文病例报告,2020-12-23,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8091a2,患者,疗效评估,,类别型,疾病进展（PD）,,PFS 4.3个月,,CT,LLM提取,论文病例报告,2021-02-19,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8091a2,患者,评估方法,,类别型,CT,,,,CT,LLM提取,论文病例报告,2021-02-19,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8091a2b3,患者,治疗方案,,类别型,Nab-白蛋白紫杉醇 + 特瑞普利单抗,,"190 mg d1,d8 + 240 mg d1",,,LLM提取,论文病例报告,2021-02-19,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8091a2b3,患者,治疗方案,,类别型,特瑞普利单抗,,240 mg d1,mg,,LLM提取,论文病例报告,2021-02-19,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8091a2b3,患者,治疗方案,,类别型,Nab-白蛋白紫杉醇,,"190 mg d1,d8",mg,,LLM提取,论文病例报告,2021-02-19,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8091a2b3,患者,剂量,,数值型,190,190,"d1,d8",mg,,LLM提取,论文病例报告,2021-02-19,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,7b8c9d0e-1f2a-3b4c-5d6e-7f8091a2b3c4,患者,疗效评估,,类别型,疾病进展（PD）,,,,,LLM提取,论文病例报告,2021-05-11,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,7b8c9d0e-1f2a-3b4c-5d6e-7f8091a2b3c4,患者,评估方法,,类别型,,,,,,LLM提取,论文病例报告,2021-05-11,评估,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5,患者,治疗方案,,类别型,阿贝西利 + 阿那曲唑,,阿贝西利150 mg po bid；阿那曲唑1 mg po qd,,,LLM提取,论文病例报告,2021-05-11,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5,患者,药品名称,,类别型,阿贝西利,,150 mg po bid,,,LLM提取,论文病例报告,2021-05-11,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5,患者,药品名称,,类别型,阿那曲唑,,1 mg po qd,,,LLM提取,论文病例报告,2021-05-11,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5,患者,剂量,,数值型,150,150,po bid,,,LLM提取,论文病例报告,2021-05-11,用药,v1
+851db07aeda3153f5422a986296e2d9c,edead3fc71775709b876c9a4769def70,8c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5,患者,剂量,,数值型,1,1,po qd,mg,,LLM提取,论文病例报告,2021-05-11,用药,v1

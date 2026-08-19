@@ -1,0 +1,53 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,d2f3d3a8-5d8c-4b4d-9d7f-0b8e8bf5d1a1,患者,入院年龄,,数值型,53,53,,岁,,LLM提取,论文病例报告,2023-10-13,入院,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,d2f3d3a8-5d8c-4b4d-9d7f-0b8e8bf5d1a1,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2023-10-13,病史,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,d2f3d3a8-5d8c-4b4d-9d7f-0b8e8bf5d1a1,患者,职业,,类别型,农民,,,,,LLM提取,论文病例报告,2023-10-13,病史,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,7b4c1a63-6f3f-4f45-9dd8-0c1ec3d0c1a1,患者,主诉,,文本型,间断寒战、发热1月余，10天前发现纵隔肿块,,,,,LLM提取,论文病例报告,2023-10-13,病史,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,7b4c1a63-6f3f-4f45-9dd8-0c1ec3d0c1a1,患者,现病史,,文本型,2023年9月上旬感冒后出现间断寒战、发热，最高体温39℃，伴肩背痛、头晕、头痛；无喷射性呕吐、呼吸困难或胸闷。,,,,,LLM提取,论文病例报告,2023-10-13,病史,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,7b4c1a63-6f3f-4f45-9dd8-0c1ec3d0c1a1,患者,既往史,,文本型,无糖尿病、肿瘤或免疫性疾病史,,,,,LLM提取,论文病例报告,2023-10-13,病史,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,a8f53f86-7f34-4e8c-8c61-1e9ccf1d4b3f,患者,查体/神经精神状态,,文本型,住院后出现意识障碍及反应迟钝,,,,,LLM提取,论文病例报告,2023-10-13,评估,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,f3d8f7d4-0e3e-4a7d-9c2b-9b2d7a6f1d01,胸部增强CT,影像所见,,文本型,双侧肺门及纵隔见多个强化结节/肿块影，最大约5.6 cm × 6.1 cm,,当地医院检查,,增强CT,LLM提取,论文病例报告,2023-10-03,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,f3d8f7d4-0e3e-4a7d-9c2b-9b2d7a6f1d01,胸部增强CT,影像结论,,文本型,双侧肺门及纵隔多发强化结节/肿块，考虑感染性病变但需鉴别肿瘤,,,,增强CT,LLM提取,论文病例报告,2023-10-03,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,9e9dfe2f-6f8f-4c45-ae32-4d2f8e5d5c21,头颅增强CT,影像所见,,文本型,双侧大脑半球及左侧大脑散在多发环形强化结节，伴广泛周围水肿，最大约1.0 cm × 0.9 cm,,门诊检查,,增强CT,LLM提取,论文病例报告,2023-10-10,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,9e9dfe2f-6f8f-4c45-ae32-4d2f8e5d5c21,头颅增强CT,影像结论,,文本型,考虑颅内感染性病灶，需与结核等鉴别,,,,增强CT,LLM提取,论文病例报告,2023-10-10,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,c1a6a4b8-4d9d-4ef3-b8a1-3c1f2f8f7e11,患者,入院日期,,日期型,2023-10-13,,,,,LLM提取,论文病例报告,2023-10-13,入院,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6ad91d9e-2f6e-4f0f-9f2d-3c9f5f0a7b31,血液,白细胞计数,,数值型,6.4,6.4,,×10^9/L,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6ad91d9e-2f6e-4f0f-9f2d-3c9f5f0a7b31,血液,中性粒细胞百分比,,数值型,78.2,78.2,,%,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6ad91d9e-2f6e-4f0f-9f2d-3c9f5f0a7b31,血液,降钙素原,,数值型,0.1,0.1,,ng/mL,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6ad91d9e-2f6e-4f0f-9f2d-3c9f5f0a7b31,血液,丙氨酸氨基转移酶,,数值型,136.1,136.1,,IU/L,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6ad91d9e-2f6e-4f0f-9f2d-3c9f5f0a7b31,血液,天冬氨酸氨基转移酶,,数值型,143.2,143.2,,IU/L,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6ad91d9e-2f6e-4f0f-9f2d-3c9f5f0a7b31,血液,糖类抗原125,,数值型,253.7,253.7,,U/mL,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,b7f4d7a3-0b2d-4ef8-9df7-1f2d3e4a5b61,标本,新冠病毒检测,,类别型,阴性,,,,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,b7f4d7a3-0b2d-4ef8-9df7-1f2d3e4a5b61,标本,痰结核DNA,,类别型,阴性,,,,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,b7f4d7a3-0b2d-4ef8-9df7-1f2d3e4a5b61,标本,隐球菌荚膜抗原,,类别型,阴性,,,,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,b7f4d7a3-0b2d-4ef8-9df7-1f2d3e4a5b61,标本,印度墨汁染色,,类别型,阴性,,,,,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,c6d8f0e1-1f2a-4c3b-9d4e-5f6a7b8c9d01,痰标本,铜绿假单胞菌,,类别型,阳性,,菌量+++,,培养,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,c6d8f0e1-1f2a-4c3b-9d4e-5f6a7b8c9d01,痰标本,酵母样真菌,,类别型,检出,,,,培养,LLM提取,论文病例报告,2023-10-13,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,e0f6b7a8-9c1d-4e2f-8a3b-4c5d6e7f8a91,支气管镜,检查结果,,文本型,未见异常；双侧主支气管及右中间支气管见外压性狭窄,,,,纤维支气管镜,LLM提取,论文病例报告,2023-10-13,其他,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,a1b2c3d4-e5f6-4789-abcd-ef0123456789,患者,初步诊断,,文本型,颅内及纵隔肿块，需进一步检查明确,,,,,LLM提取,论文病例报告,2023-10-13,诊断,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,b2c3d4e5-f607-489a-bcde-f0123456789a,纵隔淋巴结,病理诊断,,文本型,炎性渗出性成分,,EBUS-TBNA标本，未见肿瘤细胞,,EBUS-TBNA,LLM提取,论文病例报告,2023-10-16,病理,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,d3e4f5a6-b718-49ab-cdef-123456789abc,胸部CT,影像所见,,文本型,纵隔肿块较前增大至约7.7 cm，右肺门区可见病灶,,,,CT,LLM提取,论文病例报告,2023-10-19,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,d3e4f5a6-b718-49ab-cdef-123456789abc,胸部CT,影像结论,,文本型,纵隔占位/脓肿较前增大,,,,CT,LLM提取,论文病例报告,2023-10-19,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,e4f5a6b7-c829-4abc-def0-23456789abcd,颅脑MRI,影像所见,,文本型,双侧大脑半球及左侧大脑实质内多发环形强化结节/混杂信号结节，伴大片状水肿，最大约1.0 cm × 0.9 cm,,,,MRI,LLM提取,论文病例报告,2023-10-19,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,e4f5a6b7-c829-4abc-def0-23456789abcd,颅脑MRI,影像结论,,文本型,考虑多发颅内感染性病灶/脓肿,,,,MRI,LLM提取,论文病例报告,2023-10-19,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,f5a6b7c8-d93a-4bcd-ef01-3456789abcde,纵隔穿刺组织,培养结果,,类别型,诺卡菌生长,,确诊病原体,,培养,LLM提取,论文病例报告,2023-10-20,病理,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0a1b2c3d-4e5f-6789-abcd-efabcdef1234,患者,治疗方案,,类别型,复方磺胺甲噁唑（TMP-SMX）,,口服1.44 g，每日3次,,,LLM提取,论文病例报告,2023-10-23,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0a1b2c3d-4e5f-6789-abcd-efabcdef1234,患者,药品名称,,类别型,复方磺胺甲噁唑,,TMP-SMX,,,LLM提取,论文病例报告,2023-10-23,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0a1b2c3d-4e5f-6789-abcd-efabcdef1234,患者,剂量,,数值型,1.44,1.44,,g,,LLM提取,论文病例报告,2023-10-23,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0a1b2c3d-4e5f-6789-abcd-efabcdef1234,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2023-10-23,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0b1c2d3e-4f5a-6789-bcde-f0123456789b,脑脊液,Pandy试验,,类别型,弱阳性,,,,,LLM提取,论文病例报告,2023-10-30,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0b1c2d3e-4f5a-6789-bcde-f0123456789b,脑脊液,总蛋白,,数值型,0.76,0.76,,g/L,,LLM提取,论文病例报告,2023-10-30,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0b1c2d3e-4f5a-6789-bcde-f0123456789b,脑脊液,氯化物,,数值型,113.0,113.0,,mmol/L,,LLM提取,论文病例报告,2023-10-30,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,0b1c2d3e-4f5a-6789-bcde-f0123456789b,脑脊液,mNGS结果,,类别型,EB病毒感染,,,,宏基因组二代测序,LLM提取,论文病例报告,2023-10-30,检验,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,1c2d3e4f-5a6b-789c-bdef-0123456789ab,患者,治疗方案,,类别型,亚胺培南/西司他丁钠 + 利奈唑胺 + 复方磺胺甲噁唑,,三联抗生素方案,,,LLM提取,论文病例报告,2023-10-30,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,1c2d3e4f-5a6b-789c-bdef-0123456789ab,患者,药品名称,,类别型,亚胺培南/西司他丁钠,,静脉1 g，每8小时1次，14天,,,LLM提取,论文病例报告,2023-10-30,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,1c2d3e4f-5a6b-789c-bdef-0123456789ab,患者,药品名称,,类别型,利奈唑胺,,静脉600 mg，每12小时1次，14天,,,LLM提取,论文病例报告,2023-10-30,用药,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,2d3e4f5a-6b7c-89cd-ef01-123456789abd,患者,疗效评估,,类别型,症状明显改善，意识清楚,,两周后,,,LLM提取,论文病例报告,2023-11-13,评估,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,3e4f5a6b-7c8d-9e0f-0123-456789abcdef,患者,出院日期,,日期型,2023-11-17,,,,,LLM提取,论文病例报告,2023-11-17,出院,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,3e4f5a6b-7c8d-9e0f-0123-456789abcdef,患者,出院状况,,类别型,好转出院,,继续口服TMP-SMX,,,LLM提取,论文病例报告,2023-11-17,出院,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,3e4f5a6b-7c8d-9e0f-0123-456789abcdef,患者,出院医嘱,,文本型,继续口服复方磺胺甲噁唑，疗程至少1年；一年后复查,,,,,LLM提取,论文病例报告,2023-11-17,出院,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,4f5a6b7c-8d9e-0f01-1234-56789abcdef0,胸部增强CT,影像所见,,文本型,纵隔病灶较前缩小至约2.7 cm，右肺门区结节较前减小,,,,增强CT,LLM提取,论文病例报告,2024-03-08,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,4f5a6b7c-8d9e-0f01-1234-56789abcdef0,胸部增强CT,影像结论,,文本型,治疗后纵隔脓肿明显缩小,,,,增强CT,LLM提取,论文病例报告,2024-03-08,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,5a6b7c8d-9e0f-1a23-4567-89abcdef0123,颅脑MRI,影像所见,,文本型,脑实质内散在混杂信号结节影，较前明显缩小,,,,MRI,LLM提取,论文病例报告,2024-03-08,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,5a6b7c8d-9e0f-1a23-4567-89abcdef0123,颅脑MRI,影像结论,,文本型,治疗后颅内病灶较前缩小,,,,MRI,LLM提取,论文病例报告,2024-03-08,影像,v1
+444f4ded4e385e99b0cb33ad70a8416d,c8ca5e8be39cdf3c7cf9251170eefa7b,6b7c8d9e-0f12-3456-789a-bcdef0123456,患者,随访结果,,文本型,电话随访时一般情况良好,,2024-08-28,,,LLM提取,论文病例报告,2024-08-28,病程,v1

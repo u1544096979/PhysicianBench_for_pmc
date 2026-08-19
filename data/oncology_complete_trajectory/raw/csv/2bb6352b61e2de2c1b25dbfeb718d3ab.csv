@@ -1,0 +1,54 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,7d9d0d12-3dcb-4c2e-8f2c-2d8f3c52a1f1,患者,入院年龄,,数值型,53,53,,岁,,LLM提取,论文病例报告,2023-02-11,入院,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,7d9d0d12-3dcb-4c2e-8f2c-2d8f3c52a1f1,患者,入院科室,,类别型,神经外科,,Jinhua Hospital Affiliated to Zhejiang University,,,LLM提取,论文病例报告,2023-02-11,入院,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,7d9d0d12-3dcb-4c2e-8f2c-2d8f3c52a1f1,患者,主诉,,文本型,视物模糊3个月，伴右侧面部麻木7天,,,,,LLM提取,论文病例报告,2023-02-11,入院,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,8d5c8d6a-8e2b-46f0-a9f0-1cb7fd6df9f5,患者,现病史,,文本型,视物模糊3个月，伴右侧面部麻木7天；右眼外展受限，直接和间接对光反射存在；四肢肌力、活动及感觉正常。,,,,,LLM提取,论文病例报告,2023-02-11,病史,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,1f7d5c54-5f26-4ec9-9c4c-6a1d16db8b5f,血液,白细胞计数,,数值型,12.53,12.53,,×10^9/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,1f7d5c54-5f26-4ec9-9c4c-6a1d16db8b5f,血液,红细胞计数,,数值型,4.70,4.70,,×10^12/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,1f7d5c54-5f26-4ec9-9c4c-6a1d16db8b5f,血液,血红蛋白,,数值型,141,141,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,1f7d5c54-5f26-4ec9-9c4c-6a1d16db8b5f,血液,血小板计数,,数值型,179,179,,×10^9/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,2d2ec7eb-5d7e-4d7c-8a1d-6e40fdd4b6a4,血液,IgG,,数值型,31.40,31.40,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,2d2ec7eb-5d7e-4d7c-8a1d-6e40fdd4b6a4,血液,IgA,,数值型,1.92,1.92,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,2d2ec7eb-5d7e-4d7c-8a1d-6e40fdd4b6a4,血液,IgM,,数值型,0.58,0.58,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,2d2ec7eb-5d7e-4d7c-8a1d-6e40fdd4b6a4,血液,κ型轻链,,数值型,1.88,1.88,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,2d2ec7eb-5d7e-4d7c-8a1d-6e40fdd4b6a4,血液,λ型轻链,,数值型,6.55,6.55,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,2d2ec7eb-5d7e-4d7c-8a1d-6e40fdd4b6a4,血液,β2-微球蛋白,,数值型,2.82,2.82,,mg/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,5f2f5f1f-1b49-4f9b-b0f2-96a5d4a0e5f8,尿液,κ型轻链,,数值型,5.73,5.73,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,5f2f5f1f-1b49-4f9b-b0f2-96a5d4a0e5f8,尿液,λ型轻链,,数值型,57.46,57.46,,g/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,a9b6c1be-57a3-4e26-8fd4-3c2d3bb58c1d,血清,免疫固定电泳,,文本型,IgG、λ单克隆条带阳性,,提示单克隆浆细胞增殖,,免疫固定电泳,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,a9b6c1be-57a3-4e26-8fd4-3c2d3bb58c1d,尿液,免疫固定电泳,,文本型,λ单克隆条带阳性,,,,免疫固定电泳,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c2c8f8c6-0b7f-4e6e-9f3a-5c3e7f6d2e11,血液,肌酐,,数值型,70.00,70.00,,µmol/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c2c8f8c6-0b7f-4e6e-9f3a-5c3e7f6d2e11,血液,尿酸,,数值型,402.00,402.00,,µmol/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c2c8f8c6-0b7f-4e6e-9f3a-5c3e7f6d2e11,血液,钙,,数值型,2.34,2.34,,mmol/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c2c8f8c6-0b7f-4e6e-9f3a-5c3e7f6d2e11,血液,乳酸脱氢酶,,数值型,153,153,,U/L,,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,d4fd4a3a-5b98-4d76-b55f-8dc4f08b0f44,骨髓（髂骨）,骨髓检查,,文本型,浆细胞系统异常增殖，原幼浆细胞占10.0%，细胞圆形、椭圆形或不规则，胞质深蓝，可见空泡，核染色质粗糙，核仁不清，符合多发性骨髓瘤骨髓象,,,,骨髓涂片/形态学检查,LLM提取,论文病例报告,2023-02-11,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,d4fd4a3a-5b98-4d76-b55f-8dc4f08b0f44,骨髓（髂骨）,骨髓病理,,文本型,原幼浆细胞增多，考虑多发性骨髓瘤,,,,,LLM提取,论文病例报告,2023-02-11,病理,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,9c8e0e3b-6f4f-4f39-8b5c-5a6d8f6f9a10,患者,影像所见,,文本型,右侧颞骨深部见团块样长T1及混杂T2信号影，边界稍欠清，大小约3.5 cm×2.1 cm；DWI高信号，增强后明显不均匀强化，灌注成像示高灌注。,,累及左海绵窦、蝶窦及斜坡,,增强颅脑MRI,LLM提取,论文病例报告,2023-02-14,影像,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,9c8e0e3b-6f4f-4f39-8b5c-5a6d8f6f9a10,患者,影像结论,,文本型,右侧颞骨占位性病变，考虑浆细胞肿瘤可能,,,,增强颅脑MRI,LLM提取,论文病例报告,2023-02-14,影像,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,e0f5a6f3-5f2d-4d1b-8c7d-0a1b2c3d4e5f,患者,手术名称,,类别型,内镜辅助下颅底肿瘤切除术,,经颞下前耳前入路，硬膜外手术,,,LLM提取,论文病例报告,2023-02-21,手术,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,e0f5a6f3-5f2d-4d1b-8c7d-0a1b2c3d4e5f,患者,手术结果,,文本型,肿瘤完整切除,,,,,LLM提取,论文病例报告,2023-02-21,手术,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f1c2d3e4-5a6b-4c7d-8e9f-0123456789ab,肿瘤组织,病理诊断,,文本型,浆细胞瘤，具有中间特征,,原文亦提及“plasmablastic lymphoma”鉴别,,病理学,LLM提取,论文病例报告,2023-02-21,病理,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f1c2d3e4-5a6b-4c7d-8e9f-0123456789ab,肿瘤组织,免疫组化,,文本型,"CD138(-), CD38(-), CD56(-), CD19(-), CD79a(+), CD10(-), Bc1-2(-), Bcl-6(+), Ki-67(+ 95%), MUM1(+), kappa(+), lambda(+), cyclin D1(-), κ轻链(-), λ轻链(+++)",,kappa表达高于lambda,,免疫组化,LLM提取,论文病例报告,2023-02-21,病理,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f1c2d3e4-5a6b-4c7d-8e9f-0123456789ab,患者,术后症状,,文本型,右侧面部麻木改善,,,,,LLM提取,论文病例报告,2023-02-21,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,b7c8d9e0-f1a2-4b3c-9d4e-5f60718293a4,患者,转科,,类别型,血液科,,病情稳定后转科,,,LLM提取,论文病例报告,2023-03-08,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,b7c8d9e0-f1a2-4b3c-9d4e-5f60718293a4,骨髓,骨髓检查,,文本型,浆细胞异常增殖，幼稚浆细胞约10.0%,,,,,LLM提取,论文病例报告,2023-03-08,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c3d4e5f6-7a8b-4c9d-8e0f-1a2b3c4d5e6f,骨髓,骨髓免疫分型,,文本型,单克隆浆细胞增殖，约占有核细胞的2.03%,,染色体分析及FISH阴性,,流式/免疫分型,LLM提取,论文病例报告,2023-03-10,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c3d4e5f6-7a8b-4c9d-8e0f-1a2b3c4d5e6f,全身PET-CT,影像所见,,文本型,多发骨质密度减低伴FDG代谢增高，提示浆细胞肿瘤；颅底术后局部FDG代谢增高。,,,,PET-CT,LLM提取,论文病例报告,2023-03-10,影像,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,c3d4e5f6-7a8b-4c9d-8e0f-1a2b3c4d5e6f,全身PET-CT,影像结论,,文本型,符合浆细胞肿瘤及颅底术后改变,,,,PET-CT,LLM提取,论文病例报告,2023-03-10,影像,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,IgG-λ型多发性骨髓瘤,,Durie-Salmon IIIA期，ISS II期,,,LLM提取,论文病例报告,2023-03-10,诊断,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,d8e9f0a1-b2c3-4d5e-8f90-1a2b3c4d5e6f,患者,治疗方案,,类别型,ixazomib-lenalidomide-dexamethasone（IRD）方案,,每周2次诱导治疗,,,LLM提取,论文病例报告,2023-03-08,用药,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,d8e9f0a1-b2c3-4d5e-8f90-1a2b3c4d5e6f,患者,治疗反应,,类别型,稳定后出院,,无并发症,,,LLM提取,论文病例报告,2023-03-13,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,e7f8a9b0-c1d2-4e3f-8a90-b1c2d3e4f5a6,患者,再入院,,类别型,是,,常规放疗治疗,,,LLM提取,论文病例报告,2023-04-10,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,e7f8a9b0-c1d2-4e3f-8a90-b1c2d3e4f5a6,患者,影像所见,,文本型,术区周围明显强化,,MRI,,MRI,LLM提取,论文病例报告,2023-04-10,影像,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,e7f8a9b0-c1d2-4e3f-8a90-b1c2d3e4f5a6,患者,治疗方案,,类别型,pomalidomide + carfilzomib方案,,建议更换方案,,,LLM提取,论文病例报告,2023-04-10,用药,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,e7f8a9b0-c1d2-4e3f-8a90-b1c2d3e4f5a6,患者,治疗方案,,类别型,继续IRD方案,,因费用原因家属选择继续,,,LLM提取,论文病例报告,2023-04-12,用药,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f9a0b1c2-d3e4-4f5a-8b90-c1d2e3f4a5b6,患者,入院,,类别型,是,,规律化疗,,,LLM提取,论文病例报告,2023-05-13,入院,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f9a0b1c2-d3e4-4f5a-8b90-c1d2e3f4a5b6,血液,IgG,,数值型,21.20,21.20,,g/L,,LLM提取,论文病例报告,2023-05-13,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f9a0b1c2-d3e4-4f5a-8b90-c1d2e3f4a5b6,骨髓,骨髓检查,,文本型,幼稚细胞5%，微小残留病灶3.12%,,,,,LLM提取,论文病例报告,2023-05-13,检验,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f9a0b1c2-d3e4-4f5a-8b90-c1d2e3f4a5b6,骨活检,病理结果,,文本型,Ki-67明显升高，提示预后不良,,,,,LLM提取,论文病例报告,2023-05-13,病理,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,f9a0b1c2-d3e4-4f5a-8b90-c1d2e3f4a5b6,患者,治疗方案,,类别型,ixazomib-pomalidomide-dexamethasone（IPD）方案,,患者及家属拒绝静脉联合多药化疗,,,LLM提取,论文病例报告,2023-05-13,用药,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,aa1bb2cc-3dd4-4ee5-8ff0-112233445566,患者,化疗完成时间,,日期型,2023-05-16,,,,,LLM提取,论文病例报告,2023-05-16,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,aa1bb2cc-3dd4-4ee5-8ff0-112233445566,患者,化疗完成时间,,日期型,2023-06-19,,,,,LLM提取,论文病例报告,2023-06-19,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,aa1bb2cc-3dd4-4ee5-8ff0-112233445566,患者,化疗完成时间,,日期型,2023-07-24,,,,,LLM提取,论文病例报告,2023-07-24,病程,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,aa1bb2cc-3dd4-4ee5-8ff0-112233445566,患者,出院状况,,类别型,一般情况稳定,,化疗后出院,,,LLM提取,论文病例报告,2023-07-24,出院,v1
+2bb6352b61e2de2c1b25dbfeb718d3ab,5adddc2ec4e153eeeebe8ae48f139690_1,bb2cc3dd-4ee5-5ff0-9223-334455667788,患者,随访结果,,文本型,视物模糊和面部麻木明显改善，10个月随访MRI示术区无明显强化或增殖组织，当前一般情况稳定，继续规律治疗。,,,,增强颅脑MRI,LLM提取,论文病例报告,2023-10-01,病程,v1

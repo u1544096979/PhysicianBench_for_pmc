@@ -1,0 +1,42 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,3b3c4a7c-3c44-4db4-b84e-6a6b4b8f8fd1,患者,年龄,,数值型,68,68,,岁,,LLM提取,论文病例报告,2015-10-14,入院,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,3b3c4a7c-3c44-4db4-b84e-6a6b4b8f8fd1,患者,入院科室,,文本型,The First People’s Hospital of Lianyungang,,,,,LLM提取,论文病例报告,2015-10-14,入院,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,3b3c4a7c-3c44-4db4-b84e-6a6b4b8f8fd1,患者,主诉,,文本型,体检发现肝占位3天,,,,,LLM提取,论文病例报告,2015-10-14,入院,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,8dfe8f4f-0b4a-4f44-8b0c-8af9c7c5f7d2,患者,既往史,,文本型,乙型肝炎病毒感染20余年，口服恩替卡韦治疗,,,,,LLM提取,论文病例报告,,病史,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,8dfe8f4f-0b4a-4f44-8b0c-8af9c7c5f7d2,患者,家族史,,文本型,未提及,,,,,LLM提取,论文病例报告,,病史,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,d2e3b4b3-2fbb-46c3-9f89-6f1c0a9e2d1d,患者,诊断名称,,类别型,原发性肝细胞癌,,,,,LLM提取,论文病例报告,2015-10-14,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,d2e3b4b3-2fbb-46c3-9f89-6f1c0a9e2d1d,患者,诊断名称,,类别型,慢性乙型病毒性肝炎感染,,,,,LLM提取,论文病例报告,2015-10-14,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,5f3c8e7d-5c18-4b0a-9f3f-7d0c3f0e6d5a,血清,AFP,,数值型,5.49,5.49,,ng/mL,,LLM提取,论文病例报告,2015-10-14,检验,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,2f7f0b67-4b3d-4d6f-8f1f-6b0f9f3b8c11,患者,治疗方案,,类别型,TACE,,共4次,,,LLM提取,论文病例报告,2015-10-17,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,2f7f0b67-4b3d-4d6f-8f1f-6b0f9f3b8c11,患者,周期数,,数值型,4,4,,次,,LLM提取,论文病例报告,2015-10-17,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,bf6b9a9a-9e4a-4c5d-a8d3-4e4e0f76c2f3,患者,治疗方案,,类别型,CT引导微波消融,,,,,LLM提取,论文病例报告,2016-04-26,手术,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,c6f6b0c7-5f0f-4f7a-8f74-8b9b2f1c1b2a,患者,影像所见,,文本型,腹部增强CT提示右肝新发病灶,,,,CT,LLM提取,论文病例报告,2018-04-06,影像,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,1b7d2c5e-8a5f-4b9f-b7cd-6b8f4c6c1d9e,患者,治疗方案,,类别型,TACE,,再次进行共4次（c-TACE 3次，D-TACE 1次）,,,LLM提取,论文病例报告,2018-04-09,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,1b7d2c5e-8a5f-4b9f-b7cd-6b8f4c6c1d9e,患者,周期数,,数值型,4,4,,次,,LLM提取,论文病例报告,2018-04-09,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,6b2d7c1a-3b4f-4e5a-9f7b-2a1c3d4e5f60,患者,影像结论,,文本型,肝内病灶控制良好，无远处转移,,,,增强CT,LLM提取,论文病例报告,2019-09-18,影像,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,9c3e1d2f-7b4a-4d5c-9f8a-1b2c3d4e5f61,患者,影像所见,,文本型,腹部增强MRI提示多发活动性肝内病灶及多发腹膜后淋巴结转移,,,,MRI,LLM提取,论文病例报告,2019-12-25,影像,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,9c3e1d2f-7b4a-4d5c-9f8a-1b2c3d4e5f61,患者,诊断名称,,类别型,腹膜后淋巴结转移,,,,,LLM提取,论文病例报告,2019-12-25,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,9c3e1d2f-7b4a-4d5c-9f8a-1b2c3d4e5f61,患者,临床分期,,类别型,IIIb期,,,,,LLM提取,论文病例报告,2019-12-25,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,4d1b2c3a-5e6f-4a7b-8c9d-0e1f2a3b4c5d,患者,治疗方案,,类别型,D-TACE,,针对进展性肝内病灶再次实施,,,LLM提取,论文病例报告,2020-04-08,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,7e5f6a1b-2c3d-4e5f-8a9b-0c1d2e3f4a5b,患者,影像所见,,文本型,腹部增强MRI提示肝内转移灶及腹膜后淋巴结转移较前明显增大，胸部CT提示肺转移灶,,,,MRI/CT,LLM提取,论文病例报告,2020-04-08,影像,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,7e5f6a1b-2c3d-4e5f-8a9b-0c1d2e3f4a5b,患者,诊断名称,,类别型,肺转移,,,,,LLM提取,论文病例报告,2020-04-08,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6,患者,治疗方案,,类别型,camrelizumab,,200 mg，每3周1次，首次静脉注射,,,LLM提取,论文病例报告,2020-04-15,用药,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6,患者,剂量,,数值型,200,200,,mg,,LLM提取,论文病例报告,2020-04-15,用药,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6,患者,给药途径,,类别型,静脉注射,,,,,LLM提取,论文病例报告,2020-04-15,用药,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6,患者,用药周期,,文本型,每3周1次,,,,,LLM提取,论文病例报告,2020-04-15,用药,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,d4e5f6a1-b2c3-4d5e-8f9a-0b1c2d3e4f5a,患者,不良反应名称,,类别型,RCCEP,,头、颈、躯干和四肢为主,,,LLM提取,论文病例报告,2020-05-06,不良反应,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,d4e5f6a1-b2c3-4d5e-8f9a-0b1c2d3e4f5a,患者,分级,,类别型,2级,,依据CSCO免疫检查点抑制剂相关毒性管理指南（鼻翼伴反复出血）,,,LLM提取,论文病例报告,2020-12-30,不良反应,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,d4e5f6a1-b2c3-4d5e-8f9a-0b1c2d3e4f5a,患者,处理措施,,文本型,Yunnanbaiyao止血；后续行手术切除,,,,,LLM提取,论文病例报告,2020-12-30,不良反应,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,e6f7a8b9-c0d1-4e2f-8a3b-4c5d6e7f8a9b,患者,手术名称,,类别型,鼻翼病灶切除术,,手术切除鼻翼病灶,,,LLM提取,论文病例报告,2021-01-25,手术,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,e6f7a8b9-c0d1-4e2f-8a3b-4c5d6e7f8a9b,患者,手术结果,,文本型,病灶切除，基底切缘可见癌组织，周围切缘未见癌组织,,,,,LLM提取,论文病例报告,2021-01-25,手术,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a6b,鼻翼病灶标本,病理诊断,,文本型,恶性肿瘤，来源于肝细胞癌转移,,结合组织形态、免疫标志物和临床病史,,术后病理,LLM提取,论文病例报告,2021-01-25,病理,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,治疗方案,,类别型,放疗,,鼻翼残余病灶,,,LLM提取,论文病例报告,2021-03-03,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,治疗方案,,文本型,GTV为鼻翼转移瘤瘤床；pGTV=GTV+0.3 cm；95%PGTV 6000 cGy/30f；3F-3DGRT + 2W,,,,,LLM提取,论文病例报告,2021-03-03,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,治疗反应,,类别型,切口愈合,,术后1个月,,,LLM提取,论文病例报告,2021-04-03,病程,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,b1c2d3e4-f5a6-4789-abcd-0123456789ab,患者,治疗方案,,类别型,camrelizumab,,继续周期性使用,,,LLM提取,论文病例报告,2022-02-20,用药,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,b1c2d3e4-f5a6-4789-abcd-0123456789ab,患者,治疗方案,,类别型,apatinib,,间歇性口服,,,LLM提取,论文病例报告,2022-02-20,用药,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,b1c2d3e4-f5a6-4789-abcd-0123456789ab,患者,疗效评估,,类别型,CR,,mRECIST评估,,mRECIST,LLM提取,论文病例报告,2022-02-20,评估,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,c3d4e5f6-a7b8-49c0-8d1e-2f3a4b5c6d7e,患者,影像所见,,文本型,多发肝内病灶无活性，肺及腹膜后淋巴结转移消失,,,,增强MRI/胸部CT,LLM提取,论文病例报告,2022-02-20,影像,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,c3d4e5f6-a7b8-49c0-8d1e-2f3a4b5c6d7e,患者,诊断名称,,类别型,肺转移消失,,,,,LLM提取,论文病例报告,2022-02-20,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,c3d4e5f6-a7b8-49c0-8d1e-2f3a4b5c6d7e,患者,诊断名称,,类别型,腹膜后淋巴结转移消失,,,,,LLM提取,论文病例报告,2022-02-20,诊断,v1
+490ccf90ee79d18fc2abc233f1e555c7,0f22d4d599edd6cbe1560153cb60f06b_1,c3d4e5f6-a7b8-49c0-8d1e-2f3a4b5c6d7e,患者,诊断名称,,类别型,鼻翼转移灶未复发,,,,,LLM提取,论文病例报告,2022-02-20,诊断,v1

@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,3f4b6f72-0f6d-4b8a-9f45-4a4a6f12a0d1,患者,入院年龄,,数值型,49,49,,岁,,LLM提取,论文病例报告,2010-11-01,入院,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,8f6c3f1f-0d5e-4a90-9f1b-6f8b1b7f2f2a,患者,诊断名称,,类别型,卵巢癌,,转移性,,,LLM提取,论文病例报告,2010-11-01,诊断,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,8f6c3f1f-0d5e-4a90-9f1b-6f8b1b7f2f2a,患者,分期,,类别型,III期,,"pT3b, nN1, M0",,,LLM提取,论文病例报告,2010-11-01,诊断,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,8f6c3f1f-0d5e-4a90-9f1b-6f8b1b7f2f2a,患者,病理类型,,文本型,浆液性腺癌,,G3,,,LLM提取,论文病例报告,2010-11-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,0f4d68b4-8f1b-4b3a-8c4b-2d6f5b3b8c1a,患者,手术名称,,类别型,原发肿瘤减灭术,,初始治疗,,,LLM提取,论文病例报告,2010-11-01,手术,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,9f0f6ef8-93dd-4d8f-8e41-7f6f4b4d2a11,患者,治疗方案,,类别型,标准化疗,,术后,,,LLM提取,论文病例报告,2010-11-01,病程,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,4b0b8f63-1de2-4ff3-8c7b-ffcc2b1e2e31,患者,病程,,文本型,2011年首次进展,,,,,LLM提取,论文病例报告,2011-01-01,病程,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,7f9c3f33-52d8-4b2d-9c7f-5d2f6f1a1b22,患者,诊断名称,,类别型,脾转移,,,,,LLM提取,论文病例报告,2014-02-01,诊断,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,7f9c3f33-52d8-4b2d-9c7f-5d2f6f1a1b22,患者,标本部位,,类别型,脾,,tissue 2,,,LLM提取,论文病例报告,2014-02-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,5ad0a6a1-0d4f-4c7c-9b2a-6d2d8d3e7c44,患者,诊断名称,,类别型,淋巴结转移,,,,,LLM提取,论文病例报告,2014-09-01,诊断,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,5ad0a6a1-0d4f-4c7c-9b2a-6d2d8d3e7c44,患者,标本部位,,类别型,淋巴结,,tissue 3,,,LLM提取,论文病例报告,2014-09-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c3e1d7c4-6c2f-4f1b-9c9a-8f3a7e2d5b55,患者,治疗方案,,类别型,个体化新抗原来源肽疫苗,,compassionate use/individual healing attempt,,,LLM提取,论文病例报告,2014-12-01,用药,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c3e1d7c4-6c2f-4f1b-9c9a-8f3a7e2d5b55,患者,给药途径,,类别型,皮内注射,,下腹部,,,LLM提取,论文病例报告,2014-12-01,用药,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c3e1d7c4-6c2f-4f1b-9c9a-8f3a7e2d5b55,患者,药品名称,,类别型,sargramostim,,"GM-CSF, 250 µg",µg,,LLM提取,论文病例报告,2014-12-01,用药,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c3e1d7c4-6c2f-4f1b-9c9a-8f3a7e2d5b55,患者,治疗周期,,文本型,初始1个月诱导期，随后每月加强；总计47次接种，历时4年2个月,,,,,LLM提取,论文病例报告,2014-12-01,病程,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,d4d2f2e5-8f4f-4d2f-9a4b-2c3d4e5f6a67,患者,影像所见,,文本型,PET/CT发现3个脑转移灶,,,,PET/CT,LLM提取,论文病例报告,2015-03-01,影像,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,e6a7f8b9-1c2d-4e3f-8a5b-6c7d8e9f0a71,患者,手术名称,,类别型,CyberKnife放疗,,3个疗程，1×18 Gy，1×20 Gy,,,LLM提取,论文病例报告,2015-03-01,手术,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,f7b8c9d0-2e3f-4a5b-9c6d-7e8f9a0b1c82,患者,影像结论,,文本型,脑部仅残留1个病灶，较前缩小,,部分缓解（PR）,,PET/CT,LLM提取,论文病例报告,2015-06-01,影像,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,治疗方案,,类别型,Pembrolizumab,,抗PD-1治疗，off-label,,,LLM提取,论文病例报告,2015-06-10,用药,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,周期数,,数值型,4,4,每3或4周1次,次,,LLM提取,论文病例报告,2015-06-10,用药,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,b2c3d4e5-f6a7-4890-abcd-ef1234567890,患者,不良反应名称,,类别型,注射部位红斑,,第10次疫苗后明显,,,LLM提取,论文病例报告,2015-06-01,不良反应,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,b2c3d4e5-f6a7-4890-abcd-ef1234567890,患者,处理措施,,文本型,随后两次注射改用外用imiquimod乳膏并降低sargramostim剂量至83 µg,,,,,LLM提取,论文病例报告,2015-06-01,不良反应,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c4d5e6f7-8901-4abc-bcde-f12345678901,患者,病史,,文本型,出现神经系统症状：认知障碍、右侧偏瘫,,,,,LLM提取,论文病例报告,2015-08-01,病史,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c4d5e6f7-8901-4abc-bcde-f12345678901,患者,治疗方案,,类别型,Pembrolizumab停用,,,,,LLM提取,论文病例报告,2015-08-01,用药,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,c4d5e6f7-8901-4abc-bcde-f12345678901,患者,影像所见,,文本型,颅脑MRI示残留病灶进展并出现新的小转移灶,,,,MRI,LLM提取,论文病例报告,2015-08-01,影像,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,d5e6f7a8-9012-4bcd-cdef-012345678901,患者,手术名称,,类别型,脑转移灶切除术,,R0切除，较大病灶,,,LLM提取,论文病例报告,2015-09-01,手术,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,d5e6f7a8-9012-4bcd-cdef-012345678901,患者,治疗方案,,类别型,放疗,,较小病灶,,,LLM提取,论文病例报告,2015-09-01,手术,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,e7f8a9b0-1234-4cde-def0-123456789012,患者,影像结论,,文本型,MRI解释为假性进展,,,,MRI,LLM提取,论文病例报告,2015-10-01,影像,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,f8a9b0c1-2345-4def-ef01-234567890123,患者,检验项目,,文本型,PBMC样本免疫监测,,2015年11月，第16次疫苗接种时,,ICS,LLM提取,论文病例报告,2015-11-01,检验,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,f8a9b0c1-2345-4def-ef01-234567890123,PBMC,CD4+ T细胞应答,,数值型,30.4,30.4,针对KQLHNGFGSY (MKKS-p.G52S),%,ICS,LLM提取,论文病例报告,2015-11-01,检验,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,f8a9b0c1-2345-4def-ef01-234567890123,PBMC,增殖能力,,类别型,高,,约20% CD4+ T细胞发生分裂,,CFSE proliferation assay,LLM提取,论文病例报告,2015-11-01,检验,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,f8a9b0c1-2345-4def-ef01-234567890123,PBMC,阻断试验结果,,类别型,抗HLA-DQ/DP/DR抗体可阻断抗原识别,,,,CFSE proliferation assay,LLM提取,论文病例报告,2015-11-01,检验,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,aabbccdd-eeff-4012-8899-aabbccddeeff,患者,检验项目,,文本型,B2M基因/蛋白表达,,脑转移灶；同样回顾性分析脾转移和淋巴结转移,,NGS / 免疫组化,LLM提取,论文病例报告,2015-08-01,检验,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,aabbccdd-eeff-4012-8899-aabbccddeeff,患者,检验结果,,类别型,B2M第一外显子纯合缺失,,"伴HLA I位点单倍体缺失（HLA-A*02:01, -B*51:01, C*05:01）",,NGS,LLM提取,论文病例报告,2015-08-01,检验,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,aabbccdd-eeff-4012-8899-aabbccddeeff,脑转移灶,免疫组化,,文本型,B2M缺失,,HLA II为弱/部分表达,,IHC,LLM提取,论文病例报告,2015-08-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,aabbccdd-eeff-4012-8899-aabbccddeeff,脾转移灶,免疫组化,,文本型,B2M缺失,,,,IHC,LLM提取,论文病例报告,2015-08-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,aabbccdd-eeff-4012-8899-aabbccddeeff,淋巴结转移灶,免疫组化,,文本型,B2M轻度缺失,,,,IHC,LLM提取,论文病例报告,2015-08-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,bbccddee-1122-4344-8899-aabbccddeeff,患者,检验结果,,类别型,HLA II表达,,原发灶表达；脑转移灶弱/部分表达,,IHC,LLM提取,论文病例报告,2015-08-01,病理,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,ccddee11-2233-4455-8899-aabbccddeeff,患者,病程,,文本型,2015-10至2019-12期间病情稳定，脑转移灶瘢痕稳定，身体其余部位缓解,,重复PET-CT及脑MRI随访,,影像随访,LLM提取,论文病例报告,2015-10-01,病程,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,ddeeff22-3344-5566-8899-aabbccddeeff,患者,诊断名称,,类别型,放射性诱导滑膜肉瘤,,右髋,,,LLM提取,论文病例报告,2020-04-01,诊断,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,eef00112-3344-5566-8899-aabbccddeeff,患者,死亡,,类别型,死亡,,因滑膜肉瘤进展,,,LLM提取,论文病例报告,2020-12-01,病程,v1
+347ca52b16e8c3c0d5faea66dd0daa6e,036f47a714bf889c8e106825a88897ef_1,eef00112-3344-5566-8899-aabbccddeeff,患者,总生存期,,数值型,120,120,自首次诊断起,月,,LLM提取,论文病例报告,2020-12-01,病程,v1

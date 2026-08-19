@@ -1,0 +1,34 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,3d8c8a51-6d21-4d8a-a65d-8f5d6d9a4a31,患者,入院科室,,类别型,First Affiliated Hospital of Xiamen University,,,,,LLM提取,论文病例报告,2021-02-26,入院,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,3d8c8a51-6d21-4d8a-a65d-8f5d6d9a4a31,患者,入院年龄,,数值型,4岁,4,,岁,,LLM提取,论文病例报告,2021-02-26,入院,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,3d8c8a51-6d21-4d8a-a65d-8f5d6d9a4a31,患者,主诉,,文本型,右侧肋间痛6个月,,,,,LLM提取,论文病例报告,2021-02-26,入院,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,7d5b3c6b-0f5a-4c3b-8d1f-9d3d3a1fd0fe,患者,病史,,文本型,右侧肋间痛6个月；入院时可见右腹部膨隆，右下肋下可触及硬性包块。,,,,,LLM提取,论文病例报告,2021-02-26,病史,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,d0f9fd6d-8fcb-4e7f-8c3d-2dbe0f9d8f0b,患者,CT影像所见,,文本型,右侧腹膜后及肾上腺区见较大恶性肿块，大小约8.9×6.5×4.6 cm；明显影响下腔静脉、双侧肾静脉和右肾动脉，并有腹膜后多发肿大淋巴结。,,,,腹部增强CT,LLM提取,论文病例报告,2021-03-01,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,d0f9fd6d-8fcb-4e7f-8c3d-2dbe0f9d8f0b,患者,CT影像结论,,文本型,考虑神经母细胞瘤可能。,,,,腹部增强CT,LLM提取,论文病例报告,2021-03-01,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,8a0e0f65-9b98-4c1c-9c66-7b4b8d6f1c21,患者,PET-CT影像所见,,文本型,右肾上腺区巨大神经母细胞瘤，包绕右肾动脉、右肾静脉及下腔静脉，并见多发腹膜后淋巴结转移。,,,,PET-CT,LLM提取,论文病例报告,2021-03-04,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,8a0e0f65-9b98-4c1c-9c66-7b4b8d6f1c21,患者,PET-CT影像结论,,文本型,右侧肾上腺神经母细胞瘤伴腹膜后淋巴结转移。,,,,PET-CT,LLM提取,论文病例报告,2021-03-04,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,f6e7f75a-2c5d-4a8b-ae9d-6b5b7c9d1e2f,患者,标本部位,,类别型,腹膜,,,,超声引导穿刺活检,LLM提取,论文病例报告,2021-03-11,病理,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,f6e7f75a-2c5d-4a8b-ae9d-6b5b7c9d1e2f,患者,病理诊断,,文本型,神经母细胞瘤,,,,超声引导穿刺活检,LLM提取,论文病例报告,2021-03-11,病理,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,1c2b3a4d-5e6f-47a8-9b0c-1d2e3f4a5b6c,患者,诊断名称,,类别型,神经母细胞瘤,,评估为III期，高危,,,LLM提取,论文病例报告,2021-03-11,诊断,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,1c2b3a4d-5e6f-47a8-9b0c-1d2e3f4a5b6c,患者,临床分期,,类别型,III期,,,,,LLM提取,论文病例报告,2021-03-11,诊断,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,1c2b3a4d-5e6f-47a8-9b0c-1d2e3f4a5b6c,患者,风险分层,,类别型,高危,,,,,LLM提取,论文病例报告,2021-03-11,诊断,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,1c2b3a4d-5e6f-47a8-9b0c-1d2e3f4a5b6c,患者,分子标志物,,类别型,N-myc扩增阳性,,,,术后病理,LLM提取,论文病例报告,2021-07-09,诊断,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,2d4c6b8a-9e0f-4a1b-8c7d-6f5e4d3c2b1a,骨髓,骨髓活检结果,,文本型,未见转移。,,,,骨髓活检,LLM提取,论文病例报告,2021-03-11,病理,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,e3f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,患者,治疗方案,,类别型,化疗,,术前化疗3个疗程,,,LLM提取,论文病例报告,2021-03-11,病程,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,e3f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,患者,周期数,,数值型,3,3,,疗程,,LLM提取,论文病例报告,2021-03-11,病程,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,c9d8e7f6-a5b4-4c3d-9e8f-7a6b5c4d3e2f,患者,CT影像所见,,文本型,右侧肾上腺肿瘤大小约5.5×3.8×3.1 cm，腹膜后多发肿大淋巴结较前缩小。,,,,腹部增强CT,LLM提取,论文病例报告,2021-06-22,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,c9d8e7f6-a5b4-4c3d-9e8f-7a6b5c4d3e2f,患者,CT影像结论,,文本型,较前病变缩小，具备手术切除条件。,,,,腹部增强CT,LLM提取,论文病例报告,2021-06-22,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,5f6e7d8c-9b0a-4c1d-8e2f-3a4b5c6d7e8f,患者,手术名称,,类别型,腹腔镜右肾上腺神经母细胞瘤切除术,,,,,LLM提取,论文病例报告,2021-07-09,手术,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,5f6e7d8c-9b0a-4c1d-8e2f-3a4b5c6d7e8f,患者,麻醉方式,,类别型,未提及,,,,,LLM提取,论文病例报告,2021-07-09,手术,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,5f6e7d8c-9b0a-4c1d-8e2f-3a4b5c6d7e8f,患者,手术结果,,文本型,完成肿瘤切除及腹膜后/肾门旁淋巴结清扫，术毕放置腹腔引流管。,,,,,LLM提取,论文病例报告,2021-07-09,手术,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,5f6e7d8c-9b0a-4c1d-8e2f-3a4b5c6d7e8f,患者,出血量,,数值型,2单位红细胞输注,2,术中输注红细胞2单位,单位,,LLM提取,论文病例报告,2021-07-09,手术,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,9a8b7c6d-5e4f-4a3b-9c8d-7e6f5a4b3c2d,患者,病理诊断,,文本型,节神经母细胞瘤（ganglioneuroblastoma）,,,,术后病理,LLM提取,论文病例报告,2021-07-09,病理,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,9a8b7c6d-5e4f-4a3b-9c8d-7e6f5a4b3c2d,患者,淋巴结转移,,类别型,阳性,,3/5淋巴结转移,,术后病理,LLM提取,论文病例报告,2021-07-09,病理,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,e1f2d3c4-b5a6-4d7e-8f90-1a2b3c4d5e6f,患者,治疗方案,,类别型,化疗,,术后2周开始，共6个疗程,,,LLM提取,论文病例报告,2021-07-23,病程,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,e1f2d3c4-b5a6-4d7e-8f90-1a2b3c4d5e6f,患者,周期数,,数值型,6,6,,疗程,,LLM提取,论文病例报告,2021-07-23,病程,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,4b3c2d1e-5f6a-4b7c-8d9e-0a1b2c3d4e5f,患者,CT影像所见,,文本型,未见明确肿瘤复发及转移征象。,,,,腹部增强CT,LLM提取,论文病例报告,2021-11-02,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,4b3c2d1e-5f6a-4b7c-8d9e-0a1b2c3d4e5f,患者,CT影像结论,,文本型,未见复发或转移。,,,,腹部增强CT,LLM提取,论文病例报告,2021-11-02,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,7f8e9d0c-1b2a-4c3d-9e0f-1a2b3c4d5e6f,患者,PET-CT影像所见,,文本型,全身未见明确异常高代谢灶。,,,,PET-CT,LLM提取,论文病例报告,2022-01-19,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,7f8e9d0c-1b2a-4c3d-9e0f-1a2b3c4d5e6f,患者,PET-CT影像结论,,文本型,全身未见明确异常高代谢灶。,,,,PET-CT,LLM提取,论文病例报告,2022-01-19,影像,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,a1b2c3d4-e5f6-4789-abcd-0123456789ab,患者,出院状况,,类别型,临床治愈,,完成治疗，继续随访,,,LLM提取,论文病例报告,2022-01-19,出院,v1
+b1901b6ba05769d1c9c8f0eccb70efd6,a9bd1f42a53c85ef84587c621ca39479,a1b2c3d4-e5f6-4789-abcd-0123456789ab,患者,出院诊断,,类别型,神经母细胞瘤（术后）,,,,,LLM提取,论文病例报告,2022-01-19,出院,v1

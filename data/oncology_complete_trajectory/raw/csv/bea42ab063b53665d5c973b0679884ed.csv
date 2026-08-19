@@ -1,0 +1,56 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,7f3f4d8c-9f31-4e8c-8d6c-5c7df6db2d1b,患者,入院科室,,类别型,Pediatric Hematology/Oncology and Stem Cell Transplant Unit,,"NBK Specialized Children's Hospital, Kuwait",,,LLM提取,论文病例报告,2023-11-05,入院,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,7f3f4d8c-9f31-4e8c-8d6c-5c7df6db2d1b,患者,入院年龄,,数值型,16,16,,岁,,LLM提取,论文病例报告,2023-11-05,入院,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,7f3f4d8c-9f31-4e8c-8d6c-5c7df6db2d1b,患者,主诉,,文本型,两周间断性头痛和乏力，随后4天鼻出血,,,,,LLM提取,论文病例报告,2023-11-05,入院,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,d2f1df6d-3f64-4c5f-8b3e-8d8f1dd8f0bb,患者,现病史,,文本型,16岁男孩，入院前两周出现间断性头痛和乏力，随后4天鼻出血；无发热、体重下降或排便习惯改变史,,,,,LLM提取,论文病例报告,2023-11-05,病史,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,d2f1df6d-3f64-4c5f-8b3e-8d8f1dd8f0bb,患者,家族史,,文本型,无特殊家族史；父亲有高血压并长期口服降糖药,,,,,LLM提取,论文病例报告,2023-11-05,病史,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,3e43d65d-7d3d-4a1c-9f8a-6ab5b0c8a0d1,患者,查体,,文本型,苍白，但清醒、定向力正常,,初诊查体,,,LLM提取,论文病例报告,2023-11-05,评估,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,8f8db3a8-47dd-4b86-90c5-2f1d2e8df6f7,全血,Hemoglobin,,数值型,2.9,2.9,参考范围13–17 g/L,g/L,CBC,LLM提取,论文病例报告,2023-11-05,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,8f8db3a8-47dd-4b86-90c5-2f1d2e8df6f7,全血,WBC,,数值型,2.5,2.5,参考范围4–10 ×10^9/L,×10^9/L,CBC,LLM提取,论文病例报告,2023-11-05,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,8f8db3a8-47dd-4b86-90c5-2f1d2e8df6f7,全血,Neutrophils,,类别型,10%,,参考范围40%–80%,,CBC,LLM提取,论文病例报告,2023-11-05,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,8f8db3a8-47dd-4b86-90c5-2f1d2e8df6f7,全血,Lymphocytes,,类别型,44%,,参考范围20%–40%,,CBC,LLM提取,论文病例报告,2023-11-05,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,8f8db3a8-47dd-4b86-90c5-2f1d2e8df6f7,全血,Platelets,,数值型,14,14,参考范围150–410 ×10^9/L,×10^9/L,CBC,LLM提取,论文病例报告,2023-11-05,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,8f8db3a8-47dd-4b86-90c5-2f1d2e8df6f7,全血,Blast cells,,类别型,~35%,,参考范围0%,,血涂片/血细胞分析,LLM提取,论文病例报告,2023-11-05,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,c3b6d4a8-7b8f-4f44-9c7a-4c5f9f6f8f21,患者,诊断名称,,类别型,B细胞急性淋巴细胞白血病,,,,流式细胞术,LLM提取,论文病例报告,2023-11-06,诊断,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,c3b6d4a8-7b8f-4f44-9c7a-4c5f9f6f8f21,患者,分子标志物,,类别型,CD10阳性、CD19阳性、CD20阳性、HLA-DR阳性、TdT阳性,,CD10 88.8%，CD19 92.4%，CD20 75.6%，HLA-DR 97.9%，TdT 73.8%,,流式细胞术,LLM提取,论文病例报告,2023-11-06,诊断,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,c3b6d4a8-7b8f-4f44-9c7a-4c5f9f6f8f21,患者,诊断名称,,类别型,前体B细胞急性淋巴细胞白血病,,CD5阴性、MPO阴性、CD33阴性支持髓系谱系排除,,流式细胞术,LLM提取,论文病例报告,2023-11-06,诊断,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,患者,治疗方案,,类别型,UK ALL 2011 Regimen B诱导治疗,,包括甲氨蝶呤鞘内注射、柔红霉素、长春新碱、地塞米松、6-巯基嘌呤,,,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,甲氨蝶呤,药品名称,,类别型,Methotrexate,,,,鞘内注射,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,甲氨蝶呤,剂量,,数值型,12,12,按日程1、8、28日给药，共3次,mg/次,鞘内注射,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,柔红霉素,药品名称,,类别型,Daunorubicin,,,,静脉注射,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,柔红霉素,剂量,,数值型,46.5,46.5,25 mg/m^2/次,mg/次,静脉注射,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,长春新碱,药品名称,,类别型,Vincristine,,,,静脉注射,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,长春新碱,剂量,,数值型,2,2,1.5 mg/m^2/次,mg/次,静脉注射,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,地塞米松,药品名称,,类别型,Dexamethasone,,,,口服,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,地塞米松,剂量,,数值型,11,11,6 mg/m^2/日,mg/日,口服,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,6-巯基嘌呤,药品名称,,类别型,6-Mercaptopurine,,,,口服,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,9a9b1f77-3b6c-4db2-86f4-2fbf5a3d3d29,6-巯基嘌呤,剂量,,数值型,110,110,75 mg/m^2/日,mg/日,口服,LLM提取,论文病例报告,2023-11-09,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,a7f3b2cb-4f61-4c3c-9e5b-8e0d0f7d2f33,患者,不良反应名称,,类别型,化疗诱导的周围多发性神经病变,,诱导治疗约8个周期后出现进行性左腹股沟区和下肢疼痛，不能行走或负重,,EMG/NCS,LLM提取,论文病例报告,2023-12-02,不良反应,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,a7f3b2cb-4f61-4c3c-9e5b-8e0d0f7d2f33,患者,分级,,类别型,未注明,,,,,LLM提取,论文病例报告,2023-12-02,不良反应,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,b8c4ad6d-6e5d-4e6a-8f7e-9f8a1c2d3e44,右浅腓神经,神经传导检查结果,,文本型,无反应,,踝部,,神经传导检查,LLM提取,论文病例报告,2023-12-03,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,b8c4ad6d-6e5d-4e6a-8f7e-9f8a1c2d3e44,左浅腓感觉神经,神经传导检查结果,,文本型,无反应,,踝部,,神经传导检查,LLM提取,论文病例报告,2023-12-03,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,b8c4ad6d-6e5d-4e6a-8f7e-9f8a1c2d3e44,左腓肠感觉神经,神经传导检查结果,,文本型,无反应,,踝部,,神经传导检查,LLM提取,论文病例报告,2023-12-03,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,c9d5e7f8-1a2b-4c3d-8e9f-0a1b2c3d4e55,患者,影像所见,,文本型,胼胝体压部见两个异常信号灶，T2/FLAIR高信号，DWI轻度弥散受限,,提示细胞毒性病灶,,脑MRI,LLM提取,论文病例报告,2023-12-11,影像,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,c9d5e7f8-1a2b-4c3d-8e9f-0a1b2c3d4e55,患者,影像结论,,文本型,提示广泛化疗相关神经毒性,,,,脑MRI,LLM提取,论文病例报告,2023-12-11,影像,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,d0e1f2a3-b4c5-4d6e-8f90-1a2b3c4d5e66,患者,诊断名称,,类别型,中性粒细胞减少,,诱导治疗后,,,LLM提取,论文病例报告,2023-12-13,诊断,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,d0e1f2a3-b4c5-4d6e-8f90-1a2b3c4d5e66,患者,诊断名称,,类别型,维生素D缺乏,,需补充维生素D,,,LLM提取,论文病例报告,2023-12-13,诊断,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,d0e1f2a3-b4c5-4d6e-8f90-1a2b3c4d5e66,患者,治疗方案,,类别型,维生素D补充,,"50,000 IU，每周一次",,,LLM提取,论文病例报告,2023-12-13,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,e1f2a3b4-c5d6-4e7f-901a-2b3c4d5e6f77,骨髓,病理诊断,,文本型,未见最小残留病灶，原始细胞<5%,,,,骨髓检查,LLM提取,论文病例报告,2023-12-13,病理,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,f2a3b4c5-d6e7-4f80-912a-3b4c5d6e7f88,患者,治疗方案,,类别型,BFM consolidation therapy（无长春新碱）,,因CIPN停用长春新碱,,,LLM提取,论文病例报告,2023-12-25,病程,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,f2a3b4c5-d6e7-4f80-912a-3b4c5d6e7f88,患者,治疗方案,,类别型,interim maintenance therapy（无长春新碱）,,因CIPN停用长春新碱,,,LLM提取,论文病例报告,2023-12-27,病程,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,f2a3b4c5-d6e7-4f80-912a-3b4c5d6e7f88,患者,治疗方案,,类别型,物理治疗,,每周随访并持续2个月,,,LLM提取,论文病例报告,2023-12-25,病程,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,治疗反应,,类别型,神经功能恢复,,下肢反射和感觉完整，步态正常但较慢,,,LLM提取,论文病例报告,2024-06-06,评估,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,1b2c3d4e-5f67-489a-bcde-f0123456789a,患者,治疗方案,,类别型,Blinatumomab,,3个疗程,,,LLM提取,论文病例报告,2024-07-08,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,1b2c3d4e-5f67-489a-bcde-f0123456789a,患者,治疗方案,,类别型,长春新碱再引入,,迟发强化阶段，先按标准剂量50%再于12周间隔后增至足量,,,LLM提取,论文病例报告,2024-07-08,用药,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,1b2c3d4e-5f67-489a-bcde-f0123456789a,患者,治疗反应,,类别型,耐受良好,,再引入长春新碱后无并发症,,,LLM提取,论文病例报告,2024-07-08,评估,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,2c3d4e5f-6789-4abc-def0-123456789abc,患者,检验项目,,文本型,Liver function profile,,正常,,,LLM提取,论文病例报告,2024-10-15,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,2c3d4e5f-6789-4abc-def0-123456789abc,患者,检验项目,,文本型,Renal function profile,,正常,,,LLM提取,论文病例报告,2024-10-15,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,3d4e5f67-89ab-4cde-f012-3456789abcde,全血,Hemoglobin,,数值型,9.6,9.6,,g/dL,CBC,LLM提取,论文病例报告,2024-12-02,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,3d4e5f67-89ab-4cde-f012-3456789abcde,全血,Platelet count,,数值型,211,211,,×10^9/L,CBC,LLM提取,论文病例报告,2024-12-02,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,3d4e5f67-89ab-4cde-f012-3456789abcde,全血,Leucopenia,,数值型,2.4,2.4,白细胞减少,×10^9/L,CBC,LLM提取,论文病例报告,2024-12-02,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,3d4e5f67-89ab-4cde-f012-3456789abcde,全血,Absolute neutropenia,,数值型,0.03,0.03,,×10^9/L,CBC,LLM提取,论文病例报告,2024-12-02,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,3d4e5f67-89ab-4cde-f012-3456789abcde,全血,Absolute monocytosis,,数值型,1.07,1.07,,×10^9/L,CBC,LLM提取,论文病例报告,2024-12-02,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,4e5f6789-abcd-4ef0-1234-56789abcdef0,患者,随访结果,,文本型,较前改善，可在支持下步行短距离,,最近一次随访,,,LLM提取,论文病例报告,2025-02-03,病程,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,5f6789ab-cdef-4012-3456-789abcdef012,脑脊液,细胞学检查结果,,文本型,未见恶性肿瘤细胞,,无白血病原始细胞,,脑脊液细胞学,LLM提取,论文病例报告,2025-02-04,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,5f6789ab-cdef-4012-3456-789abcdef012,全血,Neutrophil count,,数值型,1.46,1.46,,×10^9/L,CBC,LLM提取,论文病例报告,2025-02-03,检验,v1
+bea42ab063b53665d5c973b0679884ed,1eb2df5f67cf014d6bc194c75fb5e8a5_1,5f6789ab-cdef-4012-3456-789abcdef012,全血,Monocyte count,,数值型,0.16,0.16,,×10^9/L,CBC,LLM提取,论文病例报告,2025-02-03,检验,v1

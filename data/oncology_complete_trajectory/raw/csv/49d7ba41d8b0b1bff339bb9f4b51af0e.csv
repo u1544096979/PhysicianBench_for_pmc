@@ -1,0 +1,22 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,3b6c9c8d-0e2e-4d5a-a2c5-2f1c5b9c4f11,患者,入院年龄,,数值型,1.8,1.8,,岁,,LLM提取,论文病例报告,2018-11-28,入院,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,3b6c9c8d-0e2e-4d5a-a2c5-2f1c5b9c4f11,患者,主诉,,文本型,无痛性肉眼血尿5天，伴深褐色尿5天,,,,,LLM提取,论文病例报告,2018-11-28,病史,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,8f7b0f2a-9f7d-4c94-b64f-2e5b2d5d8cf1,患者,检验项目,,类别型,尿常规：红细胞升高,,,,,LLM提取,论文病例报告,2018-11-28,检验,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,8f7b0f2a-9f7d-4c94-b64f-2e5b2d5d8cf1,标本类型：尿液,红细胞,,数值型,40355.9,40355.9,,/UL,,LLM提取,论文病例报告,2018-11-28,检验,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,b0f7e2b2-6c6a-4f4e-8f4d-0d9e7a3a9c22,患者,检验项目,,类别型,血常规/粪便常规/生化/凝血功能/肿瘤标志物：均阴性,,HCG、AFP、CEA均阴性,,,LLM提取,论文病例报告,2018-11-28,检验,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,b0f7e2b2-6c6a-4f4e-8f4d-0d9e7a3a9c22,标本类型：血液,皮质醇,,数值型,1262,1262,,nmol/L,,LLM提取,论文病例报告,2018-11-28,检验,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,b0f7e2b2-6c6a-4f4e-8f4d-0d9e7a3a9c22,标本类型：血液,促肾上腺皮质激素,,数值型,305.6,305.6,,pg/ml,,LLM提取,论文病例报告,2018-11-28,检验,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,5f7b4a3d-9f19-4c0f-9d3e-2c9f1b2d1a33,影像检查,影像所见,,文本型,左肾中下部圆形软组织密度影，约40 HU，大小约4.4 cm×3.9 cm×4.8 cm，边界清楚，增强后轻中度不均匀强化；头颅和肺部无明显异常，双侧髋关节及骶尾椎X线正常,,提示肾母细胞瘤,,增强CT,LLM提取,论文病例报告,2018-12-03,影像,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,a72f6c4e-5d6d-4f9b-8a6b-7d3c2a1f8e44,患者,手术名称,,类别型,左肾肿瘤根治性切除术,,,,全身麻醉,LLM提取,论文病例报告,2018-12-07,手术,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,a72f6c4e-5d6d-4f9b-8a6b-7d3c2a1f8e44,患者,手术结果,,文本型,手术成功，肿瘤与残余肾组织界限清楚；与同侧肾上腺、腹膜及下腔静脉有粘连,,见肾门滋养血管,,,LLM提取,论文病例报告,2018-12-07,手术,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,a72f6c4e-5d6d-4f9b-8a6b-7d3c2a1f8e44,患者,出血量,,数值型,60,60,,ml,,LLM提取,论文病例报告,2018-12-07,手术,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,c1a8f4d2-4e2b-4b2f-9a8a-1d7b6c5f3e55,病理,病理诊断,,文本型,（左肾肿瘤）结合免疫组化结果，诊断为恶性横纹样瘤（MRTK）,,未见肿瘤成分于输尿管残端、肾周脂肪及淋巴结,,组织病理学+免疫组化,LLM提取,论文病例报告,2018-12-07,病理,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,c1a8f4d2-4e2b-4b2f-9a8a-1d7b6c5f3e55,病理,免疫组化,,文本型,"INI-1(-), CyclinD1(+), CK(+), EMA(+), S-100(+), Ki-67热点区约80%(+), Vimentin(+), Desmin(-), CD10(-), Myogenin(-), MyoD1(-), TFE3(-)",,,,,LLM提取,论文病例报告,2018-12-07,病理,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,c1a8f4d2-4e2b-4b2f-9a8a-1d7b6c5f3e55,患者,临床分期,,类别型,II期,,NWTS标准,,,LLM提取,论文病例报告,2018-12-07,诊断,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,d8c3b1a4-7d2e-4c9b-9a6f-2e1a4b6c7d88,患者,出院诊断,,类别型,恶性横纹样肿瘤（MRTK）,,,,,LLM提取,论文病例报告,2018-12-14,出院,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,d8c3b1a4-7d2e-4c9b-9a6f-2e1a4b6c7d88,患者,出院状况,,类别型,好转出院,,术后7天出院,,,LLM提取,论文病例报告,2018-12-14,出院,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,d8c3b1a4-7d2e-4c9b-9a6f-2e1a4b6c7d88,患者,出院医嘱,,文本型,出院后继续化疗,,转至上海复旦儿童医院,,,LLM提取,论文病例报告,2018-12-14,出院,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,e5f8a7b9-2c3d-4e6f-9a1b-7c8d9e0f1a22,药品,药品名称,,类别型,卡铂,,Day1-2；16.7 mg/(kg·d),,,LLM提取,论文病例报告,2019-06-27,用药,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,e5f8a7b9-2c3d-4e6f-9a1b-7c8d9e0f1a22,药品,药品名称,,类别型,依托泊苷,,Day1-3；33.3 mg/(kg·d),,,LLM提取,论文病例报告,2019-06-27,用药,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,e5f8a7b9-2c3d-4e6f-9a1b-7c8d9e0f1a22,药品,药品名称,,类别型,环磷酰胺,,Day1-5；14.7 mg/(kg·d),,,LLM提取,论文病例报告,2019-06-27,用药,v1
+49d7ba41d8b0b1bff339bb9f4b51af0e,37ef2212b1a1b49cd2336d7646ab7940_1,f2b9c8d7-6a5e-4c3b-9d1f-8a7e6c5d4b33,患者,随访结果,,文本型,术后2年1个月无症状，最近随访未见转移,,2020-08-04,,CT,LLM提取,论文病例报告,2020-08-04,病程,v1

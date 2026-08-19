@@ -1,0 +1,23 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,2f5f4a2a-4c1d-4fd7-9f2c-8e7b2b76e1d1,患者,年龄,,数值型,56,56,,岁,,LLM提取,论文病例报告,,病史,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,2f5f4a2a-4c1d-4fd7-9f2c-8e7b2b76e1d1,患者,性别,,类别型,男,,Caucasian,,,LLM提取,论文病例报告,,病史,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,d2f8d4ff-7b7d-4a74-90c7-7b5f8c6b8c4b,患者,主诉,,文本型,非外伤性严重头痛、间歇性恶心,,,,,LLM提取,论文病例报告,2002-01-01,病史,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,0e8a1f9f-8b6a-4a18-93b2-6c8e7fd3a2bb,患者,影像所见,,文本型,脑MRI显示左侧侧脑室后角占位,,,,MRI,LLM提取,论文病例报告,2002-01-01,影像,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,4f6e9f7d-0df6-4c0a-a9e0-2f0d8e6d7b1a,患者,手术名称,,类别型,肿瘤切除术,,首次手术，外院,,,LLM提取,论文病例报告,2002-01-01,手术,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,4f6e9f7d-0df6-4c0a-a9e0-2f0d8e6d7b1a,患者,病理诊断,,文本型,非典型脑膜瘤 WHO II级,,免疫组化提示,,病理学检查+免疫组化,LLM提取,论文病例报告,2002-01-01,病理,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,7d7a6c2d-0d8f-4f7a-a0d6-6c5f1a0d9d3a,患者,并发症,,文本型,肝素诱导性血小板减少症II型、肺栓塞、深静脉血栓、基底节梗死、右侧偏瘫,,术后恢复期,,,LLM提取,论文病例报告,2002-01-01,不良反应,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,5d9d0d2c-4c2e-4e0f-8c1a-6c3b3f2c9b11,患者,症状,,文本型,反复头痛、头晕、共济失调,,距首次脑膜瘤切除约2年后,,,LLM提取,论文病例报告,2004-01-01,病史,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,6d9b8f77-3f0f-4c1d-8f4d-1f7a6a2a9c2d,患者,影像所见,,文本型,脑CT提示脑积水,,,,CT,LLM提取,论文病例报告,2004-01-01,影像,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,8f3a1d4e-7a5b-4a0c-b0db-3d2c7e6b9a10,患者,手术名称,,类别型,脑室腹腔分流术,,,,,LLM提取,论文病例报告,2004-01-01,手术,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,9b2a7c4d-5d7e-4e9b-8f0a-2c1d3b4a5e6f,患者,症状,,文本型,反复头痛、头晕,,,,,LLM提取,论文病例报告,2005-01-01,病史,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e5f,患者,影像所见,,文本型,第四脑室血肿，导水管尾侧及第四脑室背外侧出血性肿瘤,,,,影像学检查,LLM提取,论文病例报告,2005-01-01,影像,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,3e4f5a6b-7c8d-4e9f-9a0b-1c2d3e4f5a6b,患者,手术名称,,类别型,肿瘤切除术,,第四脑室病灶,,,LLM提取,论文病例报告,2005-01-01,手术,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,3e4f5a6b-7c8d-4e9f-9a0b-1c2d3e4f5a6b,患者,病理诊断,,文本型,反复出血性海绵状血管瘤伴退行性变,,,,病理学检查,LLM提取,论文病例报告,2005-01-01,病理,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,a7b8c9d0-e1f2-4a3b-8c9d-0e1f2a3b4c5d,患者,影像所见,,文本型,左侧侧脑室后角肿瘤复发，另见四叠体板区肿瘤,,MRI所见,,MRI,LLM提取,论文病例报告,2008-01-01,影像,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,手术名称,,类别型,肿瘤切除术,,左侧侧脑室病灶,,,LLM提取,论文病例报告,2009-01-01,手术,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,病理诊断,,文本型,碰撞瘤，由非典型脑膜瘤 WHO II级和海绵状血管瘤成分组成,,免疫组化支持：EMA阳性，CD34阳性,,病理学检查+免疫组化,LLM提取,论文病例报告,2009-01-01,病理,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,分子标志物,,类别型,EMA阳性,,,,免疫组化,LLM提取,论文病例报告,2009-01-01,病理,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,分子标志物,,类别型,CD34阳性,,,,免疫组化,LLM提取,论文病例报告,2009-01-01,病理,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,c6d7e8f9-0a1b-4c2d-8e3f-4a5b6c7d8e9f,患者,影像所见,,文本型,术后MRI未见残余肿瘤，四叠体板区肿瘤似乎在退缩,,,,MRI,LLM提取,论文病例报告,2009-01-01,影像,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,d9e8f7a6-b5c4-4d3e-8f9a-0b1c2d3e4f5a,患者,治疗方案,,类别型,未行辅助治疗,,因肿瘤良性且四叠体板区病灶自发退缩,,,LLM提取,论文病例报告,2009-01-01,病程,v1
+ca92dec945c08af0097ee0ea54675823,e81cc53ccaf9f1126c70918c8a85e2c1,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,随访结果,,文本型,5年随访未见肿瘤复发,,,,MRI随访,LLM提取,论文病例报告,2014-01-01,病程,v1

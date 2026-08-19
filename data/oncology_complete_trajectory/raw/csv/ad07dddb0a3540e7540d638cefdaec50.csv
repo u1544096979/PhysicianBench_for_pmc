@@ -1,0 +1,66 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,8a3f0b0e-3d1d-4f8d-9e37-8f0a2b2c2e11,患者,入院年龄,,数值型,43,43,,岁,,LLM提取,论文病例报告,2020-11-01,入院,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,8a3f0b0e-3d1d-4f8d-9e37-8f0a2b2c2e11,患者,入院途径,,类别型,Emergency Department,,,,,LLM提取,论文病例报告,2020-11-01,入院,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,8a3f0b0e-3d1d-4f8d-9e37-8f0a2b2c2e11,患者,主诉,,文本型,三周进行性加重的右侧头痛，伴畏光,,,,,LLM提取,论文病例报告,2020-11-01,入院,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d2c8d9f4-3d4e-4f3a-8d2d-6d1f3b7d5c21,患者,既往史,,文本型,未治疗的血脂异常,,,,,LLM提取,论文病例报告,2020-11-01,病史,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d2c8d9f4-3d4e-4f3a-8d2d-6d1f3b7d5c21,患者,个人史,,文本型,当前吸烟者，20 pack-year 烟草暴露史,,,,,LLM提取,论文病例报告,2020-11-01,病史,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c5bf1d4c-1e9b-4f1c-9d4b-5ed4cf1c0a31,患者,查体,,文本型,焦虑；胸部听诊、腹部检查及神经系统检查无异常,,生命体征：血压119/70 mmHg，心率93 bpm，呼吸频率15 rpm，血氧饱和度97%，体温36.7°C,,,LLM提取,论文病例报告,2020-11-01,评估,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e7c5c3d8-0d4f-4e2f-8d6b-2c8e9d3f7a41,血液,血常规,,类别型,正常,,,,,LLM提取,论文病例报告,2020-11-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e7c5c3d8-0d4f-4e2f-8d6b-2c8e9d3f7a41,血液,肾功能,,类别型,正常,,,,,LLM提取,论文病例报告,2020-11-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e7c5c3d8-0d4f-4e2f-8d6b-2c8e9d3f7a41,血液,肝功能,,类别型,正常,,,,,LLM提取,论文病例报告,2020-11-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f3a9c2d1-6a2a-4dbe-bd3a-1f4a7f6e9d51,影像检查,影像所见,,文本型,脑CT正常，仅见轻度鼻窦炎症,,,,CT,LLM提取,论文病例报告,2020-11-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f3a9c2d1-6a2a-4dbe-bd3a-1f4a7f6e9d51,影像检查,影像结论,,文本型,未见颅内占位性病变,,伴轻度鼻窦炎症,,CT,LLM提取,论文病例报告,2020-11-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,4e7a1c8f-9d2c-4f1a-a3d7-2f5c6b8e0a61,患者,用药,,类别型,非甾体抗炎药,,出院后给予,,,LLM提取,论文病例报告,2020-11-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,8c5d2e1f-3a6b-4d8f-bc2d-1a9f4e7c6b71,患者,影像所见,,文本型,脑MRI仅示鼻旁窦炎性改变，无其他异常,,,,MRI,LLM提取,论文病例报告,2020-11-15,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,8c5d2e1f-3a6b-4d8f-bc2d-1a9f4e7c6b71,患者,影像结论,,文本型,未见明确异常,,鼻旁窦炎性改变,,MRI,LLM提取,论文病例报告,2020-11-15,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,9f1a2b3c-4d5e-4f6a-8b7c-1d2e3f4a5b61,患者,用药,,类别型,赖氨匹林,,轻度改善,,,LLM提取,论文病例报告,2020-11-15,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,7a8b9c0d-1e2f-4a3b-8c9d-0e1f2a3b4c71,患者,查体,,文本型,视野对抗检查示右眼颞侧偏盲；左眼对刺激敏感性弥漫性下降，伴相对传入性瞳孔障碍,,,,眼科检查,LLM提取,论文病例报告,2021-02-01,评估,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d81,影像检查,影像所见,,文本型,鞍区及鞍上区肿块，33.3×44.1×47.3 mm，分叶状、等信号、异质性，向第三脑室底延伸，双侧接触颈内动脉，无海绵窦侵犯；垂体柄/视交叉上移；另见右侧小脑5 mm病灶,,提示快速生长的侵袭性病变,,MRI,LLM提取,论文病例报告,2021-02-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d81,影像检查,影像结论,,文本型,鞍区/鞍上区占位，伴视交叉受压及右侧小脑转移灶可能,,,,MRI,LLM提取,论文病例报告,2021-02-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,皮质醇,,数值型,2.60,2.60,,μg/dl,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,ACTH,,数值型,12.70,12.70,ND-46 pg/ml,pg/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,TSH,,数值型,0.86,0.86,0.35–4.94,μUI/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,游离T4,,数值型,0.54,0.54,0.70–1.48,ng/dl,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,总睾酮,,数值型,0.030,0.030,1.424–9.231,ng/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,LH,,数值型,<0.09,,0.57–12.07,mUI/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,FSH,,数值型,0.35,0.35,0.95–11.95,mUI/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,IGF-1,,数值型,151,151,58.2–219,ng/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e91,血液,泌乳素,,数值型,20.96,20.96,3.46–19.40,ng/ml,,LLM提取,论文病例报告,2021-02-01,检验,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f01,患者,诊断名称,,类别型,继发性甲状腺功能减退,,,,,LLM提取,论文病例报告,2021-02-01,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f01,患者,诊断名称,,类别型,性腺功能减退症,,促性腺激素低下型,,,LLM提取,论文病例报告,2021-02-01,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f01,患者,诊断名称,,类别型,继发性肾上腺功能不全,,临床怀疑,,,LLM提取,论文病例报告,2021-02-01,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f01,患者,诊断名称,,类别型,尿崩症,,后续出现,,,LLM提取,论文病例报告,2021-02-01,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7a11,患者,用药,,类别型,地塞米松,,12 mg/day，用于脑水肿,,,LLM提取,论文病例报告,2021-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7a11,患者,用药,,类别型,左甲状腺素,,50 μg/day,,,LLM提取,论文病例报告,2021-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f7a8b21,患者,诊断名称,,类别型,COVID-19感染,,PCR筛查阳性；无症状,,PCR,LLM提取,论文病例报告,2021-02-01,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f7a8b21,患者,病程,,文本型,入住COVID-19病区，期间无SARS-CoV-2感染症状,,,,,LLM提取,论文病例报告,2021-02-01,病程,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,a7b8c9d0-e1f2-4a3b-9c4d-5e6f7a8b9c31,患者,症状,,文本型,多饮、多尿,,尿量5100 ml/24h；轻度高钠147 mEq/L,,,LLM提取,论文病例报告,2021-02-06,病程,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,a7b8c9d0-e1f2-4a3b-9c4d-5e6f7a8b9c31,患者,诊断名称,,类别型,尿崩症,,拟诊,,,LLM提取,论文病例报告,2021-02-06,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,a7b8c9d0-e1f2-4a3b-9c4d-5e6f7a8b9c31,患者,评估,,文本型,去氨加压素试验后临床改善,,,,治疗性试验,LLM提取,论文病例报告,2021-02-06,评估,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,b8c9d0e1-f2a3-4b5c-9d6e-7f8a9b0c1d41,患者,影像所见,,文本型,胸腹盆CT示左下肺支气管口径变细及肺不张，左侧少量胸腔积液，左肺动脉分支及下叶受累，肺门及隆突下小淋巴结,,提示肺部恶性病变可能,,CT,LLM提取,论文病例报告,2021-02-10,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,b8c9d0e1-f2a3-4b5c-9d6e-7f8a9b0c1d41,患者,影像结论,,文本型,左下肺疑似原发肺癌伴纵隔/肺门淋巴结受累,,,,CT,LLM提取,论文病例报告,2021-02-10,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c9d0e1f2-a3b4-4c5d-9e6f-7a8b9c0d1e51,患者,手术名称,,类别型,经鼻内镜经蝶垂体肿块切除术,,gross-total removal,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c9d0e1f2-a3b4-4c5d-9e6f-7a8b9c0d1e51,患者,手术结果,,文本型,肿瘤全切,,肿瘤高度血管化，包膜性,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c9d0e1f2-a3b4-4c5d-9e6f-7a8b9c0d1e51,患者,病理诊断,,文本型,垂体转移性癌，来源于肺腺癌（乳头状结构）,,CK7、TTF1、Napsin A阳性；CK20阴性,,免疫组化,LLM提取,论文病例报告,2021-03-01,病理,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,c9d0e1f2-a3b4-4c5d-9e6f-7a8b9c0d1e51,患者,诊断名称,,类别型,肺来源转移性癌,,最终病理诊断,,,LLM提取,论文病例报告,2021-03-01,诊断,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,d0e1f2a3-b4c5-4d6e-9f7a-8b9c0d1e2f61,患者,查体,,文本型,术后视力障碍改善，临床状况明显好转,,神经眼科评估示双侧压迫/浸润性视神经病变,,,LLM提取,论文病例报告,2021-03-02,评估,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e1f2a3b4-c5d6-4e7f-9a8b-0c1d2e3f4a71,影像检查,影像所见,,文本型,术后MRI显示鞍区及鞍上区病灶几乎完全切除，无残余肿瘤；视路水肿完全消退,,,,MRI,LLM提取,论文病例报告,2021-03-02,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,e1f2a3b4-c5d6-4e7f-9a8b-0c1d2e3f4a71,影像检查,影像结论,,文本型,术后完全切除，无残留,,,,MRI,LLM提取,论文病例报告,2021-03-02,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b81,患者,治疗方案,,类别型,立体定向放射外科,,小脑病灶15 Gy单次；鞍区25 Gy/5次,,,LLM提取,论文病例报告,2021-03-15,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b81,患者,治疗方案,,类别型,化疗,,顺铂+培美曲塞辅助化疗,,,LLM提取,论文病例报告,2021-06-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b81,患者,药品名称,,类别型,顺铂,,,,,LLM提取,论文病例报告,2021-06-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b81,患者,药品名称,,类别型,培美曲塞,,,,,LLM提取,论文病例报告,2021-06-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b81,患者,放疗,,类别型,右腹股沟病灶放疗,,,,,LLM提取,论文病例报告,2021-06-01,病程,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,g3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c91,影像检查,影像所见,,文本型,FDG-PET显示左肺局灶FDG摄取及多发肌皮肤转移灶,,化疗前评估,,FDG-PET,LLM提取,论文病例报告,2021-05-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,g3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c91,影像检查,影像结论,,文本型,存在肺部及多发软组织转移,,,,FDG-PET,LLM提取,论文病例报告,2021-05-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,h4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d01,患者,评估,,文本型,两个月后肺部病灶缩小，肌皮肤病灶完全缓解,,FDG-PET证实,,FDG-PET,LLM提取,论文病例报告,2021-08-01,评估,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,h4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d01,患者,不良反应名称,,类别型,急性肾损伤,,归因于顺铂和培美曲塞,,,LLM提取,论文病例报告,2021-09-01,不良反应,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,h4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d01,患者,处理措施,,文本型,停用顺铂和培美曲塞,,,,,LLM提取,论文病例报告,2021-09-01,不良反应,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,i5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e11,患者,治疗方案,,类别型,免疫治疗,,nivolumab二线治疗,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,i5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e11,患者,药品名称,,类别型,nivolumab,,,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,j6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f21,患者,用药,,类别型,氢化可的松,,20 mg/day,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,j6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f21,患者,用药,,类别型,左甲状腺素,,50 μg/day,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,j6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f21,患者,用药,,类别型,去氨加压素舌下片,,0.30 mg/day,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,j6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f21,患者,用药,,类别型,睾酮,,肌注250 mg/月,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,k7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a31,影像检查,影像所见,,文本型,垂体MRI示肿瘤局部复发；胸腹盆CT示肺部病灶增大,,提示疾病进展,,MRI/CT,LLM提取,论文病例报告,2022-01-01,影像,v1
+ad07dddb0a3540e7540d638cefdaec50,5030962f329e585bc99b0bd80a8b8cad,k7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a31,影像检查,影像结论,,文本型,肿瘤复发及肺部病灶进展,,,,MRI/CT,LLM提取,论文病例报告,2022-01-01,影像,v1

@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,7d1f0c11-7f0b-4c3c-a4a8-4c6f8a1b6a10,患者,既往史,,文本型,2012年发生过下壁急性心肌梗死，随后接受冠状动脉介入治疗,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,7d1f0c11-7f0b-4c3c-a4a8-4c6f8a1b6a10,患者,治疗结果,,文本型,急诊/原发性球囊扩张及两枚重叠药物洗脱支架置入后恢复,,右冠状动脉近段重度病变,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,7d1f0c11-7f0b-4c3c-a4a8-4c6f8a1b6a10,患者,手术名称,,类别型,原发性血管成形术,,,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,8f9c0f7d-0e41-4c52-8b1f-2f4d7beac9c2,患者,入院年龄,,数值型,65,65,,岁,,LLM提取,论文病例报告,2017-01-01,入院,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,8f9c0f7d-0e41-4c52-8b1f-2f4d7beac9c2,患者,入院原因,,文本型,因乙状结肠肿瘤手术入院,,,,,LLM提取,论文病例报告,2017-01-01,入院,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,8f9c0f7d-0e41-4c52-8b1f-2f4d7beac9c2,患者,既往史,,文本型,高血压；旧心肌梗死,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,3bf9d2a8-9c2e-4c3f-bb7c-4e2d5b5d1f35,患者,手术名称,,类别型,乙状结肠肿瘤手术,,,,,LLM提取,论文病例报告,2017-01-26T13:30,手术,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,3bf9d2a8-9c2e-4c3f-bb7c-4e2d5b5d1f35,患者,手术结果,,文本型,手术顺利完成,,,,,LLM提取,论文病例报告,2017-01-26T13:30,手术,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,9c3c0c9a-5d6d-4a2f-b7d8-2d1d0a5c9f8a,患者,主诉,,文本型,术后恢复室出现胸痛,,伴ST段抬高,,心电图,LLM提取,论文病例报告,2017-01-26T14:51,病程,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,9c3c0c9a-5d6d-4a2f-b7d8-2d1d0a5c9f8a,患者,诊断名称,,类别型,急性冠脉综合征,,,,,LLM提取,论文病例报告,2017-01-26T14:51,诊断,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,9c3c0c9a-5d6d-4a2f-b7d8-2d1d0a5c9f8a,心电图,影像所见,,文本型,ST段抬高,,下壁及前外侧导联,,,LLM提取,论文病例报告,2017-01-26T14:51,影像,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d7c2d6e9-3b58-4f0c-a7ad-8bdb7fbeb1c3,患者,血压,,文本型,112/63,,,mmHg,,LLM提取,论文病例报告,2017-01-26T14:51,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d7c2d6e9-3b58-4f0c-a7ad-8bdb7fbeb1c3,患者,心率,,数值型,108,108,,次/分,,LLM提取,论文病例报告,2017-01-26T14:51,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d7c2d6e9-3b58-4f0c-a7ad-8bdb7fbeb1c3,患者,血氧饱和度,,数值型,98,98,室温空气,%,,LLM提取,论文病例报告,2017-01-26T14:51,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d7c2d6e9-3b58-4f0c-a7ad-8bdb7fbeb1c3,患者,查体,,文本型,心律齐，S1和S2正常，未闻及杂音，双肺清晰，手术切口无异常,,,,,LLM提取,论文病例报告,2017-01-26T14:51,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,e8b1d5c2-5b73-4d5f-9a43-1b9b8f9d5b11,血液,肌钙蛋白I,,数值型,657,657,上限<14,ng/mL,,LLM提取,论文病例报告,2017-01-26T14:51,检验,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,e8b1d5c2-5b73-4d5f-9a43-1b9b8f9d5b11,血液,总肌酸磷酸激酶,,数值型,450,450,上限<192,U/L,,LLM提取,论文病例报告,2017-01-26T14:51,检验,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,e8b1d5c2-5b73-4d5f-9a43-1b9b8f9d5b11,血液,CKP质量,,数值型,20.45,20.45,上限<3.61,ng/mL,,LLM提取,论文病例报告,2017-01-26T14:51,检验,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,e8b1d5c2-5b73-4d5f-9a43-1b9b8f9d5b11,血液,血红蛋白,,数值型,12.3,12.3,,g/dL,,LLM提取,论文病例报告,2017-01-26T14:51,检验,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c6c7a3d8-1d3f-4ef5-bc2e-8a3f5f8b9c77,患者,药品名称,,类别型,阿司匹林,,500 mg,,静脉/口服未详,LLM提取,论文病例报告,2017-01-26T14:51,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c6c7a3d8-1d3f-4ef5-bc2e-8a3f5f8b9c77,患者,药品名称,,类别型,氯吡格雷,,600 mg,,,LLM提取,论文病例报告,2017-01-26T14:51,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c6c7a3d8-1d3f-4ef5-bc2e-8a3f5f8b9c77,患者,药品名称,,类别型,阿托伐他汀,,80 mg,,,LLM提取,论文病例报告,2017-01-26T14:51,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c6c7a3d8-1d3f-4ef5-bc2e-8a3f5f8b9c77,患者,药品名称,,类别型,比索洛尔,,2.5 mg,,,LLM提取,论文病例报告,2017-01-26T14:51,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c6c7a3d8-1d3f-4ef5-bc2e-8a3f5f8b9c77,患者,药品名称,,类别型,阿片类药物,,,,,LLM提取,论文病例报告,2017-01-26T14:51,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c6c7a3d8-1d3f-4ef5-bc2e-8a3f5f8b9c77,患者,药品名称,,类别型,静脉硝酸甘油,,,,静脉给药,LLM提取,论文病例报告,2017-01-26T14:51,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,6a2b1f3e-4d90-4cc6-8d39-9f8f9e5a1a22,患者,诊断名称,,类别型,Takotsubo心肌病,,拟诊,,,LLM提取,论文病例报告,2017-01-28,诊断,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,6a2b1f3e-4d90-4cc6-8d39-9f8f9e5a1a22,冠状动脉造影,影像所见,,文本型,未见任何冠状动脉病变,,,,,LLM提取,论文病例报告,2017-01-28,影像,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,6a2b1f3e-4d90-4cc6-8d39-9f8f9e5a1a22,患者,疗效评估,,类别型,Takotsubo心肌病,,依据超声心动图与冠脉造影,,临床综合判断,LLM提取,论文病例报告,2017-01-28,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,b1d7c4f0-8a2e-4d4f-9b3b-6d0a7a2f4c55,患者,检查结果,,文本型,左室中段至心尖段运动异常、球囊样扩张；下间隔及下壁运动异常；左室收缩功能受损,,EF 40%,,经胸超声心动图,LLM提取,论文病例报告,2017-01-27,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,b1d7c4f0-8a2e-4d4f-9b3b-6d0a7a2f4c55,患者,左室射血分数,,数值型,40,40,,%,经胸超声心动图,LLM提取,论文病例报告,2017-01-27,评估,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,f2c8a1d9-0f3b-4e1d-9a2d-7f4c3b9e8d66,患者,检查结果,,文本型,未发现冠状动脉病变,,,,冠状动脉造影,LLM提取,论文病例报告,2017-01-28,影像,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,a3d4e5f6-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,检查结果,,文本型,中段及心尖段左室出现高信号，提示心肌水肿；未见延迟强化,,存在陈旧性心肌瘢痕（下间隔及下壁延迟强化）,,心脏磁共振（T2加权STIR、钆增强）,LLM提取,论文病例报告,2017-01-30,影像,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,a3d4e5f6-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,诊断名称,,类别型,Takotsubo心肌病,,CMRI确认,,,LLM提取,论文病例报告,2017-01-30,诊断,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,a3d4e5f6-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,诊断名称,,类别型,急性缺血性损伤,,已排除,,心脏磁共振,LLM提取,论文病例报告,2017-01-30,诊断,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c9e8f7a6-5b4c-4d3e-9f0a-1b2c3d4e5f6a,患者,药品名称,,类别型,氯吡格雷,,停用,,,LLM提取,论文病例报告,2017-01-30,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c9e8f7a6-5b4c-4d3e-9f0a-1b2c3d4e5f6a,患者,药品名称,,类别型,依那普利,,5 mg bid,,,LLM提取,论文病例报告,2017-01-30,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c9e8f7a6-5b4c-4d3e-9f0a-1b2c3d4e5f6a,患者,药品名称,,类别型,比索洛尔,,,,,LLM提取,论文病例报告,2017-01-30,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,c9e8f7a6-5b4c-4d3e-9f0a-1b2c3d4e5f6a,患者,药品名称,,类别型,阿司匹林,,100 mg qd,,,LLM提取,论文病例报告,2017-01-30,用药,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d5e6f7a8-9b0c-4d1e-8f2a-3b4c5d6e7f80,患者,出院状况,,类别型,无症状,,,,,LLM提取,论文病例报告,2017-02-06,出院,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d5e6f7a8-9b0c-4d1e-8f2a-3b4c5d6e7f80,患者,住院天数,,数值型,11,11,2017-01-26至2017-02-06,天,,LLM提取,论文病例报告,2017-02-06,出院,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d5e6f7a8-9b0c-4d1e-8f2a-3b4c5d6e7f80,患者,出院诊断,,类别型,Takotsubo心肌病,,,,,LLM提取,论文病例报告,2017-02-06,出院,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,d5e6f7a8-9b0c-4d1e-8f2a-3b4c5d6e7f80,患者,出院医嘱,,文本型,继续使用依那普利、比索洛尔和阿司匹林；症状消失后出院,,,,,LLM提取,论文病例报告,2017-02-06,出院,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,e1f2a3b4-c5d6-4e7f-8091-2a3b4c5d6e7f,患者,检查结果,,文本型,左室中段至心尖段收缩异常消失、心肌水肿回退、整体左室收缩功能恢复正常,,CMRI随访,,心脏磁共振,LLM提取,论文病例报告,2017-04-03,影像,v1
+bdac60e511a68903b3da6e83686c036c,3df27e1fc7b1b193ff812e2be177daca_1,e1f2a3b4-c5d6-4e7f-8091-2a3b4c5d6e7f,患者,左室射血分数,,文本型,正常,,,,心脏磁共振,LLM提取,论文病例报告,2017-04-03,评估,v1

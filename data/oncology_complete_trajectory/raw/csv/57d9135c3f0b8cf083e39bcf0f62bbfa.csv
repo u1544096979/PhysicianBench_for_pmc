@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,7d8e8cb3-0a7d-4d6e-9f2f-3f1c0b0e6f01,患者,入院年龄,,数值型,46,46,,岁,,LLM提取,论文病例报告,2013-08-02,入院,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,2c3a4a7f-1f38-4baf-8f0d-4d9d7e9c7b02,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2011-09-01,病史,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,2c3a4a7f-1f38-4baf-8f0d-4d9d7e9c7b02,患者,主诉,,文本型,右乳癌，后出现肺部及纵隔/肺门淋巴结复发转移,,,,,LLM提取,论文病例报告,2011-09-01,病史,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,f8b8c9f2-9f9a-4f36-9d2d-6b0a9c1d7a03,患者,诊断名称,,类别型,右乳癌,,临床分期T2N3M0，Stage III；病理提示腺癌；ER/PR/Her-2=(2+/2+/−),,,LLM提取,论文病例报告,2011-09-01,诊断,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,f8b8c9f2-9f9a-4f36-9d2d-6b0a9c1d7a03,患者,临床分期,,类别型,T2N3M0,,Stage III,,,LLM提取,论文病例报告,2011-09-01,诊断,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,f8b8c9f2-9f9a-4f36-9d2d-6b0a9c1d7a03,患者,病理诊断,,文本型,腺癌,,ER/PR/Her-2=(2+/2+/−),,,LLM提取,论文病例报告,2011-09-01,病理,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,f8b8c9f2-9f9a-4f36-9d2d-6b0a9c1d7a03,患者,分子标志物,,类别型,ER/PR/Her-2,,2+/2+/−,,,LLM提取,论文病例报告,2011-09-01,诊断,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,d0b6d0c7-7f0c-4c8d-9f2d-2b7f0e9b0a04,患者,治疗方案,,类别型,新辅助化疗,,Adriamycin + cyclophosphamide 4个周期，docetaxel 4个周期,,,LLM提取,论文病例报告,2011-09-16,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,d0b6d0c7-7f0c-4c8d-9f2d-2b7f0e9b0a04,患者,周期数,,数值型,8,8,总计8个周期,周期,,LLM提取,论文病例报告,2011-09-16,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,d0b6d0c7-7f0c-4c8d-9f2d-2b7f0e9b0a04,患者,药品名称,,类别型,Adriamycin,,联合cyclophosphamide,,,LLM提取,论文病例报告,2011-09-16,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,d0b6d0c7-7f0c-4c8d-9f2d-2b7f0e9b0a04,患者,药品名称,,类别型,cyclophosphamide,,联合Adriamycin,,,LLM提取,论文病例报告,2011-09-16,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,d0b6d0c7-7f0c-4c8d-9f2d-2b7f0e9b0a04,患者,药品名称,,类别型,docetaxel,,后4个周期,,,LLM提取,论文病例报告,2011-09-16,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,8f9e5f1a-7a6b-4c9d-8a2f-9f0a1b2c3d05,患者,手术名称,,类别型,右乳保乳手术,,breast conservation surgery,,,LLM提取,论文病例报告,2012-03-07,手术,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9a0b1c2d-3e4f-5678-9abc-def012345678,患者,治疗方案,,类别型,辅助放疗,,5600 cGy/28 fx,,,LLM提取,论文病例报告,2012-04-04,病程,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9a0b1c2d-3e4f-5678-9abc-def012345678,患者,治疗方案,,类别型,放疗,,5600 cGy/28 fx,,,LLM提取,论文病例报告,2012-04-04,病程,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,1b2c3d4e-5f67-48a9-b0c1-d2e3f4050607,患者,影像所见,,文本型,右上肺结节较前增大至13.4 mm，PET-CT示右上肺高代谢结节及右肺门局灶高代谢灶,,提示复发/转移,,CT; PET-CT,LLM提取,论文病例报告,2013-06-27,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,1b2c3d4e-5f67-48a9-b0c1-d2e3f4050607,患者,影像结论,,文本型,右上肺及右肺门病灶考虑复发/转移,,,,PET-CT,LLM提取,论文病例报告,2013-06-27,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,3c4d5e6f-7081-49a2-b3c4-d5e6f7081920,患者,手术名称,,类别型,右上肺结节楔形切除术,,诊断性切除,,,LLM提取,论文病例报告,2013-07-08,手术,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,3c4d5e6f-7081-49a2-b3c4-d5e6f7081920,患者,病理诊断,,文本型,转移性腺癌,,切除的右上肺结节病理结果,,,LLM提取,论文病例报告,2013-07-08,病理,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,4d5e6f70-8192-4a3b-c4d5-e6f708192021,患者,治疗方案,,类别型,韩医学治疗,,替代化疗,,,LLM提取,论文病例报告,2013-08-02,病程,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,4d5e6f70-8192-4a3b-c4d5-e6f708192021,患者,药品名称,,类别型,wild ginseng pharmacopuncture (WGP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2013-08-02,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,4d5e6f70-8192-4a3b-c4d5-e6f708192021,患者,药品名称,,类别型,Cordyceps sinensis pharmacopuncture (CSP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2013-08-02,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,4d5e6f70-8192-4a3b-c4d5-e6f708192021,患者,药品名称,,类别型,Trichosanthes kirilowii pharmacopuncture (TKP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2013-08-02,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,4d5e6f70-8192-4a3b-c4d5-e6f708192021,患者,药品名称,,类别型,Euonymus alatus pharmacopuncture (EAP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2013-08-02,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,4d5e6f70-8192-4a3b-c4d5-e6f708192021,患者,药品名称,,类别型,Astragalus membranaceus pharmacopuncture (AMP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2013-08-02,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,5e6f7081-9203-4a4b-c5d6-e7f8091a2b32,患者,影像所见,,文本型,未见复发征象,,CT结果,,CT,LLM提取,论文病例报告,2013-09-09,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,6f708192-a3b4-4c5d-d6e7-f8091a2b3c43,患者,影像所见,,文本型,右气管旁、肺门间及隆突下区见约15 mm淋巴结,,新发淋巴结肿大,,CT,LLM提取,论文病例报告,2013-12-02,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,6f708192-a3b4-4c5d-d6e7-f8091a2b3c43,患者,影像结论,,文本型,新发纵隔/肺门淋巴结肿大,,,,CT,LLM提取,论文病例报告,2013-12-02,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,7a8192a3-b4c5-4d6e-e7f8-091a2b3c4d54,患者,药品名称,,类别型,Prunella vulgaris pharmacopuncture (PVP),,替代AMP开始使用,,,LLM提取,论文病例报告,2013-12-02,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,8b92a3b4-c5d6-4e7f-f809-1a2b3c4d5e65,患者,影像所见,,文本型,增大的淋巴结均缩小至10 mm以下,,随访CT,,CT,LLM提取,论文病例报告,2014-05-30,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,8b92a3b4-c5d6-4e7f-f809-1a2b3c4d5e65,患者,影像结论,,文本型,病灶较前缩小,,PET-CT同日未见全身FDG明显增高,,CT; PET-CT,LLM提取,论文病例报告,2014-05-30,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9c3b4d5e-e6f7-4091-a2b3-c4d5e6f70819,患者,治疗方案,,类别型,维持性韩医学治疗,,WGP + EAP + Soram nebulizer solution + Soramdan S + Hangamdan S,,,LLM提取,论文病例报告,2014-07-01,病程,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9c3b4d5e-e6f7-4091-a2b3-c4d5e6f70819,患者,药品名称,,类别型,wild ginseng pharmacopuncture (WGP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2014-07-01,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9c3b4d5e-e6f7-4091-a2b3-c4d5e6f70819,患者,药品名称,,类别型,Euonymus alatus pharmacopuncture (EAP),,"10 ml, 每周3次",,,LLM提取,论文病例报告,2014-07-01,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9c3b4d5e-e6f7-4091-a2b3-c4d5e6f70819,患者,药品名称,,类别型,Soram nebulizer solution inhalation,,"8 ml, 每周3次",,,LLM提取,论文病例报告,2014-07-01,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9c3b4d5e-e6f7-4091-a2b3-c4d5e6f70819,患者,药品名称,,类别型,Soramdan S,,"8 g, 每周3次",,,LLM提取,论文病例报告,2014-07-01,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,9c3b4d5e-e6f7-4091-a2b3-c4d5e6f70819,患者,药品名称,,类别型,Hangamdan S,,"1 g, 每日3次",,,LLM提取,论文病例报告,2014-07-01,用药,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,0a1b2c3d-4e5f-4697-8a9b-0c1d2e3f4a56,患者,影像所见,,文本型,全身未见复发,,PET-CT,,PET-CT,LLM提取,论文病例报告,2014-11-14,影像,v1
+57d9135c3f0b8cf083e39bcf0f62bbfa,a43ed6b3ad0642f434e93f8682a4cda3,0a1b2c3d-4e5f-4697-8a9b-0c1d2e3f4a56,患者,影像结论,,文本型,完全缓解,,PET-CT证实,,PET-CT,LLM提取,论文病例报告,2014-11-14,影像,v1

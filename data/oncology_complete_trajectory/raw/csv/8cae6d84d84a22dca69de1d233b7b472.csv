@@ -1,0 +1,22 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,2f6c6f8c-6e0d-4a0b-9ed8-6f6e9a8a8d31,患者,入院年龄,,数值型,76,76,,岁,,LLM提取,论文病例报告,2008-10-01,入院,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,6e9f7f6e-5a49-4f24-b1b0-7d3b8b0c0d66,患者,主诉,,文本型,血尿（排尿开始时出现）、尿流变细、可触及远端尿道小肿物,,,,,LLM提取,论文病例报告,2008-10-01,病史,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,8b5b46d5-0d8a-4c8e-86f4-3cc98e0d9f91,患者,查体,,文本型,阴茎触诊见远端尿道口下方偏周边部位约2 cm直径的椭圆形、无痛、质硬肿物,,,,体格检查,LLM提取,论文病例报告,2008-10-01,评估,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,c6d5e4f5-7e36-4d62-a5aa-8e6f8c5d2c4b,阴茎超声,影像所见,,文本型,远端阴茎尿道处见边界清楚的低回声区，约2.5×1.5 cm,,,cm,超声检查,LLM提取,论文病例报告,2008-10-01,影像,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,d4f8cf0a-5d7d-4b5d-9f4b-6e3d9f5f2b7a,患者,影像所见,,文本型,上尿路及膀胱超声未见病理性改变,,,,超声检查,LLM提取,论文病例报告,2008-10-01,影像,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,d9f1a2b3-4c5d-4e6f-8a7b-9c0d1e2f3a4b,患者,诊断名称,,类别型,前尿道肿瘤,,初步诊断,,尿道膀胱造影+尿道膀胱镜,LLM提取,论文病例报告,2008-11-16,诊断,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,f2a3b4c5-d6e7-48f9-8a0b-1c2d3e4f5a6b,患者,手术名称,,类别型,尿道经尿道肿瘤切除术（TURT）,,,,,LLM提取,论文病例报告,2008-11-18,手术,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,f2a3b4c5-d6e7-48f9-8a0b-1c2d3e4f5a6b,患者,手术结果,,文本型,术后即刻未见尿道内肿瘤,,,,,LLM提取,论文病例报告,2008-11-18,手术,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,f2a3b4c5-d6e7-48f9-8a0b-1c2d3e4f5a6b,患者,病理诊断,,文本型,移行细胞癌（TCC）G3，高级别；缺乏正常组织，无法评估浸润深度,,,,组织病理学检查,LLM提取,论文病例报告,2008-11-18,病理,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,b3c4d5e6-f7a8-49b0-8c1d-2e3f4a5b6c7d,尿道,病理诊断,,文本型,未见肿瘤性结构,,,,活检组织病理学检查,LLM提取,论文病例报告,2009-01-20,病理,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,c4d5e6f7-a8b9-40c1-9d2e-3f4a5b6c7d8e,尿沉渣,细胞学检查,,类别型,未见肿瘤细胞,,,,尿液细胞学检查,LLM提取,论文病例报告,2009-04-01,检验,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,e5f6a7b8-c9d0-41e2-8f3a-4b5c6d7e8f90,尿沉渣,细胞学检查,,类别型,见肿瘤细胞,,,,尿液细胞学检查,LLM提取,论文病例报告,2010-02-01,检验,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,f6a7b8c9-d0e1-42f3-9a4b-5c6d7e8f9012,患者,主诉,,文本型,再次出现排尿开始时血尿、远端尿道可触及小肿物,,,,,LLM提取,论文病例报告,2010-02-01,病史,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,a7b8c9d0-e1f2-43a4-9b5c-6d7e8f901234,患者,诊断名称,,类别型,尿道肿瘤局部复发,,,,尿道膀胱镜,LLM提取,论文病例报告,2010-03-01,诊断,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,d8c9e0f1-a2b3-44c5-8d6e-7f8091a2b3c4,患者,手术名称,,类别型,尿道肿瘤第二次电切术,,,,,LLM提取,论文病例报告,2010-03-23,手术,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,d8c9e0f1-a2b3-44c5-8d6e-7f8091a2b3c4,患者,病理诊断,,文本型,尿路上皮癌G2，高级别，pT1,,,,组织病理学检查,LLM提取,论文病例报告,2010-03-23,病理,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,e9f0a1b2-c3d4-45e6-9f7a-8b9012c3d4e5,尿道,病理诊断,,文本型,侵袭性尿路上皮癌，高级别，pT1，G2,,,,组织病理学检查,LLM提取,论文病例报告,2010-06-11,病理,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,f0a1b2c3-d4e5-46f7-8a9b-0c1d2e3f4a5b,患者,诊断名称,,类别型,尿道肿瘤再次局部复发,,,,随访检查,LLM提取,论文病例报告,2010-06-11,诊断,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,0a1b2c3d-4e5f-47a8-9b0c-1d2e3f4a5b6c,患者,手术名称,,类别型,远端尿道部分切除并与阴茎腹侧皮肤成形/尿道皮肤吻合术,,术中置入16号Foley导尿管,,,LLM提取,论文病例报告,2010-10-07,手术,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,0a1b2c3d-4e5f-47a8-9b0c-1d2e3f4a5b6c,患者,手术结果,,文本型,术后经过无并发症,,,,,LLM提取,论文病例报告,2010-10-07,手术,v1
+8cae6d84d84a22dca69de1d233b7b472,896c6495b612be8ae4bbc652aed6cf6b,1b2c3d4e-5f6a-47b8-9c0d-1e2f3a4b5c6d,患者,随访结果,,文本型,4个月后无不适，排尿正常、尿流宽；尿沉渣细胞学未见异常；阴茎超声未见局部复发征象；计划进一步尿道膀胱镜随访,,,,随访,LLM提取,论文病例报告,2011-02-07,病程,v1

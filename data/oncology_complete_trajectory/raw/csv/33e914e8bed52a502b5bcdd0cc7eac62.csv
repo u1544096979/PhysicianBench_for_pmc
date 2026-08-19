@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,d0d0f40f-3b1f-4b0f-8e5e-9c8f1b9e7d01,患者,入院科室,,类别型,Jincheng Hospital,,,,,LLM提取,论文病例报告,2018-07-08,入院,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,d0d0f40f-3b1f-4b0f-8e5e-9c8f1b9e7d01,患者,主诉,,文本型,上腹部饱胀不适伴皮肤发黄1周,,,,,LLM提取,论文病例报告,2018-07-08,病史,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,1a5d62c2-2a0f-4b0b-9d24-9b4c5dbb8d10,患者,影像所见,,文本型,胆总管及胰腺上段不规则增厚，考虑胆总管癌伴胆道梗阻；肝门区多发肿大淋巴结,,,,MRI,LLM提取,论文病例报告,2018-07-16,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,2d8d0dd7-2e24-4f8f-9b8f-0b47b0e7a2e1,患者,手术名称,,类别型,胆总管癌根治术+胰十二指肠联合切除术,,R0切除,,全身麻醉,LLM提取,论文病例报告,2018-08-16,手术,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,5f54d4e4-9b4d-4d9b-a1e3-5ff1f2d7c6a2,患者,病理诊断,,文本型,胆总管下段腺鳞癌，低分化癌,,约30%鳞癌成分；肿瘤侵犯胆总管外达浆膜外，邻近胰腺组织；未见神经血管侵犯,,术后病理,LLM提取,论文病例报告,2018-08-16,病理,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,5f54d4e4-9b4d-4d9b-a1e3-5ff1f2d7c6a2,肿瘤组织,标本部位,,类别型,胆总管下段,,,,,LLM提取,论文病例报告,2018-08-16,病理,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,5f54d4e4-9b4d-4d9b-a1e3-5ff1f2d7c6a2,肿瘤组织,免疫组化,,文本型,"AE1/AE3(+), CAM5.2(+), CGA(-), Syn(-), Ki67约60%+, P40部分+, P63部分+",,,,免疫组化,LLM提取,论文病例报告,2018-08-16,病理,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,5f54d4e4-9b4d-4d9b-a1e3-5ff1f2d7c6a2,患者,临床分期,,类别型,TNM stage III,,pT3N0M0,,,LLM提取,论文病例报告,2018-08-16,诊断,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,6e0d8b95-7f5d-43c8-a8a5-1f2b8ddf9b33,患者,影像所见,,文本型,术后胆管腺鳞癌，胃残端口、系膜及腹膜后多发结节/肿块考虑转移；右前叶肝内结节考虑转移；肝内胆管积气,,,,CT,LLM提取,论文病例报告,2018-12-17,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,6e0d8b95-7f5d-43c8-a8a5-1f2b8ddf9b33,患者,诊断名称,,类别型,胆总管下段腺鳞癌IV期,,TxNxM1,,,LLM提取,论文病例报告,2018-12-17,诊断,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,6e0d8b95-7f5d-43c8-a8a5-1f2b8ddf9b33,患者,评估方法,,类别型,PS评分,,,,,LLM提取,论文病例报告,2018-12-17,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,6e0d8b95-7f5d-43c8-a8a5-1f2b8ddf9b33,患者,疗效评估,,类别型,疾病进展,,PS 3,,,LLM提取,论文病例报告,2018-12-17,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,a4b2a8c6-3c28-4b7b-8dc2-3f8c6b1d4c90,患者,治疗方案,,类别型,Gemcitabine + Oxaliplatin (GEMOX),,2个周期,,,LLM提取,论文病例报告,2019-01-02,病程,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,b6d6d8d3-56d4-4e9a-9f8f-2e6c2a9f7d11,患者,影像所见,,文本型,疾病进展,,较前加重,,CT,LLM提取,论文病例报告,2019-04-02,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,c2f3f1b4-8b3d-4c8d-a1a4-9d7d2c3f8e22,患者,治疗方案,,类别型,Capecitabine + Oxaliplatin (CAPEOX),,1个周期,,,LLM提取,论文病例报告,2019-04-02,病程,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,d9b3e0c2-1c7e-4a1d-8c7f-5b8d3c4e9f33,患者,主诉,,文本型,上腹痛、恶心、呕吐、不能进食,,,,,LLM提取,论文病例报告,2019-05-20,病史,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,d9b3e0c2-1c7e-4a1d-8c7f-5b8d3c4e9f33,患者,评估方法,,类别型,PS评分/NRS评分,,,,,LLM提取,论文病例报告,2019-05-20,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,d9b3e0c2-1c7e-4a1d-8c7f-5b8d3c4e9f33,患者,疗效评估,,类别型,疾病进展,,"PS 4, NRS 5",,,LLM提取,论文病例报告,2019-05-20,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,e8c6f1d2-4b3a-4d8c-b6d2-6c7f8e9a0b44,患者,影像所见,,文本型,吻合口、系膜及腹膜后肿块较2019-04-02增大；新发肝实质肿块和结节，致肝内胆管扩张,,,,CT,LLM提取,论文病例报告,2019-05-23,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,e8c6f1d2-4b3a-4d8c-b6d2-6c7f8e9a0b44,患者,疗效评估,,类别型,疾病进展,,NRS 5,,RECIST 1.1,LLM提取,论文病例报告,2019-05-23,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a55,患者,治疗方案,,类别型,sintilimab,200,2个周期；之后继续200 mg Q3W,mg,静脉注射,LLM提取,论文病例报告,2019-05-27,用药,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a55,患者,治疗方案,,类别型,sintilimab,200,第2周期,mg,静脉注射,LLM提取,论文病例报告,2019-07-01,用药,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,10c2d3e4-f5a6-4b7c-8d9e-1f2a3b4c5d66,患者,主诉,,文本型,上腹痛、恶心、呕吐、不能进食症状完全缓解,,,,,LLM提取,论文病例报告,2019-07-22,病程,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,10c2d3e4-f5a6-4b7c-8d9e-1f2a3b4c5d66,患者,评估方法,,类别型,PS评分/NRS评分,,,,,LLM提取,论文病例报告,2019-07-22,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,10c2d3e4-f5a6-4b7c-8d9e-1f2a3b4c5d66,患者,疗效评估,,类别型,症状明显改善,,"PS 1, NRS 0",,,LLM提取,论文病例报告,2019-07-22,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,11d3e4f5-a6b7-4c8d-9e0f-2a3b4c5d6e77,患者,影像所见,,文本型,系膜及腹膜后病灶缩小，肝实质病灶较前缩小,,,,CT,LLM提取,论文病例报告,2019-07-23,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,11d3e4f5-a6b7-4c8d-9e0f-2a3b4c5d6e77,患者,疗效评估,,类别型,部分缓解,,RECIST 1.1；NRS 0,,,LLM提取,论文病例报告,2019-07-23,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,12e4f5a6-b7c8-4d9e-0f1a-3b4c5d6e7f88,患者,治疗方案,,类别型,sintilimab,200,Q3W持续治疗,mg,静脉注射,LLM提取,论文病例报告,2019-07-23,用药,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,13f5a6b7-c8d9-4e0f-1a2b-4c5d6e7f8g99,患者,影像所见,,文本型,对比2019-07-23，肝内结节消失，但S8段仍见结节；肝内胆管扩张稍缓解；肝门及腹膜后淋巴结明显缩小并部分消失,,,,CT,LLM提取,论文病例报告,2019-12-13,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,13f5a6b7-c8d9-4e0f-1a2b-4c5d6e7f8g99,患者,疗效评估,,类别型,部分缓解,,,,RECIST 1.1,LLM提取,论文病例报告,2019-12-13,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,14a6b7c8-d9e0-4f1a-2b3c-5d6e7f8g9h10,患者,影像所见,,文本型,吻合口、系膜及腹膜后病灶较前缩小；肝实质病灶较前缩小,,,,CT,LLM提取,论文病例报告,2020-05-20,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,15b7c8d9-e0f1-4a2b-3c4d-6e7f8g9h0i11,患者,影像所见,,文本型,S8段肝脏低密度影较前稍小，其余无明显变化,,,,CT,LLM提取,论文病例报告,2020-11-22,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,16c8d9e0-f1a2-4b3c-4d5e-7f8g9h0i1j12,患者,影像所见,,文本型,S8段肝脏低密度影较前稍小，其余无明显变化,,,,CT,LLM提取,论文病例报告,2021-05-27,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,17d9e0f1-a2b3-4c4d-5e6f-8g9h0i1j2k13,患者,影像所见,,文本型,肝转移灶几乎完全消失,,,,CT,LLM提取,论文病例报告,2022-08-25,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,17d9e0f1-a2b3-4c4d-5e6f-8g9h0i1j2k13,患者,疗效评估,,类别型,完全缓解,,,,RECIST 1.1,LLM提取,论文病例报告,2022-08-25,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,18e0f1a2-b3c4-4d5e-6f7g-9h0i1j2k3l14,患者,影像所见,,文本型,转移性肝病灶几乎完全消失,,,,CT,LLM提取,论文病例报告,2023-05-22,影像,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,18e0f1a2-b3c4-4d5e-6f7g-9h0i1j2k3l14,患者,疗效评估,,类别型,完全缓解,,PFS >46个月,,RECIST 1.1,LLM提取,论文病例报告,2023-05-22,评估,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,19f1a2b3-c4d5-4e6f-7g8h-0i1j2k3l4m15,肿瘤组织,PD-L1状态,,类别型,高表达,,"TPS 60%, CPS 65",,"IHC, 22C3",LLM提取,论文病例报告,2018-08-16,诊断,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,19f1a2b3-c4d5-4e6f-7g8h-0i1j2k3l4m15,肿瘤组织,MMR状态,,类别型,pMMR,,"MLH1(+), PMS2(+), MSH2(+), MSH6(+)",,IHC,LLM提取,论文病例报告,2018-08-16,诊断,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,19f1a2b3-c4d5-4e6f-7g8h-0i1j2k3l4m15,肿瘤组织,分子标志物,,类别型,TMB 8.03 Muts/Mb,8.03,NGS 1012基因panel,Muts/Mb,NGS,LLM提取,论文病例报告,2018-08-16,诊断,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,19f1a2b3-c4d5-4e6f-7g8h-0i1j2k3l4m15,肿瘤组织,分子标志物,,类别型,DDR通路基因突变,,"ATM p.Arg250Ter, FANCC p.Leu234Val; FANCA p.Arg1409Trp(杂合), FANCD2 p.Leu1325Met(杂合)",,NGS,LLM提取,论文病例报告,2018-08-16,诊断,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,20a2b3c4-d5e6-4f7g-8h9i-0j1k2l3m4n16,患者,出院诊断,,类别型,胆总管下段腺鳞癌IV期,,,,,LLM提取,论文病例报告,2023-05-22,出院,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,20a2b3c4-d5e6-4f7g-8h9i-0j1k2l3m4n16,患者,出院状况,,类别型,好转/稳定,,治疗中，持续用药,,,LLM提取,论文病例报告,2023-05-22,出院,v1
+33e914e8bed52a502b5bcdd0cc7eac62,a976a4bc3c716d092c75fa4fe6eebd64_1,20a2b3c4-d5e6-4f7g-8h9i-0j1k2l3m4n16,患者,出院医嘱,,文本型,继续sintilimab治疗，规律复查,,,,,LLM提取,论文病例报告,2023-05-22,出院,v1

@@ -1,0 +1,55 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,11111111-1111-1111-1111-111111111111,患者,入院年龄,,数值型,55,55,,岁,,LLM提取,论文病例报告,2022-06-20,入院,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,22222222-2222-2222-2222-222222222222,患者,主诉,,文本型,性交后阴道流血2个月,,,,,LLM提取,论文病例报告,2022-06-20,病史,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,22222222-2222-2222-2222-222222222222,患者,现病史,,文本型,2022-06-20起性交后阴道流血，量少，鲜红色点滴状，持续2个月；无阴道分泌物、肛门坠胀、下腹痛、腰骶部不适、排尿异常、便秘、下肢肿痛、胸痛、咳嗽、咯血、乏力或体重下降。,,,,,LLM提取,论文病例报告,2022-06-20,病史,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,22222222-2222-2222-2222-222222222222,患者,既往史,,文本型,文中未述既往恶性肿瘤或其他重要既往史。,,,,,LLM提取,论文病例报告,2022-06-20,病史,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,22222222-2222-2222-2222-222222222222,患者,家族史,,文本型,无肿瘤家族史。,,,,,LLM提取,论文病例报告,2022-06-20,病史,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,33333333-3333-3333-3333-333333333333,患者,查体,,文本型,外阴正常，阴道通畅；宫颈结节样，约2 cm；左侧宫旁短缩增厚，右侧弹性好；子宫前位、大小正常；附件未扪及包块。,,,,,LLM提取,论文病例报告,2022-06-20,评估,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,44444444-4444-4444-4444-444444444444,宫颈活检标本,病理诊断,,文本型,中分化HPV相关鳞状细胞癌；宫颈管内HSIL（CIN III）。,,取材部位：宫颈6点和12点位及宫颈管,,活检,LLM提取,论文病例报告,2022-06-20,病理,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,44444444-4444-4444-4444-444444444444,宫颈活检标本,免疫组化,,文本型,"P40(+), P53(+,10%), P16(+), Her-2(−), Ki-67(+,60%), CK5/6(+).",,,,,LLM提取,论文病例报告,2022-06-20,病理,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,55555555-5555-5555-5555-555555555555,患者,诊断名称,FIGO 2018 IIB,类别型,宫颈鳞状细胞癌IIB期,,FIGO 2018,,,LLM提取,论文病例报告,2022-06-20,诊断,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,66666666-6666-6666-6666-666666666666,盆腔增强MRI,影像所见,,文本型,宫颈软组织肿块，约4.1×3.4×5.0 cm，宫旁间隙不清，累及阴道穹隆并向宫体延伸。,,,,MRI,LLM提取,论文病例报告,2022-06-20,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,77777777-7777-7777-7777-777777777777,PET/CT,影像所见,,文本型,宫颈增厚并高代谢，SUVmax 12.6，病灶约3.5×3.0×4.4 cm，累及子宫体下段。,,,,PET/CT,LLM提取,论文病例报告,2022-06-20,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,88888888-8888-8888-8888-888888888888,血清,CA-125,,数值型,22.80,22.80,参考范围0–16.0 U/mL,U/mL,,LLM提取,论文病例报告,2022-06-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,88888888-8888-8888-8888-888888888888,血清,CA19-9,,数值型,41.46,41.46,参考范围0–34.0 U/mL,U/mL,,LLM提取,论文病例报告,2022-06-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,88888888-8888-8888-8888-888888888888,血清,SCC,,数值型,4.60,4.60,参考范围0–1.50 ng/mL,ng/mL,,LLM提取,论文病例报告,2022-06-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,88888888-8888-8888-8888-888888888888,血清,cytokeratin 19 fragment,,数值型,5.92,5.92,参考范围0–2.08 ng/mL,ng/mL,,LLM提取,论文病例报告,2022-06-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,99999999-9999-9999-9999-999999999999,患者,手术名称,,类别型,机器人辅助腹主动脉旁淋巴结清扫术,,并行肠粘连松解、淋巴结标记,,,LLM提取,论文病例报告,2022-07-01,手术,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,99999999-9999-9999-9999-999999999999,腹主动脉旁淋巴结,病理诊断,,文本型,未见癌转移；共取7枚淋巴结均未见癌。,,,,术后病理,LLM提取,论文病例报告,2022-07-01,病理,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,治疗方案,,类别型,同步放化疗,,外照射联合近距离放疗+顺铂,,,LLM提取,论文病例报告,2022-07-12,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,放疗,治疗方案,,类别型,固定野调强放疗,,靶区：子宫、宫颈、双附件、双侧宫旁、部分阴道及盆腔引流区,,,LLM提取,论文病例报告,2022-07-12,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,放疗,总剂量,,数值型,50.4,50.4,28次，每次1.8 Gy,Gy,,LLM提取,论文病例报告,2022-07-12,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,cccccccc-cccc-cccc-cccc-cccccccccccc,顺铂,药品名称,,类别型,顺铂,,每周一次，共5次，40 mg/m²/次,,,LLM提取,论文病例报告,2022-07-13,用药,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,dddddddd-dddd-dddd-dddd-dddddddddddd,近距离放疗,治疗方案,,类别型,无痛三维腔内近距离放疗,,共6次；每次5.5 Gy；单管双球,,,LLM提取,论文病例报告,2022-08-05,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,患者,治疗反应,,类别型,部分缓解（PR）,,放化疗后评估,,,LLM提取,论文病例报告,2022-09-20,评估,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,ffffffff-ffff-ffff-ffff-ffffffffffff,宫颈TCT,检查结果,,类别型,NILM,,未见上皮内病变或恶性细胞,,TCT,LLM提取,论文病例报告,2022-09-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,gggggggg-gggg-gggg-gggg-gggggggggggg,宫颈标本,病理诊断,,文本型,炎性坏死组织伴黏膜慢性炎症。,,活检,,,LLM提取,论文病例报告,2022-09-20,病理,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh,宫颈标本,HPV16,,类别型,阳性,,,,,LLM提取,论文病例报告,2022-09-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh,血清,SCC,,数值型,1.90,1.90,,ng/mL,,LLM提取,论文病例报告,2022-09-20,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,患者,影像所见,,文本型,脾脏大小及信号正常，未见异常信号或占位。,,,,MRI,LLM提取,论文病例报告,2023-09-01,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,影像所见,,文本型,脾脏新发孤立性病灶，约2.4×1.3 cm。,,,,MRI,LLM提取,论文病例报告,2023-12-26,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,kkkkkkkk-kkkk-kkkk-kkkk-kkkkkkkkkkkk,患者,影像所见,,文本型,脾脏病灶增大至约4.0×3.0 cm。,,,,MRI,LLM提取,论文病例报告,2024-03-25,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,llllllll-llll-llll-llll-llllllllllll,患者,主诉,,文本型,左上腹间歇性隐痛1个月，吸气时加重。,,NRS 4分,,,LLM提取,论文病例报告,2024-05-01,病史,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,llllllll-llll-llll-llll-llllllllllll,患者,疼痛处理,,文本型,口服洛芬太尼缓释片2片 q12h后，疼痛评分降至1分。,,,,,LLM提取,论文病例报告,2024-05-01,用药,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,患者,查体,,文本型,腹软，无压痛、肌紧张及反跳痛，脾未触及。,,,,,LLM提取,论文病例报告,2024-05-01,评估,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn,患者,影像所见,,文本型,脾脏孤立性信号灶增大至4.6×4.0 cm，见多发分隔及强化，考虑转移可能。,,,,MRI,LLM提取,论文病例报告,2024-05-06,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,ooooooo0-oooo-oooo-oooo-oooooooooooo,PET/CT,影像所见,,文本型,脾内斑片状低密度影，边界不清，约4.4×3.5 cm，SUVmax约10.0。,,,,PET/CT,LLM提取,论文病例报告,2024-05-08,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,pppppppp-pppp-pppp-pppp-pppppppppppp,患者,影像所见,,文本型,CT示脾脏未增大，脾实质内孤立肿块约5.8×4.6 cm，边界不清，周边轻中度不均匀强化，内部强化少。,,,,CT,LLM提取,论文病例报告,2024-05-16,影像,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,qqqqqqqq-qqqq-qqqq-qqqq-qqqqqqqqqqqq,患者,手术名称,,类别型,腹腔镜全脾切除术,,术中见脾脏增大，切面灰白色肿块约5.0×4.5×4.0 cm，近脾门，距脾门约1.5 cm，邻近包膜,,,LLM提取,论文病例报告,2024-05-17,手术,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,rrrrrrrr-rrrr-rrrr-rrrr-rrrrrrrrrrrr,脾脏/脾肿瘤标本,病理诊断,,文本型,转移性鳞状细胞癌，切缘阴性。,,形态学及免疫组化与宫颈鳞癌转移一致,,术后病理,LLM提取,论文病例报告,2024-05-17,病理,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,rrrrrrrr-rrrr-rrrr-rrrr-rrrrrrrrrrrr,脾脏/脾肿瘤标本,免疫组化,,文本型,"P40(+), P53变异表达, P16弥漫阳性, CK5/6(+), Ki-67约30%, CPS约25。",,,,,LLM提取,论文病例报告,2024-05-17,病理,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,ssssssss-ssss-ssss-ssss-ssssssssssss,肿瘤,基因检测,,文本型,检出24个体细胞突变；具有潜在临床意义的包括NCOR1内含子28 c.3812-1G>T(49.84%)、PIK3CA exon10 p.E542K(c.1624G>A)(39.69%)、U2AF1 exon2 p.S34F(c.101C>T)(29.48%)、PLXNA1内含子27 c.4871-1G>A(26.15%)。,,2024-06-14检测,,基因测序,LLM提取,论文病例报告,2024-06-14,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,ssssssss-ssss-ssss-ssss-ssssssssssss,肿瘤,TMB,,数值型,6.09,6.09,处于宫颈癌病例前29%,Muts/Mb,,LLM提取,论文病例报告,2024-06-14,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,ssssssss-ssss-ssss-ssss-ssssssssssss,肿瘤,MSI,,类别型,MSI-L/MSS,,,,,LLM提取,论文病例报告,2024-06-14,检验,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,tttttttt-tttt-tttt-tttt-tttttttttttt,患者,治疗方案,,类别型,化疗+靶向治疗,,拒绝免疫治疗；后续行紫杉醇+卡铂+贝伐珠单抗,,,LLM提取,论文病例报告,2024-06-14,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,uuuuuuuu-uuuu-uuuu-uuuu-uuuuuuuuuuuu,紫杉醇,药品名称,,类别型,紫杉醇,,145 mg/m²,,,LLM提取,论文病例报告,2024-06-14,用药,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,uuuuuuuu-uuuu-uuuu-uuuu-uuuuuuuuuuuu,卡铂,药品名称,,类别型,卡铂,,AUC=5,,,LLM提取,论文病例报告,2024-06-14,用药,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,uuuuuuuu-uuuu-uuuu-uuuu-uuuuuuuuuuuu,贝伐珠单抗,药品名称,,类别型,贝伐珠单抗,,15 mg/kg,,,LLM提取,论文病例报告,2024-06-14,用药,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,tttttttt-tttt-tttt-tttt-tttttttttttt,患者,治疗周期数,,数值型,4,4,末次化疗于2024-08完成,次,,LLM提取,论文病例报告,2024-08-01,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,vvvvvvvv-vvvv-vvvv-vvvv-vvvvvvvvvvvv,患者,出院/随访状况,,文本型,病情稳定，随访12个月无腹痛、无进展或复发。,,,,,LLM提取,论文病例报告,2024-08-01,病程,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww,患者,不良反应名称,,类别型,恶心,,治疗期间,,,LLM提取,论文病例报告,2024-08-01,不良反应,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww,患者,不良反应名称,,类别型,呕吐,,治疗期间,,,LLM提取,论文病例报告,2024-08-01,不良反应,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww,患者,不良反应名称,,类别型,骨髓抑制,,II-III级,,,LLM提取,论文病例报告,2024-08-01,不良反应,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww,患者,不良反应名称,,类别型,乏力,,轻度,,,LLM提取,论文病例报告,2024-08-01,不良反应,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww,患者,不良反应名称,,类别型,高血压,,142/91 mmHg，轻度,,,LLM提取,论文病例报告,2024-08-01,不良反应,v1
+f582845437b3b7fd95dfce9ba8dc9c1f,5a90c702d3417e00285ca273f887fcc0,wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww,患者,不良反应名称,,类别型,手足麻木,,轻度,,,LLM提取,论文病例报告,2024-08-01,不良反应,v1

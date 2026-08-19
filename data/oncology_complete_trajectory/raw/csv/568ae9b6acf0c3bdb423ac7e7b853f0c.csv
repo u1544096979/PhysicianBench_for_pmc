@@ -1,0 +1,55 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,2a8d4b68-5f91-4d8b-ae3f-8e7c0b0f3d6f,患者,入院年龄,,数值型,45,45,,岁,,LLM提取,论文病例报告,2024-03-01,入院,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,2a8d4b68-5f91-4d8b-ae3f-8e7c0b0f3d6f,患者,入院途径,,类别型,门诊/新辅助治疗入组,,,,,LLM提取,论文病例报告,2024-03-01,入院,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,2a8d4b68-5f91-4d8b-ae3f-8e7c0b0f3d6f,患者,主诉,,文本型,三阴性乳腺癌拟行新辅助治疗；合并甲状旁腺肿物/轻度高钙血症,,,,,LLM提取,论文病例报告,2024-03-01,病史,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,b5d1d1c6-7a4d-4db6-b4db-2f2f5e3f5c4d,患者,现病史,,文本型,45岁女性，三阴性乳腺癌（cT3N1M0，IIIA期），既往发现右甲状旁腺肿块，基线轻度高钙血症及iPTH升高，开始接受新辅助nab-紫杉醇/卡铂/帕博利珠单抗治疗。,,,,,LLM提取,论文病例报告,2024-03-01,病史,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,b5d1d1c6-7a4d-4db6-b4db-2f2f5e3f5c4d,患者,既往史,,文本型,既往有甲状旁腺肿瘤/腺瘤样病变（右侧甲状旁腺肿块，穿刺活检阴性）。,,,,,LLM提取,论文病例报告,2024-03-01,病史,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c7e4d7e0-07d8-47d5-a43a-3b2ce7f8a6f1,患者,诊断名称,,类别型,三阴性乳腺癌,,"cT3N1M0, IIIA期",,,LLM提取,论文病例报告,2024-03-01,诊断,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c7e4d7e0-07d8-47d5-a43a-3b2ce7f8a6f1,患者,分期,,类别型,IIIA期,,cT3N1M0,,,LLM提取,论文病例报告,2024-03-01,诊断,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c7e4d7e0-07d8-47d5-a43a-3b2ce7f8a6f1,患者,分子标志物,,类别型,三阴性,,ER/PR/HER2阴性（文中仅述TNBC）,,,LLM提取,论文病例报告,2024-03-01,诊断,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c7e4d7e0-07d8-47d5-a43a-3b2ce7f8a6f1,患者,诊断名称,,类别型,甲状旁腺功能异常/甲状旁腺腺瘤,,基线右甲状旁腺肿块38×13 mm,,,LLM提取,论文病例报告,2024-03-01,诊断,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,d7a6f3c1-2e4b-4f35-b6e0-5ddf9a7df0a2,血清,钙,,数值型,2.90,2.90,参考范围2.10-2.60,mmol/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,d7a6f3c1-2e4b-4f35-b6e0-5ddf9a7df0a2,血清,iPTH,,数值型,15.46,15.46,参考范围1.6-6.9,pmol/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,e6d4b7f0-2b7d-4f11-9d58-2ed4f1f2d8a1,患者,治疗方案,,类别型,nab-紫杉醇 + 卡铂 + 帕博利珠单抗,,新辅助治疗,,,LLM提取,论文病例报告,2024-03-01,用药,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,e6d4b7f0-2b7d-4f11-9d58-2ed4f1f2d8a1,患者,药品名称,,类别型,帕博利珠单抗,,,,,LLM提取,论文病例报告,2024-03-01,用药,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,e6d4b7f0-2b7d-4f11-9d58-2ed4f1f2d8a1,患者,药品名称,,类别型,nab-紫杉醇,,,,,LLM提取,论文病例报告,2024-03-01,用药,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,e6d4b7f0-2b7d-4f11-9d58-2ed4f1f2d8a1,患者,药品名称,,类别型,卡铂,,,,,LLM提取,论文病例报告,2024-03-01,用药,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,1f8f9c22-f7d7-4f25-8b24-7d4f0e4f0b31,患者,疗效评估,,类别型,临床部分缓解,,2个周期后,,,LLM提取,论文病例报告,2024-04-01,评估,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,a7f8c5e3-7c2a-4e54-98d8-4b0c4c8f7f76,血清,ALT,,数值型,1090.3,1090.3,grade 4 drug-induced liver injury,U/L,,LLM提取,论文病例报告,2024-04-22,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,a7f8c5e3-7c2a-4e54-98d8-4b0c4c8f7f76,血清,AST,,数值型,500.3,500.3,药物性肝损伤,U/L,,LLM提取,论文病例报告,2024-04-22,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,a7f8c5e3-7c2a-4e54-98d8-4b0c4c8f7f76,患者,不良反应名称,,类别型,药物性肝损伤,,CTCAE 4级,,,LLM提取,论文病例报告,2024-04-22,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,a7f8c5e3-7c2a-4e54-98d8-4b0c4c8f7f76,患者,处理措施,,文本型,暂停帕博利珠单抗，予保肝治疗（magnesium isoglycyrrhizinate）,,,,,LLM提取,论文病例报告,2024-04-22,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,b8bb4b57-6ce5-4d3c-8d70-0c2f3b6e5e2c,血清,ALT,,数值型,242.0,242.0,肝功能部分恢复,U/L,,LLM提取,论文病例报告,2024-05-01,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,b8bb4b57-6ce5-4d3c-8d70-0c2f3b6e5e2c,血清,AST,,数值型,81.5,81.5,肝功能部分恢复,U/L,,LLM提取,论文病例报告,2024-05-01,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c4e7d3b2-1f8e-4c83-9b43-7b2c0d6e8c2a,患者,不良反应名称,,类别型,皮疹,,CTCAE 2级；红斑性丘疹融合,,,LLM提取,论文病例报告,2024-05-05,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c4e7d3b2-1f8e-4c83-9b43-7b2c0d6e8c2a,患者,分级,,类别型,2级,,CTCAE,,,LLM提取,论文病例报告,2024-05-05,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c4e7d3b2-1f8e-4c83-9b43-7b2c0d6e8c2a,患者,处理措施,,文本型,糖皮质激素 + 抗组胺药,,,,,LLM提取,论文病例报告,2024-05-05,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c4e7d3b2-1f8e-4c83-9b43-7b2c0d6e8c2a,患者,发热,,文本型,39.0°C,,,,,LLM提取,论文病例报告,2024-05-05,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,c4e7d3b2-1f8e-4c83-9b43-7b2c0d6e8c2a,血液,白细胞,,数值型,2.1,2.1,白细胞减少,×10^9/L,,LLM提取,论文病例报告,2024-05-05,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,9e9e0c67-8f7f-4f7d-9f0d-5bb4d1d9e8d2,患者,症状,,文本型,急性严重头痛、呕吐、高血压,,BP 170/98 mmHg,,,LLM提取,论文病例报告,2024-05-07,病程,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,9e9e0c67-8f7f-4f7d-9f0d-5bb4d1d9e8d2,患者,血压,,文本型,170/98 mmHg,,,,,LLM提取,论文病例报告,2024-05-07,评估,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,9e9e0c67-8f7f-4f7d-9f0d-5bb4d1d9e8d2,脑MRI,影像所见,,文本型,双侧额颞叶及小脑天幕沿脑膜弥漫性强化/脑膜增厚,,,,增强MRI,LLM提取,论文病例报告,2024-05-07,影像,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,9e9e0c67-8f7f-4f7d-9f0d-5bb4d1d9e8d2,脑MRI,影像结论,,文本型,提示免疫相关脑膜炎/脑膜炎症,,,,增强MRI,LLM提取,论文病例报告,2024-05-07,影像,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,9e9e0c67-8f7f-4f7d-9f0d-5bb4d1d9e8d2,脑脊液,开口压,,数值型,70,70,未见恶性细胞,cmH2O,腰穿,LLM提取,论文病例报告,2024-05-14,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,9e9e0c67-8f7f-4f7d-9f0d-5bb4d1d9e8d2,脑脊液,恶性细胞,,类别型,未见,,,,细胞学检查,LLM提取,论文病例报告,2024-05-14,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,f0d6c4d1-8f3f-4e8c-9b2b-1d2c3e4f5a6b,血清,钙,,数值型,3.22,3.22,高钙危象,mmol/L,,LLM提取,论文病例报告,2024-05-07,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,f0d6c4d1-8f3f-4e8c-9b2b-1d2c3e4f5a6b,血清,iPTH,,数值型,44.85,44.85,较基线升高290%,pmol/L,,LLM提取,论文病例报告,2024-05-07,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,f0d6c4d1-8f3f-4e8c-9b2b-1d2c3e4f5a6b,血清,ALP,,数值型,222,222,升高,U/L,,LLM提取,论文病例报告,2024-05-07,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,f0d6c4d1-8f3f-4e8c-9b2b-1d2c3e4f5a6b,患者,诊断名称,,类别型,高钙危象,,并甲状旁腺功能亢进/腺瘤进展,,,LLM提取,论文病例报告,2024-05-07,诊断,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,f0d6c4d1-8f3f-4e8c-9b2b-1d2c3e4f5a6b,患者,不良反应名称,,类别型,免疫相关脑膜炎/脑膜炎症,,伴颅内压升高,,,LLM提取,论文病例报告,2024-05-07,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,f0d6c4d1-8f3f-4e8c-9b2b-1d2c3e4f5a6b,患者,处理措施,,文本型,颅内压管理、鲑鱼降钙素 + 唑来膦酸 + 补液,,,,,LLM提取,论文病例报告,2024-05-07,不良反应,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,3a1f5d9e-2b4c-4d6f-8f0c-1d2e3f4a5b6c,甲状旁腺,影像所见,,文本型,右甲状旁腺肿块增大至51×25 mm，体积较基线增加134%,,,,超声/CT,LLM提取,论文病例报告,2024-05-22,影像,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,3a1f5d9e-2b4c-4d6f-8f0c-1d2e3f4a5b6c,血清,iPTH,,数值型,61.99,61.99,较基线升高,pmol/L,,LLM提取,论文病例报告,2024-05-22,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,3a1f5d9e-2b4c-4d6f-8f0c-1d2e3f4a5b6c,甲状旁腺,功能显像,,文本型,提示功能性腺瘤,,甲状旁腺闪烁显像,,,LLM提取,论文病例报告,2024-05-22,影像,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8b2c1d3e-4f5a-4b6c-8d7e-9f0a1b2c3d4e,患者,手术名称,,类别型,右侧甲状旁腺切除术,,急诊手术,,,LLM提取,论文病例报告,2024-05-22,手术,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8b2c1d3e-4f5a-4b6c-8d7e-9f0a1b2c3d4e,患者,手术结果,,文本型,切除并病理证实为甲状旁腺腺瘤,,,,,LLM提取,论文病例报告,2024-05-22,手术,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8b2c1d3e-4f5a-4b6c-8d7e-9f0a1b2c3d4e,患者,病理诊断,,文本型,甲状旁腺腺瘤,,,,组织病理学,LLM提取,论文病例报告,2024-05-22,病理,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8b2c1d3e-4f5a-4b6c-8d7e-9f0a1b2c3d4e,血清,钙,,数值型,2.28,2.28,术后恢复正常,mmol/L,,LLM提取,论文病例报告,2024-05-22,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8b2c1d3e-4f5a-4b6c-8d7e-9f0a1b2c3d4e,血清,iPTH,,数值型,正常,,术后恢复正常,,,LLM提取,论文病例报告,2024-05-22,检验,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,5c6d7e8f-9012-4a3b-8c4d-5e6f7a8b9c0d,患者,治疗方案,,类别型,继续化疗4个周期；停用帕博利珠单抗,,去除免疫治疗后继续调整治疗,,,LLM提取,论文病例报告,2024-05-22,病程,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,5c6d7e8f-9012-4a3b-8c4d-5e6f7a8b9c0d,患者,药品名称,,类别型,帕博利珠单抗,,已停用,,,LLM提取,论文病例报告,2024-05-22,用药,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,5c6d7e8f-9012-4a3b-8c4d-5e6f7a8b9c0d,患者,用药周期,,文本型,继续化疗4个周期,,,,,LLM提取,论文病例报告,2024-05-22,用药,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,6d7e8f9a-0b1c-4d2e-8f3a-9b0c1d2e3f4a,脑MRI,影像结论,,文本型,脑膜增厚完全消失,,术后脑MRI,,MRI,LLM提取,论文病例报告,2024-06-03,影像,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,7e8f9a0b-1c2d-4e3f-8a4b-9c0d1e2f3a4b,患者,随访结果,,文本型,5个月随访未见肝脏、皮肤、代谢或神经系统后遗症,,,,,LLM提取,论文病例报告,2024-10-01,病程,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8f9a0b1c-2d3e-4f5a-8a6b-9c0d1e2f3a4c,患者,手术名称,,类别型,左乳房切除术,,病理完全缓解后行手术,,,LLM提取,论文病例报告,2024-11-17,手术,v1
+568ae9b6acf0c3bdb423ac7e7b853f0c,ef848c266e940680bc9a9fe52827ca06,8f9a0b1c-2d3e-4f5a-8a6b-9c0d1e2f3a4c,患者,病理诊断,,文本型,病理完全缓解（pCR）,,乳房切除标本,,组织病理学,LLM提取,论文病例报告,2024-11-17,病理,v1

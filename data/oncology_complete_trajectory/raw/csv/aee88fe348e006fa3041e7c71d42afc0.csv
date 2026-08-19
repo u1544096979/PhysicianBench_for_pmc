@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,7d0b2fbe-3e7e-4b2c-a8f7-f4efb8c25c16,患者,入院年龄,,数值型,44,44,,岁,,LLM提取,论文病例报告,2016-12-29,入院,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,7d0b2fbe-3e7e-4b2c-a8f7-f4efb8c25c16,患者,主诉,,文本型,胸痛，放射至背部,,2016-12-29 07:00突然发作,,,LLM提取,论文病例报告,2016-12-29T07:00,病史,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,8d4b4ad7-33b6-4ca4-a45f-9f1dc6ef7f73,患者,病史,,文本型,无高血压、高脂血症、糖尿病、吸烟史或冠心病家族史,,,,,LLM提取,论文病例报告,2016-12-29,病史,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,9a5f0fcb-1a6d-4d70-a98b-0d9cf6c4f1a2,患者,血压,,数值型,95/62,,,mmHg,,LLM提取,论文病例报告,2016-12-29,评估,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,9a5f0fcb-1a6d-4d70-a98b-0d9cf6c4f1a2,患者,心率,,数值型,90,90,,beats/min,,LLM提取,论文病例报告,2016-12-29,评估,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,a6ccfef0-1e0c-4d4f-8c5b-3dfc7b8f3cf8,患者,诊断名称,,类别型,急性心肌梗死,,疑似下壁-后壁AMI,,,LLM提取,论文病例报告,2016-12-29,诊断,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,bfb1c7c5-3d4e-4d3b-a4c4-9edbde5f5a15,心电图,检查结果,,文本型,II、III、aVF、V5、V6导联ST段抬高,,,,心电图,LLM提取,论文病例报告,2016-12-29,检验,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,c4a0c6b1-1f1b-4e24-b8d5-9d4b6f3f7f2d,血清,Troponin I,,数值型,2.84,2.84,正常范围0-0.04,ng/mL,,LLM提取,论文病例报告,2016-12-29,检验,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,c4a0c6b1-1f1b-4e24-b8d5-9d4b6f3f7f2d,血清,CK-MB,,数值型,64.4,64.4,正常范围0.6-6.3,ng/mL,,LLM提取,论文病例报告,2016-12-29,检验,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,c4a0c6b1-1f1b-4e24-b8d5-9d4b6f3f7f2d,血清,BNP,,数值型,701.7,701.7,正常范围0-285,ng/mL,,LLM提取,论文病例报告,2016-12-29,检验,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,d8b86e9d-3a58-4b87-8f70-13f4c0d0b3a8,患者,诊断名称,,类别型,急性心肌梗死,,下壁-后壁,,,LLM提取,论文病例报告,2016-12-29,诊断,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,e7f3dcb2-4c1e-4b0a-9c7c-2cfd9f0db8e1,左回旋支（LCX）,影像所见,,文本型,远端分支血栓性闭塞,,冠状动脉造影,,CAG,LLM提取,论文病例报告,2016-12-29,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,e7f3dcb2-4c1e-4b0a-9c7c-2cfd9f0db8e1,冠状动脉造影,影像结论,,文本型,右冠状动脉和左前降支正常；左回旋支远端分支血栓性闭塞，血流恢复后再通,,,,CAG,LLM提取,论文病例报告,2016-12-29,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f2f9f1b0-0b3f-4f5b-a74d-5c0a6d6f5f8d,药物,药品名称,,类别型,硝酸甘油,,冠脉内注射,,,LLM提取,论文病例报告,2016-12-29,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f2f9f1b0-0b3f-4f5b-a74d-5c0a6d6f5f8d,药物,剂量,,数值型,20,20,与重组人尿激酶原同用,mg,,LLM提取,论文病例报告,2016-12-29,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f2f9f1b0-0b3f-4f5b-a74d-5c0a6d6f5f8d,药物,药品名称,,类别型,重组人尿激酶原,,冠脉内注射,,,LLM提取,论文病例报告,2016-12-29,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f3a2f4e9-5e7b-4f5a-8a2b-6c3d1f2a9b7c,患者,治疗方案,,类别型,双联抗血小板+抗凝+β受体阻滞剂+他汀治疗,,阿司匹林、氯吡格雷、华法林、美托洛尔、阿托伐他汀,,,LLM提取,论文病例报告,2016-12-30,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f3a2f4e9-5e7b-4f5a-8a2b-6c3d1f2a9b7c,患者,药品名称,,类别型,阿司匹林,,,,,LLM提取,论文病例报告,2016-12-30,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f3a2f4e9-5e7b-4f5a-8a2b-6c3d1f2a9b7c,患者,药品名称,,类别型,氯吡格雷,,,,,LLM提取,论文病例报告,2016-12-30,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f3a2f4e9-5e7b-4f5a-8a2b-6c3d1f2a9b7c,患者,药品名称,,类别型,华法林,,,,,LLM提取,论文病例报告,2016-12-30,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f3a2f4e9-5e7b-4f5a-8a2b-6c3d1f2a9b7c,患者,药品名称,,类别型,美托洛尔,,,,,LLM提取,论文病例报告,2016-12-30,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f3a2f4e9-5e7b-4f5a-8a2b-6c3d1f2a9b7c,患者,药品名称,,类别型,阿托伐他汀,,,,,LLM提取,论文病例报告,2016-12-30,用药,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,1f7a2c3b-4d5e-4f6a-9b7c-8d9e0f1a2b3c,左心房,超声所见,,文本型,强回声团块，大小约34×24 mm,,考虑血栓,mm,超声心动图,LLM提取,论文病例报告,2016-12-30,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,1f7a2c3b-4d5e-4f6a-9b7c-8d9e0f1a2b3c,左心室后壁,室壁运动,,文本型,明显减低,,,,超声心动图,LLM提取,论文病例报告,2016-12-30,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,1f7a2c3b-4d5e-4f6a-9b7c-8d9e0f1a2b3c,患者,EF,,数值型,49,49,,%,超声心动图,LLM提取,论文病例报告,2016-12-30,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,2a4b6c8d-1e2f-4a5b-9c7d-8e0f1a2b3c4d,患者,诊断名称,,类别型,左心房肿块（倾向血栓）,,,,,LLM提取,论文病例报告,2016-12-30,诊断,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,3b5c7d8e-1f2a-4b5c-9d7e-0f1a2b3c4d5e,患者,出院医嘱,,文本型,继续口服阿司匹林、氯吡格雷、华法林、美托洛尔和阿托伐他汀,,,,,LLM提取,论文病例报告,2017-01-12,出院,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,3b5c7d8e-1f2a-4b5c-9d7e-0f1a2b3c4d5e,患者,住院天数,,数值型,14,14,,天,,LLM提取,论文病例报告,2017-01-12,出院,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,4c6d8e9f-0a1b-4c5d-8e9f-1a2b3c4d5e6f,患者,主诉,,文本型,早餐后突然意识丧失,,2017-02-01发生,,,LLM提取,论文病例报告,2017-02-01,病史,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,5d7e9f0a-1b2c-4d5e-8f9a-0b1c2d3e4f5a,脑MRI,影像所见,,文本型,左侧额叶-颞叶、基底节及放射冠多发新鲜脑梗死,,,,MRI,LLM提取,论文病例报告,2017-02-01,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,5d7e9f0a-1b2c-4d5e-8f9a-0b1c2d3e4f5a,脑MRI,影像结论,,文本型,急性多发性脑梗死,,,,MRI,LLM提取,论文病例报告,2017-02-01,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,6e8f0a1b-2c3d-4e5f-9a0b-1c2d3e4f5a6b,脑MRA,影像所见,,文本型,左侧大脑中动脉变细，远端分支减少,,,,MRA,LLM提取,论文病例报告,2017-02-01,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,7f901a2b-3c4d-4e5f-9a0b-1c2d3e4f5a6c,患者,诊断名称,,类别型,急性多发性脑栓塞,,,,,LLM提取,论文病例报告,2017-02-01,诊断,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,8a012b3c-4d5e-4e5f-9a0b-1c2d3e4f5a6d,患者,超声所见,,文本型,左心房巨大肿块，较前未见明显变化,,当地医院超声心动图,,超声心动图,LLM提取,论文病例报告,2017-02-01,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,9b123c4d-5e6f-4a0b-9c1d-2e3f4a5b6c7d,患者,入院科室,,类别型,神经内科,,,,,LLM提取,论文病例报告,2017-02-21,入院,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,a0b1c2d3-e4f5-4a6b-8c9d-0e1f2a3b4c5d,患者,超声所见,,文本型,左室心尖部室壁瘤、后下壁运动明显减低、EF 37%、左心房强回声团块,,经胸超声心动图,,TOE,LLM提取,论文病例报告,2017-02-21,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,超声所见,,文本型,左心房胶冻样、无蒂肿块，基底宽，附着于房间隔卵圆窝，表面不光滑/呈绒毛状，形态可变，随心脏收缩摆动,,经食管超声心动图,,TEE,LLM提取,论文病例报告,2017-02-21,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,患者,影像所见,,文本型,左心房异常肿块内无造影剂充盈，可见散在点状造影剂进入肿块,,左心室造影增强超声心动图，Sonovue静脉推注2 mL,,超声造影,LLM提取,论文病例报告,2017-02-21,影像,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,d3e4f5a6-b7c8-4d9e-0f1a-2b3c4d5e6f7a,患者,诊断名称,,类别型,左心房黏液瘤,,伴系统性栓塞，导致急性心肌梗死和卒中,,,LLM提取,论文病例报告,2017-02-21,诊断,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,e4f5a6b7-c8d9-4e0f-1a2b-3c4d5e6f7a8b,心脏外科,手术名称,,类别型,肿瘤切除术,,左心房肿物切除,,,LLM提取,论文病例报告,2017-02-21,手术,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,e4f5a6b7-c8d9-4e0f-1a2b-3c4d5e6f7a8b,手术标本,手术结果,,文本型,灰红色半透明组织已完整切除,,大小42×40×15 mm，附着于房间隔卵圆窝,,,LLM提取,论文病例报告,2017-02-21,手术,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,f5a6b7c8-d9e0-4f1a-2b3c-4d5e6f7a8b9c,病理标本,病理诊断,,文本型,左心房黏液瘤,,病理结果证实,,病理学,LLM提取,论文病例报告,2017-02-21,病理,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,6f7a8b9c-0d1e-4f2a-3b4c-5d6e7f8a9b0c,患者,出院状况,,类别型,一般情况良好,,经数周康复后可恢复日常活动，无胸闷或呼吸困难,,,LLM提取,论文病例报告,2018-02-21,出院,v1
+aee88fe348e006fa3041e7c71d42afc0,b2c36c3a1ef62cdd3f5dbcc6890f1f91_1,7f8a9b0c-1d2e-4f3a-5b6c-7d8e9f0a1b2c,患者,影像结论,,文本型,左心房黏液瘤无复发,,随访1年超声心动图,,超声心动图,LLM提取,论文病例报告,2018-02-21,病程,v1

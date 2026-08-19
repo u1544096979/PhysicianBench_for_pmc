@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,3b8d1d4f-6c2f-4c3c-8db4-8f0f7bc7a2d1,患者,入院年龄,,数值型,46,46,,岁,,LLM提取,论文病例报告,2011-08-03,入院,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,3b8d1d4f-6c2f-4c3c-8db4-8f0f7bc7a2d1,患者,主诉,,文本型,绝经后持续点滴出血，常规宫颈涂片检查就诊,,,,,LLM提取,论文病例报告,2011-08-03,病史,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,5f8e41f9-8e2a-4c5e-a0c0-0f2d2e8b6a11,患者,查体,,文本型,未触及异常宫颈或腋窝淋巴结；盆腔检查提示下段子宫轻度扩张；阴道镜检查未见异常,,,,体格检查/阴道镜,LLM提取,论文病例报告,2011-08-03,评估,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,7c8c8fb2-5f4d-4b0e-8e1f-7d0c2e3b9a33,标本：宫颈涂片,病理诊断,,文本型,腺癌，倾向宫颈管来源,,,,ThinPrep Pap smear,LLM提取,论文病例报告,2011-08-03,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,a7f74b57-6f1f-4bb0-9a91-9d7b6d7e0c12,标本：盆腔超声,影像所见,,文本型,子宫内膜厚度8 mm,,,mm,超声,LLM提取,论文病例报告,2011-08-03,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,c2b7a2d4-3d7c-4f0d-9c5f-8b5f8a1c5e45,标本：宫颈活检,病理诊断,,文本型,宫颈管型腺癌，伴疑似浸润特征,,,,活检,LLM提取,论文病例报告,2011-08-03,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,d6d4f6b5-12e8-4a64-b5cc-6c7d7f0f3d88,患者,诊断名称,,类别型,宫颈癌,,术前临床分期：IA期,,,LLM提取,论文病例报告,2011-08-03,诊断,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,f4f1d9b8-0c0b-4b1f-8b4d-9d1e3a1f2c77,患者,手术名称,,类别型,根治性子宫切除术、双侧输卵管卵巢切除术、盆腔及腹主动脉旁淋巴结清扫术、部分阴道切除术,,,,,LLM提取,论文病例报告,2011-08-19,手术,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,f4f1d9b8-0c0b-4b1f-8b4d-9d1e3a1f2c77,患者,手术结果,,文本型,手术顺利完成,,,,,LLM提取,论文病例报告,2011-08-19,手术,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,标本：术后病理,病理诊断,,文本型,宫颈及子宫广泛受累的宫颈内膜样腺癌，累及深肌层及间质,,,,组织病理,LLM提取,论文病例报告,2011-08-19,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,标本：术后病理,分化程度,,类别型,2级,,,,组织病理,LLM提取,论文病例报告,2011-08-19,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,标本：术后病理,病理分期,,类别型,IIIB期,,pT3 pN1 M0,,组织病理,LLM提取,论文病例报告,2011-08-19,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,标本：左盆腔淋巴结,病理诊断,,文本型,4枚中1枚见转移性腺癌,,,,组织病理,LLM提取,论文病例报告,2011-08-19,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,标本：右盆腔淋巴结,病理诊断,,文本型,5枚中1枚见转移性腺癌,,,,组织病理,LLM提取,论文病例报告,2011-08-19,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,标本：腹主动脉旁淋巴结,病理诊断,,文本型,送检1枚未见肿瘤,,,,组织病理,LLM提取,论文病例报告,2011-08-19,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,e3d1b0f0-7b9c-4e95-9b4d-2b0c1a6d9a10,患者,诊断名称,,类别型,宫颈黏液性腺癌,,IIIB期,,,LLM提取,论文病例报告,2011-08-19,诊断,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,9d1a3d2e-5f7c-4b2b-8d1e-6c2f8f4a9b21,标本：胸/腹/盆腔CT,影像所见,,文本型,未见转移性疾病；右肾萎缩,,,,CT,LLM提取,论文病例报告,2011-08-19,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,0f5c6e7a-9d1c-4b2e-8d3f-6a1b2c3d4e55,患者,治疗方案,,类别型,术后辅助放化疗,,,,,LLM提取,论文病例报告,2011-08-19,病程,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,0f5c6e7a-9d1c-4b2e-8d3f-6a1b2c3d4e55,患者,放疗剂量,,数值型,4660,4660,盆腔照射,cGy,,LLM提取,论文病例报告,2011-11-01,病程,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,0f5c6e7a-9d1c-4b2e-8d3f-6a1b2c3d4e55,患者,放疗剂量,,数值型,1200,1200,阴道残端；高剂量率近距离治疗,cGy,,LLM提取,论文病例报告,2011-11-01,病程,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,0f5c6e7a-9d1c-4b2e-8d3f-6a1b2c3d4e55,患者,药品名称,,类别型,顺铂,,同步化疗,,,LLM提取,论文病例报告,2012-01-01,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,1a2b3c4d-5e6f-4789-8abc-def012345678,患者,诊断名称,,类别型,肺部转移/疑似原发肺癌,,胸部CT发现双侧毛刺样肺部肿块，最大位于右上叶2.8 cm × 3.4 cm,,,LLM提取,论文病例报告,2014-10-08,诊断,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,1a2b3c4d-5e6f-4789-8abc-def012345678,患者,症状,,文本型,乏力加重、皮肤苍白、气促，需要更频繁使用吸入剂,,,,,LLM提取,论文病例报告,2014-10-08,病程,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,1a2b3c4d-5e6f-4789-8abc-def012345678,患者,病史,,文本型,20 pack-year吸烟史,,,,,LLM提取,论文病例报告,2014-10-08,病史,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,2b3c4d5e-6f78-49ab-8cde-f0123456789a,标本：肺部肿块活检,病理诊断,,文本型,宫颈腺癌转移,,,,活检/病理,LLM提取,论文病例报告,2014-10-08,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,3c4d5e6f-789a-4bcd-8ef0-123456789abc,患者,治疗方案,,类别型,拓扑替康+紫杉醇+贝伐珠单抗,,因担心肾毒性而避免进一步使用高肾毒性药物,,,LLM提取,论文病例报告,2014-10-10,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,3c4d5e6f-789a-4bcd-8ef0-123456789abc,患者,周期数,,数值型,7,7,2014-10-10至2015-02-03,周期,,LLM提取,论文病例报告,2014-10-10,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,4d5e6f78-9abc-4def-8123-456789abcdef,标本：胸部CT,影像所见,,文本型,右上叶肺部肿块增大至约3.7 cm × 3.9 cm,,,,CT,LLM提取,论文病例报告,2015-02-18,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,5e6f789a-bcde-4f01-9234-56789abcdef0,标本：右上叶病灶再活检,检验项目,,类别型,ERBB2（HER2）扩增,,HPV及NGS检测送检,,下一代测序/分子检测,LLM提取,论文病例报告,2015-03-05,检验,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,5e6f789a-bcde-4f01-9234-56789abcdef0,患者,治疗方案,,类别型,曲妥珠单抗+帕妥珠单抗,,入组临床试验,,,LLM提取,论文病例报告,2015-03-05,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,6f789abc-def0-4123-9345-6789abcdef01,患者,疗效评估,,类别型,疾病进展,,右上叶病灶增大,,影像评估,LLM提取,论文病例报告,2015-05-26,评估,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,6f789abc-def0-4123-9345-6789abcdef01,患者,PET结果,,文本型,右上叶病灶无异常示踪剂摄取,,SUV 1.2,,PET,LLM提取,论文病例报告,2015-05-26,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,7a89bcde-f012-4234-9456-789abcdef012,患者,治疗方案,,类别型,曲妥珠单抗+帕妥珠单抗,,临床试验外继续治疗,,,LLM提取,论文病例报告,2015-07-08,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,8b9cdef0-1234-4345-a567-89abcdef0123,标本：PET-CT,影像所见,,文本型,右上叶空洞性病灶前缘见细长软组织肿块,,,,PET-CT,LLM提取,论文病例报告,2015-12-14,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,9cdef012-3456-4546-9789-abcdef012345,标本：胸部CT,影像所见,,文本型,右上叶结节及前方软组织肿块较前改善，残余影像考虑放射消融后的线性瘢痕；下方卫星肺部病灶消失；未见其他新发病灶,,,,CT,LLM提取,论文病例报告,2016-04-04,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,ad012345-6789-4657-a89b-cdef01234567,标本：胸部CT,影像所见,,文本型,右上叶结节及前方软组织肿块较前改善；卫星肺部病灶较前改善,,,,CT,LLM提取,论文病例报告,2016-07-07,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,bcdef012-3456-4768-9abc-def012345678,标本：胸部CT,影像所见,,文本型,右上叶结节及前方软组织肿块进一步缩小；卫星肺部病灶消失,,,,CT,LLM提取,论文病例报告,2016-12-30,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,cdef0123-4567-4879-abcd-ef0123456789,标本：胸部CT,影像所见,,文本型,右上叶病灶缩小至1.4 cm × 0.7 cm,,,,CT,LLM提取,论文病例报告,2017-06-07,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,def01234-5678-49ab-bcde-f0123456789a,患者,疗效评估,,类别型,疾病进展,,右上叶病灶进展,,CT,LLM提取,论文病例报告,2017-09-25,评估,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,ef012345-6789-4abc-cdef-0123456789ab,标本：胸/腹/盆腔CT,影像所见,,文本型,右上叶肿块增至3.7 cm × 2 cm；较2017-09-25前增大,,,,CT,LLM提取,论文病例报告,2017-11-14,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,ef012345-6789-4abc-cdef-0123456789ab,标本：右上叶病灶,病理诊断,,文本型,复发/转移性宫颈内膜样癌,,CT引导下活检证实,,活检/病理,LLM提取,论文病例报告,2017-11-14,病理,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,ef012345-6789-4abc-cdef-0123456789ab,患者,治疗方案,,类别型,曲妥珠单抗+帕妥珠单抗,,已完成40个周期后停用,,,LLM提取,论文病例报告,2017-11-14,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,f0123456-789a-4bcd-ef01-23456789abcd,患者,手术名称,,类别型,右上叶病灶立体定向放疗（SBRT）,,,,,LLM提取,论文病例报告,2018-01-18,手术,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,f0123456-789a-4bcd-ef01-23456789abcd,患者,治疗方案,,类别型,T-DM1（ado-trastuzumab emtansine）,,,,,LLM提取,论文病例报告,2018-01-29,用药,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,01234567-89ab-4cde-f012-3456789abc,标本：胸部CT,影像所见,,文本型,右上叶肺部肿块缩小至1.9 cm × 0.7 cm；无其他可测量病灶,,,,CT,LLM提取,论文病例报告,2018-03-01,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,12345678-9abc-4def-0123-456789abcdef,患者,影像所见,,文本型,右上叶术后/放射治疗后改变较前改善，稳定瘢痕及肺容积减少；未见残余或复发肿瘤,,,,CT,LLM提取,论文病例报告,2019-01-02,影像,v1
+623a3189b1be7bcf1fd50fe858dc9c3e,f971c61c7532da61d6dbb3eaee6bc7d0,12345678-9abc-4def-0123-456789abcdef,患者,治疗方案,,类别型,T-DM1（ado-trastuzumab emtansine）,,持续治疗，已完成27个周期,,,LLM提取,论文病例报告,2019-01-02,用药,v1

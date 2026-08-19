@@ -1,0 +1,42 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,7c5f3f7f-2d1d-4e5a-8c4d-4f6e0f4d9f10,患者,入院年龄,,数值型,27,27,,岁,,LLM提取,论文病例报告,,入院,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,c2a8fd5e-6f62-4f3b-8f70-8f83f6a2fd44,患者,主诉,,文本型,严重腹痛伴白带增多/大量白带，腹胀,,,,,LLM提取,论文病例报告,2017-06-01,病史,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,c2a8fd5e-6f62-4f3b-8f70-8f83f6a2fd44,患者,现病史,,文本型,2017年中期出现右下腹疼痛，就诊基层医疗机构后症状无改善；3个月后加重并转诊妇科，后经多学科讨论考虑为疑似卵黄囊瘤。,,,,,LLM提取,论文病例报告,2017-06-01,病史,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,8c4c99f0-9e87-46f4-a6f4-7f3d2cc5d8c1,患者,个人史,,文本型,未吸烟，无饮酒史，职业为医疗保健管理人员，未婚,,,,,LLM提取,论文病例报告,,病史,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,8c4c99f0-9e87-46f4-a6f4-7f3d2cc5d8c1,患者,既往史,,文本型,无糖尿病史、无高血压史,,,,,LLM提取,论文病例报告,,病史,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,8c4c99f0-9e87-46f4-a6f4-7f3d2cc5d8c1,患者,家族史,,文本型,外祖母死于宫颈癌，母亲死于肝癌，父亲死于肺癌,,,,,LLM提取,论文病例报告,,病史,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,2d0d1c44-5db4-4b3b-a6fe-25d78d95c3f2,患者,查体,,文本型,右下腹腹胀，腹部包块触及，伴腹痛，入院时腹部肿块大小约18×12×6 cm,,,,,LLM提取,论文病例报告,2018-02-01,评估,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,1b9f6d2c-8d86-4ef4-8b15-2f8c4d7d5b4a,血清,AFP,,数值型,14425,14425,,ng/mL,,LLM提取,论文病例报告,2017-06-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,6a9cf6d9-0e48-4f46-a7b7-6a2f0f2f0a11,腹部超声,影像所见,,文本型,提示白带原因为子宫颈内膜炎，未见宫颈癌或淋巴结及周围区域肿大征象,,,,腹部超声,LLM提取,论文病例报告,2017-06-01,影像,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,9d4e4c6d-5b2f-4d5a-9b0d-2b7b6d1a7d3f,CT,影像所见,,文本型,腹腔内实性肿块，位于腹膜后区域，大小约24×20×18 cm,,,,CT,LLM提取,论文病例报告,2017-09-01,影像,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,f3f5b7f8-7e1d-4d7d-9c2d-2f3d4a5b6c7d,患者,诊断名称,,类别型,疑似卵黄囊瘤,,,,,LLM提取,论文病例报告,2017-09-01,诊断,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a8d1c2e3-4f5b-4678-9a0b-1c2d3e4f5a6b,患者,手术名称,,类别型,剖腹探查术联合妇科手术，肿瘤切除,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a8d1c2e3-4f5b-4678-9a0b-1c2d3e4f5a6b,患者,手术结果,,文本型,首次剖腹探查中完成肿瘤切除,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e,病理,病理诊断,,文本型,腹腔内卵黄囊瘤（YST）,,,,,LLM提取,论文病例报告,2017-12-01,病理,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,1b9f6d2c-8d86-4ef4-8b15-2f8c4d7d5b4a,血清,AFP,,数值型,5550.20,5550.20,术后较术前下降,ng/mL,,LLM提取,论文病例报告,2017-12-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,患者,治疗方案,,类别型,BEP方案化疗,,bleomycin + etoposide + cisplatin,,,LLM提取,论文病例报告,2017-12-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,患者,周期数,,数值型,6,6,,周期,,LLM提取,论文病例报告,2017-12-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,bleomycin,剂量,,数值型,20,20,连续4天,mg,,LLM提取,论文病例报告,2017-12-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,etoposide,剂量,,数值型,160,160,连续4天,mg,,LLM提取,论文病例报告,2017-12-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,cisplatin,剂量,,数值型,40,40,连续4天,mg,,LLM提取,论文病例报告,2017-12-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,5f6a7b8c-9d0e-4f1a-8b2c-3d4e5f6a7b8c,患者,诊断名称,,类别型,复发性腹腔内卵黄囊瘤,,,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,第二次手术/再次剖腹探查,,,,,LLM提取,论文病例报告,2018-01-01,手术,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e6f,患者,手术结果,,文本型,术后病理仍提示相同结果，考虑肿瘤复发,,,,,LLM提取,论文病例报告,2018-01-01,手术,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,治疗方案,,类别型,再次化疗,,具体方案未述,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,周期数,,数值型,4,4,,周期,,LLM提取,论文病例报告,2018-01-01,用药,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,f4a5b6c7-d8e9-4f0a-9b1c-2d3e4f5a6b7c,患者,查体,,文本型,右下腹腹胀，腹部包块约18×12×6 cm，伴7级腹痛，恶心呕吐,,,,,LLM提取,论文病例报告,2018-02-01,评估,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,f4a5b6c7-d8e9-4f0a-9b1c-2d3e4f5a6b7c,患者,一般状况_体温,,文本型,,,,,,LLM提取,论文病例报告,2018-02-01,评估,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,血清,AFP,,数值型,15445.54,15445.54,正常值<10 ng/mL,ng/mL,,LLM提取,论文病例报告,2018-02-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,血清,CA-125,,数值型,151.1,151.1,正常值<35 U/mL,U/mL,,LLM提取,论文病例报告,2018-02-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,血清,β-hCG,,数值型,0.0185,0.0185,正常,mIU/mL,,LLM提取,论文病例报告,2018-02-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,血清,鳞状细胞癌抗原,,类别型,正常,,未见升高,,,LLM提取,论文病例报告,2018-02-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,治疗方案,,类别型,3D-CRT放疗,,10MV光子束，分两阶段，总剂量50 Gy,,3D-CRT,LLM提取,论文病例报告,2018-02-01,病程,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,治疗方案,,类别型,第一阶段放疗,,30 Gy/10次，每次3 Gy，5天完成,,3D-CRT,LLM提取,论文病例报告,2018-02-01,病程,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,治疗方案,,类别型,第二阶段放疗,,20 Gy/10次，每次2 Gy，5天完成,,3D-CRT,LLM提取,论文病例报告,2018-02-01,病程,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,治疗反应,,类别型,症状改善，肿块缩小,,第一阶段后肿块由18×12×6 cm缩小至12×8×6 cm；完成放疗后缩小至8×6×6 cm,,,LLM提取,论文病例报告,2018-02-01,病程,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,不良反应名称,,类别型,恶心、呕吐,,第二阶段第10次后出现严重恶心呕吐,,,LLM提取,论文病例报告,2018-02-01,不良反应,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,处理措施,,文本型,给予止吐和抗恶心药物后好转,,,,,LLM提取,论文病例报告,2018-02-01,不良反应,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,0f1e2d3c-4b5a-6978-8c9d-0e1f2a3b4c5d,患者,治疗后症状,,文本型,腹痛消失，白带停止，临床症状明显缓解,,,,,LLM提取,论文病例报告,2018-02-01,病程,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,血清,AFP,,数值型,244.41,244.41,放疗后下降,ng/mL,,LLM提取,论文病例报告,2018-02-01,检验,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,9a8b7c6d-5e4f-4a3b-9c2d-1e0f2a3b4c5d,患者,出院状况,,类别型,症状缓解后出院,,出院后安排3个月复查MRI,,,LLM提取,论文病例报告,2018-02-01,出院,v1
+dbb70c71c4b988d763ce25c32b1f280e,3ad705ab14bf12ed60e9b935cb85cf0b,4b3c2d1e-0f9a-4b8c-9d7e-6f5a4b3c2d1e,患者,随访结果,,文本型,3个月后复诊时自觉良好，等待腹部MRI期间腹痛复发，随后转入ICU，3天后死亡,,,,,LLM提取,论文病例报告,2018-05-01,病程,v1

@@ -1,0 +1,47 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,7a3a5b55-0fd1-4c6b-a6d2-2f4d9f0a1f01,患者,现病史,,文本型,52岁男性，乙型肝炎病毒相关慢性肝炎，2016年在门诊诊断为肝细胞癌（HCC），BCLC分期A。,,,,,LLM提取,论文病例报告,2016-01-01,病史,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,7a3a5b55-0fd1-4c6b-a6d2-2f4d9f0a1f01,患者,既往史,,文本型,乙型肝炎病毒相关慢性肝炎。,,,,,LLM提取,论文病例报告,2016-01-01,病史,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,a6f1f0f1-0d34-47b0-9f3f-7a7b1df8d002,患者,查体,,文本型,体格检查无阳性体征。,,,,,LLM提取,论文病例报告,2016-01-01,评估,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,b4b7c2c1-6c0d-4c8b-8e2d-3d63e3f6f003,患者,诊断名称,,类别型,肝细胞癌,,BCLC分期A,,,LLM提取,论文病例报告,2016-01-01,诊断,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,b4b7c2c1-6c0d-4c8b-8e2d-3d63e3f6f003,患者,临床分期,,类别型,A,,Barcelona Clinic Liver Cancer stage,,,LLM提取,论文病例报告,2016-01-01,诊断,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,c1e8c5f1-1f28-4e6f-9f3c-6a0a2c8d4004,患者,AFP,,数值型,49.36,49.36,,ng/mL,,LLM提取,论文病例报告,2016-01-01,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d2f5a3a8-8d26-4d0c-8d46-0e5d34d5d005,肝脏标本,影像所见,,文本型,CT提示肝脏5、6段见肿瘤病灶。,,,,增强CT,LLM提取,论文病例报告,2016-01-01,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d2f5a3a8-8d26-4d0c-8d46-0e5d34d5d005,肝脏标本,影像结论,,文本型,肝脏5、6段肿瘤。,,,,增强CT,LLM提取,论文病例报告,2016-01-01,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e6d6fce3-3d6c-4a7b-9f9d-6d5a7d0e9006,患者,手术名称,,类别型,机器人辅助腹腔镜5-6段肝切除术,,,,,LLM提取,论文病例报告,2016-01-01,手术,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e6d6fce3-3d6c-4a7b-9f9d-6d5a7d0e9006,患者,手术结果,,文本型,手术顺利完成，无并发症。,,,,,LLM提取,论文病例报告,2016-01-01,手术,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f0b6f0b4-89d8-4f0d-b7c4-7c8e8a1a1007,肝脏标本,病理诊断,,文本型,切除标本证实为原发性中分化肝细胞癌。,,,,HE染色,LLM提取,论文病例报告,2016-01-01,病理,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f0b6f0b4-89d8-4f0d-b7c4-7c8e8a1a1007,肝脏标本,分化程度,,类别型,中分化,,肝细胞癌,,HE染色,LLM提取,论文病例报告,2016-01-01,病理,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f1c1d5c2-72b8-4b9f-9b0b-8b5c2d2b1008,患者,治疗方案,,文本型,术后抗病毒治疗。,,,,,LLM提取,论文病例报告,2016-01-02,用药,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,2a4f6a3f-1b6d-4e5f-8f7c-9d5b6a7e1009,患者,随访结果,,文本型,每3个月复查AFP、DCP及超声/MRI/CT；术后3年内未见复发。,,,,,LLM提取,论文病例报告,2016-04-01,病程,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,b7d7f6c1-3e9d-4b0f-8f7d-1c2a3e4f1010,患者,诊断名称,,类别型,肝细胞癌复发,,肝7段新发肿瘤，直径2 cm,,,LLM提取,论文病例报告,2019-12-29,诊断,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,c7b2a5d4-3c6e-4d8f-9c0a-2a1b3c4d1011,血清标本,AFP,,数值型,升高,,,,,LLM提取,论文病例报告,2019-12-29,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d1a2b3c4-5d6e-4f7a-8b9c-0d1e2f3a1012,肝脏标本,影像所见,,文本型,MRI发现肝7段新发2 cm肿瘤病灶。,,,,MRI,LLM提取,论文病例报告,2019-12-29,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d1a2b3c4-5d6e-4f7a-8b9c-0d1e2f3a1012,肝脏标本,影像结论,,文本型,肝7段复发性肿瘤。,,,,MRI,LLM提取,论文病例报告,2019-12-29,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e2f3a4b5-6c7d-4e8f-9a0b-1c2d3e4f1013,患者,手术名称,,类别型,微波消融术,,针对肝7段病灶,,,LLM提取,论文病例报告,2019-12-29,手术,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,c8d9e0f1-2a3b-4c5d-8e9f-0a1b2c3d1014,血清标本,AFP,,数值型,恢复正常,,,,,LLM提取,论文病例报告,2020-01-01,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,9f8e7d6c-5b4a-4c3d-9e0f-1a2b3c4d1015,患者,主诉,,文本型,急性阑尾炎症状。,,,,,LLM提取,论文病例报告,2021-03-06,病史,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,9f8e7d6c-5b4a-4c3d-9e0f-1a2b3c4d1015,患者,现病史,,文本型,因急性阑尾炎症状再次就诊。,,,,,LLM提取,论文病例报告,2021-03-06,病史,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f4e5d6c7-8b9a-4c0d-9e1f-2a3b4c5d1016,血清标本,AFP,,数值型,轻度升高,,,,,LLM提取,论文病例报告,2021-03-06,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f4e5d6c7-8b9a-4c0d-9e1f-2a3b4c5d1016,血清标本,DCP,,数值型,轻度升高,,,,,LLM提取,论文病例报告,2021-03-06,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b1017,阑尾标本,影像所见,,文本型,增强CT显示阑尾尖端附着2 cm肿瘤，余肝未见复发。,,,,增强CT,LLM提取,论文病例报告,2021-03-06,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b1017,阑尾标本,影像结论,,文本型,考虑肝细胞癌孤立性转移至阑尾。,,,,增强CT,LLM提取,论文病例报告,2021-03-06,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,b2c3d4e5-6f7a-4b8c-9d0e-1f2a3b4c1018,患者,诊断名称,,类别型,肝细胞癌孤立性阑尾转移,,,,,LLM提取,论文病例报告,2021-03-06,诊断,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d3e4f5a6-7b8c-4d9e-0a1b-2c3d4e5f1019,患者,手术名称,,类别型,腹腔镜阑尾切除术,,,,,LLM提取,论文病例报告,2021-03-12,手术,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d3e4f5a6-7b8c-4d9e-0a1b-2c3d4e5f1019,患者,手术结果,,文本型,完成阑尾切除。,,,,,LLM提取,论文病例报告,2021-03-12,手术,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e4f5a6b7-8c9d-4e0f-1a2b-3c4d5e6f1020,阑尾标本,病理诊断,,文本型,阑尾附着病灶为转移性肝细胞癌。,,肿瘤累及浆膜至黏膜下各层,,HE染色,LLM提取,论文病例报告,2021-03-12,病理,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e4f5a6b7-8c9d-4e0f-1a2b-3c4d5e6f1020,阑尾标本,标本部位,,类别型,阑尾,,,,HE染色,LLM提取,论文病例报告,2021-03-12,病理,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f5a6b7c8-9d0e-4f1a-2b3c-4d5e6f7a1021,患者,随访结果,,文本型,术后每3个月随访。,,,,,LLM提取,论文病例报告,2021-03-12,病程,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f5a6b7c8-9d0e-4f1a-2b3c-4d5e6f7a1021,患者,出院状况,,文本型,术后无腹痛，恢复后进入随访。,,,,,LLM提取,论文病例报告,2021-03-12,出院,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,a5b6c7d8-9e0f-4a1b-2c3d-4e5f6a7b1022,血清标本,AFP,,数值型,升高,,,,,LLM提取,论文病例报告,2022-01-15,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,a5b6c7d8-9e0f-4a1b-2c3d-4e5f6a7b1022,血清标本,DCP,,数值型,升高,,,,,LLM提取,论文病例报告,2022-01-15,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,b6c7d8e9-0f1a-4b2c-3d4e-5f6a7b8c1023,肝脏标本,影像所见,,文本型,MRI显示右半肝多发复发灶，最大直径2 cm。,,,,MRI,LLM提取,论文病例报告,2022-01-15,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,b6c7d8e9-0f1a-4b2c-3d4e-5f6a7b8c1023,肝脏标本,影像结论,,文本型,肝内多发复发性肿瘤。,,,,MRI,LLM提取,论文病例报告,2022-01-15,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,c7d8e9f0-1a2b-4c3d-5e6f-7a8b9c0d1024,患者,诊断名称,,类别型,肝细胞癌肝内复发,,右半肝多发病灶,,,LLM提取,论文病例报告,2022-01-15,诊断,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d8e9f0a1-2b3c-4d5e-6f7a-8b9c0d1e1025,患者,治疗方案,,文本型,TACE联合仑伐替尼和PD-1抗体治疗。,,,,,LLM提取,论文病例报告,2022-01-15,用药,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d8e9f0a1-2b3c-4d5e-6f7a-8b9c0d1e1025,患者,药品名称,,类别型,仑伐替尼,,联合TACE和免疫检查点抑制剂,,,LLM提取,论文病例报告,2022-01-15,用药,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,d8e9f0a1-2b3c-4d5e-6f7a-8b9c0d1e1025,患者,药品名称,,类别型,PD-1抗体,,免疫检查点抑制剂,,,LLM提取,论文病例报告,2022-01-15,用药,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e9f0a1b2-3c4d-5e6f-7a8b-9c0d1e2f1026,患者,治疗反应,,类别型,部分/完全反应趋势,,4个月后CT显示病灶被碘油覆盖，AFP恢复正常,,,LLM提取,论文病例报告,2022-05-15,病程,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e9f0a1b2-3c4d-5e6f-7a8b-9c0d1e2f1026,血清标本,AFP,,数值型,恢复正常,,,,,LLM提取,论文病例报告,2022-05-15,检验,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e9f0a1b2-3c4d-5e6f-7a8b-9c0d1e2f1026,肝脏标本,影像所见,,文本型,CT显示典型肝转移灶被碘油覆盖。,,,,CT,LLM提取,论文病例报告,2022-05-15,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,e9f0a1b2-3c4d-5e6f-7a8b-9c0d1e2f1026,肝脏标本,影像结论,,文本型,治疗后病灶影像学缓解。,,,,CT,LLM提取,论文病例报告,2022-05-15,影像,v1
+afb1bad7082fabc4e4c8bf6ccfa2ebc2,d44010b3789e040eb135ea032138a45f_1,f0a1b2c3-4d5e-6f7a-8b9c-0d1e2f3a1027,患者,随访结果,,文本型,截至论文报道时总生存7年，疾病稳定。,,,,,LLM提取,论文病例报告,2023-01-01,病程,v1

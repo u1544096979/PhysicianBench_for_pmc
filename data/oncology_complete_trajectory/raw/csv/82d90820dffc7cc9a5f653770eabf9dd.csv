@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,2d4d95aa-8b4f-4c9f-8e20-5f0f9d4f3c11,患者,年龄,,数值型,58,58,,岁,,LLM提取,论文病例报告,,入院,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,2d4d95aa-8b4f-4c9f-8e20-5f0f9d4f3c11,患者,入院途径,,类别型,急诊,,,,,LLM提取,论文病例报告,2014-03-01,入院,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,2d4d95aa-8b4f-4c9f-8e20-5f0f9d4f3c11,患者,主诉,,文本型,进行性额颞部头痛、右侧视野缺损、食欲下降、体重减轻、跌倒,,,,,LLM提取,论文病例报告,2014-03-01,病史,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,6f0c2d5e-5a45-4ed8-b91f-0cf3a8d5a2a1,患者,既往史,,文本型,2型糖尿病、阻塞性睡眠呼吸暂停、胃食管反流病、哮喘、痛风、焦虑、抑郁,,,,,LLM提取,论文病例报告,2014-03-01,病史,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,6f0c2d5e-5a45-4ed8-b91f-0cf3a8d5a2a1,患者,个人史,,文本型,既往吸烟，40包年,,,,,LLM提取,论文病例报告,2014-03-01,病史,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,6f0c2d5e-5a45-4ed8-b91f-0cf3a8d5a2a1,患者,家族史,,文本型,父亲死于膀胱癌,,,,,LLM提取,论文病例报告,2014-03-01,病史,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,9b4f7d3f-5f0d-4e8c-8a95-1d6c0d7c9d31,患者,查体,,文本型,肥胖（BMI 41），生命体征正常，神志清楚，定向力正常，步态正常，右侧视野缺损；肺部呼吸音清晰双侧对称；腹部未触及包块、器官肿大或盆腔淋巴结肿大；直肠指检前列腺小、光滑、质韧，无直肠肿块,,,,,LLM提取,论文病例报告,2014-03-01,评估,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,d8b2f6f8-2cb1-4ff7-8a0b-2e0f1d5e4c7a,患者,影像所见,,文本型,头颅CT/MRI示左枕叶混杂性肿块，实性及囊性成分，大小约2.9 cm；伴脑水肿，右移中线约0.2 cm；未见脑积水,,,cm,CT/MRI,LLM提取,论文病例报告,2014-03-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,f3b3a8d6-6c41-4e3b-9a2d-3e5f6b9b1f21,患者,诊断名称,,类别型,左枕叶脑转移瘤，考虑肺来源,,术前影像/病理推测,,,LLM提取,论文病例报告,2014-03-01,诊断,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,a7e2b4f1-1f24-4bd6-a7c9-8f2d6d5f1a92,患者,手术名称,,类别型,左枕叶开颅肿瘤切除术,,,,,LLM提取,论文病例报告,2014-04-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,a7e2b4f1-1f24-4bd6-a7c9-8f2d6d5f1a92,患者,手术结果,,文本型,肿块切除,,,,,LLM提取,论文病例报告,2014-04-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,c4f8d7a9-3f7b-4a2d-8b1e-2e6d7c9a0f11,肿瘤标本,病理诊断,,文本型,转移性腺癌，免疫组化提示肺原发可能,,CK7阳性、TTF-1阳性、CK20阴性,,免疫组化,LLM提取,论文病例报告,2014-04-01,病理,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,b1a3c9d8-8b2a-4c6d-9f1a-7e2d4b5c6a71,患者,放疗方案,,类别型,全脑放射治疗,,30 Gy / 10次,Gy,,LLM提取,论文病例报告,2014-05-01,病程,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,b1a3c9d8-8b2a-4c6d-9f1a-7e2d4b5c6a71,患者,治疗反应,,类别型,完成,,术后6周内完成；因术后伤口感染延迟数周,,,LLM提取,论文病例报告,2014-05-01,病程,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,d2c5e6f7-9a1b-4c3d-8e2f-1a2b3c4d5e6f,患者,不良反应名称,,类别型,术后切口感染,,,,,LLM提取,论文病例报告,2014-05-01,不良反应,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,d2c5e6f7-9a1b-4c3d-8e2f-1a2b3c4d5e6f,患者,处理措施,,文本型,口服抗生素治疗,,,,,LLM提取,论文病例报告,2014-05-01,不良反应,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,e4f6a8b1-2c3d-4e5f-9a7b-1c2d3e4f5a6b,患者,影像所见,,文本型,胸腹盆腔分期CT示左肾上极5.0 cm肾脏肿块，无其他病灶,,,cm,CT,LLM提取,论文病例报告,2014-05-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,f5a7b9c1-3d4e-5f6a-8b1c-2d3e4f5a6b7c,患者,诊断名称,,类别型,转移性肾细胞癌（初步诊断）,,基于社区分期CT报告,,,LLM提取,论文病例报告,2014-05-01,诊断,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,06b8c9d2-4e5f-6a7b-8c1d-2e3f4a5b6c7d,患者,影像所见,,文本型,复查CT示左肾上极外生性实性肿块4.9 cm；胰腺3.1 cm异质性囊实性肿块；右下肺叶2.1 cm肺结节,,,cm,CT,LLM提取,论文病例报告,2014-06-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,06b8c9d2-4e5f-6a7b-8c1d-2e3f4a5b6c7d,患者,诊断名称,,类别型,考虑肾细胞癌伴转移,,影像学判断，肺/胰腺病灶考虑转移,,,LLM提取,论文病例报告,2014-06-01,诊断,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,7c9d0e1f-2a3b-4c5d-8e6f-1a2b3c4d5e6f,患者,影像所见,,文本型,头颅MRI示术区原部位出现4.2 cm环形强化液性信号，考虑颅内脓肿,,,cm,MRI,LLM提取,论文病例报告,2014-07-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,8d1e2f3a-4b5c-6d7e-8f1a-2b3c4d5e6f7a,患者,手术名称,,类别型,左枕叶开颅引流并切除脓肿,,,,,LLM提取,论文病例报告,2014-07-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,8d1e2f3a-4b5c-6d7e-8f1a-2b3c4d5e6f7a,患者,手术结果,,文本型,脓肿清除，术后恢复良好，无其他并发症,,,,,LLM提取,论文病例报告,2014-07-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,9e2f3a4b-5c6d-7e8f-1a2b-3c4d5e6f7a8b,患者,检查方法,,类别型,PET-CT,,,,,LLM提取,论文病例报告,2014-07-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,9e2f3a4b-5c6d-7e8f-1a2b-3c4d5e6f7a8b,患者,影像所见,,文本型,右下肺叶肺肿块3.0 cm，SUV摄取9；隆突下1 cm淋巴结无FDG摄取；左肾病灶4.2 cm，无FDG摄取；胰尾结节倾向良性,,PET-CT复评,cm,PET-CT,LLM提取,论文病例报告,2014-07-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,0a1b2c3d-4e5f-6a7b-8c9d-1e2f3a4b5c6d,患者,病理诊断,,文本型,左肾肿块穿刺活检证实透明细胞肾细胞癌,,CKAE1/AE3阳性，vimentin阳性，CK7阴性，CK20阴性，TTF-1阴性,,超声引导穿刺活检,LLM提取,论文病例报告,2014-07-01,病理,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,0a1b2c3d-4e5f-6a7b-8c9d-1e2f3a4b5c6d,右下肺叶肿块,病理诊断,,文本型,检出肿瘤细胞，有限标本下无法明确鉴别为高分化腺癌或神经内分泌肿瘤,,EBUS引导活检,,EBUS,LLM提取,论文病例报告,2014-07-01,病理,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,0a1b2c3d-4e5f-6a7b-8c9d-1e2f3a4b5c6d,纵隔淋巴结（8区）,病理诊断,,文本型,未见恶性,,EBUS引导活检,,EBUS,LLM提取,论文病例报告,2014-07-01,病理,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,1b2c3d4e-5f6a-7b8c-9d1e-2f3a4b5c6d7e,患者,手术名称,,类别型,右下肺叶VATS肺叶切除术,,,,,LLM提取,论文病例报告,2014-08-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,1b2c3d4e-5f6a-7b8c-9d1e-2f3a4b5c6d7e,患者,手术结果,,文本型,完整切除,,负切缘,,,LLM提取,论文病例报告,2014-08-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,1b2c3d4e-5f6a-7b8c-9d1e-2f3a4b5c6d7e,患者,病理诊断,,文本型,右下肺叶乳头状腺癌，Grade 2，8枚淋巴结中1枚支气管周围淋巴结阳性并有包膜外侵犯,,最终肺癌病理分期T2aN1,,病理,LLM提取,论文病例报告,2014-08-01,病理,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,2c3d4e5f-6a7b-8c9d-1e2f-3a4b5c6d7e8f,患者,治疗方案,,类别型,辅助化疗,,已与肿瘤内科讨论后提供，但患者拒绝,,,LLM提取,论文病例报告,2014-08-01,用药,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,3d4e5f6a-7b8c-9d1e-2f3a-4b5c6d7e8f9a,患者,影像所见,,文本型,腹盆腔复查CT显示左肾肿块较前增大至6.4 cm,,,cm,CT,LLM提取,论文病例报告,2014-11-01,影像,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,4e5f6a7b-8c9d-1e2f-3a4b-5c6d7e8f9a0b,患者,手术名称,,类别型,左肾部分切除术,,,,,LLM提取,论文病例报告,2015-02-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,4e5f6a7b-8c9d-1e2f-3a4b-5c6d7e8f9a0b,患者,手术结果,,文本型,肿瘤完整切除，切缘阴性,,未采样区域淋巴结,,,LLM提取,论文病例报告,2015-02-01,手术,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,4e5f6a7b-8c9d-1e2f-3a4b-5c6d7e8f9a0b,患者,病理诊断,,文本型,透明细胞肾细胞癌，单灶，6.0 cm，切缘阴性,,最终病理分期pT1bNx,cm,病理,LLM提取,论文病例报告,2015-02-01,病理,v1
+82d90820dffc7cc9a5f653770eabf9dd,b3d6e98b0958d9e1d1ba110affcf9b47_1,5f6a7b8c-9d1e-2f3a-4b5c-6d7e8f9a0b1c,患者,随访结果,,文本型,恢复良好，无手术并发症，无临床证据提示复发或进展；头颅、胸部、腹部、盆腔CT未见残余或复发病灶,,计划每3-6个月常规CT监测,,CT随访,LLM提取,论文病例报告,2015-05-01,病程,v1

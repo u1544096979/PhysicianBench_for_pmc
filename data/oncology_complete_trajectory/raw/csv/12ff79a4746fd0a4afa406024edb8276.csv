@@ -1,0 +1,18 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,0d5a0a1c-0c8e-4a72-a6d8-f7c8e1d8f0c1,患者,个人史,,文本型,82岁男性；自2022年起发现左颊肿物,,,,,LLM提取,论文病例报告,2022-01-01,病史,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,1f7a8f4a-0f6f-4f5d-9dd0-4f9a6f6bb8f2,患者,诊断名称,,类别型,面部皮肤鳞状细胞癌,,左颊,,活检后病理诊断,LLM提取,论文病例报告,2023-05-01,诊断,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,2f6a4e8d-4f31-4e0f-8c6d-6b2f9b7f5c10,超声检查,影像所见,,文本型,左颊肿瘤，直径约17 mm,,,mm,超声检查,LLM提取,论文病例报告,2023-06-01,影像,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,3c2ef0c8-2a61-4f50-a6fd-2f4d1ddf8c9a,PET/CT,影像结论,,文本型,未见转移,,,,氟代脱氧葡萄糖增强PET/CT,LLM提取,论文病例报告,2023-06-01,影像,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,4a1c3a5b-8f4a-4c7a-b3e1-7f0c1f8a9d2b,患者,手术名称,,类别型,肿瘤切除术,,联合全层皮肤移植,,,LLM提取,论文病例报告,2023-07-01,手术,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,4a1c3a5b-8f4a-4c7a-b3e1-7f0c1f8a9d2b,患者,手术结果,,文本型,完成肿瘤切除并行全层皮肤移植,,,,,LLM提取,论文病例报告,2023-07-01,手术,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,5b8f0a1d-3c6e-4d8d-8e7a-0c1d2e3f4a5b,患者,病理诊断,,文本型,术后病理提示切缘阳性,,,,术后病理,LLM提取,论文病例报告,2023-07-01,病理,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,6d7e8f90-1a2b-4c3d-9e0f-1234567890ab,患者,诊断名称,,类别型,术后放射治疗,,因术后切缘阳性,,,LLM提取,论文病例报告,2023-09-01,诊断,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,6d7e8f90-1a2b-4c3d-9e0f-1234567890ab,患者,临床分期,,类别型,cSCC术后需要辅助放疗,,,,,LLM提取,论文病例报告,2023-09-01,诊断,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,7e8f9012-3a4b-5c6d-7e8f-901234567890,患者,治疗方案,,类别型,术后放疗，6 MV X射线，2弧VMAT,,使用HM bolus,,放射治疗计划,LLM提取,论文病例报告,2023-09-01,病程,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,7e8f9012-3a4b-5c6d-7e8f-901234567890,患者,总剂量,,数值型,5500,5500,20次分割,cGy,,LLM提取,论文病例报告,2023-09-01,用药,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,8f901234-5a6b-7c8d-9e0f-112233445566,HM bolus,药品名称,,类别型,HM bolus,,可塑形软橡胶bolus,,,LLM提取,论文病例报告,2023-09-01,用药,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,8f901234-5a6b-7c8d-9e0f-112233445566,HM bolus,用药周期,,文本型,放疗期间使用,,,,,LLM提取,论文病例报告,2023-09-01,用药,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,9a0b1c2d-3e4f-5061-7283-94a5b6c7d8e9,患者,不良反应名称,,类别型,皮炎,,CTCAE 5.0 1级,,,LLM提取,论文病例报告,2023-09-01,不良反应,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,9a0b1c2d-3e4f-5061-7283-94a5b6c7d8e9,患者,处理措施,,文本型,未超过1级毒性，未见需特殊处理的不良事件,,,,,LLM提取,论文病例报告,2023-09-01,不良反应,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,7e8f9012-3a4b-5c6d-7e8f-901234567890,患者,治疗反应,,类别型,完成治疗,,计划顺利完成,,,LLM提取,论文病例报告,2023-09-01,病程,v1
+12ff79a4746fd0a4afa406024edb8276,1c7a5d4f5d8e08b2e25ef506bc43cbd0,a1b2c3d4-e5f6-4789-8abc-def012345678,患者,随访结果,,文本型,放疗结束后1个月无复发,,,,,LLM提取,论文病例报告,2023-10-01,病程,v1

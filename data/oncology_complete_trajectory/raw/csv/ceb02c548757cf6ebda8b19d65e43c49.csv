@@ -1,0 +1,23 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,5f0e2f1c-5d6b-4f4d-8b7b-1a8a3a0a9b11,患者,主诉,,文本型,血便1个月,,伴直肠癌及溃疡性结肠炎相关就诊,,,LLM提取,论文病例报告,2024-03-24,病史,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,8b7c0c5a-7d32-4f5e-9b60-4fd8aaf4d201,患者,入院年龄,,数值型,66,66,,岁,,LLM提取,论文病例报告,2024-04-25,入院,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,8b7c0c5a-7d32-4f5e-9b60-4fd8aaf4d201,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2024-04-25,入院,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,8b7c0c5a-7d32-4f5e-9b60-4fd8aaf4d201,患者,家族史,,文本型,无遗传性肿瘤家族史,,,,,LLM提取,论文病例报告,2024-04-25,病史,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,c7fd4b28-3a6d-4c8f-8c7b-3d7e6f7f8c12,患者,查体,,文本型,结肠镜见直肠黏膜肿物及溃疡性结肠炎,,肿物约2 cm,,结肠镜,LLM提取,论文病例报告,2024-04-25,评估,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,d9f2f1a4-9c5f-4c7a-8b6d-2c4a8d1e4a33,直肠活检标本,病理诊断,,文本型,直肠绒毛状腺瘤伴高级别上皮内瘤变，局灶癌变（黏膜内腺癌）,,提示早期直肠恶性肿瘤（0期）,,活检病理,LLM提取,论文病例报告,2024-04-25,病理,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,d9f2f1a4-9c5f-4c7a-8b6d-2c4a8d1e4a33,患者,诊断名称,,类别型,早期直肠恶性肿瘤（0期）,,合并溃疡性结肠炎,,,LLM提取,论文病例报告,2024-04-25,诊断,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,a7a58b87-2b1d-4e1c-9d7a-2e7c2d9f5a44,患者,影像所见,,文本型,盆腔磁共振及增强CT显示右侧263D组淋巴结肿大，边界清晰，直径约1.2 cm,,考虑直肠癌淋巴结转移可能,cm,盆腔MR、增强CT,LLM提取,论文病例报告,2024-05-04,影像,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,b5b2c0b8-2f7d-4f87-9f5b-7d1c3a7d9f55,血液,CEA,,类别型,正常,,,,,LLM提取,论文病例报告,2024-05-04,检验,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,b5b2c0b8-2f7d-4f87-9f5b-7d1c3a7d9f55,血液,CA125,,类别型,正常,,,,,LLM提取,论文病例报告,2024-05-04,检验,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,b5b2c0b8-2f7d-4f87-9f5b-7d1c3a7d9f55,血液,CA19-9,,类别型,正常,,,,,LLM提取,论文病例报告,2024-05-04,检验,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,e1a0f5d3-6f8a-4c83-8f5a-9b4a1f7a6c66,患者,诊断名称,,类别型,溃疡性结肠炎合并直肠恶性肿瘤,,术前诊断,,,LLM提取,论文病例报告,2024-05-06,诊断,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,f2b1c3d4-7e8f-4a9b-8c1d-2e3f4a5b6c77,患者,手术名称,,类别型,腹腔镜右侧侧方淋巴结清扫,,术前用于明确淋巴结性质,,腹腔镜,LLM提取,论文病例报告,2024-05-07,手术,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,f2b1c3d4-7e8f-4a9b-8c1d-2e3f4a5b6c77,淋巴结,病理诊断,,文本型,反应性增生,,取1枚淋巴结,,病理检查,LLM提取,论文病例报告,2024-05-07,病理,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,c4d5e6f7-8a9b-4c1d-9e2f-3a4b5c6d7e88,患者,手术名称,,类别型,内镜黏膜下剥离术（ESD）,,全麻下行肿瘤切除,,内镜,LLM提取,论文病例报告,2024-05-07,手术,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,c4d5e6f7-8a9b-4c1d-9e2f-3a4b5c6d7e88,肿瘤标本,病理诊断,,文本型,管状-绒毛状腺瘤伴高级别上皮内瘤变，局灶癌变（黏膜内腺癌）,,癌组织未侵入黏膜肌层，切缘阴性,,术后病理,LLM提取,论文病例报告,2024-05-07,病理,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,c4d5e6f7-8a9b-4c1d-9e2f-3a4b5c6d7e88,患者,手术结果,,文本型,肿瘤完全切除,,切缘阴性,,,LLM提取,论文病例报告,2024-05-07,手术,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,d6e7f8a9-b1c2-4d3e-8f4a-5b6c7d8e9f99,患者,出院状况,,类别型,无术后并发症，恢复良好,,,,,LLM提取,论文病例报告,2024-05-19,出院,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,d6e7f8a9-b1c2-4d3e-8f4a-5b6c7d8e9f99,患者,住院天数,,数值型,24,24,从2024-04-25至2024-05-19,天,,LLM提取,论文病例报告,2024-05-19,出院,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,d6e7f8a9-b1c2-4d3e-8f4a-5b6c7d8e9f99,患者,出院医嘱,,文本型,建议继续随访观察,,,,,LLM提取,论文病例报告,2024-05-19,出院,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,e8f9a0b1-c2d3-4e5f-8a6b-7c8d9e0f1a22,患者,随访结果,,文本型,术后恢复良好，无残留或复发病灶,,随访3个月,,,LLM提取,论文病例报告,2024-08-19,病程,v1
+ceb02c548757cf6ebda8b19d65e43c49,97076fff2bb3a4f4bbf6d97254ab880e,e8f9a0b1-c2d3-4e5f-8a6b-7c8d9e0f1a22,患者,疗效评估,,类别型,良好,,治疗有效,,随访,LLM提取,论文病例报告,2024-08-19,评估,v1

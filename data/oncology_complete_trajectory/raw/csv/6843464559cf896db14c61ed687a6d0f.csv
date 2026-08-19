@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,7b8a9c74-7a6a-4a0e-ae1f-4d6c8f7f3d01,患者,主诉,,文本型,腹痛、便秘、体重下降18 kg（持续6个月）,,,,,LLM提取,论文病例报告,2018-05-01,病史,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,c4d8b8d6-8a6f-4e6a-9f75-6f3b3c0d6d2a,患者,查体,,文本型,一般情况良好,,,,,LLM提取,论文病例报告,2018-05-22,评估,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,5a5d3e40-1b0d-4c2b-9d5f-5b0fb8c9b2e1,患者,影像所见,,文本型,腹部及盆腔CT提示乙状结肠11 cm实性肿块，约占肠腔周径90%，未见远处转移，仅见肝囊肿,,,,CT,LLM提取,论文病例报告,2018-05-22,影像,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,5a5d3e40-1b0d-4c2b-9d5f-5b0fb8c9b2e1,患者,影像结论,,文本型,乙状结肠肿块，无远处转移,,,,CT,LLM提取,论文病例报告,2018-05-22,影像,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,8d8b9b2a-9d7a-4d0a-9e5d-6a1d0c5f2b3a,患者,检查项目,,文本型,直乙状结肠镜检查,,,,Rectosigmoidoscopy,LLM提取,论文病例报告,2018-06-06,其他,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,1c6d9d6b-2d35-4c0c-9f7d-8d3e2f4a6b7c,患者,手术名称,,类别型,乙状结肠切除术,,切除长度17 cm,,,LLM提取,论文病例报告,2018-07-27,手术,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,1c6d9d6b-2d35-4c0c-9f7d-8d3e2f4a6b7c,患者,手术结果,,文本型,手术顺利，无并发症,,,,,LLM提取,论文病例报告,2018-07-27,手术,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,d2d6f1a4-0c9b-4a15-9f4e-6a7c8b9d0e1f,患者,病理诊断,,文本型,高分级肠道腺癌,,AJCC 3B期（T3N1aM0），切缘阴性,,病理,LLM提取,论文病例报告,2018-08-21,病理,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,d2d6f1a4-0c9b-4a15-9f4e-6a7c8b9d0e1f,患者,临床分期,,类别型,AJCC 3B期,,T3N1aM0,,,LLM提取,论文病例报告,2018-08-21,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e7c0a8b1-3d9f-4c2e-9f1a-2b3c4d5e6f70,患者,诊断名称,,类别型,转移性结肠癌，左肾转移,,左肾病灶来源于肠道腺癌,,,LLM提取,论文病例报告,2018-09-14,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e7c0a8b1-3d9f-4c2e-9f1a-2b3c4d5e6f70,患者,影像所见,,文本型,PET/CT显示左肾异常代谢聚集，提示同步性肾脏肿瘤,,,,PET/CT,LLM提取,论文病例报告,2018-09-14,影像,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a6b,患者,手术名称,,类别型,左肾切除术,,因高度怀疑原发性肾癌,,,LLM提取,论文病例报告,2018-11-11,手术,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a6b,患者,手术结果,,文本型,手术顺利,,,,,LLM提取,论文病例报告,2018-11-11,手术,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,a9b8c7d6-e5f4-4a3b-9c8d-7e6f5a4b3c2d,左肾标本,病理诊断,,文本型,高分级转移性腺癌,,CDX-2强阳性，CD10阴性，提示肠源性,,病理/免疫组化,LLM提取,论文病例报告,2018-11-27,病理,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,a9b8c7d6-e5f4-4a3b-9c8d-7e6f5a4b3c2d,左肾标本,免疫组化,,文本型,CDX-2强阳性，CD10阴性,,提示肠道来源,,免疫组化,LLM提取,论文病例报告,2018-11-27,病理,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,铁蛋白,,数值型,1260,1260,,μg/L,,LLM提取,论文病例报告,2018-11-27,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,铁,,数值型,37,37,,μmol/L,,LLM提取,论文病例报告,2018-11-27,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,血红蛋白,,数值型,155,155,,g/L,,LLM提取,论文病例报告,2018-11-27,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,癌胚抗原(CEA),,数值型,正常,,,,,LLM提取,论文病例报告,2018-11-27,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,CA19-9,,数值型,正常,,,,,LLM提取,论文病例报告,2018-11-27,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,c6d7e8f9-a0b1-4c2d-8e9f-1a2b3c4d5e6f,患者,治疗方案,,类别型,FOLFOX 4方案辅助化疗,,氧铂为基础,,,LLM提取,论文病例报告,2018-12-14,病程,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,c6d7e8f9-a0b1-4c2d-8e9f-1a2b3c4d5e6f,患者,疗效评估,,类别型,耐受良好，无明显不良反应,,,,,LLM提取,论文病例报告,2018-12-14,评估,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f71,患者,癌胚抗原(CEA),,数值型,11.4,11.4,,μg/L,,LLM提取,论文病例报告,2019-03-25,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f71,患者,CA19-9,,数值型,58,58,,U/mL,,LLM提取,论文病例报告,2019-03-25,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,影像所见,,文本型,腹部及盆腔MRI示右肾上腺病灶进展，肿块约4.3×3.8×4.8 cm；PET/CT证实右肾上腺异常代谢聚集,,,,MRI/PET-CT,LLM提取,论文病例报告,2019-03-25,影像,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,f7a8b9c0-d1e2-4f3a-8b9c-0d1e2f3a4b5c,患者,手术名称,,类别型,右肾上腺切除及肿瘤切除术,,于高水平手术中心实施,,,LLM提取,论文病例报告,2019-05-31,手术,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,f7a8b9c0-d1e2-4f3a-8b9c-0d1e2f3a4b5c,患者,手术结果,,文本型,成功切除右肾上腺及肿瘤,,,,,LLM提取,论文病例报告,2019-05-31,手术,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,a2b3c4d5-e6f7-48a9-b0c1-d2e3f4a5b6c7,右肾上腺标本,病理诊断,,文本型,转移性高分级肠道腺癌,,与既往病理一致,,病理,LLM提取,论文病例报告,2019-06-07,病理,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b3c4d5e6-f7a8-49b0-c1d2-e3f4a5b6c7d8,患者,影像所见,,文本型,腹部及盆腔CT示右肾上腺既往切除区局部复发、腹膜种植、左肾既往手术区域复发肿瘤,,,,CT,LLM提取,论文病例报告,2019-10-02,影像,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,b3c4d5e6-f7a8-49b0-c1d2-e3f4a5b6c7d8,患者,CA19-9,,数值型,188,188,,U/mL,,LLM提取,论文病例报告,2019-10-02,检验,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,c8d9e0f1-a2b3-4c5d-8e9f-1a2b3c4d5e6a,患者,治疗方案,,类别型,FOLFIRI联合VEGF抑制剂贝伐珠单抗,,共7个周期,,,LLM提取,论文病例报告,2019-11-06,病程,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,c8d9e0f1-a2b3-4c5d-8e9f-1a2b3c4d5e6a,患者,周期数,,数值型,7,7,,,,LLM提取,论文病例报告,2019-11-06,病程,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,患者,影像所见,,文本型,3个月后影像示疾病进展,,,,影像学检查,LLM提取,论文病例报告,2020-02-14,影像,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,9p24.1扩增（JAK2/PDL1/PDL2共扩增）,,微卫星稳定，TMB 4 mutations/Mb,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,MMR状态,,类别型,MS-stable,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,肿瘤突变负荷(TMB),,数值型,4,4,mutations/Mb,mutations/Mb,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,KRAS扩增,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,CCND2扩增,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,CDK8扩增（可疑）,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,FGF23扩增,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,FGF6扩增,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,FLT3扩增（可疑）,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,KDM5A扩增,,,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,APC突变,,"V1320fs*11, R283*",,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,TP53突变,,S241fs*19,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,e0f1a2b3-c4d5-4e6f-8f9a-0b1c2d3e4f5b,左肾转移灶标本,分子标志物,,类别型,CDH1缺失,,外显子1-2缺失,,NGS（Foundation Medicine）,LLM提取,论文病例报告,2020-03-10,诊断,v1
+6843464559cf896db14c61ed687a6d0f,a3ba2c9075caa1d206aee571d206c66f,f9e8d7c6-b5a4-4d3c-9b8a-7c6d5e4f3a2b,患者,死亡,,文本型,因疾病进展死亡,,,,,LLM提取,论文病例报告,2020-06-15,病程,v1

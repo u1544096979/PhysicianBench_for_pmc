@@ -1,0 +1,55 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,c3a4ce6f-0b1a-4b3c-a0f9-7f2a8a4f3f1d,患者,入院年龄,,数值型,46,46,2002年初诊时,岁,,LLM提取,论文病例报告,2002-01-01,入院,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,c3a4ce6f-0b1a-4b3c-a0f9-7f2a8a4f3f1d,患者,人口学信息,,文本型,绝经前白人女性,,,,,LLM提取,论文病例报告,2002-01-01,入院,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,c3a4ce6f-0b1a-4b3c-a0f9-7f2a8a4f3f1d,患者,主诉,,文本型,乳腺癌初诊,,,,,LLM提取,论文病例报告,2002-01-01,病史,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,6c6b2a8e-2d50-4d75-9b3f-43a7c1ad2f2e,右乳肿瘤,病理诊断,,文本型,浸润性导管癌,,,,,LLM提取,论文病例报告,2002-01-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,6c6b2a8e-2d50-4d75-9b3f-43a7c1ad2f2e,右乳肿瘤,标本部位,,类别型,右乳,,,,,LLM提取,论文病例报告,2002-01-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d68a3f8d-52d2-4dc4-8a9d-12f4a9cb1b74,右乳肿瘤,ER状态,,类别型,阳性,,IHC,,免疫组化,LLM提取,论文病例报告,2002-01-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d68a3f8d-52d2-4dc4-8a9d-12f4a9cb1b74,右乳肿瘤,PR状态,,类别型,阳性,,IHC,,免疫组化,LLM提取,论文病例报告,2002-01-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d68a3f8d-52d2-4dc4-8a9d-12f4a9cb1b74,右乳肿瘤,HER2状态,,类别型,阴性,,IHC,,免疫组化,LLM提取,论文病例报告,2002-01-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,8f1be3b5-2c9f-4a77-a5c1-6c8fb7f3d5d1,患者,手术名称,,类别型,右乳切除术,,联合腋窝淋巴结清扫,,,LLM提取,论文病例报告,2002-01-01,手术,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d1c7a2b8-8cf7-4f3c-a2c1-7b3c8a8a1f21,患者,治疗方案,,类别型,AC-T辅助化疗,,阿霉素+环磷酰胺后序贯紫杉醇,,,LLM提取,论文病例报告,2002-01-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d1c7a2b8-8cf7-4f3c-a2c1-7b3c8a8a1f21,患者,药品名称,,类别型,doxorubicin,,,,,LLM提取,论文病例报告,2002-01-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d1c7a2b8-8cf7-4f3c-a2c1-7b3c8a8a1f21,患者,药品名称,,类别型,cyclophosphamide,,,,,LLM提取,论文病例报告,2002-01-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d1c7a2b8-8cf7-4f3c-a2c1-7b3c8a8a1f21,患者,药品名称,,类别型,paclitaxel,,,,,LLM提取,论文病例报告,2002-01-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f6d9c72c-6b2a-4b90-9c48-0d2a5f8fbf2c,患者,药品名称,,类别型,tamoxifen,,维持治疗2年,,,LLM提取,论文病例报告,2002-01-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f6d9c72c-6b2a-4b90-9c48-0d2a5f8fbf2c,患者,药品名称,,类别型,anastrozole,,后续8年芳香化酶抑制治疗,,,LLM提取,论文病例报告,2004-01-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,1d9bf9e0-4c2b-4f1f-9a43-2a3f8d2c7e10,患者,诊断名称,,类别型,右锁骨上淋巴结复发,,并考虑右上肺及前纵隔转移结节,,,LLM提取,论文病例报告,2012-05-01,诊断,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,1d9bf9e0-4c2b-4f1f-9a43-2a3f8d2c7e10,右锁骨上淋巴结转移灶,ER状态,,类别型,阳性,,IHC,,免疫组化,LLM提取,论文病例报告,2012-05-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,1d9bf9e0-4c2b-4f1f-9a43-2a3f8d2c7e10,右锁骨上淋巴结转移灶,PR状态,,类别型,阴性,,IHC,,免疫组化,LLM提取,论文病例报告,2012-05-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,1d9bf9e0-4c2b-4f1f-9a43-2a3f8d2c7e10,右锁骨上淋巴结转移灶,HER2状态,,类别型,阴性,,IHC,,免疫组化,LLM提取,论文病例报告,2012-05-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,4f3c1a2b-7c8d-4a1f-a2d4-6e7f8a9b1c22,患者,药品名称,,类别型,exemestane,,单药治疗,,,LLM提取,论文病例报告,2012-05-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,4f3c1a2b-7c8d-4a1f-a2d4-6e7f8a9b1c22,患者,药品名称,,类别型,everolimus,,2012-07加用,,,LLM提取,论文病例报告,2012-07-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,7b5f9d3e-1a2c-4f8b-9c6d-5e4f2a1b3c44,患者,放疗,,文本型,区域淋巴引流区及右胸壁放疗,,2012年12月完成,,,LLM提取,论文病例报告,2012-12-01,手术,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,a5c2f8e1-9d3b-4d7a-b8c1-2e3f4a5b6c77,患者,疗效评估,,类别型,完全代谢缓解,,PET评估，2013-01,,PET,LLM提取,论文病例报告,2013-01-01,评估,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,e4a1c2d3-b5f6-47a8-9c1d-2e3f4a5b6c88,患者,诊断名称,,类别型,肝脏病灶进展,,CT提示病情进展,,CT,LLM提取,论文病例报告,2014-05-01,影像,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,e4a1c2d3-b5f6-47a8-9c1d-2e3f4a5b6c88,患者,治疗方案,,类别型,fulvestrant + exemestane,,因肝脏进展更换治疗线,,,LLM提取,论文病例报告,2014-05-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,9d8c7b6a-5f4e-4d3c-b2a1-0f9e8d7c6b55,患者,诊断名称,,类别型,肝、胸膜及骨转移进展,,CT提示,,CT,LLM提取,论文病例报告,2014-09-01,影像,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,9d8c7b6a-5f4e-4d3c-b2a1-0f9e8d7c6b55,患者,治疗方案,,类别型,capecitabine,,单药化疗,,,LLM提取,论文病例报告,2014-09-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,b2a1c3d4-e5f6-47a8-9b1c-2d3e4f5a6b99,肝转移灶,病理诊断,,文本型,转移性乳腺癌,,,,,LLM提取,论文病例报告,2015-03-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,b2a1c3d4-e5f6-47a8-9b1c-2d3e4f5a6b99,肝转移灶,ER状态,,类别型,阳性,,IHC,,免疫组化,LLM提取,论文病例报告,2015-03-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,b2a1c3d4-e5f6-47a8-9b1c-2d3e4f5a6b99,肝转移灶,PR状态,,类别型,阳性,,IHC,,免疫组化,LLM提取,论文病例报告,2015-03-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,b2a1c3d4-e5f6-47a8-9b1c-2d3e4f5a6b99,肝转移灶,HER2状态,,类别型,阴性,,IHC,,免疫组化,LLM提取,论文病例报告,2015-03-01,病理,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,a7b8c9d0-e1f2-43a4-b5c6-7d8e9f0a1b22,患者,治疗方案,,类别型,paclitaxel + everolimus + sorafenib,,2015-04更改,,,LLM提取,论文病例报告,2015-04-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d4e5f6a7-b8c9-41d2-a3b4-c5d6e7f8a9b0,血液,检验项目,,类别型,ctDNA检测,,初始2次阴性，2015-08至2017-11共11次液体活检,,Guardant360 / FoundationAct,LLM提取,论文病例报告,2015-08-01,检验,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d4e5f6a7-b8c9-41d2-a3b4-c5d6e7f8a9b0,血液,检验结果,,类别型,阴性,,前2次液体活检,,,LLM提取,论文病例报告,2015-08-01,检验,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b66,患者,治疗方案,,类别型,everolimus + vinorelbine + crizotinib,,因严重中性粒细胞减少，所有治疗暂停2周后改方案,,,LLM提取,论文病例报告,2015-08-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,e1f2a3b4-c5d6-47e8-9a0b-1c2d3e4f5a77,患者,治疗方案,,类别型,trametinib + eribulin + everolimus,,因2016-02肝脏进展更换,,,LLM提取,论文病例报告,2016-02-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f2a3b4c5-d6e7-48f9-0a1b-2c3d4e5f6a88,患者,疗效评估,,类别型,肝肿瘤体积减少20%,,CT评估，2016-04,,CT,LLM提取,论文病例报告,2016-04-01,评估,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e99,患者,治疗方案,,类别型,crizotinib,,2016-07加用,,,LLM提取,论文病例报告,2016-07-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d5e6f7a8-b9c0-41d2-a3b4-c5d6e7f8a9aa,患者,治疗方案,,类别型,carboplatin + exemestane + cabozantinib,,2016-09左右更换；早期9月11个周期eribulin完成,,,LLM提取,论文病例报告,2016-09-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,e6f7a8b9-c0d1-42e3-a4b5-c6d7e8f9aabb,患者,治疗方案,,类别型,everolimus,,2016-12末加用,,,LLM提取,论文病例报告,2016-12-31,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f7a8b9c0-d1e2-43f4-a5b6-c7d8e9faabbb,患者,骨扫描结果,,文本型,发现新骨病灶,,2017-02下旬,,骨扫描,LLM提取,论文病例报告,2017-02-28,影像,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f7a8b9c0-d1e2-43f4-a5b6-c7d8e9faabbb,患者,治疗方案,,类别型,atezolizumab + fulvestrant + everolimus + cabozantinib,,2017-02下旬启用,,,LLM提取,论文病例报告,2017-02-28,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f8b9c0d1-e2f3-44a5-b6c7-d8e9fabccd01,患者,药品名称,,类别型,paclitaxel-albumin,,2017-05初加用,,,LLM提取,论文病例报告,2017-05-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f9c0d1e2-f3a4-45b6-c7d8-e9fabccd1122,患者,药品名称,,类别型,everolimus,,因血小板减少和中性粒细胞减少于2017-06停用,,,LLM提取,论文病例报告,2017-06-01,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,f9c0d1e2-f3a4-45b6-c7d8-e9fabccd1122,患者,治疗方案,,类别型,trametinib + atezolizumab + fulvestrant + cabozantinib + abemaciclib + paclitaxel-albumin,,2017-12中旬调整,,,LLM提取,论文病例报告,2017-12-15,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,a0b1c2d3-e4f5-46a7-b8c9-d0e1f2a3b455,患者,不良反应名称,,类别型,严重中性粒细胞减少,,导致暂停所有治疗2周,,,LLM提取,论文病例报告,2015-08-01,不良反应,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,a0b1c2d3-e4f5-46a7-b8c9-d0e1f2a3b455,患者,不良反应名称,,类别型,血小板减少,,2017-06停用everolimus,,,LLM提取,论文病例报告,2017-06-01,不良反应,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,a0b1c2d3-e4f5-46a7-b8c9-d0e1f2a3b455,患者,不良反应名称,,类别型,中性粒细胞减少,,2017-06停用everolimus,,,LLM提取,论文病例报告,2017-06-01,不良反应,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,b1c2d3e4-f5a6-47b8-c9d0-e1f2a3b45566,患者,不良反应名称,,类别型,胸壁植入物侵蚀,,2017-10导致全部治疗暂停并行手术取出,,,LLM提取,论文病例报告,2017-10-01,不良反应,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,b1c2d3e4-f5a6-47b8-c9d0-e1f2a3b45566,患者,处理措施,,文本型,手术切除侵蚀的植入物，随后继续治疗,,,,,LLM提取,论文病例报告,2017-10-01,手术,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,c2d3e4f5-a6b7-48c9-d0e1-f2a3b4556677,患者,影像所见,,文本型,肺和腹膜后淋巴结进展,,2017-11末CT,,CT,LLM提取,论文病例报告,2017-11-30,影像,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,c2d3e4f5-a6b7-48c9-d0e1-f2a3b4556677,患者,治疗方案,,类别型,protein-bound paclitaxel + cabozantinib + atezolizumab + abemaciclib + fulvestrant,,2017-12中旬更换,,,LLM提取,论文病例报告,2017-12-15,用药,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,d3e4f5a6-b7c8-49d0-e1f2-a3b455667788,患者,影像所见,,文本型,右侧大型气胸，且与伤口处相通,,2018-01末,,CT,LLM提取,论文病例报告,2018-01-31,影像,v1
+3e16c6026b9b2f464dd1a7ad2ba29939,f099ac01bc1e22ef1706d0b0b1b3e23d,e4f5a6b7-c8d9-40e1-f2a3-b45566778899,患者,出院状况,,类别型,转入临终关怀后死亡,,因肝脏肿瘤负荷重，不能继续耐受治疗；1周后去世,,,LLM提取,论文病例报告,2018-02-07,出院,v1

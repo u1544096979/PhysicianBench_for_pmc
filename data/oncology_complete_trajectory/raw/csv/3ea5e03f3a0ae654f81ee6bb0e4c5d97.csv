@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,2b4d4a1d-5cf0-4b32-a0c8-1d5f3d5a8f11,患者,既往史,,文本型,1994年诊断为xeroderma pigmentosum variant (XPV)；既往有皮肤癌切除史,,,,,LLM提取,论文病例报告,1994-01-01,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,5e1a8a5e-59d8-4f4d-8f0d-cc6f4e8d7f4e,患者,手术名称,,类别型,皮肤癌切除术,,1994年因XPV相关皮肤癌接受切除,,,LLM提取,论文病例报告,1994-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,7a55b1d7-9d56-4d66-9d7d-bb0e0fbd0d2f,患者,手术名称,,类别型,下唇鳞状细胞癌切除术,,病理/部位：下唇,,,LLM提取,论文病例报告,2009-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,c2f4a7c1-4f5d-4d1e-a9e4-89f1dc8a9a2a,患者,手术名称,,类别型,上唇鳞状细胞癌切除术,,病理/部位：上唇,,,LLM提取,论文病例报告,2011-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,9c0c1a5b-7e64-4b92-8b8d-8cde0d52d6bb,患者,手术名称,,类别型,复发性下唇鳞状细胞癌切除术,,病理/部位：下唇,,,LLM提取,论文病例报告,2014-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,9f0d3dd4-4fd7-4f66-97cc-3b5f4f4d3a3d,患者,手术名称,,类别型,右下眼睑、右耳垂、右前臂及颈部基底细胞癌切除术,,部位：右下眼睑、右耳垂、右前臂、颈部,,,LLM提取,论文病例报告,2018-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,d8a4f1d1-2c2d-4e4d-8f1f-8a1d2e3c4b5a,患者,病史,,文本型,合并糖尿病、高血压,,,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,b2f7c2d6-7b7d-4b0b-9f3d-2e1c5a6f7d8e,患者,手术名称,,类别型,左膝关节人工关节置换术,,适应证：左膝骨关节炎,,,LLM提取,论文病例报告,2014-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,3c7d8e9f-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,手术名称,,类别型,内镜下括约肌切开取总胆管结石术,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f70,患者,手术名称,,类别型,腹腔镜胆囊切除术,,适应证：胆囊结石,,,LLM提取,论文病例报告,2016-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,5f6a7b8c-9d0e-4f1a-8b2c-3d4e5f607182,患者,手术名称,,类别型,双眼人工晶体植入术,,适应证：双眼白内障,,,LLM提取,论文病例报告,,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,6a7b8c9d-0e1f-4a2b-8c3d-4e5f60718293,患者,手术名称,,类别型,左眼外眦切开加强术,,适应证：左侧剥脱综合征所致青光眼,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,家族史,,文本型,父母来自日本同一农业地区；可追溯到近亲婚配，父系和母系祖母为姐妹,,家系中存在近亲婚配,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,家族史,,文本型,哥哥患结肠癌,,,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,家族史,,文本型,二哥患XP、糖尿病和慢性肾病,,,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,家族史,,文本型,姐姐患XP和痴呆,,,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,吸烟史,,类别型,不吸烟,,丈夫为现吸烟者,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,饮酒史,,类别型,不饮酒,,,,,LLM提取,论文病例报告,,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,患者,主诉,,文本型,皮肤干燥，伴全身散在小色素斑，日晒暴露部位尤为明显,,,,,LLM提取,论文病例报告,2018-04-15,病史,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,患者,查体,,文本型,皮肤干燥，伴多个小的色素斑，全身分布，暴露于阳光区域更明显；眼睑和嘴唇因既往切除而变形,,,,,LLM提取,论文病例报告,2018-04-15,评估,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,c6d7e8f9-0a1b-4c2d-8e3f-4a5b6c7d8e9f,胸部CT,影像所见,,文本型,左肺上叶胸膜下发现26×32 mm肿瘤，伴毛刺,,用于评估是否存在转移性皮肤癌,,CT,LLM提取,论文病例报告,2018-04-20,影像,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,c6d7e8f9-0a1b-4c2d-8e3f-4a5b6c7d8e9f,胸部CT,影像结论,,文本型,提示左肺上叶胸膜下肿瘤,,,,CT,LLM提取,论文病例报告,2018-04-20,影像,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,d7e8f901-1a2b-4c3d-8e4f-5a6b7c8d9e0f,患者,入院/转诊情况,,文本型,因胸部CT发现肺部肿瘤而转诊至本院胸外科,,,,,LLM提取,论文病例报告,2018-04-15,入院,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,f1e2d3c4-b5a6-4c7d-8e9f-0a1b2c3d4e5f,活检肿瘤标本,病理诊断,,文本型,肺腺癌,,临床分期cT2aN0M0；stage IB,,组织病理,LLM提取,论文病例报告,2018-04-20,病理,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,f1e2d3c4-b5a6-4c7d-8e9f-0a1b2c3d4e5f,患者,诊断名称,,类别型,肺腺癌,,临床分期cT2aN0M0；stage IB,,,LLM提取,论文病例报告,2018-04-20,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,f1e2d3c4-b5a6-4c7d-8e9f-0a1b2c3d4e5f,患者,临床分期,,类别型,cT2aN0M0,,stage IB,,,LLM提取,论文病例报告,2018-04-20,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d,患者,手术名称,,类别型,胸腔镜下左上叶切除术,,因观察到胸膜播散而中止切除,,,LLM提取,论文病例报告,2018-07-06,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d,患者,手术结果,,文本型,手术中止,,因发现胸膜播散,,,LLM提取,论文病例报告,2018-07-06,手术,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,0b1c2d3e-4f5a-6b7c-8d9e-0a1b2c3d4e5f,胸膜播散标本,EGFR突变,,类别型,阳性,,p.L858R,,基因分析,LLM提取,论文病例报告,2018-07-06,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,0b1c2d3e-4f5a-6b7c-8d9e-0a1b2c3d4e5f,胸膜播散标本,分子标志物,,类别型,EGFR p.L858R突变,,,,基因分析,LLM提取,论文病例报告,2018-07-06,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,胸膜播散标本,PDL1状态,,类别型,22C3-PD-L1 TPS 5%,,,,免疫组化,LLM提取,论文病例报告,2018-07-06,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,胸膜播散标本,免疫组化,,文本型,22C3-PD-L1 tumor proportion score 5%,,,,免疫组化,LLM提取,论文病例报告,2018-07-06,病理,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a,患者,诊断名称,,类别型,肺腺癌,,修正分期pT2aN0M1b；stage IVA,,,LLM提取,论文病例报告,2018-07-06,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a,患者,病理分期,,类别型,pT2aN0M1b,,stage IVA,,,LLM提取,论文病例报告,2018-07-06,诊断,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,治疗方案,,类别型,吉非替尼,,一线治疗；EGFR-TKI,,,LLM提取,论文病例报告,2018-08-07,用药,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,药品名称,,类别型,吉非替尼,,EGFR酪氨酸激酶抑制剂,,,LLM提取,论文病例报告,2018-08-07,用药,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,治疗反应,,类别型,肿瘤逐渐缩小,,CT示11×21 mm,,CT,LLM提取,论文病例报告,,病程,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,不良反应名称,,类别型,无,,未观察到副作用,,,LLM提取,论文病例报告,,不良反应,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c,患者,死亡原因,,文本型,吸入性肺炎,,在康复医院接受膝骨关节炎治疗期间死亡,,,LLM提取,论文病例报告,2020-10-04,病程,v1
+3ea5e03f3a0ae654f81ee6bb0e4c5d97,f8e856a31f94bd948d3ce5247477277b,4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c,患者,出院/结局,,类别型,死亡,,,,,LLM提取,论文病例报告,2020-10-04,出院,v1

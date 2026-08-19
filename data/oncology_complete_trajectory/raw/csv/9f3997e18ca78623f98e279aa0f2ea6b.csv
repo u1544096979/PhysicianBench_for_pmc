@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,f4d6f1f5-2c5e-4b32-9a9c-2d7c6cb9d5c1,患者,年龄,,数值型,41,41,,岁,,LLM提取,论文病例报告,,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,f4d6f1f5-2c5e-4b32-9a9c-2d7c6cb9d5c1,患者,婚育史,,文本型,7次妊娠，1次活产,,,,,LLM提取,论文病例报告,,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,f4d6f1f5-2c5e-4b32-9a9c-2d7c6cb9d5c1,患者,月经史,,文本型,月经周期规律,,,,,LLM提取,论文病例报告,,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,0e4d4f95-2f77-4e0d-8e1e-9f0d3d2a2d2e,患者,主诉,,文本型,阴道异常出血9个月,,,,,LLM提取,论文病例报告,,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,8e3c45f8-2d6f-4e9a-8f6a-2e2c7e5f9d1a,患者,症状,,文本型,性交后出血,,,,,LLM提取,论文病例报告,2022-06-01,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,8e3c45f8-2d6f-4e9a-8f6a-2e2c7e5f9d1a,患者,就诊机构,,类别型,基层医院,,,,,LLM提取,论文病例报告,2022-06-01,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,c4c6f2b0-0b4d-4d3a-a7b0-6c0f5c1a7a3f,宫颈,影像/内镜所见,,文本型,宫颈息肉样肿物,,行阴道镜和宫腔镜检查,,colposcopy/hysteroscopy,LLM提取,论文病例报告,2022-06-01,影像,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,c4c6f2b0-0b4d-4d3a-a7b0-6c0f5c1a7a3f,宫颈,病理诊断,,文本型,宫颈息肉,,,,,LLM提取,论文病例报告,2022-06-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,d6b5a2ad-9a64-4f3c-a8d9-1d1f6b2c8e4a,患者,症状,,文本型,反复阴道出血，肿物逐渐增大,,,,,LLM提取,论文病例报告,2022-09-01,病史,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,d6b5a2ad-9a64-4f3c-a8d9-1d1f6b2c8e4a,宫颈,病理诊断,,文本型,宫颈息肉/浅表血管黏液瘤考虑,,局部间质细胞增生活跃,,,LLM提取,论文病例报告,2022-09-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,d6b5a2ad-9a64-4f3c-a8d9-1d1f6b2c8e4a,宫颈,免疫组化,,文本型,SMA阴性、desmin阴性、CD34血管+、myogenin阴性、MyoD1阴性、P53阴性、Ki-67约5%阳性、S-100阴性、P16阴性、CK阳性,,,,免疫组化,LLM提取,论文病例报告,2022-09-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,d6b5a2ad-9a64-4f3c-a8d9-1d1f6b2c8e4a,宫颈,病理诊断,,文本型,宫颈息肉伴腺鳞化生及局灶低级别上皮内病变（CIN1）,,,,,LLM提取,论文病例报告,2022-09-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,d6b5a2ad-9a64-4f3c-a8d9-1d1f6b2c8e4a,宫颈肿瘤细胞,免疫组化,,文本型,P16、ER、PR、Vimentin、CEA、desmin、SMA、cyclinD1阳性；Ki-67约20%阳性,,,,免疫组化,LLM提取,论文病例报告,2022-09-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,宫颈,查体,,文本型,宫颈外口见大量葡萄样、疱样组织突入，接触性出血明显,,,,,LLM提取,论文病例报告,2023-02-01,评估,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,阴道/宫颈,影像/内镜所见,,文本型,阴道中上段见隆起性息肉样赘生物，质软，伴坏死组织和血凝块；周围可见多发疱样组织,,阴道镜检查,,colposcopy,LLM提取,论文病例报告,2023-02-01,影像,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,宫颈/阴道赘生物,病理诊断,,文本型,见异型细胞团，考虑肿瘤性病变,,,,,LLM提取,论文病例报告,2023-02-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,宫颈/阴道赘生物,免疫组化,,文本型,P16阴性、p40阴性、Ki-67约20%阳性,,特殊染色：网状纤维阳性,,免疫组化,LLM提取,论文病例报告,2023-02-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,血清肿瘤标志物,CA125,,类别型,未见明显异常,,CA125、HE4、CA199、SCC均未见明显异常,,,LLM提取,论文病例报告,2023-02-01,检验,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,血清肿瘤标志物,HE4,,类别型,未见明显异常,,CA125、HE4、CA199、SCC均未见明显异常,,,LLM提取,论文病例报告,2023-02-01,检验,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,血清肿瘤标志物,CA199,,类别型,未见明显异常,,CA125、HE4、CA199、SCC均未见明显异常,,,LLM提取,论文病例报告,2023-02-01,检验,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,血清肿瘤标志物,SCC,,类别型,未见明显异常,,CA125、HE4、CA199、SCC均未见明显异常,,,LLM提取,论文病例报告,2023-02-01,检验,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,宫颈,影像所见,,文本型,宫颈增大，肿块形态不规则，延伸至宫颈内口及阴道，侵犯未见内膜受累，宫颈间质环不完整，宫旁未受累,,增强MRI,,MRI,LLM提取,论文病例报告,2023-02-01,影像,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,盆腔/腹腔淋巴结,影像所见,,文本型,未见肿大淋巴结,,盆腔及腹腔淋巴结,,MRI,LLM提取,论文病例报告,2023-02-01,影像,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,a9c7c0e1-6d72-4a3f-9a5c-2a6d0b4e7f1b,宫颈,影像所见,,文本型,病灶累及邻近阴道，代谢增高，符合恶性肿瘤表现,,PET-CT,,PET-CT,LLM提取,论文病例报告,2023-02-01,影像,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,b5d3d6b2-1b6a-4e57-9f2a-8e4b6c2a9f10,阴道脱出物,病理诊断,,文本型,横纹肌肉瘤，伴间变性特征，符合葡萄状横纹肌肉瘤,,,,,LLM提取,论文病例报告,2023-03-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,b5d3d6b2-1b6a-4e57-9f2a-8e4b6c2a9f10,阴道脱出物,免疫组化,,文本型,desmin阳性、MyoD1阳性、myogenin阳性、VIM阳性；CK、CAM5.2、CKL、CKH、EMA、SMA、myoglobin、PAX5、CD99、NKX2.2、WT1、LCA、SS18、Syn、CgA阴性；Ki-67约90%阳性,,,,免疫组化,LLM提取,论文病例报告,2023-03-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,b5d3d6b2-1b6a-4e57-9f2a-8e4b6c2a9f10,患者,诊断名称,,类别型,子宫胚胎性横纹肌肉瘤,,最终确诊,,,LLM提取,论文病例报告,2023-03-01,诊断,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,b5d3d6b2-1b6a-4e57-9f2a-8e4b6c2a9f10,患者,临床分期,,类别型,T1N0M0,,肿瘤大小>5 cm,,,LLM提取,论文病例报告,2023-03-01,诊断,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,b5d3d6b2-1b6a-4e57-9f2a-8e4b6c2a9f10,患者,临床分组,,类别型,IRS IA,,Intergroup Rhabdomyosarcoma Study,,,LLM提取,论文病例报告,2023-03-01,诊断,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,6c2f7e4d-2a5c-4c8e-9f1b-3b4d5e6f7a8b,患者,治疗方案,,类别型,VA化疗,,长春新碱+放线菌素D,,,LLM提取,论文病例报告,2023-03-01,用药,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,6c2f7e4d-2a5c-4c8e-9f1b-3b4d5e6f7a8b,患者,周期数,,数值型,1,1,术前化疗仅完成1个周期,次,,LLM提取,论文病例报告,2023-03-01,用药,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,6c2f7e4d-2a5c-4c8e-9f1b-3b4d5e6f7a8b,患者,不良反应名称,,类别型,阴道大量出血,,化疗后出现,,,LLM提取,论文病例报告,2023-03-01,不良反应,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,6c2f7e4d-2a5c-4c8e-9f1b-3b4d5e6f7a8b,患者,处理措施,,文本型,停止进一步化疗，改行手术,,,,,LLM提取,论文病例报告,2023-03-01,不良反应,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,患者,手术名称,,类别型,机器人辅助腹腔镜根治性子宫切除术,,,,,LLM提取,论文病例报告,2023-04-01,手术,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,患者,手术名称,,类别型,双侧输卵管卵巢切除术,,,,,LLM提取,论文病例报告,2023-04-01,手术,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,患者,手术名称,,类别型,盆腔淋巴结清扫术,,,,,LLM提取,论文病例报告,2023-04-01,手术,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,患者,手术结果,,文本型,手术成功,,,,,LLM提取,论文病例报告,2023-04-01,手术,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,患者,术后病理诊断,,文本型,宫颈胚胎性横纹肌肉瘤,,,,,LLM提取,论文病例报告,2023-04-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,患者,术后病理所见,,文本型,宫颈壁外1/2见局部变性横纹肌肉瘤组织；双侧输卵管、卵巢及盆腔淋巴结未见转移，子宫及阴道壁未见肿瘤累及,,,,,LLM提取,论文病例报告,2023-04-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,7d8e9f1a-2b3c-4d5e-8f6a-1a2b3c4d5e6f,术后标本肿瘤细胞,免疫组化,,文本型,desmin局灶阳性、MyoD1阳性、myogenin阳性；CK、VIM、S100阴性；Ki-67约70%,,,,免疫组化,LLM提取,论文病例报告,2023-04-01,病理,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,6f7a8b9c-1d2e-4f3a-8b9c-0a1b2c3d4e5f,患者,治疗方案,,类别型,VA化疗,,术后静脉化疗,,,LLM提取,论文病例报告,2023-04-01,用药,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,6f7a8b9c-1d2e-4f3a-8b9c-0a1b2c3d4e5f,患者,周期数,,数值型,5,5,术后完成5个周期,次,,LLM提取,论文病例报告,2023-04-01,用药,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,8a9b0c1d-2e3f-4a5b-9c0d-1e2f3a4b5c6d,患者,随访结果,,文本型,术后8个月MRI提示左髂内血管旁2.7 cm软组织结节，边界不清，考虑复发,,,,,LLM提取,论文病例报告,2023-12-01,病程,v1
+9f3997e18ca78623f98e279aa0f2ea6b,2f7425a36f3eb6c6303c603de1da0d5e,8a9b0c1d-2e3f-4a5b-9c0d-1e2f3a4b5c6d,盆腔,影像所见,,文本型,左髂内血管旁2.7 cm软组织结节，DWI高信号，增强后明显强化，考虑复发,,增强MRI,,MRI,LLM提取,论文病例报告,2023-12-01,影像,v1

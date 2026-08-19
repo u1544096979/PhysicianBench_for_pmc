@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,5f0c88fb-7fbe-4c29-9e9f-7c19ef0df6e4,患者,入院科室,,类别型,神经内科,,,,,LLM提取,论文病例报告,2019-01-01,入院,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,5f0c88fb-7fbe-4c29-9e9f-7c19ef0df6e4,患者,入院年龄,,数值型,23,23,,岁,,LLM提取,论文病例报告,2019-01-01,入院,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,5f0c88fb-7fbe-4c29-9e9f-7c19ef0df6e4,患者,主诉,,文本型,突发进行性头痛，1个月后出现复视,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,9d5b4d56-8fb4-4c94-a0e4-8ef5b2a7f74d,患者,查体,,文本型,检查见视乳头水肿,,,,,LLM提取,论文病例报告,2019-01-01,评估,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,c0c8c3e0-3f63-4a7c-8f8b-85a1b87b4f46,头颅MRI,影像所见,,文本型,左侧胼胝体见2条条索状肿块,,,,MRI,LLM提取,论文病例报告,2019-01-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,c0c8c3e0-3f63-4a7c-8f8b-85a1b87b4f46,头颅MRI,影像结论,,文本型,提示中枢神经系统病变,,,,MRI,LLM提取,论文病例报告,2019-01-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,f4d7fd75-9f9f-46c2-9e42-1c8f45a2ef0f,脑脊液,检验项目,,类别型,未见病理性改变,,,,,LLM提取,论文病例报告,2019-01-01,检验,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,8f2d8c17-5d7a-40eb-8d7f-1f7d4c5c9bfb,患者,治疗方案,,文本型,甲泼尼龙冲击治疗,,,,,LLM提取,论文病例报告,2019-01-01,用药,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,8f2d8c17-5d7a-40eb-8d7f-1f7d4c5c9bfb,患者,药品名称,,类别型,甲泼尼龙,,,,,LLM提取,论文病例报告,2019-01-01,用药,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,8f2d8c17-5d7a-40eb-8d7f-1f7d4c5c9bfb,患者,治疗反应,,类别型,症状缓解,,,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,1d8f1a38-0c2c-4d1e-b9e6-4d6b8c7e3c44,患者,入院科室,,类别型,神经内科,,,,,LLM提取,论文病例报告,2019-01-01,入院,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,1d8f1a38-0c2c-4d1e-b9e6-4d6b8c7e3c44,患者,主诉,,文本型,头痛复发并伴视觉障碍,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,6d2f8d6a-2c8a-4c2a-9b7d-4d3b3e0d3b72,头颅MRI,影像所见,,文本型,视神经周围蛛网膜下腔液体增多,,,,MRI,LLM提取,论文病例报告,2019-01-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,6d2f8d6a-2c8a-4c2a-9b7d-4d3b3e0d3b72,头颅MRI,影像结论,,文本型,提示颅内压增高相关改变,,,,MRI,LLM提取,论文病例报告,2019-01-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,7c1f4f24-3f2a-4c6a-8f93-7fd8b3f7a4cf,患者,手术名称,,类别型,腰腹腔分流术,,因分流器功能障碍后改为脑室腹腔分流术,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,7c1f4f24-3f2a-4c6a-8f93-7fd8b3f7a4cf,患者,手术名称,,类别型,脑室腹腔分流术,,由腰腹腔分流术故障后更换,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,b2b8c2b6-b9bc-4f40-8a4a-7b7cf5b4f9a1,患者,入院科室,,类别型,神经内科,,,,,LLM提取,论文病例报告,2019-05-01,入院,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,b2b8c2b6-b9bc-4f40-8a4a-7b7cf5b4f9a1,患者,主诉,,文本型,症状进展,,,,,LLM提取,论文病例报告,2019-05-01,病史,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,c9e9bb1d-6a8d-4e84-9b85-6c1c4a7c1e9a,头颅MRA,影像所见,,文本型,未见血管炎征象,,,,MRA,LLM提取,论文病例报告,2019-05-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,c9e9bb1d-6a8d-4e84-9b85-6c1c4a7c1e9a,头颅MRA,影像所见,,文本型,幕上及幕下区以及视神经周围可见弥漫性脑膜强化,,,,MRA,LLM提取,论文病例报告,2019-05-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,d2d2d7d9-2f72-4b3f-9f1f-2c5f8d2e1d77,患者,检验项目,,数值型,21.30,21.3,,G/L,,LLM提取,论文病例报告,2019-07-01,检验,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,d2d2d7d9-2f72-4b3f-9f1f-2c5f8d2e1d77,患者,检验项目,,数值型,23.79,23.79,S100蛋白阳性,μG/L,,LLM提取,论文病例报告,2019-07-01,检验,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e1f7f7e8-7d6c-4e58-9b7d-2d2a8d8c9b33,脑组织活检,病理诊断,,文本型,黑色素细胞样肿瘤增殖,,,,组织病理,LLM提取,论文病例报告,2019-07-01,病理,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e1f7f7e8-7d6c-4e58-9b7d-2d2a8d8c9b33,脑组织活检,免疫组化,,文本型,S100蛋白、vimentin、NKiC3阳性；Melan-A、HMB-45阴性,,增殖指数30%,,免疫组化,LLM提取,论文病例报告,2019-07-01,病理,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e1f7f7e8-7d6c-4e58-9b7d-2d2a8d8c9b33,脑组织活检,分子标志物,,类别型,BRAF V600E突变阴性,,微卫星不稳定性阴性，PD-L1表达阴性,,分子检测,LLM提取,论文病例报告,2019-07-01,病理,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,f3c3d7c9-6a7a-4f3b-8d1e-1f6d4e2a9c55,PET/CT,影像结论,,文本型,未见颅外疾病证据,,,,18F-FDG PET/CT,LLM提取,论文病例报告,2019-07-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,a7a2a1e2-9a4d-4f0f-8c7b-3e2c4f5d6a77,患者,治疗方案,,文本型,全脑放疗联合帕博利珠单抗,,之后继续免疫治疗至进展,,,LLM提取,论文病例报告,2019-08-01,病程,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,a7a2a1e2-9a4d-4f0f-8c7b-3e2c4f5d6a77,患者,周期数,,数值型,10,10,总剂量30 Gy,次,,LLM提取,论文病例报告,2019-08-01,病程,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,a7a2a1e2-9a4d-4f0f-8c7b-3e2c4f5d6a77,患者,药品名称,,类别型,帕博利珠单抗,,200 mg，每3周1次,,,LLM提取,论文病例报告,2019-08-01,用药,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,a7a2a1e2-9a4d-4f0f-8c7b-3e2c4f5d6a77,患者,治疗反应,,类别型,部分缓解,,MRI评估,,MRI,LLM提取,论文病例报告,2019-08-01,评估,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,b8d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,患者,不良反应名称,,类别型,乏力,,帕博利珠单抗单药治疗相关，2级,,,LLM提取,论文病例报告,2019-08-01,不良反应,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,b8d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,患者,分级,,类别型,2级,,,,,LLM提取,论文病例报告,2019-08-01,不良反应,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,c1d2e3f4-5a6b-7c8d-9e0f-1a2b3c4d5e6a,患者,影像结论,,文本型,疾病进展,,MRI显示肿瘤进展,,MRI,LLM提取,论文病例报告,2020-02-01,影像,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,c1d2e3f4-5a6b-7c8d-9e0f-1a2b3c4d5e6a,患者,疗效评估,,类别型,疾病进展,,免疫治疗后进展,,MRI,LLM提取,论文病例报告,2020-02-01,评估,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,d9e8f7a6-b5c4-4d3e-9f8a-7b6c5d4e3f2a,患者,出院状况,,类别型,转入最佳支持治疗,,进展后因一般状况差,,,LLM提取,论文病例报告,2020-02-01,出院,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e0f1a2b3-c4d5-4e6f-8a9b-1c2d3e4f5a6b,患者,死亡,,日期型,2020-03-01,,,,,LLM提取,论文病例报告,2020-03-01,病程,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e0f1a2b3-c4d5-4e6f-8a9b-1c2d3e4f5a6b,患者,随访结果,,文本型,患者于2020-03-01死亡,,,,,LLM提取,论文病例报告,2020-03-01,病程,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e0f1a2b3-c4d5-4e6f-8a9b-1c2d3e4f5a6b,患者,无进展生存期,,数值型,6.0,6.0,,月,,LLM提取,论文病例报告,2020-03-01,病程,v1
+c3aee98f8a96fc0addecffb2d89f5005,d1d923fd4d794f6a04d49bb1227d02fc,e0f1a2b3-c4d5-4e6f-8a9b-1c2d3e4f5a6b,患者,总生存期,,数值型,6.5,6.5,,月,,LLM提取,论文病例报告,2020-03-01,病程,v1

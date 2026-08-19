@@ -1,0 +1,47 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,2d8c8db4-1c8b-4ff0-b1e1-2f7a4e7f0d65,患者,入院年龄,,数值型,57,57,,岁,,LLM提取,论文病例报告,2015-01-01,入院,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,8f98f0c9-8a3b-4c4f-b1f4-9f9a34a68eb7,患者,主诉,,文本型,左乳肿块,,,,,LLM提取,论文病例报告,2015-01-01,病史,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,c7c0b2ff-2a9c-47f3-9a5f-7ce0f8b7b7ae,患者,病理诊断,,文本型,浸润性导管癌,,,,活检,LLM提取,论文病例报告,2015-01-01,病理,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,c7c0b2ff-2a9c-47f3-9a5f-7ce0f8b7b7ae,患者,免疫组化,,文本型,ER 95%阳性，PR 30%阳性，HER2 1+，FISH阴性，Ki-67 35%,,,,免疫组化/FISH,LLM提取,论文病例报告,2015-01-01,病理,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,4a9f8c9f-5d45-4cc1-ae0c-8fd2fe7e4c3c,患者,诊断名称,,类别型,乳腺癌,,pT1cN2a.m.0（IIIA期），Luminal B（HER2−）,,,LLM提取,论文病例报告,2015-01-01,诊断,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,9f49e0f6-2f7e-4f1c-8c1d-6cf3a0d3ad26,患者,手术名称,,类别型,左侧改良根治性乳房切除术,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,9f49e0f6-2f7e-4f1c-8c1d-6cf3a0d3ad26,患者,手术结果,,文本型,完成手术,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,d1d5f46d-5f0a-4f9c-8c9d-53b7b8c0f5f1,患者,治疗方案,,类别型,辅助化疗,,Epirubicin + Cyclophosphamide - Taxane（EC-T）,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,d1d5f46d-5f0a-4f9c-8c9d-53b7b8c0f5f1,患者,治疗方案,,类别型,放疗,,,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,d1d5f46d-5f0a-4f9c-8c9d-53b7b8c0f5f1,患者,治疗方案,,类别型,内分泌治疗,,Leuprorelin + Toremifene,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,5cb6f20b-9d9c-4a8e-8c2d-4d5ad7cbeb8a,患者,手术名称,,类别型,双侧输卵管卵巢切除术,,去势,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,5d7b4c68-3a5e-4d2a-9a3c-6b6f5e2e5f40,患者,治疗方案,,类别型,内分泌治疗,,Toremifene持续至2019-07,,,LLM提取,论文病例报告,2017-01-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,d5b8eb2c-6f9e-4d2b-b2f1-2b9a4f5d2c11,患者,随访结果,,文本型,无病生存,,DFS 51个月,,,LLM提取,论文病例报告,2019-07-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,7d3d4f54-7c6c-4b4c-9f36-6c3f6c0f9c14,患者,影像所见,,文本型,多发肺结节,,,,VATS术前影像,LLM提取,论文病例报告,2019-07-01,影像,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,b6cf7a63-6b08-4d9b-9f1e-8a0d2f5d7f23,肺部病灶,病理诊断,,文本型,转移性乳腺癌,,CK7+，Mammaglobin+，ER/PR保留,,VATS（视频辅助胸腔镜肺叶切除/切除活检）,LLM提取,论文病例报告,2019-07-01,病理,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,1d1d7a0a-0f3b-4d3a-a2c4-8d0a0b2c1f88,患者,治疗方案,,类别型,全身治疗,,Fulvestrant + Palbociclib,,,LLM提取,论文病例报告,2019-09-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,1d1d7a0a-0f3b-4d3a-a2c4-8d0a0b2c1f88,患者,疗效评估,,类别型,疾病控制,,PFS 15个月,,临床/影像随访,LLM提取,论文病例报告,2020-12-01,评估,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,b4ef3f17-2d8d-4ab7-8c1a-2c1b1c4f3c66,患者,诊断名称,,类别型,骨转移,,T11椎体,,,LLM提取,论文病例报告,2020-12-01,诊断,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,e2d6a9c7-2c8e-4f1d-9d3c-6d4f0d2a9f31,患者,治疗方案,,类别型,化疗,,Nab-paclitaxel + Capecitabine，7个周期,,,LLM提取,论文病例报告,2020-12-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,e2d6a9c7-2c8e-4f1d-9d3c-6d4f0d2a9f31,患者,治疗方案,,类别型,维持治疗,,Capecitabine,,,LLM提取,论文病例报告,2021-04-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,e2d6a9c7-2c8e-4f1d-9d3c-6d4f0d2a9f31,患者,疗效评估,,类别型,疾病控制,,PFS 14个月（总计）,,临床/影像随访,LLM提取,论文病例报告,2022-02-01,评估,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,af2b7c5d-7a9f-4b6e-8b1a-4f0c8d2e1a55,患者,影像所见,,文本型,腹部CT提示多发肝转移灶,,,,增强CT,LLM提取,论文病例报告,2022-02-01,影像,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,af2b7c5d-7a9f-4b6e-8b1a-4f0c8d2e1a55,肝脏病灶,病理诊断,,文本型,转移性乳腺癌,,ER 90%，PR 1%，HER2 IHC 2+,,超声引导下活检,LLM提取,论文病例报告,2022-02-01,病理,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,af2b7c5d-7a9f-4b6e-8b1a-4f0c8d2e1a55,肝脏病灶,诊断名称,,类别型,HER2低表达/不确定肝转移乳腺癌,,FISH阴性,,,LLM提取,论文病例报告,2022-02-01,诊断,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,d6f8a3e1-2b7c-4f9a-9e2d-1c3f5a7b8d90,患者,治疗方案,,类别型,靶向治疗,,Disitamab Vedotin，第三线,,,LLM提取,论文病例报告,2022-03-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,d6f8a3e1-2b7c-4f9a-9e2d-1c3f5a7b8d90,患者,治疗方案,,类别型,内分泌治疗,,Letrozole,,,LLM提取,论文病例报告,2022-03-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f3d2c9b8-6a1f-4e2d-9b3c-7a5f0d1e2c44,血液样本,基因变异,,类别型,gBRCA2胚系致病性变异,,"exon 11, c.6462_6463del; p.Q2157Ifs*18; VAF 49.7%",,血液NGS,LLM提取,论文病例报告,2022-04-01,检验,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f3d2c9b8-6a1f-4e2d-9b3c-7a5f0d1e2c44,血液样本,检验项目,,类别型,NGS,,提示HRR缺陷,,血液检测,LLM提取,论文病例报告,2022-04-01,检验,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,治疗方案,,类别型,PARP抑制剂联合内分泌治疗,,Fluzoparib 300 mg bid + Exemestane 25 mg qd,,,LLM提取,论文病例报告,2022-04-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,药品名称,,类别型,Fluzoparib,,,,,LLM提取,论文病例报告,2022-04-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,剂量,,数值型,300,300,每日2次,mg,,LLM提取,论文病例报告,2022-04-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2022-04-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,药品名称,,类别型,Exemestane,,,,,LLM提取,论文病例报告,2022-04-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,剂量,,数值型,25,25,每日1次,mg,,LLM提取,论文病例报告,2022-04-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,a6b7c8d9-e0f1-4a2b-8c3d-5e6f7a8b9c01,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2022-04-01,用药,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,c1d2e3f4-5678-4abc-9def-0123456789ab,患者,疗效评估,,类别型,完全缓解,,肝转移灶完全消失,,CT随访,LLM提取,论文病例报告,2023-09-21,评估,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,c1d2e3f4-5678-4abc-9def-0123456789ab,肝脏,影像所见,,文本型,未见肝转移灶,,,,增强CT,LLM提取,论文病例报告,2023-09-21,影像,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,c1d2e3f4-5678-4abc-9def-0123456789ab,患者,随访结果,,文本型,在Fluzoparib + Exemestane治疗下疾病控制持续,,PFS 37个月,,临床/影像随访,LLM提取,论文病例报告,2025-05-01,病程,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f9e8d7c6-b5a4-4d3c-9b2a-1f0e9d8c7b6a,患者,不良反应名称,,类别型,贫血,,CTCAE 2级,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f9e8d7c6-b5a4-4d3c-9b2a-1f0e9d8c7b6a,患者,处理措施,,文本型,间歇性促红细胞生成素,,,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f9e8d7c6-b5a4-4d3c-9b2a-1f0e9d8c7b6a,患者,不良反应名称,,类别型,恶心,,CTCAE 1级,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f9e8d7c6-b5a4-4d3c-9b2a-1f0e9d8c7b6a,患者,处理措施,,文本型,按需昂丹司琼,,,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f9e8d7c6-b5a4-4d3c-9b2a-1f0e9d8c7b6a,患者,不良反应名称,,类别型,皮疹,,CTCAE 1级,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,f9e8d7c6-b5a4-4d3c-9b2a-1f0e9d8c7b6a,患者,处理措施,,文本型,外用激素,,,,,LLM提取,论文病例报告,2022-04-01,不良反应,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,7a6b5c4d-3e2f-4a1b-9c8d-0e1f2a3b4c5d,患者,诊断名称,,类别型,疾病进展,,新发右腋窝淋巴结转移，左肝叶疑似复发,,CT，RECIST 1.1,LLM提取,论文病例报告,2025-05-06,诊断,v1
+50d041579ab0405750b17c2b99aa16cc,aa8d2223936aa03addf92b4960f9b4e3_1,7a6b5c4d-3e2f-4a1b-9c8d-0e1f2a3b4c5d,患者,影像所见,,文本型,右腋窝淋巴结肿大，左肝叶可疑复发病灶,,,,增强CT,LLM提取,论文病例报告,2025-05-06,影像,v1

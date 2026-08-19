@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,4f7c4d8f-6c3c-4b8d-9e2e-0f7cb4b71f5f,患者,既往史,,文本型,2016年起因浸润性导管癌接受化疗，方案包括帕妥珠单抗、曲妥珠单抗和多西他赛；合并肝转移和脑转移,,,,,LLM提取,论文病例报告,2016-01-01,病史,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,d2e5c7d4-8c46-4d38-8e1c-9e8f8b7d7b8f,患者,现病史,,文本型,2019年10月出现上腹部不适，12月初出现深色尿后就诊；后证实为乳腺癌胆管转移所致梗阻性黄疸,,,,,LLM提取,论文病例报告,2019-10-01,病史,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,8b7f9b8c-8f4f-4c3a-b4e8-2f5d1b0d9c1a,患者,主诉,,文本型,上腹部不适、尿色加深/深色尿,,,,,LLM提取,论文病例报告,2019-12-01,病史,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,f1d6b9e3-0d7a-4a3f-9c8a-5f1e2d3c4b5a,患者,入院,,类别型,入院,,因进一步检查和治疗梗阻性黄疸,,,LLM提取,论文病例报告,2019-12-01,入院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,a9c2d1e3-f4b5-4a6c-8d7e-1f2a3b4c5d6e,患者,查体,,文本型,皮肤巩膜黄染，腹部柔软、平坦，无压痛,,,,,LLM提取,论文病例报告,2019-12-01,评估,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,总胆红素,,数值型,6.0,6.0,,mg/dL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,天冬氨酸转氨酶,,数值型,449,449,,IU/L,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,丙氨酸转氨酶,,数值型,624,624,,IU/L,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,碱性磷酸酶,,数值型,1560,1560,,IU/L,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,γ-谷氨酰转移酶,,数值型,1163,1163,,IU/L,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,白细胞,,数值型,4600,4600,,/μL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,C反应蛋白,,数值型,0.9,0.9,,mg/dL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,癌胚抗原,,数值型,2.0,2.0,,ng/mL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,糖类抗原19-9,,数值型,2.6,2.6,,U/mL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c3d4e5f6-a7b8-49c0-9d1e-2f3a4b5c6d7e,血液,免疫球蛋白G4,,数值型,12.1,12.1,,mg/dL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,7d8e9f10-a11b-4c12-9d13-1e2f3a4b5c6d,影像检查,影像所见,,文本型,腹部增强CT示中至远端胆管管壁增厚，肝内胆管扩张，胆管周围未见明显肿块；胰头周围可见类肿块病灶，弥散加权像高信号,,CT与MRI综合所见,,CT、MRI,LLM提取,论文病例报告,2019-12-03,影像,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,7d8e9f10-a11b-4c12-9d13-1e2f3a4b5c6d,影像检查,影像结论,,文本型,提示胆管恶性狭窄/梗阻，考虑胆管转移病变；胰头周围类肿块病变,,,,CT、MRI,LLM提取,论文病例报告,2019-12-03,影像,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,手术名称,,类别型,内镜下逆行胰胆管造影,,联合内镜下括约肌切开、刷检细胞学、组织活检、胆道引流,,ERCP,LLM提取,论文病例报告,2019-12-05,手术,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,手术结果,,文本型,中至远端胆管长段严重狭窄；行内镜下括约肌切开后，于狭窄处进行刷检细胞学和组织活检，并置入塑料支架引流,,7 Fr × 90 mm直型塑料支架,,ERCP,LLM提取,论文病例报告,2019-12-05,手术,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,胆管狭窄处活检标本,病理诊断,,文本型,腺癌，免疫组化提示乳腺来源转移,,CK7、GATA3、HER2、mammaglobin阳性；CDK2、CK20、PAX8、TTF1、CA125阴性,,组织活检、免疫组化,LLM提取,论文病例报告,2019-12-05,病理,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,胆管狭窄处活检标本,标本部位,,类别型,胆管狭窄处,,中至远端胆管,,,LLM提取,论文病例报告,2019-12-05,病理,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,胆管狭窄处活检标本,免疫组化,,文本型,CK7、GATA3、HER2、mammaglobin阳性；CDK2、CK20、PAX8、TTF1、CA125阴性,,支持乳腺癌胆管转移,,免疫组化,LLM提取,论文病例报告,2019-12-05,病理,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,患者,出院状况,,类别型,好转,,ERCP相关并发症未见,,,LLM提取,论文病例报告,2019-12-09,出院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,患者,住院天数,,数值型,9,9,,天,,LLM提取,论文病例报告,2019-12-09,出院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,患者,出院医嘱,,文本型,继续后续治疗与随访,,,,,LLM提取,论文病例报告,2019-12-09,出院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,f6a7b8c9-d0e1-4f2a-8b3c-4d5e6f7a8b9c,患者,药品名称,,类别型,塑料支架更换为自膨式金属支架,,WallFlex™ Biliary RX UNCOVERED 10×80 mm,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,f6a7b8c9-d0e1-4f2a-8b3c-4d5e6f7a8b9c,患者,给药途径,,类别型,内镜下放置,,,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,f6a7b8c9-d0e1-4f2a-8b3c-4d5e6f7a8b9c,患者,不良反应名称,,类别型,胆囊炎,,金属支架置入后发生,,,LLM提取,论文病例报告,2020-01-01,不良反应,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,f6a7b8c9-d0e1-4f2a-8b3c-4d5e6f7a8b9c,患者,处理措施,,文本型,经皮经肝胆囊穿刺抽吸联合抗菌治疗后缓解,,,,,LLM提取,论文病例报告,2020-01-01,不良反应,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,d7e8f9a0-b1c2-4d3e-8f4a-5b6c7d8e9f0a,患者,病程,,文本型,出院后门诊继续化疗,,,,,LLM提取,论文病例报告,2020-01-01,病程,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,再入院,,类别型,再入院,,黄疸加重,,,LLM提取,论文病例报告,2020-07-01,入院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,a1b2c3d4-e5f6-4789-9abc-def012345678,影像检查,影像所见,,文本型,腹部增强CT显示SEMS内有软组织影，提示肿瘤侵犯进入支架的可能,,,,CT,LLM提取,论文病例报告,2020-07-01,影像,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,手术名称,,类别型,内镜下逆行胰胆管造影,,于SEMS内再置入塑料支架,,ERCP,LLM提取,论文病例报告,2020-07-01,手术,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,出院状况,,类别型,好转,,黄疸改善，无并发症,,,LLM提取,论文病例报告,2020-07-01,出院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,b2c3d4e5-f6a7-4890-9bcd-ef0123456789,患者,再入院,,类别型,再入院,,黄疸加重,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,b2c3d4e5-f6a7-4890-9bcd-ef0123456789,患者,手术名称,,类别型,内镜下逆行胰胆管造影,,取出疑似阻塞的塑料支架；8.5 Fr扩张导管扩张狭窄后，于SEMS内更换另一枚塑料支架,,ERCP,LLM提取,论文病例报告,2020-08-01,手术,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,b2c3d4e5-f6a7-4890-9bcd-ef0123456789,患者,出院状况,,类别型,好转,,黄疸改善，无并发症,,,LLM提取,论文病例报告,2020-08-01,出院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e7f,患者,再入院,,类别型,再入院,,黄疸再次加重,,,LLM提取,论文病例报告,2020-09-01,入院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e7f,患者,手术名称,,类别型,内镜下逆行胰胆管造影,,取出SEMS内塑料支架；发现SEMS因肿瘤侵犯导致严重狭窄；采用stent-in-stent方式加置覆盖型SEMS,,ERCP,LLM提取,论文病例报告,2020-09-01,手术,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e7f,患者,出院状况,,类别型,好转,,无并发症，胆红素/黄疸未再恶化,,,LLM提取,论文病例报告,2020-09-01,出院,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,d5e6f7a8-b9c0-4d1e-9f2a-3b4c5d6e7f8a,患者,病程,,文本型,门诊继续化疗，支架不再再度堵塞，黄疸未进一步加重,,,,,LLM提取,论文病例报告,2020-09-01,病程,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e6f7a8b9-c0d1-4e2f-9a3b-4c5d6e7f8a9b,患者,病程,,文本型,因多发肝转移导致全身情况恶化，接受姑息治疗,,,,,LLM提取,论文病例报告,2020-12-01,病程,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e6f7a8b9-c0d1-4e2f-9a3b-4c5d6e7f8a9b,患者,随访结果,,文本型,患者死亡,,初次住院后358天死亡,,,LLM提取,论文病例报告,2020-12-23,病程,v1
+c150e2dc406c1eb63df65b84f689d2d5,22ecea66c84daea7f4c2e1f139a67b4d,e6f7a8b9-c0d1-4e2f-9a3b-4c5d6e7f8a9b,患者,总生存期,,数值型,358,358,,天,,LLM提取,论文病例报告,2020-12-23,病程,v1

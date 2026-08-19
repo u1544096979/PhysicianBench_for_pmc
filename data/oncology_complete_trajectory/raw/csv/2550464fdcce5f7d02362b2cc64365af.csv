@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,7f4f2d1f-7c25-4ce3-9d10-5b2f8f7b8c11,患者,入院年龄,,数值型,35,35,,岁,,LLM提取,论文病例报告,2006-01-01,入院,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,7f4f2d1f-7c25-4ce3-9d10-5b2f8f7b8c11,患者,主诉,,文本型,左侧单纯部分性癫痫发作,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,7f4f2d1f-7c25-4ce3-9d10-5b2f8f7b8c11,患者,既往史,,文本型,未报告其他疾病史,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,7f4f2d1f-7c25-4ce3-9d10-5b2f8f7b8c11,患者,KPS,,数值型,90,90,,分,,LLM提取,论文病例报告,2006-01-01,评估,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,7f4f2d1f-7c25-4ce3-9d10-5b2f8f7b8c11,患者,抗癫痫药治疗,,文本型,奥卡西平、氯巴占,,,,,LLM提取,论文病例报告,2006-01-01,用药,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,d2d2f7f0-0c8e-4dd8-8f2c-0f9b7a8d5d01,脑部MRI,影像所见,,文本型,右侧中央区见约3 cm × 2 cm肿块病灶，未强化,,,,MRI,LLM提取,论文病例报告,2006-01-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,3d4db8bc-8d0f-4cb7-8c2c-8d5d6a0c9f02,患者,手术名称,,类别型,立体定向活检,,,,,LLM提取,论文病例报告,2006-01-01,手术,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,3d4db8bc-8d0f-4cb7-8c2c-8d5d6a0c9f02,患者,病理诊断,,文本型,WHO II级星形细胞瘤,,,,,LLM提取,论文病例报告,2006-01-01,病理,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,3d4db8bc-8d0f-4cb7-8c2c-8d5d6a0c9f02,患者,分化程度,,类别型,WHO II级,,,,,LLM提取,论文病例报告,2006-01-01,病理,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,c1b8a5f0-5f8f-4a3a-8d9f-4a4b0cb7a8a3,患者,术后情况,,文本型,左侧轻度偏瘫，使用地塞米松后缓解,,,,,LLM提取,论文病例报告,2006-01-01,病程,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,c1b8a5f0-5f8f-4a3a-8d9f-4a4b0cb7a8a3,患者,治疗方案,,文本型,未行辅助治疗，仅计划定期MRI复查,,,,,LLM提取,论文病例报告,2006-01-01,病程,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,患者,主诉,,文本型,左侧偏瘫加重、新发左侧偏身感觉减退及协调障碍，癫痫发作频率增加,,单纯部分性发作每4天一次,,,LLM提取,论文病例报告,2008-01-01,病史,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,脑部MRI,影像所见,,文本型,已知肿块进展并出现新的强化,,,,MRI,LLM提取,论文病例报告,2008-01-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,患者,手术名称,,类别型,肿瘤减容性次全切除,,,,,LLM提取,论文病例报告,2008-01-01,手术,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,患者,病理诊断,,文本型,继发性胶质母细胞瘤（GB）,,,,,LLM提取,论文病例报告,2008-01-01,病理,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,患者,分化程度,,类别型,WHO IV级,,,,,LLM提取,论文病例报告,2008-01-01,病理,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,患者,放疗方案,,文本型,联合放疗，5×2 Gy/周，总剂量60 Gy,,术后辅助放疗,Gy,,LLM提取,论文病例报告,2008-01-01,用药,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,9d7f4b7a-8b7f-4f62-a8e0-1b4c9d2a8d10,患者,治疗方案,,文本型,替莫唑胺75 mg/m2/d,75,计划辅助化疗，但因依从性差未开始计划中的辅助替莫唑胺,mg/m2/天,,LLM提取,论文病例报告,2008-01-01,用药,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,6a8a8c6a-7b6e-4ef5-b0c6-0b2c4d6c9d21,患者,主诉,,文本型,复发肿瘤伴慢性局部伤口感染,,,,,LLM提取,论文病例报告,2011-04-01,病史,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,6a8a8c6a-7b6e-4ef5-b0c6-0b2c4d6c9d21,患者,手术名称,,类别型,复查/修正手术,,因复发肿瘤及慢性伤口感染,,,LLM提取,论文病例报告,2011-04-01,手术,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,6a8a8c6a-7b6e-4ef5-b0c6-0b2c4d6c9d21,患者,病理诊断,,文本型,复发性胶质母细胞瘤,,,,,LLM提取,论文病例报告,2011-04-01,病理,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,6a8a8c6a-7b6e-4ef5-b0c6-0b2c4d6c9d21,患者,检出病原体,,文本型,丙酸杆菌,,微生物学检查,,,LLM提取,论文病例报告,2011-04-01,检验,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,6a8a8c6a-7b6e-4ef5-b0c6-0b2c4d6c9d21,患者,治疗,,文本型,甲硝唑、氟氯西林,,用于治疗伤口感染,,,LLM提取,论文病例报告,2011-04-01,用药,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,6a8a8c6a-7b6e-4ef5-b0c6-0b2c4d6c9d21,患者,KPS,,数值型,70,70,,分,,LLM提取,论文病例报告,2011-04-01,评估,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,患者,主诉,,文本型,快速进展性四肢瘫及少尿/尿潴留,,数天内进展，左侧更明显,,,LLM提取,论文病例报告,2011-08-01,病史,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,患者,KPS,,数值型,30,30,,分,,LLM提取,论文病例报告,2011-08-01,评估,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,颈椎CT/MRI,影像所见,,文本型,C5-C6椎体受侵，脊髓管侵犯，右侧旁椎旁巨大肿块,,,,CT/MRI,LLM提取,论文病例报告,2011-08-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,患者,手术名称,,类别型,颈椎急诊手术（C5、C6椎板切除，C6椎弓根切开，次全切除肿瘤）,,,,,LLM提取,论文病例报告,2011-08-01,手术,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,患者,病理诊断,,文本型,脊髓/硬膜外转移性胶质母细胞瘤,,椎体活检提示转移,,,LLM提取,论文病例报告,2011-08-01,病理,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,胸部CT,影像所见,,文本型,右肺门及隆突下肿块，累及右肺动脉,,并见双侧肺动脉分支血栓栓塞物,,CT,LLM提取,论文病例报告,2011-08-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,胸部CT,影像结论,,文本型,右肺门及隆突下淋巴结转移，伴右肺动脉受侵,,,,CT,LLM提取,论文病例报告,2011-08-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,胸椎/腰椎MRI,影像所见,,文本型,多发骨性转移灶,,,,MRI,LLM提取,论文病例报告,2011-08-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,患者,腰穿结果,,文本型,未见病理异常,,,,,LLM提取,论文病例报告,2011-08-01,检验,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,腹部CT,影像所见,,文本型,未见病理性改变,,,,CT,LLM提取,论文病例报告,2011-08-01,影像,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,1c8d7f4b-9a6d-4b2f-8b1d-6b7c9d2e4f33,患者,KPS,,数值型,40,40,,分,,LLM提取,论文病例报告,2011-08-01,评估,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,5a0c4d8e-1b3f-4b2b-9c2d-7f8e9a1b2c44,患者,放疗方案,,文本型,姑息性放疗，照射纵隔、隆突下、气管前、下腔静脉后及肺门病灶,,15×3 Gy，总靶区剂量45 Gy,Gy,,LLM提取,论文病例报告,2011-09-01,用药,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,5a0c4d8e-1b3f-4b2b-9c2d-7f8e9a1b2c44,患者,治疗方案,,文本型,替莫唑胺,,150 mg/m2，300 mg绝对量，连续5天；仅1个疗程,mg/m2,,LLM提取,论文病例报告,2011-09-01,用药,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,5a0c4d8e-1b3f-4b2b-9c2d-7f8e9a1b2c44,患者,治疗反应,,类别型,耐受良好，无明显急性放射性毒性,,,,,LLM提取,论文病例报告,2011-09-01,病程,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,5a0c4d8e-1b3f-4b2b-9c2d-7f8e9a1b2c44,患者,治疗依从性,,文本型,再次拒绝继续化疗,,,,,LLM提取,论文病例报告,2011-09-01,病程,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,8f2b6d1a-4c7e-4a5d-9c2b-1e7f8a9d3c55,患者,死亡时间,,日期型,2012-06-01,,距末次放化疗10个月后死亡,,,LLM提取,论文病例报告,2012-06-01,病程,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,8f2b6d1a-4c7e-4a5d-9c2b-1e7f8a9d3c55,患者,生存时间,,数值型,10,10,从诊断到外颅转移后死亡约10个月,月,,LLM提取,论文病例报告,2012-06-01,病程,v1
+2550464fdcce5f7d02362b2cc64365af,eeb9e2df8e1bce62173f611b74dcaa1a,8f2b6d1a-4c7e-4a5d-9c2b-1e7f8a9d3c55,患者,死亡结局,,类别型,死亡,,,,,LLM提取,论文病例报告,2012-06-01,病程,v1

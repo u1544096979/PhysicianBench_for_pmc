@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,7d2a0fb8-2a7d-4d4d-a4c1-0d9a6e9e6f31,患者,主诉,,文本型,左乳房肿块,,就诊于1990年代,,,LLM提取,论文病例报告,1990-01-01,病史,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,7d2a0fb8-2a7d-4d4d-a4c1-0d9a6e9e6f31,患者,既往史,,文本型,糖尿病、高血压、脑梗死、脑神经鞘瘤,,口服格列美脲0.5 mg、硝苯地平40 mg、阿司匹林100 mg控制,,,LLM提取,论文病例报告,1990-01-01,病史,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,0d4ce8d7-5f2c-4cf0-bf17-0a1f5f0d4f45,患者,诊断名称,,类别型,男性乳腺癌,,cT3N3M0，临床分期IIIC,,,LLM提取,论文病例报告,1990-01-01,诊断,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,0d4ce8d7-5f2c-4cf0-bf17-0a1f5f0d4f45,患者,临床分期,,类别型,IIIC,,cT3N3M0,,UICC TNM第8版,LLM提取,论文病例报告,1990-01-01,诊断,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,0d4ce8d7-5f2c-4cf0-bf17-0a1f5f0d4f45,乳腺标本,病理诊断,,文本型,浸润性导管癌,,高组织学分级，G3,,核心针穿刺活检,LLM提取,论文病例报告,1990-01-01,病理,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,0d4ce8d7-5f2c-4cf0-bf17-0a1f5f0d4f45,乳腺标本,标本部位,,类别型,左乳,,上外象限,,,LLM提取,论文病例报告,1990-01-01,病理,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,0d4ce8d7-5f2c-4cf0-bf17-0a1f5f0d4f45,乳腺标本,免疫组化,,文本型,ER阳性，PgR阴性，HER2阴性，AR阳性，Ki-67 10%,,ER 90%；PgR 0%；HER2 1+；AR 95%,,免疫组化,LLM提取,论文病例报告,1990-01-01,病理,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,f3d8fd88-9a4e-4a3a-8e1d-5d2e5a3f4b53,患者,手术名称,,类别型,乳房切除术,,合并腋窝淋巴结清扫,,,LLM提取,论文病例报告,1990-01-01,手术,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,f3d8fd88-9a4e-4a3a-8e1d-5d2e5a3f4b53,患者,手术结果,,文本型,完成切除,,术后病理pt3n3a(36/39)M0，IIIC期,,,LLM提取,论文病例报告,1990-01-01,手术,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,9b9e1ef7-0f6c-4d67-b9a8-0c0c2d3d2f10,患者,诊断名称,,类别型,乳腺癌术后复发/转移,,胸膜转移,,胸部CT,LLM提取,论文病例报告,1990-03-01,影像,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,9b9e1ef7-0f6c-4d67-b9a8-0c0c2d3d2f10,患者,影像所见,,文本型,右肺胸膜转移,,乳腺癌术后2个月,,CT,LLM提取,论文病例报告,1990-03-01,影像,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,b4d1b8d6-8f3d-4d7f-9b1b-0c2c0db0f3b1,患者,药品名称,,类别型,表柔比星,40,mg/body，每2周,mg/body,,LLM提取,论文病例报告,1990-03-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,b4d1b8d6-8f3d-4d7f-9b1b-0c2c0db0f3b1,患者,药品名称,,类别型,5-氟尿嘧啶,500,mg/body，每2周,mg/body,,LLM提取,论文病例报告,1990-03-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,b4d1b8d6-8f3d-4d7f-9b1b-0c2c0db0f3b1,患者,药品名称,,类别型,环磷酰胺,100,mg/日，口服,mg/日,,LLM提取,论文病例报告,1990-03-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,f6a6d1c4-0d7b-4f2e-9e3b-5d3f1f2a6d21,患者,药品名称,,类别型,托瑞米芬,120,mg，bid，高剂量,mg,,LLM提取,论文病例报告,1990-05-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,f6a6d1c4-0d7b-4f2e-9e3b-5d3f1f2a6d21,患者,药品名称,,类别型,口服5-氟尿嘧啶/地复尿苷,1200,mg,mg,,LLM提取,论文病例报告,1990-05-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,f6a6d1c4-0d7b-4f2e-9e3b-5d3f1f2a6d21,患者,治疗方案,,类别型,内分泌治疗,,乳腺癌转移灶一线治疗,,,LLM提取,论文病例报告,1990-05-01,病程,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,5c2f8f0a-8f9a-4c4b-b1b8-7b3f4c1d2e33,患者,诊断名称,,类别型,前列腺癌,,cT3N0M0，III期,,影像学及组织学检查,LLM提取,论文病例报告,1992-05-01,诊断,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,5c2f8f0a-8f9a-4c4b-b1b8-7b3f4c1d2e33,患者,临床分期,,类别型,III期,,cT3N0M0,,UICC TNM第8版,LLM提取,论文病例报告,1992-05-01,诊断,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,5c2f8f0a-8f9a-4c4b-b1b8-7b3f4c1d2e33,前列腺标本,病理诊断,,文本型,前列腺腺癌,,Gleason评分8分,,前列腺活检,LLM提取,论文病例报告,1992-05-01,病理,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,5c2f8f0a-8f9a-4c4b-b1b8-7b3f4c1d2e33,前列腺标本,免疫组化,,文本型,ER阳性3%，PgR阴性，AR阳性95%,,乳腺癌内分泌治疗期间活检,,免疫组化,LLM提取,论文病例报告,1992-05-01,病理,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,5c2f8f0a-8f9a-4c4b-b1b8-7b3f4c1d2e33,患者,检验项目,,数值型,PSA,40.5,,ng/mL,,LLM提取,论文病例报告,1992-05-01,检验,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,1d4b2c6e-7f5a-4a3c-b1e2-9f6d5c4b2a11,患者,放疗方案,,文本型,前列腺局部放疗,,66.0 Gy/33次,,,LLM提取,论文病例报告,1992-05-01,病程,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,1d4b2c6e-7f5a-4a3c-b1e2-9f6d5c4b2a11,患者,治疗反应,,类别型,暂时停止治疗后观察,,前列腺癌局部控制,,,LLM提取,论文病例报告,1992-05-01,病程,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,6f9a2d1c-3b4e-4a5f-8c6d-7e8f9a0b1c22,患者,检验项目,,数值型,PSA,3.7,升至18.0后再治疗,ng/mL,,LLM提取,论文病例报告,1992-11-01,检验,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,6f9a2d1c-3b4e-4a5f-8c6d-7e8f9a0b1c22,患者,检验项目,,数值型,PSA,18.0,较前升高,ng/mL,,LLM提取,论文病例报告,1992-11-01,检验,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,6f9a2d1c-3b4e-4a5f-8c6d-7e8f9a0b1c22,患者,药品名称,,类别型,雌马酯磷酸钠水合物,626.8,mg，口服，每日,mg,,LLM提取,论文病例报告,1992-11-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,6f9a2d1c-3b4e-4a5f-8c6d-7e8f9a0b1c22,患者,治疗方案,,类别型,前列腺癌内分泌治疗,,Estracyt®,,,LLM提取,论文病例报告,1992-11-01,用药,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,6f9a2d1c-3b4e-4a5f-8c6d-7e8f9a0b1c22,患者,治疗反应,,类别型,PSA迅速降至正常范围,,降至3.7 ng/mL,,,LLM提取,论文病例报告,1992-11-01,病程,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,2c1e3d4f-5a6b-4c7d-8e9f-0a1b2c3d4e55,患者,不良反应名称,,类别型,右下肢深静脉血栓,,与内分泌治疗相关,,,LLM提取,论文病例报告,1995-11-01,不良反应,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,2c1e3d4f-5a6b-4c7d-8e9f-0a1b2c3d4e55,患者,处理措施,,文本型,停止托瑞米芬,,继续Estracyt®,,,LLM提取,论文病例报告,1995-11-01,不良反应,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c66,患者,影像所见,,文本型,乳腺癌肝转移,,停止乳腺癌治疗后出现,,CT,LLM提取,论文病例报告,1995-11-01,影像,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c66,患者,治疗方案,,类别型,二线内分泌治疗,,Casodex®替代Estracyt®；随后LHRH激动剂三线治疗,,,LLM提取,论文病例报告,1995-11-01,病程,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c66,患者,治疗反应,,类别型,疾病进展,,乳腺癌进展导致死亡,,,LLM提取,论文病例报告,1995-11-01,病程,v1
+3a4e530304b316d0dd54fd851caf5d66,4bed99fd5ac73e7ff69b3341cbe241bd,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c66,患者,结局,,类别型,死亡,,前列腺癌诊断后5年因乳腺癌进展死亡,,,LLM提取,论文病例报告,1995-11-01,出院,v1

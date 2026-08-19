@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,1a0f1d9c-1ad5-4e63-9af5-5d6c3c6d0a11,患者,入院年龄,,数值型,76,76,,岁,,LLM提取,论文病例报告,2013-01-01,入院,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,2f4d1f14-0e6b-4a69-8bd9-8f2a1df7f2d2,患者,诊断名称,,类别型,前列腺腺癌,,Gleason 3+3；低危,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,2f4d1f14-0e6b-4a69-8bd9-8f2a1df7f2d2,患者,临床分期,,类别型,cT1cN0M0,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,2f4d1f14-0e6b-4a69-8bd9-8f2a1df7f2d2,患者,分子标志物,,类别型,PSA 4 ng/ml,4,初始PSA,ng/ml,血液测量,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,3a8d4d06-0d21-4ed8-9c2b-6e8f1d2b8f77,患者,查体,,文本型,经直肠超声示前列腺体积22 cc,,,,经直肠超声,LLM提取,论文病例报告,2013-01-01,评估,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,4d3a2c1e-8f9f-4c8d-9c0e-1b2c3d4e5f60,患者,手术名称,,类别型,LDR近距离放疗（125I粒子植入）,,处方剂量145 Gy,,,LLM提取,论文病例报告,2013-01-01,手术,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,4d3a2c1e-8f9f-4c8d-9c0e-1b2c3d4e5f60,患者,手术结果,,文本型,完成125I种子植入,,术中剂量学：前列腺D90 153.3 Gy；直肠D0.1cc 156.3 Gy，D1cc 122.3 Gy，D2cc 104.9 Gy,,,LLM提取,论文病例报告,2013-01-01,手术,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,5a6b7c8d-9e0f-4a1b-8c2d-3e4f5a6b7c8d,患者,诊断名称,,类别型,直肠出血/放射性直肠毒性,,CTCAE v4.03 3级,,,LLM提取,论文病例报告,2015-01-01,不良反应,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,5a6b7c8d-9e0f-4a1b-8c2d-3e4f5a6b7c8d,患者,处理措施,,文本型,布地奈德泡沫、戊氧苯啶、高压氧治疗,,2016年进行相关医疗干预,,,LLM提取,论文病例报告,2016-01-01,不良反应,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,6b7c8d9e-0f1a-4b2c-8d3e-4f5a6b7c8d9e,患者,病程,,文本型,直肠出血几乎完全缓解,,截至2017年11月,,,LLM提取,论文病例报告,2017-11-01,病程,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,7c8d9e0f-1a2b-4c3d-8e4f-5a6b7c8d9e0f,患者,诊断名称,,类别型,生化复发,,ASTRO定义；3次连续PSA升高,,,LLM提取,论文病例报告,2018-07-01,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,7c8d9e0f-1a2b-4c3d-8e4f-5a6b7c8d9e0f,患者,分子标志物,,类别型,PSA峰值2.4 ng/ml,2.4,nadir PSA 0.7 ng/ml,ng/ml,,LLM提取,论文病例报告,2018-07-01,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,8d9e0f1a-2b3c-4d5e-8f6a-7b8c9d0e1f2a,PSMA PET-CT,影像所见,,文本型,前列腺前壁局部复发病灶,,无淋巴结受累或远处转移,,PSMA核医学检查联合PET/CT,LLM提取,论文病例报告,2018-07-01,影像,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,9e0f1a2b-3c4d-5e6f-8a7b-9c0d1e2f3a4b,标本,病理诊断,,文本型,前列腺腺癌复发,,Gleason 4+3；5份活检中2份阳性；肿瘤比例10%,,活检,LLM提取,论文病例报告,2018-07-01,病理,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,aa0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d,患者,病史,,文本型,既往LDR近距离放疗后5年出现局部复发；既往有3级直肠毒性,,治疗前曾行肠镜/乙状结肠镜评估,,,LLM提取,论文病例报告,2018-11-01,病史,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,bb1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,分子标志物,,类别型,PSA 2.7 ng/ml,2.7,治疗前最近一次PSA,ng/ml,,LLM提取,论文病例报告,2018-11-01,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,cc2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,患者,评估方法,,类别型,乙状结肠镜检查,,无深部溃疡；残余不出血毛细血管扩张；无炎症或溃疡,,,LLM提取,论文病例报告,2018-11-01,评估,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,dd3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a,患者,治疗方案,,类别型,救援性HDR近距离放疗联合直肠球囊间隔器（RBI）,,局灶治疗,,,LLM提取,论文病例报告,2018-11-01,病程,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,dd3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a,RBI（ProSpace）,手术名称,,类别型,经会阴植入直肠球囊间隔器,,置于Denonvilliers筋膜与直肠之间；超声引导,,经直肠超声引导,LLM提取,论文病例报告,2018-11-01,手术,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,ee4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,手术名称,,类别型,HDR近距离放疗,,2次分次，间隔1周,,,LLM提取,论文病例报告,2018-11-01,手术,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,ee4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,手术结果,,文本型,完成两次HDR治疗,,GTV/CTV由PSMA-PET CT和超声勾画；CTV边界3 mm；尿道和RBI排除在CTV外,,,LLM提取,论文病例报告,2018-11-01,手术,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,ff5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c,患者,治疗方案,,类别型,HDR近距离放疗第1次,,处方剂量12.6 Gy,,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,ff5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c,患者,疗效评估,,类别型,D90 GTV EQD2 50.8 Gy,,直肠2cc EQD2 6.6 Gy,Gy,,LLM提取,论文病例报告,2018-11-01,评估,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,00112233-4455-6677-8899-aabbccddeeff,患者,治疗方案,,类别型,HDR近距离放疗第2次,,处方剂量13.1 Gy；与第1次间隔1周,,,LLM提取,论文病例报告,2018-11-08,用药,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,00112233-4455-6677-8899-aabbccddeeff,患者,疗效评估,,类别型,D90 GTV EQD2 54.6 Gy,,直肠2cc EQD2 4.3 Gy,Gy,,LLM提取,论文病例报告,2018-11-08,评估,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,11223344-5566-7788-99aa-bbccddeeff00,患者,不良反应名称,,类别型,无急性直肠毒性,,治疗耐受良好,,,LLM提取,论文病例报告,2018-11-08,不良反应,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,11223344-5566-7788-99aa-bbccddeeff00,患者,不良反应名称,,类别型,泌尿道梗阻,,CTCAE v4.03 1级,,,LLM提取,论文病例报告,2018-11-08,不良反应,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,22334455-6677-8899-aabb-ccddeeff0011,患者,分子标志物,,类别型,PSA 0.3 ng/ml,0.3,距救援HDR后18个月,ng/ml,,LLM提取,论文病例报告,2020-05-08,诊断,v1
+d7ed177f6f9afaafd5a9723962c30465,6615174cb5aedf621ec442036f6c975c,33445566-7788-99aa-bbcc-ddeeff001122,患者,病程,,文本型,截至2022年12月最近PSA为2.2 ng/ml，未达到Phoenix定义的生化复发标准,,4年随访无治疗相关毒性；无生化复发证据,,,LLM提取,论文病例报告,2022-12-01,病程,v1

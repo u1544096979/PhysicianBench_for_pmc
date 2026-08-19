@@ -1,0 +1,20 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,2f1f5d9b-7f7b-4e2c-8d6a-5a6a1a7b6e01,患者,既往史,,文本型,Wegener's granulomatosis，自2002年起发病，累及皮肤、肾脏和呼吸系统,,,,,LLM提取,论文病例报告,2002-01-01,病史,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,7f6f5e36-1fd6-4b74-9c37-2f5bb3d7e101,患者,手术名称,,类别型,右肺上叶炎性肿瘤手术,,,,,LLM提取,论文病例报告,2008-01-01,手术,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,0e7a57f8-4d3d-4df7-a0d9-9c0b2f62d202,患者,诊断名称,,类别型,Wegener's granulomatosis,,2008年右肺上叶炎性肿瘤手术后诊断,,,LLM提取,论文病例报告,2008-01-01,诊断,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,c0a9e7c7-7ed9-4c1f-9b9d-8f7f5d8a0303,患者,主诉,,文本型,发现右乳肿块,,,,,LLM提取,论文病例报告,2010-06-01,病史,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,b9bfc1b1-b8d9-4e1f-8a40-3c0fcb4f0404,患者,入院年龄,,数值型,56,56,,岁,,LLM提取,论文病例报告,2010-06-01,入院,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,b9bfc1b1-b8d9-4e1f-8a40-3c0fcb4f0404,患者,主诉,,文本型,右乳肿块,,,,,LLM提取,论文病例报告,2010-06-01,入院,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,4c2b2ff4-1d40-4e9f-8f7a-5a7f6d4f0505,患者,影像所见,,文本型,2010-05-24乳腺X线检查示右乳12 mm病灶，边界不清，BI-RADS 4C,,在外院完成,,Mammography,LLM提取,论文病例报告,2010-05-24,影像,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,d1c0f5a2-2d8b-4b12-8dbe-6f6d7a5f0606,患者,查体,,文本型,右乳可触及肿物，约15 mm，质稍硬，边界不规则,,,,,LLM提取,论文病例报告,2010-06-01,评估,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,e2c1d5a3-3e9c-4c23-9cde-7f7d8a5f0707,患者,影像所见,,文本型,右乳10点钟方向见低回声病灶，边界不清，大小14×10 mm，BI-RADS 5,,,,超声,LLM提取,论文病例报告,2010-06-17,影像,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,f3d2e6b4-4f0d-4d34-adcf-8f8e9a6f0808,患者,穿刺细胞学结果,,文本型,未见异型细胞,,穿刺液含多核巨细胞、渗出细胞及脂肪组织碎片伴纤维化改变,,细针穿刺活检,LLM提取,论文病例报告,2010-06-22,病理,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,a4e3f7c5-5f1e-4e45-bdfe-9f9f0a7f0909,患者,手术名称,,类别型,乳房开放性活检,,因怀疑右乳癌而行手术,,,LLM提取,论文病例报告,2010-08-23,手术,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,b5f4a8d6-6f2f-4f56-ce0f-0a0a1b8f1010,患者,病理诊断,,文本型,坏死性结节，中央坏死，周边大量淋巴细胞浸润、纤维化，局灶炎性多核巨细胞；余组织可见脂肪萎缩伴局灶性乳腺病变,,考虑Wegener's granulomatosis相关改变,,组织病理学检查,LLM提取,论文病例报告,2010-08-23,病理,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,b5f4a8d6-6f2f-4f56-ce0f-0a0a1b8f1010,患者,免疫组化,,文本型,CK7阴性，vimentin阳性，LCA阳性,,CK7为上皮肿瘤标记物；vimentin提示间叶来源；LCA见于淋巴瘤和炎症过程,,免疫组织化学,LLM提取,论文病例报告,2010-08-23,病理,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,c6f5b9e7-7f3f-4f67-df0f-1b1b2c9f1111,患者,会诊意见,,文本型,乳腺病灶在组织学上与肺部肉芽肿性病变高度相似，可能为Wegener's granulomatosis类型改变,,经对左乳肿块样本复阅并与肺部标本比较后提出,,病理会诊,LLM提取,论文病例报告,2010-09-06,会诊,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,d7f6cad8-8f4f-4f78-af10-2c2c3d0f1212,患者,诊断名称,,类别型,Wegener's granulomatosis,,乳腺受累,,,LLM提取,论文病例报告,2010-09-06,诊断,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,e8f7dbf9-9f50-4f89-bf21-3d3d4e1f1313,患者,出院诊断,,类别型,右乳Wegener's granulomatosis累及,,排除乳腺癌,,,LLM提取,论文病例报告,2010-09-06,出院,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,f9g8ec0a-af61-4f9a-c022-4e4e5f2f1414,患者,治疗方案,,类别型,继续原有药物治疗/免疫抑制治疗,,因排除乳腺癌后可继续基础疾病药物治疗,,,LLM提取,论文病例报告,2010-09-06,病程,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,0a09fd1b-b072-4fa3-d133-5f5f601f1515,患者,随访结果,,文本型,持续接受风湿科管理，乳腺随访未见异常,,,,,LLM提取,论文病例报告,2013-08-20,病程,v1
+ec5970e89c13190f01c4567b6d3fbc72,c0b8dbf991d759d067db6c363e464b92,1b1ae01c-c183-4fb4-e244-6f6f702f1616,患者,影像所见,,文本型,乳腺X线检查未见病理性病灶,,,,Mammography,LLM提取,论文病例报告,2013-08-20,影像,v1

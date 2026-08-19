@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,6f4c2b7f-0c6a-4f8d-8b95-5a8f2e0b2c11,患者,入院年龄,,数值型,68,68,,岁,,LLM提取,论文病例报告,2020-02-27,入院,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,6f4c2b7f-0c6a-4f8d-8b95-5a8f2e0b2c11,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2020-02-27,入院,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,6f4c2b7f-0c6a-4f8d-8b95-5a8f2e0b2c11,患者,主诉,,文本型,双侧腹股沟淋巴结转移及局部阴茎癌术后复发,,,,,LLM提取,论文病例报告,2020-02-27,入院,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,9b9f5b9c-2b77-4d2a-bb47-1d0e7bb0d1a1,患者,既往史,,文本型,无既往病史,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,f4df1d9d-b4ec-4b20-9f9e-3c2f6c7a5b12,患者,诊断名称,,类别型,阴茎鳞状细胞癌，中-低分化,,,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,c2c85d2d-9f58-4b07-8d8b-7e62e7e7d8a3,患者,手术名称,,类别型,部分阴茎切除术+淋巴结清扫术,,无辅助治疗,,,LLM提取,论文病例报告,2018-01-01,手术,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,a1d9a0e1-1d3f-4b2a-8d61-1b1f6d3a5f44,患者,诊断名称,,类别型,阴茎癌术后局部复发,,病灶C,,,LLM提取,论文病例报告,2020-02-01,诊断,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,a1d9a0e1-1d3f-4b2a-8d61-1b1f6d3a5f44,患者,诊断名称,,类别型,双侧腹股沟淋巴结转移,,病灶A、B,,,LLM提取,论文病例报告,2020-02-01,诊断,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,a1d9a0e1-1d3f-4b2a-8d61-1b1f6d3a5f44,患者,临床分期,,类别型,IV期,,"T×N3M0, AJCC 8th",,,LLM提取,论文病例报告,2020-02-01,诊断,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,d6d67e90-1c0f-4f5b-9f7f-5f62d4d8c4aa,组织标本-右腹股沟淋巴结,病理诊断,,文本型,转移性鳞状细胞癌,,病灶A,,,LLM提取,论文病例报告,2020-02-01,病理,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,d6d67e90-1c0f-4f5b-9f7f-5f62d4d8c4aa,组织标本-左腹股沟淋巴结,病理诊断,,文本型,转移性鳞状细胞癌,,病灶B,,,LLM提取,论文病例报告,2020-02-01,病理,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,e7d6b2c4-6e3a-4f2b-9a8a-8f0d7c3e4b55,患者,治疗方案,,类别型,紫杉醇+顺铂化疗,,175 mg/m2 q3w；75 mg/m2 q3w,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,e7d6b2c4-6e3a-4f2b-9a8a-8f0d7c3e4b55,患者,周期数,,数值型,3,3,,周期,,LLM提取,论文病例报告,2020-02-01,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,f1b4c6d8-9e2a-4b7f-b1c0-3d4e5f6a7b88,右腹股沟淋巴结标本,检验项目,,类别型,MLH1蛋白表达,,免疫组化结果：(-),,IHC,LLM提取,论文病例报告,2020-03-01,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,f1b4c6d8-9e2a-4b7f-b1c0-3d4e5f6a7b88,右腹股沟淋巴结标本,检验项目,,类别型,PMS2蛋白表达,,免疫组化结果：(-),,IHC,LLM提取,论文病例报告,2020-03-01,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,f1b4c6d8-9e2a-4b7f-b1c0-3d4e5f6a7b88,右腹股沟淋巴结标本,检验项目,,类别型,MMR状态,,dMMR,,IHC,LLM提取,论文病例报告,2020-03-01,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,7f2d3c4b-8a9e-4f1b-b2c3-4d5e6f7a8b99,患者,药品名称,,类别型,信迪利单抗,,联合原化疗方案,,,LLM提取,论文病例报告,2020-05-20,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,7f2d3c4b-8a9e-4f1b-b2c3-4d5e6f7a8b99,患者,剂量,,数值型,200,200,,mg,,LLM提取,论文病例报告,2020-05-20,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,7f2d3c4b-8a9e-4f1b-b2c3-4d5e6f7a8b99,患者,给药途径,,类别型,静脉注射,,q3w,,,LLM提取,论文病例报告,2020-05-20,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,7f2d3c4b-8a9e-4f1b-b2c3-4d5e6f7a8b99,患者,周期数,,数值型,3,3,,周期,,LLM提取,论文病例报告,2020-05-20,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,8a1b2c3d-4e5f-4678-9abc-def012345678,患者,疗效评估,,类别型,部分缓解,,病灶A、B,,RECIST 1.1,LLM提取,论文病例报告,2020-08-27,评估,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,8a1b2c3d-4e5f-4678-9abc-def012345678,患者,治疗反应,,类别型,PR,,双侧腹股沟淋巴结明显缩小,,,LLM提取,论文病例报告,2020-08-27,病程,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,1a2b3c4d-5e6f-4789-abcd-ef0123456789,患者,药品名称,,类别型,信迪利单抗,,维持单药治疗,,,LLM提取,论文病例报告,2020-08-27,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,2b3c4d5e-6f70-489a-bcde-f0123456789a,患者,影像所见,,文本型,局部复发病灶C较前增大（20 mm增至55 mm）,,盆腔CT,mm,CT,LLM提取,论文病例报告,2020-11-05,影像,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,2b3c4d5e-6f70-489a-bcde-f0123456789a,患者,诊断名称,,类别型,局部复发进展,,病灶C,,CT,LLM提取,论文病例报告,2020-11-05,诊断,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,3c4d5e6f-7091-49ab-cdef-0123456789ab,局部复发病灶C标本,病理诊断,,文本型,MMR proficient,,pMMR,,IHC,LLM提取,论文病例报告,2020-11-05,病理,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,3c4d5e6f-7091-49ab-cdef-0123456789ab,局部复发病灶C标本,检验项目,,类别型,MSI状态,,MSS,,NGS,LLM提取,论文病例报告,2020-11-05,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,3c4d5e6f-7091-49ab-cdef-0123456789ab,局部复发病灶C标本,检验项目,,数值型,14.2,14.2,肿瘤外显子突变负荷（TMB）,mut/Mb,NGS,LLM提取,论文病例报告,2020-11-05,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,3c4d5e6f-7091-49ab-cdef-0123456789ab,局部复发病灶C标本,检验项目,,数值型,60,60,PD-L1 TPS,%,22C3,LLM提取,论文病例报告,2020-11-05,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,3c4d5e6f-7091-49ab-cdef-0123456789ab,局部复发病灶C标本,检验项目,,数值型,70,70,PD-L1 CPS,,22C3,LLM提取,论文病例报告,2020-11-05,检验,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,4d5e6f70-8192-4abc-def0-123456789abc,患者,药品名称,,类别型,信迪利单抗,,联合吉西他滨,,,LLM提取,论文病例报告,2021-05-06,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,4d5e6f70-8192-4abc-def0-123456789abc,患者,剂量,,数值型,1000,1000,"d1,8 q3w",mg/m2,,LLM提取,论文病例报告,2021-05-06,用药,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,5e6f7081-9293-4bcd-ef01-23456789abcd,患者,疗效评估,,类别型,部分缓解,,全部三处病灶,,RECIST 1.1,LLM提取,论文病例报告,2021-05-06,评估,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,5e6f7081-9293-4bcd-ef01-23456789abcd,患者,治疗反应,,类别型,PR,,无严重治疗相关不良事件,,,LLM提取,论文病例报告,2021-05-06,病程,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,6f708192-a3b4-4cde-f012-3456789abcde,患者,最后治疗时间,,日期型,2021-11,,,,,LLM提取,论文病例报告,2021-11-01,病程,v1
+37889ecaff7a556fcce498f8490f8424,175b6d1eae29bf0ca68c74f8f90a6faf,7f8192a3-b4c5-4def-0123-456789abcdef,患者,随访结果,,文本型,截至投稿时仍在随访中,,,,,LLM提取,论文病例报告,,病程,v1

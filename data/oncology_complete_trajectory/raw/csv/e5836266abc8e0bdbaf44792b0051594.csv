@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f3f2d4c6-6dd3-4dfd-8a2f-0df2a9b5d1a1,患者,入院年龄,,数值型,49,49,,岁,,LLM提取,论文病例报告,2018-03-01,入院,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f3f2d4c6-6dd3-4dfd-8a2f-0df2a9b5d1a1,患者,主诉,,文本型,左乳两处肿块,,,,,LLM提取,论文病例报告,2018-03-01,病史,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,6b1e2a66-5f1d-4df0-9f2b-6e0e8b2f3d90,患者,手术名称,,类别型,左乳改良根治术,,,,,LLM提取,论文病例报告,2018-03-01,手术,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,7d3f3ce4-6f2b-4d22-8d4f-3ce6f5d5c3a2,患者,病理诊断,,文本型,非特异性浸润性乳腺癌，II级；左腋窝淋巴结16/17阳性,,肿块位于左乳外上象限3.5×3×2 cm，内侧象限1×0.8×0.8 cm,,,LLM提取,论文病例报告,2018-03-01,病理,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,7d3f3ce4-6f2b-4d22-8d4f-3ce6f5d5c3a2,患者,分化程度,,类别型,II级,,,,,LLM提取,论文病例报告,2018-03-01,病理,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,8a2d1a7f-6f0e-4b3b-9a0c-1d7f2b2c4d11,患者,免疫组化,,文本型,ER 90%强阳性，PR 75%强阳性，Ki-67 35%阳性，HER2 1+,,,,,LLM提取,论文病例报告,2018-03-01,病理,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,9b0c6f2a-1d4e-4c25-8d3a-2d5e6f7a8b9c,患者,诊断名称,,类别型,激素受体阳性/HER2阴性转移性乳腺癌,,,,,LLM提取,论文病例报告,2018-04-01,诊断,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,c2d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,PET/CT,影像所见,,文本型,多发肺转移、左肺门淋巴结转移、纵隔淋巴结转移、左内乳淋巴结转移、多发骨转移（C6、L5椎体、右第3肋、左第4肋、右耻骨）,,,,PET/CT,LLM提取,论文病例报告,2018-04-01,影像,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,c2d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,PET/CT,影像结论,,文本型,转移性疾病,,,,PET/CT,LLM提取,论文病例报告,2018-04-01,影像,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,患者,治疗方案,,类别型,多西他赛+卡培他滨，后续阿那曲唑维持,,q3w×6周期；多西他赛75 mg/m2 d1，卡培他滨1 g/m2 bid d1-14,,,LLM提取,论文病例报告,2018-04-25,病程,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,患者,疗效评估,,类别型,部分缓解,,PFS 15个月,,,LLM提取,论文病例报告,2018-04-25,评估,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7081,患者,药品名称,,类别型,多西他赛,,75 mg/m2 d1，ivgtt，Q3W,,,LLM提取,论文病例报告,2018-04-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7081,患者,药品名称,,类别型,卡培他滨,,1 g/m2 bid，po，d1-14，Q3W,,,LLM提取,论文病例报告,2018-04-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708192,患者,治疗方案,,类别型,阿那曲唑维持治疗,,10个月,,,LLM提取,论文病例报告,2018-08-13,病程,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708192,患者,药品名称,,类别型,阿那曲唑,,1 mg qd，po，维持治疗,,,LLM提取,论文病例报告,2018-08-13,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,a7b8c9d0-e1f2-4a3b-9c4d-5e6f708192a3,患者,治疗方案,,类别型,帕博西利+依西美坦,,22个月,,,LLM提取,论文病例报告,2019-07-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,a7b8c9d0-e1f2-4a3b-9c4d-5e6f708192a3,患者,疗效评估,,类别型,部分缓解,,脑转移出现，骨转移增多，PFS 22个月,,,LLM提取,论文病例报告,2019-07-25,评估,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b8c9d0e1-f2a3-4b4c-9d5e-6f708192a3b4,患者,药品名称,,类别型,帕博西利,,100 mg，d1-21，po，Q4W,,,LLM提取,论文病例报告,2019-07-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b8c9d0e1-f2a3-4b4c-9d5e-6f708192a3b4,患者,药品名称,,类别型,依西美坦,,25 mg qd，po,,,LLM提取,论文病例报告,2019-07-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,c9d0e1f2-a3b4-4c5d-9e6f-708192a3b4c5,脑MRI,影像所见,,文本型,5个囊性脑转移灶，最大直径4 cm，位于左额叶、左枕叶和双侧顶叶,,,,增强T1WI,LLM提取,论文病例报告,2021-05-01,影像,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,c9d0e1f2-a3b4-4c5d-9e6f-708192a3b4c5,脑MRI,影像结论,,文本型,囊性脑转移,,,,增强T1WI,LLM提取,论文病例报告,2021-05-01,影像,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,d0e1f2a3-b4c5-4d6e-9f70-8192a3b4c5d6,患者,诊断名称,,类别型,囊性脑转移,,出现于帕博西利+依西美坦治疗后,,,LLM提取,论文病例报告,2021-05-01,诊断,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,e1f2a3b4-c5d6-4e7f-9g01-92a3b4c5d6e7,外周血样本,分子标志物,,类别型,PIK3CA突变,,"外显子10, c.1633G>A (p.Glu545Lys), 突变率12.05%",,全外显子二代测序,LLM提取,论文病例报告,2021-05-01,诊断,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f2a3b4c5-d6e7-4f80-9a12-a3b4c5d6e7f8,患者,治疗方案,,类别型,全脑放疗+依维莫司+氟维司群,,40 Gy/20 fx，3个月,,,LLM提取,论文病例报告,2021-05-25,病程,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f2a3b4c5-d6e7-4f80-9a12-a3b4c5d6e7f8,患者,疗效评估,,类别型,部分缓解,,颅内PR，骨转移继续增加；PFS 3.5个月,,,LLM提取,论文病例报告,2021-05-25,评估,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f2a3b4c5-d6e7-4f80-9a12-a3b4c5d6e7f8,患者,放疗,,文本型,全脑放疗,,40 Gy/20 fx,,,LLM提取,论文病例报告,2021-05-25,其他,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f2a3b4c5-d6e7-4f80-9a12-a3b4c5d6e7f8,患者,药品名称,,类别型,依维莫司,,10 mg qd，po,,,LLM提取,论文病例报告,2021-05-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,f2a3b4c5-d6e7-4f80-9a12-a3b4c5d6e7f8,患者,药品名称,,类别型,氟维司群,,500 mg，Q4W，im；前3次分别在第1、15、28天给药,,,LLM提取,论文病例报告,2021-05-25,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,治疗方案,,类别型,依维莫司+氟维司群,,2021-06-22至2021-09-08,,,LLM提取,论文病例报告,2021-06-22,病程,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,患者,治疗方案,,类别型,阿贝西利+氟维司群,,四线治疗；阿贝西利起始150 mg bid，因腹泻减至100 mg bid；氟维司群500 mg,,,LLM提取,论文病例报告,2021-09-14,病程,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,患者,不良反应名称,,类别型,腹泻,,不耐受，导致阿贝西利减量,,,LLM提取,论文病例报告,2021-09-14,不良反应,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,患者,药品名称,,类别型,阿贝西利,,100 mg bid po；前两周150 mg bid后减量,,,LLM提取,论文病例报告,2021-09-14,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,患者,药品名称,,类别型,氟维司群,,500 mg,,,LLM提取,论文病例报告,2021-09-14,用药,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,脑MRI,影像所见,,文本型,治疗3个月后囊性脑转移灶明显缩小，9个月后仍部分缓解,,,,增强T1WI,LLM提取,论文病例报告,2021-12-14,影像,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,患者,疗效评估,,类别型,部分缓解,,颅内PR，颅外骨转移稳定；PFS >9个月,,,LLM提取,论文病例报告,2022-06-25,评估,v1
+e5836266abc8e0bdbaf44792b0051594,b469deb6f7fde98ea4cec169dc267ffa,b1c2d3e4-f5a6-4789-9bcd-ef0123456789,患者,不良反应名称,,类别型,无明显不良反应,,未见腹泻、骨髓抑制、肝肾功能异常,,,LLM提取,论文病例报告,2022-06-25,不良反应,v1

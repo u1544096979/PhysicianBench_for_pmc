@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,1d9f5f4b-4b8a-4a0d-9f4a-8d0f3fda0c91,患者,年龄,,数值型,59,59,,岁,,LLM提取,论文病例报告,2021-06-01,病史,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,1d9f5f4b-4b8a-4a0d-9f4a-8d0f3fda0c91,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,1d9f5f4b-4b8a-4a0d-9f4a-8d0f3fda0c91,患者,既往史,,文本型,腰椎压缩性骨折史,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,8b4fd4b2-6d7d-4f4b-9bc6-1d9b4ed60d15,患者,主诉,,文本型,发热5天,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,c3ec8e1b-7bbd-4b1f-9f2f-4c7f0f4c67e1,外周血,白细胞,,数值型,6700,6700,13% neutrophils,/μL,,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,c3ec8e1b-7bbd-4b1f-9f2f-4c7f0f4c67e1,外周血,血小板,,数值型,1.02×10^5,102000,,/μL,,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,c3ec8e1b-7bbd-4b1f-9f2f-4c7f0f4c67e1,外周血,血红蛋白,,数值型,11.4,11.4,,g/dL,,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,a1f2c1c6-7f77-4c73-8b1a-28f6e1b8e2d2,外周血,中性粒细胞形态异常,,文本型,胞质颗粒减少或假Pelger-Huët核异常的中性粒细胞出现,,,,,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,a1f2c1c6-7f77-4c73-8b1a-28f6e1b8e2d2,外周血,巨大血小板,,文本型,有,,,,,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,d61b2b4a-7d72-4e1b-b6d0-4f1d3c5a7e13,骨髓穿刺标本,骨髓增生,,文本型,增生细胞性骨髓,,,,骨髓穿刺,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,d61b2b4a-7d72-4e1b-b6d0-4f1d3c5a7e13,骨髓穿刺标本,原始髓细胞比例,,数值型,4.6,4.6,,%,骨髓穿刺,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,d61b2b4a-7d72-4e1b-b6d0-4f1d3c5a7e13,骨髓穿刺标本,环状铁粒幼细胞比例,,数值型,77,77,,%,骨髓穿刺,LLM提取,论文病例报告,2021-06-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,e5d7a2e1-2d62-4fd2-8e7d-3a5d74b7a814,患者,诊断名称,,类别型,MDS with low blasts and ring sideroblasts,,,,,LLM提取,论文病例报告,2021-06-01,诊断,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f0f65d74-92c6-44d8-a6a3-9d8c1a0e1a21,患者,诊断名称,,类别型,"MDS, intermediate-2 risk",,IPSS分层,,,LLM提取,论文病例报告,2021-09-01,诊断,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f0f65d74-92c6-44d8-a6a3-9d8c1a0e1a21,患者,临床分期,,类别型,中危-2,,,,,LLM提取,论文病例报告,2021-09-01,诊断,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f5e4f6f0-7e38-4b7a-8c6d-0b3e5a8a8c92,骨髓标本,原始髓细胞比例,,数值型,7.8,7.8,,%,骨髓穿刺,LLM提取,论文病例报告,2021-09-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f5e4f6f0-7e38-4b7a-8c6d-0b3e5a8a8c92,骨髓标本,染色体核型,,文本型,"45, XY, add(5)(q11.2), add(7)(p13), +8, -9, -17, add(19)(p13.3), -20, +r, 2~6dim [20/20]",,复杂核型,,细胞遗传学分析,LLM提取,论文病例报告,2021-09-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f5e4f6f0-7e38-4b7a-8c6d-0b3e5a8a8c92,骨髓标本,FISH结果,,类别型,5q缺失阳性，7号染色体单体阴性,,,,FISH,LLM提取,论文病例报告,2021-09-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,a8f0f2c1-7f1a-4d8c-b2a2-7d1b4b3e4d10,患者,治疗方案,,类别型,异基因造血干细胞移植,,拟作为根治性治疗,,,LLM提取,论文病例报告,2021-09-01,病程,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,3d7b8d8d-6a8a-4e3b-9c5a-2b3d4f5e6a11,骨髓标本,染色体核型,,文本型,"复杂核型，含+22：40, X, -Y, -5, add(7)(p13), -9, add(15)(p11.2), -16, -17, -18, add(19)(p13.3), -20, +r, 2dmin [8/20]/45, XY, -3, add(5)(q11.2), -7, -9, add(12)(p11.2), -17, add(19)(p13.3), -20, +22, +r, +2mar, 2dmin [4/20]/44, XY, add(5)(q11.2), del(7)(p13), -9, add(11)(p11.2), -16, -17, add(19)(p13.3), -20, +r, +mar, 2dimn [3/20]/karyotypes similar to above [5/20]",,出现+22,,细胞遗传学分析,LLM提取,论文病例报告,2022-01-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,cb9f0a1c-4f2d-4cbb-9d7c-0d4a5e6f7a12,患者,住院,,类别型,入院,,为HSCT进行桥接化疗,,,LLM提取,论文病例报告,2022-02-01,入院,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,cb9f0a1c-4f2d-4cbb-9d7c-0d4a5e6f7a12,患者,主诉,,文本型,右大腿轻度疼痛（入院前3周开始）,,,,,LLM提取,论文病例报告,2022-02-01,病史,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,e2d3c4b5-6a7f-48c9-9d0e-1f2a3b4c5d6e,右股骨X线,影像所见,,文本型,右股骨骨溶解性病灶,,,,X线,LLM提取,论文病例报告,2022-02-01,影像,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,e2d3c4b5-6a7f-48c9-9d0e-1f2a3b4c5d6e,右股骨MRI,影像所见,,文本型,右远端股骨45 mm肿块，增强明显，侵犯骨外组织；右近端股骨及右骨盆亦见类似病灶,,,,MRI（增强T1脂肪抑制）,LLM提取,论文病例报告,2022-02-01,影像,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,b4c5d6e7-8f90-4a1b-9c2d-3e4f5a6b7c13,右股骨病灶活检标本,病理诊断,,文本型,未成熟髓系细胞弥漫增殖，符合髓系肉瘤,,,,细针穿刺活检,LLM提取,论文病例报告,2022-02-01,病理,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,b4c5d6e7-8f90-4a1b-9c2d-3e4f5a6b7c13,右股骨病灶活检标本,免疫组化,,文本型,vimentin、LCA、c-kit、CD34阳性；cytokeratin AE1/AE3、S100、MPO、CD3、CD20阴性,,与骨髓中原始细胞形态和免疫表型一致,,免疫组化,LLM提取,论文病例报告,2022-02-01,病理,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,6f7a8b9c-0d1e-4f2a-8b3c-4d5e6f7a8b14,阿扎胞苷,药品名称,,类别型,阿扎胞苷,,第1疗程,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c15,患者,限制负重,,类别型,是,,右下肢立即限制负重，双拐步行,,,LLM提取,论文病例报告,2022-02-01,评估,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,9b0c1d2e-3f4a-4b5c-8d6e-7f8a9b0c1d16,患者,诊断名称,,类别型,MDS-overt AML,,疾病进展,,,LLM提取,论文病例报告,2022-03-01,诊断,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,9b0c1d2e-3f4a-4b5c-8d6e-7f8a9b0c1d16,外周血,原始髓细胞比例,,数值型,24.0,24.0,,%,,LLM提取,论文病例报告,2022-03-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,9b0c1d2e-3f4a-4b5c-8d6e-7f8a9b0c1d16,骨髓标本,染色体异常,,文本型,扩增含trisomy 22的克隆,,,,细胞遗传学分析,LLM提取,论文病例报告,2022-03-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,a1b2c3d4-e5f6-4789-8abc-def012345678,患者,治疗方案,,类别型,胞嘧啶阿糖胞苷+柔红霉素,,诱导化疗,,,LLM提取,论文病例报告,2022-03-01,用药,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,a1b2c3d4-e5f6-4789-8abc-def012345678,患者,治疗反应,,类别型,完全缓解伴血象未完全恢复（CRi）,,,,,LLM提取,论文病例报告,2022-03-01,评估,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,c1d2e3f4-a5b6-4789-9abc-def012345679,右股骨,病理诊断,,文本型,病理性骨折,,保守治疗，无手术固定,,X线诊断,LLM提取,论文病例报告,2022-03-01,诊断,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,c1d2e3f4-a5b6-4789-9abc-def012345679,右股骨病理性骨折,处理措施,,文本型,保守治疗,,因免疫抑制及感染风险高，未行手术固定,,,LLM提取,论文病例报告,2022-03-01,其他,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,患者,治疗方案,,类别型,胞嘧啶阿糖胞苷+柔红霉素,,AML诱导化疗,,,LLM提取,论文病例报告,2022-03-01,用药,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,患者,治疗方案,,类别型,高剂量阿糖胞苷,,巩固化疗，2022-04,,,LLM提取,论文病例报告,2022-04-01,用药,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,e7f8a9b0-c1d2-4e3f-8a9b-0c1d2e3f4a71,骨髓标本,原始髓细胞和原红细胞比例增加,,文本型,有,,次月骨髓检查异常,,骨髓穿刺,LLM提取,论文病例报告,2022-05-01,检验,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f1a2b3c4-d5e6-4f78-9abc-def012345680,患者,治疗方案,,类别型,阿扎胞苷+维奈克拉,,再诱导化疗,,,LLM提取,论文病例报告,2022-05-01,用药,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,f1a2b3c4-d5e6-4f78-9abc-def012345680,患者,治疗反应,,类别型,无效,,不能控制快速增殖的AML细胞,,,LLM提取,论文病例报告,2022-05-01,评估,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,0a1b2c3d-4e5f-4789-9abc-def012345681,患者,出院状况,,类别型,死亡,,2022-06因疾病进展死亡,,,LLM提取,论文病例报告,2022-06-01,出院,v1
+0d4d676e1ac9a24fe37ef5e8fc3c3f4f,a90a34a6748f9bfd123a234eae8b3d39_1,0a1b2c3d-4e5f-4789-9abc-def012345681,患者,出院诊断,,类别型,MDS进展为AML，伴髓系肉瘤及右股骨病理性骨折,,,,,LLM提取,论文病例报告,2022-06-01,出院,v1

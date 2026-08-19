@@ -1,0 +1,60 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,5f2d3f6f-5d6d-4d4b-8f5d-3b61df1c8f01,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,,病史,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,5f2d3f6f-5d6d-4d4b-8f5d-3b61df1c8f01,患者,现病史,,文本型,20岁时首次出现原发性甲旁亢，表现为反复腹痛。之后逐步发现MEN1相关多发内分泌肿瘤，包括胰腺和十二指肠神经内分泌肿瘤、垂体腺瘤、肾上腺腺瘤及空肠NET。,,,,,LLM提取,论文病例报告,2007-01-01,病史,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,5f2d3f6f-5d6d-4d4b-8f5d-3b61df1c8f01,患者,家族史,,文本型,父亲有原发性甲旁亢，52岁死于转移性胸腺类癌。,,,,,LLM提取,论文病例报告,,病史,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,0d2f2e52-53f7-4a03-9a1b-6f7bb4b9b8a1,患者,入院年龄,,数值型,31,31,,岁,,LLM提取,论文病例报告,2007-01-01,入院,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,0d2f2e52-53f7-4a03-9a1b-6f7bb4b9b8a1,患者,主诉,,文本型,因家族史提示MEN1，自愿来院进行内分泌评估。,,,,,LLM提取,论文病例报告,2007-01-01,入院,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,IGF1,,数值型,256,256,参考范围115–307,μg/l,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,泌乳素,,数值型,17.3,17.3,参考范围2.8–25.0,μg/l,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,胃泌素,,数值型,67.6,67.6,参考范围-125–125,pg/ml,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,C肽,,数值型,2.27,2.27,参考范围0.8–6,μl,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,胰岛素原,,数值型,5.4,5.4,参考范围-11,pmol/l,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,嗜铬粒蛋白A,,数值型,14.0,14.0,参考范围0–50,U/l,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,甲状旁腺激素,,数值型,18,18,参考范围11–65,ng/l,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,胰高血糖素,,数值型,69.3,69.3,参考范围59–177,pg/ml,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,ACTH,,数值型,16.4,16.4,参考范围-60,pg/ml,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,皮质醇,,数值型,67,67,参考范围43–224,μg/l,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9e84c3f5-9a3f-4b1a-8f6f-8f1a0d9b1f11,血液,胰多肽,,数值型,642,642,参考范围-400,pg/ml,,LLM提取,论文病例报告,2007-01-01,检验,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,b7f7f1d2-4f36-4d8d-9d9f-92f5c0db3f2a,垂体,影像所见,,文本型,MRI示垂体小腺瘤，最大约5×3 mm。,,,,MRI,LLM提取,论文病例报告,2007-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,b7f7f1d2-4f36-4d8d-9d9f-92f5c0db3f2a,垂体,影像结论,,类别型,非功能性垂体微腺瘤,,,,MRI,LLM提取,论文病例报告,2007-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,d1f5c6a9-5f0f-44b2-8f4b-7e1c0d2f2a31,肺/胸腺,影像所见,,文本型,CT示胸腺增生，未见胸腺或支气管类癌证据。,,,,CT,LLM提取,论文病例报告,2007-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,d1f5c6a9-5f0f-44b2-8f4b-7e1c0d2f2a31,肺/胸腺,影像结论,,类别型,胸腺增生,,未见胸腺/支气管类癌,,CT,LLM提取,论文病例报告,2007-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,a6d8e6b1-5d4f-4f57-8c8d-9b4a1b2c3d41,胰腺,影像所见,,文本型,EUS显示胰体尾部6个NF-pNEN，最大约15 mm；MRI亦见高信号胰腺病灶。,,,,EUS/MRI,LLM提取,论文病例报告,2007-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,a6d8e6b1-5d4f-4f57-8c8d-9b4a1b2c3d41,胰腺,影像结论,,类别型,多发非功能性胰神经内分泌肿瘤,,,,EUS/MRI,LLM提取,论文病例报告,2007-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,c8a2f5f7-2f3d-4d8a-8d7c-4e1b2a3c4d51,患者,诊断名称,,类别型,MEN1综合征,,依据pHPT、垂体微腺瘤和多发NF-pNEN符合诊断标准,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,c8a2f5f7-2f3d-4d8a-8d7c-4e1b2a3c4d51,患者,诊断名称,,类别型,原发性甲状旁腺功能亢进症,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,c8a2f5f7-2f3d-4d8a-8d7c-4e1b2a3c4d51,患者,诊断名称,,类别型,非功能性垂体微腺瘤,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,c8a2f5f7-2f3d-4d8a-8d7c-4e1b2a3c4d51,患者,诊断名称,,类别型,多发非功能性胰神经内分泌肿瘤,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,e1c2d3f4-5a6b-4c7d-8e9f-0a1b2c3d4e5f,患者,治疗方案,,文本型,年度MEN1筛查随访,,因无症状且病灶<2 cm，暂不手术或药物治疗,,,LLM提取,论文病例报告,2007-01-01,病程,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,7c6b5a4d-3e2f-4a1b-9c8d-7e6f5a4b3c2d,胰腺,影像所见,,文本型,随访EUS/MRI示胰腺肿瘤进展，发现8个肿瘤，其中胰体一病灶由6.0×5.9 mm增至19.9×14.7 mm。,,,,EUS/MRI,LLM提取,论文病例报告,2008-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,7c6b5a4d-3e2f-4a1b-9c8d-7e6f5a4b3c2d,胰腺,影像结论,,类别型,进展性胰神经内分泌肿瘤,,,,EUS/MRI,LLM提取,论文病例报告,2008-01-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a7b6c5d-4e3f-4a2b-9d8c-7e6f5a4b3c2e,患者,手术名称,,类别型,IOUS引导远端胰切除联合门静脉水平淋巴结清扫,,切除所有>10 mm的pNEN,,,LLM提取,论文病例报告,2008-01-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a7b6c5d-4e3f-4a2b-9d8c-7e6f5a4b3c2e,患者,手术结果,,文本型,切除胰腺多发肿瘤并行淋巴结清扫。,,,,,LLM提取,论文病例报告,2008-01-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a7b6c5d-4e3f-4a2b-9d8c-7e6f5a4b3c2e,患者,病理诊断,,文本型,胰腺多发分化良好的神经内分泌肿瘤，伴淋巴结转移。,,5个G1肿瘤；Ki-67<1%；TNM分期TXN1M0，UICC III期,,病理学/免疫组化,LLM提取,论文病例报告,2008-01-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a7b6c5d-4e3f-4a2b-9d8c-7e6f5a4b3c2e,胰腺,免疫组化,,文本型,Chromogranin A、synaptophysin阳性。,,,,免疫组化,LLM提取,论文病例报告,2008-01-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a7b6c5d-4e3f-4a2b-9d8c-7e6f5a4b3c2e,胰腺,Ki-67,,数值型,<1,,,%,免疫组化,LLM提取,论文病例报告,2008-01-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,1f2e3d4c-5b6a-4d7e-8f9a-0b1c2d3e4f5a,患者,诊断名称,,类别型,左肾上腺皮质非功能性腺瘤疑似,,,,,LLM提取,论文病例报告,2010-01-01,诊断,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,2a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d,肝脏,影像所见,,文本型,2012年4月MRI示肝S6新发14×12 mm病灶。,,,,MRI,LLM提取,论文病例报告,2012-04-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,2a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d,肝脏,影像结论,,类别型,肝转移性神经内分泌肿瘤,,,,MRI/CT引导活检,LLM提取,论文病例报告,2012-04-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,2a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d,十二指肠,影像所见,,文本型,2012年4月MRI/影像示十二指肠第一段新发15 mm非功能性肿瘤。,,,,MRI,LLM提取,论文病例报告,2012-04-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,3b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e,肝脏,病理诊断,,文本型,肝脏病灶为分化良好神经内分泌肿瘤转移。,,Ki-67<1%；synaptophysin阳性,,CT引导活检/病理,LLM提取,论文病例报告,2012-04-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,4c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f,患者,手术名称,,类别型,肝转移灶切除+胰头2个pNEN剜除+十二指肠NET经十二指肠切开切除,,分别剜除8 mm和10 mm胰头病灶，切除10 mm十二指肠NET,,,LLM提取,论文病例报告,2012-04-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,4c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f,患者,手术结果,,文本型,成功切除肝转移灶、胰头病灶和十二指肠肿瘤。,,,,,LLM提取,论文病例报告,2012-04-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,4c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f,十二指肠/胰腺/肝脏,病理诊断,,文本型,十二指肠与胰腺为分化良好的神经内分泌肿瘤，肝脏为其转移。,,十二指肠和胰腺肿瘤胃泌素阴性；Ki-67<1%,,病理学/免疫组化,LLM提取,论文病例报告,2012-04-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,5d6e7f8a-9b0c-4d1e-2f3a-4b5c6d7e8f9a,患者,手术名称,,类别型,全胰切除术,,因胰头新发快速进展性pNEN，患者坚持手术,,,LLM提取,论文病例报告,2013-01-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,5d6e7f8a-9b0c-4d1e-2f3a-4b5c6d7e8f9a,胰腺,病理诊断,,文本型,全胰切除标本部分病理示6个G1 pNEN，均<20 mm。,,,,病理学,LLM提取,论文病例报告,2013-01-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,6e7f8a9b-0c1d-4e2f-3a4b-5c6d7e8f9a0b,患者,手术名称,,类别型,再开腹+粘连松解,,因小肠梗阻,,,LLM提取,论文病例报告,2014-02-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,7f8a9b0c-1d2e-4f3a-5b6c-7d8e9f0a1b2c,患者,不良反应名称,,类别型,上消化道出血,,需输注红细胞,,,LLM提取,论文病例报告,2014-12-01,不良反应,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,7f8a9b0c-1d2e-4f3a-5b6c-7d8e9f0a1b2c,患者,处理措施,,文本型,给予高剂量质子泵抑制剂治疗。,,,,,LLM提取,论文病例报告,2014-12-01,不良反应,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d,胃空肠吻合口,影像所见,,文本型,胃空肠吻合口持续性溃疡并狭窄，伴反复出血。,,,,胃镜,LLM提取,论文病例报告,2015-02-01,评估,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d,胃空肠吻合口,疗效评估,,类别型,溃疡持续存在,,伴狭窄和再出血,,胃镜,LLM提取,论文病例报告,2015-02-01,评估,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d,小肠,影像所见,,文本型,Ga68-Dotatoc PET/CT示主动脉分叉前方小肠单发示踪剂摄取。,,,,Ga68-Dotatoc PET/CT,LLM提取,论文病例报告,2015-02-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d,小肠,影像结论,,类别型,空肠神经内分泌肿瘤,,最初考虑淋巴结转移或其他小肠肿瘤,,Ga68-Dotatoc PET/CT,LLM提取,论文病例报告,2015-02-01,影像,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,ab1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,手术名称,,类别型,腹部再探查+小肠部分切除+区域淋巴结清扫+胃空肠吻合口切除,,切除中段空肠10 mm肿瘤,,,LLM提取,论文病例报告,2015-02-01,手术,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,ab1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,空肠,病理诊断,,文本型,空肠NET，G2，pT3 pN1(3/14) L1 V0 Pn0 R0。,,Ki-67<1%；synaptophysin阳性,,病理学/免疫组化,LLM提取,论文病例报告,2015-02-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,ab1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,胃空肠吻合口,病理诊断,,文本型,慢性溃疡性、可能缺血性病变。,,,,病理学,LLM提取,论文病例报告,2015-02-01,病理,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e5f,患者,不良反应名称,,类别型,胃空肠吻合口溃疡复发,,2015年8月再次出现类似症状,,,LLM提取,论文病例报告,2015-08-01,不良反应,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e5f,患者,处理措施,,文本型,除PPI外，加用硫糖铝治疗。,,,,,LLM提取,论文病例报告,2015-08-01,不良反应,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a,患者,治疗方案,,文本型,常规随访监测,,MRI、EUS及胃镜每6个月复查；实验室检查密切监测,,,LLM提取,论文病例报告,,病程,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a,患者,随访结果,,文本型,目前垂体结节未见增大，腹部MRI和EUS继续计划每6个月复查。,,,,,LLM提取,论文病例报告,,病程,v1
+f604ca3ac9565a7ce9942b1d9149a16b,51e4e6156bd3a59ff7aa26ab2f5b9eac,e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b,患者,基因检测结果,,文本型,Sanger测序未检出MEN1或CDKN1B胚系突变；后续NGS/array CGH/MLPA发现MEN1基因大范围杂合缺失，累及整个MEN1基因。,,缺失约7.6–25.9 kb；亦在文中另述约5.6 kb,,Sanger测序/NGS/array CGH/MLPA,LLM提取,论文病例报告,2007-01-01,诊断,v1

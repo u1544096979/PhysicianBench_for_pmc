@@ -1,0 +1,35 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,2b55e7c2-9b6a-4d8d-bb7d-8c1c9c3c1a11,患者,入院年龄,,数值型,49,49,,岁,,LLM提取,论文病例报告,,入院,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,8c2f0b16-fd44-4f0b-9b7f-5f7a1b5f8e22,患者,既往史,,文本型,2011年发现左上肺叶2.4 cm肿块，细针穿刺细胞学示肺腺癌；因纵隔淋巴结肿大未行肺部手术，接受放疗5年及化疗2年。,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,f0c8f3d9-1b2c-4d7d-8f7a-3b7b9a4d7c33,左上肺叶,影像所见,,文本型,见2.4 cm肿块。,,,cm,胸部CT,LLM提取,论文病例报告,2011-01-01,影像,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,f0c8f3d9-1b2c-4d7d-8f7a-3b7b9a4d7c33,左上肺叶,影像结论,,文本型,考虑肺癌。,,,,胸部CT,LLM提取,论文病例报告,2011-01-01,影像,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,a6d4d7a4-3d8d-4f5a-8d9f-9f7d8c8e1a44,标本,病理诊断,,文本型,肺腺癌。,,,,细针穿刺细胞学,LLM提取,论文病例报告,2011-01-01,病理,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,c4a8f2b1-6d3e-4b9e-9c1a-2f3d4e5f6a55,患者,治疗方案,,类别型,放疗,,持续5年,,,LLM提取,论文病例报告,2011-01-01,病程,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,c4a8f2b1-6d3e-4b9e-9c1a-2f3d4e5f6a55,患者,治疗方案,,类别型,化疗,,持续2年,,,LLM提取,论文病例报告,2011-01-01,病程,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,d7e5f8a9-1c2b-4d3e-8f7a-9b1c2d3e4f66,患者,诊断名称,,类别型,脑转移瘤,,左颞叶、顶叶,,,LLM提取,论文病例报告,2013-03-01,诊断,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,e8f1a2b3-4c5d-4e6f-9a7b-8c9d0e1f2a77,左颞叶、顶叶,影像所见,,文本型,左颞叶和顶叶存在脑转移灶。,,,,MRI,LLM提取,论文病例报告,2013-03-01,影像,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,e8f1a2b3-4c5d-4e6f-9a7b-8c9d0e1f2a77,左颞叶、顶叶,影像结论,,文本型,脑转移。,,,,MRI,LLM提取,论文病例报告,2013-03-01,影像,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,f9a1b2c3-d4e5-4f6a-8b7c-9d0e1f2a3b88,患者,手术名称,,类别型,左颞叶、顶叶转移灶次全切除术及减压性开颅术,,,,,LLM提取,论文病例报告,2013-03-01,手术,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c99,标本,病理诊断,,文本型,腺癌。,,,,术后病理,LLM提取,论文病例报告,2013-03-01,病理,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d10,患者,诊断名称,,类别型,脑转移瘤复发,,左颞叶,,,LLM提取,论文病例报告,2014-05-01,诊断,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e11,患者,手术名称,,类别型,左颞叶转移灶切除术,,,,,LLM提取,论文病例报告,2014-05-01,手术,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,d3e4f5a6-b7c8-4d9e-0f1a-2b3c4d5e6f12,标本,病理诊断,,文本型,腺癌。,,,,术后病理,LLM提取,论文病例报告,2014-05-01,病理,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,e4f5a6b7-c8d9-4e0f-1a2b-3c4d5e6f7a13,患者,诊断名称,,类别型,脑转移瘤复发,,左颞叶,,,LLM提取,论文病例报告,2015-08-01,诊断,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,f5a6b7c8-d9e0-4f1a-2b3c-4d5e6f7a8b14,患者,手术名称,,类别型,左颞叶转移灶切除术,,,,,LLM提取,论文病例报告,2015-08-01,手术,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,g6b7c8d9-e0f1-4a2b-3c4d-5e6f7a8b9c15,标本,病理诊断,,文本型,腺癌。,,,,术后病理,LLM提取,论文病例报告,2015-08-01,病理,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,h7c8d9e0-f1a2-4b3c-4d5e-6f7a8b9c0d16,患者,主诉,,文本型,左颞部头皮手术切口处快速增长的肿块，伴疼痛。,,,,,LLM提取,论文病例报告,2015-11-01,病史,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,h7c8d9e0-f1a2-4b3c-4d5e-6f7a8b9c0d16,患者,入院途径,,类别型,因病入院,,,,,LLM提取,论文病例报告,2015-11-01,入院,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,i8d9e0f1-a2b3-4c5d-4e6f-7a8b9c0d1e17,患者,查体,,文本型,体格检查和神经系统检查均正常。,,,,,LLM提取,论文病例报告,2015-11-01,评估,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,j9e0f1a2-b3c4-4d5e-8f7a-8b9c0d1e2f18,患者,肿瘤标志物_CEA,,数值型,191.6,191.6,正常<3.4 ng/ml,ng/ml,,LLM提取,论文病例报告,2015-11-01,检验,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,j9e0f1a2-b3c4-4d5e-8f7a-8b9c0d1e2f18,患者,肿瘤标志物_CA15-3,,数值型,38.03,38.03,正常<25.0 U/ml,U/ml,,LLM提取,论文病例报告,2015-11-01,检验,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,j9e0f1a2-b3c4-4d5e-8f7a-8b9c0d1e2f18,患者,外周血细胞计数,,类别型,正常,,,,,LLM提取,论文病例报告,2015-11-01,检验,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,j9e0f1a2-b3c4-4d5e-8f7a-8b9c0d1e2f18,患者,肝功能,,类别型,正常,,,,,LLM提取,论文病例报告,2015-11-01,检验,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,j9e0f1a2-b3c4-4d5e-8f7a-8b9c0d1e2f18,患者,肾功能,,类别型,正常,,,,,LLM提取,论文病例报告,2015-11-01,检验,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,j9e0f1a2-b3c4-4d5e-8f7a-8b9c0d1e2f18,患者,激素水平,,类别型,正常,,,,,LLM提取,论文病例报告,2015-11-01,检验,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,k0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a19,左颞部头皮,影像所见,,文本型,左颞叶和顶叶见复发灶，左颞部头皮手术切口处见与既往开颅部位一致的较大结节性肿块。,,,,MRI,LLM提取,论文病例报告,2015-11-01,影像,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,k0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a19,左颞部头皮,影像结论,,文本型,复发性脑转移灶合并术区皮下结节性肿块，考虑种植转移。,,,,MRI,LLM提取,论文病例报告,2015-11-01,影像,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,l1a2b3c4-d5e6-4f7a-8b9c-0d1e2e3f4a20,患者,手术名称,,类别型,皮下结节切除术及左颞叶、顶叶病灶全切除术,,,,,LLM提取,论文病例报告,2015-11-01,手术,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,l1a2b3c4-d5e6-4f7a-8b9c-0d1e2e3f4a20,患者,手术结果,,文本型,肿块浸润皮下组织和硬脑膜；肿瘤与正常皮肤无明显边界；病灶富含血管。,,,,,LLM提取,论文病例报告,2015-11-01,手术,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,m2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c21,标本,病理诊断,,文本型,腺癌。,,,,术后病理,LLM提取,论文病例报告,2015-11-01,病理,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,m2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c21,标本,免疫组化,,文本型,TTF-1弥漫阳性，CK7弥漫阳性，Ki-67指数25%，villin阴性，CK20阴性，WT-1阴性。,,,,免疫组化,LLM提取,论文病例报告,2015-11-01,病理,v1
+6732f0f45efb16cb4e6d5a5480229419,2d84e8f6fccbb6b1bac2e134fe9aaab9_1,n3c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d22,患者,出院状况,,文本型,术后恢复良好，可自行照顾自己。,,,,,LLM提取,论文病例报告,2015-11-01,出院,v1

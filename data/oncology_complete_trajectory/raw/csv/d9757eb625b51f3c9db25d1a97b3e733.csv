@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,2d7f2f7f-2a3b-4c7d-9f4d-7b0b4c8f5d6a,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2017-10-01,病史,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,2d7f2f7f-2a3b-4c7d-9f4d-7b0b4c8f5d6a,患者,年龄,,数值型,56,56,,岁,,LLM提取,论文病例报告,2017-10-01,病史,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,2d7f2f7f-2a3b-4c7d-9f4d-7b0b4c8f5d6a,患者,主诉,,文本型,腰骶部疼痛,,行腰椎MRI检查,,,LLM提取,论文病例报告,2017-10-01,病史,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,7d1a0a4b-8a7b-4d8a-8c54-8d67f3b0f111,影像检查,影像所见,,文本型,腰椎MRI提示骶部占位,,,,MRI,LLM提取,论文病例报告,2017-10-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,b9c4d2c8-1c7b-4dfe-9f1d-8b9f6c2a1234,患者,诊断名称,,类别型,脊索瘤,,术后病理明确,,,LLM提取,论文病例报告,2017-10-01,诊断,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,d5f3f2c2-0b8d-4d0f-9b5c-2f88b9d4c567,手术,手术名称,,类别型,骶尾部肿瘤切除术,,,,,LLM提取,论文病例报告,2017-10-01,手术,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,d5f3f2c2-0b8d-4d0f-9b5c-2f88b9d4c567,手术,手术结果,,文本型,术后病理提示脊索瘤,,,,,LLM提取,论文病例报告,2017-10-01,手术,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,e2d6d3e4-6f7a-4c8b-9a10-1c2d3e4f5678,标本,病理诊断,,文本型,骶尾部肿瘤，考虑脊索瘤,,Ki-67约5%,,病理及免疫组化,LLM提取,论文病例报告,2017-10-01,病理,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,e2d6d3e4-6f7a-4c8b-9a10-1c2d3e4f5678,标本,Ki-67,,数值型,5,5,,%,,LLM提取,论文病例报告,2017-10-01,病理,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,e2d6d3e4-6f7a-4c8b-9a10-1c2d3e4f5678,标本,免疫组化,,文本型,"CK7(–), CK20(–), CK8/18(–), GFAP(–), EMA(+), Vimentin(+), S100(weak+), CD10(–), S100(–), E-cadherin(–), E-cadherin缺失, N-cadherin过表达",,,,免疫组化,LLM提取,论文病例报告,2017-10-01,病理,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,f1a2b3c4-d5e6-4f70-8a91-0b1c2d3e4f50,患者,诊断名称,,类别型,脊索瘤肺转移,,基因检测提示PBRM1突变，A1209fs,,,LLM提取,论文病例报告,2018-08-01,诊断,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,f1a2b3c4-d5e6-4f70-8a91-0b1c2d3e4f50,患者,分子标志物,,类别型,PBRM1突变,,A1209fs,,基因检测,LLM提取,论文病例报告,2018-08-01,诊断,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,9c8d7e6f-5a4b-4c3d-9e8f-1a2b3c4d5e61,患者,治疗方案,,文本型,免疫治疗、免疫治疗联合抗血管生成治疗、化疗联合免疫治疗、质子治疗,,针对局部转移,,,LLM提取,论文病例报告,2018-08-01,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,9c8d7e6f-5a4b-4c3d-9e8f-1a2b3c4d5e61,患者,治疗反应,,类别型,疾病进展后继续治疗,,,,,LLM提取,论文病例报告,2018-08-01,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,a1b2c3d4-e5f6-4a70-8b91-0c1d2e3f4a55,患者,病程,,文本型,胸闷加重,,复查胸部CTA,,,LLM提取,论文病例报告,2023-03-01,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,b2c3d4e5-f6a7-4b80-9c12-0d1e2f3a4b66,影像检查,影像所见,,文本型,左肺动脉主干见多个充盈缺损，提示肺栓塞,,,,CTA,LLM提取,论文病例报告,2023-03-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,b2c3d4e5-f6a7-4b80-9c12-0d1e2f3a4b66,影像检查,影像结论,,文本型,肺栓塞,,,,CTA,LLM提取,论文病例报告,2023-03-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,c3d4e5f6-a7b8-4c90-9d23-1e2f3a4b5c77,影像检查,影像所见,,文本型,双肺门区淋巴结、骨及肾上腺代谢增高,,考虑肿瘤进展,,PET/CT,LLM提取,论文病例报告,2023-03-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,c3d4e5f6-a7b8-4c90-9d23-1e2f3a4b5c77,影像检查,影像结论,,文本型,肿瘤进展,,进展性疾病,,PET/CT,LLM提取,论文病例报告,2023-03-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,d4e5f6a7-b8c9-4da0-9e34-2f3a4b5c6d88,患者,治疗方案,,文本型,口服利伐沙班,20,1次/日,mg,,LLM提取,论文病例报告,2023-03-23,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,d4e5f6a7-b8c9-4da0-9e34-2f3a4b5c6d88,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2023-03-23,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,d4e5f6a7-b8c9-4da0-9e34-2f3a4b5c6d88,患者,治疗方案,,类别型,抗凝治疗,,与抗肿瘤治疗并行,,,LLM提取,论文病例报告,2023-03-23,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,e5f6a7b8-c9d0-4eb1-9f45-3a4b5c6d7e99,影像检查,影像所见,,文本型,左肺动脉主干血栓充盈缺损较前进展,,PE加重,,CTA,LLM提取,论文病例报告,2023-03-23,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,e5f6a7b8-c9d0-4eb1-9f45-3a4b5c6d7e99,影像检查,影像结论,,文本型,肺栓塞,,右侧较前新发/进展，左侧较前改善,,CTA,LLM提取,论文病例报告,2023-03-23,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,f6a7b8c9-d0e1-4fc2-9f56-4b5c6d7e8f10,患者,诊断名称,,类别型,Trousseau综合征,,伴肺栓塞,,,LLM提取,论文病例报告,2023-03-23,诊断,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,f6a7b8c9-d0e1-4fc2-9f56-4b5c6d7e8f10,患者,诊断名称,,类别型,肺栓塞,,TS评分3分，Khorana评分1分,,,LLM提取,论文病例报告,2023-03-23,诊断,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,f6a7b8c9-d0e1-4fc2-9f56-4b5c6d7e8f10,患者,评估方法,,类别型,TS Composite Score,3,多发血管区域梗死2分；活动性肿瘤1分,分,,LLM提取,论文病例报告,2023-03-23,评估,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,f6a7b8c9-d0e1-4fc2-9f56-4b5c6d7e8f10,患者,评估方法,,类别型,Khorana Score,1,多发血管区域梗死1分,分,,LLM提取,论文病例报告,2023-03-23,评估,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,g7b8c9d0-e1f2-4gd3-9f67-5c6d7e8f9011,患者,治疗方案,,文本型,低分子量肝素钠,,0.6 mL，1次/日，皮下注射，晨起给药,,,LLM提取,论文病例报告,2023-03-23,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,g7b8c9d0-e1f2-4gd3-9f67-5c6d7e8f9011,患者,给药途径,,类别型,皮下注射,,,,,LLM提取,论文病例报告,2023-03-23,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,g7b8c9d0-e1f2-4gd3-9f67-5c6d7e8f9011,患者,治疗方案,,类别型,抗凝治疗,,根据NCCN和ASCO指南调整,,,LLM提取,论文病例报告,2023-03-23,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,h8c9d0e1-f2g3-4h04-9f78-6d7e8f901234,患者,治疗方案,,文本型,质子放疗,,左肺动脉，2023-04至2023-05,,,LLM提取,论文病例报告,2023-04-01,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,h8c9d0e1-f2g3-4h04-9f78-6d7e8f901234,患者,治疗反应,,类别型,病情稳定,,2023年6月复查CTA,,,LLM提取,论文病例报告,2023-06-01,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,i9d0e1f2-g3h4-4i15-9g89-7e8f90123456,影像检查,影像所见,,文本型,左侧肺动脉栓塞较前稳定,,,,CTA,LLM提取,论文病例报告,2023-06-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,i9d0e1f2-g3h4-4i15-9g89-7e8f90123456,影像检查,影像结论,,文本型,肺栓塞稳定,,,,CTA,LLM提取,论文病例报告,2023-06-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,j0e1f2g3-h4i5-4j26-9h90-8f9012345678,患者,症状,,文本型,气促加重，氧饱和度波动于88%–93%,,鼻导管吸氧下,%,,LLM提取,论文病例报告,2023-10-13,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,k1f2g3h4-i5j6-4k37-9i01-9g0123456789,影像检查,影像所见,,文本型,左肺动脉干及分支、右肺动脉分支多发不规则充盈缺损,,提示肺栓塞,,CTA,LLM提取,论文病例报告,2023-10-13,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,k1f2g3h4-i5j6-4k37-9i01-9g0123456789,影像检查,影像结论,,文本型,肺栓塞,,右侧较前进展，左侧较前改善,,CTA,LLM提取,论文病例报告,2023-10-13,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,k1f2g3h4-i5j6-4k37-9i01-9g0123456789,患者,治疗方案,,类别型,阿替利珠单抗,,同步抗肿瘤治疗,,,LLM提取,论文病例报告,2023-10-13,用药,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,l2g3h4i5-j6k7-4l48-9j12-0h1234567890,患者,治疗方案,,文本型,建议再次行右肺病灶质子治疗,,患者拒绝,,,LLM提取,论文病例报告,2023-10-13,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,m3h4i5j6-k7l8-4m59-9k23-1i2345678901,影像检查,影像所见,,文本型,右中下肺动脉及其分支完全栓塞；左侧远端肺动脉干、左上肺动脉分支、左上/下肺动脉及其分支、右上肺后段及前段多发不完全肺栓塞；双肺多发实性灶,,考虑肺梗死,,CTA,LLM提取,论文病例报告,2024-01-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,m3h4i5j6-k7l8-4m59-9k23-1i2345678901,影像检查,影像结论,,文本型,双侧肺动脉多发栓塞并肺梗死,,,,CTA,LLM提取,论文病例报告,2024-01-01,影像,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,n4i5j6k7-l8m9-4n60-9l34-2j3456789012,患者,病程,,文本型,氧饱和度进行性下降后死亡,,,,,LLM提取,论文病例报告,2024-01-16,病程,v1
+d9757eb625b51f3c9db25d1a97b3e733,68a11b7e66dab2e43b35aaecabb9cd4d,n4i5j6k7-l8m9-4n60-9l34-2j3456789012,患者,死亡,,类别型,是,,,,,LLM提取,论文病例报告,2024-01-16,病程,v1

@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7d3d0e4c-0f5e-4c7a-9e1f-0d5b8a0a6d11,患者,入院年龄,,数值型,54,54,,岁,,LLM提取,论文病例报告,2014-08-01,入院,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7d3d0e4c-0f5e-4c7a-9e1f-0d5b8a0a6d11,患者,入院途径,,类别型,转诊,,,,,LLM提取,论文病例报告,2014-08-01,入院,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7d3d0e4c-0f5e-4c7a-9e1f-0d5b8a0a6d11,患者,主诉,,文本型,非productive cough 2个月，肺和肝脏肿块（CT发现）,,,,,LLM提取,论文病例报告,2014-08-01,病史,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,1c3d1a42-6a62-4f17-b7e8-0f6c7f6d0c12,患者,个人史,,文本型,从不吸烟,,,,,LLM提取,论文病例报告,2014-08-01,病史,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,5f8d5a45-1d11-4f41-9df2-b3e6d4f6a3d3,患者,查体,,文本型,右锁骨上淋巴结硬、固定、肿大，约1.5 cm,,,,,LLM提取,论文病例报告,2014-08-01,评估,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,2f6f0e1b-3f8b-4f88-9d73-1b4e6c0c1a21,血液,癌胚抗原CEA,,数值型,88.7,88.7,,ng/mL,,LLM提取,论文病例报告,2014-08-01,检验,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,8d8df8b7-5b0f-4a3d-9b8d-7c6f4b3d5a31,患者,影像所见,,文本型,PET-CT示左下肺叶肺癌（3.4×2.5 cm），并见肺、右锁骨上淋巴结、肝脏及骨转移；脑MRI示大脑及小脑多发异常信号，提示多发脑转移,,,,PET-CT/MRI,LLM提取,论文病例报告,2014-08-01,影像,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,d2a2b3e4-7c9a-4c5b-9f0b-2b3c4d5e6f71,患者,诊断名称,,类别型,肺癌（cT4N3M1b，IV期）,,,,,LLM提取,论文病例报告,2014-08-01,诊断,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,d2a2b3e4-7c9a-4c5b-9f0b-2b3c4d5e6f71,患者,临床分期,,类别型,cT4N3M1b,,IV期,,,LLM提取,论文病例报告,2014-08-01,诊断,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,a8b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c4d,右锁骨上淋巴结,病理诊断,,文本型,转移性肺腺癌，腺泡型和乳头型形态,,,,HE染色,LLM提取,论文病例报告,2014-08-01,病理,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,a8b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c4d,右锁骨上淋巴结,免疫组化,,文本型,CK7阳性、TTF-1阳性、CD56阳性、synaptophysin阳性、chromogranin阳性,,提示神经内分泌分化,,免疫组化,LLM提取,论文病例报告,2014-08-01,病理,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,d2a2b3e4-7c9a-4c5b-9f0b-2b3c4d5e6f71,患者,分子标志物,,类别型,EGFR L858R（外显子21单点突变）,,,,基因突变分析,LLM提取,论文病例报告,2014-08-01,诊断,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b,患者,药品名称,,类别型,nedaplatin,,,,,LLM提取,论文病例报告,2014-08-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b,患者,剂量,,数值型,140,140,,mg,,LLM提取,论文病例报告,2014-08-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b,患者,药品名称,,类别型,pemetrexed,,,,,LLM提取,论文病例报告,2014-08-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b,患者,剂量,,数值型,870,870,,mg,,LLM提取,论文病例报告,2014-08-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,6a7b8c9d-0e1f-4a2b-8c3d-4e5f6a7b8c9d,患者,放疗方案,,文本型,全脑放疗 36 Gy/12F,,,,,LLM提取,论文病例报告,2014-08-01,病程,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7e8f9a0b-1c2d-4e3f-8a9b-0c1d2e3f4a5c,患者,疗效评估,,类别型,部分缓解,,肺和肝病灶缩小30%，脑病灶完全消退,,影像学,LLM提取,论文病例报告,2014-11-01,评估,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7e8f9a0b-1c2d-4e3f-8a9b-0c1d2e3f4a5c,血液,癌胚抗原CEA,,数值型,44.8,44.8,,ng/mL,,LLM提取,论文病例报告,2014-11-01,检验,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,8f9a0b1c-2d3e-4f5a-8b9c-0d1e2f3a4b5c,患者,药品名称,,类别型,gefitinib,,,,,LLM提取,论文病例报告,2014-11-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,8f9a0b1c-2d3e-4f5a-8b9c-0d1e2f3a4b5c,患者,剂量,,数值型,250,250,,mg,,LLM提取,论文病例报告,2014-11-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,8f9a0b1c-2d3e-4f5a-8b9c-0d1e2f3a4b5c,患者,给药途径,,类别型,口服,,qd,,,LLM提取,论文病例报告,2014-11-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,9a0b1c2d-3e4f-5a6b-8c9d-0e1f2a3b4c5d,患者,疗效评估,,类别型,混合反应,,肺部稳定、肝转移进展,,CT,LLM提取,论文病例报告,2015-01-01,评估,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,9a0b1c2d-3e4f-5a6b-8c9d-0e1f2a3b4c5d,肝脏转移灶,病理诊断,,文本型,转移性低分化神经内分泌癌,,与首次活检相同EGFR突变,,HE染色/免疫组化,LLM提取,论文病例报告,2015-01-01,病理,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,9a0b1c2d-3e4f-5a6b-8c9d-0e1f2a3b4c5d,肝脏转移灶,免疫组化,,文本型,CD56阳性、synaptophysin阳性、chromogranin阳性、CK7阳性、TTF-1阳性,,,,免疫组化,LLM提取,论文病例报告,2015-01-01,病理,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,9a0b1c2d-3e4f-5a6b-8c9d-0e1f2a3b4c5d,患者,分子标志物,,类别型,EGFR L858R（与初次活检相同）,,,,基因突变分析,LLM提取,论文病例报告,2015-01-01,诊断,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,药品名称,,类别型,nab-paclitaxel,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,剂量,,数值型,400,400,,mg,,LLM提取,论文病例报告,2015-01-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,药品名称,,类别型,nedaplatin,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,剂量,,数值型,130,130,,mg,,LLM提取,论文病例报告,2015-01-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a,患者,疗效评估,,类别型,部分缓解,,肺和肝病灶缩小，肺和纵隔淋巴结几乎完全消退，肝病灶约缩小70%,,CT/PET-CT,LLM提取,论文病例报告,2015-01-01,评估,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a,患者,药品名称,,类别型,erlotinib,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a,患者,剂量,,数值型,150,150,,mg,,LLM提取,论文病例报告,2015-01-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d,患者,药品名称,,类别型,temozolomide,,,,,LLM提取,论文病例报告,2015-02-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d,患者,剂量,,数值型,200,200,"days 1, 3, 5, 7, 9 qod",mg,,LLM提取,论文病例报告,2015-02-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e,患者,诊断名称,,类别型,脑转移进展,,,,MRI,LLM提取,论文病例报告,2015-02-01,诊断,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f,患者,影像所见,,文本型,CT/MRI示肝和脑转移进展；脑、C2-3、T12-L1脊髓及肾脏出现新转移,,,,MRI/CT,LLM提取,论文病例报告,2016-03-01,影像,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f,患者,查体,,文本型,双下肢肌无力,,,,,LLM提取,论文病例报告,2016-03-01,评估,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f,血液,癌胚抗原CEA,,数值型,28.14,28.14,,ng/mL,,LLM提取,论文病例报告,2016-03-01,检验,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0a,患者,药品名称,,类别型,temozolomide,,,,,LLM提取,论文病例报告,2016-03-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0a,患者,剂量,,数值型,200,200,days 1-5,mg,,LLM提取,论文病例报告,2016-03-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0a,患者,药品名称,,类别型,avastin,,,,,LLM提取,论文病例报告,2016-03-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0a,患者,剂量,,数值型,400,400,day 9,mg,,LLM提取,论文病例报告,2016-03-01,用药,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b,患者,放疗方案,,文本型,全脑及C1-C3、胸段脊髓放疗：18 Gy/6F；42 Gy/14F,,,,,LLM提取,论文病例报告,2016-03-01,病程,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b,患者,疗效评估,,类别型,症状改善,,肌力改善，颈髓病灶缩小,,临床/MRI,LLM提取,论文病例报告,2016-03-01,评估,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c,患者,出院状况,,类别型,死亡,,,,,LLM提取,论文病例报告,2016-11-01,出院,v1
+e3e434d2752c0091e4c93b54cca2e5ce,cba8deb722ead76bab6c7e4e54efd7ed_1,7f8a9b0c-1d2e-3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a,患者,总生存期,,数值型,27,27,自初诊起,月,,LLM提取,论文病例报告,2016-11-01,病程,v1

@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,b2d3e5e8-4cc2-4b7c-8cb4-4f9f1c3d7d01,患者,入院年龄,,数值型,73,73,,岁,,LLM提取,论文病例报告,,入院,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,b2d3e5e8-4cc2-4b7c-8cb4-4f9f1c3d7d01,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,,病史,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,b2d3e5e8-4cc2-4b7c-8cb4-4f9f1c3d7d01,患者,吸烟史,,类别型,无,,no smoking,,,LLM提取,论文病例报告,,病史,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,b2d3e5e8-4cc2-4b7c-8cb4-4f9f1c3d7d01,患者,饮酒史,,类别型,偶尔饮酒,,occasional alcohol consumption,,,LLM提取,论文病例报告,,病史,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,b2d3e5e8-4cc2-4b7c-8cb4-4f9f1c3d7d01,患者,既往史,,文本型,骨质疏松、高血压、高胆固醇血症,,,,,LLM提取,论文病例报告,,病史,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,b2d3e5e8-4cc2-4b7c-8cb4-4f9f1c3d7d01,患者,月经史,,文本型,绝经，48岁,,menopause at age 48,,,LLM提取,论文病例报告,,病史,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,f4b4d1ae-01b0-4e4e-bd14-6f5d4ed8a1a1,患者,主诉,,文本型,乳腺筛查发现右乳结节,,December 2023 screening found a 6 mm nodule,,,LLM提取,论文病例报告,2023-12-01,病史,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,9ff9f7b2-8b74-4f46-9c58-4d1d9a3af8e2,患者,影像所见,,文本型,右乳下象限交界处见约7×6 mm实性结节，边缘不规则；双侧未见腋窝淋巴结肿大,,bilateral ultrasound and mammogram; breast MRI confirmed lesion,,乳腺超声、乳腺X线摄影、乳腺MRI,LLM提取,论文病例报告,2024-01-01,影像,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,1f67dfc8-4c67-4f1f-8f1a-1d0dba4d7e89,右乳肿瘤,病理诊断,,文本型,浸润性乳腺癌，NST，伴中级导管原位癌；GATA3阳性,,core needle biopsy,,16G切割针活检,LLM提取,论文病例报告,2024-01-31,病理,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,1f67dfc8-4c67-4f1f-8f1a-1d0dba4d7e89,右乳肿瘤,标本部位,,类别型,右乳,,,,,LLM提取,论文病例报告,2024-01-31,病理,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,1f67dfc8-4c67-4f1f-8f1a-1d0dba4d7e89,右乳肿瘤,免疫组化,,文本型,ER 90%阳性，PR 1%阳性，Ki67 10%，p63阴性，E-cadherin阳性，HER2免疫组化提示可疑过表达,,FISH for HER2 showed no amplification,,免疫组化；HER2 FISH,LLM提取,论文病例报告,2024-01-31,病理,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,c3f5fd9a-9d3b-42b8-bce8-6a5c9f2d7f8a,患者,诊断名称,,类别型,浸润性乳腺癌 NST,,with DCIS intermediate grade,,,LLM提取,论文病例报告,2024-01-31,诊断,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,c3f5fd9a-9d3b-42b8-bce8-6a5c9f2d7f8a,患者,分子标志物,,类别型,ER阳性、PR阳性、Ki67低增殖、HER2未扩增,,"ER 90%, PR 1%, Ki67 10%, HER2 ambiguous overexpression but FISH negative",,,LLM提取,论文病例报告,2024-01-31,诊断,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,d2a1be2c-8fb8-4a0f-a7c5-4f4f0d7b8e11,患者,手术名称,,类别型,右乳内下象限切除术,,inferomedial quadrantectomy,,,LLM提取,论文病例报告,2024-02-01,手术,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,d2a1be2c-8fb8-4a0f-a7c5-4f4f0d7b8e11,患者,手术结果,,文本型,切除完成，腋窝二级淋巴结未受累,,"histology confirmed pT1b pN0 (0/2), Stage IA",,,LLM提取,论文病例报告,2024-02-01,手术,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,e1a7bfc9-0d2f-46c4-8d54-2c9b5f6a7d55,患者,病理诊断,,文本型,中分化浸润性乳腺癌NST，pT1b pN0(0/2)，IA期,,postoperative histology,,,LLM提取,论文病例报告,2024-02-01,病理,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,e1a7bfc9-0d2f-46c4-8d54-2c9b5f6a7d55,患者,病理分期,,类别型,IA期,,pT1b pN0(0/2),,,LLM提取,论文病例报告,2024-02-01,病理,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,5e8b4f0d-3c7a-4c1f-9e2b-1d7d9a3c4b22,患者,放疗方案,,文本型,3D适形放疗,,15次，每次2.67 Gy，总剂量40.05 Gy，历时3周,,3D-CRT,LLM提取,论文病例报告,2024-04-01,病程,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,5e8b4f0d-3c7a-4c1f-9e2b-1d7d9a3c4b22,患者,治疗反应,,文本型,治疗初期出现恶心、呕吐、明显疲劳、食欲减退及生活质量下降,,side effects at start of treatment,,,LLM提取,论文病例报告,2024-04-01,不良反应,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,7b1d5b1f-0f6a-4d7f-b8e2-2c5d5f7c9a33,患者,药品名称,,类别型,来曲唑,,aromatase inhibitor,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,7b1d5b1f-0f6a-4d7f-b8e2-2c5d5f7c9a33,患者,剂量,,数值型,2.5,2.5,,mg,,LLM提取,论文病例报告,2024-04-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,7b1d5b1f-0f6a-4d7f-b8e2-2c5d5f7c9a33,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,f8b7c6a5-9a2d-4e3f-b1c2-3d4e5f6a7b88,患者,首次AMICO门诊评估,,文本型,完成病史采集、肿瘤病理资料收集、QoL评估及BIA基线评估,,first visit to AMICO clinic,,,LLM提取,论文病例报告,2024-05-01,评估,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,a8d9e7f6-1c2b-4d3e-8f9a-0b1c2d3e4f55,患者,治疗方案,,文本型,整合治疗：姜黄素+紫檀芪、适度体力活动、均衡饮食、气功,,300 mg curcumin + 160 mg polydatin once daily; moderate physical activity; balanced diet; Qigong,,,LLM提取,论文病例报告,2024-05-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,a8d9e7f6-1c2b-4d3e-8f9a-0b1c2d3e4f55,患者,药品名称,,类别型,姜黄素,,commercial dietary supplement oral gel,,,LLM提取,论文病例报告,2024-05-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,a8d9e7f6-1c2b-4d3e-8f9a-0b1c2d3e4f55,患者,剂量,,数值型,300,300,,mg,,LLM提取,论文病例报告,2024-05-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,a8d9e7f6-1c2b-4d3e-8f9a-0b1c2d3e4f55,患者,药品名称,,类别型,紫檀芪,,commercial dietary supplement oral gel,,,LLM提取,论文病例报告,2024-05-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,a8d9e7f6-1c2b-4d3e-8f9a-0b1c2d3e4f55,患者,剂量,,数值型,160,160,,mg,,LLM提取,论文病例报告,2024-05-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,a8d9e7f6-1c2b-4d3e-8f9a-0b1c2d3e4f55,患者,生活方式干预,,文本型,软性运动并逐渐增加训练；均衡地中海饮食；气功练习,,"soft physical exercise, gradually increasing training, Mediterranean diet",,,LLM提取,论文病例报告,2024-05-01,用药,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,d9e8f7a6-1c2b-4c3d-8e9f-0a1b2c3d4e66,BIA设备A-WAVE,检查方法,,类别型,多频段生物电阻抗分析,,segmental multifrequency BIA,,"A-WAVE, RJL Systems",LLM提取,论文病例报告,2024-05-01,检验,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,d9e8f7a6-4c3d-8e9f-0a1b-2c3d4e5f6a77,全血,血红蛋白,,数值型,,,文中未报告具体数值,,Beckman Coulter DxH 900,LLM提取,论文病例报告,2024-05-01,检验,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,d9e8f7a6-4c3d-8e9f-0a1b-2c3d4e5f6a77,全血,血常规其他指标,,文本型,未见显著血液学毒性或贫血,,haematological stability over 12 months,,Beckman Coulter DxH 900,LLM提取,论文病例报告,2024-05-01,检验,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,e7f6a5d4-c3b2-4a1d-9e8f-0b1c2d3e4f99,患者,BIA基线结果,,文本型,FM%和FFM%处于红区；SMM%、TBW%、Na/K泵功能及PhA低于健康阈值,,baseline at T0,,BIA,LLM提取,论文病例报告,2024-05-01,评估,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,e7f6a5d4-c3b2-4a1d-9e8f-0b1c2d3e4f99,患者,体重/体成分,,文本型,FM 43.1%，BMI 27.4，FFM 56.9%，SMM 22.9%，PhA 4.9°,,T0,,BIA,LLM提取,论文病例报告,2024-05-01,评估,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,f1a2b3c4-d5e6-4789-abcd-ef0123456789,患者,Qigong治疗,,文本型,标准化气功训练,,6 weeks starting September 2024,,certified instructor protocol,LLM提取,论文病例报告,2024-09-01,病程,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,f1a2b3c4-d5e6-4789-abcd-ef0123456789,患者,治疗方案,,文本型,7个核心动作和10个附加动作，配合缓慢深呼吸、动静协调与正念练习,,Qigong session,,,LLM提取,论文病例报告,2024-09-01,病程,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,c8d7e6f5-a4b3-4c2d-9e8f-0a1b2c3d4e11,患者,随访结果,,文本型,12个月随访内体成分、代谢功能、疼痛及心理状态改善，整体生活质量提高,,follow-up every 4 months; T0 to T12,,SF-12、ESAS、BIA,LLM提取,论文病例报告,2025-05-01,病程,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,c8d7e6f5-a4b3-4c2d-9e8f-0a1b2c3d4e11,患者,疗效评估,,类别型,改善,,"body composition, metabolic function, pain management, psychological status",,SF-12、ESAS、BIA,LLM提取,论文病例报告,2025-05-01,评估,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,c8d7e6f5-a4b3-4c2d-9e8f-0a1b2c3d4e11,患者,体成分变化,,文本型,FM%和BMI下降，FFM%、SMM%、TBW%上升，PhA升至9.0°,,T12 vs T0,,BIA,LLM提取,论文病例报告,2025-05-01,评估,v1
+1c0813e63e4bdaf1ba8460ffdd3bd593,895895b0b772ef8f39a9744ff23fb36d_1,c8d7e6f5-a4b3-4c2d-9e8f-0a1b2c3d4e11,患者,心理状态,,文本型,情绪稳定，睡眠规律，焦虑和抑郁情绪减轻,,"mood, sleep, anxiety, melancholy improved",,QoL questionnaire,LLM提取,论文病例报告,2025-05-01,评估,v1

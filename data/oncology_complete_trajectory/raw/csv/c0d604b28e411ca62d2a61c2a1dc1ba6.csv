@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,8a8d8f3e-8d2f-4f5f-b2ef-1b2b1d7a9b11,患者,入院年龄,,数值型,64,64,,岁,,LLM提取,论文病例报告,2010-12-01,入院,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,8a8d8f3e-8d2f-4f5f-b2ef-1b2b1d7a9b11,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2010-12-01,病史,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,8a8d8f3e-8d2f-4f5f-b2ef-1b2b1d7a9b11,患者,既往史,,文本型,高血压（服用降压药后控制良好）；高脂血症（服用降脂药后总胆固醇150 mg/dl）,,,,,LLM提取,论文病例报告,2010-12-01,病史,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,8c1fbf12-1a6b-4dd1-9f5a-1c5d2ef1a001,患者,手术名称,,类别型,远端胃切除术,,因胃癌,,,LLM提取,论文病例报告,2010-12-01,手术,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,4d5b7c3a-2f8d-4c2a-8f7f-2f5c3d9a7e22,胃切除标本,病理诊断,,文本型,低分化腺癌，2型，Se，ly+，v+，n+,,UICC第7版：T4a N1 M0，IIIa期,,病理,LLM提取,论文病例报告,2010-12-01,病理,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,d9b9d2c8-0b25-4c0d-9ef2-7c8f0c2b3a33,患者,诊断名称,,类别型,胃癌,,术后,,,LLM提取,论文病例报告,2010-12-01,诊断,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f1c0d8a3-7c9c-4e32-9df1-4e4d2a9c4f44,药品,药品名称,,类别型,"替吉奥（tegafur/gimeracil/oteracil potassium, S-1）",,术后辅助化疗,,,LLM提取,论文病例报告,2010-12-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f1c0d8a3-7c9c-4e32-9df1-4e4d2a9c4f44,药品,用药周期,,文本型,2个疗程,,,,,LLM提取,论文病例报告,2010-12-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,a2f4d7c1-5b6a-4c7f-8d91-3b2c1a4e5f55,患者,影像所见,,文本型,腹膜癌病变,,CT所见,,CT,LLM提取,论文病例报告,2011-05-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,a2f4d7c1-5b6a-4c7f-8d91-3b2c1a4e5f55,患者,诊断名称,,类别型,腹膜癌病变/复发,,,,,LLM提取,论文病例报告,2011-05-01,诊断,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,c3d5e6f7-8a9b-4c0d-9e1f-5a6b7c8d9e66,药品,药品名称,,类别型,多西他赛,,复发后化疗,,,LLM提取,论文病例报告,2011-05-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,d4e5f607-9a1b-4c2d-8e3f-6b7c8d9e0f77,药品,药品名称,,类别型,紫杉醇,,改为每2周一次治疗,,,LLM提取,论文病例报告,2011-05-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,d4e5f607-9a1b-4c2d-8e3f-6b7c8d9e0f77,患者,治疗反应,,类别型,完全缓解,,,,,LLM提取,论文病例报告,2011-05-01,评估,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e5f60718-0a2b-4d3c-9f4a-7b8c9d0e1f88,患者,影像所见,,文本型,未见复发病灶,,增强CT,,CT,LLM提取,论文病例报告,2014-12-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e5f60718-0a2b-4d3c-9f4a-7b8c9d0e1f88,患者,治疗反应,,类别型,完全缓解,,,,,LLM提取,论文病例报告,2014-12-01,评估,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,主诉,,文本型,右腹部不适,,,,,LLM提取,论文病例报告,2019-02-01,病史,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,影像所见,,文本型,升结肠至横结肠肠壁增厚,,CT所见,,CT,LLM提取,论文病例报告,2019-02-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,影像所见,,文本型,肝曲至升结肠狭窄及黏膜水肿，升结肠憩室,,结肠镜所见,,结肠镜,LLM提取,论文病例报告,2019-02-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,检验项目,,类别型,活检病理未见恶性,,结肠镜活检,,病理,LLM提取,论文病例报告,2019-02-01,检验,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,影像所见,,文本型,FDG摄取增高,,PET-CT所见,,PET-CT,LLM提取,论文病例报告,2019-02-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,诊断名称,,类别型,结直肠癌/结直肠憩室炎/可能播散/腹膜癌病变,,,,,LLM提取,论文病例报告,2019-02-01,诊断,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,手术名称,,类别型,腹腔镜探查,,未见腹水、复发或播散病灶,,,LLM提取,论文病例报告,2019-02-01,手术,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,手术名称,,类别型,阑尾切除术,,同时取腹膜白色硬结活检,,,LLM提取,论文病例报告,2019-02-01,手术,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f6a71829-1b3c-4e4d-af5b-8c9d0e1f2a99,患者,检验项目,,类别型,病理未见恶性,,阑尾及腹膜活检,,病理,LLM提取,论文病例报告,2019-02-01,检验,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,患者,影像所见,,文本型,升结肠壁增厚加重,,CT所见,,CT,LLM提取,论文病例报告,2019-10-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,血液,癌胚抗原,,数值型,23.7,23.7,,ng/ml,,LLM提取,论文病例报告,2019-10-01,检验,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,患者,影像所见,,文本型,横结肠广泛狭窄,,结肠镜所见,,结肠镜,LLM提取,论文病例报告,2019-10-01,影像,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,患者,检验项目,,类别型,活检未见恶性,,结肠镜活检,,病理,LLM提取,论文病例报告,2019-10-01,检验,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,患者,诊断名称,,类别型,横结肠癌,,术前诊断,,,LLM提取,论文病例报告,2019-11-01,诊断,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,患者,手术名称,,类别型,右半结肠切除术,,,,,LLM提取,论文病例报告,2019-11-01,手术,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,结肠切除标本,病理诊断,,文本型,低分化腺癌，4型，Se，ly0，v0，Pn1b，BD3，n0，Cy0,,UICC第8版：T4a N0 M0，IIb期；免疫组化AE1/AE3(+)、CK7(+)、CK20(-)、CDX2(-),,病理,LLM提取,论文病例报告,2019-11-01,病理,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,7a8b9c0d-1e2f-4a5b-9c0d-1e2f3a4b5c66,患者,诊断名称,,类别型,胃癌复发（结肠转移）,,依据病理及免疫组化,,,LLM提取,论文病例报告,2019-11-01,诊断,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,替吉奥,,右半结肠切除后化疗,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,奥沙利铂,,与替吉奥联合,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,雷莫芦单抗,,之后序贯,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,紫杉醇,,之后序贯,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,纳武利尤单抗,,之后序贯,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,伊立替康,,之后序贯,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,e8f9a0b1-c2d3-4e5f-8a9b-0c1d2e3f4a77,药品,药品名称,,类别型,多西他赛,,之后序贯,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f0a1b2c3-d4e5-4f6a-8b9c-0d1e2f3a4b5c,患者,不良反应名称,,类别型,腹膜癌病变导致死亡,,,,,LLM提取,论文病例报告,2021-07-01,不良反应,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f0a1b2c3-d4e5-4f6a-8b9c-0d1e2f3a4b5c,患者,出院状况,,类别型,死亡,,2021年7月死于腹膜癌病变,,,LLM提取,论文病例报告,2021-07-01,出院,v1
+c0d604b28e411ca62d2a61c2a1dc1ba6,c790e866d667feeef104e2ebebf7723e_1,f0a1b2c3-d4e5-4f6a-8b9c-0d1e2f3a4b5c,患者,总生存期,,数值型,56,56,自2010年12月胃切除至2021年7月死亡,月,,LLM提取,论文病例报告,2021-07-01,病程,v1

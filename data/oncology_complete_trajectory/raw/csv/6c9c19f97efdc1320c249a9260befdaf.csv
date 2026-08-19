@@ -1,0 +1,34 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,8b7b2b2a-4b7e-4dfe-8d5a-3c7d1c2d9d01,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,8b7b2b2a-4b7e-4dfe-8d5a-3c7d1c2d9d01,患者,年龄,,数值型,19岁,19,,岁,,LLM提取,论文病例报告,,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,2fb1c6a8-3f35-4f4d-9f0a-9d9c6b6a1111,患者,既往史,,文本型,2017年已知右腮腺腺泡细胞癌，右腮腺切除术后,,,,,LLM提取,论文病例报告,2017-10-29,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,2fb1c6a8-3f35-4f4d-9f0a-9d9c6b6a1111,患者,主诉,,文本型,右侧腮腺肿胀1年,,,,,LLM提取,论文病例报告,2017-10-29,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,2fb1c6a8-3f35-4f4d-9f0a-9d9c6b6a1111,患者,家族史,,文本型,无癌症家族史,,,,,LLM提取,论文病例报告,2017-10-29,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,2fb1c6a8-3f35-4f4d-9f0a-9d9c6b6a1111,患者,个人史,,文本型,无放射暴露史,,,,,LLM提取,论文病例报告,2017-10-29,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,c1d4c2a1-5f3c-4f2b-8d7e-4b0f0d2f2222,右腮腺,影像所见,,文本型,CT显示右腮腺病灶,,,,CT,LLM提取,论文病例报告,2017-10-29,影像,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,d8f3a5b1-1d2f-4a7a-9d3e-6c7f8a3d3333,患者,手术名称,,类别型,诊断性腮腺切除术,,,,,LLM提取,论文病例报告,2017-10-29,手术,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,d8f3a5b1-1d2f-4a7a-9d3e-6c7f8a3d3333,患者,手术结果,,文本型,完成右腮腺诊断性切除,,,,,LLM提取,论文病例报告,2017-10-29,手术,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,e1c2d3b4-5f6a-4b7c-8d9e-0a1b2c3d4444,右腮腺标本,病理诊断,,文本型,多灶性腺泡细胞癌,,累及深浅叶，切缘1 mm，1枚腮腺内淋巴结受累,,组织病理,LLM提取,论文病例报告,2017-10-29,病理,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,e1c2d3b4-5f6a-4b7c-8d9e-0a1b2c3d4444,右腮腺标本,标本部位,,类别型,右腮腺,,,,,LLM提取,论文病例报告,2017-10-29,病理,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,e1c2d3b4-5f6a-4b7c-8d9e-0a1b2c3d4444,右腮腺标本,分期,,类别型,T1N1M0,,,,,LLM提取,论文病例报告,2017-10-29,诊断,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,f4a7b8c9-d0e1-4f2a-8b3c-5d6e7f8a5555,患者,诊断名称,,类别型,右腮腺腺泡细胞癌,,,,,LLM提取,论文病例报告,2017-10-29,诊断,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,f4a7b8c9-d0e1-4f2a-8b3c-5d6e7f8a5555,患者,临床分期,,类别型,T1N1M0,,,,,LLM提取,论文病例报告,2017-10-29,诊断,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b6666,患者,手术名称,,类别型,右全腮腺切除术+单侧上颌舌骨下清扫术,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b6666,患者,手术结果,,文本型,行右全腮腺切除及单侧上颌舌骨下清扫,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c7777,患者,治疗方案,,类别型,放疗,,总剂量6000 cGy，30次，覆盖腮腺区及颈部至中线,cGy,,LLM提取,论文病例报告,2017-12-01,病程,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c7777,患者,剂量,,数值型,6000,6000,,cGy,,LLM提取,论文病例报告,2017-12-01,用药,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c7777,患者,用药周期,,文本型,30次,,2017年12月开始，2018年3月完成,,,LLM提取,论文病例报告,2017-12-01,用药,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c8888,患者,治疗方案,,类别型,放疗,,完成于2018年3月,,,LLM提取,论文病例报告,2018-03-01,病程,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e9999,患者,疗效评估,,类别型,无局部复发或远处转移,,PET-CT稳定,,PET-CT,LLM提取,论文病例报告,2018-11-07,评估,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e9999,患者,评估方法,,类别型,PET-CT,,,,,LLM提取,论文病例报告,2018-11-07,评估,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,e6f7a8b9-c0d1-4e2f-9a3b-4c5d6e7faaaa,患者,主诉,,文本型,左腮腺疼痛和肿胀1年,,,,,LLM提取,论文病例报告,2020-09-02,病史,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,e6f7a8b9-c0d1-4e2f-9a3b-4c5d6e7faaaa,患者,查体,,文本型,左腮腺可触及约2 cm压痛性肿块，双侧面神经功能完整，局部皮肤无改变,,,,,LLM提取,论文病例报告,2020-09-02,评估,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,f7a8b9c0-d1e2-4f3a-9b4c-5d6e7f8abbbb,左腮腺,影像所见,,文本型,CT显示左深部腮腺病灶,,,,CT,LLM提取,论文病例报告,2020-09-02,影像,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,f7a8b9c0-d1e2-4f3a-9b4c-5d6e7f8abbbb,左腮腺,影像所见,,文本型,PET提示左深部腮腺病灶较前增大并代谢进展,,大小约2.0×1.9×2.2 cm，SUVmax 3.2,,PET,LLM提取,论文病例报告,2020-09-02,影像,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,g8b9c0d1-e2f3-4a5b-9c6d-7e8f9a0cbbbb,左腮腺标本,病理诊断,,文本型,腺泡细胞癌，伴淋巴组织背景,,,,超声引导细针穿刺,LLM提取,论文病例报告,2020-09-30,病理,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,g8b9c0d1-e2f3-4a5b-9c6d-7e8f9a0cbbbb,左腮腺标本,标本部位,,类别型,左腮腺内病灶/淋巴结,,,,,LLM提取,论文病例报告,2020-09-30,病理,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,g8b9c0d1-e2f3-4a5b-9c6d-7e8f9a0cbbbb,左腮腺标本,分期,,类别型,T1N0M0,,,,,LLM提取,论文病例报告,2020-09-30,诊断,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,h9c0d1e2-f3a4-4b5c-9d6e-7f8a9b0cdddd,患者,诊断名称,,类别型,左腮腺腺泡细胞癌,,提示与既往右侧病灶构成异时性双侧腮腺腺泡细胞癌,,,LLM提取,论文病例报告,2020-09-30,诊断,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,i0d1e2f3-a4b5-4c6d-9e7f-8a9b0c1deeee,患者,手术名称,,类别型,左全腮腺切除术+左颈清扫术,,,,,LLM提取,论文病例报告,2020-12-01,手术,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,i0d1e2f3-a4b5-4c6d-9e7f-8a9b0c1deeee,患者,手术结果,,文本型,完成左全腮腺切除和左颈清扫,,,,,LLM提取,论文病例报告,2020-12-01,手术,v1
+6c9c19f97efdc1320c249a9260befdaf,dac04762bda5b5b6086c1d9d6a397464,j1e2f3a4-b5c6-4d7e-9f8a-0b1c2d3effff,患者,随访结果,,文本型,持续规律随访，最近一次PET-CT于2022年1月完成,,未述复发或转移,,PET-CT,LLM提取,论文病例报告,2022-01-01,病程,v1

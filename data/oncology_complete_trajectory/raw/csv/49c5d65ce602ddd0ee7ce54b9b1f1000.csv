@@ -1,0 +1,82 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7d44d3f5-5b8f-4c9d-9c43-cd5fce7b3d8c,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2021-07-01,病史,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7d44d3f5-5b8f-4c9d-9c43-cd5fce7b3d8c,患者,年龄,,数值型,late 50s,,,岁,,LLM提取,论文病例报告,2021-07-01,病史,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7d44d3f5-5b8f-4c9d-9c43-cd5fce7b3d8c,患者,既往史,,文本型,既往健康，无明显基础病史,,,,,LLM提取,论文病例报告,2021-07-01,病史,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,1e5a3c9f-6f3d-4e6c-8ff5-8a0ef4ad7f18,患者,入院科室,,类别型,内分泌科,,,,,LLM提取,论文病例报告,2021-07-01,入院,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,1e5a3c9f-6f3d-4e6c-8ff5-8a0ef4ad7f18,患者,主诉,,文本型,顽固性低钠血症,,,,,LLM提取,论文病例报告,2021-07-01,入院,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9b0a3b1e-0f3a-4a4a-9c2f-4f7d5db55c87,胸部/腹部/盆腔CT,影像所见,,文本型,颈根、肺门及纵隔淋巴结肿大；双肺肺气肿伴肺大疱；腹盆腔未见明显异常,,,,CT,LLM提取,论文病例报告,2021-07-01,影像,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,c7e9f3f2-5d63-4c3a-9b86-2e3f4b8f4e11,颈后部淋巴结活检,病理诊断,,文本型,转移性小细胞肺癌,,,,HE染色,LLM提取,论文病例报告,2021-07-01,病理,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,c7e9f3f2-5d63-4c3a-9b86-2e3f4b8f4e11,肿瘤细胞,免疫组化,,文本型,"CK(+), TTF-1(+), CD56(+), CgA(+), Syn(+), Ki-67(+，90%), TdT(-), EMA(+), CD20(-), CD79a(-), CD2(-), CD3(-)",,,,免疫组化,LLM提取,论文病例报告,2021-07-01,病理,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f4e8d5cb-8bc9-4c43-b8d1-5d7f8d4b4c22,头颅MRI,影像所见,,文本型,双侧额下皮质多发缺血灶；双侧筛窦炎；垂体未见病灶,,,,MRI,LLM提取,论文病例报告,2021-07-01,影像,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,2a5a0b8a-1df5-47fd-8b78-4bc1c9d5d6a1,患者,诊断名称,,类别型,广泛期小细胞肺癌,,stage IIIc [T3N3M0],,,LLM提取,论文病例报告,2021-07-01,诊断,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,2a5a0b8a-1df5-47fd-8b78-4bc1c9d5d6a1,患者,诊断名称,,类别型,低钠血症,,,,,LLM提取,论文病例报告,2021-07-01,诊断,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,2a5a0b8a-1df5-47fd-8b78-4bc1c9d5d6a1,患者,诊断名称,,类别型,抗利尿激素分泌异常综合征,,,,,LLM提取,论文病例报告,2021-07-01,诊断,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,3f9b7f4f-7b7e-4b8d-9f2f-4cfcb0f0a111,患者,药品名称,,类别型,托伐普坦,,,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,3f9b7f4f-7b7e-4b8d-9f2f-4cfcb0f0a111,患者,药品名称,,类别型,氯化钠补充,,,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,4f1f3c1e-8e44-4c2a-8a90-8d5a7f4d2a31,患者,治疗方案,,类别型,依托泊苷+顺铂+度伐利尤单抗,,一线治疗，21天1周期,,,LLM提取,论文病例报告,2021-07-01,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,4f1f3c1e-8e44-4c2a-8a90-8d5a7f4d2a31,患者,周期数,,数值型,3,3,,周期,,LLM提取,论文病例报告,2021-07-01,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,4f1f3c1e-8e44-4c2a-8a90-8d5a7f4d2a31,患者,治疗反应,,类别型,部分缓解,,前2个周期后胸部CT显示,,CT,LLM提取,论文病例报告,2021-07-01,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,5b9f4a3d-1e7a-4b54-9d0f-6b7f3d1a9d55,患者,不良反应名称,,类别型,低钠血症,,入院时表现,,,LLM提取,论文病例报告,2021-07-01,不良反应,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,6e2a7d4c-3b8f-4c6d-9f1a-2e8b3c4d5f66,患者,出院状况,,类别型,好转出院,,第三轮化免治疗后,,,LLM提取,论文病例报告,2021-08-01,出院,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,6e2a7d4c-3b8f-4c6d-9f1a-2e8b3c4d5f66,患者,出院医嘱,,文本型,继续随访并监测不良反应,,,,,LLM提取,论文病例报告,2021-08-01,出院,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8a1c3e5d-4f6a-4b7e-9c2d-3e4f5a6b7c88,患者,主诉,,文本型,抽搐、伸舌困难、不能说话,,出院后7天再入院,,,LLM提取,论文病例报告,2021-08-08,病史,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8a1c3e5d-4f6a-4b7e-9c2d-3e4f5a6b7c88,患者,症状,,文本型,左上肢抽搐,,,,,LLM提取,论文病例报告,2021-08-08,病史,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8a1c3e5d-4f6a-4b7e-9c2d-3e4f5a6b7c88,患者,症状,,文本型,癫痫发作,,,,,LLM提取,论文病例报告,2021-08-08,病史,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8a1c3e5d-4f6a-4b7e-9c2d-3e4f5a6b7c88,患者,检查,,文本型,脑电图示慢波发放,,,,EEG,LLM提取,论文病例报告,2021-08-08,评估,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9c2d4e5f-6a7b-4c8d-9e1f-2a3b4c5d6e77,头颅CT,影像所见,,文本型,未见明显异常,,,,CT,LLM提取,论文病例报告,2021-08-08,影像,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9c2d4e5f-6a7b-4c8d-9e1f-2a3b4c5d6e77,胸部CT,影像所见,,文本型,与前次相似,,,,CT,LLM提取,论文病例报告,2021-08-08,影像,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,药品名称,,类别型,丙戊酸钠,,静脉+口服,,,LLM提取,论文病例报告,2021-08-08,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,药品名称,,类别型,左乙拉西坦,,口服,,,LLM提取,论文病例报告,2021-08-08,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,药品名称,,类别型,甲泼尼龙,,静脉注射,,,LLM提取,论文病例报告,2021-08-08,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,脑脊液,压力,,数值型,190,190,,mmHg,腰穿,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,脑脊液,白细胞计数,,数值型,54,54,,×10^6/L,腰穿,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,脑脊液,单核细胞比例,,数值型,94.5,94.5,,%,腰穿,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,脑脊液,氯,,数值型,119.6,119.6,,mmol/L,腰穿,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,脑脊液,蛋白,,数值型,0.6,0.6,,g/L,腰穿,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,c3d4e5f6-a7b8-4c9d-9e0f-1a2b3c4d5e6f,脑脊液,病原学,,类别型,细菌培养阴性；隐球菌培养阴性；未见恶性细胞,,,,腰穿,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,d4e5f6a7-b8c9-4d9e-9f0a-1b2c3d4e5f6a,脑脊液,肿瘤相关抗体,,类别型,抗HU、Ri、YO、CV2、amphiphysin、Ma抗体均阴性,,,,,LLM提取,论文病例报告,2021-08-10,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,e5f6a7b8-c9d0-4e0f-9a1b-2c3d4e5f6a7b,脑脊液,压力,,数值型,正常,,,,腰穿,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,e5f6a7b8-c9d0-4e0f-9a1b-2c3d4e5f6a7b,脑脊液,白细胞计数,,数值型,63,63,,×10^6/L,腰穿,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,e5f6a7b8-c9d0-4e0f-9a1b-2c3d4e5f6a7b,脑脊液,单核细胞比例,,数值型,100,100,,%,腰穿,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,e5f6a7b8-c9d0-4e0f-9a1b-2c3d4e5f6a7b,脑脊液,葡萄糖,,数值型,4.6,4.6,,mmol/L,腰穿,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,e5f6a7b8-c9d0-4e0f-9a1b-2c3d4e5f6a7b,脑脊液,蛋白,,数值型,0.6,0.6,,g/L,腰穿,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,e5f6a7b8-c9d0-4e0f-9a1b-2c3d4e5f6a7b,脑脊液,氯,,数值型,119.1,119.1,,mmol/L,腰穿,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,脑脊液,抗GABA B受体抗体,,类别型,阳性,,中度阳性，1:10,,自身免疫性脑炎谱,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗GABA B受体抗体,,类别型,阳性,,++，1:32,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗NMDA受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗AMPA1受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗AMPA2受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗LGI1抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗DPPX受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗IgLON5受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4e0f-9b1c-2d3e4f5a6b7c,血清,抗GAD65受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗mGluR5受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,f6a7b8c9-d0e1-4f0a-9b1c-2d3e4f5a6b7c,血清,抗MOG受体抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-12,检验,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,0a1b2c3d-4e5f-4a6b-8c9d-1e2f3a4b5c6d,患者,诊断名称,,类别型,抗GABA B受体抗体相关自身免疫性脑炎,,,,,LLM提取,论文病例报告,2021-08-12,诊断,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e,患者,药品名称,,类别型,度伐利尤单抗,,停用,,,LLM提取,论文病例报告,2021-08-12,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e,患者,药品名称,,类别型,甲泼尼龙,,静脉注射,,,LLM提取,论文病例报告,2021-08-12,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e,患者,药品名称,,类别型,丙种球蛋白,,静脉注射,,,LLM提取,论文病例报告,2021-08-12,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,症状,,文本型,症状改善,,经甲泼尼龙+丙种球蛋白后,,,LLM提取,论文病例报告,2021-08-17,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,患者,药品名称,,类别型,苯巴比妥,,肌内注射,,,LLM提取,论文病例报告,2021-08-17,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f7a,患者,症状,,文本型,谵妄,,入院16天后,,,LLM提取,论文病例报告,2021-08-24,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f7a,患者,症状,,文本型,不回答问题、不能正确配合指令,,,,,LLM提取,论文病例报告,2021-08-24,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,5e6f7a8b-9c0d-4e1f-9a2b-3c4d5e6f7a8b,患者,药品名称,,类别型,甲泼尼龙,,大剂量静脉注射,,,LLM提取,论文病例报告,2021-08-24,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,5e6f7a8b-9c0d-4e1f-9a2b-3c4d5e6f7a8b,患者,药品名称,,类别型,膦甲酸钠,,抗病毒治疗,,,LLM提取,论文病例报告,2021-08-24,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,6f7a8b9c-0d1e-4f2a-9b3c-4d5e6f7a8b9c,患者,症状,,文本型,再次癫痫发作,,转入神经内科后4天,,,LLM提取,论文病例报告,2021-08-28,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,6f7a8b9c-0d1e-4f2a-9b3c-4d5e6f7a8b9c,患者,药品名称,,类别型,甲泼尼龙,,静脉注射逐渐减量,,,LLM提取,论文病例报告,2021-08-28,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d,患者,药品名称,,类别型,泼尼松,,口服,,,LLM提取,论文病例报告,2021-08-28,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d,患者,药品名称,,类别型,丙戊酸钠,,继续维持,,,LLM提取,论文病例报告,2021-08-28,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d,患者,药品名称,,类别型,左乙拉西坦,,继续维持,,,LLM提取,论文病例报告,2021-08-28,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d,患者,药品名称,,类别型,苯巴比妥,,维持,,,LLM提取,论文病例报告,2021-08-28,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8b9c0d1e-2f3a-4b5c-9d6e-7f8a9b0c1d2e,患者,症状,,文本型,夜间情绪易激惹、重复异常及攻击行为,,转神经内科后8天,,,LLM提取,论文病例报告,2021-09-01,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8b9c0d1e-2f3a-4b5c-9d6e-7f8a9b0c1d2e,患者,药品名称,,类别型,奥氮平,,口服,,,LLM提取,论文病例报告,2021-09-01,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,8b9c0d1e-2f3a-4b5c-9d6e-7f8a9b0c1d2e,患者,药品名称,,类别型,喹硫平,,口服,,,LLM提取,论文病例报告,2021-09-01,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9c0d1e2f-3a4b-5c6d-9e7f-8a9b0c1d2e3f,患者,转诊,,文本型,转入精神病医院治疗精神症状,,16天后,,,LLM提取,论文病例报告,2021-09-17,其他,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9c0d1e2f-3a4b-5c6d-9e7f-8a9b0c1d2e3f,患者,用药状态,,文本型,单抗药物和化疗药物停用,,转精神科治疗期间,,,LLM提取,论文病例报告,2021-09-17,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9c0d1e2f-3a4b-5c6d-9e7f-8a9b0c1d2e3f,患者,药品名称,,类别型,抗精神病药,,维持1个月,,,LLM提取,论文病例报告,2021-09-17,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,9c0d1e2f-3a4b-5c6d-9e7f-8a9b0c1d2e3f,患者,药品名称,,类别型,抗癫痫药,,维持1个月,,,LLM提取,论文病例报告,2021-09-17,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,aa1bb2cc-3dd4-4ee5-9ff6-001122334455,患者,影像所见,,文本型,纵隔淋巴结较前轻度增大，双肺门未见明显肿大淋巴结；主动脉弓及冠脉钙化，无胸腔积液,,2个月后随访CT,,CT,LLM提取,论文病例报告,2021-11-01,影像,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,bb2cc3dd-4ee5-5ff6-0011-223344556677,患者,治疗方案,,类别型,依托泊苷+顺铂+度伐利尤单抗,,EC方案重复并联合放疗,,,LLM提取,论文病例报告,2021-11-01,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,cc3dd4ee-5ff6-0011-2233-445566778899,患者,药品名称,,类别型,多西他赛,,120 mg 静脉注射，1天,,,LLM提取,论文病例报告,2022-03-24,用药,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,dd4ee5ff-0011-2233-4455-66778899aabb,患者,疾病进展,,文本型,肺癌仍进展并出现远处转移,,多西他赛治疗后,,CT,LLM提取,论文病例报告,2023-02-01,病程,v1
+49c5d65ce602ddd0ee7ce54b9b1f1000,d1e8195f84f6f8b4c3ff2ee4c99d0c3f_1,dd4ee5ff-0011-2233-4455-66778899aabb,患者,结局,,文本型,死亡,,文中未给出具体死亡日期,,,LLM提取,论文病例报告,,病程,v1

@@ -1,0 +1,28 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,5d4d0a0a-3d84-4a4f-8d31-40e0a4a2c9f1,患者,入院年龄,,文本型,中年,,,,,LLM提取,论文病例报告,2024-12-12,入院,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,5d4d0a0a-3d84-4a4f-8d31-40e0a4a2c9f1,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2024-12-12,病史,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,5d4d0a0a-3d84-4a4f-8d31-40e0a4a2c9f1,患者,主诉,,文本型,体检发现肝脏肿物4天,,无腹痛、无黄疸,,,LLM提取,论文病例报告,2024-12-12,病史,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,5d4d0a0a-3d84-4a4f-8d31-40e0a4a2c9f1,患者,既往史,,文本型,曾行疝修补术、皮下脂肪瘤切除术,,无肝病史、无恶性肿瘤家族史、无致癌物暴露史,,,LLM提取,论文病例报告,2024-12-12,病史,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,6f3b7d87-cf9a-4f3a-8e9f-0c37bf0d3a72,患者,查体,,文本型,腹平软，无压痛及反跳痛，未触及包块，Murphy征阴性，肠鸣音正常,,,,,LLM提取,论文病例报告,2024-12-12,评估,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,c4a6f8b4-8bbd-4d0b-9f87-15ed0f4a5b5d,肝脏超声,影像所见,,文本型,左肝低回声肿块，伴肝内稍低回声结节,,肿块约9.2×6.1 cm，边界清，形态不规则，压迫并推移胆囊、左肝静脉及左门静脉内支,,超声,LLM提取,论文病例报告,2024-12-16,影像,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,c4a6f8b4-8bbd-4d0b-9f87-15ed0f4a5b5d,肝脏超声,影像结论,,文本型,肝内实性占位性病变,,压迫并推移胆囊、左肝静脉及左门静脉内支,,超声,LLM提取,论文病例报告,2024-12-16,影像,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,9f4d8a2a-1b52-4d6f-95dd-1d7b5d5d6f6e,上腹部CT,影像所见,,文本型,左肝占位，约9.3×6.0×8.3 cm，压迫胆囊并与胃窦壁紧密粘连,,动脉期周围肝实质片状明显强化，静脉期及延迟期强化与左肝实质相似；肝内另见多发异常强化结节，最大约1.1×0.9 cm；胰尾小囊性灶约0.8×0.9 cm；未见肝门/腹膜后淋巴结肿大,,增强CT,LLM提取,论文病例报告,2024-12-16,影像,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,9f4d8a2a-1b52-4d6f-95dd-1d7b5d5d6f6e,上腹部CT,影像结论,,文本型,左肝来源恶性肿瘤，倾向胆管癌,,伴肝内异常灌注；多发肝内异常灌注/小血管瘤可能；胰尾小囊肿；肝内多发小囊肿,,增强CT,LLM提取,论文病例报告,2024-12-16,影像,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,1cf10a2d-b0a4-4d2e-8e3a-0f6ebf0c91c5,上腹部MRI/MRCP,影像所见,,文本型,胆囊窝区类圆形肿块，约9.2×6.0×8.7 cm，界限不清，压迫并推移胆囊和胃窦,,T1WI等/稍低信号，T2WI稍低-稍高混杂信号，DWI弥散受限；增强后进行性、明显不均匀强化，延迟期包膜明显强化；肝内S2、S8异常信号灶考虑海绵状血管瘤；胰尾小结节约0.8×0.9 cm，未强化；无腹水,,MRI/MRCP,LLM提取,论文病例报告,2024-12-16,影像,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,1cf10a2d-b0a4-4d2e-8e3a-0f6ebf0c91c5,上腹部MRI/MRCP,影像结论,,文本型,肝源性胆管癌可能,,伴邻近肝实质异常灌注；肝内S2、S8异常强化灶考虑海绵状血管瘤；肝内多发小囊肿；胰尾小囊肿,,MRI/MRCP,LLM提取,论文病例报告,2024-12-16,影像,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d59f47c2-4c08-4f4b-b1f9-6d0e7a9b8c11,肿瘤标志物,AFP,,数值型,8.09↑,8.09,参考范围0-6.66 μg/L,μg/L,化学发光,LLM提取,论文病例报告,2024-12-16,检验,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d59f47c2-4c08-4f4b-b1f9-6d0e7a9b8c11,肿瘤标志物,CEA,,数值型,3.09,3.09,参考范围0-5 μg/L,μg/L,化学发光,LLM提取,论文病例报告,2024-12-16,检验,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d59f47c2-4c08-4f4b-b1f9-6d0e7a9b8c11,肿瘤标志物,铁蛋白,,数值型,250.00,250.0,参考范围20-450 μg/L,μg/L,化学发光,LLM提取,论文病例报告,2024-12-16,检验,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d59f47c2-4c08-4f4b-b1f9-6d0e7a9b8c11,肿瘤标志物,CA19-9,,类别型,<0.30,,参考范围0-19 KU/L,KU/L,化学发光,LLM提取,论文病例报告,2024-12-16,检验,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d59f47c2-4c08-4f4b-b1f9-6d0e7a9b8c11,肿瘤标志物,CA72-4,,数值型,31.42↑,31.42,参考范围0-6 KIU/L,KIU/L,化学发光,LLM提取,论文病例报告,2024-12-16,检验,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d59f47c2-4c08-4f4b-b1f9-6d0e7a9b8c11,肿瘤标志物,CA24-2,,类别型,<0.50,,参考范围0-10 KIU/L,KIU/L,化学发光,LLM提取,论文病例报告,2024-12-16,检验,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,2e2a4e8f-33f3-4dd3-a2a1-3f36c4eb5d1b,患者,诊断名称,,类别型,胆管癌,,术前影像学考虑,,,LLM提取,论文病例报告,2024-12-20,诊断,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,8f3d1bc0-2c1d-4b1b-8a4c-8e0f4d0e7d93,患者,手术名称,,类别型,左肝外侧段切除术,,切除整个左外侧段及肿瘤,,,LLM提取,论文病例报告,2024-12-23,手术,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,8f3d1bc0-2c1d-4b1b-8a4c-8e0f4d0e7d93,患者,手术结果,,文本型,肿瘤完整切除,,术中见外生性肿瘤，约10 cm；冰冻病理示肝梭形细胞肿瘤,,,LLM提取,论文病例报告,2024-12-23,手术,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,8f3d1bc0-2c1d-4b1b-8a4c-8e0f4d0e7d93,手术标本,标本部位,,类别型,左肝叶,,肝组织标本13×7×4 cm,,,LLM提取,论文病例报告,2024-12-23,手术,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d7f0d1d3-0c6f-4d23-8d2f-1f8a9b7c3e2a,肿瘤病理,病理诊断,,文本型,平滑肌肉瘤,,肿瘤大小10×8×7 cm；表面光滑，与肝实质界清；未侵犯肝实质；有明显细胞异型、凝固性坏死，核分裂象>10/10 HPF,,病理+免疫组化,LLM提取,论文病例报告,2024-12-28,病理,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d7f0d1d3-0c6f-4d23-8d2f-1f8a9b7c3e2a,肿瘤病理,免疫组化,,文本型,CD117局灶+，DOG1-，Vimentin+，CD34（血管+），Actin+，Desmin+，S-100-，p63-，p53局灶+，Ki67约15%，SDHB+,,VG染色+,,免疫组化,LLM提取,论文病例报告,2024-12-28,病理,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,d7f0d1d3-0c6f-4d23-8d2f-1f8a9b7c3e2a,肿瘤病理,分化程度,,类别型,梭形细胞肿瘤,,病理结合形态学和免疫组化支持平滑肌肉瘤,,病理,LLM提取,论文病例报告,2024-12-28,病理,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,a8a9d2b3-7f6e-4f0c-9a2f-1a2b3c4d5e6f,患者,出院诊断,,类别型,原发性肝平滑肌肉瘤,,肝左叶；肿瘤切缘阴性；伴局灶性脂肪肝、慢性肝炎G3S1,,,LLM提取,论文病例报告,2024-12-28,出院,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,a8a9d2b3-7f6e-4f0c-9a2f-1a2b3c4d5e6f,患者,出院状况,,类别型,恢复良好,,肝功能正常,,,LLM提取,论文病例报告,2024-12-28,出院,v1
+1ca0cc541cadcf6de324a2e5b1f62bed,f7ba657baeeff89bedccf597f1a60cf8_1,3b2e1a4d-5c6f-4e7a-8b9c-0d1e2f3a4b5c,患者,随访结果,,文本型,1-6个月复查增强CT未见复发或转移；肝功能及AFP、CA72-4恢复正常,,2个月无腹部不适，日常活动恢复；3个月无转移并恢复兼职工作；6个月SDHB表达再次证实阳性,,增强CT,LLM提取,论文病例报告,2025-01-23,病程,v1

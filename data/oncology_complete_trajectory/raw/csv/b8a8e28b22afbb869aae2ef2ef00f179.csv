@@ -1,0 +1,39 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,11111111-1111-1111-1111-111111111111,患者,年龄,,数值型,52,52,,岁,,LLM提取,论文病例报告,2024-01-01,病史,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,11111111-1111-1111-1111-111111111111,患者,绝经状态,,类别型,绝经后,,绝经3年,,,LLM提取,论文病例报告,2024-01-01,病史,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,11111111-1111-1111-1111-111111111111,患者,孕产史,,文本型,G3P1；1992年1次顺产，1993年和2014年各1次人工流产,,,,,LLM提取,论文病例报告,2024-01-01,病史,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,11111111-1111-1111-1111-111111111111,患者,主诉,,文本型,间断少量阴道流血3个月,,,,,LLM提取,论文病例报告,2024-01-01,病史,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,11111111-1111-1111-1111-111111111111,患者,既往史,,文本型,HPV52感染,,,,,LLM提取,论文病例报告,2024-01-01,病史,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,22222222-2222-2222-2222-222222222222,患者,入院科室,,类别型,妇产科医院,,复旦大学附属妇产科医院,,,LLM提取,论文病例报告,2024-01-01,入院,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,22222222-2222-2222-2222-222222222222,患者,入院年龄,,数值型,52,52,,岁,,LLM提取,论文病例报告,2024-01-01,入院,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,22222222-2222-2222-2222-222222222222,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2024-01-01,入院,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,33333333-3333-3333-3333-333333333333,患者,阴道超声,,文本型,宫颈包块61×62×45 mm，子宫内膜厚7 mm,,外院检查,,经阴道超声,LLM提取,论文病例报告,2024-01-01,影像,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,44444444-4444-4444-4444-444444444444,患者,查体,,文本型,绝经后女性，阴道少量流血,,,,,LLM提取,论文病例报告,2024-01-01,评估,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,55555555-5555-5555-5555-555555555555,患者,病理诊断,,文本型,提示宫颈绒癌,,宫颈活检及宫颈管搔刮标本,,病理学检查,LLM提取,论文病例报告,2024-01-05,病理,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,55555555-5555-5555-5555-555555555555,患者,免疫组化,,文本型,"hCG(+)，HSD3B(+)，Ki-67(+,40%)",,,,免疫组织化学,LLM提取,论文病例报告,2024-01-05,病理,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,66666666-6666-6666-6666-666666666666,血清,hCG,,数值型,15366,15366,,mIU/mL,,LLM提取,论文病例报告,2024-01-09,检验,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,66666666-6666-6666-6666-666666666666,血清,SCCA,,数值型,0.70,0.70,参考范围未提供,ng/mL,,LLM提取,论文病例报告,2024-01-09,检验,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,66666666-6666-6666-6666-666666666666,血清,CA125,,数值型,7.6,7.6,参考范围未提供,U/mL,,LLM提取,论文病例报告,2024-01-09,检验,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,77777777-7777-7777-7777-777777777777,患者,MRI影像所见,,文本型,子宫及宫颈弥漫性病变，最大径7.6 cm,,,,盆腔MRI,LLM提取,论文病例报告,2024-01-09,影像,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,88888888-8888-8888-8888-888888888888,患者,CT影像所见,,文本型,左上肺叶见8×5 mm分叶状结节，考虑转移可能,,,,胸部CT,LLM提取,论文病例报告,2024-01-09,影像,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,99999999-9999-9999-9999-999999999999,患者,诊断名称,,类别型,宫颈绒癌,,初步诊断，后续被STR修正为非妊娠性绒癌,,,LLM提取,论文病例报告,2024-01-09,诊断,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,99999999-9999-9999-9999-999999999999,患者,临床分期,,类别型,III:11,,,,FIGO,LLM提取,论文病例报告,2024-01-09,诊断,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,治疗方案,,类别型,EMA-CO化疗,,etoposide、methotrexate、actinomycin-D、cyclophosphamide、vincristine,,,LLM提取,论文病例报告,2024-02-01,病程,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,周期数,,数值型,5,5,首次化疗,周期,,LLM提取,论文病例报告,2024-02-01,病程,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,治疗反应,,类别型,hCG下降,,,,,LLM提取,论文病例报告,2024-02-01,病程,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,患者,STR分析,,文本型,肿瘤组织与颊黏膜DNA在各检测位点呈一致STR谱，提示非妊娠性绒癌,,D19S433、D5S818、D21S11、D18S51、D6S1043、D3S1358、D13S317、D7S820、D16S539、CSF1PO、Penta D,,短串联重复序列分析,LLM提取,论文病例报告,2024-03-01,诊断,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,cccccccc-cccc-cccc-cccc-cccccccccccc,患者,会诊结论,,文本型,子宫中下段及整个宫颈弥漫受累，无宫旁浸润；化疗有效，病灶目前局限于子宫和宫颈,,MDT讨论,,,LLM提取,论文病例报告,2024-03-01,会诊,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,dddddddd-dddd-dddd-dddd-dddddddddddd,患者,手术名称,,类别型,全子宫切除+双侧输卵管卵巢切除术,,,,,LLM提取,论文病例报告,2024-04-01,手术,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,dddddddd-dddd-dddd-dddd-dddddddddddd,患者,手术结果,,文本型,顺利完成手术,,,,,LLM提取,论文病例报告,2024-04-01,手术,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,患者,病理诊断,,文本型,下段子宫及宫颈管化疗后绒癌，广泛坏死，残余滋养细胞极少,,术后病理,,病理学检查,LLM提取,论文病例报告,2024-04-01,病理,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,淋巴结,病理结果,,文本型,34枚淋巴结均未见转移,,含双侧髂总3枚、双侧盆腔31枚,,病理学检查,LLM提取,论文病例报告,2024-04-01,病理,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,患者,免疫组化,,文本型,AE1/AE3(散在+)，GATA-3(散在+)，CD146(散在+)，CK8/18(散在+)，HSD3B1(散在+)，HLA-G(-)，hCG(-)，Ki-67(-)，P63(-),,,,免疫组织化学,LLM提取,论文病例报告,2024-04-01,病理,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,ffffffff-ffff-ffff-ffff-ffffffffffff,患者,诊断名称,,类别型,非妊娠性绒癌,,最终诊断,,,LLM提取,论文病例报告,2024-04-01,诊断,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,ffffffff-ffff-ffff-ffff-ffffffffffff,患者,病理分期,,类别型,II期,,T2N0M0,,FIGO/病理分期,LLM提取,论文病例报告,2024-04-01,诊断,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,gggggggg-gggg-gggg-gggg-gggggggggggg,血清,hCG,,数值型,2.99,2.99,参考范围0-5 IU/L,IU/L,,LLM提取,论文病例报告,2024-05-01,检验,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh,患者,治疗方案,,类别型,EMA-CO化疗,,术后追加3个周期,,,LLM提取,论文病例报告,2024-05-01,病程,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,患者,不良反应名称,,类别型,骨髓抑制,,III-IV级，表现为明显白细胞减少和中性粒细胞减少,,,LLM提取,论文病例报告,2024-02-01,不良反应,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,患者,处理措施,,文本型,二级预防后缓解,,,,,LLM提取,论文病例报告,2024-02-01,不良反应,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,不良反应名称,,类别型,口腔黏膜炎,,II级,,,LLM提取,论文病例报告,2024-02-01,不良反应,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,处理措施,,文本型,对症治疗后缓解,,,,,LLM提取,论文病例报告,2024-02-01,不良反应,v1
+b8a8e28b22afbb869aae2ef2ef00f179,c1db3ddb8ae4bd4ba37d05b882b539d9,kkkkkkkk-kkkk-kkkk-kkkk-kkkkkkkkkkkk,患者,随访结果,,文本型,未见病灶证据，血清hCG维持正常,,末次随访2024-12,,盆腔MRI、上腹部MRI、胸部CT及血清hCG,LLM提取,论文病例报告,2024-12-01,病程,v1

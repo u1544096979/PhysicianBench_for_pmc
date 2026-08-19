@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,6f8c7c4a-0e5d-4e4d-9ec1-8dfd0b8f1d2b,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,病史,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,6f8c7c4a-0e5d-4e4d-9ec1-8dfd0b8f1d2b,患者,年龄,,数值型,46,46,,岁,,LLM提取,论文病例报告,,病史,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,6f8c7c4a-0e5d-4e4d-9ec1-8dfd0b8f1d2b,患者,主诉,,文本型,腹痛10余天，加重5小时,,,,,LLM提取,论文病例报告,2023-09-20,病史,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,2a1f5f68-2a7b-4e86-8d2d-2b1fd6d2f7f1,患者,入院时间,,日期型,2023-09-20,,,,,LLM提取,论文病例报告,2023-09-20,入院,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,2a1f5f68-2a7b-4e86-8d2d-2b1fd6d2f7f1,患者,入院年龄,,数值型,46,46,,岁,,LLM提取,论文病例报告,2023-09-20,入院,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,7db2f4ed-f3a4-4c9a-9f64-9a8c7b0a2b6f,患者,查体,,文本型,体温36.8℃，心率99次/分，呼吸19次/分，血压91/53 mmHg；心肺无明显异常；腹平软，全腹散在压痛，无反跳痛及肌紧张；肝区叩击痛；腹部叩诊浊音，移动性浊音阳性；肠鸣音约2次/分；双下肢轻度凹陷性水肿,,,,体格检查,LLM提取,论文病例报告,2023-09-20,评估,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,f0e3be1e-7a1a-4d0e-8f19-9b6a2d4b6d9e,患者,病情变化,,文本型,入院后循环不稳定，血压波动于85–100/44–60 mmHg，血红蛋白下降至80 g/L，腹穿抽出暗红色不凝血,,,,,LLM提取,论文病例报告,2023-09-20,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,c1b8a9b0-0c7c-4bb0-b7d5-6b4a9ef2f4f4,腹腔穿刺液,穿刺结果,,文本型,暗红色血液，不凝固,,,,诊断性腹腔穿刺,LLM提取,论文病例报告,2023-09-20,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,d3f7d7c2-6f2b-4f7a-8e9a-3a6f2e9c1a11,影像检查,影像所见,,文本型,急诊腹部增强CT示：肝左内叶恶性占位，考虑HCC可能；腹腔积血,,CT,,增强CT,LLM提取,论文病例报告,2023-09-20,影像,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,e4a2e8d9-5a4b-4f7e-9a2c-7b6a1f2d3c4e,患者,治疗方案,,类别型,急诊左肝动脉栓塞,,,,,LLM提取,论文病例报告,2023-09-20,用药,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,e4a2e8d9-5a4b-4f7e-9a2c-7b6a1f2d3c4e,患者,治疗反应,,类别型,血压稳定，血红蛋白维持在92–94 g/L,,,,,LLM提取,论文病例报告,2023-09-20,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,e4a2e8d9-5a4b-4f7e-9a2c-7b6a1f2d3c4e,患者,病程变化,,文本型,术后第3天腹腔引流量由1340 mL/d降至350 mL/d，颜色由血性转为淡黄色,,,,,LLM提取,论文病例报告,2023-09-23,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a5b6c7d8-e9f0-4a1b-8c2d-3e4f5a6b7c8d,影像检查,影像所见,,文本型,上腹部MRI增强示：肝左叶恶性肿块伴出血坏死，肝右叶代偿性增大，肝静脉显示不清，肝段下腔静脉狭窄，符合Budd-Chiari综合征,,MRI平扫+增强+MRCP+DWI,,MRI,LLM提取,论文病例报告,2023-10-08,影像,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,血液标本,AFP,,数值型,>1210.0,1210.0,,ng/mL,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,血液标本,ALT,,数值型,68,68,,U/L,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,血液标本,AST,,数值型,75,75,,U/L,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,血液标本,总胆红素,,数值型,25.3,25.3,,μmol/L,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,血液标本,白蛋白,,数值型,32,32,,g/L,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,血液标本,凝血酶原时间,,数值型,15.2,15.2,,s,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,患者,病原学/血清学结果,,类别型,肝炎标志物阴性,,,,,LLM提取,论文病例报告,2023-10-08,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,影像检查,影像所见,,文本型,胸部CT示：双肺下叶间质性炎症、奇静脉扩张及贫血表现,,CT,,CT,LLM提取,论文病例报告,2023-10-08,影像,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,e6f7a8b9-c0d1-4e2f-8a3b-4c5d6e7f8a9b,患者,诊断名称,,类别型,Budd-Chiari综合征合并肝细胞癌破裂出血,,,,,LLM提取,论文病例报告,2023-10-12,诊断,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,f7a8b9c0-d1e2-4f3a-8b4c-5d6e7f8a9b0c,患者,治疗方案,,类别型,分期手术治疗,,,,,LLM提取,论文病例报告,2023-10-12,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,f7a8b9c0-d1e2-4f3a-8b4c-5d6e7f8a9b0c,患者,治疗方案,,类别型,球囊扩张下腔静脉,,,,,LLM提取,论文病例报告,2023-10-16,手术,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d,患者,手术名称,,类别型,部分肝切除+胆囊切除+肠粘连松解术,,,,,LLM提取,论文病例报告,2023-10-19,手术,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d,患者,手术结果,,文本型,术中见肝左叶硬质肿块约10×15 cm，轻度粘连，出血约100 mL,,,mL,,LLM提取,论文病例报告,2023-10-19,手术,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,血液标本,ALT,,数值型,65,65,,U/L,,LLM提取,论文病例报告,2023-10-20,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,血液标本,AST,,数值型,187,187,,U/L,,LLM提取,论文病例报告,2023-10-20,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,血液标本,总胆红素,,数值型,32.1,32.1,,μmol/L,,LLM提取,论文病例报告,2023-10-20,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,患者,病程变化,,文本型,术后第3天恢复进食，肝功能改善,,,,,LLM提取,论文病例报告,2023-10-22,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,血液标本,ALT,,数值型,49,49,,U/L,,LLM提取,论文病例报告,2023-10-22,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,血液标本,AST,,数值型,50,50,,U/L,,LLM提取,论文病例报告,2023-10-22,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,血液标本,总胆红素,,数值型,20.7,20.7,,μmol/L,,LLM提取,论文病例报告,2023-10-22,检验,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,患者,病程变化,,文本型,术后第5天拔除腹腔引流管,,,,,LLM提取,论文病例报告,2023-10-24,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,患者,病程变化,,文本型,术后第10天切口愈合良好，各项指标正常出院,,,,,LLM提取,论文病例报告,2023-10-29,病程,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e7f8a,病理标本,病理诊断,,文本型,肝细胞癌，S4b肝肿瘤，中度分化，结节型；累及肝腹膜，疑似血管内癌栓；无神经侵犯；切缘未见癌累及；胆囊未受累,,免疫组化：CK19+、AFP+、Hepatocyte+、Glypican-3+,,病理活检/免疫组化,LLM提取,论文病例报告,2023-10-19,病理,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e7f8a,病理标本,分化程度,,类别型,中度分化,,,,,LLM提取,论文病例报告,2023-10-19,病理,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e7f8a,病理标本,免疫组化,,文本型,CK19+、AFP+、Hepatocyte+、Glypican-3+,,,,免疫组化,LLM提取,论文病例报告,2023-10-19,病理,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,f8a9b0c1-d2e3-4f5a-8b6c-7d8e9f0a1b2c,患者,治疗方案,,类别型,仑伐替尼靶向治疗,,术后1个月开始,,,LLM提取,论文病例报告,2023-11-19,用药,v1
+aab9ab7135834e8b1540ee9aebc3aa21,94fedec7a705951e3b163048d35bf8e9_1,f9b0c1d2-e3f4-5a6b-7c8d-9e0f1a2b3c4d,患者,随访结果,,文本型,随访1年，无复发或转移，AFP降至28.4 ng/mL，肝功能正常,,,,,LLM提取,论文病例报告,2024-10-19,病程,v1

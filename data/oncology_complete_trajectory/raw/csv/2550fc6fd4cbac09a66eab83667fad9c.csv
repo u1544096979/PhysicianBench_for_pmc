@@ -1,0 +1,61 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6b8f1f6c-2c3b-4df8-9a7b-0b4fbb3ddf8f,患者,年龄,,数值型,25,25,,岁,,LLM提取,论文病例报告,2011-01-01,入院,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6b8f1f6c-2c3b-4df8-9a7b-0b4fbb3ddf8f,患者,入院科室,,类别型,消化科,,,,,LLM提取,论文病例报告,2011-01-01,入院,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6b8f1f6c-2c3b-4df8-9a7b-0b4fbb3ddf8f,患者,主诉,,文本型,反复上腹痛,,,,,LLM提取,论文病例报告,2011-01-01,入院,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,a4f1e13e-9f36-4c54-b021-3b5a0f8e0f6d,患者,主诉,,文本型,反复上腹痛,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,a4f1e13e-9f36-4c54-b021-3b5a0f8e0f6d,患者,现病史,,文本型,2011年1月因反复上腹痛入院，后发现门静脉和脾静脉血栓及胰腺旁占位病变。,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,a3a9c8cb-5e18-4cf1-8d61-8f4cf7f4d5d4,患者,胃镜所见,,文本型,反流性食管炎、胃底静脉曲张、胃炎,,,,胃镜,LLM提取,论文病例报告,2011-01-01,其他,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,b2f9f1df-b7b1-4af4-a6c2-7ec0ef9d0b7d,腹部增强CT,影像所见,,文本型,脾大、脾梗死、门静脉及脾静脉血栓，胃、脾和左肾之间见85×50 mm不均质坏死性病灶，邻近胰腺。,,,,增强CT,LLM提取,论文病例报告,2011-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,c6e3ac82-6f8a-4f8d-8f4d-4f0bc8f3a7c8,腹部血管彩色多普勒超声,影像所见,,文本型,门静脉和脾静脉大量血栓形成,,,,彩色多普勒超声,LLM提取,论文病例报告,2011-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9b0e7d5d-5f4a-4fbf-8f76-7a5f7c0d5c9f,患者,治疗方案,,文本型,抗凝治疗,,立即开始,,,LLM提取,论文病例报告,2011-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9b0e7d5d-5f4a-4fbf-8f76-7a5f7c0d5c9f,低分子量肝素,药品名称,,类别型,低分子量肝素,,后续改为华法林，再改为利伐沙班,,,LLM提取,论文病例报告,2011-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9b0e7d5d-5f4a-4fbf-8f76-7a5f7c0d5c9f,华法林,药品名称,,类别型,华法林,,由低分子量肝素序贯使用,,,LLM提取,论文病例报告,2011-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9b0e7d5d-5f4a-4fbf-8f76-7a5f7c0d5c9f,利伐沙班,药品名称,,类别型,利伐沙班,,后续替换使用,,,LLM提取,论文病例报告,2011-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,1d0d5a8f-9b90-4d54-a5cc-0e8d4e8c8a11,骨髓流式细胞术,检查结果,,文本型,未见异常,,,,流式细胞术,LLM提取,论文病例报告,2011-04-01,检验,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,1d0d5a8f-9b90-4d54-a5cc-0e8d4e8c8a11,染色体分析,检查结果,,文本型,未检出克隆性染色体异常,,,,染色体分析,LLM提取,论文病例报告,2011-04-01,检验,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,2c7a0b68-e0e5-4e8e-9e1d-4d6c7a5e4a12,患者,基因突变,,类别型,JAK2 V617F阳性,,,,基因检测,LLM提取,论文病例报告,2011-04-01,诊断,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,2c7a0b68-e0e5-4e8e-9e1d-4d6c7a5e4a12,患者,诊断名称,,类别型,JAK2V617F突变相关血栓形成高风险状态,,同时排除FV Leiden、凝血酶原20210A、狼疮抗凝物、抗磷脂综合征及抗凝血酶III/蛋白C/蛋白S缺乏,,,LLM提取,论文病例报告,2011-04-01,诊断,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,3a1bc9d8-8c41-4cc2-9a1f-3f3a1d6c1b13,患者,体格检查,,文本型,左上腹疼痛，极度脾大，无肝大,,,,,LLM提取,论文病例报告,2014-01-01,评估,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,4a2bd0c9-7a52-4f5d-8d5d-4f5a7d6e1c14,腹部超声,影像所见,,文本型,脾大7.5×23 cm，既往门静脉血栓及脾静脉扩张,,,,超声,LLM提取,论文病例报告,2014-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,5b3cd1da-8b63-4f6e-9e6f-5f6b7e7f2d15,血常规,血小板,,数值型,121,121,,G/L,,LLM提取,论文病例报告,2014-01-01,检验,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6c4de2eb-9c74-4f7f-8f7f-6f7c8f8f3e16,骨髓活检,病理诊断,,文本型,见大量巨核细胞，核呈鹿角样；提示原发性血小板增多症可能,,粒系和红系完整，无纤维化,,骨髓活检,LLM提取,论文病例报告,2014-01-01,病理,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,7d5ef3fc-ad85-4f80-9f80-7f8d9f9a4e17,脾脏,手术名称,,类别型,脾切除术,,因脾破裂风险增加,,,LLM提取,论文病例报告,2014-01-01,手术,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,8e6f0g1h-1i2j-4k3l-8m4n-9o0p1q2r3s18,脾脏标本,病理诊断,,文本型,多发坏死性神经内分泌肿瘤灶，伴血管及脾静脉侵犯,,,,组织病理,LLM提取,论文病例报告,2014-01-01,病理,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,8e6f0g1h-1i2j-4k3l-8m4n-9o0p1q2r3s18,脾脏标本,免疫组化,,文本型,NSE阳性、CgA阳性、CK7阳性、pan-CK阳性,,,,免疫组化,LLM提取,论文病例报告,2014-01-01,病理,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,8e6f0g1h-1i2j-4k3l-8m4n-9o0p1q2r3s18,脾脏标本,MIB-1增殖指数,,数值型,5,5,,%,免疫组化,LLM提取,论文病例报告,2014-01-01,病理,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b19,患者,诊断名称,,类别型,原发性血小板增多症未能明确证实,,未满足持续血小板>450 G/L标准,,WHO 2008标准,LLM提取,论文病例报告,2014-01-01,诊断,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,0a1b2c3d-4e5f-6071-8293-9a0b1c2d3e20,患者,药品名称,,类别型,羟基脲,,快速降细胞治疗,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,0a1b2c3d-4e5f-6071-8293-9a0b1c2d3e20,患者,药品名称,,类别型,恩氧肝素,,联合使用,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,0a1b2c3d-4e5f-6071-8293-9a0b1c2d3e20,患者,药品名称,,类别型,别嘌醇,,联合使用,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,0a1b2c3d-4e5f-6071-8293-9a0b1c2d3e20,患者,剂量,,数值型,,,文中未给出剂量,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,1b2c3d4e-5f60-7182-93a0-b1c2d3e4f521,FDG PET/CT,影像所见,,文本型,胰腺内13 cm不规则软组织肿块，代谢活跃,,,,PET/CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,2c3d4e5f-6071-8293-a0b1-c2d3e4f5a622,血清,Chromogranin A,,数值型,>1150,1150,参考范围20-100 µg/L,µg/L,,LLM提取,论文病例报告,2014-01-01,检验,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,3d4e5f60-7182-93a0-b1c2-d3e4f5a6b723,SRS SPECT/CT,影像所见,,文本型,脾窝区10 cm不规则多灶性高SRS摄取病灶，不能与胰尾及胃壁分离；肝VII段见两个15 mm和12 mm灶,,,,SPECT/CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,4e5f6071-8293-a0b1-c2d3-e4f5a6b7c824,腹部CT,影像所见,,文本型,左季肋区11 cm病灶累及邻近器官，肝VII、VIII段见多个8-17 mm病灶,,,,CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,5f607182-93a0-b1c2-d3e4-f5a6b7c8d925,胰腺手术标本,手术名称,,类别型,远端胰切除术,,切除腹部病灶,,,LLM提取,论文病例报告,2014-01-01,手术,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,5f607182-93a0-b1c2-d3e4-f5a6b7c8d925,胰腺手术标本,病理诊断,,文本型,G2级胰腺神经内分泌肿瘤,,WHO 2010分级，MIB-1增殖指数6%,,组织病理,LLM提取,论文病例报告,2014-01-01,病理,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,5f607182-93a0-b1c2-d3e4-f5a6b7c8d925,胰腺手术标本,免疫组化,,文本型,chromogranin+/CDX2+/CK7+/synaptophysin-/CD56-/TTE1-,,,,免疫组化,LLM提取,论文病例报告,2014-01-01,病理,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6a718293-a0b1-c2d3-e4f5-a6b7c8d9e026,患者,治疗方案,,文本型,兰瑞肽 120 mg 每4周一次,,胰腺手术后开始,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6a718293-a0b1-c2d3-e4f5-a6b7c8d9e026,患者,药品名称,,类别型,兰瑞肽,,,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6a718293-a0b1-c2d3-e4f5-a6b7c8d9e026,患者,剂量,,数值型,120,120,,mg,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,6a718293-a0b1-c2d3-e4f5-a6b7c8d9e026,患者,用药周期,,文本型,每4周一次,,,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,7b8293a0-b1c2-d3e4-f5a6-b7c8d9e0f127,血清,Chromogranin A,,数值型,156.4,156.4,参考范围20-100 µg/L,µg/L,,LLM提取,论文病例报告,2014-01-01,检验,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,8c93a0b1-c2d3-e4f5-a6b7-c8d9e0f12829,SRS,影像所见,,文本型,肝VII段见4.4 cm和2.3 cm局灶性病灶，放射性摄取明显,,1年后复查,,SRS,LLM提取,论文病例报告,2015-01-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9d0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c30,患者,治疗方案,,文本型,PRRT,,共3个疗程，间隔6-8周,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9d0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c30,患者,治疗方案,,文本型,90Y-DOTATOC后接177Lu-DOTATOC×2,,180 mCi 90Y-DOTATOC，随后200 mCi 177Lu-DOTATOC和200 mCi 177Lu-DOTATOC,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9d0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c30,患者,治疗反应,,类别型,耐受良好,,肝肾功能保持正常,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,9d0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c30,患者,治疗反应,,类别型,血小板计数在首次治疗后恢复正常,,停用羟基脲,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,ad1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d31,腹部CT/MRI/SRS SPECT/CT,影像所见,,文本型,肝转移灶显著缩小，胰腺区无肿瘤复发,,2016年12月复查,,CT/MRI/SPECT/CT,LLM提取,论文病例报告,2016-12-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,be2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e32,患者,治疗方案,,文本型,兰瑞肽继续治疗,,孕前短暂中断后恢复,,,LLM提取,论文病例报告,2017-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,be2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e32,患者,药品名称,,类别型,兰瑞肽,,,,,LLM提取,论文病例报告,2017-01-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,ce3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f33,患者,妊娠状态,,类别型,已确认妊娠7周,,2018年3月,,,LLM提取,论文病例报告,2018-03-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,ce3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f33,患者,治疗方案,,文本型,停用SSA并将利伐沙班改为低分子量肝素,,妊娠确认后立即调整,,,LLM提取,论文病例报告,2018-03-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,df4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a34,患者,分娩结局,,文本型,生下健康女婴,,2018年10月,,,LLM提取,论文病例报告,2018-10-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,ef5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b35,患者,治疗方案,,文本型,兰瑞肽恢复治疗,,产后1个月,,,LLM提取,论文病例报告,2018-11-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,f06b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c36,患者,妊娠状态,,类别型,再次确认妊娠,,2020年2月,,,LLM提取,论文病例报告,2020-02-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,f06b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c36,患者,治疗方案,,文本型,停用SSA并将利伐沙班改为低分子量肝素,,再次妊娠后调整,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,0a7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d37,患者,分娩结局,,文本型,生下第二个健康女婴,,2020年9月,,,LLM提取,论文病例报告,2020-09-01,病程,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,1b8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e38,MRI/SRS/胸腹部CT,影像所见,,文本型,肝、肺及腹部器官未见转移灶,,产后复查,,MRI/SRS/CT,LLM提取,论文病例报告,2020-09-01,影像,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,1b8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e38,血清,Chromogranin A,,数值型,正常范围,,SSA恢复前已处于参考范围,,,LLM提取,论文病例报告,2020-09-01,检验,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,2c9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f39,患者,诊断名称,,类别型,完全缓解,,肿瘤影像学未见可见病灶,,,LLM提取,论文病例报告,2020-09-01,诊断,v1
+2550fc6fd4cbac09a66eab83667fad9c,3f8b65d53ad4e888b18a52a46c3eb118,3d0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a40,患者,基因检测结果,,文本型,未发现致病变异,,WES分析MEN1、VHL、NF1、TSC1、TSC2、MUTYH、BRCA2、CHEK2均未检出致病变异；MEN1筛查相关钙、磷及垂体激素正常,,全外显子测序,LLM提取,论文病例报告,2011-04-01,诊断,v1

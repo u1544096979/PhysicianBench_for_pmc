@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8a3f3e6b-3f9d-4c2a-9c8f-1b2a4e7d6f10,患者,入院年龄,,数值型,63,63,,岁,,LLM提取,论文病例报告,2021-05-01,入院,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8a3f3e6b-3f9d-4c2a-9c8f-1b2a4e7d6f10,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2021-05-01,病史,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8a3f3e6b-3f9d-4c2a-9c8f-1b2a4e7d6f10,患者,既往史,,文本型,文中未提及吸烟史；初诊时未发现胃肠道病灶。,,,,,LLM提取,论文病例报告,2021-05-01,病史,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,f1a6a5b2-cc6d-4a7d-9f2f-6d0b6c9d8a21,患者,查体,,文本型,体检发现左下肺结节。,,,,,LLM提取,论文病例报告,2021-05-01,评估,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,3c7e1a12-0a6d-4c48-8e4f-9a2a1d3c5b77,胸部CT,影像所见,,文本型,左肺下叶见结节，大小约2.6×3.8 cm。,,,,CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,3c7e1a12-0a6d-4c48-8e4f-9a2a1d3c5b77,胸部CT,影像结论,,文本型,左肺下叶肺结节。,,,,CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,4f2b6d8e-5a7e-4b1c-9f0b-2d3e4f5a6b78,骨扫描,影像结论,,类别型,正常,,,,骨扫描,LLM提取,论文病例报告,2021-05-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,5c8d9e0f-1a2b-4c3d-8e4f-5a6b7c8d9e01,脑CT,影像结论,,类别型,正常,,,,CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,6d7e8f90-1a2b-4c3d-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,左侧胸腔镜下左下肺叶切除+淋巴结清扫,,,,,LLM提取,论文病例报告,2021-05-28,手术,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,6d7e8f90-1a2b-4c3d-9e0f-1a2b3c4d5e6f,患者,手术结果,,文本型,术后病理证实为浸润性腺癌，肠型。,,,,,LLM提取,论文病例报告,2021-05-28,手术,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,7e8f9012-3a4b-4c5d-8e9f-0a1b2c3d4e5f,左肺术后病理,病理诊断,,文本型,浸润性腺癌，肠型。,,,,,LLM提取,论文病例报告,2021-05-28,病理,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,7e8f9012-3a4b-4c5d-8e9f-0a1b2c3d4e5f,左肺术后病理,免疫组化,,文本型,"CKpan(+), CK7(部分+), CK20(+), CDX-2(+), Ki-67(+80%), TTF-1(-), NapsinA(-), SATB2(+), Villin(+), CK5/6(-)。",,,,IHC,LLM提取,论文病例报告,2021-05-28,病理,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8f901234-5a6b-4c7d-8e9f-0a1b2c3d4e5f,患者,诊断名称,,类别型,左肺肠型腺癌,,"T2aN1M0, IIb期",,,LLM提取,论文病例报告,2021-05-28,诊断,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,9a012345-6b7c-4d8e-9f0a-1b2c3d4e5f60,患者,治疗方案,,类别型,辅助化疗：白蛋白紫杉醇+卡铂,,4个疗程,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,9a012345-6b7c-4d8e-9f0a-1b2c3d4e5f60,白蛋白紫杉醇,药品名称,,类别型,白蛋白紫杉醇,,,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,9a012345-6b7c-4d8e-9f0a-1b2c3d4e5f60,卡铂,药品名称,,类别型,卡铂,,,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,0b123456-7c8d-4e9f-0a1b-2c3d4e5f6071,胸部CT,影像所见,,文本型,左肺支气管出现高密度影。,,,,CT,LLM提取,论文病例报告,2023-07-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,0b123456-7c8d-4e9f-0a1b-2c3d4e5f6071,胸部CT,影像结论,,文本型,提示疾病进展，左肺支气管高密度影较前增大。,,,,CT,LLM提取,论文病例报告,2023-07-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,1c234567-8d9e-0a1b-2c3d-4e5f60718293,PET-CT,影像所见,,文本型,证实左肺支气管病灶，并发现骨和胃窦转移。,,,,PET-CT,LLM提取,论文病例报告,2023-07-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,1c234567-8d9e-0a1b-2c3d-4e5f60718293,PET-CT,影像结论,,文本型,左肺支气管病灶伴骨及胃窦转移。,,,,PET-CT,LLM提取,论文病例报告,2023-07-01,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,2d345678-9e0a-1b2c-3d4e-5f60718293a4,纤维支气管镜活检标本,病理诊断,,文本型,腺癌，肠型。,,左肺支气管病变,,,LLM提取,论文病例报告,2023-07-01,病理,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,2d345678-9e0a-1b2c-3d4e-5f60718293a4,纤维支气管镜活检标本,免疫组化,,文本型,"CDX-2(+), SATB2(+), CK20(+), TTF-1(-)。",,PD-L1 20%,,IHC,LLM提取,论文病例报告,2023-07-01,病理,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,3e456789-0a1b-2c3d-4e5f-60718293a4b5,患者,诊断名称,,类别型,左肺肠型腺癌复发/进展,,伴骨转移、胃窦转移，cT4N3M1，IV期,,,LLM提取,论文病例报告,2023-07-01,诊断,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,4f567890-1b2c-3d4e-5f60-718293a4b5c6,胃镜,影像所见,,文本型,胃窦及胃小弯见糜烂。,,,,胃镜,LLM提取,论文病例报告,2023-08-28,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,4f567890-1b2c-3d4e-5f60-718293a4b5c6,胃镜,影像结论,,文本型,胃窦及胃小弯糜烂性病灶。,,,,胃镜,LLM提取,论文病例报告,2023-08-28,影像,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,5g678901-2c3d-4e5f-6071-8293a4b5c6d7,胃窦病理,病理诊断,,文本型,低分化癌。,,,,,LLM提取,论文病例报告,2023-08-28,病理,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,5g678901-2c3d-4e5f-6071-8293a4b5c6d7,胃窦病理,免疫组化,,文本型,"CK(+), CK7(散在+), CK20(+), CEA(+), villin(弱+), P53(-), Ki-67(+约20%), Syn(-), CD56(-), CD45(-), E-Cad(+), Her-2(-), TTF-1(-), Napsin-A(-)。",,,,IHC,LLM提取,论文病例报告,2023-08-28,病理,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,6h789012-3d4e-5f60-7182-93a4b5c6d7e8,左肺支气管标本,基因检测,,文本型,NRAS基因第3外显子突变。,,其他常见肺癌驱动基因如EGFR、KRAS、BRAF、ALK、ROS1等均阴性,,基因检测,LLM提取,论文病例报告,2023-08-28,检验,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,7i890123-4e5f-6071-8293-a4b5c6d7e8f9,患者,诊断名称,,类别型,左肺肠型腺癌,,cT4N3M1，IV期，伴肺、骨及胃窦转移,,,LLM提取,论文病例报告,2023-08-28,诊断,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8j901234-5f60-7182-93a4-b5c6d7e8f9a0,患者,治疗方案,,类别型,信迪利单抗+白蛋白紫杉醇+顺铂,,6个周期,,,LLM提取,论文病例报告,2023-08-28,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8j901234-5f60-7182-93a4-b5c6d7e8f9a0,信迪利单抗,药品名称,,类别型,信迪利单抗,,200 mg,mg,,LLM提取,论文病例报告,2023-08-28,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8j901234-5f60-7182-93a4-b5c6d7e8f9a0,白蛋白紫杉醇,药品名称,,类别型,白蛋白紫杉醇,,260 mg/m2,mg/m2,,LLM提取,论文病例报告,2023-08-28,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,8j901234-5f60-7182-93a4-b5c6d7e8f9a0,顺铂,药品名称,,类别型,顺铂,,75 mg/m2,mg/m2,,LLM提取,论文病例报告,2023-08-28,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,9k012345-6f70-8293-a4b5-c6d7e8f9a0b1,患者,治疗反应,,类别型,部分缓解,,完成2个周期联合化疗免疫后获得,,,LLM提取,论文病例报告,2023-10-01,评估,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,a0123456-7f80-93a4-b5c6-d7e8f9a0b1c2,患者,治疗方案,,类别型,信迪利单抗维持免疫治疗,,2个周期,,,LLM提取,论文病例报告,2024-03-01,用药,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,b1234567-8f90-a1b2-c3d4-e5f60718293a,患者,疗效评估,,类别型,疾病进展,,,,影像学评估,LLM提取,论文病例报告,2024-03-01,评估,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,c2345678-9a0b-1b2c-3d4e-5f60718293ab,患者,无进展生存期,,数值型,8,8,,月,,LLM提取,论文病例报告,2024-03-01,病程,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,d3456789-0a1b-2c3d-4e5f-60718293abc1,患者,出院状况,,文本型,拒绝进一步治疗，接受最佳支持治疗；截至撰写时仍存活但一般情况较差。,,,,,LLM提取,论文病例报告,2024-03-01,出院,v1
+097fbeaaef9af7411326fdd20acfb920,1bf6d3dcca4640ef2b31bbf9df42a80a_1,e4567890-1a2b-3c4d-5e6f-718293abc1d2,患者,随访结果,,文本型,随访13个月，仍存活，但一般状况较差。,,,,,LLM提取,论文病例报告,2024-06-01,病程,v1

@@ -1,0 +1,31 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,4b5c6d7e-8f9a-4b0c-1d2e-3f4a5b6c7d25,患者,年龄,,数值型,6岁,6,,岁,,LLM提取,论文病例报告,2021-08-17,入院,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,4b5c6d7e-8f9a-4b0c-1d2e-3f4a5b6c7d25,患者,主诉,,文本型,乏力、倦怠,,,,,LLM提取,论文病例报告,2021-08-17,病史,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,5c6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e26,患者,病史,,文本型,发热伴咳嗽和耳痛就诊，体检示双侧中耳炎,,,,,LLM提取,论文病例报告,2021-09-28,病史,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,5c6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e26,患者,查体,,文本型,双侧中耳炎，其余正常,,,,,LLM提取,论文病例报告,2021-09-28,评估,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,6d7e8f9a-0b1c-4d2e-3f4a-5b6c7d8e9f27,血液,白细胞减少,,类别型,严重,,,,,LLM提取,论文病例报告,2021-09-28,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,6d7e8f9a-0b1c-4d2e-3f4a-5b6c7d8e9f27,血液,贫血,,类别型,严重,,,,,LLM提取,论文病例报告,2021-09-28,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,7e8f9a0b-1c2d-4e3f-4a5b-6c7d8e9f0a28,患者,诊断名称,,类别型,骨髓衰竭,,考虑病毒后骨髓衰竭,,,LLM提取,论文病例报告,2021-09-29,诊断,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,8f9a0b1c-2d3e-4f4a-5b6c-7d8e9f0a1b29,患者,主诉,,文本型,严重腹痛、呕吐,,伴全血细胞减少,,,LLM提取,论文病例报告,2021-10-12,病史,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,8f9a0b1c-2d3e-4f4a-5b6c-7d8e9f0a1b29,患者,查体,,文本型,面色苍白，双下肢多发血肿,,,,,LLM提取,论文病例报告,2021-10-12,评估,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c30,血液,血红蛋白,,数值型,6.0,6.0,,g/dL,,LLM提取,论文病例报告,2021-10-12,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c30,血液,血小板,,数值型,224,224,,×10^9/L,,LLM提取,论文病例报告,2021-10-12,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c30,血液,白细胞计数,,数值型,1.7,1.7,,×10^9/L,,LLM提取,论文病例报告,2021-10-12,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c30,血液,凝血酶原时间,,数值型,16.9,16.9,,sec,,LLM提取,论文病例报告,2021-10-12,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c30,血液,活化部分凝血活酶时间,,数值型,35,35,,sec,,LLM提取,论文病例报告,2021-10-12,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c30,血液,D-二聚体,,数值型,0.72,0.72,,mg/L,,LLM提取,论文病例报告,2021-10-12,检验,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,aa1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c31,腹部超声,影像结论,,文本型,未见肝脾肿大,,,,超声,LLM提取,论文病例报告,2021-10-12,影像,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,bb2c3d4e-5f6a-4b7c-9d0e-1f2a3b4c5d32,骨髓,病理诊断,,文本型,92%原始细胞，符合单核细胞性白血病（FAB M5）,,Grunwald Giemsa染色,,骨髓穿刺,LLM提取,论文病例报告,2021-10-12,病理,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,bb2c3d4e-5f6a-4b7c-9d0e-1f2a3b4c5d32,骨髓,免疫表型,,文本型,CD4、CD15、CD33、CD34、CD38、CD45、CD56、CD64、CD117(dim)、HLA-DR阳性,,,,流式细胞术,LLM提取,论文病例报告,2021-10-12,病理,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,bb2c3d4e-5f6a-4b7c-9d0e-1f2a3b4c5d32,脑脊液,病理结果,,类别型,未见原始细胞,,,,,LLM提取,论文病例报告,2021-10-12,病理,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,bb2c3d4e-5f6a-4b7c-9d0e-1f2a3b4c5d32,患者,分子标志物,,类别型,KMT2A-MLLT10融合,,RNAseq检出,,RNA测序,LLM提取,论文病例报告,2021-10-12,诊断,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,bb2c3d4e-5f6a-4b7c-9d0e-1f2a3b4c5d32,患者,诊断名称,,类别型,急性髓系白血病,,单核细胞性/ FAB M5,,,LLM提取,论文病例报告,2021-10-12,诊断,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,cc3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e33,患者,诊断名称,,类别型,急性髓系白血病,,临床确诊,,,LLM提取,论文病例报告,2021-10-16,诊断,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,dd4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f34,患者,治疗方案,,类别型,NOPHO-DBH AML-2012方案,,,,,LLM提取,论文病例报告,2021-10-17,病程,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,dd4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f34,患者,治疗反应,,类别型,开始治疗,,,,,LLM提取,论文病例报告,2021-10-17,病程,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,ee5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a35,患者,治疗方案,,类别型,抗菌预防（环丙沙星、复方新诺明、伊曲康唑）/营养支持（鼻胃管）/止吐（格拉司琼）/输血/口腔护理/心理社会支持,,,,,LLM提取,论文病例报告,2021-10-17,用药,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,ff6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b36,患者,不良反应名称,,类别型,发热性中性粒细胞减少,,多次发作,,,LLM提取,论文病例报告,2021-10-17,不良反应,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,ff6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b36,患者,处理措施,,文本型,广谱抗生素与血培养；出现疑似真菌脑感染后加用两性霉素B和伏立康唑6周，随后伏立康唑单药二级预防,,第1次FN：万古霉素+头孢他啶；血培养检出耐青霉素Rothia mucilaginosa；CT胸未提示真菌感染，MRI脑提示病灶，复查MRI改善,,,LLM提取,论文病例报告,2021-10-17,不良反应,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,112b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c37,骨髓,病理结果,,文本型,分子缓解,,治疗开始后22天,,骨髓穿刺,LLM提取,论文病例报告,2021-11-08,病理,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,122c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d38,患者,疗效评估,,类别型,完全缓解,,持续完全缓解,,,LLM提取,论文病例报告,2024-07-12,评估,v1
+a8dc5a53dfbd204d20c66cd99d45c3ee,fd63413aea701135ca13e19bef468e77_2,132d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e39,患者,随访结果,,文本型,完成治疗并返校，末次随访仍处于完全缓解,,,,,LLM提取,论文病例报告,2024-07-12,病程,v1

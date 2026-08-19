@@ -1,0 +1,77 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8f7f5c92-6d79-4e4d-b6d5-5d4f2d3f7c11,患者,入院年龄,,数值型,51,51,,岁,,LLM提取,论文病例报告,2022-01-07,入院,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8f7f5c92-6d79-4e4d-b6d5-5d4f2d3f7c11,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2022-01-07,入院,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,0f6f1e0c-49b9-4f47-8f45-7f8c2a9d5d54,患者,病史,,文本型,既往史不详，否认其他疾病史、药物滥用或食物过敏史。,,,,,LLM提取,论文病例报告,2022-01-07,病史,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,3d7f4e73-0b0a-4f9c-8f1d-8a8a7e3db0ef,患者,主诉,,文本型,突发腹泻伴血性脓液便。,,,,,LLM提取,论文病例报告,2022-01-07,病史,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,c8f5d1a3-0d5f-4d83-9e79-1f1d7f0f2d4a,患者,家族史,,文本型,父母分别死于食管癌和胃癌。,,,,,LLM提取,论文病例报告,2022-01-07,病史,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,6a4c7c11-7fb3-4e1e-8f18-2f9e3c8c1b66,患者,诊断名称,,类别型,溃疡性结肠炎,,累及全结肠，重症,,结肠镜,LLM提取,论文病例报告,2022-01-09,诊断,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,6a4c7c11-7fb3-4e1e-8f18-2f9e3c8c1b66,患者,临床分期,,类别型,重症,,,,,LLM提取,论文病例报告,2022-01-09,诊断,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,9d2ef38b-8a4c-4bd7-bd39-7b1a1e3a9f0d,结肠镜,影像所见,,文本型,黏膜红斑、肿胀、颗粒样改变及多发小黏膜溃疡。,,,,结肠镜,LLM提取,论文病例报告,2022-01-09,影像,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,d5d0f2df-0e7c-4b2d-ae0f-7c2d8f1d9a90,患者,药品名称,,类别型,美沙拉嗪,,口服，剂量不详，持续3周,,,LLM提取,论文病例报告,2022-01-09,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,d5d0f2df-0e7c-4b2d-ae0f-7c2d8f1d9a90,患者,药品名称,,类别型,泼尼松龙,,口服，剂量不详，持续3周,,,LLM提取,论文病例报告,2022-01-09,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f2a7bc52-8a0e-4e4d-9d87-1c2f9f2b8b77,患者,症状,,文本型,腹泻及血性脓液便经治疗后逐渐缓解。,,,,,LLM提取,论文病例报告,2022-01-28,病程,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,a4cdd1bf-1e82-4f0a-8e39-9fd6bfe1d6c5,患者,诊断名称,,类别型,活动性巨细胞病毒感染,,CMV-IgG 178.0 U/mL，CMV-IgM 26.0 U/mL，血浆CMV DNA 4.46×10^3 copies/mL,,血清学/核酸检测,LLM提取,论文病例报告,2022-01-28,诊断,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,a4cdd1bf-1e82-4f0a-8e39-9fd6bfe1d6c5,患者,诊断名称,,类别型,低蛋白血症,,白蛋白27.8 g/L,,,LLM提取,论文病例报告,2022-01-28,诊断,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,白细胞计数,,数值型,6.63,6.63,,×10^9/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,红细胞计数,,数值型,3.45,3.45,,×10^12/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,血红蛋白,,数值型,112,112,,g/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,血小板计数,,数值型,78,78,,×10^9/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,ALT,,数值型,38.8,38.8,,U/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,白蛋白,,数值型,27.8,27.8,,g/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,C反应蛋白,,数值型,140,140,,mg/L,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,红细胞沉降率,,数值型,139.57,139.57,,mm/H,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,5cbe2e6a-8f88-4a8b-9f0c-6a7c1d2f3b44,血液,降钙素原,,数值型,0.88,0.88,,ng/mL,,LLM提取,论文病例报告,2022-01-28,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,6f9f1d11-3c24-4f2e-9d5a-4d1c3d6f7a88,患者,检查结论,,文本型,腹部CT示升结肠及降结肠、乙状结肠肠壁弥漫性增厚，考虑炎症所致。,,,,CT,LLM提取,论文病例报告,2022-01-28,影像,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,2d3a1f9c-8f77-4e2f-9a8c-1f3d2e4b5c66,患者,药品名称,,类别型,更昔洛韦,,静脉注射0.5 g/日,,,LLM提取,论文病例报告,2022-01-28,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,2d3a1f9c-8f77-4e2f-9a8c-1f3d2e4b5c66,患者,药品名称,,类别型,美沙拉嗪,,口服4.0 g/日,,,LLM提取,论文病例报告,2022-01-28,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,2d3a1f9c-8f77-4e2f-9a8c-1f3d2e4b5c66,患者,药品名称,,类别型,泼尼松龙,,口服50.0 mg/日,,,LLM提取,论文病例报告,2022-01-28,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,2d3a1f9c-8f77-4e2f-9a8c-1f3d2e4b5c66,患者,药品名称,,类别型,左氧氟沙星,,,,,LLM提取,论文病例报告,2022-01-28,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,2d3a1f9c-8f77-4e2f-9a8c-1f3d2e4b5c66,患者,药品名称,,类别型,益生菌,,,,,LLM提取,论文病例报告,2022-01-28,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4e6f7a8b-9c1d-4e2f-8b7a-1c2d3e4f5a90,患者,症状,,文本型,第6天出现面部、颈部、躯干、上肢和手部边界清楚的红斑性轻压痛斑块，伴发热，最高体温38.5℃。,,,,,LLM提取,论文病例报告,2022-02-03,病程,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,7f8a9b0c-1d2e-4f3a-8b9c-2d3e4f5a6b71,患者,不良反应名称,,类别型,斯维特综合征,,大疱型,,临床诊断,LLM提取,论文病例报告,2022-02-03,不良反应,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,7f8a9b0c-1d2e-4f3a-8b9c-2d3e4f5a6b71,患者,处理措施,,文本型,加用口服依巴斯汀10.0 mg/日及局部糠酸莫米松乳膏。,,,,,LLM提取,论文病例报告,2022-02-03,不良反应,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,7f8a9b0c-1d2e-4f3a-8b9c-2d3e4f5a6b71,患者,处理措施,,文本型,因发热，将左氧氟沙星改为静脉头孢哌酮-舒巴坦3.0 g/12小时。,,,,,LLM提取,论文病例报告,2022-02-03,不良反应,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,患者,药品名称,,类别型,头孢哌酮-舒巴坦,,静脉3.0 g/12小时,,,LLM提取,论文病例报告,2022-02-03,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,9b8a7c6d-5e4f-4a3b-9c8d-7e6f5a4b3c2d,患者,检查结果,,文本型,疱液培养未见异常。,,,,培养,LLM提取,论文病例报告,2022-02-06,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,9b8a7c6d-5e4f-4a3b-9c8d-7e6f5a4b3c2d,患者,药品名称,,类别型,沙利度胺,,100.0 mg/日,,,LLM提取,论文病例报告,2022-02-06,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,9b8a7c6d-5e4f-4a3b-9c8d-7e6f5a4b3c2d,患者,处理措施,,文本型,皮肤科会诊后，为抑制异常免疫反应加用沙利度胺。,,,,,LLM提取,论文病例报告,2022-02-06,会诊,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8a9b0c1d-2e3f-4a5b-9c8d-7e6f5a4b3c2e,血液,白细胞计数,,数值型,12.21,12.21,,×10^9/L,,LLM提取,论文病例报告,2022-02-06,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8a9b0c1d-2e3f-4a5b-9c8d-7e6f5a4b3c2e,血液,血小板计数,,数值型,73,73,,×10^9/L,,LLM提取,论文病例报告,2022-02-06,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8a9b0c1d-2e3f-4a5b-9c8d-7e6f5a4b3c2e,血液,血红蛋白,,数值型,97,97,,g/L,,LLM提取,论文病例报告,2022-02-06,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8a9b0c1d-2e3f-4a5b-9c8d-7e6f5a4b3c2e,血液,红细胞沉降率,,数值型,82,82,,mm/H,,LLM提取,论文病例报告,2022-02-06,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,8a9b0c1d-2e3f-4a5b-9c8d-7e6f5a4b3c2e,血液,白蛋白,,数值型,29.1,29.1,,g/L,,LLM提取,论文病例报告,2022-02-06,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,患者,药品名称,,类别型,亚胺培南-西司他丁钠,,静脉0.5 g/6小时,,,LLM提取,论文病例报告,2022-02-06,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,患者,处理措施,,文本型,感染病科会诊后，抗生素改为亚胺培南-西司他丁钠。,,,,,LLM提取,论文病例报告,2022-02-06,会诊,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,症状,,文本型,2月8日退热。,,,,,LLM提取,论文病例报告,2022-02-08,病程,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,检查结果,,文本型,血CMV DNA、尿CMV DNA及粪便CMV DNA均转阴，提示活动性CMV感染清除。,,,,核酸检测,LLM提取,论文病例报告,2022-02-08,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,药品名称,,类别型,英夫利西单抗,,静脉300.0 mg,,,LLM提取,论文病例报告,2022-02-08,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,药品名称,,类别型,美沙拉嗪,,停用,,,LLM提取,论文病例报告,2022-02-08,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,药品名称,,类别型,沙利度胺,,停用,,,LLM提取,论文病例报告,2022-02-08,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,药品名称,,类别型,抗生素治疗,,停用,,,LLM提取,论文病例报告,2022-02-08,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,药品名称,,类别型,泼尼松龙,,按5 mg/周减量,,,LLM提取,论文病例报告,2022-02-08,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,4f5e6d7c-8b9a-4c1d-9e0f-1a2b3c4d5e70,患者,出院状况,,类别型,腹痛和血性脓便消失，皮肤损害明显改善。,,,,,LLM提取,论文病例报告,2022-02-15,出院,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,1d2e3f4a-5b6c-4d7e-8f90-1a2b3c4d5e6a,患者,症状,,文本型,2周后复诊，患者无症状。,,,,,LLM提取,论文病例报告,2022-02-22,病程,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,1d2e3f4a-5b6c-4d7e-8f90-1a2b3c4d5e6a,血液,红细胞计数,,数值型,2.45,2.45,,×10^12/L,,LLM提取,论文病例报告,2022-02-22,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,1d2e3f4a-5b6c-4d7e-8f90-1a2b3c4d5e6a,血液,血红蛋白,,数值型,81,81,,g/L,,LLM提取,论文病例报告,2022-02-22,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,1d2e3f4a-5b6c-4d7e-8f90-1a2b3c4d5e6a,血液,血小板计数,,数值型,98,98,,×10^9/L,,LLM提取,论文病例报告,2022-02-22,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,患者,症状,,文本型,3月30日复住院时无症状，原皮损部位残留色素沉着，无新发皮疹。,,,,,LLM提取,论文病例报告,2022-03-30,病程,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,白细胞计数,,数值型,6.38,6.38,,×10^9/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,红细胞计数,,数值型,1.97,1.97,,×10^12/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,血红蛋白,,数值型,74,74,,g/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,血小板计数,,数值型,39,39,,×10^9/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,ALT,,数值型,39.9,39.9,,U/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,白蛋白,,数值型,30.2,30.2,,g/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,C反应蛋白,,数值型,27.70,27.70,,mg/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,红细胞沉降率,,数值型,106,106,,mm/H,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f6e7d8c9-b0a1-4c2d-8e9f-1a2b3c4d5e6b,血液,降钙素原,,数值型,0.155,0.155,,ng/mL,,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,b1c2d3e4-f5a6-4789-abcd-0e1f2a3b4c6d,骨髓,病理诊断,,文本型,骨髓涂片示明显粒系增生，约34.0%为髓系原始细胞。,,,,骨髓涂片,LLM提取,论文病例报告,2022-03-30,病理,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,b1c2d3e4-f5a6-4789-abcd-0e1f2a3b4c6d,骨髓,检验项目,,类别型,流式细胞术,,13.48%未成熟髓系细胞（原始细胞）CD117、CD13、CD38阳性，CD34、CD14、CD15、HLA-DR阴性,,流式细胞术,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,b1c2d3e4-f5a6-4789-abcd-0e1f2a3b4c6d,骨髓,检验项目,,类别型,二代测序,,NPM1、TP53、TET2、DNMT3A基因突变，提示预后不良,,NGS,LLM提取,论文病例报告,2022-03-30,检验,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,c7d8e9f0-a1b2-4c3d-8e9f-1a2b3c4d5e6c,患者,诊断名称,,类别型,急性髓系白血病,,NPM1、TP53、TET2、DNMT3A突变，预后不良,,,LLM提取,论文病例报告,2022-03-30,诊断,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,d9e0f1a2-b3c4-4d5e-8f90-1a2b3c4d5e6d,患者,治疗方案,,类别型,高三尖杉酯碱+阿糖胞苷+粒细胞集落刺激因子方案,,并停用糖皮质激素,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,e1f2a3b4-c5d6-4e7f-8a90-1b2c3d4e5f6a,患者,不良反应名称,,类别型,细菌感染,,化疗期间出现,,,LLM提取,论文病例报告,2022-03-30,不良反应,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,e1f2a3b4-c5d6-4e7f-8a90-1b2c3d4e5f6a,患者,不良反应名称,,类别型,真菌感染,,化疗期间出现,,,LLM提取,论文病例报告,2022-03-30,不良反应,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,e1f2a3b4-c5d6-4e7f-8a90-1b2c3d4e5f6a,患者,治疗反应,,类别型,化疗后骨髓未缓解,,,,骨髓复查,LLM提取,论文病例报告,2022-03-30,病程,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,f0e1d2c3-b4a5-4678-9abc-0d1e2f3a4b5c,患者,治疗方案,,类别型,地西他滨/维奈克拉/阿扎胞苷方案,,化疗方案调整,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,aabbccdd-eeff-4466-8899-001122334455,患者,出院诊断,,类别型,溃疡性结肠炎伴巨细胞病毒感染、斯维特综合征、大疱型斯维特综合征、急性髓系白血病,,,,,LLM提取,论文病例报告,2022-06-15,出院,v1
+ce27472ff96e07ff497afd886ac2be6b,dc68222f362d2d03b6222cd4cee2af21,aabbccdd-eeff-4466-8899-001122334455,患者,出院状况,,类别型,死亡,,因心室颤动及心肺骤停,,,LLM提取,论文病例报告,2022-06-15,出院,v1

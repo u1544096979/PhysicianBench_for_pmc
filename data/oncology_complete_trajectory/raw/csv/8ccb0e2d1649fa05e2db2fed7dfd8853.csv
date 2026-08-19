@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,3c4d5f0f-0f46-4e4d-a6e3-1c0e8c6d4fb4,患者,性别,,类别型,男性,,,,,LLM提取,论文病例报告,1995-01-01,病史,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,3c4d5f0f-0f46-4e4d-a6e3-1c0e8c6d4fb4,患者,年龄,,数值型,53,53,,岁,,LLM提取,论文病例报告,1995-01-01,病史,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,3c4d5f0f-0f46-4e4d-a6e3-1c0e8c6d4fb4,患者,既往史,,文本型,慢性乙型肝炎；1995年左肝切除术前诊断为左叶12 cm肝细胞癌,,,,,LLM提取,论文病例报告,1995-01-01,病史,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,d9f8ddc8-0df0-4c9d-9c3b-0d0d6b9b6c36,患者,手术名称,,类别型,左肝切除术,,,,,LLM提取,论文病例报告,1995-01-01,手术,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,d9f8ddc8-0df0-4c9d-9c3b-0d0d6b9b6c36,患者,手术结果,,文本型,肿瘤切除,,术后出现门静脉高压和脾大,,,LLM提取,论文病例报告,1995-01-01,手术,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f1c8f62f-b6d6-4ef1-9a5f-5a8f8a8ebbf5,标本,病理诊断,,文本型,中分化肝细胞癌（Edmondson II）,,周围肝组织未见肝硬化证据,,,LLM提取,论文病例报告,1995-01-01,病理,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,c0d4cbe2-6aa1-4f04-9f40-2e0a2f2e8e1b,患者,检查名称,,文本型,上消化道内镜（EGD）,,因贫血检查,,,LLM提取,论文病例报告,1997-01-01,评估,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,c0d4cbe2-6aa1-4f04-9f40-2e0a2f2e8e1b,患者,影像所见,,文本型,下段食管及胃贲门部见静脉曲张,,Li F2 Cb RC2；Lg-c F1 Cw RC0,,EGD,LLM提取,论文病例报告,1997-01-01,影像,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,aa5f8d9d-0c46-4dc0-8e0d-9dfeff7f8c31,患者,诊断名称,,类别型,食管胃静脉曲张,,复发性,,,LLM提取,论文病例报告,1997-01-01,诊断,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,8d1f9f9a-7b6e-4d63-9e5d-1f6e6d0f8b55,患者,用药名称,,类别型,5% monoethanolamine oleate,,EIS时静脉内直接注射,,,LLM提取,论文病例报告,1997-01-01,用药,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,8d1f9f9a-7b6e-4d63-9e5d-1f6e6d0f8b55,患者,给药途径,,类别型,静脉内直接注射,,,,,LLM提取,论文病例报告,1997-01-01,用药,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,5fb2f1f5-1e89-4d9f-9b72-7a2d8fdce5c2,患者,治疗方案,,类别型,内镜下注射硬化疗法（EIS）,,第1次,,EGD,LLM提取,论文病例报告,1997-01-01,病程,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,5fb2f1f5-1e89-4d9f-9b72-7a2d8fdce5c2,患者,治疗反应,,类别型,有效,,静脉曲张消失后再次复发,,,LLM提取,论文病例报告,1997-01-01,病程,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,0b1d1b5d-0d1a-4e10-93d5-9e5f8d1d7e12,患者,诊断名称,,类别型,食管胃静脉曲张反复复发,,2年内共6次需要EIS,,,LLM提取,论文病例报告,1997-1999-01-01,诊断,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f7a1f2b3-0a1d-4c4f-9e2d-4a8a7f0d7d77,患者,主诉,,文本型,大量呕血,,2000年7月入院,,,LLM提取,论文病例报告,2000-07-01,病史,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f7a1f2b3-0a1d-4c4f-9e2d-4a8a7f0d7d77,患者,检查名称,,文本型,急诊上消化道内镜（EGD）,,胃内见大量新鲜血液，出血源不明,,,LLM提取,论文病例报告,2000-07-01,评估,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f7a1f2b3-0a1d-4c4f-9e2d-4a8a7f0d7d77,患者,检查名称,,文本型,内镜超声（EUS）,,胃底部发现胃静脉曲张,,EUS,LLM提取,论文病例报告,2000-07-01,评估,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f7a1f2b3-0a1d-4c4f-9e2d-4a8a7f0d7d77,患者,影像所见,,文本型,胃底部可见管状无回声间隙，考虑胃静脉曲张,,直径约2 mm,,EUS,LLM提取,论文病例报告,2000-07-01,影像,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f7a1f2b3-0a1d-4c4f-9e2d-4a8a7f0d7d77,患者,用药名称,,类别型,5% monoethanolamine oleate,,再次EIS治疗,,,LLM提取,论文病例报告,2000-07-01,用药,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,f7a1f2b3-0a1d-4c4f-9e2d-4a8a7f0d7d77,患者,给药途径,,类别型,静脉内直接注射,,,,,LLM提取,论文病例报告,2000-07-01,用药,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,a6e2b1d4-2c3f-4b5a-8d6f-0c1d2e3f4a5b,患者,诊断名称,,类别型,门静脉高压,,伴脾大,,,LLM提取,论文病例报告,2000-07-01,诊断,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,b2c7d8e9-f0a1-4b2c-8d3e-9f0a1b2c3d4e,患者,检查名称,,文本型,腹部CT容积测量,,脾体积较肝切除前增加3.25倍,,CT,LLM提取,论文病例报告,2000-07-01,影像,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,b2c7d8e9-f0a1-4b2c-8d3e-9f0a1b2c3d4e,患者,影像所见,,文本型,脾大,,脾体积811 mL,,CT,LLM提取,论文病例报告,2000-07-01,影像,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,e3f4a5b6-c7d8-4e9f-8a1b-2c3d4e5f6a7b,患者,治疗方案,,类别型,部分脾动脉栓塞（PSE）,,为了降低门静脉压力并预防静脉曲张再出血,,,LLM提取,论文病例报告,2000-07-01,病程,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,e3f4a5b6-c7d8-4e9f-8a1b-2c3d4e5f6a7b,患者,治疗反应,,类别型,有效,,静脉曲张和出血未再出现,,,LLM提取,论文病例报告,2000-07-01,病程,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,9a8b7c6d-5e4f-4a3b-9c2d-1e0f2a3b4c5d,标本,病理/检查结果,,文本型,部分脾组织缺血坏死,,PSE后7天；坏死范围约占全脾70%,,CT容积测量,LLM提取,论文病例报告,2000-07-07,病理,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,9a8b7c6d-5e4f-4a3b-9c2d-1e0f2a3b4c5d,患者,实验室检查项目,,数值型,血小板,153000,"由57,000/μL升至153,000/μL",/μL,,LLM提取,论文病例报告,2000-07-07,检验,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,9a8b7c6d-5e4f-4a3b-9c2d-1e0f2a3b4c5d,患者,不良反应名称,,类别型,低热,,伴轻度左上腹痛,,,LLM提取,论文病例报告,2000-07-07,不良反应,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,9a8b7c6d-5e4f-4a3b-9c2d-1e0f2a3b4c5d,患者,处理措施,,文本型,给予退热镇痛药后缓解,,PSE术后继续庆大霉素至14天,,,LLM提取,论文病例报告,2000-07-07,不良反应,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,1b2c3d4e-5f6a-4b7c-8d9e-0a1b2c3d4e5f,患者,检查名称,,文本型,上消化道内镜（EGD）,,PSE后2年未见复发性食管胃静脉曲张,,EGD,LLM提取,论文病例报告,2002-01-01,评估,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,1b2c3d4e-5f6a-4b7c-8d9e-0a1b2c3d4e5f,患者,疗效评估,,类别型,无复发,,静脉曲张消失,,EGD,LLM提取,论文病例报告,2002-01-01,评估,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,6a7b8c9d-0e1f-4a2b-8c3d-4e5f6a7b8c9d,患者,实验室检查项目,,数值型,血小板,81000,"PSE后1年降至81,000/μL",/μL,,LLM提取,论文病例报告,2001-01-01,检验,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,6a7b8c9d-0e1f-4a2b-8c3d-4e5f6a7b8c9d,患者,实验室检查项目,,数值型,脾体积,327,PSE后1年,mL,CT容积测量,LLM提取,论文病例报告,2001-01-01,检验,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,7c8d9e0f-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,用药名称,,类别型,恩替卡韦,,治疗慢性乙型肝炎,,,LLM提取,论文病例报告,2007-01-01,用药,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,7c8d9e0f-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,剂量,,数值型,0.5,0.5,,mg/day,,LLM提取,论文病例报告,2007-01-01,用药,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,患者,随访结果,,文本型,PSE后13年随访期间无静脉曲张复发或再出血,,患者最终死于复发性肝细胞癌,,,LLM提取,论文病例报告,2013-01-01,病程,v1
+8ccb0e2d1649fa05e2db2fed7dfd8853,0f7d59c3f99648ada100ccc7568f9aaf,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,患者,诊断名称,,类别型,复发性肝细胞癌,,死亡原因,,,LLM提取,论文病例报告,2013-01-01,诊断,v1

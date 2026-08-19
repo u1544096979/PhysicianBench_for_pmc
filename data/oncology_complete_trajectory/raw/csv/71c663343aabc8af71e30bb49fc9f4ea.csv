@@ -1,0 +1,46 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,2e6c9a4a-9c7a-4d3d-b7f2-8f0c0fbc4f5b,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,,病史,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,2e6c9a4a-9c7a-4d3d-b7f2-8f0c0fbc4f5b,患者,年龄,,数值型,1岁8个月,1.67,,岁,,LLM提取,论文病例报告,,病史,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,9c0d0b10-4e58-4f86-8d26-8e5d1f1d6c5a,患者,主诉,,文本型,孕检发现肝内肿块，出生后确诊肝母细胞瘤，外院口服仑伐替尼后肿瘤增大，入院治疗,,,,,LLM提取,论文病例报告,2024-11-10,病史,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,4f4a4e2b-6cc0-4a55-b8a1-2b1d6e9d4e8d,患者,诊断名称,,类别型,肝母细胞瘤,,超声引导活检后明确；伴髓外造血，胚胎型,,,LLM提取,论文病例报告,,诊断,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,6f0f0e9f-f0d8-4e47-95b8-4e0d4e8f7d8a,患者,影像所见,,文本型,肝实质内多发巨大、密度不均的肿块影，大小约13.1cm×7.9cm×9.9cm，左侧较大；边缘及内部见多发结节状和斑片状钙化，伴多发囊性样低密度区，增强后明显不均匀强化,,,,增强腹部CT,LLM提取,论文病例报告,2024-11-10,影像,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,6f0f0e9f-f0d8-4e47-95b8-4e0d4e8f7d8a,患者,影像结论,,文本型,巨大肝母细胞瘤，手术不可行,,,,增强腹部CT,LLM提取,论文病例报告,2024-11-10,影像,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f7a1d4f5-6f9f-4d0c-9f4c-8f7a8c6f1b9a,患者,药品名称,,类别型,仑伐替尼,,院外口服,,,LLM提取,论文病例报告,,用药,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,8d3e9d1a-3e0d-4dbd-9f5a-7b3d1e7d5f2c,患者,治疗方案,,类别型,C5VD化疗,,顺铂+长春新碱+5-氟尿嘧啶+多柔比星,,,LLM提取,论文病例报告,2024-11-10,用药,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,8d3e9d1a-3e0d-4dbd-9f5a-7b3d1e7d5f2c,患者,周期数,,数值型,1,1,,次,,LLM提取,论文病例报告,2024-11-10,用药,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,8d3e9d1a-3e0d-4dbd-9f5a-7b3d1e7d5f2c,患者,治疗反应,,文本型,化疗过程顺利,,,,,LLM提取,论文病例报告,2024-11-10,用药,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,e6c2d9f4-1c3b-4d52-9b57-6d8f1a2b3c4d,患者,不良反应名称,,类别型,骨髓抑制,,伴发热感染,,,LLM提取,论文病例报告,2024-11-10,不良反应,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,e6c2d9f4-1c3b-4d52-9b57-6d8f1a2b3c4d,患者,处理措施,,文本型,给予人粒细胞刺激因子、美罗培南、氟康唑治疗,,,,,LLM提取,论文病例报告,2024-11-10,不良反应,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,3d7f8e2a-5b1c-4f6d-8d2e-9f0a1b2c3d4e,患者,影像所见,,文本型,化疗2个周期后肿瘤约12.1cm×6.6cm×10.9cm，仍较大，术后残余肝体积小，且紧贴下腔静脉，难以R0切除,,,,增强腹部CT,LLM提取,论文病例报告,,影像,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,3d7f8e2a-5b1c-4f6d-8d2e-9f0a1b2c3d4e,患者,影像结论,,文本型,肿瘤仍大，手术不可行，继续化疗,,,,增强腹部CT,LLM提取,论文病例报告,,影像,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,a4b5c6d7-e8f9-4a1b-9c2d-3e4f5a6b7c8d,患者,治疗方案,,类别型,C5VD化疗,,第2个周期结束后继续2个周期，共4个周期,,,LLM提取,论文病例报告,,病程,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,a4b5c6d7-e8f9-4a1b-9c2d-3e4f5a6b7c8d,患者,周期数,,数值型,4,4,,次,,LLM提取,论文病例报告,,病程,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,a4b5c6d7-e8f9-4a1b-9c2d-3e4f5a6b7c8d,患者,治疗反应,,类别型,部分缓解，缩小有限,,肿瘤钙化增多，进一步化疗疗效欠佳,,,LLM提取,论文病例报告,,病程,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,5f6e7d8c-9b0a-4c1d-8e2f-1a2b3c4d5e6f,患者,影像所见,,文本型,4个周期化疗后，病灶约11.3cm×5.6cm×10.8cm，钙化增多，体积轻度缩小,,,,增强腹部CT,LLM提取,论文病例报告,,影像,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,5f6e7d8c-9b0a-4c1d-8e2f-1a2b3c4d5e6f,患者,影像结论,,文本型,肿瘤缩小缓慢，决定手术,,,,增强腹部CT,LLM提取,论文病例报告,,影像,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,7a8b9c0d-1e2f-4a3b-8c9d-0e1f2a3b4c5d,患者,评估方法,,文本型,术前3D CT重建,,,,,LLM提取,论文病例报告,2025-02-25,评估,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,7a8b9c0d-1e2f-4a3b-8c9d-0e1f2a3b4c5d,患者,评估结果,,文本型,直接切除后仅剩24%未来肝残余，肝衰竭风险高,,,,术前3D CT重建,LLM提取,论文病例报告,2025-02-25,评估,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,7a8b9c0d-1e2f-4a3b-8c9d-0e1f2a3b4c5d,患者,临床分期,,类别型,POST-TEXT III期,,文中亦提及PRETEXT III/IV背景,,,LLM提取,论文病例报告,2025-02-25,诊断,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6e,患者,手术名称,,类别型,ALPPS第一阶段手术,,肝脏劈离+右门静脉结扎,,,LLM提取,论文病例报告,2025-02-25,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6e,患者,手术结果,,文本型,完成第一阶段手术，右门静脉分支结扎，左门静脉血供无损,,,,,LLM提取,论文病例报告,2025-02-25,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6e,患者,出血量,,数值型,,,,,,LLM提取,论文病例报告,2025-02-25,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,d1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e6f,患者,评估结果,,文本型,术后10天复查，残余肝体积增至35%,,,,3D重建CT复查,LLM提取,论文病例报告,2025-03-07,评估,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,d1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e6f,患者,疗效评估,,类别型,满足二期切除条件,,,,3D重建CT复查,LLM提取,论文病例报告,2025-03-07,评估,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,e2f3a4b5-c6d7-4e8f-90a1-2b3c4d5e6f7a,患者,手术名称,,类别型,ALPPS第二阶段手术/肝母细胞瘤切除术,,切除右三叶，保留并缝合胆囊,,,LLM提取,论文病例报告,2025-03-09,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,e2f3a4b5-c6d7-4e8f-90a1-2b3c4d5e6f7a,患者,手术结果,,文本型,肿瘤完全切除，无残余肿瘤，术中胆道未见异常，放置腹腔引流管,,,,,LLM提取,论文病例报告,2025-03-09,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,e2f3a4b5-c6d7-4e8f-90a1-2b3c4d5e6f7a,患者,出血量,,数值型,,,,,,LLM提取,论文病例报告,2025-03-09,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a5b,患者,一般状况_黄疸,,文本型,巩膜及皮肤黄染,,术后第2天,,,LLM提取,论文病例报告,2025-03-11,评估,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a5b,血清,总胆红素,,数值型,174.8,174.8,,μmol/L,,LLM提取,论文病例报告,2025-03-11,检验,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a5b,血清,直接胆红素,,数值型,139.7,139.7,,μmol/L,,LLM提取,论文病例报告,2025-03-11,检验,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a5b,引流液,引流量,,数值型,240,240,淡红色液体,mL,,LLM提取,论文病例报告,2025-03-11,检验,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,患者,一般状况_黄疸,,文本型,巩膜及皮肤黄疸较前稍改善,,术后第3天,,,LLM提取,论文病例报告,2025-03-12,评估,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,血清,总胆红素,,数值型,76.8,76.8,,μmol/L,,LLM提取,论文病例报告,2025-03-12,检验,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,血清,直接胆红素,,数值型,61.8,61.8,,μmol/L,,LLM提取,论文病例报告,2025-03-12,检验,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,引流液,引流量,,数值型,230,230,淡黄色胆汁样液体,mL,,LLM提取,论文病例报告,2025-03-12,检验,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f3a4b5c6-d7e8-4f90-8a1b-2c3d4e5f6a7b,患者,诊断名称,,类别型,胆瘘,,保守治疗无效,,,LLM提取,论文病例报告,2025-03-12,诊断,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f4b5c6d7-e8f9-4a1b-9c2d-3e4f5a6b7c8e,患者,治疗方案,,类别型,保守治疗,,抗炎、补液、营养支持、白蛋白输注,,,LLM提取,论文病例报告,2025-03-12,病程,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f5c6d7e8-f90a-4b1c-8d2e-3f4a5b6c7d8e,患者,手术名称,,类别型,第三次手术,,肝空肠Roux-en-Y吻合/胆肠重建,,,LLM提取,论文病例报告,2025-03-25,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f5c6d7e8-f90a-4b1c-8d2e-3f4a5b6c7d8e,患者,手术结果,,文本型,发现肝断面3处胆管口持续漏胆，行胆肠吻合重建成功，放置腹腔引流管,,,,,LLM提取,论文病例报告,2025-03-25,手术,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f6d7e8f9-0a1b-4c2d-9e3f-4a5b6c7d8e9f,患者,治疗方案,,类别型,术后辅助化疗,,继续4个周期C5VD化疗,,,LLM提取,论文病例报告,,病程,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f6d7e8f9-0a1b-4c2d-9e3f-4a5b6c7d8e9f,患者,周期数,,数值型,4,4,,次,,LLM提取,论文病例报告,,病程,v1
+71c663343aabc8af71e30bb49fc9f4ea,10270b904330645fdba175deaeeebca3,f7e8f9a0-b1c2-4d3e-9f4a-5b6c7d8e9f0a,患者,随访结果,,文本型,术后6个月复查无复发或转移，残余肝脏保存良好,,1个月及6个月MRI随访提示稳定,,随访MRI,LLM提取,论文病例报告,2025-09-09,病程,v1

@@ -1,0 +1,49 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,3f7b7af0-4b1f-4a5f-8f23-2d8d1d4a4f7a,患者,入院年龄,,数值型,58,58,,岁,,LLM提取,论文病例报告,2011-01-01,入院,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,5a5c1f0c-2f5f-4af4-8d4a-8f2b0a7f8e3e,患者,手术名称,,文本型,盆腔肿块切除术、子宫切除术及双侧输卵管卵巢切除术,,肿块大小16x10x15 cm,,,LLM提取,论文病例报告,2011-01-01,手术,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,5a5c1f0c-2f5f-4af4-8d4a-8f2b0a7f8e3e,患者,手术结果,,文本型,盆腔肿块被切除,,,,,LLM提取,论文病例报告,2011-01-01,手术,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,d3a8e4d2-3d4b-4f8d-8c1e-0d7f2b4d9a91,肿瘤标本,病理诊断,,文本型,形态学双相性间充质肿瘤，含梭形细胞和上皮样细胞；低至中度EGIST,,核分裂指数<5/50 HPF；Ki-67标记指数5%,,组织病理学,LLM提取,论文病例报告,2011-01-01,病理,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,d3a8e4d2-3d4b-4f8d-8c1e-0d7f2b4d9a91,肿瘤标本,免疫组化,,文本型,CD117阳性、P16阳性、SMA阳性、CD34阴性,,DOG1阴性；CAM5.2阴性；CK34betaE12阴性；Cromogranin阴性；HMB45阴性；Inibin阴性；Calretinin阴性；S100阴性；Melan A阴性；Desmin阴性；CD21阴性；CD23阴性；ER阴性；EMA阴性,,免疫组织化学,LLM提取,论文病例报告,2011-01-01,病理,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,d4a2e8f4-7d3f-4d7c-8b1b-1d2f3a4c5b6d,患者,诊断名称,,类别型,低至中度EGIST,,病理分期pT4N0M0；复发高风险,,,LLM提取,论文病例报告,2011-01-01,诊断,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,e5b3c2a1-9f4d-4b7a-8c3d-2e1f0a9b8c7d,患者,影像所见,,文本型,术前CT未见其他病灶,,,,CT,LLM提取,论文病例报告,2011-01-01,影像,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,f6c1d2e3-4a5b-4c6d-8e7f-9012ab3c4d5e,患者,病史,,文本型,2011年因盆腔肿块接受手术，术后未行辅助伊马替尼治疗，仅进行临床和影像随访,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,a1b2c3d4-e5f6-4789-8abc-def012345678,患者,影像所见,,文本型,妇科超声发现3个盆腔非囊性病灶，腹部CT证实为恶性复发,,38x40x33 mm；78x42x54 mm；27x17 mm,,超声/CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,b2c3d4e5-f607-489a-9bcd-ef0123456789,患者,诊断名称,,类别型,盆腔疾病复发/转移性EGIST,,,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,c3d4e5f6-0718-49ab-9cde-f0123456789a,患者,药品名称,,类别型,伊马替尼,,,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,c3d4e5f6-0718-49ab-9cde-f0123456789a,患者,剂量,,数值型,400,400,,mg/day,,LLM提取,论文病例报告,2014-01-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,c3d4e5f6-0718-49ab-9cde-f0123456789a,患者,治疗反应,,类别型,有效但出现2级中性粒细胞减少,,,,,LLM提取,论文病例报告,2014-01-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,d4e5f607-1829-4abc-9def-0123456789ab,患者,疗效评估,,类别型,疾病进展,,影像学评估后证实腹膜病变进展,,影像学评估,LLM提取,论文病例报告,2014-07-01,评估,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,e5f60718-29ab-4bcd-9ef0-123456789abc,患者,药品名称,,类别型,舒尼替尼,,,,,LLM提取,论文病例报告,2014-07-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,e5f60718-29ab-4bcd-9ef0-123456789abc,患者,剂量,,数值型,25,25,,mg/day,,LLM提取,论文病例报告,2014-07-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,e5f60718-29ab-4bcd-9ef0-123456789abc,患者,治疗反应,,类别型,总体耐受良好，但有反复2级中性粒细胞减少,,后减量至12.5 mg/day,,,LLM提取,论文病例报告,2014-07-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,f6071829-abcd-4ef0-9012-3456789abcde,患者,诊断名称,,类别型,腹膜病变进展,,,,,LLM提取,论文病例报告,2018-07-01,诊断,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,a2b3c4d5-e6f7-4890-9abc-def123456789,患者,药品名称,,类别型,瑞戈非尼,,,,,LLM提取,论文病例报告,2019-06-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,a2b3c4d5-e6f7-4890-9abc-def123456789,患者,剂量,,数值型,160,160,3周用药/1周停药,mg/day,,LLM提取,论文病例报告,2019-06-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,a2b3c4d5-e6f7-4890-9abc-def123456789,患者,治疗方案,,类别型,第三线治疗,,,,,LLM提取,论文病例报告,2019-06-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,b3c4d5e6-f7a8-4901-abcd-ef23456789ab,全血细胞计数,红细胞计数,,数值型,5.65,5.65,正常范围4.0-5.2,x10^6/μL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,b3c4d5e6-f7a8-4901-abcd-ef23456789ab,全血细胞计数,血红蛋白,,数值型,16.7,16.7,正常范围12-16；CTCAE v5.0 G1,g/dl,,LLM提取,论文病例报告,2019-12-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,b3c4d5e6-f7a8-4901-abcd-ef23456789ab,患者,治疗反应,,类别型,继续原剂量瑞戈非尼并监测血常规,,因有临床获益且Hct正常,,,LLM提取,论文病例报告,2019-12-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,c4d5e6f7-a8b9-4012-bcde-f3456789abcd,全血细胞计数,血红蛋白,,数值型,17.6,17.6,CTCAE v5.0 G1,g/dl,,LLM提取,论文病例报告,2020-06-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,c4d5e6f7-a8b9-4012-bcde-f3456789abcd,患者,治疗反应,,类别型,血红蛋白继续轻度升高，未出现症状,,Hct无明显升高,,,LLM提取,论文病例报告,2020-06-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,d5e6f7a8-b9c0-4123-cdef-456789abcde0,患者,诊断名称,,类别型,SARS-CoV-2感染,,重症住院,,,LLM提取,论文病例报告,2022-06-01,诊断,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,d5e6f7a8-b9c0-4123-cdef-456789abcde0,患者,治疗反应,,类别型,瑞戈非尼停药超过6周,,因SARS-CoV-2感染住院,,,LLM提取,论文病例报告,2022-06-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,e6f7a8b9-c0d1-4234-def0-56789abcde01,全血细胞计数,血红蛋白,,数值型,13.6,13.6,出院时恢复正常,g/dl,,LLM提取,论文病例报告,2022-07-15,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,e6f7a8b9-c0d1-4234-def0-56789abcde01,患者,治疗方案,,类别型,瑞戈非尼重新启动,,减量至40 mg/day,,,LLM提取,论文病例报告,2022-07-15,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,f7a8b9c0-d1e2-4345-ef01-6789abcde012,全血细胞计数,血红蛋白,,数值型,19.5,19.5,CTCAE v5.0 G2；Hct 60%,g/dl,,LLM提取,论文病例报告,2023-01-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,f7a8b9c0-d1e2-4345-ef01-6789abcde012,全血细胞计数,红细胞比容,,数值型,60,60,正常范围41-54,%,,LLM提取,论文病例报告,2023-01-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,f7a8b9c0-d1e2-4345-ef01-6789abcde012,全血细胞计数,促红细胞生成素,,数值型,21.4,21.4,正常范围2.59-18.50,mU/ml,,LLM提取,论文病例报告,2023-01-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,f7a8b9c0-d1e2-4345-ef01-6789abcde012,患者,治疗反应,,类别型,出现红细胞增多症，停药并行放血治疗,,2次放血后恢复正常,,,LLM提取,论文病例报告,2023-01-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,08192a3b-4c5d-4e6f-8a9b-b0c1d2e3f405,全血细胞计数,血红蛋白,,数值型,17.4,17.4,CTCAE v5.0 G1；Hct 54.3%,g/dl,,LLM提取,论文病例报告,2023-01-08,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,08192a3b-4c5d-4e6f-8a9b-b0c1d2e3f405,全血细胞计数,红细胞比容,,数值型,54.3,54.3,,%,,LLM提取,论文病例报告,2023-01-08,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,08192a3b-4c5d-4e6f-8a9b-b0c1d2e3f405,患者,治疗反应,,类别型,再次出现血红蛋白升高，需第三次放血,,尝试同剂量重启瑞戈非尼后1周,,,LLM提取,论文病例报告,2023-01-08,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,192a3b4c-5d6e-4f70-8a9b-c0d1e2f30456,患者,治疗方案,,类别型,瑞戈非尼隔日40 mg再挑战,,最终尝试,,,LLM提取,论文病例报告,2023-01-22,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,192a3b4c-5d6e-4f70-8a9b-c0d1e2f30456,患者,治疗反应,,类别型,再次失败，需再次放血后永久停用瑞戈非尼,,随后停止TKI治疗,,,LLM提取,论文病例报告,2023-01-22,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,2a3b4c5d-6e7f-4081-9abc-d0e1f2034567,患者,检验项目,,类别型,JAK V617F突变,,阴性,,基因检测,LLM提取,论文病例报告,2023-01-01,检验,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,2a3b4c5d-6e7f-4081-9abc-d0e1f2034567,患者,诊断名称,,类别型,原发性红细胞增多症,,已排除,,,LLM提取,论文病例报告,2023-01-01,诊断,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,3b4c5d6e-7f80-4192-abcd-e1f203456789,患者,影像所见,,文本型,CT复查示盆腔病灶稳定,,,,CT,LLM提取,论文病例报告,2023-08-01,影像,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,3b4c5d6e-7f80-4192-abcd-e1f203456789,患者,药品名称,,类别型,伊马替尼,,,,,LLM提取,论文病例报告,2023-08-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,3b4c5d6e-7f80-4192-abcd-e1f203456789,患者,剂量,,数值型,200,200,,mg/day,,LLM提取,论文病例报告,2023-08-01,用药,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,3b4c5d6e-7f80-4192-abcd-e1f203456789,患者,治疗反应,,类别型,重新挑战伊马替尼,,,,,LLM提取,论文病例报告,2023-08-01,病程,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,4c5d6e7f-8091-42a3-bcde-f203456789ab,患者,诊断名称,,类别型,系统性感染,,导致死亡,,,LLM提取,论文病例报告,2023-12-01,诊断,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,4c5d6e7f-8091-42a3-bcde-f203456789ab,患者,出院状况,,类别型,死亡,,,,,LLM提取,论文病例报告,2023-12-01,出院,v1
+1fa03bb0a4324e34cdffb520fe1c739a,ebacfdbfcbad9accad39b4b33c5f0d32_1,4c5d6e7f-8091-42a3-bcde-f203456789ab,患者,总生存期,,数值型,151,151,自首次诊断起,月,,LLM提取,论文病例报告,2023-12-01,病程,v1

@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,c8f9f5d1-7d8e-4d38-9f3f-b7c0a5f8b1a1,患者,家族史,,文本型,父亲：局限性前列腺癌和转移性膀胱癌；母亲：终末期肾病和胃癌,,,,,LLM提取,论文病例报告,,病史,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,b2b4ef4e-5e0d-4ef7-8a18-0f3d7d1d7f36,患者,个人史,,文本型,无吸烟、饮酒或娱乐性药物使用史；从事放射和核医学技术工作20年以上；有肾结石史、已治疗潜伏性结核、牙科种植体进行中,,,,,LLM提取,论文病例报告,,病史,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,4f2c7b0e-8c0c-4e52-9d4d-5d7e9f7c5b33,患者,主诉,,文本型,左侧颈部肿块逐渐增大,,,,,LLM提取,论文病例报告,2021-02-01,病史,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,4f2c7b0e-8c0c-4e52-9d4d-5d7e9f7c5b33,患者,入院年龄,,数值型,61,61,,岁,,LLM提取,论文病例报告,2021-02-01,入院,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,4f2c7b0e-8c0c-4e52-9d4d-5d7e9f7c5b33,患者,入院科室,,类别型,门诊/初诊（PCP评估后转至肿瘤科）,,,,,LLM提取,论文病例报告,2021-02-01,入院,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,9c7f6d2b-0d3b-4d94-b6b7-6a4e5d2b0f91,患者,查体,,文本型,左锁骨上区约2 cm肿块，质硬、固定、无压痛；其余体格检查及生命体征未见异常,,,,,LLM提取,论文病例报告,2021-02-01,评估,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,a7cdb8c1-4d5f-4f7e-a7a1-5e1a6d8f2c12,血液,PSA,,数值型,86.6,86.6,参考范围0.0-4.0 ng/mL,ng/mL,,LLM提取,论文病例报告,2021-02-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,a7cdb8c1-4d5f-4f7e-a7a1-5e1a6d8f2c12,尿液,Blood,,类别型,Trace-lysed,,参考范围Negative-Large (3+),,POC尿试纸,LLM提取,论文病例报告,2021-02-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,a7cdb8c1-4d5f-4f7e-a7a1-5e1a6d8f2c12,血液,TSH,,数值型,1.43,1.43,参考范围0.27-4.20 uIU/mL,uIU/mL,,LLM提取,论文病例报告,2021-02-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,a7cdb8c1-4d5f-4f7e-a7a1-5e1a6d8f2c12,血液,Hepatitis C Antibody,,类别型,Non-reactive,,参考范围Non-reactive,,,LLM提取,论文病例报告,2021-02-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,2f6f0d1a-8f88-4cb1-bc4d-2d3d4e6f9a55,血液,PSA,,数值型,135,135,参考范围0.0-4.0 ng/mL,ng/mL,,LLM提取,论文病例报告,2021-03-09,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,2f6f0d1a-8f88-4cb1-bc4d-2d3d4e6f9a55,血液,CMP,,类别型,WNL,,复查,,,LLM提取,论文病例报告,2021-03-09,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,2f6f0d1a-8f88-4cb1-bc4d-2d3d4e6f9a55,血液,CBC,,类别型,WNL,,复查,,,LLM提取,论文病例报告,2021-03-09,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,2f6f0d1a-8f88-4cb1-bc4d-2d3d4e6f9a55,患者,诊断名称,,类别型,IV期前列腺癌（转移性前列腺癌）,,临床推断,,,LLM提取,论文病例报告,2021-03-09,诊断,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,2f6f0d1a-8f88-4cb1-bc4d-2d3d4e6f9a55,患者,临床分期,,类别型,IV期,,,,,LLM提取,论文病例报告,2021-03-09,诊断,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,7d5d5f6c-4a7f-4b2a-9c8f-1d9f0f2e3a66,影像检查,影像所见,,文本型,全身骨显像未见成骨性病灶；CT示左锁骨上淋巴结肿大（1.7×2.2 cm），无纵隔/腋窝淋巴结肿大；腹膜后淋巴结肿大（左腹主动脉旁、腔静脉旁、主动脉腔静脉旁链）；盆腔淋巴结肿大（右髂总链、左髂总分叉）；前列腺右侧外周区高密度影，考虑原发前列腺恶性肿瘤,,CT胸/腹/盆腔静脉增强 + 全身骨显像,,CT with IV contrast; whole-body bone imaging,LLM提取,论文病例报告,2021-03-09,影像,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,d7e4d6a2-9f9a-4e2d-8d1d-3c2b1a6e7f88,患者,病理诊断,,文本型,PSA阳性、PSAP阳性的非小细胞癌，最符合前列腺来源；未见明确背景淋巴结组织,,淋巴结活检,,数字病理,LLM提取,论文病例报告,2021-03-16,病理,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,9e0c7f5a-2a1b-4d9c-b6d1-4d8d3c1f2a77,患者,治疗方案,,类别型,雄激素剥夺治疗（leuprolide acetate）,,计划随后docetaxel，之后考虑abiraterone,,,LLM提取,论文病例报告,2021-03-16,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,3a2e1c4d-5b6f-4a7d-8c9e-2f1a3b4c5d6e,患者,治疗方案,,类别型,草药综合疗法/草药奶昔,,等待保险批准期间自行使用,,,LLM提取,论文病例报告,2021-03-16,病程,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,3a2e1c4d-5b6f-4a7d-8c9e-2f1a3b4c5d6e,患者,治疗反应,,类别型,PSA下降,,约2个月后下降10倍,,,LLM提取,论文病例报告,2021-04-14,病程,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,3a2e1c4d-5b6f-4a7d-8c9e-2f1a3b4c5d6e,血液,PSA,,数值型,9.9,9.9,参考范围0.0-4.0 ng/mL,ng/mL,,LLM提取,论文病例报告,2021-04-14,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,5f4a6b7c-8d9e-4f1a-9b2c-3d4e5f6a7b88,药品,药品名称,,类别型,docetaxel,,每3周一次；合并周期前地塞米松预处理,,,LLM提取,论文病例报告,2021-04-14,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,5f4a6b7c-8d9e-4f1a-9b2c-3d4e5f6a7b88,药品,给药途径,,类别型,静脉输注,,,,,LLM提取,论文病例报告,2021-04-14,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,5f4a6b7c-8d9e-4f1a-9b2c-3d4e5f6a7b88,药品,用药周期,,文本型,每3周1次，完成6个周期中的5个,,,,,LLM提取,论文病例报告,2021-04-14,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,5f4a6b7c-8d9e-4f1a-9b2c-3d4e5f6a7b88,患者,不良反应名称,,类别型,neuropathy,,导致2021年7月停药,,,LLM提取,论文病例报告,2021-07-01,不良反应,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,8a7b6c5d-4e3f-4d2c-9b1a-0f1e2d3c4b55,患者,治疗方案,,类别型,leuprolide acetate维持治疗,,化疗后开始,,,LLM提取,论文病例报告,2021-07-01,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,8a7b6c5d-4e3f-4d2c-9b1a-0f1e2d3c4b55,血液,PSA,,数值型,0.5,0.5,参考范围0.0-4.0 ng/mL,ng/mL,,LLM提取,论文病例报告,2021-08-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,8a7b6c5d-4e3f-4d2c-9b1a-0f1e2d3c4b55,血液,CBC,,类别型,WNL,,复查,,,LLM提取,论文病例报告,2021-08-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,8a7b6c5d-4e3f-4d2c-9b1a-0f1e2d3c4b55,血液,CMP,,类别型,WNL,,复查,,,LLM提取,论文病例报告,2021-08-02,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e55,患者,治疗方案,,类别型,apalutamide,,2023年1月开始,,,LLM提取,论文病例报告,2023-01-01,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e55,血液,PSA,,数值型,3.7,3.7,较前升高,ng/mL,,LLM提取,论文病例报告,2023-01-01,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e55,患者,治疗反应,,类别型,PSA下降,,使用apalutamide后降至0.6 ng/mL,,,LLM提取,论文病例报告,2023-01-01,病程,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,6b7c8d9e-0a1b-4c5d-8e9f-1a2b3c4d5e66,患者,不良反应名称,,类别型,腹胀和皮疹,,影响行走，停用apalutamide,,,LLM提取,论文病例报告,2023-03-01,不良反应,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,6b7c8d9e-0a1b-4c5d-8e9f-1a2b3c4d5e66,患者,治疗方案,,类别型,Lupron（leuprolide）持续治疗,,未联合abiraterone/prednisone,,,LLM提取,论文病例报告,2023-03-01,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,6b7c8d9e-0a1b-4c5d-8e9f-1a2b3c4d5e66,血液,PSA,,数值型,3.9,3.9,较前上升,ng/mL,,LLM提取,论文病例报告,2023-08-01,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,6b7c8d9e-0a1b-4c5d-8e9f-1a2b3c4d5e66,患者,治疗方案,,类别型,Provenge,,2023年8月接受,,,LLM提取,论文病例报告,2023-08-01,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,6b7c8d9e-0a1b-4c5d-8e9f-1a2b3c4d5e66,血液,PSA,,数值型,7.8,7.8,继续升高,ng/mL,,LLM提取,论文病例报告,2023-08-01,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,4d5e6f7a-8b9c-4d1e-9f0a-1b2c3d4e5f77,患者,治疗方案,,类别型,abiraterone,,2023年12月同意使用,,,LLM提取,论文病例报告,2023-12-01,用药,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,4d5e6f7a-8b9c-4d1e-9f0a-1b2c3d4e5f77,血液,PSA,,数值型,0.04,0.04,至2024年3月,ng/mL,,LLM提取,论文病例报告,2024-03-01,检验,v1
+db60bf0d93ec1728b52d0e79444a2690,903c07a3b90a5fcb452e173b0dfdcdc7_1,7e8f9a0b-1c2d-4e5f-8a9b-0c1d2e3f4a88,患者,治疗方案,,类别型,darolutamide,,2024年10月改用,,,LLM提取,论文病例报告,2024-10-01,用药,v1

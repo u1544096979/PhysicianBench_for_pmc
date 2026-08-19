@@ -1,0 +1,62 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,3c4b6e3f-5b9c-4ef0-9f8e-0c8a8b0a1111,患者,入院年龄,,数值型,55,55,,岁,,LLM提取,论文病例报告,2020-06-15,入院,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,3c4b6e3f-5b9c-4ef0-9f8e-0c8a8b0a1111,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2020-06-15,入院,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,3c4b6e3f-5b9c-4ef0-9f8e-0c8a8b0a1111,患者,主诉,,文本型,右下腹疼痛5个月，腹泻20天,,,,,LLM提取,论文病例报告,2020-06-15,病史,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,5e9d3d7b-7c7d-4e0d-8f1f-2b1f9b3f2222,患者,诊断名称,,类别型,弥漫大B细胞淋巴瘤,,非生发中心B细胞样（non-GCB）,,WHO 2016；Hans算法,LLM提取,论文病例报告,2020-06-15,诊断,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,5e9d3d7b-7c7d-4e0d-8f1f-2b1f9b3f2222,患者,临床分期,,类别型,IIE期,,伴B症状,,Ann Arbor分期,LLM提取,论文病例报告,2020-06-15,诊断,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,5e9d3d7b-7c7d-4e0d-8f1f-2b1f9b3f2222,患者,诊断编码,,类别型,IPI 1分,,低中危组,,,LLM提取,论文病例报告,2020-06-15,诊断,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,a4a1f6c6-8f2e-4a1c-a5cc-3a2a4b4d3333,病理标本,病理诊断,,文本型,非生发中心B细胞样弥漫大B细胞淋巴瘤,,CD30稀疏表达,,病理检查/免疫组化,LLM提取,论文病例报告,2020-06-15,病理,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,a4a1f6c6-8f2e-4a1c-a5cc-3a2a4b4d3333,病理标本,标本部位,,类别型,回肠末端及回盲部肿块,,,,,LLM提取,论文病例报告,2020-06-15,病理,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,a4a1f6c6-8f2e-4a1c-a5cc-3a2a4b4d3333,病理标本,免疫组化,,文本型,CD20、CD79a、CD30、MUM-1、Bcl-2、Bcl-6、P53、Ki-67、c-Myc阳性；CD10、CD21/CD23、CD3、CD5、CyclinD1、CK阴性,,,,免疫组织化学,LLM提取,论文病例报告,2020-06-15,病理,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,b6fd0b8d-0b27-4d0f-a2b3-4a5a4c4d4444,血液,红细胞计数,,数值型,3.24×10^12,3.24,,/L,,LLM提取,论文病例报告,2020-06-15,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,b6fd0b8d-0b27-4d0f-a2b3-4a5a4c4d4444,血液,血红蛋白,,数值型,88.50,88.50,,g/L,,LLM提取,论文病例报告,2020-06-15,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,b6fd0b8d-0b27-4d0f-a2b3-4a5a4c4d4444,血液,中性粒细胞计数,,数值型,1.08×10^9,1.08,,/L,,LLM提取,论文病例报告,2020-06-15,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,b6fd0b8d-0b27-4d0f-a2b3-4a5a4c4d4444,血液,乳酸脱氢酶,,数值型,205,205,,U/L,,LLM提取,论文病例报告,2020-06-15,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c7a0d7f7-8b88-4f31-b4d5-5a6a5d5e5555,粪便,粪便隐血试验,,类别型,阳性,,,,,LLM提取,论文病例报告,2020-06-15,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,d8b1e8a8-9c99-4c52-c5e6-6b7b6e6f6666,骨髓,骨髓检查结果,,文本型,未见淋巴瘤浸润,,骨髓穿刺及活检,,,LLM提取,论文病例报告,2020-06-15,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,e9c2f9b9-aaaa-4d63-d6f7-7c8c7f7g7777,PET/CT,影像所见,,文本型,回盲部、升结肠、结肠及右腹主动脉旁区多发淋巴瘤病灶，SUVmax 7.5；双侧腹股沟区轻度淋巴结增生,,,,PET/CT,LLM提取,论文病例报告,2020-06-15,影像,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f0d3fafc-bbbb-4e74-e7f8-8d9d8g8h8888,患者,治疗方案,,类别型,R-CHOP,,共6个周期,,,LLM提取,论文病例报告,2020-06-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f0d3fafc-bbbb-4e74-e7f8-8d9d8g8h8888,患者,药品名称,,类别型,利妥昔单抗,,600 mg，day 0,mg,,LLM提取,论文病例报告,2020-06-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f0d3fafc-bbbb-4e74-e7f8-8d9d8g8h8888,患者,药品名称,,类别型,环磷酰胺,,1.2 g，day 1,g,,LLM提取,论文病例报告,2020-06-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f0d3fafc-bbbb-4e74-e7f8-8d9d8g8h8888,患者,药品名称,,类别型,长春新碱,,2 mg，day 1,mg,,LLM提取,论文病例报告,2020-06-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f0d3fafc-bbbb-4e74-e7f8-8d9d8g8h8888,患者,药品名称,,类别型,吡柔比星,,80 mg，day 1,mg,,LLM提取,论文病例报告,2020-06-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f0d3fafc-bbbb-4e74-e7f8-8d9d8g8h8888,患者,药品名称,,类别型,地塞米松,,15 mg，days 1–5,mg,,LLM提取,论文病例报告,2020-06-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,a1b2c3d4-e5f6-4a78-9abc-def012345678,患者,不良反应名称,,类别型,中性粒细胞减少,,II级,,,LLM提取,论文病例报告,2020-06-19,不良反应,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,b2c3d4e5-f6a7-4b89-abcd-ef0123456789,PET/CT,影像所见,,文本型,回盲部及升结肠区仍见残余肿瘤组织，较前范围缩小,,,,PET/CT,LLM提取,论文病例报告,2020-12-23,影像,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,b2c3d4e5-f6a7-4b89-abcd-ef0123456789,患者,疗效评估,,类别型,未达完全缓解,,提示需更换二线治疗,,PET/CT评估,LLM提取,论文病例报告,2020-12-23,评估,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c3d4e5f6-a7b8-4c90-bcde-f0123456789a,患者,治疗方案,,类别型,R2-GDP,,共6个周期,,,LLM提取,论文病例报告,2020-12-24,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c3d4e5f6-a7b8-4c90-bcde-f0123456789a,患者,药品名称,,类别型,利妥昔单抗,,600 mg，day 1,mg,,LLM提取,论文病例报告,2020-12-24,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c3d4e5f6-a7b8-4c90-bcde-f0123456789a,患者,药品名称,,类别型,吉西他滨,,1.6 g，days 1 and 7,g,,LLM提取,论文病例报告,2020-12-24,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c3d4e5f6-a7b8-4c90-bcde-f0123456789a,患者,药品名称,,类别型,顺铂,,60 mg，days 1 and 2,mg,,LLM提取,论文病例报告,2020-12-24,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c3d4e5f6-a7b8-4c90-bcde-f0123456789a,患者,药品名称,,类别型,地塞米松,,40 mg，days 1–4,mg,,LLM提取,论文病例报告,2020-12-24,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,c3d4e5f6-a7b8-4c90-bcde-f0123456789a,患者,药品名称,,类别型,来那度胺,,25 mg，days 1–10,mg,,LLM提取,论文病例报告,2020-12-24,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,d4e5f6a7-b8c9-4d01-cdef-0123456789ab,患者,疗效评估,,类别型,部分缓解,,,,PET/CT评估,LLM提取,论文病例报告,2021-06-01,评估,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,e5f6a7b8-c9d0-4e12-def0-123456789abc,患者,主诉,,文本型,发热，右腹部可触及肿块,,,,,LLM提取,论文病例报告,2021-06-01,病程,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,白细胞计数,,数值型,3.12×10^9,3.12,,/L,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,红细胞计数,,数值型,2.05×10^12,2.05,,/L,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,血小板计数,,数值型,58.20×10^9,58.20,,/L,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,乳酸脱氢酶,,数值型,382,382,,U/L,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,CA125,,数值型,47.20,47.20,,U/mL,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,铁蛋白,,数值型,3104.9,3104.9,,ng/mL,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,f6a7b8c9-d0e1-4f23-ef01-23456789abcd,血液,甘油三酯,,数值型,3.09,3.09,,mmol/L,,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,g7b8c9d0-e1f2-4f34-f012-3456789abcde,骨髓,骨髓检查结果,,文本型,骨髓增生活跃，可见吞噬细胞,,,,骨髓涂片,LLM提取,论文病例报告,2021-06-01,检验,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,h8c9d0e1-f2a3-4f45-0123-456789abcdef,PET/CT,影像所见,,文本型,回盲部、结肠及肠系膜病灶较前进展；新增右前膈淋巴结病灶,,,,PET/CT,LLM提取,论文病例报告,2021-06-01,影像,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,i9d0e1f2-a3b4-4f56-1234-56789abcdef0,患者,诊断名称,,类别型,复发/难治性弥漫大B细胞淋巴瘤合并继发性噬血细胞综合征,,,,,LLM提取,论文病例报告,2021-06-01,诊断,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,j0e1f2a3-b4c5-4f67-2345-6789abcdef01,患者,治疗方案,,类别型,脂质体多柔比星+泽布替尼+紫杉醇+地西他滨+来那度胺,,首次使用第三线方案,,,LLM提取,论文病例报告,2021-11-05,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,j0e1f2a3-b4c5-4f67-2345-6789abcdef01,患者,药品名称,,类别型,脂质体多柔比星,,60 mg，day 1,mg,,LLM提取,论文病例报告,2021-11-05,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,j0e1f2a3-b4c5-4f67-2345-6789abcdef01,患者,药品名称,,类别型,泽布替尼,,160 mg，bid，days 1–14,mg,,LLM提取,论文病例报告,2021-11-05,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,j0e1f2a3-b4c5-4f67-2345-6789abcdef01,患者,药品名称,,类别型,紫杉醇,,0.4 g，day 5,g,,LLM提取,论文病例报告,2021-11-05,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,j0e1f2a3-b4c5-4f67-2345-6789abcdef01,患者,药品名称,,类别型,地西他滨,,10 mg，days 1–5,mg,,LLM提取,论文病例报告,2021-11-05,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,k1f2a3b4-c5d6-4f78-3456-789abcdef012,患者,不良反应名称,,类别型,骨髓抑制,,IV级,,,LLM提取,论文病例报告,2021-11-05,不良反应,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,k1f2a3b4-c5d6-4f78-3456-789abcdef012,患者,不良反应名称,,类别型,皮肤溃疡,,会阴及骶尾部多发，伴局部化脓,,,LLM提取,论文病例报告,2021-11-05,不良反应,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,l2a3b4c5-d6e7-4f89-4567-89abcdef0123,患者,主诉,,文本型,复发性发热,,,,,LLM提取,论文病例报告,2021-12-27,病程,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,l2a3b4c5-d6e7-4f89-4567-89abcdef0123,患者,诊断名称,,类别型,进展性淋巴瘤,,伴复发性噬血细胞综合征,,,LLM提取,论文病例报告,2021-12-27,诊断,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,m3b4c5d6-e7f8-4f90-5678-9abcdef01234,患者,治疗方案,,类别型,DEP方案,,地塞米松+依托泊苷+顺铂,,,LLM提取,论文病例报告,2022-01-03,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,m3b4c5d6-e7f8-4f90-5678-9abcdef01234,患者,治疗反应,,类别型,无效,,持续发热，噬血细胞标志物未恢复正常,,,LLM提取,论文病例报告,2022-01-03,病程,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,n4c5d6e7-f8g9-4f01-6789-abcdef012345,患者,治疗方案,,类别型,维布妥昔单抗联合PD-1单抗,,每3周1次，共5个周期,,,LLM提取,论文病例报告,2022-01-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,n4c5d6e7-f8g9-4f01-6789-abcdef012345,患者,药品名称,,类别型,维布妥昔单抗,,200 mg，day 1,mg,,LLM提取,论文病例报告,2022-01-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,n4c5d6e7-f8g9-4f01-6789-abcdef012345,患者,药品名称,,类别型,PD-1单克隆抗体,,200 mg，day 1,mg,,LLM提取,论文病例报告,2022-01-19,用药,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,o5d6e7f8-g9h0-4f12-789a-bcdef0123456,PET/CT,影像所见,,文本型,右前膈淋巴结病灶吸收失活；回盲部、结肠及肠系膜原发病灶明显改善，部分吸收失活，回盲部仍见肿瘤活性组织；未见明确新发病灶（Deauville 4分）,,,,PET/CT,LLM提取,论文病例报告,2022-05-07,影像,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,o5d6e7f8-g9h0-4f12-789a-bcdef0123456,患者,疗效评估,,类别型,部分缓解,,,,PET/CT评估,LLM提取,论文病例报告,2022-05-07,评估,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,p6e7f8g9-h0i1-4f23-89ab-cdef01234567,患者,随访结果,,文本型,持续接受维布妥昔单抗联合PD-1单抗维持治疗，未见复发、疾病进展或HLH再发，恢复正常生活,,随访至2025-03-08,,,LLM提取,论文病例报告,2025-03-08,病程,v1
+63faaccb6c8856aeb541e2d27bc65ed4,39c63e89844fae049f1a0c613ff4bd62_1,p6e7f8g9-h0i1-4f23-89ab-cdef01234567,患者,不良反应名称,,类别型,免疫相关不良反应,,未见3级及以上,,,LLM提取,论文病例报告,2025-03-08,不良反应,v1

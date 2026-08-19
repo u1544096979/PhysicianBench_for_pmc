@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2d1c6e1d-0b1f-4f86-9e9d-2a7c5d4f7a11,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2d1c6e1d-0b1f-4f86-9e9d-2a7c5d4f7a11,患者,年龄,,数值型,64岁,64,,岁,,LLM提取,论文病例报告,,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2d1c6e1d-0b1f-4f86-9e9d-2a7c5d4f7a11,患者,种族,,类别型,高加索人,,,,,LLM提取,论文病例报告,,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2d1c6e1d-0b1f-4f86-9e9d-2a7c5d4f7a11,患者,既往史,,文本型,高血压，控制良好,,,,,LLM提取,论文病例报告,,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2d1c6e1d-0b1f-4f86-9e9d-2a7c5d4f7a11,患者,家族史,,文本型,前列腺癌家族史阳性,,,,,LLM提取,论文病例报告,,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,4f1e6f4e-1f0d-4c70-9d6a-1d2e7b0c3f21,患者,主诉,,文本型,血尿，颈部淋巴结肿胀,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,5a3a7d10-4f9e-4f6b-8b51-4f6e6d2f9d32,患者,PSA,,数值型,90 ng/mL,90,,ng/mL,,LLM提取,论文病例报告,2010-01-01,检验,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,6b8d3c1a-2d4f-4d2d-9f0b-9a0f2f4a7b55,CT,影像所见,,文本型,膀胱受前列腺侵犯，腹部及颈部侧方淋巴结肿大,,,,全身CT,LLM提取,论文病例报告,2010-01-01,影像,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,7c9f0d1a-5d4c-4e8a-9d1e-5b2a1f3c8d66,左颈侧淋巴结,病理诊断,,文本型,低分化前列腺癌,,Gleason评分10,,活检,LLM提取,论文病例报告,2010-01-01,病理,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,7c9f0d1a-5d4c-4e8a-9d1e-5b2a1f3c8d66,前列腺病灶,病理诊断,,文本型,低分化前列腺癌,,Gleason评分10,,活检,LLM提取,论文病例报告,2010-01-01,病理,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,8d0a1e2f-6e7f-4f0b-9c2d-6e3f1b4a9c77,患者,诊断名称,,类别型,前列腺癌 IV期 cT4N1M1,,转移性前列腺癌,,,LLM提取,论文病例报告,2010-01-01,诊断,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,9e1b2c3d-4f5a-4b6c-8d7e-9f0a1b2c3d44,患者,治疗方案,,类别型,完全雄激素阻断治疗,,,,,LLM提取,论文病例报告,2010-01-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c55,患者,治疗方案,,类别型,卡铂+多西他赛,,,,,LLM提取,论文病例报告,2010-01-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c55,患者,治疗反应,,类别型,生化及影像学缓解,,,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d66,患者,治疗方案,,类别型,多西他赛+泼尼松,,10个周期,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d66,患者,适应证/背景,,文本型,mCRPC,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e77,患者,治疗方案,,类别型,唑来膦酸,,用于骨病变进展,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e788,患者,治疗方案,,类别型,恩杂鲁胺,,,,,LLM提取,论文病例报告,2017-02-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e788,患者,治疗方案,,类别型,左骶区放疗,,,,,LLM提取,论文病例报告,2017-02-01,手术,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e788,患者,症状,,文本型,足部麻木，骶部疼痛，部分马尾综合征,,,,,LLM提取,论文病例报告,2017-02-01,病史,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f899,患者,BRCA1突变,,类别型,阳性,,L1764fs*1，致病性截短突变；胚系分析阴性,,FoundationOne基因突变panel,LLM提取,论文病例报告,2018-06-01,诊断,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8900a,患者,PSA最低值,,数值型,0.17 ng/mL,0.17,,ng/mL,,LLM提取,论文病例报告,2018-06-01,检验,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,0a7b8c9d-e1f2-4a3b-4c5d-6e7f89012b3,患者,治疗方案,,类别型,卡巴他赛,,8个周期,,,LLM提取,论文病例报告,2021-08-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,0a7b8c9d-e1f2-4a3b-4c5d-6e7f89012b3,患者,治疗方案,,类别型,唑来膦酸强化输注,,,,,LLM提取,论文病例报告,2021-08-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,0a7b8c9d-e1f2-4a3b-4c5d-6e7f89012b3,患者,治疗反应,,类别型,部分生化缓解，后续CT稳定,,,,,LLM提取,论文病例报告,2021-08-01,病程,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,1b8c9d0e-f2a3-4b5c-6d7e-8f9012a3b4c6,患者,治疗方案,,类别型,奥拉帕利,,,,,LLM提取,论文病例报告,2023-01-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,1b8c9d0e-f2a3-4b5c-6d7e-8f9012a3b4c6,患者,疾病状态,,文本型,既知骨病灶进展，PSA 17.3 ng/mL，出现无症状生化及影像学进展,,,,,LLM提取,论文病例报告,2023-01-01,病程,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2c9d0e1f-f2a3-4b5c-6d7e-8f9012a3b4c7,患者,肺栓塞,,类别型,阳性,,奥拉帕利治疗4个月后发现，无症状,,,LLM提取,论文病例报告,2023-05-01,诊断,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,2c9d0e1f-f2a3-4b5c-6d7e-8f9012a3b4c7,患者,奥拉帕利剂量调整,,文本型,下调2级,,因3级贫血,,,LLM提取,论文病例报告,2023-05-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,3d0e1f2a-3b4c-5d6e-7f89-012a3b4c6d7e,患者,放疗部位,,类别型,右肩胛骨,,因疼痛,,,LLM提取,论文病例报告,2023-10-01,手术,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,4e1f2a3b-4c5d-6e7f-8901-2a3b4c6d7e8f,患者,新发皮肤结节,,文本型,头皮新发小结节，直径约10 mm，色素异常、略隆起、溃疡、边界不规则，无瘙痒,,,,体格检查,LLM提取,论文病例报告,2023-11-01,评估,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,4e1f2a3b-4c5d-6e7f-8901-2a3b4c6d7e8f,患者,PSA,,数值型,43.78 ng/mL,43.78,,ng/mL,,LLM提取,论文病例报告,2023-11-01,检验,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,5f2a3b4c-5d6e-7f89-012a-3b4c6d7e8f90,头皮病灶,手术名称,,类别型,完全切除,,整块切除,,整形外科会诊后手术切除,LLM提取,论文病例报告,2023-11-01,手术,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,5f2a3b4c-5d6e-7f89-012a-3b4c6d7e8f90,头皮病灶,手术结果,,文本型,切缘阴性,,,,,LLM提取,论文病例报告,2023-11-01,手术,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,6a3b4c5d-6e7f-8901-2a3b-4c6d7e8f9012,头皮病灶,病理诊断,,文本型,前列腺癌皮肤转移,,真皮-表皮组织恶性浸润，结节状实性生长，可见残余腺泡结构,,组织病理学+免疫组化,LLM提取,论文病例报告,2023-11-01,病理,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,6a3b4c5d-6e7f-8901-2a3b-4c6d7e8f9012,头皮病灶,免疫组化,,文本型,NKX3+、PSA+、PSAP+、S100−、SOX10−、MART1−、CK7−、p63−、p40−、GATA3−,,符合前列腺来源肿瘤,,免疫组化,LLM提取,论文病例报告,2023-11-01,病理,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,7b4c5d6e-7f89-012a-3b4c-6d7e8f901234,患者,治疗方案,,类别型,奥拉帕利,,200 mg bid,mg,,LLM提取,论文病例报告,2023-11-01,用药,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,7b4c5d6e-7f89-012a-3b4c-6d7e8f901234,患者,治疗反应,,类别型,耐受良好，继续治疗,,,,,LLM提取,论文病例报告,2023-11-01,病程,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,8c5d6e7f-8901-2a3b-4c6d-7e8f90123456,患者,影像所见,,文本型,右股骨进一步骨寡进展,,2024年4月最近一次影像评估,,影像学检查,LLM提取,论文病例报告,2024-04-01,影像,v1
+c103ea2b007cb23f6ae0ef8efb19a5c4,760c71507d69db78ba2cc2b9d877c47f,8c5d6e7f-8901-2a3b-4c6d-7e8f90123456,患者,后续处理,,文本型,正在评估立体定向放疗,,,,,LLM提取,论文病例报告,2024-04-01,病程,v1

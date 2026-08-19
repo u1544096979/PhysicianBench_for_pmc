@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,2f3f2a20-2d74-4d7c-b7f9-4eb3e2f5d3d4,患者,入院年龄,,数值型,61,61,,岁,,LLM提取,论文病例报告,2010-01-01,入院,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,2f3f2a20-2d74-4d7c-b7f9-4eb3e2f5d3d4,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,2f3f2a20-2d74-4d7c-b7f9-4eb3e2f5d3d4,患者,个人史,,文本型,华人；非吸烟者；非饮酒者,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,2f3f2a20-2d74-4d7c-b7f9-4eb3e2f5d3d4,患者,既往史,,文本型,既往健康状况良好，无特殊病史,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,6b5f8f7f-79f6-4d2d-b4b4-3c2d0e2a8b8b,患者,主诉,,文本型,慢性咳嗽多年,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,9de5e9c2-03c8-4d9d-8dd2-6b7f3b0f0e11,患者,查体,,文本型,体格检查无异常,,,,,LLM提取,论文病例报告,2010-01-01,评估,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,c4d2b2e4-4d7d-4c15-9ef4-5c1b2d7c1a77,血液,检验结果,,类别型,正常,,血液检查,,,LLM提取,论文病例报告,2010-01-01,检验,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,c4d2b2e4-4d7d-4c15-9ef4-5c1b2d7c1a77,痰液,检验结果,,类别型,正常,,痰检,,,LLM提取,论文病例报告,2010-01-01,检验,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,1d5d3c0e-3f3e-4d15-a2d7-7c8a7d7a1b22,患者,入院途径,,类别型,门诊就诊,,,,,LLM提取,论文病例报告,2010-01-01,入院,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,a6d7c8e9-1b2c-4d3e-9f0a-1b2c3d4e5f60,患者,诊断名称,,类别型,复发性呼吸道乳头状瘤病（气管支气管树）,,无喉部受累,,,LLM提取,论文病例报告,2010-07-01,诊断,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,f1c2d3e4-5f60-4a7b-8c9d-0e1f2a3b4c5d,胸片,影像所见,,文本型,左肺容积减少，部分左肺塌陷,,,,X线,LLM提取,论文病例报告,2010-06-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,肺功能检查结果,,类别型,轻度限制性通气功能障碍,,肺量计,,Spirometry,LLM提取,论文病例报告,2010-07-01,评估,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,8f7e6d5c-4b3a-2c1d-0e9f-8a7b6c5d4e3f,支气管镜检查,影像所见,,文本型,左主支气管及左上叶入口可见多个结节,,后续进展至后壁气管及左下叶支气管,,Bronchoscopy,LLM提取,论文病例报告,2010-07-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,8f7e6d5c-4b3a-2c1d-0e9f-8a7b6c5d4e3f,左主支气管/左上叶支气管活检,病理诊断,,文本型,轻度鳞状上皮发育不良,,,,Histopathology,LLM提取,论文病例报告,2010-07-01,病理,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d,胸部CT,影像所见,,文本型,左肺容积减少；左上、下叶支气管扩张；左主支气管及左上、下叶支气管周围不规则软组织增厚并狭窄,,胸廓CT,,CT,LLM提取,论文病例报告,2010-10-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,诊断名称,,类别型,复发性呼吸道乳头状瘤病（气管支气管树）,,无喉部受累,,,LLM提取,论文病例报告,2013-10-01,诊断,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,9f0a1b2c-3d4e-5f60-7a8b-9c0d1e2f3a4b,胸部CT,影像所见,,文本型,左肺容积进一步减少；左侧塌陷肺出现新发支气管扩张改变,,2013-09 CT,,CT,LLM提取,论文病例报告,2013-09-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,8e7d6c5b-4a3f-2c1d-0e9f-8a7b6c5d4e3f,支气管镜检查,影像所见,,文本型,后壁气管及左主支气管至左上、下叶支气管可见多个结节,,,,Bronchoscopy,LLM提取,论文病例报告,2013-10-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,8e7d6c5b-4a3f-2c1d-0e9f-8a7b6c5d4e3f,左主支气管/左上、下叶支气管活检,病理诊断,,文本型,鳞状乳头状瘤伴轻度不典型增生,,,,Histopathology,LLM提取,论文病例报告,2013-10-01,病理,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,3a4b5c6d-7e8f-9012-3456-7890abcdef12,患者,治疗方案,,类别型,硬质支气管镜下外科清创/切除,,多学科胸部会议建议,,,LLM提取,论文病例报告,2013-10-01,手术,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,3a4b5c6d-7e8f-9012-3456-7890abcdef12,患者,手术结果,,文本型,患者拒绝重复支气管镜及手术干预,,,,,LLM提取,论文病例报告,2013-10-01,手术,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,c1d2e3f4-5a6b-7c8d-9e0f-102030405060,患者,病程,,文本型,除偶发感染性支气管扩张加重外，整体长期稳定，无明显症状,,2013-2020随访期间,,,LLM提取,论文病例报告,2014-01-01,病程,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f90,胸部CT,影像所见,,文本型,左肺容积进一步减少；相关结节样壁增厚增大并增多；左上肺及右下肺出现新发结节灶,,复查CT,,CT,LLM提取,论文病例报告,2020-11-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,9a0b1c2d-3e4f-5061-7283-94a5b6c7d8e9,患者,主诉,,文本型,左胸痛,,并有双踝疼痛及肿胀,,,LLM提取,论文病例报告,2022-11-01,病史,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,d0e1f2a3-4b5c-6d7e-8f90-1a2b3c4d5e6f,胸部CT,影像所见,,文本型,左侧支气管扩张肺被大型坏死性肿块取代（18.8 cm），伴广泛局部侵犯；纵隔淋巴结增大；少量双侧胸腔积液；心包积液,18.8,坏死性肿块,cm,CT,LLM提取,论文病例报告,2022-11-01,影像,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,e1f2a3b4-c5d6-7e8f-9012-34567890abcd,左肺肿块细针穿刺,病理诊断,,文本型,坏死性鳞状细胞,,提示鳞状细胞癌,,超声引导细针穿刺,LLM提取,论文病例报告,2022-11-01,病理,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,f1a2b3c4-d5e6-7f8f-9012-34567890abce,患者,诊断名称,,类别型,鳞状细胞癌,,恶变/转化,,,LLM提取,论文病例报告,2022-11-01,诊断,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,f1a2b3c4-d5e6-7f8f-9012-34567890abce,患者,临床表现,,文本型,左胸痛、双踝疼痛及肿胀,,病情快速恶化,,,LLM提取,论文病例报告,2022-11-01,病程,v1
+272432fe439b0654efc0cd61ee9570a4,bce54dc2ca08d8ac036d85cf7b67cdba_1,g1h2i3j4-k5l6-7m8n-9o10-p11q12r13s14,患者,死亡,,类别型,死亡,,2022年12月,,,LLM提取,论文病例报告,2022-12-01,病程,v1

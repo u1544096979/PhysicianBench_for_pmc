@@ -1,0 +1,55 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,7c5a38a4-3f7f-4f6b-9f8d-0e0d2b9f7a11,患者,既往史,,文本型,慢性阻塞性肺疾病、2型糖尿病、阵发性心房颤动,,,,,LLM提取,论文病例报告,2017-11-01,病史,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,7c5a38a4-3f7f-4f6b-9f8d-0e0d2b9f7a11,患者,主诉,,文本型,呼吸困难、左髋疼痛4个月,,,,,LLM提取,论文病例报告,2017-11-01,病史,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,0f0b4e8e-9c38-4b1f-9c5d-7f7b1f5e1d22,患者,入院年龄,,数值型,64,64,,岁,,LLM提取,论文病例报告,2017-11-01,入院,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,0f0b4e8e-9c38-4b1f-9c5d-7f7b1f5e1d22,患者,入院科室,,类别型,Institute of Oncology Ljubljana,,,,,LLM提取,论文病例报告,2017-11-01,入院,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c4d3b3fd-6f51-4f8f-bf7f-1f0d5c2e8f33,患者,一般状况_体征,,文本型,临床甲亢表现，左甲状腺叶9 cm肿瘤，部分固定于气管和纵隔,,,,,LLM提取,论文病例报告,2017-11-01,评估,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c4d3b3fd-6f51-4f8f-bf7f-1f0d5c2e8f33,患者,查体,,文本型,临床甲亢征象，左甲状腺叶约9 cm肿瘤，部分固定于气管和纵隔,,,,,LLM提取,论文病例报告,2017-11-01,评估,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9c53a4d9-2b45-4d84-8f0c-7b8d5e8f6a44,血液,TSH,,偏离型,<0.005,0.005,参考范围0.27–4.2 mIU/L,mIU/L,,LLM提取,论文病例报告,2017-11-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9c53a4d9-2b45-4d84-8f0c-7b8d5e8f6a44,血液,FT3,,偏离型,31.7,31.7,参考范围3.1–6.8 pmol/L,pmol/L,,LLM提取,论文病例报告,2017-11-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9c53a4d9-2b45-4d84-8f0c-7b8d5e8f6a44,血液,FT4,,偏离型,56.9,56.9,参考范围12.0–22.0 pmol/L,pmol/L,,LLM提取,论文病例报告,2017-11-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9c53a4d9-2b45-4d84-8f0c-7b8d5e8f6a44,血液,TG,,偏离型,>5000,5000,参考范围<77 μg/L,μg/L,,LLM提取,论文病例报告,2017-11-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9c53a4d9-2b45-4d84-8f0c-7b8d5e8f6a44,血液,anti-TSH-R,,偏离型,82.2,82.2,参考范围<1.8 U/L,U/L,,LLM提取,论文病例报告,2017-11-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,6d5e3b8a-0d8b-4b1e-9a2a-1c3f7b9a5c55,颈部/胸部CT（增强）,影像所见,,文本型,左叶甲状腺肿瘤；左侧颈部淋巴结转移；肺、纵隔、8th右肋骨转移；左髋臼转移；颅骨顶枕部转移。8th右肋骨病灶约20×5.6×4.5 cm，左髋臼9×9×3 cm，颅骨5×4×2 cm；估计肿瘤总体积至少515 mL,,,,CT with contrast media,LLM提取,论文病例报告,2017-11-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,6d5e3b8a-0d8b-4b1e-9a2a-1c3f7b9a5c55,颈部/胸部CT（增强）,影像结论,,文本型,考虑甲状腺癌原发灶及多发转移,,,,CT with contrast media,LLM提取,论文病例报告,2017-11-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f2d4b5a0-1f6a-4f6e-9b3c-2d4e5f6a7b88,左髋区,治疗方案,,文本型,外照射放疗联合阿霉素化疗,,10×3 Gy；doxorubicin 20 mg once weekly,,,LLM提取,论文病例报告,2017-11-01,病程,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f2d4b5a0-1f6a-4f6e-9b3c-2d4e5f6a7b88,左髋区,疗效评估,,类别型,部分缓解/肿瘤缩小约15%，骨痛减轻,,,,临床评估,LLM提取,论文病例报告,2017-11-01,评估,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,a7c8d9e0-2a3b-4c4d-8e5f-6a7b8c9d0e11,患者,药品名称,,类别型,thiamazole,,控制甲亢，持续约2周,,,LLM提取,论文病例报告,2017-11-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e66,手术,手术名称,,类别型,全甲状腺切除术及甲状腺肿瘤R1切除,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e66,病理,病理诊断,,文本型,左叶广泛浸润性Hürthle细胞甲状腺癌，直径9 cm，微镜下穿透甲状腺包膜，局灶侵犯背侧切缘；分期T3N1M1,,,,组织学检查,LLM提取,论文病例报告,2017-12-01,病理,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e66,患者,诊断名称,,类别型,Hürthle细胞甲状腺癌（转移性）,,伴Graves病、甲亢,,,LLM提取,论文病例报告,2017-12-01,诊断,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,a7c8d9e0-2a3b-4c4d-8e5f-6a7b8c9d0e11,患者,用药名称,,类别型,l-thyroxine,,甲状腺切除后开始；后因持续T3甲亢停用,,,LLM提取,论文病例报告,2017-12-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,5d4c3b2a-1f0e-4d3c-8b7a-9e8d7c6b5a77,核医学SPECT/CT（I-123）,影像所见,,文本型,8th右肋骨明显摄取；左颈部淋巴结、左髋臼、颅骨、右肱骨及甲状腺残余亦见异常摄取,,,,SPECT/CT with iodine-123,LLM提取,论文病例报告,2018-01-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,5d4c3b2a-1f0e-4d3c-8b7a-9e8d7c6b5a77,PET/CT（18F-FDG）,影像所见,,文本型,8th右肋骨广泛高代谢病灶并右侧大量胸腔积液；左颈淋巴结转移灶活动；左髋臼广泛中到高代谢；颅骨及右肱骨低代谢转移；肺内小结节,,,,18F-FDG-PET/CT,LLM提取,论文病例报告,2018-01-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,8e7d6c5b-4a3f-4b2e-9c1d-0f1e2d3c4b55,患者,药品名称,,类别型,thiamazole,,术前恢复甲状腺功能正常，约2周治疗,,,LLM提取,论文病例报告,2018-02-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,8e7d6c5b-4a3f-4b2e-9c1d-0f1e2d3c4b55,手术,手术名称,,类别型,8th右肋骨切除术（R1切除）,,肿瘤直径20 cm，坏死并侵入周围软组织,,,LLM提取,论文病例报告,2018-02-01,手术,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,8e7d6c5b-4a3f-4b2e-9c1d-0f1e2d3c4b55,病理,病理诊断,,文本型,8th右肋骨转移性Hürthle细胞甲状腺癌,,,,组织学检查,LLM提取,论文病例报告,2018-02-01,病理,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,5d6e7f8a-9b0c-4d1e-8f2a-3b4c5d6e7f88,患者,用药名称,,类别型,l-thyroxine,,术后重新给予抑制治疗,,,LLM提取,论文病例报告,2018-02-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,1a2b3c4d-5e6f-4789-8abc-0d1e2f3a4b99,患者,治疗方案,,文本型,放射性碘-131消融/治疗,,146 mCi,mCi,,LLM提取,论文病例报告,2018-03-01,病程,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,1a2b3c4d-5e6f-4789-8abc-0d1e2f3a4b99,患者,疗效评估,,类别型,短期有效，骨痛/呼吸困难缓解；颅骨转移缩小至1×1 cm,,,,临床及影像评估,LLM提取,论文病例报告,2018-03-01,评估,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,1a2b3c4d-5e6f-4789-8abc-0d1e2f3a4b99,患者,药品名称,,类别型,bisphosphonates,,RAI后约2个月开始,,,LLM提取,论文病例报告,2018-05-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,3c4d5e6f-7a8b-4c9d-8e0f-1a2b3c4d5eaa,PET/CT（18F-FDG）,影像所见,,文本型,颅骨及8th右肋骨残端和7th右肋骨代谢进展；左髋臼、颈部淋巴结、右肱骨病灶较前部分代谢反应,,,,18F-FDG-PET/CT,LLM提取,论文病例报告,2018-09-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6fab,核医学SPECT/CT（I-123）,影像所见,,文本型,较前摄取减低于颅骨、颈部淋巴结、左髋臼，但8th右肋骨残端及肺出现新摄取,,激素撤药状态,,SPECT/CT with iodine-123,LLM提取,论文病例报告,2018-10-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6fab,患者,治疗方案,,文本型,放射性碘-131治疗,,174 mCi；TSH 28.3 mU/L,mCi,,LLM提取,论文病例报告,2018-10-01,病程,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9e8d7c6b-5a4f-4d3c-8b7a-6f5e4d3c2b11,8th右肋骨残端,治疗方案,,文本型,外照射放疗,,12×3 Gy，因代谢进展,,,LLM提取,论文病例报告,2018-11-01,病程,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,9e8d7c6b-5a4f-4d3c-8b7a-6f5e4d3c2b11,患者,基因检测结果,,文本型,NRAS c.182A>G p.(Gln61Arg)突变、AKT1 c.-49G>A p.(Glu17Lys)突变；KRAS和BRAF未检出突变,,,,分子分析,LLM提取,论文病例报告,2018-11-01,诊断,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,b1c2d3e4-f5a6-4789-8abc-1d2e3f4a5b22,PET/CT（18F-FDG）,影像所见,,文本型,颅骨、右肱骨和7th右肋骨代谢进展；左髋臼代谢稳定；8th右肋骨残端和颈部淋巴结转移灶回缩,,,,18F-FDG-PET/CT,LLM提取,论文病例报告,2019-02-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c2d3e4f5-a6b7-4890-8abc-2d3e4f5a6b33,患者,治疗方案,,文本型,放射性碘-131治疗,,195 mCi；激素撤药状态,mCi,,LLM提取,论文病例报告,2019-03-01,病程,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c2d3e4f5-a6b7-4890-8abc-2d3e4f5a6b33,患者,治疗方案,,文本型,索拉非尼,,2×400 mg；累计RAI 515 mCi后启动,,,LLM提取,论文病例报告,2019-04-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c2d3e4f5-a6b7-4890-8abc-2d3e4f5a6b33,患者,治疗反应,,类别型,混合反应/短期症状减轻,,5月和9月骨痛较前减少，轻度不良反应,,临床评估,LLM提取,论文病例报告,2019-05-01,评估,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c2d3e4f5-a6b7-4890-8abc-2d3e4f5a6b33,血液,TG,,偏离型,<5000,5000,,μg/L,,LLM提取,论文病例报告,2019-05-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,c2d3e4f5-a6b7-4890-8abc-2d3e4f5a6b33,血液,肝病变/肝毒性,,类别型,轻度肝病,,,,,LLM提取,论文病例报告,2019-05-01,不良反应,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d3e4f5a6-b7c8-49d0-8abc-3e4f5a6b7c44,PET/CT（18F-FDG）,影像所见,,文本型,7th右肋骨及8th右肋骨残端进展；左髋臼和肺稳定；颅骨、颈部淋巴结及右肱骨回缩,,,,18F-FDG-PET/CT,LLM提取,论文病例报告,2019-09-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d3e4f5a6-b7c8-49d0-8abc-3e4f5a6b7c44,血液,TSH,,偏离型,optimal suppression,,,,,LLM提取,论文病例报告,2019-10-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d3e4f5a6-b7c8-49d0-8abc-3e4f5a6b7c44,血液,TG,,偏离型,4552,4552,,μg/L,,LLM提取,论文病例报告,2019-10-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,d3e4f5a6-b7c8-49d0-8abc-3e4f5a6b7c44,血液,anti-TSH-R,,偏离型,255,255,,U/L,,LLM提取,论文病例报告,2019-10-01,检验,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,e4f5a6b7-c8d9-4e0f-8abc-4f5a6b7c8d55,患者,药品名称,,类别型,sorafenib,,剂量降至200和400 mg/day,,,LLM提取,论文病例报告,2019-12-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f5a6b7c8-d9e0-4f1a-8abc-5a6b7c8d9e66,患者,入院,,类别型,因严重呼吸困难住院,,右侧胸腔积液,,,LLM提取,论文病例报告,2020-02-01,入院,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f5a6b7c8-d9e0-4f1a-8abc-5a6b7c8d9e66,胸腔积液,病理/细胞学结果,,文本型,检出HCTC恶性细胞,,,,细胞学检查,LLM提取,论文病例报告,2020-02-01,病理,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f5a6b7c8-d9e0-4f1a-8abc-5a6b7c8d9e66,患者,治疗方案,,文本型,胸腔穿刺及胸膜固定术,,未获益,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f6a7b8c9-d0e1-4f2a-8abc-6b7c8d9e0f77,胸部/腹部CT,影像所见,,文本型,右侧胸腔积液明显进展；右肺见脓毒性或转移性栓塞；腹膜肿瘤18×8×5 cm,,,,CT scan,LLM提取,论文病例报告,2020-03-01,影像,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f6a7b8c9-d0e1-4f2a-8abc-6b7c8d9e0f77,腹膜病灶,细胞学结果,,文本型,证实为HCTC转移,,,,cytology,LLM提取,论文病例报告,2020-03-01,病理,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f6a7b8c9-d0e1-4f2a-8abc-6b7c8d9e0f77,患者,治疗方案,,文本型,环磷酰胺+阿霉素+长春新碱化疗,,减量方案；无效,,,LLM提取,论文病例报告,2020-03-01,用药,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f6a7b8c9-d0e1-4f2a-8abc-6b7c8d9e0f77,患者,出院状况,,类别型,转入姑息治疗，病情极差,,严重呼吸困难、烦躁、疼痛,,,LLM提取,论文病例报告,2020-03-01,出院,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f6a7b8c9-d0e1-4f2a-8abc-6b7c8d9e0f77,患者,诊断名称,,类别型,广泛远处转移的转移性Hürthle细胞甲状腺癌,,最终死亡原因为心肺衰竭,,,LLM提取,论文病例报告,2020-03-01,诊断,v1
+9c7bf12cefc9b1cf34efed9e2ae6b8be,ee55c787799b0bd08dcc8795f2709801,f6a7b8c9-d0e1-4f2a-8abc-6b7c8d9e0f77,患者,生存期,,数值型,28,28,自诊断起,月,,LLM提取,论文病例报告,2020-03-01,病程,v1

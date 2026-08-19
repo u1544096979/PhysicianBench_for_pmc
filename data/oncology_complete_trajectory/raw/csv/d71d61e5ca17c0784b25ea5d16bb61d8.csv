@@ -1,0 +1,17 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,p5j90303-4p79-4p79-jn4m-3o6j7k8l9m03,患者,入院年龄,,数值型,73,73,,岁,,LLM提取,论文病例报告,2022-08-01,入院,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,q6k01414-5q80-5q80-ko5n-4p7k8l9m0n14,患者,既往史,,文本型,儿童期脊髓灰质炎,,伴类风湿关节炎,,,LLM提取,论文病例报告,,病史,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,r7l12525-6r91-6r91-lp6o-5q8l9m0n1o25,患者,主诉,,文本型,颈部肿块快速增大,,,,,LLM提取,论文病例报告,2022-08-01,病史,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,s8m23636-7s02-7s02-mq7p-6r9m0n1o2p36,影像检查,影像所见,,文本型,甲状腺肿块，向上纵隔延伸，侵及无名静脉和右颈内静脉,,CT,,,LLM提取,论文病例报告,2022-08-01,影像,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,t9n34747-8t13-8t13-nr8q-7s0n1o2p3q47,患者,病理诊断,,文本型,甲状腺低分化癌（PDTC）,,伴嗜酸细胞成分,,H&E,LLM提取,论文病例报告,2022-09-01,病理,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,u0o45858-9u24-9u24-os9r-8t1o2p3q4r58,患者,诊断名称,,类别型,BRAF突变阴性,,IHC阴性,,,LLM提取,论文病例报告,2022-09-01,诊断,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,v1p56969-0v35-0v35-pt0s-9u2p3q4r5s69,影像检查,影像所见,,文本型,甲状腺肿瘤高代谢，伴颈部及胸骨后延伸,,SUVmax=69，18F-FDG PET/CT,,,LLM提取,论文病例报告,2022-10-01,影像,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,w2q67070-1w46-1w46-qu1t-0v3q4r5s6t70,患者,治疗方案,,类别型,外照射放疗,,VMAT 6MV，70 Gy/35次，每次2 Gy，另同步加量至73.50 Gy，每次2.10 Gy，每周5次,,Varian Halcyon LINAC,LLM提取,论文病例报告,2022-11-01,病程,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,x3r78181-2x57-2x57-rv2u-1w4r5s6t7u81,患者,分子标志物,,类别型,NSD3::NUTM1融合,,未检出BRAF、RAS点突变,,RNA测序,LLM提取,论文病例报告,2022-11-01,诊断,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,y4s89292-3y68-3y68-sw3v-2x5s6t7u8v92,影像检查,疗效评估,,类别型,部分代谢缓解,,SUVmax由69降至34,,18F-FDG PET/CT,LLM提取,论文病例报告,2023-04-01,评估,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,z5t90303-4z79-4z79-tx4w-3y6t7u8v9w03,影像检查,影像所见,,文本型,疾病进展，出现新发高代谢灶：胸骨后淋巴结、右侧颈部淋巴结及胸骨骨灶,,PET/CT,,,LLM提取,论文病例报告,2024-04-01,影像,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,a6u01414-5a80-5a80-uy5x-4z7u8v9w0x14,患者,治疗方案,,类别型,立体定向外照射放疗,,针对胸骨后淋巴结和胸骨，50 Gy/5次,,Accuray CyberKnife,LLM提取,论文病例报告,2024-08-01,病程,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,b7v12525-6b91-6b91-vz6y-5a8v9w0x1y25,患者,手术名称,,类别型,气管切开术,,因气管侵犯,,,LLM提取,论文病例报告,2024-10-01,手术,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,c8w23636-7c02-7c02-wa7z-6b9w0x1y2z36,患者,治疗方案,,类别型,仑伐替尼,,10 mg/日,mg/日,,LLM提取,论文病例报告,2024-10-01,用药,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,d9x34747-8d13-8d13-xb8a-7c0x1y2z3a47,影像检查,疗效评估,,类别型,部分代谢缓解,,仑伐替尼开始3个月后，颈部及上胸部甲状腺肿瘤18F-FDG摄取下降，纵隔淋巴结消失，胸骨灶稳定,,PET/CT,LLM提取,论文病例报告,2025-01-01,评估,v1
+d71d61e5ca17c0784b25ea5d16bb61d8,5aed5d7db7ff5ed3dd243a1eee221b4e_2,e0y45858-9e24-9e24-yc9b-8d1y2z3a4b58,患者,出院状况,,文本型,死亡,,死于出血和败血症并发症,,,LLM提取,论文病例报告,2025-01-01,出院,v1

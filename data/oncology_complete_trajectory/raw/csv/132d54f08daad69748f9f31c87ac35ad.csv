@@ -1,0 +1,47 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,7d8c5d0a-2f25-4d7b-8f6a-7d4d8f4f4f01,患者,入院科室,,类别型,Affiliated Hospital of Guilin Medical University,,,,,LLM提取,论文病例报告,2022-01-28,入院,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,7d8c5d0a-2f25-4d7b-8f6a-7d4d8f4f4f01,患者,主诉,,文本型,腹痛半个月,,,,,LLM提取,论文病例报告,2022-01-28,入院,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,8f8f2f59-1d56-4f06-8df1-7fcb2f2c7b02,患者,病史-既往史,,文本型,既往有一次成功妊娠，行剖宫产；月经周期规律，约26天，经期4–6天。,,末次月经：2021-12-31,,,LLM提取,论文病例报告,2022-01-28,病史,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,8f8f2f59-1d56-4f06-8df1-7fcb2f2c7b02,患者,病史-家族史,,文本型,有明确癌症家族史：第二、三、五、七堂/表亲患肠癌；二叔患肝细胞癌；二姑患宫颈癌和胃癌；父亲患肠癌。,,,,,LLM提取,论文病例报告,2022-01-28,病史,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,1d7f9b4d-41cf-4a8c-94a1-1e5c8f3e4f03,患者,查体,,文本型,妇科检查触及右侧附件区包块，边界不清，压痛，活动度差。,,,,,LLM提取,论文病例报告,2022-01-28,评估,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,2f2cf1b1-7e10-4f7d-8f34-3a3d4d7b9a04,超声,影像所见,,文本型,经阴道子宫及附件超声提示右侧盆腔实性肿块，大小约97 mm × 66 mm × 67 mm；左附件囊肿。,,,mm,超声,LLM提取,论文病例报告,2022-01-28,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,3b8f2d26-74f8-41fa-a1c4-4d1bdaef7b05,MRI,影像所见,,文本型,盆腔增强MRI示盆腔巨大肿块，考虑右侧附件上皮源性恶性肿瘤可能；上段直肠占位。,,,,磁共振增强,LLM提取,论文病例报告,2022-01-28,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,4c06d07d-8b38-47d2-b9d2-4a2de4d5a406,胃镜,影像所见,,文本型,慢性非萎缩性胃炎。,,,,胃镜,LLM提取,论文病例报告,2022-01-28,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,5d7d7a9f-87cf-4c42-8d53-4d4d2c2d5a07,血液,β-HCG,,数值型,<0.200,0.2,,mIU/mL,,LLM提取,论文病例报告,2022-01-29,检验,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,5d7d7a9f-87cf-4c42-8d53-4d4d2c2d5a07,血液,CA125,,数值型,1090.00,1090.0,↑,U/mL,,LLM提取,论文病例报告,2022-01-29,检验,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,5d7d7a9f-87cf-4c42-8d53-4d4d2c2d5a07,血液,human epithelial protein 4,,数值型,146.900,146.9,↑,pmol/L,,LLM提取,论文病例报告,2022-01-29,检验,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,5d7d7a9f-87cf-4c42-8d53-4d4d2c2d5a07,血液,white blood cell count,,数值型,14.220,14.22,↑,×10^9/L,,LLM提取,论文病例报告,2022-01-29,检验,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,5d7d7a9f-87cf-4c42-8d53-4d4d2c2d5a07,血液,hemoglobin concentration,,数值型,107.000,107.0,↓,g/L,,LLM提取,论文病例报告,2022-01-29,检验,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,6a0a5d2f-4f6d-4a0f-8c8d-7f4f0e6b5b08,直肠活检组织,病理诊断,,文本型,高分化管状腺癌,,,,,LLM提取,论文病例报告,2022-02-04,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,6a0a5d2f-4f6d-4a0f-8c8d-7f4f0e6b5b08,直肠活检组织,免疫组化,,文本型,"CK7(-), CK20(+), VILLIN(+), CDX-2(+), PAX-8(-), DES个别间质细胞(+)",,提示来源于胃肠道,,免疫组化,LLM提取,论文病例报告,2022-02-04,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,7f2f7a3d-1b6f-4d5d-9a4a-8c4e6f7a9b09,直肠病理组织,MMR状态,,类别型,dMMR,,"MSH2(-), MSH6弱(+), PMS2(+), MLH1(+)",,免疫组化,LLM提取,论文病例报告,2022-02-04,诊断,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,8a4d6f2a-7d4c-4b2e-9e5d-2f7e8c9a0b10,右侧盆腔肿块,病理诊断,,文本型,低分化癌，伴广泛坏死；结合免疫组化考虑来源于女性生殖系统的高级别腺癌。,,,,,LLM提取,论文病例报告,2022-02-15,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,8a4d6f2a-7d4c-4b2e-9e5d-2f7e8c9a0b10,右侧盆腔肿块,免疫组化,,文本型,"CK7(+), PAX-8(+), WT-1(个别弱+), CK20(-), CDX-2(-), SATB2(-), P53(强+, 60-70%), Ki67(+，50%), ER(-), PR(-), P16(+)",,,,免疫组化,LLM提取,论文病例报告,2022-02-15,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,9b5e7c3d-2c7f-4d6f-8a1b-9c0d1e2f3a11,血液/肿瘤组织,MSI状态,,类别型,MSI-H,,高通量测序,,,LLM提取,论文病例报告,2022-02-23,诊断,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,9b5e7c3d-2c7f-4d6f-8a1b-9c0d1e2f3a11,肿瘤组织,肿瘤突变负荷,,数值型,97.8,97.8,variants/Mb，TMB-H,variants/Mb,高通量测序,LLM提取,论文病例报告,2022-02-23,诊断,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,9b5e7c3d-2c7f-4d6f-8a1b-9c0d1e2f3a11,血液,基因突变,,类别型,MSH2(c.942+3A>T) pathogenic,,其他基因未检测到影响蛋白功能的变异（MLH1、MSH2、MSH6、PMS2、EPCAM、POLE/POLD1）,,高通量测序,LLM提取,论文病例报告,2022-02-23,诊断,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,9b5e7c3d-2c7f-4d6f-8a1b-9c0d1e2f3a11,患者,诊断名称,,类别型,Lynch syndrome,,双原发卵巢癌和直肠腺癌,,,LLM提取,论文病例报告,2022-02-23,诊断,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,ad6f8e4b-3d8f-4e1c-9a2b-0c1d2e3f4a12,CT,影像所见,,文本型,肝S5见圆形低密度影，边界模糊，直径约10 mm；腹主动脉旁见多发肿大且不均匀强化淋巴结，最大约24 mm × 21 mm；盆腔见类圆形肿块影约83 mm × 75 mm × 117 mm，分叶清楚；上段直肠壁局限性增厚，较明显处约15 mm。,,,mm,增强CT,LLM提取,论文病例报告,2022-02-23,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,be7f9d5c-4e9f-4f2d-8a3c-1d2e3f4a5b13,患者,会诊意见,,文本型,MDT明确诊断为Lynch syndrome（直肠腺癌和卵巢腺癌）；因肿瘤体积大，考虑肝脏及腹主动脉旁淋巴结转移可能，暂不宜直接根治性手术，建议转化治疗。,,,,,LLM提取,论文病例报告,2022-03-04,会诊,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,cf809e6d-5fa0-4f3e-8b4d-2e3f4a5b6c14,患者,治疗方案,,类别型,免疫检查点抑制剂联合化疗,,卡铂+紫杉醇+信迪利单抗,,,LLM提取,论文病例报告,2022-03-04,病程,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,cf809e6d-5fa0-4f3e-8b4d-2e3f4a5b6c14,患者,药品名称,,类别型,carboplatin,,400 mg,mg,ivgtt,LLM提取,论文病例报告,2022-03-04,用药,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,cf809e6d-5fa0-4f3e-8b4d-2e3f4a5b6c14,患者,药品名称,,类别型,paclitaxel,,180 mg,mg,ivgtt,LLM提取,论文病例报告,2022-03-04,用药,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,cf809e6d-5fa0-4f3e-8b4d-2e3f4a5b6c14,患者,药品名称,,类别型,sindilizumab,,200 mg,mg,ivgtt,LLM提取,论文病例报告,2022-03-04,用药,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,cf809e6d-5fa0-4f3e-8b4d-2e3f4a5b6c14,患者,用药周期,,文本型,每3周1次，共4个周期,,,,,LLM提取,论文病例报告,2022-03-04,用药,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,d1a0b7c8-6fb1-4c0f-9c5d-3e4f5a6b7c15,CT,影像所见,,文本型,治疗后复查示右侧子宫旁异常单发影明显缩小，约37 mm × 26 mm；上段直肠壁增厚明显减轻；肝S5见低密度结节约14 mm × 11 mm；腹主动脉旁淋巴结约8 mm，较前明显缩小。,,,mm,增强CT,LLM提取,论文病例报告,2022-06-02,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,e2b1c8d9-7gc2-4d1f-8e6a-4f5a6b7c8d16,患者,会诊意见,,文本型,再次MDT建议先行腹腔镜探查，必要时行胃肠、肝胆、妇科联合手术。,,,,,LLM提取,论文病例报告,2022-06-09,会诊,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,f3c2d9ea-8hd3-4e2g-9f7b-5a6b7c8d9e17,手术,手术名称,,类别型,腹腔镜直肠癌根治术+双侧附件切除术+全大网膜切除术,,,,腹腔镜，全麻,LLM提取,论文病例报告,2022-06-14,手术,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,f3c2d9ea-8hd3-4e2g-9f7b-5a6b7c8d9e17,手术,手术结果,,文本型,术中肝左叶病灶证实为血管瘤；右卵巢见3×4 cm肿块；直肠上段局部肠壁稍硬，长约2 cm；膈肌、肠管、腹膜及网膜表面未见转移结节；完成R0切除。,,,cm,,LLM提取,论文病例报告,2022-06-14,手术,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,g4d3eaf0-9ie4-4f3h-8g8c-6b7c8d9e0f18,直肠切除标本,病理诊断,,文本型,黏膜内癌（中-高分化腺癌），残余肿瘤约0.3 cm × 0.3 cm × 0.1 cm；上、下切缘未见癌；8枚肠系膜淋巴结未见转移（0/8）。,,可见1枚淋巴结神经周围碎石体,cm,术后病理,LLM提取,论文病例报告,2022-06-14,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,g4d3eaf0-9ie4-4f3h-8g8c-6b7c8d9e0f18,直肠切除标本,免疫组化,,文本型,"CDX-2(+), Pax-8(-)",,,,免疫组化,LLM提取,论文病例报告,2022-06-14,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,h5e4f0a1-ajf5-4g4i-8h9d-7c8d9e0f1g19,子宫及双侧附件标本,病理诊断,,文本型,右卵巢高级别腺癌（来源于女性生殖系统），广泛坏死，癌残余约0.1 cm；周围组织见碎石体形成；未见明确血管侵犯或神经侵犯；双侧子宫旁软组织未见肿瘤；左卵巢及双侧输卵管未见特异性病变。,,,cm,术后病理,LLM提取,论文病例报告,2022-06-14,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,h5e4f0a1-ajf5-4g4i-8h9d-7c8d9e0f1g19,子宫及双侧附件标本,免疫组化,,文本型,"Pax-8(+), P16(+), CK7(+), CDX-2(-)",,,,免疫组化,LLM提取,论文病例报告,2022-06-14,病理,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,i6f5g1b2-bkg6-4h5j-9i0e-8d9e0f1g2h20,CT,影像所见,,文本型,术后复查示双肺微小结节无明显变化；肝S5段病灶无明显变化；直肠及腹盆腔为术后改变，未见明显异常。,,,,增强CT,LLM提取,论文病例报告,2022-07-06,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,j7g6h2c3-clh7-4i6k-9j1f-9e0f1g2h3i21,患者,治疗方案,,类别型,术后继续卡铂+紫杉醇+信迪利单抗,,每3周1次，共4个周期,,,LLM提取,论文病例报告,2022-07-06,病程,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,k8h7i3d4-dmi8-4j7l-9k2g-0f1g2h3i4j22,患者,药品名称,,类别型,sindilizumab,,200 mg，免疫维持治疗，每3周1次，共4个周期,mg,ivgtt,LLM提取,论文病例报告,2022-09-08,用药,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,k8h7i3d4-dmi8-4j7l-9k2g-0f1g2h3i4j22,患者,用药周期,,文本型,每3周1次，共4个周期,,免疫维持治疗,,,LLM提取,论文病例报告,2022-09-08,用药,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,l9i8j4e5-enj9-4k8m-9l3h-1g2h3i4j5k23,患者,不良反应名称,,类别型,皮肤瘙痒,,伴胆红素及转氨酶升高，疑似药物性肝损伤,,,LLM提取,论文病例报告,2022-12-01,不良反应,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,l9i8j4e5-enj9-4k8m-9l3h-1g2h3i4j5k23,患者,处理措施,,文本型,停止免疫治疗，给予甘草酸二铵和异甘草酸镁保肝治疗。,,后胆红素及转氨酶恢复正常,,,LLM提取,论文病例报告,2022-12-01,不良反应,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,m0j9k5f6-fok0-4l9n-9m4i-2h3i4j5k6l24,PET-CT,影像所见,,文本型,术区无明显复发；腹主动脉旁小淋巴结FAPI摄取未增加；肝S5为血管瘤；双肺多发微小结节未见FAPI摄取增加。,,,,PET-CT,LLM提取,论文病例报告,2023-04-27,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,n1k0l6g7-gpl1-4m0o-9n5j-3i4j5k6l7m25,增强胸腹CT,影像所见,,文本型,胃肠道未见明显异常，符合直肠癌术后改变；肝肾功能及CEA、CA125、CA199无明显异常。,,随访时未见肿瘤复发或转移,,增强CT,LLM提取,论文病例报告,2023-11-14,影像,v1
+132d54f08daad69748f9f31c87ac35ad,ac4df8db0311ea3d7e53ead54742bd50_1,o2l1m7h8-hqm2-4n1p-9o6k-4j5k6l7m8n26,患者,随访结果,,文本型,初诊后超过2年随访无肿瘤复发或转移，病情稳定。,,,,,LLM提取,论文病例报告,2023-11-14,病程,v1

@@ -1,0 +1,22 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,7e7f2c7f-5f6f-4e1f-9b4d-6b1c8d1f2f01,患者,入院年龄,,数值型,50,50,,岁,,LLM提取,论文病例报告,2014-01-01,入院,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,1b4d8d5a-0f1c-4b1d-9c2b-5a0e9a1c3d02,患者,诊断名称,,类别型,左乳腺肿瘤,,外上象限；超声提示BI-RADS 4B,,超声,LLM提取,论文病例报告,2014-01-01,诊断,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,1b4d8d5a-0f1c-4b1d-9c2b-5a0e9a1c3d02,左乳房,影像所见,,文本型,左乳外上象限见肿块，最大径约4.8/3.6/2.8 cm,,边界不清，BI-RADS 4B,cm,超声,LLM提取,论文病例报告,2014-01-01,影像,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,f8c3a2d7-8a9e-4a2b-9a1f-0f4d8a9c3d03,患者,诊断名称,,类别型,左乳腺肿瘤,,复查超声提示PT可能；BI-RADS 3,,超声,LLM提取,论文病例报告,2016-01-01,诊断,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,f8c3a2d7-8a9e-4a2b-9a1f-0f4d8a9c3d03,左乳房,影像所见,,文本型,左乳见同一肿瘤，表面起伏，大小约5/4.4/3.5 cm,,提示叶状肿瘤可能；BI-RADS 3,cm,超声,LLM提取,论文病例报告,2016-01-01,影像,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,f8c3a2d7-8a9e-4a2b-9a1f-0f4d8a9c3d03,左乳房,影像所见,,文本型,乳腺X线摄影示结节样致密影，大小约6.5/4.5 cm,,分叶、边界清楚，BI-RADS 2.3,cm,乳腺X线摄影,LLM提取,论文病例报告,2016-01-01,影像,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,9e0f6fb3-3d6b-4f1e-8c6e-1f2d3a4b5c06,患者,病史,,文本型,2014年发现左乳肿瘤，曾建议行肿块切除术但患者拒绝进一步检查和手术，之后未规律随访。,,,,,LLM提取,论文病例报告,2020-09-01,病史,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,a1d2c3e4-f5a6-47b8-9c0d-1e2f3a4b5c07,患者,主诉,,文本型,左乳肿块进行性增大,,近数周增长明显,,,LLM提取,论文病例报告,2020-09-01,病史,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,b2c3d4e5-f6a7-48b9-8d0e-2f3a4b5c6d08,患者,查体,,文本型,左乳外象限可触及肿物，约11/10 cm，边界不规则分叶状，质硬，伴皮肤发红。,,左腋窝可触及淋巴结约1.8/1 cm,cm,,LLM提取,论文病例报告,2020-09-01,评估,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,c3d4e5f6-a7b8-49c0-8d0f-3a4b5c6d7e09,左乳房,影像所见,,文本型,超声示不均质、实性、形态不规则肿瘤，边界不清，Doppler血流信号减低，约11/8 cm。,,,cm,超声,LLM提取,论文病例报告,2020-09-01,影像,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,d4e5f6a7-b8c9-40d1-8e0f-4b5c6d7e8f10,左乳房,影像所见,,文本型,胸部CT增强示左乳外象限巨块状病灶，约11.8/10/9 cm，累及浅表至距胸大肌1 cm处，乳房轮廓受压变形。,,分叶状、内部不均质，可见自发性高密度灶、坏死灶及微钙化；未侵及邻近结构,cm,CT增强,LLM提取,论文病例报告,2020-09-01,影像,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,d4e5f6a7-b8c9-40d1-8e0f-4b5c6d7e8f10,左乳房,影像所见,,文本型,可见乳内、腋窝I站及乳后淋巴结影，大小均小于2 cm。,,,cm,CT增强,LLM提取,论文病例报告,2020-09-01,影像,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,e5f6a7b8-c9d0-41e2-8f0f-5c6d7e8f9011,左乳房标本,病理诊断,,文本型,活检碎片见双相增生，形态符合良性叶状肿瘤。,,Tru-Cut活检,,病理,LLM提取,论文病例报告,2020-10-01,病理,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,f6a7b8c9-d0e1-42f3-8f0f-6d7e8f9012a2,患者,手术名称,,类别型,左乳切除术,,合并左腋窝淋巴结切除,,,LLM提取,论文病例报告,2020-11-01,手术,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,f6a7b8c9-d0e1-42f3-8f0f-6d7e8f9012a2,患者,手术结果,,文本型,术中送快速病理提示叶状肿瘤及小叶腺瘤样增生区域。,,,,术中冰冻,LLM提取,论文病例报告,2020-11-01,手术,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,g7b8c9d0-e1f2-43a4-8f0f-7e8f9012a3b3,左乳房标本,病理诊断,,文本型,最终手术病理为交界性叶状肿瘤，伴肿瘤周围小叶腺瘤样增生和脂肪样化生区域。,,左腋窝淋巴结块中见3枚淋巴结伴弥漫性硬化,,病理,LLM提取,论文病例报告,2020-11-01,病理,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,g7b8c9d0-e1f2-43a4-8f0f-7e8f9012a3b3,左乳房标本,分化程度,,类别型,交界性,,,,,LLM提取,论文病例报告,2020-11-01,病理,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,g7b8c9d0-e1f2-43a4-8f0f-7e8f9012a3b3,左乳房标本,免疫组化,,文本型,E-cadherin阳性；ER阳性(55%)；p53约35%阳性；CD34局灶阳性；Ki67约15%阳性。,,ER仅见于上皮成分；p53、Ki67主要见于间质成分；CD34血管亦阳性,,免疫组化,LLM提取,论文病例报告,2020-11-01,病理,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,h8c9d0e1-f2a3-44b5-8f0f-8f9012a3b4c4,患者,出院状况,,类别型,术后恢复良好,,,,,LLM提取,论文病例报告,2020-11-01,出院,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,i9d0e1f2-a3b4-45c6-8f90-9012a3b4c5d5,患者,手术名称,,类别型,DIEP皮瓣乳房重建术,,自体腹部组织移植,,,LLM提取,论文病例报告,2021-02-01,手术,v1
+db88454ecf9c21f6bad30aae0686d5cf,6c90efbb4f8ad611073dbafeadef3514,j0e1f2a3-b4c5-46d7-8f90-a123b4c5d6e6,患者,随访结果,,文本型,术后7个月临床及超声检查均未见复发迹象。,,,,临床检查；超声,LLM提取,论文病例报告,2021-06-01,病程,v1

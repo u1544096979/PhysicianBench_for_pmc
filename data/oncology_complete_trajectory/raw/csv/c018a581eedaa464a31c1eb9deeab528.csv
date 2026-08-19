@@ -1,0 +1,66 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,11111111-1111-1111-1111-111111111111,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,,病史,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,11111111-1111-1111-1111-111111111111,患者,年龄,,文本型,中年,,,,,LLM提取,论文病例报告,,病史,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,22222222-2222-2222-2222-222222222222,患者,主诉,,文本型,背痛半月，胃癌术后15个月,,,,,LLM提取,论文病例报告,2024-10-23,病史,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,22222222-2222-2222-2222-222222222222,患者,现病史,,文本型,2024-10-23出现下腰痛，2024-11-06 MRI提示胸腰椎及骨盆异常信号，严重背痛NRS 5分，提示肿瘤复发/转移相关病变。,,,,,LLM提取,论文病例报告,2024-10-23,病史,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,33333333-3333-3333-3333-333333333333,患者,主诉,,文本型,7月出现呕血后就诊，发现胃癌,,,,,LLM提取,论文病例报告,2023-07-10,病史,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,44444444-4444-4444-4444-444444444444,患者,检查项目,,类别型,多层螺旋CT,,胃壁局限性增厚并强化；肝囊肿；肝胃间隙小淋巴结；腹膜后淋巴结稍大；疑似消化道病灶,,,LLM提取,论文病例报告,2023-07-29,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,44444444-4444-4444-4444-444444444444,患者,影像所见,,文本型,胃壁局限性增厚，伴强化；肝囊肿；肝胃间隙小淋巴结；腹膜后淋巴结稍大；疑似消化道病灶。,,,,,LLM提取,论文病例报告,2023-07-29,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,55555555-5555-5555-5555-555555555555,患者,检查项目,,类别型,胃镜/活检,,慢性萎缩性胃炎，多个胃溃疡，病理证实腺癌（印戒细胞癌）,,,LLM提取,论文病例报告,2023-07-31,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,55555555-5555-5555-5555-555555555555,胃标本,病理诊断,,文本型,腺癌（印戒细胞癌）,,慢性萎缩性胃炎，多个胃溃疡,,HE染色,LLM提取,论文病例报告,2023-07-31,病理,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,66666666-6666-6666-6666-666666666666,患者,手术名称,,类别型,全胃切除术+Roux-en-Y食管空肠吻合术,,,,,LLM提取,论文病例报告,2023-08-07,手术,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,77777777-7777-7777-7777-777777777777,患者,病理诊断,,文本型,胃腺癌，较中分化至低分化，溃疡型，侵犯至黏膜下/浆膜下层，淋巴结转移11/31,,肿瘤大小5 cm × 5 cm × 0.8 cm；无脉管侵犯、无神经侵犯；切缘未受累,,术后病理,LLM提取,论文病例报告,2023-08-07,病理,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,77777777-7777-7777-7777-777777777777,患者,Lauren分型,,类别型,混合型,,,,,LLM提取,论文病例报告,2023-08-07,病理,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,77777777-7777-7777-7777-777777777777,患者,免疫组化,,文本型,Ki-67(30%+)、Her-2(0)、AE1/AE3(+)、CK7(+)、CDX2-88(+)、CK20(少许+)、CEA(-)、MUC6(少许+)、MUC5AC(少许+)、P53(弥漫+),,,,免疫组化,LLM提取,论文病例报告,2023-08-07,病理,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,88888888-8888-8888-8888-888888888888,患者,治疗方案,,类别型,S-1单药辅助化疗,,2周期,,,LLM提取,论文病例报告,2023-08-01,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,88888888-8888-8888-8888-888888888888,患者,药品名称,,类别型,S-1（替加氟/吉美嘧啶/奥替拉西）,,40 mg/m²，bid，d1-14,,,LLM提取,论文病例报告,2023-08-01,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,99999999-9999-9999-9999-999999999999,患者,治疗方案,,类别型,奥沙利铂+S-1（SOX方案）,,6周期，每3周一次,,,LLM提取,论文病例报告,2023-12-10,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,99999999-9999-9999-9999-999999999999,患者,药品名称,,类别型,奥沙利铂,,180 mg，d1，静脉输注,,,LLM提取,论文病例报告,2023-12-10,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,99999999-9999-9999-9999-999999999999,患者,药品名称,,类别型,S-1（替加氟/吉美嘧啶/奥替拉西）,,60 mg，bid，d1-14，q3w,,,LLM提取,论文病例报告,2023-12-10,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,不良反应名称,,类别型,骨髓抑制,,经G-CSF支持后缓解,,,LLM提取,论文病例报告,2023-12-10,不良反应,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,患者,治疗方案,,类别型,S-1维持治疗,,持续至2024-09-10,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,患者,药品名称,,类别型,S-1（替加氟/吉美嘧啶/奥替拉西）,,60 mg bid，d1-14，每3周,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,cccccccc-cccc-cccc-cccc-cccccccccccc,患者,症状,,文本型,下腰痛,,NRS 5/10,,,LLM提取,论文病例报告,2024-10-23,病史,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,cccccccc-cccc-cccc-cccc-cccccccccccc,患者,评估,,数值型,5,5,NRS疼痛评分,分,,LLM提取,论文病例报告,2024-10-23,评估,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,dddddddd-dddd-dddd-dddd-dddddddddddd,患者,检查项目,,类别型,MRI,,腰椎退变、L4/5椎间盘突出、L3上缘Schmorl结节可能、T9/T10/L5楔形改变、L4血管瘤可能、胸腰椎及骨盆异常信号,,,LLM提取,论文病例报告,2024-11-06,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,dddddddd-dddd-dddd-dddd-dddddddddddd,患者,影像所见,,文本型,腰椎退变、L4/5椎间盘突出、L3上缘Schmorl结节可能、T9/T10/L5楔形改变、L4血管瘤可能、胸腰椎及骨盆异常信号。,,,,MRI,LLM提取,论文病例报告,2024-11-06,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,患者,症状,,文本型,贫血、轻度黄疸、背部散在瘀点、腹部手术瘢痕约10 cm,,,,体格检查,LLM提取,论文病例报告,2024-11-06,评估,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,血红蛋白,,数值型,64,64,参考范围130-175,g/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,血小板,,数值型,19,19,参考范围125-350,10^9/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,白细胞,,数值型,5.8,5.8,参考范围3.5-9.5,10^9/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,红细胞,,数值型,2.19,2.19,参考范围4.4-5.8,10^12/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,网织红细胞百分比,,数值型,10.63,10.63,参考范围0.5-1.5%,%,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,总胆红素,,数值型,121.1,121.1,参考范围3.42-20.52,μmol/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,间接胆红素,,数值型,94.3,94.3,参考范围2-18,μmol/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,直接胆红素,,数值型,26.8,26.8,参考范围0.0-6.84,μmol/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,乳酸脱氢酶,,数值型,1040,1040,参考范围120-250,U/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,纤维蛋白原,,数值型,0.6,0.6,参考范围2-4,g/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,凝血酶原时间,,数值型,33.4,33.4,参考范围11.0-14.5,秒,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,血清肌酐,,数值型,46,46,参考范围57-110,μmol/L,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,ADAMTS-13活性,,数值型,-,,参考范围0-100%,%,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,ffffffff-ffff-ffff-ffff-ffffffffffff,外周血,ADAMTS-13抑制物,,类别型,阴性,,参考范围-/+,,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,gggggggg-gggg-gggg-gggg-gggggggggggg,骨髓标本,检查项目,,类别型,骨髓涂片/流式/免疫分型/染色体分析/骨髓活检,,可见纤维化、坏死、发育异常造血和铁过载；骨髓粒系分化抗原异常表达38.5%，有核红细胞群23.2%,,,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,gggggggg-gggg-gggg-gggg-gggggggggggg,骨髓标本,骨髓活检,,文本型,典型造血结构消失，坏死和纤维化区域；见疑似印戒细胞。,,HE染色,,病理,LLM提取,论文病例报告,2024-11-06,病理,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,gggggggg-gggg-gggg-gggg-gggggggggggg,骨髓标本,骨髓流式细胞术,,文本型,粒细胞分化抗原异常表达38.5%，有核红细胞群23.2%，其余未见明显异常,,,,流式细胞术,LLM提取,论文病例报告,2024-11-06,检验,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh,患者,检查项目,,类别型,头颅CT,,右额叶出血、右额颞部硬膜下血肿、脑疝,,,LLM提取,论文病例报告,2024-11-06,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh,患者,影像所见,,文本型,右额叶出血、右额颞部硬膜下血肿、脑疝,,,,CT,LLM提取,论文病例报告,2024-11-06,影像,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,患者,诊断名称,,类别型,胃印戒细胞癌术后,,合并骨髓转移和继发性TMA,,,LLM提取,论文病例报告,2024-11-06,诊断,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,患者,诊断名称,,类别型,骨髓转移,,来源于胃癌,,,LLM提取,论文病例报告,2024-11-06,诊断,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,患者,诊断名称,,类别型,继发性血栓性微血管病（TMA）,,临床表现、实验室检查和影像学证实,,,LLM提取,论文病例报告,2024-11-06,诊断,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,治疗方案,,类别型,支持治疗,,间断输血、补液、营养、微循环治疗,,,LLM提取,论文病例报告,2024-11-06,病程,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,治疗方案,,类别型,输血,,去白细胞红细胞17.5 U，治疗量血小板10个单位,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,重组人血小板生成素,,15000 U，静脉输注,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,人纤维蛋白原,,2 g，静脉输注,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,甲泼尼龙琥珀酸钠,,40-80 mg/day，静脉输注；用于控制溶血,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,卡巴克洛钠磺酸,,80 mg/day，静脉输注；止血,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,复方甘草酸苷,,120 mg/day，静脉输注；保肝,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,熊去氧胆酸,,0.25 g，bid，口服；利胆,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,莫沙必利,,5 mg，tid，口服；促胃肠动力,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,奥美拉唑,,1 g/day，静脉输注；抑酸,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,头孢他啶,,2 g，bid，静脉输注；抗感染,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,奥硝唑,,1 g/day，静脉输注；抗厌氧/原虫,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,唑来膦酸,,4 mg/day，静脉输注；骨保护,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,曲马多缓释片,,100 mg，q12h，口服；镇痛,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,药品名称,,类别型,吗啡,,3 mg/day，静脉注射；镇痛,,,LLM提取,论文病例报告,2024-11-06,用药,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,kkkkkkkk-kkkk-kkkk-kkkk-kkkkkkkkkkkk,患者,出院状况,,类别型,死亡,,2024-12-02因脑出血及脑疝死亡,,,LLM提取,论文病例报告,2024-12-02,出院,v1
+c018a581eedaa464a31c1eb9deeab528,4ef170c75f70ff0999c8b9e587d3dd71,kkkkkkkk-kkkk-kkkk-kkkk-kkkkkkkkkkkk,患者,出院诊断,,类别型,脑出血、脑疝,,终末事件,,,LLM提取,论文病例报告,2024-12-02,出院,v1

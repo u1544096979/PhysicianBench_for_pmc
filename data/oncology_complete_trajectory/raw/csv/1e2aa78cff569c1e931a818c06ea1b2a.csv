@@ -1,0 +1,32 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,c4a4e4f2-8a9c-4b58-9d1b-0f2f9f6d7f8a,患者,入院年龄,,数值型,6,6,,岁,,LLM提取,论文病例报告,1996-01-01,病史,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,c4a4e4f2-8a9c-4b58-9d1b-0f2f9f6d7f8a,患者,既往史,,文本型,6岁时因下丘脑区良性毛细胞型星形细胞瘤接受治疗，后被认为可能与放疗相关。,,,,,LLM提取,论文病例报告,1996-01-01,病史,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,6fb48e5f-5f2a-4fb8-a2d6-0d3f3f1e3f9c,患者,诊断名称,,类别型,毛细胞型星形细胞瘤,,WHO 1级；肿瘤位于下丘脑/视交叉区域；大小约5 cm,,,LLM提取,论文病例报告,1996-01-01,诊断,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,2af2f89a-0f42-4fd9-bd4b-3d2f4f0d4f0d,下丘脑区肿瘤,手术名称,,类别型,次全切除术,,,,,LLM提取,论文病例报告,1996-01-01,手术,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,2af2f89a-0f42-4fd9-bd4b-3d2f4f0d4f0d,下丘脑区肿瘤,手术结果,,文本型,部分切除，术后残余灶在随访MRI中稳定,,,,,LLM提取,论文病例报告,1996-01-01,手术,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a1b5ef1a-4fb6-4c5a-9f9b-8f7b2d8c6c11,患者,治疗方案,,类别型,放疗,,术后辅助放疗,,,LLM提取,论文病例报告,1996-01-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,b0c90f5f-6b1c-4f35-9c4c-7d9b5a1d9a22,患者,症状,,文本型,左眼失明、右耳听力丧失、头痛,,儿童期及早期青少年期主要症状,,,LLM提取,论文病例报告,2005-01-01,病史,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,d9f0d5d8-2c6d-4f5c-8c3b-1b8a4b5c7d33,患者,影像所见,,文本型,MRI示丘脑区残余病灶较前稳定,,2005年影像，病灶未见明显变化,,MRI增强,LLM提取,论文病例报告,2005-01-01,影像,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,8f7a1d2c-6c3d-4b4c-9c2e-2f1d0e4a5b66,患者,诊断名称,,类别型,左颞区颅底新发肿瘤,,随后病理证实为放疗诱发的非典型脑膜瘤,,,LLM提取,论文病例报告,2006-01-01,诊断,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,d7b8f4d2-7d8a-4e5c-9d0e-3f2a1b5c6d77,左颞区肿瘤,手术名称,,类别型,次全切除术,,,,,LLM提取,论文病例报告,2006-01-01,手术,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,d7b8f4d2-7d8a-4e5c-9d0e-3f2a1b5c6d77,左颞区肿瘤,手术结果,,文本型,术后仍有残余，后续多次因持续生长再次手术,,,,,LLM提取,论文病例报告,2006-01-01,手术,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,e1a6b5c4-3d2f-4a5b-9c7d-1e2f3a4b5c88,患者,病理诊断,,文本型,非典型脑膜瘤,,推测为放疗诱发,,病理检查,LLM提取,论文病例报告,2006-01-01,病理,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,f2b7c6d5-4e3f-4a6b-8d9e-2f3a4b5c6d99,患者,治疗方案,,类别型,放疗,,术后同步放疗,,,LLM提取,论文病例报告,2006-01-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a9c8b7d6-5e4f-4a7b-9c0d-3f4a5b6c7d10,患者,治疗方案,,类别型,再次手术,,2006年至2014年期间因持续生长多次行次全切除,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,b8d7c6a5-4e3f-4d2c-9b0a-1f2e3d4c5b11,患者,治疗方案,,类别型,放疗,,再次放疗,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e55,患者,治疗方案,,类别型,贝伐珠单抗,,VEGF-A抑制剂；实验性治疗,,,LLM提取,论文病例报告,2016-01-01,用药,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e55,患者,用药周期,,文本型,约4年,,,,,LLM提取,论文病例报告,2016-01-01,用药,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,d4e5f6a7-8b9c-4d0e-9f1a-2b3c4d5e6f22,患者,影像所见,,文本型,常规随访MRI提示肿瘤进展,,贝伐珠单抗治疗期间出现显著生长,,MRI,LLM提取,论文病例报告,2019-01-01,影像,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,d4e5f6a7-8b9c-4d0e-9f1a-2b3c4d5e6f22,患者,治疗反应,,类别型,疾病进展,,因此停用贝伐珠单抗,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,e6f7a8b9-0c1d-4e2f-9a3b-4c5d6e7f8a33,患者,影像所见,,文本型,Ga-68-DOTA-TOC PET-CT意外发现多发肺结节，提示肺转移；胸腹部CT证实双侧多发小肺结节,,后续活检证实为脑膜瘤肺转移,,PET-CT；CT,LLM提取,论文病例报告,2020-04-01,影像,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,e6f7a8b9-0c1d-4e2f-9a3b-4c5d6e7f8a33,肺结节标本,病理诊断,,文本型,脑膜瘤肺转移,,核心针活检证实,,组织病理学,LLM提取,论文病例报告,2020-04-01,病理,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,e6f7a8b9-0c1d-4e2f-9a3b-4c5d6e7f8a33,肺结节标本,免疫组化,,文本型,EMA、CD56阳性；low/high molecular keratin、CK7、S-100、TTF-1、Napsin A、P63阴性,,Ki-67升高，可见部分有丝分裂象,,免疫组织化学,LLM提取,论文病例报告,2020-04-01,病理,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,f0a1b2c3-d4e5-4f6a-8b9c-0d1e2f3a4b44,患者,基因检测,,文本型,未发现可靶向基因改变,,进行了肿瘤基因组测序,,基因测序,LLM提取,论文病例报告,2020-04-01,诊断,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c55,患者,治疗方案,,类别型,放射性核素靶向治疗,,PRRT；Lutetium DOTA-TOC,,,LLM提取,论文病例报告,2020-08-01,用药,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c55,患者,周期数,,数值型,4,4,,次,,LLM提取,论文病例报告,2020-08-01,用药,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c55,患者,剂量,,数值型,4.5,4.5,,GBq,,LLM提取,论文病例报告,2020-08-01,用药,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c55,患者,给药途径,,类别型,静脉给药,,,,,LLM提取,论文病例报告,2020-08-01,用药,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c55,患者,治疗反应,,类别型,前3次未见明显可测量的颅内或颅外进展,,第4次治疗后出现明显颅内进展,,,LLM提取,论文病例报告,2020-08-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d66,患者,影像所见,,文本型,控制MRI提示左侧额颞部脑膜瘤明显进展，伴占位效应、中线右移及周围水肿/浸润；其他小脑膜瘤及肺转移灶基本稳定,,发生于第4次PRRT后不久,,MRI；PET-CT,LLM提取,论文病例报告,2020-09-01,影像,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d66,患者,症状,,文本型,右眼视力下降，逐渐进展至近乎失明,,发生在第2次治疗后数周，认为更可能与肿瘤进展相关,,,LLM提取,论文病例报告,2020-08-01,病程,v1
+1e2aa78cff569c1e931a818c06ea1b2a,db37df0a4ad1e91ac03b72d714cc60b7,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d66,患者,结局,,文本型,症状和肿瘤持续进展后死亡,,约在治疗后10个月、32岁时死亡,,,LLM提取,论文病例报告,2021-06-01,病程,v1

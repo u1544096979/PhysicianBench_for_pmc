@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,4d6e4b6f-71cc-4c6f-a9f5-4f4e8b1e2f2a,患者,年龄,,数值型,62,62,,岁,,LLM提取,论文病例报告,,病史,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,4d6e4b6f-71cc-4c6f-a9f5-4f4e8b1e2f2a,患者,婚姻状况,,文本型,已婚,,,,,LLM提取,论文病例报告,,病史,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,4d6e4b6f-71cc-4c6f-a9f5-4f4e8b1e2f2a,患者,职业,,文本型,农民,,,,,LLM提取,论文病例报告,,病史,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,4d6e4b6f-71cc-4c6f-a9f5-4f4e8b1e2f2a,患者,家族史,,文本型,父亲于50岁死于霍奇金病；母亲于70岁死于子宫癌,,,,,LLM提取,论文病例报告,,病史,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,f2d4f8cb-7d7f-4dc1-9aa2-7c9b48e8d3f1,患者,主诉,,文本型,乏力、食欲减退、体重下降、腹泻,,2021年底起渐进出现,,,LLM提取,论文病例报告,2021-12-31,病史,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,1b5f4c65-08f8-4f2c-a0b5-5a2f5a9c0d3d,患者,诊断名称,,类别型,转移性直肠腺癌,,伴肝脏及淋巴结转移,,影像学,LLM提取,论文病例报告,2021-12-31,诊断,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,c9f1b9aa-0ce6-4f6d-b6c7-8c6b9d7f1a22,影像检查,影像所见,,文本型,转移性直肠腺癌，累及肝脏和淋巴结,,,,,LLM提取,论文病例报告,2021-12-31,影像,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,c9f1b9aa-0ce6-4f6d-b6c7-8c6b9d7f1a22,影像检查,影像结论,,文本型,转移性直肠腺癌伴肝脏及淋巴结转移,,,,,LLM提取,论文病例报告,2021-12-31,影像,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3f1d6e2f-9f3d-4b6a-bf6a-3e2f3b7b7f31,病理标本,病理诊断,,文本型,高分化腺癌,,MSS，KRAS野生型，BRAF野生型,,,LLM提取,论文病例报告,2021-12-31,病理,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3f1d6e2f-9f3d-4b6a-bf6a-3e2f3b7b7f31,病理标本,分子标志物,,类别型,MSS,,,,,LLM提取,论文病例报告,2021-12-31,病理,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3f1d6e2f-9f3d-4b6a-bf6a-3e2f3b7b7f31,病理标本,KRAS状态,,类别型,野生型,,,,,LLM提取,论文病例报告,2021-12-31,病理,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3f1d6e2f-9f3d-4b6a-bf6a-3e2f3b7b7f31,病理标本,BRAF状态,,类别型,野生型,,,,,LLM提取,论文病例报告,2021-12-31,病理,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,8c7b8e3f-1a2d-4c3e-b5f6-7a8b9c0d1e2f,患者,DPYD基因分型,,类别型,正常,,,,基因分型,LLM提取,论文病例报告,2021-12-31,诊断,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,8c7b8e3f-1a2d-4c3e-b5f6-7a8b9c0d1e2f,患者,UGT1A1基因型,,类别型,*28纯合子,,,,基因分型,LLM提取,论文病例报告,2021-12-31,诊断,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,b0d2d0c1-2a3b-4c5d-9e6f-1a2b3c4d5e6f,血液,尿嘧啶血症,,数值型,7.3,7.3,,µg/L,,LLM提取,论文病例报告,2022-03-30,检验,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,b0d2d0c1-2a3b-4c5d-9e6f-1a2b3c4d5e6f,血液,肾小球滤过率,,数值型,94,94,CKD-EPI参考,mL/min/1.73 m²,CKD-EPI,LLM提取,论文病例报告,2022-03-30,检验,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,6f1a2b3c-4d5e-6f70-8a9b-0c1d2e3f4a5b,患者,诊断名称,,类别型,转移性直肠腺癌,,,,,LLM提取,论文病例报告,2022-04-01,诊断,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d,FOLFOX,治疗方案,,类别型,FOLFOX联合帕尼单抗,,初始治疗,,,LLM提取,论文病例报告,2022-04-01,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d,FOLFOX,治疗反应,,类别型,初始有效,,后续出现耐药,,,LLM提取,论文病例报告,2022-04-01,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d,帕尼单抗,药品名称,,类别型,帕尼单抗,,联合FOLFOX,,,LLM提取,论文病例报告,2022-04-01,用药,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d,患者,治疗周期,,文本型,2022-04至2023-12,,FOLFOX联合帕尼单抗,,,LLM提取,论文病例报告,2022-04-01,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,0d1e2f3a-4b5c-6d7e-8f90-1a2b3c4d5e6f,患者,不良反应名称,,类别型,周围神经病变,,2级,,,LLM提取,论文病例报告,2023-12-31,不良反应,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,0d1e2f3a-4b5c-6d7e-8f90-1a2b3c4d5e6f,患者,不良反应名称,,类别型,皮疹,,2级,,,LLM提取,论文病例报告,2023-12-31,不良反应,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,FOLFIRI,治疗方案,,类别型,FOLFIRI联合阿柏西普,,因耐药后开始,,,LLM提取,论文病例报告,2023-12-31,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,FOLFIRI,治疗反应,,类别型,疾病稳定,,至2024-01,,,LLM提取,论文病例报告,2023-12-31,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,阿柏西普,药品名称,,类别型,阿柏西普,,联合FOLFIRI,,,LLM提取,论文病例报告,2023-12-31,用药,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,2a3b4c5d-6e7f-8091-a2b3-c4d5e6f7a8b9,患者,病情进展,,文本型,肺、肝和骨进展,,FOLFIRI后数周,,,LLM提取,论文病例报告,2024-01-31,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3b4c5d6e-7f80-91a2-b3c4-d5e6f7a8b9c0,患者,出血性肿瘤相关症状,,文本型,直肠出血,,因疾病进展及使用贝伐珠单抗,,,LLM提取,论文病例报告,2024-12-05,不良反应,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3b4c5d6e-7f80-91a2-b3c4-d5e6f7a8b9c0,患者,治疗方案,,类别型,曲氟尿苷/替匹嘧啶联合贝伐珠单抗,,随后评估可改用瑞戈非尼,,,LLM提取,论文病例报告,2024-12-05,病程,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,3b4c5d6e-7f80-91a2-b3c4-d5e6f7a8b9c0,贝伐珠单抗,药品名称,,类别型,贝伐珠单抗,,联合曲氟尿苷/替匹嘧啶,,,LLM提取,论文病例报告,2024-12-05,用药,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,4c5d6e7f-8091-a2b3-c4d5-e6f7a8b9c0d1,血液,尿嘧啶血症,,数值型,43.0,43.0,,µg/L,,LLM提取,论文病例报告,2024-12-05,检验,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,4c5d6e7f-8091-a2b3-c4d5-e6f7a8b9c0d1,血液,肾小球滤过率,,数值型,110,110,CKD-EPI参考,mL/min/1.73 m²,CKD-EPI,LLM提取,论文病例报告,2024-12-05,检验,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,5d6e7f80-91a2-b3c4-d5e6-f7a8b9c0d1e2,患者,治疗方案,,类别型,瑞戈非尼,,拟改用,,,LLM提取,论文病例报告,2024-12-05,用药,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,6e7f8091-a2b3-c4d5-e6f7-a8b9c0d1e2f3,患者,停药后复查尿嘧啶血症,,数值型,4.5,4.5,停用曲氟尿苷/替匹嘧啶和贝伐珠单抗15天后,µg/L,,LLM提取,论文病例报告,2024-12-20,检验,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,6e7f8091-a2b3-c4d5-e6f7-a8b9c0d1e2f3,患者,停药后肾小球滤过率,,数值型,102,102,CKD-EPI参考,mL/min/1.73 m²,CKD-EPI,LLM提取,论文病例报告,2024-12-20,检验,v1
+9104420de431a3a8bdf8c31bd4ca04ec,8bb9e4eebd714bc823ac6bf01d14f639_1,7f8091a2-b3c4-d5e6-f7a8-b9c0d1e2f3a4,患者,死亡,,文本型,死亡,,心肺复苏失败；因失血性休克死亡,,,LLM提取,论文病例报告,2025-01-26,病程,v1

@@ -1,0 +1,70 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,0f0c29aa-3a15-4a0c-8d19-9cb61d4a3c11,患者,入院年龄,,数值型,40,40,,岁,,LLM提取,论文病例报告,2012-01-01,病史,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,0f0c29aa-3a15-4a0c-8d19-9cb61d4a3c11,患者,既往史,,文本型,2012年诊断为嗅神经母细胞瘤，此后接受过多次手术、放疗和化疗,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,d4a8e5d8-b2d1-4f0d-8c79-7b0f10f0d5d5,患者,诊断名称,,类别型,嗅神经母细胞瘤,,,,,LLM提取,论文病例报告,2012-01-01,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,f0c5d1df-3f7c-4b3f-9c8f-69b6d7a7d0d6,患者,药品名称,,类别型,氨氯地平,,用于控制既往高血压,,,LLM提取,论文病例报告,,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,f0c5d1df-3f7c-4b3f-9c8f-69b6d7a7d0d6,患者,药品名称,,类别型,多种降压药,,用于控制既往高血压,,,LLM提取,论文病例报告,,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,7c8e8b7c-1c56-4f35-9f88-9b6f0d8f9f01,患者,诊断名称,,类别型,高血压,,既往病史,,,LLM提取,论文病例报告,,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,2c8a0f7a-3fbf-4c2d-9f0c-1b4b8e8c6d77,患者,药品名称,,类别型,仑伐替尼,,10 mg QD，挽救治疗,,,LLM提取,论文病例报告,2020-08-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,2c8a0f7a-3fbf-4c2d-9f0c-1b4b8e8c6d77,患者,剂量,,数值型,10,10,,mg,,LLM提取,论文病例报告,2020-08-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,2c8a0f7a-3fbf-4c2d-9f0c-1b4b8e8c6d77,患者,用药周期,,文本型,QD,,每日一次,,,LLM提取,论文病例报告,2020-08-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,2c8a0f7a-3fbf-4c2d-9f0c-1b4b8e8c6d77,患者,治疗方案,,类别型,仑伐替尼单药挽救治疗,,,,,LLM提取,论文病例报告,2020-08-11,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,a0b3f0d6-6f61-4d9b-8e47-9db4e0f9d2e1,患者,不良反应名称,,类别型,癫痫发作,,首次出现意识改变由癫痫引起,,,LLM提取,论文病例报告,2021-01-09,不良反应,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,a0b3f0d6-6f61-4d9b-8e47-9db4e0f9d2e1,患者,不良反应名称,,类别型,意识改变/意识丧失,,,,,LLM提取,论文病例报告,2021-01-09,不良反应,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,b9d2d6a8-7b2e-4d3f-9b1a-2e8c9d7a3c21,患者,影像所见,,文本型,CT提示脑转移和脑脓肿,,,,CT,LLM提取,论文病例报告,2021-01-09,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,b9d2d6a8-7b2e-4d3f-9b1a-2e8c9d7a3c21,患者,影像结论,,文本型,脑转移、脑脓肿,,,,CT,LLM提取,论文病例报告,2021-01-09,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,c1e4f7a2-1b8d-4f9d-9a2b-7d3c4e5f6a11,患者,药品名称,,类别型,仑伐替尼,,暂停以避免不良反应,,,LLM提取,论文病例报告,2021-01-09,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,c1e4f7a2-1b8d-4f9d-9a2b-7d3c4e5f6a11,患者,治疗方案,,类别型,停用仑伐替尼,,,,,LLM提取,论文病例报告,2021-01-09,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,d8f3e6c1-4a2b-4d8f-9b6c-1e2d3f4a5b67,患者,药品名称,,类别型,左乙拉西坦,,用于癫痫控制,,,LLM提取,论文病例报告,2021-01-09,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,d8f3e6c1-4a2b-4d8f-9b6c-1e2d3f4a5b67,患者,药品名称,,类别型,广谱抗生素,,用于处理脑脓肿,,,LLM提取,论文病例报告,2021-01-09,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,d8f3e6c1-4a2b-4d8f-9b6c-1e2d3f4a5b67,患者,治疗方案,,类别型,癫痫控制及脑脓肿抗感染治疗,,,,,LLM提取,论文病例报告,2021-01-09,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,e7f6a5b4-c3d2-4e1f-9a8b-7c6d5e4f3a21,患者,血压,,文本型,120–140/80–90 mm Hg,,氨氯地平+多沙唑嗪控制后,mm Hg,,LLM提取,论文病例报告,2021-01-09,评估,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,e7f6a5b4-c3d2-4e1f-9a8b-7c6d5e4f3a21,患者,药品名称,,类别型,氨氯地平,,控制血压,,,LLM提取,论文病例报告,2021-01-09,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,e7f6a5b4-c3d2-4e1f-9a8b-7c6d5e4f3a21,患者,药品名称,,类别型,多沙唑嗪,,控制血压,,,LLM提取,论文病例报告,2021-01-09,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a55,患者,手术名称,,类别型,脓肿引流术,,,,,LLM提取,论文病例报告,2021-01-26,手术,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a55,患者,手术结果,,文本型,实施脓肿引流，随后观察到肿瘤进展,,,,,LLM提取,论文病例报告,2021-01-26,手术,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a55,患者,影像结论,,文本型,进展性肿瘤,,脓肿引流时所见,,,LLM提取,论文病例报告,2021-01-26,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,a7b6c5d4-e3f2-4a1b-9c8d-7e6f5a4b3c11,患者,药品名称,,类别型,仑伐替尼,,因肿瘤进展重新启用，10 mg QD,,,LLM提取,论文病例报告,2021-01-26,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,a7b6c5d4-e3f2-4a1b-9c8d-7e6f5a4b3c11,患者,剂量,,数值型,10,10,,mg,,LLM提取,论文病例报告,2021-01-26,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,a7b6c5d4-e3f2-4a1b-9c8d-7e6f5a4b3c11,患者,用药周期,,文本型,QD,,每日一次,,,LLM提取,论文病例报告,2021-01-26,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,a7b6c5d4-e3f2-4a1b-9c8d-7e6f5a4b3c11,患者,治疗方案,,类别型,仑伐替尼再启用,,因进展肿瘤,,,LLM提取,论文病例报告,2021-01-26,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,e2f3a4b5-c6d7-4e8f-9a0b-1c2d3e4f5a66,患者,血压,,文本型,150–170/100–120 mm Hg,,重新启用仑伐替尼后升高,mm Hg,,LLM提取,论文病例报告,2021-01-28,评估,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,f3e4d5c6-b7a8-4f90-9a1b-2c3d4e5f6a77,患者,不良反应名称,,类别型,不自主运动,,再次出现,,,LLM提取,论文病例报告,2021-02-12,不良反应,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,g4h5i6j7-k8l9-4m0n-9o1p-2q3r4s5t6u88,患者,药品名称,,类别型,美罗培南,,2月9日至13日；2月15日至22日使用,,,LLM提取,论文病例报告,2021-02-09,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,g4h5i6j7-k8l9-4m0n-9o1p-2q3r4s5t6u88,患者,药品名称,,类别型,美罗培南,,2月15日至22日使用,,,LLM提取,论文病例报告,2021-02-15,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,影像所见,,文本型,MRI显示右额下叶残余脓肿,,,,MRI,LLM提取,论文病例报告,2021-02-18,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,影像所见,,文本型,脑积水,,,,MRI,LLM提取,论文病例报告,2021-02-18,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,影像所见,,文本型,脑室炎,,,,MRI,LLM提取,论文病例报告,2021-02-18,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,影像所见,,文本型,脑膜炎,,,,MRI,LLM提取,论文病例报告,2021-02-18,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,诊断名称,,类别型,脑积水,,MRI后诊断,,,LLM提取,论文病例报告,2021-02-18,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,诊断名称,,类别型,脑室炎,,MRI后诊断,,,LLM提取,论文病例报告,2021-02-18,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,h5i6j7k8-l9m0-4n1o-9p2q-3r4s5t6u7v99,患者,诊断名称,,类别型,脑膜炎,,MRI后诊断,,,LLM提取,论文病例报告,2021-02-18,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,i6j7k8l9-m0n1-4o2p-9q3r-4s5t6u7v8w00,患者,药品名称,,类别型,多利培南,,2月22日至4月9日使用,,,LLM提取,论文病例报告,2021-02-22,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,i6j7k8l9-m0n1-4o2p-9q3r-4s5t6u7v8w00,患者,药品名称,,类别型,多利培南,,2月22日至4月9日使用,,,LLM提取,论文病例报告,2021-02-22,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,j7k8l9m0-n1o2-4p3q-9r4s-5t6u7v8w9x11,患者,药品名称,,类别型,拉考沙胺,,用于癫痫控制,,,LLM提取,论文病例报告,2021-03-02,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,j7k8l9m0-n1o2-4p3q-9r4s-5t6u7v8w9x11,患者,治疗方案,,类别型,癫痫控制,,,,,LLM提取,论文病例报告,2021-03-02,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,j7k8l9m0-n1o2-4p3q-9r4s-5t6u7v8w9x11,患者,评估方法,,类别型,格拉斯哥昏迷评分,,E4V1M5降至E2V1M4,,,LLM提取,论文病例报告,2021-03-02,评估,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,k8l9m0n1-o2p3-4q4r-9s5t-6u7v8w9x0y22,患者,血压,,文本型,150–210/100–130 mm Hg,,尽管使用强化降压药仍控制不佳,mm Hg,,LLM提取,论文病例报告,2021-03-02,评估,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,l9m0n1o2-p3q4-4r5s-9t6u-7v8w9x0y1z33,患者,影像所见,,文本型,双侧枕叶及双侧顶高区皮质-皮质下病灶，T1低信号、T2高信号,,提示PRES,,MRI,LLM提取,论文病例报告,2021-03-05,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,l9m0n1o2-p3q4-4r5s-9t6u-7v8w9x0y1z33,患者,诊断名称,,类别型,后部可逆性脑病综合征（PRES）,,考虑3级,,MRI,LLM提取,论文病例报告,2021-03-05,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,l9m0n1o2-p3q4-4r5s-9t6u-7v8w9x0y1z33,患者,临床分期,,类别型,3级,,PRES分级,,,LLM提取,论文病例报告,2021-03-05,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,m0n1o2p3-q4r5-4s6t-9u7v-8w9x0y1z2a44,患者,药品名称,,类别型,仑伐替尼,,2021年3月8日停药,,,LLM提取,论文病例报告,2021-03-08,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,m0n1o2p3-q4r5-4s6t-9u7v-8w9x0y1z2a44,患者,治疗方案,,类别型,停用仑伐替尼,,因怀疑PRES,,,LLM提取,论文病例报告,2021-03-08,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,n1o2p3q4-r5s6-4t7u-9v8w-9x0y1z2a3b55,患者,药品名称,,类别型,阿法替尼,,40 mg QD，与仑伐替尼联用用于肿瘤进展,,,LLM提取,论文病例报告,2021-03-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,n1o2p3q4-r5s6-4t7u-9v8w-9x0y1z2a3b55,患者,药品名称,,类别型,仑伐替尼,,与阿法替尼联用,,,LLM提取,论文病例报告,2021-03-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,n1o2p3q4-r5s6-4t7u-9v8w-9x0y1z2a3b55,患者,剂量,,数值型,40,40,,mg,,LLM提取,论文病例报告,2021-03-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,n1o2p3q4-r5s6-4t7u-9v8w-9x0y1z2a3b55,患者,用药周期,,文本型,QD,,每日一次,,,LLM提取,论文病例报告,2021-03-11,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,n1o2p3q4-r5s6-4t7u-9v8w-9x0y1z2a3b55,患者,治疗方案,,类别型,阿法替尼+仑伐替尼联合治疗,,用于肿瘤进展,,,LLM提取,论文病例报告,2021-03-11,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,o2p3q4r5-s6t7-4u8v-9w9x-0y1z2a3b4c66,患者,不良反应名称,,类别型,癫痫发作,,继续用抗肿瘤药后再次发作,,,LLM提取,论文病例报告,2021-03-12,不良反应,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,p3q4r5s6-t7u8-4v9w-9x0y-1z2a3b4c5d77,患者,药品名称,,类别型,阿法替尼,,因术后伤口愈合不良于3月22日停用,,,LLM提取,论文病例报告,2021-03-22,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,p3q4r5s6-t7u8-4v9w-9x0y-1z2a3b4c5d77,患者,药品名称,,类别型,仑伐替尼,,因术后伤口愈合不良于3月22日停用,,,LLM提取,论文病例报告,2021-03-22,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,p3q4r5s6-t7u8-4v9w-9x0y-1z2a3b4c5d77,患者,治疗方案,,类别型,停用阿法替尼和仑伐替尼,,因术后伤口愈合不良,,,LLM提取,论文病例报告,2021-03-22,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,q4r5s6t7-u8v9-4w0x-9y1z-2a3b4c5d6e88,患者,药品名称,,类别型,氨氯地平,,用于PRES血压控制,,,LLM提取,论文病例报告,2021-03-22,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,q4r5s6t7-u8v9-4w0x-9y1z-2a3b4c5d6e88,患者,药品名称,,类别型,拉贝洛尔,,用于PRES血压控制,,,LLM提取,论文病例报告,2021-03-22,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,q4r5s6t7-u8v9-4w0x-9y1z-2a3b4c5d6e88,患者,治疗方案,,类别型,降压治疗,,用于PRES处理,,,LLM提取,论文病例报告,2021-03-22,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,r5s6t7u8-v9w0-4x1y-9z2a-3b4c5d6e7f99,患者,影像所见,,文本型,PRES已缓解，脑水肿消退,,,,MRI,LLM提取,论文病例报告,2021-04-07,影像,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,r5s6t7u8-v9w0-4x1y-9z2a-3b4c5d6e7f99,患者,诊断名称,,类别型,后部可逆性脑病综合征（PRES）,,已缓解,,MRI,LLM提取,论文病例报告,2021-04-07,诊断,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,s6t7u8v9-w0x1-4y2z-9a3b-4c5d6e7f8g00,患者,治疗方案,,类别型,观察,,4个月观察后恢复用药,,,LLM提取,论文病例报告,2021-08-18,病程,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,s6t7u8v9-w0x1-4y2z-9a3b-4c5d6e7f8g00,患者,药品名称,,类别型,仑伐替尼,,在血压控制充分后恢复使用,,,LLM提取,论文病例报告,2021-08-18,用药,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,s6t7u8v9-w0x1-4y2z-9a3b-4c5d6e7f8g00,患者,血压,,文本型,控制良好,,恢复仑伐替尼前,,,LLM提取,论文病例报告,2021-08-18,评估,v1
+ef8c7f22b9ba8cfccf929730c64c6cff,f9768b64e014bab45f4598fea56d2933,t7u8v9w0-x1y2-4z3a-9b4c-5d6e7f8g9h11,患者,随访结果,,文本型,规律随访MRI未再发现PRES复发,,,,MRI随访,LLM提取,论文病例报告,2021-08-18,病程,v1

@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,0d6e6f7d-0e2a-4e5f-9c66-3b2df3f4f4a1,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,病史,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,0d6e6f7d-0e2a-4e5f-9c66-3b2df3f4f4a1,患者,年龄,,数值型,46,46,,岁,,LLM提取,论文病例报告,,病史,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,0d6e6f7d-0e2a-4e5f-9c66-3b2df3f4f4a1,患者,吸烟史,,类别型,无,,non-smoking,,,LLM提取,论文病例报告,,病史,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,0d6e6f7d-0e2a-4e5f-9c66-3b2df3f4f4a1,患者,既往史,,文本型,既往健康，无特殊病史,,previously healthy,,,LLM提取,论文病例报告,,病史,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,8c2c0bde-7d4e-4e9b-8d79-1df1f9f2a2c3,患者,主诉,,文本型,感冒后咳嗽、咳痰,,,,,LLM提取,论文病例报告,2020-11-18,病史,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,8c2c0bde-7d4e-4e9b-8d79-1df1f9f2a2c3,患者,影像所见,,文本型,胸部CT示右肺叶结节,,无具体报告,,CT,LLM提取,论文病例报告,2020-11-18,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,8c2c0bde-7d4e-4e9b-8d79-1df1f9f2a2c3,患者,入院建议,,文本型,建议住院进一步诊断治疗，但患者拒绝,,,,,LLM提取,论文病例报告,2020-11-18,病程,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f3c5b8b8-3f1f-4c3d-9b62-4e8f4f9d1b10,患者,主诉,,文本型,同前症状再次就诊,,same reason,,,LLM提取,论文病例报告,2021-06-13,病史,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f3c5b8b8-3f1f-4c3d-9b62-4e8f4f9d1b10,患者,影像所见,,文本型,胸部CT较2020-11-18比较，右肺上叶病灶增多，纵隔淋巴结明显肿大，考虑周围型肺癌可能,,,,CT,LLM提取,论文病例报告,2021-06-13,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,9a0d5f1a-1a8d-4d67-8b6f-2fca0b51df01,患者,入院科室,,类别型,胸外科/肿瘤相关科室,,hospitalized at Shenzhen Nanshan District Shekou People's Hospital,,,LLM提取,论文病例报告,2021-06-16,入院,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,9a0d5f1a-1a8d-4d67-8b6f-2fca0b51df01,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2021-06-16,入院,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,a8b7c4e1-4a9b-4a3e-9d4d-0c54d3d1c2f2,患者,影像所见,,文本型,右肺上叶前段19×16×30 mm结节影，邻近胸膜受累；右肺门及纵隔2R、4R/L多发肿大淋巴结，较大者短径约21 mm；上腔静脉受淋巴结推压变窄,,,mm,CT,LLM提取,论文病例报告,2021-06-17,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,a8b7c4e1-4a9b-4a3e-9d4d-0c54d3d1c2f2,患者,影像结论,,文本型,考虑淋巴结转移,,,,CT,LLM提取,论文病例报告,2021-06-17,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,5b1d4f2c-5a8a-4d9f-8c1d-3e9b5c0f7a11,患者,检查方式,,文本型,超声支气管镜,,ultrasonic bronchoscopy,,,LLM提取,论文病例报告,2021-06-21,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,5b1d4f2c-5a8a-4d9f-8c1d-3e9b5c0f7a11,患者,影像所见,,文本型,纵隔4R、4L、7区及右肺门10R、右肺叶间11R见多个低回声肿块；4R区病灶最大短径约20.4×30.6 mm,,"lesions in 4R, 4L, 7, 10R, 11R",mm,超声支气管镜,LLM提取,论文病例报告,2021-06-21,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,7c2a9f8d-9b6e-4d28-a1c0-4f7a9a1a6d33,11R/4R淋巴结标本,病理诊断,,文本型,低分化癌，结合免疫表型符合神经内分泌癌，倾向肺大细胞神经内分泌癌（L-LCNEC）,,,,病理+免疫组化,LLM提取,论文病例报告,2021-06-22,病理,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,7c2a9f8d-9b6e-4d28-a1c0-4f7a9a1a6d33,11R/4R淋巴结标本,标本部位,,类别型,纵隔/右肺门淋巴结,,11R and 4R regions,,,LLM提取,论文病例报告,2021-06-22,病理,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,7c2a9f8d-9b6e-4d28-a1c0-4f7a9a1a6d33,11R/4R淋巴结标本,免疫组化,,文本型,"TTF-1(+), CK7(+), AE1/AE3(+), CD56(+), ChrA(+), Syn(+), Ki-67约40%, NapsinA(-), P40(-), P63(-)",,,,IHC,LLM提取,论文病例报告,2021-06-22,病理,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,7c2a9f8d-9b6e-4d28-a1c0-4f7a9a1a6d33,11R/4R淋巴结标本,分化程度,,类别型,低分化,,,,,LLM提取,论文病例报告,2021-06-22,病理,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,d4f1c0a5-2a6f-4ed5-9d7d-1f0b2f3d4c55,患者,临床分期,,类别型,cT1cN3M0 IIIB,,,,,LLM提取,论文病例报告,2021-06-22,诊断,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,d4f1c0a5-2a6f-4ed5-9d7d-1f0b2f3d4c55,患者,诊断名称,,类别型,肺大细胞神经内分泌癌（L-LCNEC）,,locally advanced,,,LLM提取,论文病例报告,2021-06-22,诊断,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,d4f1c0a5-2a6f-4ed5-9d7d-1f0b2f3d4c55,患者,分子标志物,,类别型,EML4-ALK融合（E13:A20）,,"mutation frequency 14.48% (plasma), 15.37% (tumor)",,NGS,LLM提取,论文病例报告,2021-06-22,诊断,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,d4f1c0a5-2a6f-4ed5-9d7d-1f0b2f3d4c55,患者,MSS状态,,类别型,MSS,,,,NGS,LLM提取,论文病例报告,2021-06-22,诊断,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,d4f1c0a5-2a6f-4ed5-9d7d-1f0b2f3d4c55,患者,TPS,,类别型,0%,,,,NGS,LLM提取,论文病例报告,2021-06-22,诊断,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,d4f1c0a5-2a6f-4ed5-9d7d-1f0b2f3d4c55,患者,CPS,,类别型,1,,,,NGS,LLM提取,论文病例报告,2021-06-22,诊断,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,e6f7a8b9-c0d1-4e2f-8a3b-1c2d3e4f5a66,患者,治疗方案,,类别型,阿来替尼 600 mg bid,,first-line targeted therapy,,,LLM提取,论文病例报告,2021-07-18,用药,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,e6f7a8b9-c0d1-4e2f-8a3b-1c2d3e4f5a66,患者,药品名称,,类别型,阿来替尼,,alectinib,,,LLM提取,论文病例报告,2021-07-18,用药,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,e6f7a8b9-c0d1-4e2f-8a3b-1c2d3e4f5a66,患者,剂量,,数值型,600,600,bid; twice daily,mg,,LLM提取,论文病例报告,2021-07-18,用药,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,e6f7a8b9-c0d1-4e2f-8a3b-1c2d3e4f5a66,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2021-07-18,用药,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f7a8b9c0-d1e2-4f3a-8b4c-2d3e4f5a6677,患者,疗效评估,,类别型,部分缓解（PR）,,RECIST1.1,,影像学评估,LLM提取,论文病例报告,2021-08-18,评估,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f7a8b9c0-d1e2-4f3a-8b4c-2d3e4f5a6677,患者,影像所见,,文本型,治疗1个月后，肺部肿瘤由19×16×30 mm缩小至13×11×14 mm，最大肺门及纵隔淋巴结由21 mm缩小至14 mm，上腔静脉受压减轻,,,mm,CT,LLM提取,论文病例报告,2021-08-18,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f8a9b0c1-d2e3-4f4a-8b5c-3d4e5f6a7788,患者,不良反应名称,,类别型,皮疹,,rash,,,LLM提取,论文病例报告,2021-08-02,不良反应,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f8a9b0c1-d2e3-4f4a-8b5c-3d4e5f6a7788,患者,分级,,类别型,2-3级,,NCI-CTCAE 5.0,,,LLM提取,论文病例报告,2021-08-02,不良反应,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,f8a9b0c1-d2e3-4f4a-8b5c-3d4e5f6a7788,患者,处理措施,,文本型,给予抗过敏药氯雷他定片、皮肤护理、口服及外用中药等对症治疗，约1个月后皮疹脱屑好转,,,,,LLM提取,论文病例报告,2021-08-02,不良反应,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,9f0a1b2c-3d4e-4f5a-8b6c-4d5e6f7a8899,患者,影像所见,,文本型,PET-CT仍见残余肿瘤，大小与2022-04-28相同,,,,PET-CT,LLM提取,论文病例报告,2022-06-24,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,a0b1c2d3-e4f5-4a6b-8c7d-5e6f7a8899aa,患者,影像所见,,文本型,较2022-04-28胸部CT比较，肺部肿瘤缩小至9×6 mm，肺门及纵隔淋巴结短径8 mm,,,mm,CT,LLM提取,论文病例报告,2022-08-29,影像,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,a0b1c2d3-e4f5-4a6b-8c7d-5e6f7a8899aa,患者,疗效评估,,类别型,持续部分缓解（PR）,,maintained PR,,影像学评估,LLM提取,论文病例报告,2022-08-29,评估,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,a0b1c2d3-e4f5-4a6b-8c7d-5e6f7a8899aa,患者,肿瘤标志物,,类别型,CEA下降,,continued to decline,,,LLM提取,论文病例报告,2022-08-29,检验,v1
+53889a7b73655ada9779ea4c5ebb7da0,717eeb43c55f18119a1800333db6b950,b1c2d3e4-f5a6-4a7b-8c8d-6f7a8899aabb,患者,出院状况,,类别型,可正常生活和工作，ECOG/PS 0分,,no major adverse events,,,LLM提取,论文病例报告,2022-08-29,出院,v1

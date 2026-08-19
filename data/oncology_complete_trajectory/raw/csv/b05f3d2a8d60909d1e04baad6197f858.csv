@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,2d3b7d0d-6c4c-4b72-a94c-1f93c0e4f2df,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,2d3b7d0d-6c4c-4b72-a94c-1f93c0e4f2df,患者,年龄,,数值型,31岁,31,,岁,,LLM提取,论文病例报告,2021-06-01,病史,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,2d3b7d0d-6c4c-4b72-a94c-1f93c0e4f2df,患者,既往史,,文本型,有2级高血压史；无长期饮酒史、糖尿病、自动免疫疾病或其他基础疾病史,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,e4c91e40-88ab-4d48-9e29-fd5f9a55e63f,患者,主诉,,文本型,右侧颌面部外伤后就诊；后续出现右颌区及右眶区疼痛,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,9c748d80-6e2d-4ec4-9c88-1d4c0f6a2ad5,影像检查,影像所见,,文本型,脑MRI提示右上颌骨囊性病灶,,,,MRI,LLM提取,论文病例报告,2021-06-01,影像,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,a1f1a8c3-2ed1-4f8e-8e0f-1d3a5b6f8f0c,患者,手术名称,,类别型,右上颌骨切除术,,切缘阴性,,,LLM提取,论文病例报告,2021-08-01,手术,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,a1f1a8c3-2ed1-4f8e-8e0f-1d3a5b6f8f0c,患者,手术结果,,文本型,切除后切缘清楚,,,,,LLM提取,论文病例报告,2021-08-01,手术,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,0f58d8df-6fd9-4b4f-9d2f-8c5a6a2cf73d,标本,病理诊断,,文本型,首次组织病理学检查形态学提示成釉细胞癌,,,,病理学检查,LLM提取,论文病例报告,2021-08-01,病理,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,7d2d5d49-1e61-4c88-9e4e-44b0f0e5f3a9,患者,放疗方案,,类别型,术后辅助放疗,,术后1个月开始,,,LLM提取,论文病例报告,2021-09-01,病程,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,d2ecf2b3-2d74-4e89-8db6-0c6c3c2c7fb8,患者,诊断名称,,类别型,ghost cell odontogenic carcinoma,,首次病理提示与后续复发一致,,,LLM提取,论文病例报告,2022-03-01,诊断,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,e6a6e7f1-1d4a-4f6f-a1b2-8c8f9c0b7a21,患者,症状,,文本型,大量鼻出血,,,,,LLM提取,论文病例报告,2022-03-01,病史,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,b8f8d2dd-0d4e-4c6b-9c4d-5a3f1a6d9e22,影像检查,影像所见,,文本型,MRI提示鼻腔新肿瘤病灶,,,,MRI,LLM提取,论文病例报告,2022-03-01,影像,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,c4c41f2a-7a5b-4b31-8a2f-7a4d3e9e6f33,患者,手术名称,,类别型,鼻部肿瘤及局部病灶内镜下切除术,,全麻下,,,LLM提取,论文病例报告,2022-05-01,手术,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,d8b4c83c-9f7d-4f5a-bd2b-6f2a8c1e4e44,标本,病理诊断,,文本型,提示ghost cell odontogenic carcinoma,,镜下见少量影细胞、低形成牙本质伴坏死、血管内瘤栓、间质梭形细胞增生及异型和核分裂,,病理学检查,LLM提取,论文病例报告,2022-05-01,病理,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,1a8a4f8b-2d2b-4e31-8f2c-6b8c9d0e5f55,影像检查,影像所见,,文本型,鼻窦MRI提示双侧鼻腔及鼻旁窦、鼻咽、中颅底和双侧海绵窦广泛软组织病灶，考虑肿瘤复发,,,,MRI,LLM提取,论文病例报告,2022-08-01,影像,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,f0f2e6a8-8c3d-4a6d-9e2b-4d5f6a7b8c66,患者,手术名称,,类别型,鼻旁窦病灶姑息性切除术,,再次手术,,,LLM提取,论文病例报告,2022-08-15,手术,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,2c1d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e5f,标本,病理诊断,,文本型,术后病理再次提示ghost cell odontogenic carcinoma,,,,病理学检查,LLM提取,论文病例报告,2022-08-15,病理,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,8e7f6a5b-4c3d-2e1f-9a8b-7c6d5e4f3a21,患者,入院科室,,类别型,肿瘤科,,上海大学附属孟超肿瘤医院,,,LLM提取,论文病例报告,2022-08-25,入院,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,8e7f6a5b-4c3d-2e1f-9a8b-7c6d5e4f3a21,患者,主诉,,文本型,因不能手术和放疗再次治疗，伴右上颌部剧痛、视觉丧失及局部多发转移入院,,,,,LLM提取,论文病例报告,2022-08-25,入院,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,8e7f6a5b-4c3d-2e1f-9a8b-7c6d5e4f3a21,患者,入院途径,,类别型,转诊/再次收治,,从外院转入肿瘤科,,,LLM提取,论文病例报告,2022-08-25,入院,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,3f0a1b2c-4d5e-4f6a-8b9c-0d1e2f3a4b5c,患者,症状,,文本型,右上颌部剧痛、视觉丧失,,,,,LLM提取,论文病例报告,2022-08-25,病史,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,9f8e7d6c-5b4a-4c3d-9a2b-1c0d2e3f4a5b,患者,诊断名称,,类别型,局部侵袭性原发不可手术ghost cell odontogenic carcinoma,,,,,LLM提取,论文病例报告,2022-08-25,诊断,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,9f8e7d6c-5b4a-4c3d-9a2b-1c0d2e3f4a5b,患者,临床分期,,类别型,局部侵袭性，伴多发局部转移,,,,,LLM提取,论文病例报告,2022-08-25,诊断,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,治疗方案,,类别型,Toripalimab联合化疗,,每3周1次，共6个周期，随后维持治疗,,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,药品名称,,类别型,Toripalimab,,,,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,剂量,,数值型,240mg,240,,mg,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,给药途径,,类别型,静脉输注,,,,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,药品名称,,类别型,白蛋白紫杉醇,,200 mg/m2,,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9b-4a5b-6c7d-8e9f0a1b2c3d,患者,剂量,,数值型,200mg/m2,200,,mg/m2,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,药品名称,,类别型,顺铂,,75 mg/m2,,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d,患者,剂量,,数值型,75mg/m2,75,,mg/m2,,LLM提取,论文病例报告,2022-09-01,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e,患者,治疗反应,,类别型,部分缓解,,2个周期后鼻腔病灶明显缩小；3个周期后右眶病灶明显缩小；6个周期后RECIST 1.1评估为PR,,RECIST V1.1,LLM提取,论文病例报告,2022-10-01,评估,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f,患者,不良反应名称,,类别型,治疗相关不良事件,,无3/4级不良事件；无发热、呕吐、肺炎、过敏等严重副作用,,,LLM提取,论文病例报告,2022-09-01,不良反应,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a,患者,疗效评估,,类别型,临床部分缓解，生活质量显著改善,,,,临床及影像评估,LLM提取,论文病例报告,2022-10-01,评估,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c,患者,治疗方案,,类别型,Toripalimab维持治疗,,每3周240mg,,,LLM提取,论文病例报告,2023-02-07,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c,患者,药品名称,,类别型,Toripalimab,,,,,LLM提取,论文病例报告,2023-02-07,用药,v1
+b05f3d2a8d60909d1e04baad6197f858,bce420943ce33e874ed7d56df83ddcdd_1,8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c,患者,剂量,,数值型,240mg,240,,mg,,LLM提取,论文病例报告,2023-02-07,用药,v1

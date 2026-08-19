@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,c7d45b3f-3dbb-4c9d-a9c0-6e2efb4db8a1,患者,入院年龄,,数值型,60,60,,岁,,LLM提取,论文病例报告,2022-01-01,入院,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,c7d45b3f-3dbb-4c9d-a9c0-6e2efb4db8a1,患者,入院途径,,类别型,门诊,,,,,LLM提取,论文病例报告,2022-01-01,入院,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,c7d45b3f-3dbb-4c9d-a9c0-6e2efb4db8a1,患者,主诉,,文本型,腹胀和腹部压迫感持续4-5天,,,,,LLM提取,论文病例报告,2022-01-01,病史,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,c7d45b3f-3dbb-4c9d-a9c0-6e2efb4db8a1,患者,既往史,,文本型,既往无重要病史,,,,,LLM提取,论文病例报告,2022-01-01,病史,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,c7d45b3f-3dbb-4c9d-a9c0-6e2efb4db8a1,患者,家族史,,文本型,无家族史,,,,,LLM提取,论文病例报告,2022-01-01,病史,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9e0d5e69-7b1c-4d8f-9b5d-7a9a3d4f5a77,腹部CT,影像所见,,文本型,急性胰腺炎,,,,CT,LLM提取,论文病例报告,2022-01-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9e0d5e69-7b1c-4d8f-9b5d-7a9a3d4f5a77,腹部CT,影像结论,,文本型,诊断为急性胰腺炎,,,,CT,LLM提取,论文病例报告,2022-01-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,1c3e5f0b-1b39-4b5d-9f3b-5f2f4d8f2e11,患者,诊断名称,,类别型,急性胰腺炎,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,d4b2d8d0-5a7f-4c8b-8a0a-2f9a9c0d7e22,腹部超声,影像所见,,文本型,主胰管异常扩张,,,,超声,LLM提取,论文病例报告,2022-01-08,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,d4b2d8d0-5a7f-4c8b-8a0a-2f9a9c0d7e22,腹部超声,影像结论,,文本型,主胰管扩张异常,,,,超声,LLM提取,论文病例报告,2022-01-08,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,6f8d1f12-8c4a-4c9d-9d7e-3f5a7b1c9d33,腹部MRI,影像所见,,文本型,主胰管异常扩张,,,,MRI,LLM提取,论文病例报告,2022-01-08,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,6f8d1f12-8c4a-4c9d-9d7e-3f5a7b1c9d33,腹部MRI,影像结论,,文本型,主胰管异常扩张,,,,MRI,LLM提取,论文病例报告,2022-01-08,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,a5d3e3d8-4c1b-4f5a-9a2c-7d8e9f0a1b44,患者,诊断名称,,类别型,主胰管扩张,,,,,LLM提取,论文病例报告,2022-01-08,诊断,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,8f1c2d3e-4b5a-4c6d-8e7f-9a0b1c2d3e55,腹部MRI,影像所见,,文本型,4个月后主胰管扩张无变化,,,,MRI,LLM提取,论文病例报告,2022-05-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,8f1c2d3e-4b5a-4c6d-8e7f-9a0b1c2d3e55,腹部MRI,影像结论,,文本型,主胰管扩张无变化,,,,MRI,LLM提取,论文病例报告,2022-05-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,a9e1d2c3-b4f5-4a6b-8c7d-9e0f1a2b3c66,患者,诊断名称,,类别型,主胰管扩张持续存在,,,,,LLM提取,论文病例报告,2022-05-01,诊断,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d77,内镜超声检查(EUS),影像所见,,文本型,胰管突然狭窄，未见肿块或病灶,,,,EUS,LLM提取,论文病例报告,2022-05-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d77,内镜超声检查(EUS),影像结论,,文本型,胰管狭窄，未见肿块或病灶,,,,EUS,LLM提取,论文病例报告,2022-05-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,c4d5e6f7-a8b9-4c0d-8e1f-2a3b4c5d6e88,患者,诊断名称,,类别型,胰管狭窄,,,,,LLM提取,论文病例报告,2022-05-01,诊断,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,d6e7f8a9-b0c1-4d2e-9f3a-4b5c6d7e8f99,ERCP,手术名称,,类别型,内镜逆行胰胆管造影,,,,,LLM提取,论文病例报告,2022-05-15,手术,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,d6e7f8a9-b0c1-4d2e-9f3a-4b5c6d7e8f99,ERCP,手术结果,,文本型,置入支架,,因完全性导管闭塞,,,LLM提取,论文病例报告,2022-05-15,手术,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,e7f8a9b0-c1d2-4e3f-9a4b-5c6d7e8f9a00,ERCP刷检细胞学,病理诊断,,文本型,未能诊断,,,,细胞学,LLM提取,论文病例报告,2022-05-15,病理,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f9a0b11,ERCP刷检细胞学,检验项目,,类别型,KRAS突变 p.G12D c.35G>A,,VAF 11%,,DNA测序,LLM提取,论文病例报告,2022-05-15,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f9a0b11,ERCP刷检细胞学,检验项目,,类别型,TP53突变 p.Y205F c.614A>T,,VAF 15%,,DNA测序,LLM提取,论文病例报告,2022-05-15,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f9a0b11,ERCP刷检细胞学,检验项目,,类别型,RNF43拷贝数改变,,增加临床关注,,DNA测序,LLM提取,论文病例报告,2022-05-15,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c44,血清,CA19-9,,数值型,3.0,3.0,参考：未升高,U/mL,,LLM提取,论文病例报告,2022-07-01,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c44,血清,CEA,,数值型,3,3,参考：未升高,ng/mL,,LLM提取,论文病例报告,2022-07-01,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c44,血液cfDNA,检验项目,,类别型,Galleri检测：未检出癌症信号,,,,cfDNA测序,LLM提取,论文病例报告,2022-07-01,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c44,血浆外泌体,检验项目,,类别型,ExoVita：高度可能为PDAC,,,,ACE场外泌体分离+多重免疫分析,LLM提取,论文病例报告,2022-07-01,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c44,血液cfDNA,检验项目,,类别型,Galleri检测：Cancer Signal Not Detected,,,,cfDNA测序,LLM提取,论文病例报告,2022-07-01,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c44,血浆外泌体,检验项目,,类别型,ExoVita：高度可能为PDAC,,基于外泌体蛋白生物标志物的算法评分,,ACE场外泌体分离+多重免疫分析,LLM提取,论文病例报告,2022-07-01,检验,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c55,患者,诊断名称,,类别型,胰腺导管腺癌高风险/疑似胰腺癌,,结合KRAS和TP53突变及ExoVita结果,,,LLM提取,论文病例报告,2022-07-01,诊断,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d66,腹部MRI,影像所见,,文本型,仍未发现明确恶性病灶,,,,MRI,LLM提取,论文病例报告,2022-07-01,影像,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e77,患者,手术名称,,类别型,机器人辅助胰十二指肠切除术（Whipple）,,,,,LLM提取,论文病例报告,2022-07-10,手术,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e77,患者,手术结果,,文本型,成功切除胰腺病灶,,,,,LLM提取,论文病例报告,2022-07-10,手术,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f88,胰腺切除标本,病理诊断,,文本型,胰胆管型IPMN，局灶高级别异型增生，累及主胰管，伴分支胰管延伸；另见高级别PanIN,,高分级上皮内瘤变/癌前病变,,病理,LLM提取,论文病例报告,2022-07-10,病理,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,3d4e5e6f-7b8c-9d0e-1f2a-3b4c5d6e7f88,胰腺切除标本,诊断名称,,类别型,导管内乳头状黏液性肿瘤（IPMN）,,胰胆管型，主胰管型/混合型倾向,,,LLM提取,论文病例报告,2022-07-10,病理,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,3d4e5e6f-7b8c-9d0e-1f2a-3b4c5d6e7f88,胰腺切除标本,分化程度,,类别型,高级别异型增生,,,,,LLM提取,论文病例报告,2022-07-10,病理,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8g99,患者,出院诊断,,类别型,胰胆管型IPMN伴局灶高级别异型增生；高级别PanIN,,,,,LLM提取,论文病例报告,2022-07-15,出院,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8g99,患者,出院状况,,类别型,术后恢复顺利，无并发症,,,,,LLM提取,论文病例报告,2022-07-15,出院,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8g99,患者,出院医嘱,,文本型,继续随访观察，术后恢复,,,,,LLM提取,论文病例报告,2022-07-15,出院,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8g9h00,患者,随访结果,,文本型,5个月随访时恢复良好，无并发症,,,,,LLM提取,论文病例报告,2022-12-15,病程,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8g9h00,患者,疗效评估,,类别型,恢复良好,,术后5个月,,,LLM提取,论文病例报告,2022-12-15,评估,v1
+baa1f27505eaba76409188b57794ebe3,38cd6276bc5b09369e8db5ff8b071af0,5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8g9h00,血浆外泌体,检验项目,,类别型,ExoVita：低可能为PDAC,,较术前下降,,ACE场外泌体分离+多重免疫分析,LLM提取,论文病例报告,2022-12-15,检验,v1

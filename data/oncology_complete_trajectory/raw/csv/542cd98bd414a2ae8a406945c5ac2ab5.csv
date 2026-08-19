@@ -1,0 +1,34 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,2e31d3d0-2a46-4f0d-9a10-1b5c46b2a1c4,患者,个人史,,文本型,持续咳嗽3年以上,,,,,LLM提取,论文病例报告,,病史,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f7d5f3b2-7d68-4b41-8c8b-2f1b2ef0b7d4,患者,主诉,,文本型,气短20天,,,,,LLM提取,论文病例报告,2022-03-01,病史,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f7d5f3b2-7d68-4b41-8c8b-2f1b2ef0b7d4,患者,入院时间,,日期型,2022年3月,,,,,LLM提取,论文病例报告,2022-03-01,入院,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f7d5f3b2-7d68-4b41-8c8b-2f1b2ef0b7d4,患者,入院原因,,文本型,气短20天,,,,,LLM提取,论文病例报告,2022-03-01,入院,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,0a7b8f2a-94f8-4b08-8db7-4e9a44a5c3f1,CT胸部扫描,影像所见,,文本型,左侧胸腔积液、左肺不张、纵隔淋巴结增大,,,,CT,LLM提取,论文病例报告,2022-03-07,影像,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,0a7b8f2a-94f8-4b08-8db7-4e9a44a5c3f1,CT胸部扫描,影像结论,,文本型,左肺胸腔积液，左肺不张，纵隔淋巴结肿大,,,,CT,LLM提取,论文病例报告,2022-03-07,影像,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,0b5b0f91-2c9e-4f3c-97ef-9d2c2f1cb1e8,血标本,CEA,,数值型,7.60,7.6,,ng/ml,,LLM提取,论文病例报告,2022-03-07,检验,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,0b5b0f91-2c9e-4f3c-97ef-9d2c2f1cb1e8,血标本,CYFRA21-1,,数值型,4.83,4.83,,ng/mL,,LLM提取,论文病例报告,2022-03-07,检验,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,0b5b0f91-2c9e-4f3c-97ef-9d2c2f1cb1e8,血标本,CA125,,数值型,52.00,52.0,,U/mL,,LLM提取,论文病例报告,2022-03-07,检验,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,7a8d0e54-7b3f-4f2f-92cb-2a8aef4d5c6b,患者,心电图结果,,类别型,阵发性心房扑动,,,,心电图,LLM提取,论文病例报告,2022-03-07,评估,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,8b2c8c74-4d2d-4bb2-9bfb-3d9c0d9f3a6e,左侧胸腔积液,治疗措施,,文本型,胸腔闭式引流,,,,,LLM提取,论文病例报告,2022-03-07,手术,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,9d4f0e6a-1f43-4c52-8a3d-6b2e5f5b0f31,胸腔积液标本,CEA,,数值型,29.20,29.2,,ng/ml,,LLM提取,论文病例报告,2022-03-07,检验,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,9d4f0e6a-1f43-4c52-8a3d-6b2e5f5b0f31,胸腔积液标本,CYFRA,,数值型,428.00,428.0,,ng/ml,,LLM提取,论文病例报告,2022-03-07,检验,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,9d4f0e6a-1f43-4c52-8a3d-6b2e5f5b0f31,胸腔积液标本,CA125,,数值型,1687.00,1687.0,,U/ml,,LLM提取,论文病例报告,2022-03-07,检验,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,d5e6f7a8-0b9c-4d1e-8f2a-6c7d8e9f0a1b,左肺病灶穿刺活检标本,病理诊断,,文本型,肺腺癌,,,,超声引导穿刺活检,LLM提取,论文病例报告,2022-03-07,病理,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,d5e6f7a8-0b9c-4d1e-8f2a-6c7d8e9f0a1b,左肺病灶穿刺活检标本,免疫组化,,文本型,TTF-1(+)，vimentin(+)，Ki-67(20%)，CK(+)，P40(-)，CK5/6(-)，Syn(-)，EMA(-)，Pax-8(-)，ALK(D5F3 Ventana IHC)(+),,,,免疫组化,LLM提取,论文病例报告,2022-03-07,病理,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,d5e6f7a8-0b9c-4d1e-8f2a-6c7d8e9f0a1b,胸腔积液标本,病理细胞学,,文本型,发现肿瘤细胞，提示胸膜转移,,,,细胞学检查,LLM提取,论文病例报告,2022-03-07,病理,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,e7f8a9b0-c1d2-4e3f-8a9b-0c1d2e3f4a5b,肺组织标本,基因检测结果,,类别型,UGP2-ALK融合,,罕见、未曾报道的新型ALK融合,,下一代测序（NGS）,LLM提取,论文病例报告,2022-03-17,诊断,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,e7f8a9b0-c1d2-4e3f-8a9b-0c1d2e3f4a5b,患者,诊断名称,,类别型,非小细胞肺癌（NSCLC）/肺腺癌,,UGP2-ALK融合,,,LLM提取,论文病例报告,2022-03-17,诊断,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,e7f8a9b0-c1d2-4e3f-8a9b-0c1d2e3f4a5b,患者,分子标志物,,类别型,ALK阳性,,D5F3 Ventana IHC(+); NGS: UGP2-ALK融合,,,LLM提取,论文病例报告,2022-03-17,诊断,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f1a2b3c4-d5e6-47f8-90ab-1c2d3e4f5a6b,患者,治疗方案,,类别型,阿来替尼,,600 mg bid,mg,口服,LLM提取,论文病例报告,2022-03-21,用药,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f1a2b3c4-d5e6-47f8-90ab-1c2d3e4f5a6b,患者,剂量,,数值型,600,600,每日2次,mg,,LLM提取,论文病例报告,2022-03-21,用药,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f1a2b3c4-d5e6-47f8-90ab-1c2d3e4f5a6b,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2022-03-21,用药,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,f1a2b3c4-d5e6-47f8-90ab-1c2d3e4f5a6b,患者,用药周期,,文本型,每日2次，持续治疗,,,,,LLM提取,论文病例报告,2022-03-21,用药,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,a1b2c3d4-e5f6-47a8-90bc-1d2e3f4a5b6c,胸部CT,影像所见,,文本型,左上肺病灶较前明显缩小至2.4×3.2 cm，胸腔积液减少,,,,CT,LLM提取,论文病例报告,2022-04-18,影像,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,a1b2c3d4-e5f6-47a8-90bc-1d2e3f4a5b6c,胸部CT,影像结论,,文本型,部分缓解（PR）,,RECIST 1.1,,CT,LLM提取,论文病例报告,2022-04-18,评估,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,b1c2d3e4-f5a6-47b8-90cd-1e2f3a4b5c6d,胸部CT,影像所见,,文本型,随访中左肺肿瘤持续缩小，胸腔积液持续减少,,,,CT,LLM提取,论文病例报告,2022-05-21,影像,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,b2c3d4e5-f6a7-48b9-90de-1f2a3b4c5d6e,胸部CT,影像所见,,文本型,随访中左肺肿瘤持续缩小，胸腔积液持续减少,,,,CT,LLM提取,论文病例报告,2022-08-21,影像,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,c3d4e5f6-a7b8-49c0-90ef-1a2b3c4d5e6f,胸部CT,影像所见,,文本型,随访中左肺肿瘤持续缩小，胸腔积液持续减少，且胸腔积液几乎完全吸收,,,,CT,LLM提取,论文病例报告,2022-09-28,影像,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,d4e5f6a7-b8c9-40d1-90fa-1b2c3d4e5f6a,患者,疗效评估,,类别型,持续部分缓解（PR）,,随访期间,,RECIST 1.1,LLM提取,论文病例报告,2022-09-28,评估,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,d4e5f6a7-b8c9-40d1-90fa-1b2c3d4e5f6a,患者,无进展生存期,,数值型,10,10,截至末次随访,月,,LLM提取,论文病例报告,2022-09-28,病程,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,d4e5f6a7-b8c9-40d1-90fa-1b2c3d4e5f6a,患者,不良反应名称,,类别型,未见3级及以上不良事件,,无心律失常事件,,,LLM提取,论文病例报告,2022-09-28,不良反应,v1
+542cd98bd414a2ae8a406945c5ac2ab5,6c05dae4b8afd515a753d068d08dd9f7_1,e5f6a7b8-c9d0-41e2-90ab-1c2d3e4f5a6b,患者,出院诊断,,类别型,非小细胞肺癌/肺腺癌，UGP2-ALK融合，左侧胸腔积液，胸膜转移，阵发性心房扑动，2型糖尿病,,,,,LLM提取,论文病例报告,,出院,v1

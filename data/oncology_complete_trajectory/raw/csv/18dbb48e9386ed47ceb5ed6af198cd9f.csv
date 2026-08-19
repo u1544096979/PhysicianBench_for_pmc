@@ -1,0 +1,25 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,2f3df4b7-8a0d-4c2a-8b9a-6c8d5db8b4c1,患者,入院年龄,,数值型,69,69,,岁,,LLM提取,论文病例报告,2019-05-20,入院,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,2f3df4b7-8a0d-4c2a-8b9a-6c8d5db8b4c1,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2019-05-20,入院,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,2f3df4b7-8a0d-4c2a-8b9a-6c8d5db8b4c1,患者,主诉,,文本型,行机器人辅助根治性膀胱切除、全子宫切除、双侧输卵管卵巢切除及双侧盆腔淋巴结清扫后,,术后5个月因双侧肾积水返院，合并性交后阴道肿物突出,,,LLM提取,论文病例报告,2019-05-20,病史,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,9a1b6f1d-2f4b-4b2d-a7f4-1b0d3b0d4f21,患者,诊断名称,,类别型,膀胱尿路上皮癌,,接受手术治疗的原发疾病,,,LLM提取,论文病例报告,2019-05-20,诊断,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,3c4d7f52-0f12-4f2b-9d4e-2c1d1f2a8b3d,患者,手术名称,,类别型,机器人辅助根治性膀胱切除术,,,,,LLM提取,论文病例报告,2019-05-20,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,3c4d7f52-0f12-4f2b-9d4e-2c1d1f2a8b3d,患者,手术名称,,类别型,全子宫切除术,,,,,LLM提取,论文病例报告,2019-05-20,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,3c4d7f52-0f12-4f2b-9d4e-2c1d1f2a8b3d,患者,手术名称,,类别型,双侧输卵管卵巢切除术,,,,,LLM提取,论文病例报告,2019-05-20,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,3c4d7f52-0f12-4f2b-9d4e-2c1d1f2a8b3d,患者,手术名称,,类别型,双侧盆腔淋巴结清扫术,,,,,LLM提取,论文病例报告,2019-05-20,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,3c4d7f52-0f12-4f2b-9d4e-2c1d1f2a8b3d,患者,麻醉方式,,类别型,,,文中未明确说明,,,LLM提取,论文病例报告,2019-05-20,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,3c4d7f52-0f12-4f2b-9d4e-2c1d1f2a8b3d,患者,手术结果,,文本型,阴道残端采用可吸收缝线连续双层缝合关闭,,,,,LLM提取,论文病例报告,2019-05-20,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,4e2f3e79-1c4b-4d1d-9d6c-7e1f3a2b5c6d,患者,病程,,文本型,术后过程平稳，出院,,术后11天出院,,,LLM提取,论文病例报告,2019-05-31,病程,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,5a6b7c8d-9e0f-4a1b-8c2d-3e4f5a6b7c8d,患者,影像所见,,文本型,盆腔MRI示伤口愈合正常，包括阴道残端,,,,MRI,LLM提取,论文病例报告,2019-09-01,影像,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,5a6b7c8d-9e0f-4a1b-8c2d-3e4f5a6b7c8d,患者,影像结论,,文本型,术后伤口愈合良好,,,,MRI,LLM提取,论文病例报告,2019-09-01,影像,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,6b7c8d9e-0f1a-4b2c-8d3e-4f5a6b7c8d9e,患者,病史,,文本型,术后约5个月，因双侧肾积水返回就诊,,怀疑肿瘤复发累及,,,LLM提取,论文病例报告,2019-10-20,病史,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,6b7c8d9e-0f1a-4b2c-8d3e-4f5a6b7c8d9e,患者,病史,,文本型,性交后出现阴道肿物突出,,最近一次性交约2周前,,,LLM提取,论文病例报告,2019-10-20,病史,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,7c8d9e0f-1a2b-4c3d-8e4f-5a6b7c8d9e0f,患者,查体,,文本型,窥器检查见阴道顶端前壁有4×3×3 cm管状软组织病灶突出,,病灶疼痛，触痛明显,,窥器检查,LLM提取,论文病例报告,2019-10-20,评估,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,8d9e0f1a-2b3c-4d5e-9f6a-7b8c9d0e1f2a,患者,诊断名称,,类别型,膀胱癌复发,,入院时曾考虑的可能原因,,,LLM提取,论文病例报告,2019-10-20,诊断,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b,患者,手术名称,,类别型,阴道肿物切除术,,经阴道途径,,,LLM提取,论文病例报告,2019-10-27,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b,患者,手术结果,,文本型,肿物易于用Kelly钳完整移除，随后阴道残端自发破裂,,未行冷刀锥切或电凝,,,LLM提取,论文病例报告,2019-10-27,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b,患者,出血量,,数值型,minimal,,出血量极少,,,LLM提取,论文病例报告,2019-10-27,手术,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b,患者,病理诊断,,文本型,脂肪组织伴炎症反应，符合肠系膜脂肪垂（epiploica）脱垂,,,,病理检查,LLM提取,论文病例报告,2019-10-27,病理,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,a0b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c4d,患者,病程,,文本型,术后恢复迅速，24小时后出院,,,,,LLM提取,论文病例报告,2019-10-28,病程,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,病程,,文本型,30天门诊随访阴道残端愈合良好,,日常生活及性交均无不适,,,LLM提取,论文病例报告,2019-11-26,病程,v1
+18dbb48e9386ed47ceb5ed6af198cd9f,6df27f4e61f8b9d29097b87b89a0a0e8,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,随访结果,,文本型,无不适，恢复良好,,,,,LLM提取,论文病例报告,2019-11-26,病程,v1

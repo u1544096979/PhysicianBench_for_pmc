@@ -1,0 +1,54 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,8d3f5b1f-7e5b-4c2d-8e4b-2a0f5a8d1a11,患者,既往史,,文本型,22岁时顺产1次；28岁至43岁之间人工流产2次、自然流产2次；2002年10月末次月经后因不全流产行D&C,,,,,LLM提取,论文病例报告,2002-10,病史,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,5d6f1a2d-4b7b-4d0f-9c7b-3b2b5e1c9a22,患者,主诉,,文本型,异常阴道出血,,,,,LLM提取,论文病例报告,2004-05-31,病史,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,5d6f1a2d-4b7b-4d0f-9c7b-3b2b5e1c9a22,患者,诊断名称,,类别型,疑似绒癌,,,,,LLM提取,论文病例报告,2004-05-31,诊断,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1a9f5d8-2d7a-4c9f-8b67-4a7b2d9e3c33,患者,入院年龄,,数值型,44,44,,岁,,LLM提取,论文病例报告,2004-06-09,入院,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1a9f5d8-2d7a-4c9f-8b67-4a7b2d9e3c33,患者,入院途径,,类别型,转诊入院,,,,,LLM提取,论文病例报告,2004-06-09,入院,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1a9f5d8-2d7a-4c9f-8b67-4a7b2d9e3c33,患者,诊断名称,,类别型,高危妊娠性绒癌,,FIGO分期 III:12,,,LLM提取,论文病例报告,2004-06-10,诊断,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1a9f5d8-2d7a-4c9f-8b67-4a7b2d9e3c33,患者,临床分期,,类别型,FIGO III:12,,,,,LLM提取,论文病例报告,2004-06-10,诊断,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,d4a2f7c1-0a8f-4c1f-9d1b-6c2e4f0b7e44,血清,hCG,,数值型,155926,155926,,mIU/ml,,LLM提取,论文病例报告,2004-06-09,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,e5b3c8d2-1b9e-4f5a-8c2d-7d3f5a9e5f55,胸部X线,影像所见,,文本型,双肺野可见多发肺部阴影,,,,X线,LLM提取,论文病例报告,2004-06-09,影像,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,f6c4d9e3-2c0f-4a6b-9d3e-8e4f6a0b6g66,患者,症状,,文本型,CT检查过程中突发严重腹痛和休克，考虑因绒癌子宫穿孔导致的出血性休克,,,,,LLM提取,论文病例报告,2004-06-10,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,f6c4d9e3-2c0f-4a6b-9d3e-8e4f6a0b6g66,患者,手术名称,,类别型,急诊剖腹探查,,并行全腹子宫切除术,,,LLM提取,论文病例报告,2004-06-10,手术,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,f6c4d9e3-2c0f-4a6b-9d3e-8e4f6a0b6g66,患者,手术结果,,文本型,发现右侧宫底子宫穿孔，腹腔内出血2600 ml,,,ml,,LLM提取,论文病例报告,2004-06-10,手术,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,f6c4d9e3-2c0f-4a6b-9d3e-8e4f6a0b6g66,患者,出血量,,数值型,2600,2600,腹腔内出血,ml,,LLM提取,论文病例报告,2004-06-10,手术,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,f6c4d9e3-2c0f-4a6b-9d3e-8e4f6a0b6g66,病理标本,病理诊断,,文本型,绒癌,,子宫穿孔部位及切除子宫标本,,HE染色,LLM提取,论文病例报告,2004-06-10,病理,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,a7d5e8f4-3d1a-4b7c-9e4f-9f5a0b1c7h77,患者,治疗方案,,类别型,EMA-CO,,初始化疗,,,LLM提取,论文病例报告,2004-06-10,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,a7d5e8f4-3d1a-4b7c-9e4f-9f5a0b1c7h77,患者,周期数,,数值型,10,10,完成7个周期后hCG降至截止值，后又追加3个周期,周期,,LLM提取,论文病例报告,2004-06-10,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,a7d5e8f4-3d1a-4b7c-9e4f-9f5a0b1c7h77,患者,治疗反应,,类别型,缓解,,,,,LLM提取,论文病例报告,2004-06-10,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,b8e6f9a5-4e2b-4c8d-9f5a-0c1d8i88,血清,hCG,,数值型,100,100,EMA-CO完成后4周升高,mIU/ml,,LLM提取,论文病例报告,2004-10-01,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1f7a0b6-5f3c-4d9e-a0b1-1d2e9j99,患者,治疗方案,,类别型,EP-EMA,,二线化疗,,,LLM提取,论文病例报告,2004-10-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1f7a0b6-5f3c-4d9e-a0b1-1d2e9j99,患者,周期数,,数值型,4,4,每14天重复一次,周期,,LLM提取,论文病例报告,2004-10-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,c1f7a0b6-5f3c-4d9e-a0b1-1d2e9j99,患者,治疗反应,,类别型,未达缓解,,hCG未降至截止值,,,LLM提取,论文病例报告,2004-10-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,d0a8b1c7-6f4d-4e0f-b1c2-2e3f0k00,患者,治疗方案,,类别型,FA,,三线化疗：5-氟尿嘧啶+放线菌素D,,,LLM提取,论文病例报告,2005-01-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,d0a8b1c7-6f4d-4e0f-b1c2-2e3f0k00,患者,周期数,,数值型,13,13,,周期,,LLM提取,论文病例报告,2005-01-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,d0a8b1c7-6f4d-4e0f-b1c2-2e3f0k00,患者,治疗反应,,类别型,缓解,,hCG降至截止值,,,LLM提取,论文病例报告,2005-01-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,e1b9c2d8-7f5e-4f1a-c2d3-3f4g1l11,血液,血小板减少,,偏离型,IV级,,治疗过程中出现,,,LLM提取,论文病例报告,2005-01-01,不良反应,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,e1b9c2d8-7f5e-4f1a-c2d3-3f4g1l11,血液,贫血,,偏离型,IV级,,治疗过程中出现,,,LLM提取,论文病例报告,2005-01-01,不良反应,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,f2cad3e9-8a6f-4g2b-d3e4-4g5h2m22,血清,hCG,,数值型,100,100,FA完成后2个月再次升高,mIU/ml,,LLM提取,论文病例报告,2005-03-01,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,g3dbf4ea-9b7f-4h3c-e4f5-5h6i3n33,患者,治疗方案,,类别型,EMA-CO,,再次给予7个周期,,,LLM提取,论文病例报告,2005-03-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,g3dbf4ea-9b7f-4h3c-e4f5-5h6i3n33,患者,周期数,,数值型,7,7,,周期,,LLM提取,论文病例报告,2005-03-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,g3dbf4ea-9b7f-4h3c-e4f5-5h6i3n33,患者,治疗反应,,类别型,缓解,,,,,LLM提取,论文病例报告,2005-03-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,h4ecg5fb-a8c0-4i4d-f5g6-6i7j4o44,患者,手术名称,,类别型,双侧输卵管卵巢切除术,,病理未证实绒癌,,,LLM提取,论文病例报告,2005-06-01,手术,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,h5fdh6gc-b9d1-4j5e-g6h7-7j8k5p55,血清,hCG,,数值型,100,100,双侧输卵管卵巢切除术后维持约100 mIU/ml,mIU/ml,,LLM提取,论文病例报告,2005-06-01,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,i6geh7hd-c0e2-4k6f-h7i8-8k9l6q66,患者,治疗方案,,类别型,TP/TE,,一线后挽救化疗；紫杉醇+顺铂与紫杉醇+依托泊苷交替,,,LLM提取,论文病例报告,2005-06-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,i6geh7hd-c0e2-4k6f-h7i8-8k9l6q66,患者,周期数,,数值型,6,6,,周期,,LLM提取,论文病例报告,2005-06-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,i6geh7hd-c0e2-4k6f-h7i8-8k9l6q66,患者,治疗反应,,类别型,未达缓解,,hCG维持20–80 mIU/ml,,,LLM提取,论文病例报告,2005-06-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,e1b9c2d8-7f5e-4f1a-c2d3-3f4g1l11,血液,血小板减少,,偏离型,IV级,,伴多次血小板输注和抗血小板抗体,,,LLM提取,论文病例报告,2005-06-01,不良反应,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,j7fhi8ie-d1f3-4l7g-i8j9-9l0m7r77,患者,治疗方案,,类别型,GC,,吉西他滨+顺铂,,,LLM提取,论文病例报告,2006-01-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,j7fhi8ie-d1f3-4l7g-i8j9-9l0m7r77,患者,周期数,,数值型,10,10,,周期,,LLM提取,论文病例报告,2006-01-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,j7fhi8ie-d1f3-4l7g-i8j9-9l0m7r77,患者,治疗反应,,类别型,部分缓解,,hCG从10降至1 mIU/ml，后再次升高至500 mIU/ml,,,LLM提取,论文病例报告,2006-01-01,病程,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,k8gij9jf-e2g4-4m8h-j9k0-0m1n8s88,血清,hCG,,数值型,500,500,GC完成后升高,mIU/ml,,LLM提取,论文病例报告,2006-01-01,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,l9hjk0kg-f3h5-4n9i-k0l1-1n2o9t99,影像检查,影像所见,,文本型,左肺见孤立性肿瘤,,CT发现,,CT,LLM提取,论文病例报告,2006-01-01,影像,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,m0ikl1lh-g4i6-4o0j-l1m2-2o3p0u00,患者,手术名称,,类别型,左肺部分肺叶切除术,,,,,LLM提取,论文病例报告,2006-01-01,手术,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,m0ikl1lh-g4i6-4o0j-l1m2-2o3p0u00,病理标本,病理诊断,,文本型,绒癌,,左肺切除肿瘤,,HE染色,LLM提取,论文病例报告,2006-01-01,病理,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,n1jml2mi-h5j7-4p1k-m2n3-3p4q1v11,血清,hCG,,数值型,10,10,左肺部分切除术后降至约10 mIU/ml并维持,mIU/ml,,LLM提取,论文病例报告,2006-01-01,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,o2knm3nj-i6k8-4q2l-n3o4-4q5r2w22,患者,治疗方案,,类别型,卡培他滨,,第七线化疗，2500 mg/m2，服2周停1周,,,LLM提取,论文病例报告,2006-01-01,用药,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,o2knm3nj-i6k8-4q2l-n3o4-4q5r2w22,患者,剂量,,数值型,2500,2500,按体表面积,mg/m2,,LLM提取,论文病例报告,2006-01-01,用药,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,p3lon4ok-j7l9-4r3m-o4p5-5r6s3x33,患者,影像所见,,文本型,右肺见孤立性肿块,,左肺部分切除术后2年CT监测发现,,CT,LLM提取,论文病例报告,2008-01-01,影像,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,q4mpo5pl-k8m0-4s4n-p5q6-6s7t4y44,患者,手术名称,,类别型,右肺部分肺叶切除术,,2010年6月,,,LLM提取,论文病例报告,2010-06-01,手术,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,q4mpo5pl-k8m0-4s4n-p5q6-6s7t4y44,病理标本,病理诊断,,文本型,绒癌,,右肺切除肿瘤,,HE染色,LLM提取,论文病例报告,2010-06-01,病理,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,r5nqp6qm-l9n1-4t5o-q6r7-7t8u5z55,血清,hCG,,数值型,0,,右肺手术后降至截止值,mIU/ml,,LLM提取,论文病例报告,2010-06-01,检验,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,s6orq7rn-m0o2-4u6p-r7s8-8u9v6a66,患者,用药名称,,类别型,卡培他滨,,右肺第二次手术后继续用药6个月,,,LLM提取,论文病例报告,2010-06-01,用药,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,s6orq7rn-m0o2-4u6p-r7s8-8u9v6a66,患者,用药周期,,文本型,额外6个月,,,,,LLM提取,论文病例报告,2010-06-01,用药,v1
+6764353b57f17a7e9e8a95afbc46d9e9,bb0bee7fff53eb2aebd87e178902c438_1,t7psr8so-n1p3-4v7q-s8t9-9v0w7b77,患者,出院状况,,类别型,无病证据,,初始治疗后15年、第二次肺切除后9年仍无病证据,,,LLM提取,论文病例报告,2019-06-01,出院,v1

@@ -1,0 +1,67 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,1e1a2a1d-4a6d-4f7e-9f6d-3d6c1f4f0a11,患者,入院年龄,,数值型,66,66,,岁,,LLM提取,论文病例报告,2019-10-26,入院,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,1e1a2a1d-4a6d-4f7e-9f6d-3d6c1f4f0a11,患者,主诉,,文本型,眼睑及下肢水肿1个月，加重2周，伴尿中泡沫增多、恶心、腹胀、食欲差,,,,,LLM提取,论文病例报告,2019-10-26,病史,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,1e1a2a1d-4a6d-4f7e-9f6d-3d6c1f4f0a11,患者,既往史,,文本型,2型糖尿病10余年，血糖控制尚可；高血压10余年，控制不佳；慢性支气管炎多年,,,,,LLM提取,论文病例报告,2019-10-26,病史,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,4b4d3a1b-8e0f-44d0-8ce7-8b9d6f8ad0d2,患者,查体,,文本型,贫血貌，眼睑及下肢中度凹陷性水肿,,,,,LLM提取,论文病例报告,2019-10-26,评估,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,4b4d3a1b-8e0f-44d0-8ce7-8b9d6f8ad0d2,患者,血压,,文本型,176/92,,,mmHg,,LLM提取,论文病例报告,2019-10-26,评估,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,4b4d3a1b-8e0f-44d0-8ce7-8b9d6f8ad0d2,患者,血糖,,数值型,5.4,5.4,,mmol/L,,LLM提取,论文病例报告,2019-10-26,评估,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,尿液,蛋白尿,,数值型,22.224,22.224,,g/24h,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,白蛋白,,数值型,19.2,19.2,,g/L,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,肌酐,,数值型,233.2,233.2,,μmol/L,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,甘油三酯,,数值型,10.10,10.10,,mmol/L,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,胆固醇,,数值型,13.65,13.65,,mmol/L,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,红细胞沉降率,,数值型,103,103,,mm/h,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,补体C3,,类别型,正常,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,补体C4,,类别型,稍高,,41.2 mg/dL,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,蛋白电泳M峰,,类别型,未见,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,抗核抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,抗双链DNA抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,ANCA,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,PLA2R抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,乙肝表面抗原,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,丙肝抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,人类免疫缺陷病毒抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,IgE,,数值型,7080,7080,正常范围0-165 IU/mL,IU/mL,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,IgG,,数值型,505,505,,mg/dL,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,IgA,,类别型,正常,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,IgM,,类别型,正常,,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,κ轻链,,数值型,114.69,114.69,,mg/dL,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,λ轻链,,数值型,64.41,64.41,,mg/dL,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,κ/λ比值,,数值型,1.78,1.78,,,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,CA125,,数值型,188.92,188.92,,U/mL,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,0c2d2c52-7d4d-4f4b-9c23-5f3e6c8cdb1f,血清,CA199,,数值型,48.65,48.65,,U/mL,,LLM提取,论文病例报告,2019-10-26,检验,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,8b2d7f02-5d7c-4c6b-9d3f-2bf2b7c87d3a,肾脏,超声所见,,文本型,肾脏大小形态正常；右肾上极附近见低回声肿块，大小约5.0×3.0×4.1 cm,,,,腹部超声,LLM提取,论文病例报告,2019-10-26,影像,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,8b2d7f02-5d7c-4c6b-9d3f-2bf2b7c87d3a,肾脏,影像结论,,文本型,右肾上极附近占位性病变,,,,腹部超声,LLM提取,论文病例报告,2019-10-26,影像,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,b8a2b9c6-f4d7-4f8e-8a7d-86a5c5e2d6f1,腹部,CT所见,,文本型,胃窦与十二指肠之间见占位性病变,,,,CT,LLM提取,论文病例报告,2019-10-26,影像,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,c5d9a52f-1e74-4c7f-a8d7-8d8a4a5d4d2a,十二指肠,胃镜所见,,文本型,十二指肠球部后壁近端见约2.0 cm隆起性病灶,,,,胃镜,LLM提取,论文病例报告,2019-11-13,影像,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,c5d9a52f-1e74-4c7f-a8d7-8d8a4a5d4d2a,十二指肠,胃镜活检病理,,文本型,炎症,,,,胃镜活检,LLM提取,论文病例报告,2019-11-13,病理,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,d9b2b0d7-5c6f-4c4d-9a6c-2f1d2a3b4c5d,肾脏,肾活检病理诊断,,文本型,微小病变病（MCD）伴亚急性肾小管间质损伤,,,,肾活检,LLM提取,论文病例报告,2019-11-13,病理,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,d9b2b0d7-5c6f-4c4d-9a6c-2f1d2a3b4c5d,肾脏,病理所见,,文本型,10个肾小球中3个全球性缺血硬化；系膜区基本正常；可见轻度肾小管萎缩、轻度间质水肿、炎症和纤维化；偶见肾小管上皮坏死和刷状缘丢失；小动脉轻度内膜纤维化和玻璃样变；免疫荧光IgG/IgA/IgM/C3/C4/C1q/纤维蛋白原均阴性；电镜未见电子致密沉积，GBM厚度正常，足突广泛融合,,,,肾活检/免疫荧光/电镜,LLM提取,论文病例报告,2019-11-13,病理,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c,患者,治疗方案,,文本型,利尿、降压、血糖控制、纠正贫血,,,,,LLM提取,论文病例报告,2019-11-13,用药,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c,患者,出院状况,,文本型,症状缓解后出院,,,,,LLM提取,论文病例报告,2019-11-13,出院,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c,患者,出院医嘱,,文本型,继续相关对症治疗和随访,,,,,LLM提取,论文病例报告,2019-11-13,出院,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c,患者,住院天数,,数值型,18,18,,天,,LLM提取,论文病例报告,2019-11-13,出院,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,e6f7a8b9-c0d1-42e3-94f5-6a7b8c9d0e1f,尿液,蛋白尿,,数值型,2.514,2.514,,g/24h,,LLM提取,论文病例报告,2019-11-13,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,e6f7a8b9-c0d1-42e3-94f5-6a7b8c9d0e1f,血清,白蛋白,,数值型,31.5,31.5,,g/L,,LLM提取,论文病例报告,2019-11-13,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,e6f7a8b9-c0d1-42e3-94f5-6a7b8c9d0e1f,血清,IgE,,数值型,6540,6540,,IU/mL,,LLM提取,论文病例报告,2019-11-13,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,e6f7a8b9-c0d1-42e3-94f5-6a7b8c9d0e1f,血清,肌酐,,类别型,恢复正常,,,,,LLM提取,论文病例报告,2019-11-13,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,f1e2d3c4-b5a6-47f8-9c0d-1e2f3a4b5c6d,患者,入院/复查,,文本型,因复查再次入院,,,,,LLM提取,论文病例报告,2020-05-10,入院,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,f1e2d3c4-b5a6-47f8-9c0d-1e2f3a4b5c6d,尿液,蛋白尿,,数值型,2.579,2.579,,g/24h,,LLM提取,论文病例报告,2020-05-10,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,f1e2d3c4-b5a6-47f8-9c0d-1e2f3a4b5c6d,血清,白蛋白,,数值型,34.1,34.1,,g/L,,LLM提取,论文病例报告,2020-05-10,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,f1e2d3c4-b5a6-47f8-9c0d-1e2f3a4b5c6d,血清,IgE,,数值型,8530,8530,,IU/mL,,LLM提取,论文病例报告,2020-05-10,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,2a3b4c5d-6e7f-48a9-b0c1-2d3e4f5a6b7c,十二指肠,增强MRI所见,,文本型,十二指肠降部交界区肠壁增厚，范围约47×61 mm，不能排除淋巴瘤,,,,腹部增强MRI,LLM提取,论文病例报告,2020-06-02,影像,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,3b4c5d6e-7f8a-49b0-c1d2-3e4f5a6b7c8d,十二指肠,电子超声内镜所见,,文本型,十二指肠降部上方见1.0×1.5 cm深溃疡；肿瘤位于十二指肠降部后外侧壁，范围约4.5×3×3 cm,,,,电子超声内镜,LLM提取,论文病例报告,2020-06-08,影像,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,4c5d6e7f-8a9b-40c1-d2e3-4f5a6b7c8d9e,十二指肠肿瘤,病理诊断,,文本型,十二指肠胃肠间质瘤（GIST），梭形细胞型，低危,,,,术后病理,LLM提取,论文病例报告,2020-06-08,病理,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,4c5d6e7f-8a9b-40c1-d2e3-4f5a6b7c8d9e,十二指肠肿瘤,病理所见,,文本型,每50个HPF仅见1个有丝分裂象；CD117、Dog-1、Vimentin阳性；CD34、SMA、desmin、S-100阴性；Ki-67阳性率<10%,,,,免疫组化,LLM提取,论文病例报告,2020-06-08,病理,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,5d6e7f8a-9b0c-41d2-e3f4-5a6b7c8d9e0f,患者,治疗方案,,文本型,伊马替尼甲磺酸盐400 mg/day，术前用药约1个月后行肿瘤切除，术后继续伊马替尼,,,,,LLM提取,论文病例报告,2020-06-24,用药,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,6e7f8a9b-b0c1-42d3-e4f5-6a7b8c9d0e1f,患者,手术名称,,类别型,十二指肠GIST切除术,,,,,LLM提取,论文病例报告,2020-07-24,手术,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,6e7f8a9b-b0c1-42d3-e4f5-6a7b8c9d0e1f,患者,手术结果,,文本型,肿瘤完整切除，术后病理仍为十二指肠GIST（梭形细胞型，低危）,,,,,LLM提取,论文病例报告,2020-07-24,手术,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,7f8a9b0c-c1d2-43e4-f5a6-7b8c9d0e1f2a,尿液,蛋白尿,,数值型,0.846,0.846,,g/d,,LLM提取,论文病例报告,2020-08-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,7f8a9b0c-c1d2-43e4-f5a6-7b8c9d0e1f2a,血清,白蛋白,,数值型,36.4,36.4,,g/L,,LLM提取,论文病例报告,2020-08-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,7f8a9b0c-c1d2-43e4-f5a6-7b8c9d0e1f2a,血清,IgE,,数值型,2900,2900,,IU/mL,,LLM提取,论文病例报告,2020-08-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,8a9b0c1d-d2e3-44f5-a6b7-8c9d0e1f2a3b,尿液,蛋白尿,,数值型,0.86,0.86,,g/d,,LLM提取,论文病例报告,2020-09-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,8a9b0c1d-d2e3-44f5-a6b7-8c9d0e1f2a3b,血清,白蛋白,,数值型,36.3,36.3,,g/L,,LLM提取,论文病例报告,2020-09-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,8a9b0c1d-d2e3-44f5-a6b7-8c9d0e1f2a3b,血清,IgE,,数值型,2100,2100,,IU/mL,,LLM提取,论文病例报告,2020-09-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,9b0c1d2e-e3f4-45a6-b7c8-9d0e1f2a3b4c,尿液,蛋白尿,,数值型,0.719,0.719,,g/d,,LLM提取,论文病例报告,2021-02-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,9b0c1d2e-e3f4-45a6-b7c8-9d0e1f2a3b4c,血清,白蛋白,,数值型,45.3,45.3,,g/L,,LLM提取,论文病例报告,2021-02-24,病程,v1
+c303552dc877a1e18d51dc7b311e35da,13203ab65ebb2ab7bf7f8d046fbf41b8,9b0c1d2e-e3f4-45a6-b7c8-9d0e1f2a3b4c,血清,IgE,,数值型,1360,1360,,IU/mL,,LLM提取,论文病例报告,2021-02-24,病程,v1

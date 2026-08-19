@@ -1,0 +1,31 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,2d2b6c54-4d65-4d0d-b0b6-61fca0e8d2f1,患者,个人史,,文本型,IVF妊娠，第5次试管婴儿成功,,,,,LLM提取,论文病例报告,,病史,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,2d2b6c54-4d65-4d0d-b0b6-61fca0e8d2f1,患者,既往史,,文本型,心律失常（II度房室传导阻滞、短暂完全性房室传导阻滞），已植入起搏器,,,,,LLM提取,论文病例报告,,病史,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,f58d0b5d-0f51-48f4-8d20-9bafcd2b8d8d,患者,妊娠周数,,数值型,32+1,32.1,32 weeks 1 day,周,,LLM提取,论文病例报告,2016-01-01,病程,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,f58d0b5d-0f51-48f4-8d20-9bafcd2b8d8d,患者,查体,,文本型,超声发现轻度羊水过多，AFI 24.8 cm，最初未见胎儿结构异常,,,,超声,LLM提取,论文病例报告,2016-01-01,评估,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,7d8fda7a-8e74-4a57-9c32-8e2a0ef3f7c8,血液,葡萄糖,,数值型,73,73,空腹,mg/dL,100 g OGTT,LLM提取,论文病例报告,2016-01-01,检验,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,7d8fda7a-8e74-4a57-9c32-8e2a0ef3f7c8,血液,葡萄糖,,数值型,167,167,1小时,mg/dL,100 g OGTT,LLM提取,论文病例报告,2016-01-01,检验,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,7d8fda7a-8e74-4a57-9c32-8e2a0ef3f7c8,血液,葡萄糖,,数值型,162,162,2小时,mg/dL,100 g OGTT,LLM提取,论文病例报告,2016-01-01,检验,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,7d8fda7a-8e74-4a57-9c32-8e2a0ef3f7c8,血液,葡萄糖,,数值型,142,142,3小时,mg/dL,100 g OGTT,LLM提取,论文病例报告,2016-01-01,检验,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,5b4fb8f4-9ed8-4d6b-a04a-7edc9b5d7c0a,患者,诊断名称,,类别型,妊娠期糖尿病,,根据超声提示胎儿偏大及羊水过多而考虑,,,LLM提取,论文病例报告,2016-01-01,诊断,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,9a0d0d5f-90df-4c7f-8cb6-6b5a4a8c0f12,患者,查体,,文本型,超声示右肾内5.6×4.8 cm边界清楚、均质性、圆形实性高回声肿块，羊水指数36.4 cm，较前增多,,,,产科超声,LLM提取,论文病例报告,2016-02-01,评估,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,9a0d0d5f-90df-4c7f-8cb6-6b5a4a8c0f12,患者,影像所见,,文本型,胎儿右肾见5.6×4.8 cm复杂性、实性、高回声、圆形肿块,,,,超声,LLM提取,论文病例报告,2016-02-01,影像,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,9a0d0d5f-90df-4c7f-8cb6-6b5a4a8c0f12,患者,诊断名称,,类别型,胎儿腹部肿块，考虑神经母细胞瘤或Wilms瘤,,产前超声初步判断,,,LLM提取,论文病例报告,2016-02-01,诊断,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,d9b6f9ee-4e2b-4e8f-b8fe-4c7a4c8e5d21,患者,入院途径,,类别型,因胎膜早破入院,,35周5天,,,LLM提取,论文病例报告,2016-02-01T00:00,入院,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,d9b6f9ee-4e2b-4e8f-b8fe-4c7a4c8e5d21,患者,诊断名称,,类别型,胎膜早破、早产临产,,,,,LLM提取,论文病例报告,2016-02-01T00:00,诊断,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,e13a9a90-0d8b-4f0e-8a7d-0f6d6f0d6a7d,患者,分娩方式,,类别型,阴道分娩,,活产男婴,,,LLM提取,论文病例报告,2016-02-01T00:00,其他,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,e13a9a90-0d8b-4f0e-8a7d-0f6d6f0d6a7d,新生儿,出生体重,,数值型,2.55,2.55,,kg,,LLM提取,论文病例报告,2016-02-01T00:00,其他,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,e13a9a90-0d8b-4f0e-8a7d-0f6d6f0d6a7d,新生儿,Apgar评分,,数值型,9/10,9,1分钟/5分钟,,,LLM提取,论文病例报告,2016-02-01T00:00,评估,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,a7f4d3a0-8d5f-4d38-9f4a-9c1f8a6a0d2b,患者,影像所见,,文本型,产后CT示右肾中下极见异质性实性肿块，约5.3×5.2×4.2 cm,,,,CT,LLM提取,论文病例报告,2016-02-03,影像,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,a7f4d3a0-8d5f-4d38-9f4a-9c1f8a6a0d2b,患者,诊断名称,,类别型,肾源性肿块，考虑间叶性肾瘤或先天性Wilms瘤,,术前CT提示,,,LLM提取,论文病例报告,2016-02-03,诊断,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,c3f0c0cf-4d69-4d4c-9a1e-9b4c0d3a5f70,患者,手术名称,,类别型,右肾切除术,,,,,LLM提取,论文病例报告,2016-02-04,手术,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,c3f0c0cf-4d69-4d4c-9a1e-9b4c0d3a5f70,患者,手术结果,,文本型,肿块局限于右肾下极并完整切除,,肿块6.5×5.0×5.0 cm，切面黄白色、旋涡状,,,LLM提取,论文病例报告,2016-02-04,手术,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,b1f0e0f4-3b1c-4e39-9d9c-7e2d1c6b2b11,病理标本,病理诊断,,文本型,细胞型间叶性肾瘤，高有丝分裂象,,显微镜下见交织束状梭形细胞，>20/10 HPF,,组织病理学,LLM提取,论文病例报告,2016-02-04,病理,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,6c2d8d2e-8d2f-4c3b-9c1a-2f4f8d8f1a22,患者,治疗方案,,类别型,辅助化疗,,术后,,,LLM提取,论文病例报告,2016-02-05,用药,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,6c2d8d2e-8d2f-4c3b-9c1a-2f4f8d8f1a22,患者,药品名称,,类别型,长春新碱,,共6个周期联合方案之一,,,LLM提取,论文病例报告,2016-02-05,用药,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,6c2d8d2e-8d2f-4c3b-9c1a-2f4f8d8f1a22,患者,药品名称,,类别型,放线菌素D,,共6个周期联合方案之一,,,LLM提取,论文病例报告,2016-02-05,用药,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,6c2d8d2e-8d2f-4c3b-9c1a-2f4f8d8f1a22,患者,药品名称,,类别型,环磷酰胺,,共6个周期联合方案之一,,,LLM提取,论文病例报告,2016-02-05,用药,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,6c2d8d2e-8d2f-4c3b-9c1a-2f4f8d8f1a22,患者,化疗周期数,,数值型,6,6,,周期,,LLM提取,论文病例报告,2016-02-05,病程,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,6c2d8d2e-8d2f-4c3b-9c1a-2f4f8d8f1a22,患者,不良反应名称,,类别型,恶心、呕吐、发热,,轻度,,,LLM提取,论文病例报告,2016-02-05,不良反应,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,94a9f8c4-0d8d-4d5a-9b8a-7c1f2e3d4a55,患者,随访结果,,文本型,目前8月龄，CT未见肿瘤复发,,,,CT,LLM提取,论文病例报告,2016-10-01,病程,v1
+895a1dcfaffb9a40f589a5fffcf20c20,7375bbc1a87954d491e659427a98dae4_1,94a9f8c4-0d8d-4d5a-9b8a-7c1f2e3d4a55,患者,疗效评估,,类别型,无复发,,,,CT随访,LLM提取,论文病例报告,2016-10-01,评估,v1

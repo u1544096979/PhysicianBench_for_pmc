@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,9c3c6ef8-7db5-4a7b-9e1e-2b6a1b4ce1ad,患者,入院年龄,,数值型,60,60,,岁,,LLM提取,论文病例报告,1992-01-01,入院,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,9c3c6ef8-7db5-4a7b-9e1e-2b6a1b4ce1ad,患者,主诉,,文本型,hematochezia and change in bowel habits（便血、排便习惯改变）,,,,,LLM提取,论文病例报告,1992-01-01,病史,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,9c3c6ef8-7db5-4a7b-9e1e-2b6a1b4ce1ad,患者,既往史,,文本型,1992年确诊直肠乙状结肠癌/结肠癌，无肝转移,,,,,LLM提取,论文病例报告,1992-01-01,病史,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,f0d0f2d5-4a4e-4a2d-8a8a-97f9d6f2c111,患者,影像所见,,文本型,CT提示直肠乙状结肠癌，无肝转移,,,,CT,LLM提取,论文病例报告,1992-01-01,影像,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,1a7a79a2-0d8c-4a4d-9f4f-9d0f6a5e2d10,血液,CEA,,数值型,28.7,28.7,,ng/dl,,LLM提取,论文病例报告,1992-01-01,检验,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,6f2c8d0d-7f4d-4c7b-9b55-3a8c2df3b7c2,患者,手术名称,,类别型,low anterior resection（低位前切除术）,,,,,LLM提取,论文病例报告,1992-01-01,手术,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,8f8c2c1d-5a6d-4b5f-9f3c-1b2d3e4f5a6b,患者,病理诊断,,文本型,"well-differentiated adenocarcinoma, T3N1, stage III（高分化腺癌，T3N1，III期）",,,,,LLM提取,论文病例报告,1992-01-01,病理,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,0db4a8c6-8e4f-4c32-9ef7-7d1b2a3c4d5e,患者,诊断名称,,类别型,直肠乙状结肠癌/结肠癌,,stage III,,,LLM提取,论文病例报告,1992-01-01,诊断,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,b1d2c3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,治疗方案,,类别型,5-fluorouracil + levamisole + radiation therapy（5-氟尿嘧啶+左旋咪唑+放疗）,,adjuvant therapy,,,LLM提取,论文病例报告,1992-01-01,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,b1d2c3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,治疗反应,,类别型,完成辅助治疗后进入随访,,1993年完成,,,LLM提取,论文病例报告,1993-01-01,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,2f3a4b5c-6d7e-4f8a-9b0c-1d2e3f4a5b6c,血液,CEA,,数值型,persistently elevated,,,,,LLM提取,论文病例报告,1995-07-01,检验,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,患者,影像所见,,文本型,CT示左肝叶病灶,,MRI提示左肝叶病灶，并怀疑右肝叶病灶,,CT/MRI,LLM提取,论文病例报告,1995-07-01,影像,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,4d5e6f70-8a9b-4cad-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,partial left hepatectomy + partial right hepatectomy（部分左肝切除+部分右肝切除）,,,,,LLM提取,论文病例报告,1995-10-01,手术,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,5e6f7081-9a0b-4cbd-9e0f-1a2b3c4d5e6f,肝脏病灶,病理诊断,,文本型,recurrent adenocarcinoma（复发性腺癌）,,两处病灶切缘阴性,,,LLM提取,论文病例报告,1995-10-01,病理,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,6f708192-a0b1-4cde-9e0f-1a2b3c4d5e6f,患者,治疗反应,,类别型,术后CEA恢复正常,,,,,LLM提取,论文病例报告,1995-10-15,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,7a8192a3-b0c1-4def-9e0f-1a2b3c4d5e6f,患者,查体,,文本型,旧切口部位可触及包块，自中上腹至肝缘,,CEA轻度升高,,,LLM提取,论文病例报告,1999-09-01,评估,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,7a8192a3-b0c1-4def-9e0f-1a2b3c4d5e6f,血液,CEA,,数值型,slightly elevated,,,,,LLM提取,论文病例报告,1999-09-01,检验,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,8b92a3b4-c1d2-4ef0-9e0f-1a2b3c4d5e6f,患者,影像所见,,文本型,CT证实局部肿瘤复发,,,,CT,LLM提取,论文病例报告,1999-09-01,影像,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,9ca3b4c5-d2e3-4f01-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,right rectus muscle resection with partial antrectomy（右腹直肌切除+部分胃窦切除）,,肿瘤黏连,,,LLM提取,论文病例报告,1999-10-01,手术,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,ad3b4c5d-e3f4-4f12-9e0f-1a2b3c4d5e6f,患者,手术结果,,文本型,切缘阴性，术后恢复平稳,,,,,LLM提取,论文病例报告,1999-10-01,手术,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,bc4d5e6f-4f50-4f23-9e0f-1a2b3c4d5e6f,患者,治疗反应,,类别型,术后恢复顺利,,,,,LLM提取,论文病例报告,1999-10-01,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,cd5e6f70-5f61-4f34-9e0f-1a2b3c4d5e6f,血液,CEA,,数值型,slightly elevated,,,,,LLM提取,论文病例报告,2006-09-01,检验,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,de6f7081-6f72-4f45-9e0f-1a2b3c4d5e6f,患者,影像所见,,文本型,CT示镰状韧带及脐右侧腹壁异常；PET提示更偏向肝内来源,,,,CT/PET,LLM提取,论文病例报告,2006-09-01,影像,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,ef708192-7f83-4f56-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,en bloc wedge liver resection + partial diaphragm resection + partial gastrectomy + partial right chest wall resection（肝楔形切除+部分膈肌切除+部分胃切除+部分右胸壁切除）,,,,,LLM提取,论文病例报告,2006-09-01,手术,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,f0792a3b-8f94-4f67-9e0f-1a2b3c4d5e6f,手术标本,病理诊断,,文本型,局部复发/转移性腺癌,,切缘未受累,,,LLM提取,论文病例报告,2006-09-01,病理,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,0a8192a3-b9c5-4f68-9e0f-1a2b3c4d5e6f,患者,治疗反应,,类别型,术后恢复顺利,,,,,LLM提取,论文病例报告,2006-09-01,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,1b92a3b4-c0d6-4f79-9e0f-1a2b3c4d5e6f,患者,查体,,文本型,无症状,,,,,LLM提取,论文病例报告,2009-04-01,评估,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,2c03b4c5-d1e7-4f8a-9e0f-1a2b3c4d5e6f,患者,影像所见,,文本型,CT示心影异常；经食管超声示右房室沟肿块；MRI证实右房受累,,PET/CT未见其他转移,,CT/TEE/MRI/PET,LLM提取,论文病例报告,2009-04-01,影像,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,3d14c5d6-e2f8-4f9a-9e0f-1a2b3c4d5e6f,患者,诊断名称,,类别型,心脏转移/心肌复发的结肠癌,,右房及右心室游离壁受累,,,LLM提取,论文病例报告,2009-04-01,诊断,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,4e25d6e7-f309-4fac-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,"cardiac surgery with resection of right atrium and ventricular free wall, radical pericardectomy（心脏切除术：右房及右心室游离壁切除+根治性心包切除）",,bovine pericardial patch修补、三尖瓣成形术、旁路移植,,,LLM提取,论文病例报告,2009-05-01,手术,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,5f36e7f8-0a1b-4f5c-9e0f-1a2b3c4d5e6f,手术标本,病理诊断,,文本型,心肌/心脏转移性肿瘤,,初始切缘阳性，追加切除后阴性,,,LLM提取,论文病例报告,2009-05-01,病理,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,6a47f809-1b2c-4f6d-9e0f-1a2b3c4d5e6f,患者,治疗反应,,类别型,术后恢复平稳,,,,,LLM提取,论文病例报告,2009-05-01,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,7b58f91a-2c3d-4f7e-9e0f-1a2b3c4d5e6f,患者,影像所见,,文本型,术后6个月PET/CT示左、右心房肿瘤进展，并经MRI证实,,,,PET/CT/MRI,LLM提取,论文病例报告,2009-11-01,影像,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,8c69fa2b-3d4e-4f80-9e0f-1a2b3c4d5e6f,患者,治疗方案,,类别型,oxaliplatin-based chemotherapy with bevacizumab（奥沙利铂方案联合贝伐珠单抗）,,之后单药贝伐珠单抗,,,LLM提取,论文病例报告,2009-11-01,用药,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,8c69fa2b-3d4e-4f80-9e0f-1a2b3c4d5e6f,患者,治疗方案,,类别型,bevacizumab,,单药维持,,,LLM提取,论文病例报告,2011-11-01,用药,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,9d7afb3c-4e5f-4091-9e0f-1a2b3c4d5e6f,患者,治疗反应,,类别型,无疾病进展,,末次随访2011年11月,,,LLM提取,论文病例报告,2011-11-01,病程,v1
+aa9e80c182b750fb2379a1ab052e0359,b368637b81b90f7878b3ba2777d24a9c_1,0e8b9c1d-5f6a-4b7c-9d0e-1f2a3b4c5d6e,患者,出院状况,,类别型,恢复良好,,,,,LLM提取,论文病例报告,,出院,v1

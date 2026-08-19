@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,0b9e6d7d-9c6d-4f4d-8c8d-0f4fd6a6d7a1,患者,年龄,,数值型,77,77,,岁,,LLM提取,论文病例报告,2020-08-01,入院,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,0b9e6d7d-9c6d-4f4d-8c8d-0f4fd6a6d7a1,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,0b9e6d7d-9c6d-4f4d-8c8d-0f4fd6a6d7a1,患者,主诉,,文本型,肉眼血尿数小时,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,0b9e6d7d-9c6d-4f4d-8c8d-0f4fd6a6d7a1,患者,既往史,,文本型,慢性肾病（2019-12诊断）；此前曾因肉眼血尿伴尿潴留行导尿,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,f7f4d7b5-0c1f-4de8-b0c1-9a8f3f6b8f11,患者,检查结果,,文本型,急诊就诊时膀胱冲洗后尿液清亮，出院并进一步门诊检查,,,,,LLM提取,论文病例报告,2020-08-01,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,3d5a2f62-1e74-4d7e-9c5b-9e7cbf3f5d22,影像检查,影像所见,,文本型,膀胱右前上壁弥漫性不规则增厚,,CT IVP，约2周后,,CT静脉肾盂造影,LLM提取,论文病例报告,2020-08-15,影像,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,4f3e1f63-6b1a-4d7d-8f2a-8f2d6c9b0f33,患者,检查结果,,文本型,膀胱镜未见明显异常,,,,膀胱镜检查,LLM提取,论文病例报告,2020-08-15,评估,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,8d2df4a9-3b3e-4e7b-8df7-1d8b0b1c9a44,膀胱病灶,手术名称,,类别型,经尿道膀胱病灶切除术,,,,,LLM提取,论文病例报告,2020-08-15,手术,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,9b1f7d6e-1e8a-4e1a-a0d2-4f9c2b6a5c55,病理标本,病理诊断,,文本型,尿路上皮癌，累及逼尿肌层,,,,病理检查,LLM提取,论文病例报告,2020-08-15,病理,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,a7c6f8b9-2d3e-4b4c-9c1d-7e8f9a0b1c66,患者,诊断名称,,类别型,尿路上皮癌,,pT2N0M0，高级别,,,LLM提取,论文病例报告,2020-08-15,诊断,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,b2a3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c67,患者,治疗方案,,类别型,放化疗,,因肾功能受损，患者选择放化疗而非根治性膀胱切除术,,,LLM提取,论文病例报告,2020-08-20,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,c3d4e5f6-7a8b-4c9d-8e0f-1a2b3c4d5e78,放疗,治疗方案,,类别型,膀胱癌根治放疗,,电性淋巴结剂量50 Gy；原发灶63.25 Gy；每周5次，共5周,,,LLM提取,论文病例报告,2020-08-20,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,c3d4e5f6-7a8b-4c9d-8e0f-1a2b3c4d5e78,放疗,剂量,,数值型,50,50,电性淋巴结剂量,Gy,,LLM提取,论文病例报告,2020-08-20,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,c3d4e5f6-7a8b-4c9d-8e0f-1a2b3c4d5e78,放疗,剂量,,数值型,63.25,63.25,原发肿瘤,Gy,,LLM提取,论文病例报告,2020-08-20,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,d4e5f6a7-8b9c-4d0e-9f1a-2b3c4d5e6f79,化疗,治疗方案,,类别型,丝裂霉素+卡培他滨同步化疗,,丝裂霉素单次治疗，卡培他滨每日给药，共5周,,,LLM提取,论文病例报告,2020-08-20,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,d4e5f6a7-8b9c-4d0e-9f1a-2b3c4d5e6f79,化疗,药品名称,,类别型,丝裂霉素,,单次治疗,,,LLM提取,论文病例报告,2020-08-20,用药,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,d4e5f6a7-8b9c-4d0e-9f1a-2b3c4d5e6f79,化疗,药品名称,,类别型,卡培他滨,,每日给药，共5周,,,LLM提取,论文病例报告,2020-08-20,用药,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,e5f6a7b8-9c0d-4e1f-a2b3-c4d5e6f7a8b9,患者,疗效评估,,类别型,完全缓解,,4个月随访时CT胸腹部及膀胱镜提示无转移,,CT、膀胱镜,LLM提取,论文病例报告,2020-12-20,评估,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,f6a7b8c9-0d1e-4f2a-b3c4-d5e6f7a8b9c0,患者,症状,,文本型,颈痛放射至左侧头部，呕吐，步行需支持，共济失调,,原发诊断后8个月,,,LLM提取,论文病例报告,2021-04-01,病史,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5d,影像检查,影像所见,,文本型,右侧小脑半球单发约29 mm肿块，部分坏死，肿瘤水肿致轻度中线移位，压迫脑干和第四脑室,,CT和MRI脑,,CT/MRI,LLM提取,论文病例报告,2021-04-01,影像,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5d,影像检查,影像结论,,文本型,小脑转移灶,,右侧小脑半球,,MRI增强,LLM提取,论文病例报告,2021-04-01,影像,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e,影像检查,影像所见,,文本型,胸腹部CT未见其他原发恶性肿瘤或转移灶,,重复检查,,CT,LLM提取,论文病例报告,2021-04-01,影像,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,左侧枕下开颅小脑肿瘤切除术,,,,,LLM提取,论文病例报告,2021-04-01,手术,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f,患者,手术结果,,文本型,肿瘤完全切除,,术中使用超声吸引器（CUSA）,,,LLM提取,论文病例报告,2021-04-01,手术,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f,患者,术中出血量,,数值型,,,,,,LLM提取,论文病例报告,2021-04-01,手术,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,病理标本,病理诊断,,文本型,转移性尿路上皮来源肿瘤,,免疫组化：CK5/6、CK7、CK20、CK34βE12、GATA-3阳性,,病理及免疫组化,LLM提取,论文病例报告,2021-04-01,病理,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,病理标本,免疫组化,,文本型,CK5/6、CK7、CK20、CK34βE12、GATA-3阳性,,,,免疫组化,LLM提取,论文病例报告,2021-04-01,病理,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f70,患者,治疗方案,,类别型,术后立体定向放疗,,术后1个月开始,,,LLM提取,论文病例报告,2021-05-01,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f70,患者,剂量,,数值型,18,18,照射至切除腔及周围小脑组织,Gy,,LLM提取,论文病例报告,2021-05-01,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f70,患者,治疗反应,,类别型,完全切除后行辅助放疗,,,,,LLM提取,论文病例报告,2021-05-01,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,5e6f7a8b-9c0d-4e1f-a2b3-c4d5e6f7a8b1,患者,疗效评估,,类别型,完全切除,,术后1天MRI,,MRI,LLM提取,论文病例报告,2021-04-02,评估,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,6f7a8b9c-0d1e-4f2a-b3c4-d5e6f7a8b9c2,患者,出院状况,,类别型,术后2天出院，完全恢复并恢复完整体力功能,,,,,LLM提取,论文病例报告,2021-04-03,出院,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,7a8b9c0d-1e2f-4a3b-8c9d-0f1a2b3c4d5f,患者,疾病复发,,类别型,小脑转移灶复发,,术后约7个月，出现共济失调复发症状,,MRI,LLM提取,论文病例报告,2021-11-01,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,7a8b9c0d-1e2f-4a3b-8c9d-0f1a2b3c4d5f,影像检查,影像所见,,文本型,病灶强化但无灌注增加,,早期复查MRI,,MRI,LLM提取,论文病例报告,2021-11-01,影像,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6e,影像检查,影像所见,,文本型,病灶增大并伴水肿，压迫第四脑室，出现幕上脑积水影像学征象,,6周后复查,,MRI,LLM提取,论文病例报告,2021-12-15,影像,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,9c0d1e2f-3a4b-5c6d-8e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,病灶再次切除/减压术,,首次手术后约2周实施,,,LLM提取,论文病例报告,2021-12-29,手术,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,9c0d1e2f-3a4b-5c6d-8e0f-1a2b3c4d5e6f,病理标本,病理诊断,,文本型,转移灶复发，部分存活、部分坏死的肿瘤组织,,,,病理检查,LLM提取,论文病例报告,2021-12-29,病理,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,a0b1c2d3-e4f5-4a6b-8c9d-0d1e2f3a4b5c,患者,治疗方案,,类别型,再次术后立体定向放疗,,,,,LLM提取,论文病例报告,2021-12-29,病程,v1
+e5e98c2e0649e4362c0eeccda25aaf7a,984e50b0de95e49bd5001a1bd7c7085f,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5f,患者,死亡,,类别型,死亡,,再次手术后5.5个月,,,LLM提取,论文病例报告,2022-06-15,病程,v1

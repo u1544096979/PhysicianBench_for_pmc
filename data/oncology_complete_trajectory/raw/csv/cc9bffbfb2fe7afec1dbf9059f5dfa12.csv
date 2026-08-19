@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,f2f7d2f2-1d8a-4f7d-8b1d-2e5f8f5f7f11,患者,入院年龄,,数值型,83,83,,岁,,LLM提取,论文病例报告,2018-06-01,入院,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,f2f7d2f2-1d8a-4f7d-8b1d-2e5f8f5f7f11,患者,入院科室,,类别型,结直肠外科/外科,,,,,LLM提取,论文病例报告,2018-06-01,入院,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,8f0baf8b-1d62-4e5d-9f4f-2d8f7e6d7f22,患者,诊断名称,,类别型,直肠腺癌,,stage IIB; T4aN0M0,,,LLM提取,论文病例报告,2018-06-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,8f0baf8b-1d62-4e5d-9f4f-2d8f7e6d7f22,患者,临床分期,,类别型,IIB期,,T4aN0M0,,,LLM提取,论文病例报告,2018-06-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,8f0baf8b-1d62-4e5d-9f4f-2d8f7e6d7f22,患者,病理分期,,类别型,pT4aN0M0,,文中表述为T4aN0M0,,,LLM提取,论文病例报告,2018-06-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,1b7b1e5c-0f2b-4b7c-a0e1-0bb1c1b8e333,患者,手术名称,,类别型,腹腔镜低位前切除术,,伴双侧淋巴结清扫,,,LLM提取,论文病例报告,2018-06-01,手术,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,1b7b1e5c-0f2b-4b7c-a0e1-0bb1c1b8e333,患者,麻醉方式,,类别型,,,,,,LLM提取,论文病例报告,2018-06-01,手术,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,5f2a7f2f-2d2d-4f7a-8c2b-9d8b1d1d4444,患者,并发症,,文本型,吻合口漏,,术后出现,,,LLM提取,论文病例报告,2018-06-01,病程,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,5f2a7f2f-2d2d-4f7a-8c2b-9d8b1d1d4444,患者,治疗方案,,文本型,暂时性回肠造口,,因吻合口漏,,,LLM提取,论文病例报告,2018-06-01,手术,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,9c6c0d2a-3b3b-4a6b-9f7e-1a2b3c4d5555,患者,出院医嘱,,文本型,未行辅助化疗,,考虑肿瘤分期及高龄,,,LLM提取,论文病例报告,2018-06-01,出院,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,6d1b2c3a-4d5e-4f6a-8b7c-9d0e1f2a6666,患者,病程,,文本型,造口关闭术后恢复,,2019-01 行回肠造口关闭术,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,2c1d3e4f-5a6b-4c7d-8e9f-0a1b2c3d7777,患者,诊断名称,,类别型,脑转移,,左额前皮质，20 mm；伴脑水肿,,CT,LLM提取,论文病例报告,2019-07-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,2c1d3e4f-5a6b-4c7d-8e9f-0a1b2c3d7777,患者,诊断名称,,类别型,右腋窝淋巴结转移,,20 mm,mm,CT,LLM提取,论文病例报告,2019-07-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,2c1d3e4f-5a6b-4c7d-8e9f-0a1b2c3d7777,患者,影像所见,,文本型,左额前皮质见20 mm转移灶，伴脑水肿；右腋窝淋巴结肿大至20 mm，未见小高密度灶,,,,CT,LLM提取,论文病例报告,2019-07-01,影像,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,3a4b5c6d-7e8f-4a9b-8c0d-1e2f3a4b8888,患者,治疗方案,,文本型,伽玛刀治疗,,脑转移灶,,,LLM提取,论文病例报告,2019-07-01,用药,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,3a4b5c6d-7e8f-4a9b-8c0d-1e2f3a4b8888,患者,剂量,,数值型,20,20,,Gy,,LLM提取,论文病例报告,2019-07-01,用药,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,4b5c6d7e-8f9a-4b0c-9d1e-2f3a4b5c9999,患者,治疗方案,,文本型,口服S-1,,用于右腋窝淋巴结转移,,,LLM提取,论文病例报告,2019-08-01,用药,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,4b5c6d7e-8f9a-4b0c-9d1e-2f3a4b5c9999,患者,药品名称,,类别型,S-1,,tegafur + gimeracil,,,LLM提取,论文病例报告,2019-08-01,用药,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,4b5c6d7e-8f9a-4b0c-9d1e-2f3a4b5c9999,患者,治疗方案,,文本型,口服替加氟-尿嘧啶/醛氢叶酸（UFT/UZEL）,,术后10天开始,,,LLM提取,论文病例报告,2019-11-01,用药,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6daaaa,患者,手术名称,,类别型,右腋窝淋巴结切除术,,术中拟诊为直肠癌右腋窝淋巴结转移伴钙化灶,,,LLM提取,论文病例报告,2019-11-01,手术,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6daaaa,患者,手术结果,,文本型,恢复顺利,,,,,LLM提取,论文病例报告,2019-11-01,手术,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,6d7e8f9a-0b1c-4d2e-9f3a-4b5c6d7ebbbb,患者,住院天数,,数值型,13,13,术后第13天出院,天,,LLM提取,论文病例报告,2019-11-13,出院,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,6d7e8f9a-0b1c-4d2e-9f3a-4b5c6d7ebbbb,患者,出院状况,,类别型,恢复后出院,,术后经过平稳,,,LLM提取,论文病例报告,2019-11-13,出院,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,7e8f9a0b-1c2d-4e3f-9a4b-5c6d7e8fc222,标本: 右腋窝淋巴结,病理诊断,,文本型,转移性腺癌伴异位骨化,,中央坏死；周边4处小骨化灶；无成骨细胞样细胞环,,病理检查,LLM提取,论文病例报告,2019-11-01,病理,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,7e8f9a0b-1c2d-4e3f-9a4b-5c6d7e8fc222,标本: 右腋窝淋巴结,免疫组化,,文本型,BMP-2、osteonectin、osteocalcin、AE1/AE3、TGF-β1、Gli2、Smad2/3、CDX2阳性；nestin、CD56、CK7阴性,,另：MDM2、CD34阴性；CD68在骨化灶周围阳性,,免疫组化,LLM提取,论文病例报告,2019-11-01,病理,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,7e8f9a0b-1c2d-4e3f-9a4b-5c6d7e8fc222,标本: 右腋窝淋巴结,标本部位,,类别型,右腋窝淋巴结,,,,,LLM提取,论文病例报告,2019-11-01,病理,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,7e8f9a0b-1c2d-4e3f-9a4b-5c6d7e8fc222,患者,诊断名称,,类别型,直肠癌右腋窝淋巴结转移,,伴钙化/骨化灶,,,LLM提取,论文病例报告,2019-11-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,7e8f9a0b-1c2d-4e3f-9a4b-5c6d7e8fc222,患者,诊断名称,,类别型,异位骨化,,位于转移性淋巴结内,,,LLM提取,论文病例报告,2019-11-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,8f9a0b1c-2d3e-4f5a-9b6c-7d8e9f0a3333,标本: 右腋窝淋巴结,检验项目,,类别型,D-PAS,,阳性,,组织化学染色,LLM提取,论文病例报告,2019-11-01,检验,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,8f9a0b1c-2d3e-4f5a-9b6c-7d8e9f0a3333,标本: 右腋窝淋巴结,检验项目,,类别型,Alcian blue,,阳性,,组织化学染色,LLM提取,论文病例报告,2019-11-01,检验,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b4444,标本: 右腋窝淋巴结,影像所见,,文本型,单发肿大淋巴结37×33 mm，周边见小高密度灶,,右腋窝,mm,CT,LLM提取,论文病例报告,2019-10-01,影像,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b4444,患者,诊断名称,,类别型,右腋窝淋巴结转移,,拟诊伴钙化沉积,,,LLM提取,论文病例报告,2019-10-01,诊断,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,aa1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b5555,患者,检验项目,,数值型,CEA,12.5,,ng/ml,,LLM提取,论文病例报告,2019-10-01,检验,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,aa1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b5555,患者,检验项目,,数值型,CA19-9,187.7,,U/ml,,LLM提取,论文病例报告,2019-10-01,检验,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,aa1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b5555,患者,检验项目,,数值型,CA125,41,,U/ml,,LLM提取,论文病例报告,2019-10-01,检验,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,bb2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c6666,标本: 右腋窝淋巴结,病理诊断,,文本型,转移性腺癌，伴中央坏死及周边小灶骨化,,无成骨细胞样细胞,,病理检查,LLM提取,论文病例报告,2019-11-01,病理,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,cc3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d7777,患者,病程,,文本型,肺炎入院,,急性肺炎；右腋窝淋巴结再次肿大,,CT,LLM提取,论文病例报告,2020-01-01,病程,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,cc3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d7777,患者,影像所见,,文本型,急性肺炎，右腋窝淋巴结肿大42×34 mm及24×18 mm，未见高密度灶,,,mm,胸部CT,LLM提取,论文病例报告,2020-01-01,影像,v1
+cc9bffbfb2fe7afec1dbf9059f5dfa12,c7aa866db6bdfdf5f1f40e1fa4b2875f,dd4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e8888,患者,死亡,,类别型,死亡,,肺炎快速进展后4天死亡,,,LLM提取,论文病例报告,2020-01-05,其他,v1

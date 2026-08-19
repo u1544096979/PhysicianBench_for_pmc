@@ -1,0 +1,17 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,1d7d4b5a-7e0a-4ad1-9b64-9e3c0a4e6a11,患者,入院年龄,,数值型,71,71,,岁,,LLM提取,论文病例报告,2022-07-01,入院,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,2d9fd1d7-1f9f-4f5d-a6d2-3f2edc63c4a2,患者,个人史,,文本型,有肾结石病史,,,,,LLM提取,论文病例报告,2022-07-01,病史,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,3d2f8e4d-6c2e-4db7-a2e0-2c8b3f5b1f55,患者,影像所见,,文本型,CT尿路造影偶然发现胸膜基肺部结节,,位于右下肺/胸膜旁,,CT urogram,LLM提取,论文病例报告,2022-07-01,影像,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,4b1db0b4-6c4a-4d76-8e78-4c45d6f3d0b7,患者,影像所见,,文本型,CT胸部复查显示右下肺结节较前增大,,约由12 mm增至16 mm,mm,CT chest,LLM提取,论文病例报告,2022-08-01,影像,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,4b1db0b4-6c4a-4d76-8e78-4c45d6f3d0b7,患者,影像结论,,文本型,右下肺结节进行性增大，考虑恶性可能,,,,CT chest,LLM提取,论文病例报告,2022-08-01,影像,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,5c0f6d6d-7d4b-4c2c-9b2a-8d0e1f5d2d0c,患者,影像所见,,文本型,随访CT胸部示右下肺结节继续增大,,3个月及6个月复查均提示增大,,CT chest,LLM提取,论文病例报告,2023-01-01,影像,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,6c0b5c4e-8d2d-4b5a-9c3d-7e1f2a3b4c5d,患者,影像所见,,文本型,PET/CT示结节未见FDG摄取,,FDG不显像/不摄取,,PET/CT,LLM提取,论文病例报告,2023-01-01,影像,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,7d1e2f3a-4b5c-4d6e-8f7a-9c0b1d2e3f4a,标本,病理诊断,,文本型,CT引导活检结果非诊断性，见平淡间皮细胞,,,,CT-guided biopsy,LLM提取,论文病例报告,2023-01-01,病理,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,8e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b,患者,诊断名称,,类别型,右下肺/胸膜旁结节，考虑恶性肿瘤待排,,术前临床判断,,,LLM提取,论文病例报告,2023-05-01,诊断,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,9f3a4b5c-6d7e-4f8a-9b0c-1d2e3f4a5b6c,患者,手术名称,,类别型,机器人辅助手术切除胸膜腔结节,,Da Vinci Xi系统,,Robotic surgery,LLM提取,论文病例报告,2023-05-01,手术,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,9f3a4b5c-6d7e-4f8a-9b0c-1d2e3f4a5b6c,患者,手术结果,,文本型,术中见3个可自由活动的圆形钙化样结节位于右下肺水平的胸膜腔内并予以切除，未切除肺实质,,未见其他结节,,Robotic surgery,LLM提取,论文病例报告,2023-05-01,手术,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,ad4b5c6d-7e8f-4a9b-0c1d-2e3f4a5b6c,标本,病理诊断,,文本型,透明化结节（hyalinized nodules）,,未见恶性,,术后病理,LLM提取,论文病例报告,2023-05-01,病理,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,ad4b5c6d-7e8f-4a9b-0c1d-2e3f4a5b6c,标本,病理诊断,,文本型,胸膜腔游离体/胸石（thoracoliths）,,影像上模拟肺癌,,术后病理,LLM提取,论文病例报告,2023-05-01,病理,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,be5c6d7e-8f9a-4b0c-1d2e-3f4a5b6c7d8e,患者,疗效评估,,类别型,术后恢复良好,,无残余病灶,,CT胸部复查,LLM提取,论文病例报告,2023-08-01,评估,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,be5c6d7e-8f9a-4b0c-1d2e-3f4a5b6c7d8e,患者,影像所见,,文本型,术后3个月CT胸部未见残余结节,,,,CT chest,LLM提取,论文病例报告,2023-08-01,影像,v1
+e8254fd738557b8fa8abec54e13e5d12,c47adb94484863573f8ab31472df5046_1,cf6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e9f,患者,出院状况,,类别型,恢复良好,,已完全康复,,,LLM提取,论文病例报告,2023-08-01,出院,v1

@@ -1,0 +1,28 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,8f7b8f7d-1c44-4d51-9f15-7a1ed5b6f5a1,患者,年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,,病史,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,8f7b8f7d-1c44-4d51-9f15-7a1ed5b6f5a1,患者,既往史,,文本型,2002年诊断为小叶性乳腺癌，GRAVIDA 2，PARA 2,,T1N0；ER阳性；PR阳性；HER-2阴性,,,LLM提取,论文病例报告,2002-01-01,病史,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,8f7b8f7d-1c44-4d51-9f15-7a1ed5b6f5a1,患者,既往治疗,,文本型,接受肿瘤切除术和腋窝淋巴结清扫术，之后接受全乳放疗和高剂量率近距离放疗，并计划/给予5年他莫昔芬,,全乳放疗46 Gy；HDR brachytherapy 7 Gy单次,,,LLM提取,论文病例报告,2002-01-01,病史,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,5d8f4cc5-5f3d-46b7-82df-7c9b0c2e2d61,患者,主诉,,文本型,绝经后阴道出血,,持续出血,,,LLM提取,论文病例报告,2014-10-01,病史,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,1f1b5a25-2b7a-4f33-8c0c-5d2a1e2d2e91,子宫内膜,病理诊断,,文本型,转移性乳腺癌，可能为小叶性组织学亚型,,宫腔镜引导活检,,病理学,LLM提取,论文病例报告,2014-10-01,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,a6f7b2c1-0c7e-4d9f-9d8f-2b8d1f6d3a44,患者,影像所见,,文本型,盆腔MRI示子宫内膜异质性病灶，大小约100×86 mm，深肌层浸润达浆膜层，未见宫颈内口受累,,无,,MRI,LLM提取,论文病例报告,2014-10-01,影像,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,a6f7b2c1-0c7e-4d9f-9d8f-2b8d1f6d3a44,患者,影像所见,,文本型,胸腹盆腔CT未见腹膜种植，未见超出盆腔肿块之外的疾病证据,,,,CT,LLM提取,论文病例报告,2014-10-01,影像,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,c3c7c5d6-5e8d-4f4d-9c3a-1e2f0c9a7b55,患者,输血,,数值型,3,3,红细胞输血,袋,,LLM提取,论文病例报告,2014-10-01,病程,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,d2a2c7f4-9c18-4c6f-9f0f-8e1c3b2d4a66,子宫,手术名称,,类别型,全子宫切除术,,联合双侧卵巢切除术,,,LLM提取,论文病例报告,2014-10-01,手术,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,d2a2c7f4-9c18-4c6f-9f0f-8e1c3b2d4a66,双侧卵巢,手术名称,,类别型,双侧卵巢切除术,,与全子宫切除术同期完成,,,LLM提取,论文病例报告,2014-10-01,手术,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,d2a2c7f4-9c18-4c6f-9f0f-8e1c3b2d4a66,患者,手术结果,,文本型,因子宫体积较大且为避免腹腔污染，未行腹腔镜；术中见盆腔多发5–10 mm腹膜种植灶及子宫肿瘤累及双侧卵巢,,术后恢复无明显并发症,,,LLM提取,论文病例报告,2014-10-01,手术,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,b7d6f9c4-1a2b-4c5d-8e7f-9a0b1c2d3e77,子宫内膜,病理诊断,,文本型,高级别（G3）小细胞神经内分泌肿瘤,,最终病理,,病理学,LLM提取,论文病例报告,2014-10-01,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,b7d6f9c4-1a2b-4c5d-8e7f-9a0b1c2d3e77,子宫标本,标本部位,,类别型,子宫内膜,,,,,LLM提取,论文病例报告,2014-10-01,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,b7d6f9c4-1a2b-4c5d-8e7f-9a0b1c2d3e77,子宫标本,免疫组化,,文本型,Synaptophysin++，CD56阳性，Chromogranin A在少数细胞阳性，Ki-67约80%,,,,免疫组化,LLM提取,论文病例报告,2014-10-01,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,b7d6f9c4-1a2b-4c5d-8e7f-9a0b1c2d3e77,子宫标本,分化程度,,类别型,高级别（G3）,,,,,LLM提取,论文病例报告,2014-10-01,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,9d8e7f6c-5b4a-4c3d-9a2b-1c0d2e3f4a88,患者,手术名称,,类别型,二次细胞减灭术,,盆腔腹膜及肠系膜腹膜转移灶切除、盆腔及腹主动脉后腹膜根治性淋巴结清扫,,,LLM提取,论文病例报告,2014-10-23,手术,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,9d8e7f6c-5b4a-4c3d-9a2b-1c0d2e3f4a88,患者,手术结果,,文本型,实现完全肿瘤减灭,,术中见盆腔和肠系膜腹膜种植灶10–40 mm,,,LLM提取,论文病例报告,2014-10-23,手术,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,e1f2d3c4-b5a6-47d8-9c0e-1f2a3b4c5d99,腹膜转移灶,病理诊断,,文本型,神经内分泌肿瘤转移,,免疫组化与前述相似,,病理学,LLM提取,论文病例报告,2014-10-23,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,e1f2d3c4-b5a6-47d8-9c0e-1f2a3b4c5d99,腹膜转移灶,免疫组化,,文本型,与原发灶相似的神经内分泌标志物表达,,,,免疫组化,LLM提取,论文病例报告,2014-10-23,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,f0e1d2c3-b4a5-46f7-8c9d-0e1f2a3b4caa,盆腔淋巴结,病理诊断,,文本型,高级别浆液性癌转移,,5/13枚阳性,,病理学,LLM提取,论文病例报告,2014-10-23,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,f0e1d2c3-b4a5-46f7-8c9d-0e1f2a3b4caa,腹主动脉旁淋巴结,病理诊断,,文本型,高级别浆液性癌转移,,20/25枚阳性,,病理学,LLM提取,论文病例报告,2014-10-23,病理,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,0a1b2c3d-4e5f-4678-9abc-def012345678,患者,治疗方案,,类别型,顺铂+依托泊苷辅助化疗,,每21天1周期，共4周期,,,LLM提取,论文病例报告,2014-11-01,用药,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,0a1b2c3d-4e5f-4678-9abc-def012345678,患者,药品名称,,类别型,顺铂,,80 mg/m²，第1天,,,LLM提取,论文病例报告,2014-11-01,用药,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,0a1b2c3d-4e5f-4678-9abc-def012345678,患者,药品名称,,类别型,依托泊苷,,100 mg/m²，第1、2、3天,,,LLM提取,论文病例报告,2014-11-01,用药,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,0a1b2c3d-4e5f-4678-9abc-def012345678,患者,用药周期,,文本型,每21天重复,,共4个周期,,,LLM提取,论文病例报告,2014-11-01,用药,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,6a5b4c3d-2e1f-4a6b-9c8d-7e6f5a4b3c22,患者,病程,,文本型,治疗后仍持续存在疾病,,,,,LLM提取,论文病例报告,2016-02-01,病程,v1
+8b208c39c94c7c00a11f7aebf57c2ac5,cfaadd1d6fc8d6a5a87112f9d1ebfc46_1,6a5b4c3d-2e1f-4a6b-9c8d-7e6f5a4b3c22,患者,生存状态,,类别型,死亡,,诊断后17个月死亡,,,LLM提取,论文病例报告,2016-02-01,病程,v1

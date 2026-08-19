@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,7f2f1a11-7d2e-4d6a-8c53-f5db2f9d4b31,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2015-06-01,病史,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,7f2f1a11-7d2e-4d6a-8c53-f5db2f9d4b31,患者,入院年龄,,数值型,47岁,47,,岁,,LLM提取,论文病例报告,2015-06-01,入院,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,7f2f1a11-7d2e-4d6a-8c53-f5db2f9d4b31,患者,主诉,,文本型,反复腹痛腹胀1年余,,,,,LLM提取,论文病例报告,2015-06-01,病史,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,1d8b4f0a-4f71-4c2a-9a29-8d4d7f4d1f3c,CT,影像所见,,文本型,胃底大弯与脾之间见约12.4cm×12.9cm肿块，肝S5/6有转移灶,,,,CT,LLM提取,论文病例报告,2015-06-01,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,1d8b4f0a-4f71-4c2a-9a29-8d4d7f4d1f3c,CT,影像结论,,文本型,胃间质瘤伴肝转移,,,,CT,LLM提取,论文病例报告,2015-06-01,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,2f2c3a13-9cb4-4d93-8d5c-4f0f5b2d8b11,核心针穿刺活检,病理诊断,,文本型,GIST,,,,core-needle biopsy,LLM提取,论文病例报告,2015-06-01,病理,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,2f2c3a13-9cb4-4d93-8d5c-4f0f5b2d8b11,核心针穿刺活检,免疫组化,,文本型,CD117阳性；CD34阳性；PDGFR阳性；Ki-67阳性,,,,免疫组化,LLM提取,论文病例报告,2015-06-01,病理,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,3f0c7d7a-6f5b-4db2-a0f4-5d6d0f58d0f1,患者,治疗方案,,类别型,伊马替尼,,400 mg/d，首线治疗,mg/d,,LLM提取,论文病例报告,2015-06-01,用药,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,4f2adf7d-0d4f-4d7d-9a9c-8f1f3d7d5c21,患者,疗效评估,,类别型,部分缓解（PR）,,伊马替尼治疗8个月后评估,,影像学复查,LLM提取,论文病例报告,2016-02-01,评估,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,5c7c8e5a-7c0e-4d65-b9b7-11df1d0b6f42,手术,手术名称,,类别型,胃底肿瘤切除术及楔形胃切除术,,肝转移灶未切除，R2,,,LLM提取,论文病例报告,2016-02-01,手术,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,6d0b4a2d-9f2e-4d2a-a8ab-8f4c0d5f3f13,患者,治疗方案,,类别型,伊马替尼,,术后维持治疗,,,LLM提取,论文病例报告,2016-02-01,用药,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,7a1ef0f4-2e5d-4c1d-8b2a-0f4d9b2b7d14,患者,治疗方案,,类别型,伊马替尼中断,,因脱发、恶心、疲乏自行停药10个月,,,LLM提取,论文病例报告,2018-07-01,用药,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,8b2f1d3c-3a4e-4e6f-b7c1-2d4e6f9a1c15,CT,影像所见,,文本型,病灶增大并出现新的肝脏及多个腹腔转移灶,,伊马替尼停药10个月后,,CT,LLM提取,论文病例报告,2019-05-01,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,8b2f1d3c-3a4e-4e6f-b7c1-2d4e6f9a1c15,CT,影像结论,,文本型,疾病进展,,,,CT,LLM提取,论文病例报告,2019-05-01,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,9c3a0e5d-8b4f-4f2e-9c6a-3d5f7a1b2c16,患者,治疗方案,,类别型,伊马替尼,,恢复至300 mg/d,mg/d,,LLM提取,论文病例报告,2019-05-01,用药,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,0d4b1c2e-5f6a-4a7d-b8c1-4e5f6a7b8c17,患者,疗效评估,,类别型,部分缓解（PR）,,恢复伊马替尼后,,影像学复查,LLM提取,论文病例报告,2019-05-01,评估,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,1e5f2a3b-4c6d-5e7f-8a9b-0c1d2e3f4a18,CT/PET-CT,影像所见,,文本型,肝肾隐窝新发约4.3cm×4.4cm转移灶，腹腔多发小病灶；既往肝转移灶仍稳定,,,,CT/PET-CT,LLM提取,论文病例报告,2021-05-18,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,1e5f2a3b-4c6d-5e7f-8a9b-0c1d2e3f4a18,CT/PET-CT,影像结论,,文本型,肿瘤进展,,,,CT/PET-CT,LLM提取,论文病例报告,2021-05-18,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,2a6b3c4d-5e7f-6a8b-9c0d-1e2f3a4b5c19,肝肾隐窝病灶活检,病理诊断,,文本型,GIST,,Ki-67 50%阳性,,biopsy,LLM提取,论文病例报告,2021-05-18,病理,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,3b7c4d5e-6f8a-7b9c-0d1e-2f3a4b5c6d20,外周血ctDNA,KIT exon 11 K558_E562del,,数值型,4.0%,4.0,,%,ctDNA检测,LLM提取,论文病例报告,2021-05-18,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,3b7c4d5e-6f8a-7b9c-0d1e-2f3a4b5c6d20,外周血ctDNA,KIT exon 17 D816del,,数值型,2.6%,2.6,,%,ctDNA检测,LLM提取,论文病例报告,2021-05-18,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,3b7c4d5e-6f8a-7b9c-0d1e-2f3a4b5c6d20,外周血ctDNA,PDGFRB exon 3 nonsense mutation,,类别型,阳性,,,,ctDNA检测,LLM提取,论文病例报告,2021-05-18,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,4c8d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e21,患者,治疗方案,,类别型,瑞普替尼,,150 mg/d，二线治疗,mg/d,,LLM提取,论文病例报告,2021-06-01,用药,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,5d9e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f22,外周血ctDNA,KIT exon 11 K558_E562del,,类别型,阴性,,瑞普替尼治疗2周后,,ctDNA检测,LLM提取,论文病例报告,2021-06-14,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,5d9e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f22,外周血ctDNA,KIT exon 17 D816del,,类别型,阴性,,瑞普替尼治疗2周后,,ctDNA检测,LLM提取,论文病例报告,2021-06-14,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,6e0f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a23,MRI,影像结论,,类别型,稳定疾病（SD）,,瑞普替尼治疗4周后,,MRI,LLM提取,论文病例报告,2021-06-29,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,7f1a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b24,MRI/CT,影像所见,,文本型,肝肾隐窝病灶较基线缩小约17%；肝S1/S5/S6转移灶大小大致相同；腹腔多发转移灶较前缩小,,瑞普替尼治疗80余天,,MRI/CT,LLM提取,论文病例报告,2021-08-20,影像,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,7f1a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b24,MRI/CT,影像结论,,类别型,达到治疗预期,,,,MRI/CT,LLM提取,论文病例报告,2021-08-20,评估,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,8a2b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c25,手术,手术名称,,类别型,剖腹探查术/减瘤手术,,R0/1切除,,,LLM提取,论文病例报告,2021-08-20,手术,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,8a2b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c25,手术,手术结果,,文本型,所有可见病灶均被切除,,,,,LLM提取,论文病例报告,2021-08-20,手术,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,9b3c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d26,术后病理,病理诊断,,文本型,GIST,,术后病理证实,,病理,LLM提取,论文病例报告,2021-08-20,病理,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,ac4d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e27,术后外周血ctDNA,KIT exon 11 K558_E562del,,数值型,0%,,术前保持为0,%,ctDNA检测,LLM提取,论文病例报告,2021-08-28,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,ac4d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e27,术后外周血ctDNA,KIT exon 17 D816del,,数值型,0%,,术前保持为0,%,ctDNA检测,LLM提取,论文病例报告,2021-08-28,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,ac4d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e27,术后外周血ctDNA,PDGFRB exon 3,,数值型,1.0%,1.0,较前0.9%略增,%,ctDNA检测,LLM提取,论文病例报告,2021-08-28,检验,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,bd5e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f28,患者,出院状况,,类别型,恢复良好,,术后第8天出院,,,LLM提取,论文病例报告,2021-08-28,出院,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,bd5e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f28,患者,出院医嘱,,文本型,继续瑞普替尼维持治疗,,术后第7天恢复用药，150 mg/d,,,LLM提取,论文病例报告,2021-08-28,出院,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,be6f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a29,患者,不良反应名称,,类别型,脱发,,轻度,,,LLM提取,论文病例报告,2021-06-01,不良反应,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,be6f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a29,患者,不良反应名称,,类别型,手足综合征,,轻度,,,LLM提取,论文病例报告,2021-06-01,不良反应,v1
+ae984c6ddbd575f56059403bdf3aebda,499cfb8fd1543d8993bfc3c17cb3e7ff,be6f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a29,患者,不良反应名称,,类别型,贫血,,Hb 106–113 g/L,g/L,,LLM提取,论文病例报告,2021-06-01,不良反应,v1

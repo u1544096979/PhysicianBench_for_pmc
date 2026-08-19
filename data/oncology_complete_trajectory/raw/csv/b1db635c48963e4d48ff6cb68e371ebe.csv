@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,7f8a8c85-3f06-4db4-8d4d-fd4d4aa7f2c1,患者,主诉,,文本型,左胫骨肿块,,,,,LLM提取,论文病例报告,1999-01-01,病史,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,2f7fd9db-9a4f-4f90-9f8e-7d6f2b60d9fb,患者,手术名称,,文本型,左胫骨肿块切除术,,,,,LLM提取,论文病例报告,1999-01-01,手术,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,9c1e6f62-6b1c-4aaf-9ef3-0f8d5e9c2b77,左胫骨切除标本,病理诊断,,文本型,最初诊断为纤维肉瘤；肿瘤以梭形肿瘤细胞为主，成束排列，偶见核分裂，CAM5.2和EMA阴性,,,,免疫组化,LLM提取,论文病例报告,1999-01-01,病理,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,d8e9f0d2-9f4b-4a2d-bc4a-2c5b1caa8e13,患者,诊断名称,,类别型,纤维肉瘤,,初始误诊,,,LLM提取,论文病例报告,1999-01-01,诊断,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,5e2d7a8a-1a6d-4c0d-9c17-1f4b7b9f3c2a,患者,家族史,,文本型,论文未提及,,,,,LLM提取,论文病例报告,1999-01-01,病史,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,3e0a1f9b-5a6d-4c8f-8d2c-9b7b0a2c4d5e,患者,诊断名称,,类别型,左胫骨恶性肿瘤伴左腹股沟淋巴结转移,,后被回顾性认为与后续胚胎瘤样病变相符,,,LLM提取,论文病例报告,2001-01-01,诊断,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,b6c8f3a1-2d4e-4f5a-a6d7-8c9e0b1a2f3c,左腹股沟淋巴结,病理诊断,,文本型,转移性纤维肉瘤,,与原切除肿瘤相似；AE1/AE3和desmin阴性，vimentin阳性,,免疫组化,LLM提取,论文病例报告,2001-01-01,病理,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,4e5f6a7b-8c9d-4e0f-9a1b-2c3d4e5f6a7b,患者,诊断名称,,类别型,转移性胚胎瘤样瘤（肺转移）,,10年后出现咳嗽、气短；右肺门/右肺门旁肿块,,,LLM提取,论文病例报告,2009-01-01,诊断,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,4e5f6a7b-8c9d-4e0f-9a1b-2c3d4e5f6a7b,患者,临床分期,,类别型,IV期,,依据远处肺转移,,,LLM提取,论文病例报告,2009-01-01,诊断,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,8b9c0d1e-2f3a-4b5c-9d6e-7f8a9b0c1d2e,胸部CT,影像所见,,文本型,右肺门旁肿块,,,,CT,LLM提取,论文病例报告,2009-01-01,影像,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,8b9c0d1e-2f3a-4b5c-9d6e-7f8a9b0c1d2e,PET扫描,影像所见,,文本型,右肺门肿块有代谢活性,,,,PET,LLM提取,论文病例报告,2009-01-01,影像,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e5f,右肺门肿块活检标本,病理诊断,,文本型,转移性胚胎瘤样瘤,,与左胫骨和左腹股沟淋巴结标本相似；骨病理学专家复核一致,,支气管镜活检,LLM提取,论文病例报告,2009-01-01,病理,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e5f,右肺门肿块活检标本,免疫组化,,文本型,CAM5.2、CK5/6、K903、BCL-2、p63、p53、vimentin阳性；S-100、HMB-45、CD34、CD31、CK7、CK20、CD99、actin、TTF-1、CD56阴性；pankeratin和c-kit局灶阳性；Ki-67约35%,,VEGF局灶阳性，EGFR弥漫阳性,,免疫组化,LLM提取,论文病例报告,2009-01-01,病理,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,f1e2d3c4-b5a6-4789-90ab-cdef12345678,患者,放疗方案,,文本型,右肺门肿块放射治疗,,总剂量7500 cGy,cGy,,LLM提取,论文病例报告,2009-01-01,病程,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,f1e2d3c4-b5a6-4789-90ab-cdef12345678,PET扫描,治疗反应,,类别型,部分缓解,,放疗后,,PET,LLM提取,论文病例报告,2009-01-01,评估,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,aa11bb22-cc33-44dd-88ee-ff0011223344,PET扫描,影像所见,,文本型,右肺门肿块进展，右上肺不张，左肺出现新小转移灶,,放疗后19个月,,PET,LLM提取,论文病例报告,2010-08-01,影像,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,d4c3b2a1-0f9e-4d8c-b7a6-5e4d3c2b1a0f,右肺门肿块活检标本,病理诊断,,文本型,持续性转移性胚胎瘤样瘤,,复查活检,,活检,LLM提取,论文病例报告,2010-08-01,病理,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,d4c3b2a1-0f9e-4d8c-b7a6-5e4d3c2b1a0f,右肺门肿块活检标本,免疫组化,,文本型,VEGF局灶阳性，EGFR弥漫阳性,,,,免疫组化,LLM提取,论文病例报告,2010-08-01,病理,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,11223344-5566-4788-99aa-bbccddeeff00,患者,化疗方案,,文本型,卡铂联合依托泊苷,,卡铂AUC 6，d1；依托泊苷100 mg/m2，d1-3；每3周1次，共9个周期,,,LLM提取,论文病例报告,2011-06-01,病程,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,11223344-5566-4788-99aa-bbccddeeff00,患者,周期数,,数值型,9,9,,周期,,LLM提取,论文病例报告,2011-06-01,病程,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,11223344-5566-4788-99aa-bbccddeeff00,PET扫描,治疗反应,,类别型,部分缓解,,2011年12月PET,,PET,LLM提取,论文病例报告,2011-12-01,评估,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,22334455-6677-4888-99aa-bbccddeeff11,PET扫描,影像所见,,文本型,右肺门肿块体积和代谢活性迅速增大/增高,,化疗后4个月，疾病进展,,PET,LLM提取,论文病例报告,2012-04-01,影像,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,33445566-7788-4999-aabb-ccddeeff1122,患者,治疗方案,,文本型,舒尼替尼,,37.5 mg口服每日1次，连用4周停2周，6周为1个周期,mg,,LLM提取,论文病例报告,2012-05-01,用药,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,33445566-7788-4999-aabb-ccddeeff1122,患者,药品名称,,类别型,舒尼替尼,,,,,LLM提取,论文病例报告,2012-05-01,用药,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,44556677-8899-4aab-bbcc-ddeeff001122,患者,不良反应名称,,类别型,疲乏,,轻度,,,LLM提取,论文病例报告,2012-05-01,不良反应,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,55667788-99aa-4bbc-ccdd-eeff00112233,患者,诊断名称,,类别型,甲状腺功能减退症,,使用舒尼替尼期间诊断,,,LLM提取,论文病例报告,2012-05-01,诊断,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,55667788-99aa-4bbc-ccdd-eeff00112233,患者,药品名称,,类别型,左甲状腺素,,用于治疗甲减,,,LLM提取,论文病例报告,2012-05-01,用药,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,66778899-aabb-4ccd-ddee-ff0011223344,PET扫描,治疗反应,,类别型,持续改善/部分缓解,,连续PET显示肺门肿块缩小、代谢活性降低,,PET,LLM提取,论文病例报告,2012-05-01,评估,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,778899aa-bbcc-4dde-eeff-001122334455,PET扫描,影像所见,,文本型,右肺门肿块代谢活性进展,,2014年9月,,PET,LLM提取,论文病例报告,2014-09-01,影像,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,8899aabb-ccdd-4eef-0011-223344556677,患者,治疗方案,,文本型,舒尼替尼剂量增加至50 mg每日1次,,原6周周期方案不变,mg,,LLM提取,论文病例报告,2014-09-01,用药,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,99aabbcc-ddee-4ff0-1122-334455667788,PET扫描,影像所见,,文本型,右肺门肿块中央坏死，无FDG摄取,,2015年2月最后一次PET,,PET,LLM提取,论文病例报告,2015-02-01,影像,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,aabbccdd-eeff-4000-1122-334455667788,患者,不良反应名称,,类别型,咯血,,随后因肺炎住院,,,LLM提取,论文病例报告,2015-05-01,不良反应,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,aabbccdd-eeff-4000-1122-334455667788,患者,诊断名称,,类别型,肺炎,,住院治疗后并发症,,,LLM提取,论文病例报告,2015-05-01,诊断,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,bbccddeeff00-4111-2233-445566778899,患者,出院状况,,类别型,死亡,,死于肺炎并发症,,,LLM提取,论文病例报告,2015-05-01,出院,v1
+b1db635c48963e4d48ff6cb68e371ebe,e31f3013da9f98ca55cd974a7bc946bb,bbccddeeff00-4111-2233-445566778899,患者,总生存期,,数值型,72,72,死亡时年龄,岁,,LLM提取,论文病例报告,2015-05-01,病程,v1

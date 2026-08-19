@@ -1,0 +1,31 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,8c8cfb8c-5c39-4b5a-9c86-1d4f0d8f1f01,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2014-09-01,病史,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,8c8cfb8c-5c39-4b5a-9c86-1d4f0d8f1f01,患者,年龄,,数值型,51岁,51,,岁,,LLM提取,论文病例报告,2014-09-01,病史,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,c7f3bf8b-9d54-44f7-a34d-7f0f35a9b0a1,患者,诊断名称,,类别型,甲状腺滤泡癌,,,,,LLM提取,论文病例报告,2014-09-01,诊断,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,c7f3bf8b-9d54-44f7-a34d-7f0f35a9b0a1,患者,临床分期,,类别型,T3bN0M0,,,,,LLM提取,论文病例报告,2014-09-01,诊断,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f1b7e9f5-2f49-4a5a-9f8e-8f4f9f2f2c11,患者,手术名称,,类别型,全甲状腺切除术,,,,,LLM提取,论文病例报告,2014-09-01,手术,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f1b7e9f5-2f49-4a5a-9f8e-8f4f9f2f2c11,患者,手术结果,,文本型,术后接受碘-131治疗,,,,,LLM提取,论文病例报告,2014-09-01,手术,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f1b7e9f5-2f49-4a5a-9f8e-8f4f9f2f2c11,患者,放射性碘治疗,,类别型,碘-131,,,,,LLM提取,论文病例报告,2014-09-01,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,6a7d9baf-3a5e-4d64-9f31-6e5d8b2d0e21,患者,影像所见,,文本型,左锁骨上肿块，逐渐增大,,,,超声,LLM提取,论文病例报告,2018-01-01,影像,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,6a7d9baf-3a5e-4d64-9f31-6e5d8b2d0e21,患者,治疗方案,,类别型,口服中药治疗,,,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,6a7d9baf-3a5e-4d64-9f31-6e5d8b2d0e21,患者,治疗反应,,类别型,疾病进展,,,,,LLM提取,论文病例报告,2018-01-01,病程,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,2ce4c0a4-1f11-4f2a-a6f0-4e4a2a4a7a31,患者,主诉,,文本型,左前胸巨大肿块,,,,,LLM提取,论文病例报告,2021-12-01,病史,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,2ce4c0a4-1f11-4f2a-a6f0-4e4a2a4a7a31,患者,现病史,,文本型,2018年起左锁骨上肿块逐渐增大，2021年12月来我院就诊,,,,,LLM提取,论文病例报告,2021-12-01,病史,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,4d9e8f0b-4a5d-4c5c-8cde-6d6b2a1d0f41,患者,影像所见,,文本型,甲状腺床及前上纵隔不规则巨大肿块，最大截面约13.4×3.9 cm，侵犯邻近结构；双侧颈部、纵隔、腋窝、内乳区及胸壁肌间隙多发淋巴结转移，约2.9×2.7 cm；双肺及胸膜多发转移；多发骨转移,,,,CT平扫+增强,LLM提取,论文病例报告,2021-12-29,影像,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,4d9e8f0b-4a5d-4c5c-8cde-6d6b2a1d0f41,患者,影像结论,,文本型,甲状腺癌多发全身转移,,,,CT平扫+增强,LLM提取,论文病例报告,2021-12-29,影像,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,7f5f3b2a-8c6f-4d2a-a8c9-7d4c4d2e1a51,患者,病理诊断,,文本型,甲状腺滤泡癌，广泛浸润型,,,,术后病理复核,LLM提取,论文病例报告,2021-12-29,病理,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,7f5f3b2a-8c6f-4d2a-a8c9-7d4c4d2e1a51,患者,基因检测,,文本型,ATM、NRAS、PMS1、SMARCA4、TERT突变；TMB 8.22 Mut/Mb；MSS,,,,QIAamp DNA FFPE Tissue Kit；KAPA Hyper Prep Kit；AMPure XP beads；Qubit,LLM提取,论文病例报告,2021-12-29,病理,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,c3d2e8f9-5b4c-4a6d-9f1a-8c5d6e7f8a61,患者,会诊意见,,文本型,核医学科及胸外科会诊后，不建议再次行碘-131及手术等局部治疗,,肿瘤负荷大，出血风险高,,,LLM提取,论文病例报告,2022-01-13,会诊,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f71,患者,治疗方案,,类别型,仑伐替尼口服靶向治疗,,,,,LLM提取,论文病例报告,2022-01-13,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f71,仑伐替尼,药品名称,,类别型,甲磺酸仑伐替尼,,,,,LLM提取,论文病例报告,2022-01-13,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f71,仑伐替尼,剂量,,数值型,20 mg qd,20,起始6周,mg,,LLM提取,论文病例报告,2022-01-13,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7a81,患者,不良反应名称,,类别型,高血压,,III级,,,LLM提取,论文病例报告,2022-01-13,不良反应,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7a81,患者,不良反应名称,,类别型,手足综合征,,I级,,,LLM提取,论文病例报告,2022-01-13,不良反应,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,d4e5f6a7-b8c9-4e1f-9a2b-3c4d5e6f7a81,仑伐替尼,剂量,,数值型,16 mg qd,16,调整后12周,mg,,LLM提取,论文病例报告,2022-02-24,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,d4e5f6a7-b8c9-4e1f-9a2b-3c4d5e6f7a81,仑伐替尼,剂量,,数值型,12 mg qd,12,因高血压耐受性差，调整至此剂量并持续至随访,mg,,LLM提取,论文病例报告,2022-03-01,用药,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f2e3d4c5-b6a7-4d8e-9f1a-2c3b4a5d6e91,患者,疗效评估,,类别型,部分缓解,,3个月后,,体检及CT复查,LLM提取,论文病例报告,2022-03-01,评估,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f2e3d4c5-b6a7-4d8e-9f1a-2c3b4a5d6e91,患者,查体,,文本型,左前胸肿瘤明显缩小，局部形成6-7 cm溃疡创面,,,,,LLM提取,论文病例报告,2022-03-01,评估,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f2e3d4c5-b6a7-4d8e-9f1a-2c3b4a5d6e91,患者,影像所见,,文本型,甲状腺床及前上纵隔病灶较前缩小；多发增大淋巴结较前缩小；双肺多发转移灶较前缩小,,,,CT复查,LLM提取,论文病例报告,2022-03-01,影像,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,f2e3d4c5-b6a7-4d8e-9f1a-2c3b4a5d6e91,患者,影像结论,,文本型,部分缓解,,,,CT复查,LLM提取,论文病例报告,2022-03-01,评估,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,随访结果,,文本型,肿瘤体表病灶显著缩小，生活质量明显改善，仍处于缓解中,,末次随访2024年4月,,,LLM提取,论文病例报告,2024-04-01,病程,v1
+6f48b37b1cd73e213b7d923ab16b3f66,e3a50f3366e79fd229f9ece28bde2ca7,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,疗效评估,,类别型,缓解,,治疗11个月后,,,LLM提取,论文病例报告,2024-04-01,评估,v1

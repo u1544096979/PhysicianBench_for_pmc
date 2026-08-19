@@ -1,0 +1,44 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,2b4c0d0d-4d4e-4f7d-bc79-7c5d2bf2d8de,患者,既往史,,文本型,自幼有NF1体征（咖啡牛奶斑、皮肤神经纤维瘤）；右眼角膜移植史；20年前同侧眼视网膜脱离致失明；高血压（控制良好）、糖尿病前期、血脂异常、恶性贫血,,,,,LLM提取,论文病例报告,,病史,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,2b4c0d0d-4d4e-4f7d-bc79-7c5d2bf2d8de,患者,家族史,,文本型,父系家族中多名成员有咖啡牛奶斑/疑似NF1表现；祖母死于不明癌症；母亲48岁死于不明原因；父亲85岁去世；1个兄弟有原发性胆汁性肝硬化；1个侄子28岁因癫痫并发症死亡；存在近亲婚配,,,,,LLM提取,论文病例报告,,病史,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,c4df4b6a-bd43-4f86-bf9a-6eb9f6f1e2c2,患者,入院年龄,,数值型,54岁,54,,岁,,LLM提取,论文病例报告,2023-01-01,入院,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,c4df4b6a-bd43-4f86-bf9a-6eb9f6f1e2c2,患者,入院科室,,类别型,研究机构/住院,,2023年收治,,,LLM提取,论文病例报告,2023-01-01,入院,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,f2d6c3c6-6f15-4dd3-b7a0-1af6c6f0e5fb,患者,主诉,,文本型,短期记忆障碍、全头痛、新发癫痫发作,,入院前4个月出现,,,LLM提取,论文病例报告,2022-09-01,病史,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,a9d52f5f-4cb4-4c9d-9b45-3c7c6d9f0ab1,患者,查体,,文本型,左眼偏盲（该眼为保留视力眼）；颈部、胸部及四肢多发神经纤维瘤，腰部最大约3×5 cm；多发咖啡牛奶斑，Crowe征阳性；BMI 30.2 kg/m²；生命体征正常,,,,体格检查/视野检查,LLM提取,论文病例报告,2023-01-01,评估,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,TSH,,数值型,1.79,1.79,参考范围0.3-5,mIU/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,FT4,,数值型,0.9,0.9,参考范围0.63-1.34,ng/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,LH,,数值型,3.55,3.55,参考范围1.24-8.62,mIU/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,FSH,,数值型,9.33,9.33,参考范围1.27-19.26,mIU/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Testosterone,,数值型,3.81,3.81,参考范围1.50-6.84,ng/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,IGF-1,,数值型,39.32,39.32,参考范围64-214,ng/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Prolactin,,数值型,12.19,12.19,参考范围3.9-29.5,ng/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Cortisol,,数值型,13.85,13.85,参考范围6.7-22.6,µg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,ACTH,,数值型,9,9,参考范围10-50,pg/ml,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Chloride,,数值型,106.7,106.7,参考范围98-107,mmol/l,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Calcium,,数值型,9.16,9.16,参考范围8.6-10.3,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Phosphorus,,数值型,2.89,2.89,参考范围2.5-5,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Magnesium,,数值型,2.04,2.04,参考范围1.9-2.7,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Glucose,,数值型,94,94,参考范围70-99,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,BUN,,数值型,17.3,17.3,参考范围7-25,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Urea,,数值型,37.02,37.02,参考范围15-53.5,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Creatinine,,数值型,0.77,0.77,参考范围0.7-1.3,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Cholesterol,,数值型,114,114,参考范围<200,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,LDL,,数值型,60,60,参考范围<130,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,HDL,,数值型,19,19,参考范围40-60,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,d7a7e7df-2c2c-4f89-b5a2-3b7b5c6a7a84,血液,Triglycerides,,数值型,339,339,参考范围<150,mg/dl,,LLM提取,论文病例报告,2023-02-17,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,7b5b7f7f-2e7f-4b7d-8e2f-4f5f6d8f9a01,患者,影像所见,,文本型,脑影像和18F-FDG PET/CT发现垂体占位；垂体MRI示左侧旁正中区16×15×11 mm病灶，接触海绵窦壁，均匀强化，垂体柄向左移位，视交叉向前上方受压移位；PET/CT见病灶均匀摄取，SUVmax 20.8,,偶然发现,,MRI；18F-FDG PET/CT,LLM提取,论文病例报告,2022-12-01,影像,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,7b5b7f7f-2e7f-4b7d-8e2f-4f5f6d8f9a01,患者,影像结论,,文本型,临床非功能性PitNET（垂体神经内分泌肿瘤）,,,,,LLM提取,论文病例报告,2022-12-01,影像,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,3c6a0d5c-4f0a-4e7f-9f22-8d4d2f0b5d32,PitNET,手术名称,,类别型,经鼻内镜经蝶窦手术,,无并发症,,,LLM提取,论文病例报告,2023-01-15,手术,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,3c6a0d5c-4f0a-4e7f-9f22-8d4d2f0b5d32,PitNET,手术结果,,文本型,切除肿瘤16 mm病灶，术后视觉明显改善，但仍有肿瘤残留,,,,,LLM提取,论文病例报告,2023-01-15,手术,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,6d3a7b8c-2c1f-4e5f-8f0a-9c1d2e3f4a55,肿瘤标本,病理诊断,,文本型,PitNET；0/2 mm²有丝分裂；PAS染色弱、低颗粒；网状纤维染色示腺泡模式局灶性丧失；染色体角蛋白阳性；ACTH、GH、PRL阴性；Ki-67<1%,,免疫组化其他垂体激素和转录因子不可用,,病理及免疫组化,LLM提取,论文病例报告,2023-01-15,病理,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,9d1f2c3b-4a5e-4b6f-8c7d-9e0f1a2b3c4d,血液,基因检测结果,,类别型,NF1致病性胚系变异阳性,,"NM_001042492.3:c.147C>A, p.Y49*；杂合",,NGS panel（Invitae Common Hereditary Cancers Panel）,LLM提取,论文病例报告,2023-01-20,诊断,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,9d1f2c3b-4a5e-4b6f-8c7d-9e0f1a2b3c4d,患者,诊断名称,,类别型,神经纤维瘤病1型（NF1）,,,,,LLM提取,论文病例报告,2023-01-20,诊断,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,9d1f2c3b-4a5e-4b6f-8c7d-9e0f1a2b3c4d,患者,诊断名称,,类别型,临床非功能性PitNET,,NF-PitNET,,,LLM提取,论文病例报告,2023-01-20,诊断,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,肿瘤标本,分子标志物,,类别型,NF1杂合保留；未检出PitNET相关基因其他致病/可疑致病变异,,血和肿瘤DNA/cDNA Sanger及NGS检测,,Sanger；NGS；qPCR,LLM提取,论文病例报告,2023-01-25,诊断,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,肿瘤标本,免疫组化,,文本型,NF1免疫染色呈斑驳分布的中-强颗粒样胞质阳性；与以往PitNET病例相似,,,,免疫组化,LLM提取,论文病例报告,2023-01-25,病理,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,血液,NF1表达,,类别型,较NF1野生型对照显著升高,,qPCR；P=0.0099,,qPCR,LLM提取,论文病例报告,2023-01-25,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,PitNET,NF1表达,,类别型,较NF1野生型对照显著升高,,fresh frozen PitNET；P=0.0040,,qPCR,LLM提取,论文病例报告,2023-01-25,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,PitNET,NF1表达,,类别型,与散发性促肾上腺皮质激素瘤相比无显著增加,,P>0.9999,,qPCR,LLM提取,论文病例报告,2023-01-25,检验,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,5e6f7a8b-9c0d-4e1f-8a2b-3c4d5e6f7a8b,患者,用药,,类别型,左乙拉西坦,,目前治疗癫痫,,,LLM提取,论文病例报告,2023-02-01,用药,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,5e6f7a8b-9c0d-4e1f-8a2b-3c4d5e6f7a8b,患者,用药,,类别型,丙戊酸,,目前治疗癫痫,,,LLM提取,论文病例报告,2023-02-01,用药,v1
+66ea051dc0c1d591d932a904fd6f9f63,b121ccac99f449de29cef11ec0b5ed41_1,8a7b6c5d-4e3f-2a1b-0c9d-8e7f6a5b4c3d,患者,随访结果,,文本型,术后视力明显改善；激素水平未变化；存在肿瘤残余；目前继续随访并接受抗癫痫治疗,,,,,LLM提取,论文病例报告,2023-09-18,病程,v1

@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,8b6f4f6a-1a5a-4c84-8a7a-4a7c8d1c0c01,患者,主诉,,文本型,夜尿、乏力、恶心,,,,,LLM提取,论文病例报告,2014-08,病史,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,8b6f4f6a-1a5a-4c84-8a7a-4a7c8d1c0c01,患者,现病史,,文本型,因肌酐约600 mmol/L就诊当地医院，后诊断为终末期慢性肾衰竭，自2014年8月起规律腹膜透析；10个月前出现进行性面部畸形、咀嚼和吞咽困难及一定程度呼吸困难；伴身高缩短10 cm、行走时严重腿痛；贫血因厌食导致营养不良而难以纠正,,,,,LLM提取,论文病例报告,2014-08,病史,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,8b6f4f6a-1a5a-4c84-8a7a-4a7c8d1c0c01,患者,既往史,,文本型,否认既往病史,,,,,LLM提取,论文病例报告,2014-08,病史,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,8b6f4f6a-1a5a-4c84-8a7a-4a7c8d1c0c01,患者,个人史,,文本型,规律腹膜透析；期间常规服用醋酸钙片、维生素D滴剂、重组人血小板生成素注射液、骨化三醇软胶囊,,,,,LLM提取,论文病例报告,2014-08,病史,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,8b6f4f6a-1a5a-4c84-8a7a-4a7c8d1c0c01,患者,家族史,,文本型,无慢性肾衰竭或甲状旁腺功能亢进家族史,,,,,LLM提取,论文病例报告,2014-08,病史,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,9a9b8d6d-2c86-4d1e-9bf1-2a4b9b1e7f10,患者,入院年龄,,数值型,24,24,,岁,,LLM提取,论文病例报告,2018-11-29,入院,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,9a9b8d6d-2c86-4d1e-9bf1-2a4b9b1e7f10,患者,入院途径,,类别型,本地医院转诊/就诊后入院,,,,,LLM提取,论文病例报告,2018-11-29,入院,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,a2f1a3f1-4c36-4a6e-9c55-6b9d0d6f0d11,患者,查体,,文本型,面部不对称畸形、身材变矮；颌面部骨性增生、上下颌前突、鼻背塌陷、鼻孔外翻、颧骨塌陷；伴咀嚼和吞咽困难及一定程度呼吸困难；无视力、听力障碍或心理问题,,,,,LLM提取,论文病例报告,2018-11-29,评估,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,c3f4d5e6-7a8b-49c0-b1d2-e3f4a5b6c7d8,血清,甲状旁腺激素,,数值型,2815.07,2815.07,正常范围: 9.09-90.09 pg/mL,pg/mL,,LLM提取,论文病例报告,2018-11-30,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,c3f4d5e6-7a8b-49c0-b1d2-e3f4a5b6c7d8,血清,总钙,,数值型,2.31,2.31,正常范围: 2.25-2.75 mmol/L,mmol/L,,LLM提取,论文病例报告,2018-11-30,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,c3f4d5e6-7a8b-49c0-b1d2-e3f4a5b6c7d8,血清,磷,,数值型,2.08,2.08,正常范围: 0.97-1.61 mmol/L,mmol/L,,LLM提取,论文病例报告,2018-11-30,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,c3f4d5e6-7a8b-49c0-b1d2-e3f4a5b6c7d8,血清,血红蛋白,,数值型,48,48,正常范围: 120-160 g/L,g/L,,LLM提取,论文病例报告,2018-11-30,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,c3f4d5e6-7a8b-49c0-b1d2-e3f4a5b6c7d8,血清,碱性磷酸酶,,数值型,2350,2350,正常范围: 50-135 U/L,U/L,,LLM提取,论文病例报告,2018-11-30,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,d4e5f6a7-8b9c-4d0e-a1b2-c3d4e5f6a7b8,颅骨/颌面部CT,影像所见,,文本型,颅骨板增厚，颌骨、上颌骨及颅骨弥漫性混合性硬化和溶骨性改变；颌面骨明显过度生长，骨髓腔密度增高并呈磨玻璃样；提示骨异常和肿胀,,,,非增强CT,LLM提取,论文病例报告,2018-11-30,影像,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,d4e5f6a7-8b9c-4d0e-a1b2-c3d4e5f6a7b8,颈部CT,影像所见,,文本型,甲状腺右侧见良性结节，双侧甲状腺后方可见双侧软组织信号,,,,CT,LLM提取,论文病例报告,2018-11-30,影像,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,d4e5f6a7-8b9c-4d0e-a1b2-c3d4e5f6a7b8,盆腔CT,影像所见,,文本型,未见异常结构,,,,CT,LLM提取,论文病例报告,2018-11-30,影像,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,e5f6a7b8-9c0d-4e1f-a2b3-c4d5e6f7a8b9,骨显像,影像所见,,文本型,99mTc-MDP骨显像示双侧顶骨、上颌骨和下颌骨摄取增高，右侧下颌骨最强,,,,99m Tc-methylene diphosphonate,LLM提取,论文病例报告,2018-12-04,影像,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f6a7b8c9-0d1e-4f2a-b3c4-d5e6f7a8b9c0,99mTc-sestamibi SPECT/CT,影像所见,,文本型,仅见左侧1个增生的甲状旁腺腺体,,,,单光子发射计算机断层显像/CT,LLM提取,论文病例报告,2018-12-10,影像,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f6a7b8c9-0d1e-4f2a-b3c4-d5e6f7a8b9c0,超声,影像所见,,文本型,甲状腺左侧0.5 cm结节（TI-RADS 4A），右侧1.0 cm结节（TI-RADS 3），左侧疑似甲状旁腺腺瘤,,,,超声,LLM提取,论文病例报告,2018-12-10,影像,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f6f7a8b9-c0d1-4e2f-a3b4-c5d6e7f8a9b0,左甲状腺,穿刺细胞学,,文本型,乳头状甲状腺癌,,,,细针穿刺,LLM提取,论文病例报告,2018-12-10,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f6f7a8b9-c0d1-4e2f-a3b4-c5d6e7f8a9b0,右甲状腺,穿刺细胞学,,文本型,甲状腺腺瘤,,,,细针穿刺,LLM提取,论文病例报告,2018-12-10,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1,患者,诊断名称,,类别型,Sagliker syndrome,,,,,LLM提取,论文病例报告,2018-12-10,诊断,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1,患者,诊断名称,,类别型,继发性甲状旁腺功能亢进,,,,,LLM提取,论文病例报告,2018-12-10,诊断,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1,患者,诊断名称,,类别型,慢性肾衰竭,,,,,LLM提取,论文病例报告,2018-12-10,诊断,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1,患者,诊断名称,,类别型,左侧乳头状甲状腺癌,,,,,LLM提取,论文病例报告,2018-12-10,诊断,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1,患者,诊断名称,,类别型,右侧甲状腺腺瘤,,,,,LLM提取,论文病例报告,2018-12-10,诊断,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,g8b9c0d1-e2f3-4a5b-b6c7-d8e9f0a1b2c3,患者,治疗方案,,类别型,先恢复药物治疗，随后行全甲状旁腺切除术+甲状腺切除术+中央区淋巴结清扫术,,,,,LLM提取,论文病例报告,2018-12-13,病程,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,h9c0d1e2-f3a4-5b6c-c7d8-e9f0a1b2c3d4,手术,手术名称,,类别型,全甲状旁腺切除术,,,,,LLM提取,论文病例报告,2018-12-13,手术,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,h9c0d1e2-f3a4-5b6c-c7d8-e9f0a1b2c3d4,手术,手术名称,,类别型,甲状腺切除术,,,,,LLM提取,论文病例报告,2018-12-13,手术,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,h9c0d1e2-f3a4-5b6c-c7d8-e9f0a1b2c3d4,手术,手术名称,,类别型,中央区淋巴结清扫术,,,,,LLM提取,论文病例报告,2018-12-13,手术,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,h9c0d1e2-f3a4-5b6c-c7d8-e9f0a1b2c3d4,手术,手术结果,,文本型,术中通过胶体金免疫检测确认4个甲状旁腺腺体,,,,,LLM提取,论文病例报告,2018-12-13,手术,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,h9c0d1e2-f3a4-5b6c-c7d8-e9f0a1b2c3d4,手术,出血量,,数值型,,,,,,LLM提取,论文病例报告,2018-12-13,手术,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,i0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5f,标本,病理诊断,,文本型,左甲状腺乳头状癌，0.5 cm,,,,石蜡病理,LLM提取,论文病例报告,2018-12-13,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,i0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5f,标本,病理诊断,,文本型,右甲状腺腺瘤，1.0 cm,,,,石蜡病理,LLM提取,论文病例报告,2018-12-13,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,i0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5f,标本,病理诊断,,文本型,4个甲状旁腺增生，符合继发性甲状旁腺功能亢进,,,,石蜡病理,LLM提取,论文病例报告,2018-12-13,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,i0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5f,标本,病理诊断,,文本型,中央区淋巴结未见转移,,,,石蜡病理,LLM提取,论文病例报告,2018-12-13,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,i0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5f,下颌骨活检标本,病理诊断,,文本型,骨改变与继发性甲状旁腺功能亢进一致,,,,活检,LLM提取,论文病例报告,2018-12-13,病理,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,j1e2f3a4-b5c6-7d8e-9f0a-1b2c3d4e5f6a,血清,甲状旁腺激素,,数值型,41.1,41.1,术后第1天,pg/mL,,LLM提取,论文病例报告,2018-12-14,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,k2f3a4b5-c6d7-8e9f-0a1b-2c3d4e5f6a7b,血清,甲状旁腺激素,,数值型,2.55,2.55,术后第5天,pg/mL,,LLM提取,论文病例报告,2018-12-18,检验,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,l3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8c,静脉,治疗方案,,类别型,静脉补充葡萄糖酸钙以维持离子钙稳定,,,,,LLM提取,论文病例报告,2018-12-13,用药,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,l3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8c,口服,治疗方案,,类别型,数天内逐渐改为口服碳酸钙,,,,,LLM提取,论文病例报告,2018-12-13,用药,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,m4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d,患者,出院状况,,类别型,病情稳定,,,,,LLM提取,论文病例报告,2019-01-02,出院,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,m4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d,患者,出院诊断,,类别型,Sagliker syndrome、继发性甲状旁腺功能亢进、慢性肾衰竭、左乳头状甲状腺癌、右甲状腺腺瘤,,,,,LLM提取,论文病例报告,2019-01-02,出院,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,m4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d,患者,住院天数,,数值型,,,,天,,LLM提取,论文病例报告,2019-01-02,出院,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,m4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d,患者,出院医嘱,,文本型,需长期随访监测复发及生活质量；因经济原因仅接受在线随访,,,,,LLM提取,论文病例报告,2019-01-02,出院,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,n5c6d7e8-f9a0-1b2c-3d4e-5f6a7b8c9d0e,患者,随访结果,,文本型,术后4个月自述上下颌前突减轻；未完成计划的SPECT/CT检查；因经济原因仅在线随访,,,,,LLM提取,论文病例报告,2019-04-15,病程,v1
+9c1f7f4f50914275d9b8e53ace10e3ed,7dc8a085fdaca9d362ed2033abd1df1a,n5c6d7e8-f9a0-1b2c-3d4e-5f6a7b8c9d0e,血清,甲状旁腺激素,,数值型,131.01,131.01,术后4个月,pg/mL,,LLM提取,论文病例报告,2019-04-15,检验,v1

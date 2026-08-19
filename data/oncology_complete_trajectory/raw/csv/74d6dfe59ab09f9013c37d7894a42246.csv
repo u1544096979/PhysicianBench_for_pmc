@@ -1,0 +1,25 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,7f5f8c4a-0d90-4a8b-8db5-4b4b2f5c7b7d,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2008-05-01,病史,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,7f5f8c4a-0d90-4a8b-8db5-4b4b2f5c7b7d,患者,年龄,,数值型,34,34,,岁,,LLM提取,论文病例报告,2008-05-01,病史,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,7f5f8c4a-0d90-4a8b-8db5-4b4b2f5c7b7d,患者,主诉,,文本型,左下颈部肿块，约1个月,,,,,LLM提取,论文病例报告,2008-05-01,病史,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,入院科室,,类别型,耳鼻喉头颈科,,,,,LLM提取,论文病例报告,2008-06-01,入院,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,入院途径,,类别型,门诊转诊/红旗转诊,,,,,LLM提取,论文病例报告,2008-06-01,入院,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,病程,,文本型,左侧颈部下段/后颈三角区发现肿块，约4周后就诊,,,,,LLM提取,论文病例报告,2008-06-01,病程,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,体温,,文本型,无发热,,,,,LLM提取,论文病例报告,2008-06-01,评估,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,查体,,文本型,左后颈三角区可触及约2cm无痛、橡皮样淋巴结，周围尚有数个较小淋巴结；口腔轻度智齿冠周炎；无咽部或头颈皮肤病灶；未触及腋窝或腹股沟淋巴结,,,,,LLM提取,论文病例报告,2008-06-01,评估,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,既往史,,文本型,无特殊既往史，整体健康状况良好,,,,,LLM提取,论文病例报告,2008-06-01,病史,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,吸烟史,,类别型,不吸烟,,,,,LLM提取,论文病例报告,2008-06-01,病史,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,d9d8f6e7-0f7b-4f15-9d2f-0a8f3d8d6f34,患者,伴随症状,,文本型,否认体重下降、瘙痒、盗汗及其他不适,,,,,LLM提取,论文病例报告,2008-06-01,病史,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,c3c4ef56-5e0f-4b0e-9e1d-4d4e2d9cdd11,全血细胞计数,血红蛋白,,数值型,12.9,12.9,,g/dl,,LLM提取,论文病例报告,2008-06-01,检验,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,c3c4ef56-5e0f-4b0e-9e1d-4d4e2d9cdd11,全血细胞计数,白细胞计数,,数值型,4.1,4.1,,×10^9/L,,LLM提取,论文病例报告,2008-06-01,检验,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,c3c4ef56-5e0f-4b0e-9e1d-4d4e2d9cdd11,全血细胞计数,白细胞分类,,类别型,正常,,,,,LLM提取,论文病例报告,2008-06-01,检验,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,c3c4ef56-5e0f-4b0e-9e1d-4d4e2d9cdd11,全血细胞计数,红细胞沉降率,,数值型,12,12,,mm/hr,,LLM提取,论文病例报告,2008-06-01,检验,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,a9d2d3eb-07d8-4e23-8d4e-4a8f8b3b7f22,患者,临床诊断,,类别型,疑似淋巴瘤,,红旗转诊原因,,,LLM提取,论文病例报告,2008-06-06,诊断,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,f0a0ed8d-5c36-4a4f-8f47-3ddf8c1c2a93,左后颈三角区淋巴结,手术名称,,类别型,淋巴结切除活检,,,,,LLM提取,论文病例报告,2008-06-09,手术,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,f0a0ed8d-5c36-4a4f-8f47-3ddf8c1c2a93,左后颈三角区淋巴结,手术结果,,文本型,切除1枚约2cm、质脆的肿大淋巴结并送病理,,,,,LLM提取,论文病例报告,2008-06-09,手术,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,b5b6a1e7-9b34-4b47-9b6a-0e6f2f8fdc21,淋巴结病理,病理诊断,,文本型,坏死性淋巴结炎，符合Kikuchi-Fugimoto病,,广泛组织细胞性坏死性淋巴结炎,,组织病理学,LLM提取,论文病例报告,2008-06-09,病理,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,b5b6a1e7-9b34-4b47-9b6a-0e6f2f8fdc21,淋巴结病理,标本部位,,类别型,左颈后区Level V淋巴结,,,,,LLM提取,论文病例报告,2008-06-09,病理,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,b5b6a1e7-9b34-4b47-9b6a-0e6f2f8fdc21,淋巴结病理,病理所见,,文本型,广泛地理样坏死，周围为较宽的组织细胞及活化淋巴样细胞区；可见大量凋亡碎片被组织细胞吞噬；无中性粒细胞浸润、多核巨细胞或肉芽肿性炎症；副皮质区增生，散在组织细胞多，反应性淋巴滤泡少,,,,光镜,LLM提取,论文病例报告,2008-06-09,病理,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,1a2c3d4e-5f60-4a71-8d2e-9f0a1b2c3d4e,患者,自身抗体检查,,文本型,ANA及其他自身抗体阴性,,用于排除SLE,,,LLM提取,论文病例报告,2008-06-09,检验,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,6f7a8b9c-0d1e-4f2a-8b3c-9d0e1f2a3b4c,患者,诊断名称,,类别型,Kikuchi-Fugimoto病,,组织病理学确诊,,,LLM提取,论文病例报告,2008-06-09,诊断,v1
+74d6dfe59ab09f9013c37d7894a42246,d8aa29a8abbd3e1abf88189c9aabe936,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6e,患者,随访结果,,文本型,随访6个月，患者自发、平稳恢复,,,,,LLM提取,论文病例报告,2008-12-09,病程,v1

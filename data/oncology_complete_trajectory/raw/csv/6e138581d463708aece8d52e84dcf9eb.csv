@@ -1,0 +1,39 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0d5d2f34-4e47-4d9b-9d5f-3e0d0b2d7f3f,患者,年龄,,数值型,49,49,,岁,,LLM提取,论文病例报告,,病史,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0d5d2f34-4e47-4d9b-9d5f-3e0d0b2d7f3f,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,病史,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0d5d2f34-4e47-4d9b-9d5f-3e0d0b2d7f3f,患者,种族/民族,,文本型,Hispanic,,,,,LLM提取,论文病例报告,,病史,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,b4b7fa57-5d9f-4d4c-9e9d-4d0f0b8e9f7a,患者,主诉,,文本型,全身乏力、四肢疼痛,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,1b9f0b9d-4a1c-4fd6-8f6b-6d5a9e7b8c2d,骨髓穿刺活检,病理诊断,,文本型,浆细胞增多（plasmacytosis）,,10%,,骨髓活检,LLM提取,论文病例报告,2011-09-08,病理,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,1b9f0b9d-4a1c-4fd6-8f6b-6d5a9e7b8c2d,患者,诊断名称,,类别型,smoldering multiple myeloma,,IgA predominance,,,LLM提取,论文病例报告,2011-09-08,诊断,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,9f4d8a7e-2c8c-4d7f-8d3c-6a2b1c9e7f11,患者,主诉,,文本型,右上腹痛、恶心无呕吐、全身乏力,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c2b7e1d4-5f6a-4e8b-9a1c-7d8e9f0a1b2c,血液生化,天冬氨酸转氨酶(AST),,数值型,升高,,,,,LLM提取,论文病例报告,2017-01-01,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c2b7e1d4-5f6a-4e8b-9a1c-7d8e9f0a1b2c,血液生化,丙氨酸转氨酶(ALT),,数值型,升高,,,,,LLM提取,论文病例报告,2017-01-01,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c2b7e1d4-5f6a-4e8b-9a1c-7d8e9f0a1b2c,血液生化,碱性磷酸酶,,数值型,升高,,,,,LLM提取,论文病例报告,2017-01-01,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,7e0f9a2b-1c3d-4e5f-8a6b-9c0d1e2f3a4b,腹部CT,影像所见,,文本型,腹水、脾大、胃静脉曲张,,,,CT,LLM提取,论文病例报告,2017-01-01,影像,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,8a1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,肝活检,病理诊断,,文本型,提示原发性胆汁性胆管炎（PBC）,,III期纤维化，提示自身免疫性肝炎（AIH）,,肝活检,LLM提取,论文病例报告,2017-03-03,病理,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,a1b2c3d4-e5f6-4789-abcd-ef0123456789,患者,诊断名称,,类别型,primary biliary cholangitis,,possible overlap with autoimmune hepatitis,,,LLM提取,论文病例报告,2017-03-03,诊断,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,患者,治疗方案,,文本型,泼尼松15 mg qd、Myfortic、硫唑嘌呤50 mg bid、环孢素50 mg bid,,逐步调整的药物方案,,,LLM提取,论文病例报告,2017-03-03,用药,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,e1f2a3b4-c5d6-4789-9abc-def012345678,患者,手术名称,,类别型,腹腔镜胆囊切除术,,因胆囊胆固醇沉着症，无胆石症,,,LLM提取,论文病例报告,2017-06-01,手术,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,f0e1d2c3-b4a5-4678-9abc-def123456789,患者,药品名称,,类别型,ursodiol,,长期,,,LLM提取,论文病例报告,2017-06-01,用药,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,f0e1d2c3-b4a5-4678-9abc-def123456789,患者,剂量,,数值型,1200,1200,,mg,,LLM提取,论文病例报告,2017-06-01,用药,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,f0e1d2c3-b4a5-4678-9abc-def123456789,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2017-06-01,用药,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,a9b8c7d6-e5f4-4321-abcd-1234567890ab,腹部CT,影像所见,,文本型,远端小肠梗阻，考虑术后粘连所致,,,,CT,LLM提取,论文病例报告,2017-06-01,影像,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,b1c2d3e4-f5a6-4789-9abc-def234567890,患者,住院/病程事件,,文本型,因疑似小肠梗阻住院，腹部CT示因粘连导致SBO，多个远端回肠袢扩张,,,,,LLM提取,论文病例报告,2019-03-23,病程,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,b1c2d3e4-f5a6-4789-9abc-def234567890,腹部CT,影像所见,,文本型,小肠梗阻，因粘连所致，多个远端回肠袢扩张,,,,CT,LLM提取,论文病例报告,2019-03-23,影像,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,b1c2d3e4-f5a6-4789-9abc-def234567890,患者,处理措施,,文本型,置入鼻胃管并给予支持治疗,,次日出院,,,LLM提取,论文病例报告,2019-03-23,病程,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c3d4e5f6-a7b8-49c0-9def-0123456789ab,FISH分析,检验项目,,类别型,染色体13单体,,,,FISH,LLM提取,论文病例报告,2020-07-08,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c3d4e5f6-a7b8-49c0-9def-0123456789ab,血清蛋白电泳,单克隆IgA kappa,,数值型,1.9,1.9,,g/dL,SPEP,LLM提取,论文病例报告,2020-07-08,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c3d4e5f6-a7b8-49c0-9def-0123456789ab,血清蛋白电泳,kappa轻链,,数值型,10.5,10.5,,mg/dL,SPEP,LLM提取,论文病例报告,2020-07-08,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c3d4e5f6-a7b8-49c0-9def-0123456789ab,血清蛋白电泳,lambda轻链,,数值型,2.51,2.51,,mg/dL,SPEP,LLM提取,论文病例报告,2020-07-08,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,c3d4e5f6-a7b8-49c0-9def-0123456789ab,患者,诊断名称,,类别型,smoldering multiple myeloma,,IgA predominant,,,LLM提取,论文病例报告,2020-07-08,诊断,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,d5e6f7a8-b9c0-4d1e-9fab-1234567890bc,骨髓穿刺活检,病理诊断,,文本型,浆细胞增多,,15%,,骨髓活检,LLM提取,论文病例报告,2020-09-03,病理,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,d5e6f7a8-b9c0-4d1e-9fab-1234567890bc,细胞遗传学分析,t(4;14)易位,,类别型,阳性,,高风险遗传学发现,,细胞遗传学分析,LLM提取,论文病例报告,2020-09-03,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,d5e6f7a8-b9c0-4d1e-9fab-1234567890bc,细胞遗传学分析,1q21微缺失,,类别型,阳性,,高风险遗传学发现,,细胞遗传学分析,LLM提取,论文病例报告,2020-09-03,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,患者,住院/病程事件,,文本型,因胆红素和氨升高、下肢水肿和腹围增加再次住院,29.6;110,胆红素29.6 mg/dL，氨110 µg/dL；腹水进展,,,LLM提取,论文病例报告,2022-02-07,病程,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,血液生化,胆红素,,数值型,29.6,29.6,,mg/dL,,LLM提取,论文病例报告,2022-02-07,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,血液生化,氨,,数值型,110,110,,µg/dL,,LLM提取,论文病例报告,2022-02-07,检验,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,患者,症状,,文本型,下肢水肿、腹围增加,,腹水进展,,,LLM提取,论文病例报告,2022-02-07,病程,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,5f6a7b8c-9d0e-4f1a-8b2c-3d4e5f6a7b8c,MRCP,影像所见,,文本型,大量腹水、肝硬化，提示门静脉高压,,,,MRCP,LLM提取,论文病例报告,2022-02-07,影像,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,患者,治疗方案,,文本型,双利尿剂治疗,,无缓解,,,LLM提取,论文病例报告,2022-02-07,用药,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,右下腹,手术名称,,类别型,超声引导下腹腔穿刺放液,,引流清黄色液体4600 mL,,超声引导,LLM提取,论文病例报告,2022-02-07,手术,v1
+6e138581d463708aece8d52e84dcf9eb,96dd37ccae5c2ef88354783a35d74b0e,0aa1bb2c-3dd4-4ee5-8ff6-112233445566,患者,处理措施,,文本型,讨论临终关怀,,病情明显恶化,,,LLM提取,论文病例报告,2022-02-07,其他,v1

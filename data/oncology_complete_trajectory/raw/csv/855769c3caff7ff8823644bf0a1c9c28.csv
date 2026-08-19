@@ -1,0 +1,27 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,2f2f0b0f-0c6d-4e2d-9b7f-6f0b5c7a6a11,患者,个人史,,文本型,1992年因右肾癌行右肾切除术,,,,,LLM提取,论文病例报告,1992-01-01,病史,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,2f2f0b0f-0c6d-4e2d-9b7f-6f0b5c7a6a11,患者,诊断名称,,类别型,右肾透明细胞肾细胞癌,,"pT2,Nx,M0；中分化；Fuhrman分级G2",,,LLM提取,论文病例报告,1992-01-01,诊断,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,c5c1ff1f-0b0a-4f63-8b8e-5a1e1c0d3f22,患者,入院年龄,,数值型,70,70,,岁,,LLM提取,论文病例报告,2008-02-01,入院,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,c5c1ff1f-0b0a-4f63-8b8e-5a1e1c0d3f22,患者,入院途径,,类别型,急诊住院,,,,,LLM提取,论文病例报告,2008-02-01,入院,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,c5c1ff1f-0b0a-4f63-8b8e-5a1e1c0d3f22,患者,主诉,,文本型,急性肾衰竭,,,,,LLM提取,论文病例报告,2008-02-01,入院,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,7bb4b8d7-5d57-4d9c-8e6b-3f5ed7f2d2c3,患者,病程,,文本型,入院期间发现腹部复发性病灶及肾功能不全，未接受肿瘤学治疗，仅在左输尿管支架置入后肾功能略有改善后出院随访,,,,,LLM提取,论文病例报告,2008-02-01,病程,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,9f1a0f2d-1f8e-4c44-9b8d-4b2e2c7d9f44,腹部CT,影像所见,,文本型,双侧肾上腺及部分腹腔淋巴结见继发病灶，提示输尿管积水；并见肿瘤复发/转移表现,,,,CT,LLM提取,论文病例报告,2008-02-01,影像,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,9f1a0f2d-1f8e-4c44-9b8d-4b2e2c7d9f44,腹部CT,影像结论,,文本型,腹部转移/复发病变，累及肾上腺及腹腔淋巴结,,,,CT,LLM提取,论文病例报告,2008-02-01,影像,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,b0cb7f6b-6f8e-4f53-9a2b-5e7c4d9a1a55,胸部CT,影像所见,,文本型,见肺部继发受累,,,,CT,LLM提取,论文病例报告,2008-02-01,影像,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,b0cb7f6b-6f8e-4f53-9a2b-5e7c4d9a1a55,胸部CT,影像结论,,文本型,肺转移,,,,CT,LLM提取,论文病例报告,2008-02-01,影像,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,d1b8f3a2-8b9b-4f6c-9a1d-3c7e5f2d6a66,患者,用药,,类别型,左输尿管支架置入,,肾功能仅轻度改善后出院随访,,,LLM提取,论文病例报告,2008-02-01,手术,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,e2c9a4d3-9c7b-4f1a-8e2d-4d6f7a8b9c77,患者,病程,,文本型,出院后仅随访，未接受系统治疗，因肾功能不全,,,,,LLM提取,论文病例报告,2008-02-01,病程,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,f3d7a5c1-1e2f-4a6b-9c3d-5e7f8a9b0d88,患者,主诉,,文本型,口腔内出现增大的病灶,,起自左半舌后部,,,LLM提取,论文病例报告,2008-07-01,病史,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,f3d7a5c1-1e2f-4a6b-9c3d-5e7f8a9b0d88,患者,病史,,文本型,出现左半舌后部口腔内病灶，富血供、鲜红色，最大直径约3 cm，部分表面溃疡,,,,,LLM提取,论文病例报告,2008-07-01,病史,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,a4d5e6f7-2a3b-4c5d-9e6f-7a8b9c0d1e99,头颈CT,影像所见,,文本型,左半舌游离缘见卵圆形病灶，显著强化；未累及口底结构；未见颈部淋巴结或骨受累；右侧颈静脉后区见约25 mm卵圆形继发病灶，累及第二颈椎齿状突下部及椎体/椎弓,,,,CT,LLM提取,论文病例报告,2008-07-01,影像,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,a4d5e6f7-2a3b-4c5d-9e6f-7a8b9c0d1e99,头颈CT,影像结论,,文本型,左半舌转移灶；右侧颈椎旁/寰枢椎区转移灶,,,,CT,LLM提取,论文病例报告,2008-07-01,影像,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,b5e6f7a8-3b4c-5d6e-9f7a-8b9c0d1e2f10,左舌病灶,病理诊断,,文本型,与透明细胞肾细胞癌转移相符,,活检,,病理+免疫组化,LLM提取,论文病例报告,2008-07-01,病理,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,b5e6f7a8-3b4c-5d6e-9f7a-8b9c0d1e2f10,左舌病灶,免疫组化,,文本型,CD10局灶性阳性,,,,免疫组化,LLM提取,论文病例报告,2008-07-01,病理,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,c6f7a8b9-4c5d-6e7f-8a9b-0d1e2f3a4b11,患者,病程,,文本型,数周内舌肿物明显、进行性增大，反复局部出血，并出现吞咽困难和吞咽痛,,,,,LLM提取,论文病例报告,2008-08-01,病程,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,d7a8b9c0-5d6e-7f8a-9b0c-1e2f3a4b5c12,患者,手术名称,,类别型,气管切开术,,并行胃造口/胃肠造口,,,LLM提取,论文病例报告,2008-08-01,手术,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,d7a8b9c0-5d6e-7f8a-9b0c-1e2f3a4b5c12,患者,手术结果,,文本型,因肿物进展和症状加重行气道/营养支持处理,,,,,LLM提取,论文病例报告,2008-08-01,手术,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,e8b9c0d1-6e7f-8a9b-0c1d-2f3a4b5c6d13,右侧颈椎病灶,会诊,,文本型,神经外科会诊认为不可手术，仅建议佩戴颏托颈圈,,,,,LLM提取,论文病例报告,2008-08-01,会诊,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,f9c0d1e2-7f8a-9b0c-1d2e-3a4b5c6d7e14,患者,手术名称,,类别型,左舌动脉栓塞术,,经股动脉导管置入并注入Embosphere微球，至局部血流完全阻断,,,LLM提取,论文病例报告,2008-08-31,手术,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,f9c0d1e2-7f8a-9b0c-1d2e-3a4b5c6d7e14,患者,手术结果,,文本型,成功，旨在减少出血及控制疼痛,,,,,LLM提取,论文病例报告,2008-08-31,手术,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,1a2b3c4d-5e6f-7890-1a2b-3c4d5e6f7a15,患者,病程,,文本型,出现急性呼吸衰竭，系肺转移进展所致,,,,,LLM提取,论文病例报告,2008-09-01,病程,v1
+855769c3caff7ff8823644bf0a1c9c28,cda905e7b90fc4cab1f858beac836d6d_1,1a2b3c4d-5e6f-7890-1a2b-3c4d5e6f7a15,患者,出院状况,,类别型,死亡,,2008年9月,,,LLM提取,论文病例报告,2008-09-01,出院,v1

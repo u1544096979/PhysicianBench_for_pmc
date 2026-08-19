@@ -1,0 +1,42 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,3a1a0e3b-0e0f-4bb2-9b1c-2b8c9f6a4b11,患者,入院年龄,,数值型,62,62,,岁,,LLM提取,论文病例报告,2021-05-22,入院,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,3a1a0e3b-0e0f-4bb2-9b1c-2b8c9f6a4b11,患者,主诉,,文本型,咳嗽、咳痰3个月,,,,,LLM提取,论文病例报告,2021-05-22,病史,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,3a1a0e3b-0e0f-4bb2-9b1c-2b8c9f6a4b11,患者,既往史,,文本型,40年吸烟史，慢性支气管炎,,,,,LLM提取,论文病例报告,2021-05-22,病史,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,3a1a0e3b-0e0f-4bb2-9b1c-2b8c9f6a4b11,患者,家族史,,文本型,妻子和子女HBsAg阳性,,,,,LLM提取,论文病例报告,2021-05-22,病史,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,8fbf2a08-73db-4f7c-88f5-6f4d9b4b2c21,患者,影像所见,,文本型,胸部CT示右下肺见5.0×4.5×4.0 cm不均匀密度影，右上、右下叶基底段支气管闭塞，纵隔及右肺门多发肿大淋巴结，肾上腺、骨显像及脑MRI未见转移,,,,胸部增强CT、脑增强MRI、全身骨扫描、支气管镜,LLM提取,论文病例报告,2021-05-22,影像,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,8fbf2a08-73db-4f7c-88f5-6f4d9b4b2c21,患者,影像结论,,文本型,右肺小细胞肺癌，ES期；伴纵隔及右肺门淋巴结肿大，未见明确远处转移,,,,,LLM提取,论文病例报告,2021-05-22,影像,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,d2d6c7cf-65d8-4ad3-9eb8-0d3bbbfba7d2,肺活检标本,病理诊断,,文本型,小细胞肺癌,,"免疫组化：Syn(+), CgA(-), CD56(+), Ki-67(90%+)",,经支气管肺活检,LLM提取,论文病例报告,2021-05-22,病理,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,d2d6c7cf-65d8-4ad3-9eb8-0d3bbbfba7d2,肺活检标本,标本部位,,类别型,右肺,,,,,LLM提取,论文病例报告,2021-05-22,病理,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,d2d6c7cf-65d8-4ad3-9eb8-0d3bbbfba7d2,肺活检标本,免疫组化,,文本型,"Syn(+), CgA(-), CD56(+), Ki-67(90%+)",,,,,LLM提取,论文病例报告,2021-05-22,病理,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,e1f0f54b-39f4-4c54-bb7a-5f3c9a6e5a13,患者,诊断名称,,类别型,右肺局限期小细胞肺癌（LS-SCLC）,,,,,LLM提取,论文病例报告,2021-05-22,诊断,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,e1f0f54b-39f4-4c54-bb7a-5f3c9a6e5a13,患者,临床分期,,类别型,ES,,,,,LLM提取,论文病例报告,2021-05-22,诊断,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,f45cc0cc-9c7e-4a6d-8f2d-8b7d2a9f8a44,患者,手术名称,,类别型,经支气管肺活检,,,,,LLM提取,论文病例报告,2021-05-22,手术,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,治疗方案,,类别型,依托泊苷+卡铂+阿替利珠单抗,,一线治疗,,,LLM提取,论文病例报告,2021-07-04,病程,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,药品名称,,类别型,依托泊苷,,day1-day3,,,LLM提取,论文病例报告,2021-07-04,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,剂量,,数值型,150,150,,mg,,LLM提取,论文病例报告,2021-07-04,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,药品名称,,类别型,卡铂,,day1,,,LLM提取,论文病例报告,2021-07-04,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,剂量,,数值型,500,500,,mg,,LLM提取,论文病例报告,2021-07-04,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,药品名称,,类别型,阿替利珠单抗,,day1,,,LLM提取,论文病例报告,2021-07-04,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5f1b5f4c-4d73-4f80-9f78-5e5d6b7c8d55,患者,剂量,,数值型,1200,1200,,mg,,LLM提取,论文病例报告,2021-07-04,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,7a7d9a3f-3f77-4a57-9a1e-1c8e0c2f9f66,患者,疗效评估,,类别型,疾病稳定（SD）,,4个周期后,,胸部CT,LLM提取,论文病例报告,2021-08-18,评估,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,9a5d7a1e-6a99-4cdd-9b3d-2b3d5e4f0a77,血液,HBsAb,,数值型,447.26,447.26,,mIU/ml,,LLM提取,论文病例报告,2021-08-18,检验,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,9a5d7a1e-6a99-4cdd-9b3d-2b3d5e4f0a77,血液,HBsAg,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-08-18,检验,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,c8a5f4d1-0f0a-4c7d-9a2a-7e8c9d1f0a88,患者,放疗,,文本型,胸部放疗60Gy/30f,,因咳嗽及放射性肺炎中断，后予甲泼尼龙治疗约1周症状缓解,,,LLM提取,论文病例报告,2021-08-19,病程,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,c8a5f4d1-0f0a-4c7d-9a2a-7e8c9d1f0a88,患者,不良反应名称,,类别型,放射性肺炎,,,,,LLM提取,论文病例报告,2021-08-19,不良反应,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,c8a5f4d1-0f0a-4c7d-9a2a-7e8c9d1f0a88,患者,处理措施,,文本型,甲泼尼龙治疗约1周,,,,,LLM提取,论文病例报告,2021-08-19,不良反应,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,1c1e8f2d-7a7f-4c3e-9d2a-8b7c6d5e4f99,患者,影像所见,,文本型,颅脑MRI示左额叶及右小脑半球转移灶，分别约1.1×0.8 cm和0.5×0.5 cm；右肺结节增大至2.1×1.9 cm，右肺叶散在片状高密度影,,,,颅脑MRI、胸部CT,LLM提取,论文病例报告,2022-01-07,影像,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,1c1e8f2d-7a7f-4c3e-9d2a-8b7c6d5e4f99,患者,影像结论,,文本型,疾病进展（PD），出现脑转移并伴原发肺病灶增大,,,,,LLM提取,论文病例报告,2022-01-07,影像,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,1c1e8f2d-7a7f-4c3e-9d2a-8b7c6d5e4f99,患者,诊断名称,,类别型,脑转移,,左额叶、右小脑半球,,,LLM提取,论文病例报告,2022-01-07,诊断,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,2d3c4b5a-6e7f-4890-9abc-def012345678,患者,治疗方案,,类别型,伽马刀治疗,,2次,,,LLM提取,论文病例报告,2022-02-22,手术,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,2d3c4b5a-6e7f-4890-9abc-def012345678,患者,疗效评估,,类别型,疾病进展（PD）,,,,脑MRI,LLM提取,论文病例报告,2022-02-22,评估,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,4e5f6071-8293-4a5b-9c1d-2e3f4a5b6c7d,患者,治疗方案,,类别型,阿替利珠单抗+安罗替尼,,联合治疗,,,LLM提取,论文病例报告,2022-03-02,病程,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,4e5f6071-8293-4a5b-9c1d-2e3f4a5b6c7d,患者,药品名称,,类别型,安罗替尼,,8mg d1-d14/q3w,,,LLM提取,论文病例报告,2022-03-02,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,4e5f6071-8293-4a5b-9c1d-2e3f4a5b6c7d,患者,剂量,,数值型,8,8,,mg,,LLM提取,论文病例报告,2022-03-02,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,4e5f6071-8293-4a5b-9c1d-2e3f4a5b6c7d,患者,药品名称,,类别型,阿替利珠单抗,,1200mg d1/q4w,,,LLM提取,论文病例报告,2022-03-02,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,4e5f6071-8293-4a5b-9c1d-2e3f4a5b6c7d,患者,剂量,,数值型,1200,1200,,mg,,LLM提取,论文病例报告,2022-03-02,用药,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,5a6b7c8d-9e0f-4123-a456-7890abcdef12,患者,疗效评估,,类别型,部分缓解（PR）,,,,脑MRI,LLM提取,论文病例报告,2022-04-01,评估,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,6b7c8d9e-0f12-4a34-b567-890abcdef123,血液,HBsAb,,数值型,>10000,10000,,mIU/ml,,LLM提取,论文病例报告,2022-04-28,检验,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,6b7c8d9e-0f12-4a34-b567-890abcdef123,血液,HBsAg,,类别型,阴性,,,,,LLM提取,论文病例报告,2022-04-28,检验,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,7c8d9e0f-1a23-4b45-c678-901bcdef2345,患者,疗效评估,,类别型,部分缓解（PR）,,,,胸部CT,LLM提取,论文病例报告,2022-09-29,评估,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,8d9e0f1a-2b34-4c56-d789-012cdef34567,血液,HBsAb,,数值型,>10000,10000,,mIU/ml,,LLM提取,论文病例报告,2022-09-28,检验,v1
+4fa6dcc69b46788284fedeb63a6d932c,1b0d9746d12b5a9a11a121abaf83c3be_1,8d9e0f1a-2b34-4c56-d789-012cdef34567,血液,HBsAg,,类别型,阴性,,,,,LLM提取,论文病例报告,2022-09-28,检验,v1

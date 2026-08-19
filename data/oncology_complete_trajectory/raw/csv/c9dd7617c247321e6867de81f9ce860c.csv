@@ -1,0 +1,28 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,3d5f9c75-3e1a-4b66-9c3d-7f3c98f1f7c1,患者,入院年龄,,数值型,70,70,,岁,,LLM提取,论文病例报告,2008-01-01,入院,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,3d5f9c75-3e1a-4b66-9c3d-7f3c98f1f7c1,患者,入院途径,,类别型,转诊,,由全科医生转诊至区域医院,,,LLM提取,论文病例报告,2008-01-01,入院,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,3d5f9c75-3e1a-4b66-9c3d-7f3c98f1f7c1,患者,主诉,,文本型,阻塞性黄疸、右上腹腹痛,,,,,LLM提取,论文病例报告,2008-01-01,病史,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,3d5f9c75-3e1a-4b66-9c3d-7f3c98f1f7c1,患者,既往史,,文本型,高血压、血脂异常、膝关节病,,,,,LLM提取,论文病例报告,2008-01-01,病史,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,b9b5df4e-bd64-4f3f-8d0b-0a2a74e7c8c2,腹部CT,影像所见,,文本型,胰头及钩突部见2.0×1.7 cm肿块，累及/贴近门静脉,,,,增强腹部CT,LLM提取,论文病例报告,2008-08-01,影像,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,b9b5df4e-bd64-4f3f-8d0b-0a2a74e7c8c2,腹部CT,影像结论,,文本型,胰腺恶性肿瘤可疑,,,,增强腹部CT,LLM提取,论文病例报告,2008-08-01,影像,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,c0f0d8c6-83a4-4d0a-9f5c-2ddf5a7bf4b3,患者,肿瘤标志物CA19-9,,数值型,12.3,12.3,,kU/L,,LLM提取,论文病例报告,2008-08-01,检验,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,8c1ed1da-7f6f-4d2b-8f85-6c3d2a44af10,患者,手术名称,,类别型,胰十二指肠切除术+门静脉切除,,,,,LLM提取,论文病例报告,2008-09-01,手术,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,8c1ed1da-7f6f-4d2b-8f85-6c3d2a44af10,患者,手术结果,,文本型,完成R0切除,,,,,LLM提取,论文病例报告,2008-09-01,手术,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,9a5b8a2d-8b9f-4ef6-8d5b-2f7f0f6e2d21,病理,病理诊断,,文本型,导管腺癌,,"pT3, pN1(1/31), G3, V1, R0",,组织病理学,LLM提取,论文病例报告,2008-09-01,病理,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,a3c2d1b7-1d5e-4f5e-9b0a-5f3b1e9d0e11,患者,治疗方案,,类别型,吉西他滨辅助化疗,,共6个周期,,,LLM提取,论文病例报告,2008-10-01,用药,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,a3c2d1b7-1d5e-4f5e-9b0a-5f3b1e9d0e11,吉西他滨,药品名称,,类别型,吉西他滨,,,,,LLM提取,论文病例报告,2008-10-01,用药,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,a3c2d1b7-1d5e-4f5e-9b0a-5f3b1e9d0e11,吉西他滨,用药周期,,文本型,2008-10至2009-04，共6周期,,,,,LLM提取,论文病例报告,2008-10-01,用药,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,d7d8c0a4-5f8b-4a77-bd9d-1d1e8b3f8d22,患者,随访结果,,文本型,术后前4.5年每3个月临床随访、每6个月CA19-9和影像学复查，之后改为年度随访；无明确复发证据,,,,,LLM提取,论文病例报告,2008-09-01,病程,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,0a8b7f2e-2c9e-4e4d-9f3f-2b5e7d9c1a33,患者,病程记录,,文本型,自2012年起反复发热，CT未见复发证据,,,,,LLM提取,论文病例报告,2012-01-01,病程,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,5b2d1f9a-0d5a-4f2e-8c8e-6a1b3d4e5f66,PET-CT,影像所见,,文本型,胰腺残端体部见单发可疑病灶，距胰肠吻合口约3 cm，无远处转移或腹膜播散证据,,,,PET-CT,LLM提取,论文病例报告,2015-08-01,影像,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,5b2d1f9a-0d5a-4f2e-8c8e-6a1b3d4e5f66,PET-CT,影像结论,,文本型,胰腺残端局灶性复发/新发肿瘤可疑,,,,PET-CT,LLM提取,论文病例报告,2015-08-01,影像,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,6c7d8e9f-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,肿瘤标志物CA19-9,,数值型,5.0,5.0,,kU/L,,LLM提取,论文病例报告,2015-08-01,检验,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,7d8e9f01-2a3b-4c5d-9e0f-1a2b3c4d5e6f,患者,手术名称,,类别型,残胰肿瘤再次切除术,,术中决定保留胰尾，行新胰肠吻合及Roux-en-Y重建,,,LLM提取,论文病例报告,2015-09-01,手术,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,7d8e9f01-2a3b-4c5d-9e0f-1a2b3c4d5e6f,患者,手术结果,,文本型,成功切除肿瘤，达到R0切除,,保留胰尾,,,LLM提取,论文病例报告,2015-09-01,手术,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,8f9a0b1c-2d3e-4f5a-8b9c-0d1e2f3a4b5c,病理,病理诊断,,文本型,导管腺癌,,"pT3, pN0(0/6), G2, R0",,组织病理学,LLM提取,论文病例报告,2015-09-01,病理,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,9fa0b1c2-d3e4-4f5a-8b9c-1d2e3f4a5b6c,患者,治疗方案,,类别型,吉西他滨辅助化疗,,共6个周期,,,LLM提取,论文病例报告,2015-11-01,用药,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,9fa0b1c2-d3e4-4f5a-8b9c-1d2e3f4a5b6c,吉西他滨,药品名称,,类别型,吉西他滨,,,,,LLM提取,论文病例报告,2015-11-01,用药,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,9fa0b1c2-d3e4-4f5a-8b9c-1d2e3f4a5b6c,吉西他滨,用药周期,,文本型,2015-11至2016-05，共6周期,,,,,LLM提取,论文病例报告,2015-11-01,用药,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,ab1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d4e,患者,病程记录,,文本型,术后进入规律随访，临床随访和CA19-9每3个月一次，CT每半年一次,,,,,LLM提取,论文病例报告,2016-05-01,病程,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,肿瘤标志物CA19-9,,数值型,2.7,2.7,正常范围内,kU/L,,LLM提取,论文病例报告,2016-11-01,检验,v1
+c9dd7617c247321e6867de81f9ce860c,dabe4d88abcfdaff72024ed94cf7ffed_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,CT,影像结论,,文本型,未见复发或转移证据,,,,CT,LLM提取,论文病例报告,2016-11-01,影像,v1

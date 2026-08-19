@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,4d8d1a4d-1f9a-4a43-8b1d-3b0f1f8f3c11,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2014-01-01,入院,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,4d8d1a4d-1f9a-4a43-8b1d-3b0f1f8f3c11,患者,入院年龄,,数值型,8,8,,岁,,LLM提取,论文病例报告,2022-01-01,入院,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,9e0c2d3f-5c8f-4d17-9a73-6c7f0b2a9f20,患者,既往史,,文本型,Cri du Chat综合征；出生后即有严重发育迟缓和全身性肌张力低下；无重大畸形,,,,,LLM提取,论文病例报告,2014-01-01,病史,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,9e0c2d3f-5c8f-4d17-9a73-6c7f0b2a9f20,患者,家族史,,文本型,父母健康且无血缘关系；父亲45岁，母亲36岁,,,,,LLM提取,论文病例报告,2014-01-01,病史,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,c5f5f31b-8d8d-4c2a-8f0b-2f3b2a8e1b12,患者,诊断名称,,类别型,Cri du Chat综合征,,细胞遗传学确诊,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,d2c1f6a8-8f7f-4b16-b5b1-2b9d3d0d4b13,外周血,染色体核型,,类别型,"46,XY,(del5)(p15.33–p13.3)",,Routine cytogenetic analysis,,细胞遗传学分析,LLM提取,论文病例报告,2014-01-01,诊断,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,1d35f0ad-5b4b-4d0c-9f6b-3d2e8c1f4a14,患者,体重,,数值型,10.9,10.9,3.5岁时,kg,,LLM提取,论文病例报告,2017-07-01,评估,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,1d35f0ad-5b4b-4d0c-9f6b-3d2e8c1f4a14,患者,身长,,数值型,94,94,3.5岁时,cm,,LLM提取,论文病例报告,2017-07-01,评估,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,1d35f0ad-5b4b-4d0c-9f6b-3d2e8c1f4a14,患者,头围,,数值型,43.5,43.5,3.5岁时,cm,,LLM提取,论文病例报告,2017-07-01,评估,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,1d35f0ad-5b4b-4d0c-9f6b-3d2e8c1f4a14,患者,查体,,文本型,全身性肌张力低下，不能独走，可独坐，靠拖行移动；不能说词语,,3.5岁时,,,LLM提取,论文病例报告,2017-07-01,评估,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,7a9f2c2f-7c8a-4a66-8f9d-9a4d8b8e1c15,患者,脑电图结果,,文本型,正常模式,,1月龄,,EEG,LLM提取,论文病例报告,2014-02-01,检验,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,8c7f6a12-3a2b-4f5c-9b2d-0a1c2d3e4f16,患者,主诉,,文本型,左耳下区肿胀,,8岁时发现,,,LLM提取,论文病例报告,2022-01-01,病史,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,2f8c7e1a-9b4d-4c9a-8c1e-3d4f5a6b7c17,左腮腺,影像所见,,文本型,低回声椭圆形病灶，未见血流信号，大小约16×11 mm,,超声检查,mm,超声,LLM提取,论文病例报告,2022-01-01,影像,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,2f8c7e1a-9b4d-4c9a-8c1e-3d4f5a6b7c17,左腮腺,影像结论,,类别型,提示肿瘤性病变,,后续针吸活检证实为多形性腺瘤,,超声,LLM提取,论文病例报告,2022-01-01,影像,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,6f4e7d1a-2b3c-4d5e-8f9a-1a2b3c4d5e18,左腮腺肿物,病理诊断,,文本型,多形性腺瘤,,针吸活检,,细针穿刺活检,LLM提取,论文病例报告,2022-01-01,病理,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,a1b2c3d4-e5f6-4789-abcd-ef0123456789,患者,身高,,数值型,116,116,手术时，约第5百分位,cm,,LLM提取,论文病例报告,2023-03-01,评估,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,a1b2c3d4-e5f6-4789-abcd-ef0123456789,患者,体重,,数值型,20,20,手术时，约第5百分位,kg,,LLM提取,论文病例报告,2023-03-01,评估,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,b2c3d4e5-f6a7-4890-bcde-f1234567890a,左腮腺肿物,手术名称,,类别型,腮腺多形性腺瘤切除术,,面部提升式切口、腺体浅叶暴露、包膜外剥离,,,LLM提取,论文病例报告,2023-03-01,手术,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,b2c3d4e5-f6a7-4890-bcde-f1234567890a,左腮腺肿物,手术结果,,文本型,肿物完整切除，保留腮腺完整性及面神经分支,,术中电刺激确认神经分支保留,,,LLM提取,论文病例报告,2023-03-01,手术,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,b2c3d4e5-f6a7-4890-bcde-f1234567890a,左腮腺肿物,出血量,,数值型,,,文中未报告,,,LLM提取,论文病例报告,2023-03-01,手术,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,d4e5f6a7-b8c9-4d01-acde-f2345678901b,手术标本,病理诊断,,文本型,多形性腺瘤,,组织学典型,,组织病理学检查,LLM提取,论文病例报告,2023-03-01,病理,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,d4e5f6a7-b8c9-4d01-acde-f2345678901b,手术标本,病理所见,,文本型,界限清楚的增生，软骨黏液样间质为主，导管双层上皮成分少，无异型性和有丝分裂活性,,可见组织细胞聚集及鳞状化生灶,,组织病理学检查,LLM提取,论文病例报告,2023-03-01,病理,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,e5f6a7b8-c9d0-4e12-bcde-f3456789012c,外周血,染色体分析,,类别型,"46,XY,(del5)(p15.33–p13.3)",,血淋巴细胞,,细胞遗传学分析,LLM提取,论文病例报告,2023-01-01,检验,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,e5f6a7b8-c9d0-4e12-bcde-f3456789012c,肿瘤组织,染色体分析,,类别型,8q21.3-23.3缺失、7p15.2重复、10q11.22缺失、14q21.3缺失,,同时存在已知5p缺失；异常均为新发；8q缺失仅见于肿瘤组织；7p15.2重复涉及SKAP2部分外显子,,array CGH,LLM提取,论文病例报告,2023-01-01,检验,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,f6a7b8c9-d0e1-4f23-cdef-4567890123d4,患者,基因检测结果,,文本型,未发现明确提示SGPA发病的单基因致病变异,,WES三联体分析,,全外显子测序,LLM提取,论文病例报告,2023-01-01,检验,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,f6a7b8c9-d0e1-4f23-cdef-4567890123d4,患者,变异,,文本型,AHRR、CDH10、MAGI3、TTC38、G2E3、MAPK1等基因存在罕见变异,,其中MAPK1为in-frame deletion；AHRR为可能良性错义变异；CDH10为内含子变异,,WES并经Sanger测序验证,LLM提取,论文病例报告,2023-01-01,检验,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,01234567-89ab-4cde-f012-3456789abcde,患者,术后情况,,文本型,无并发症，面神经功能完好，切口隐蔽,,术后恢复良好,,,LLM提取,论文病例报告,2023-03-01,病程,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,12345678-9abc-4def-0123-456789abcdef,患者,复发情况,,类别型,未见复发,,术后12个月，临床及超声复查均阴性,,临床检查+超声,LLM提取,论文病例报告,2024-03-01,病程,v1
+b7db14baff3513d8c8402a1a5bfdba4d,91da393d0b26e01ad55141dcbffd8f0f,12345678-9abc-4def-0123-456789abcdef,患者,随访结果,,文本型,术后12个月无复发，面神经功能保留良好,,,,,LLM提取,论文病例报告,2024-03-01,病程,v1

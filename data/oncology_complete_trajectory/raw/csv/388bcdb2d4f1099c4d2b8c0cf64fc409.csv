@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,3c5bbf4f-3c5f-4b4d-a4e8-6f1e1f2ad8c1,患者,入院年龄,,数值型,39,39,,岁,,LLM提取,论文病例报告,2012-01-01,入院,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,7c0e7c4d-2b2a-4f9e-9a6c-5b7f3a5f7c2a,患者,主诉,,文本型,非诱发性咯血,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,9e2a6f1d-0d8d-4f89-9a5c-2a7d6f1c9c11,患者,影像所见,,文本型,胸部CT示左上叶肿块，胰腺未见病灶,,初诊时CT,,CT,LLM提取,论文病例报告,2012-01-01,影像,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,2c9c7c1f-7f2d-4d8c-9db7-4b7d1d0f8f33,患者,手术名称,,类别型,肺切除术,,文中描述为pneumonectomy,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,6b1b6f54-4c1b-4d6d-8f7f-9c3d2f6c8a55,患者,诊断名称,,类别型,孤立性纤维瘤,,初始误诊,,,LLM提取,论文病例报告,2012-01-01,诊断,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f1a7d9e2-4b0f-4d5a-8c2d-5e9a0d1c7b66,患者,影像所见,,文本型,复查CT示主肺动脉旁小影，考虑术后改变,,1年后复查,,CT,LLM提取,论文病例报告,2013-01-01,影像,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,8d0a6b9f-7c4f-4c3a-9d8b-1f2a3b4c5d6e,患者,影像所见,,文本型,腹部CT示胰腺体部见界清肿瘤，约60mm×50mm×30mm,,胰管扩张，脾动脉轻度受压,,CT,LLM提取,论文病例报告,2017-01-01,影像,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a4d6f5c7-8e9b-4c1d-9f0a-2b3c4d5e6f70,患者,手术名称,,类别型,胰腺中段切除术,,,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a4d6f5c7-8e9b-4c1d-9f0a-2b3c4d5e6f70,患者,病理诊断,,文本型,胰腺转移性低级别纤维黏液样肉瘤（LGFMS）,,,,,LLM提取,论文病例报告,2017-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,5c7d8e9f-0a1b-4c2d-9e3f-4a5b6c7d8e9f,患者,诊断名称,,类别型,低级别纤维黏液样肉瘤,,胰腺转移,,,LLM提取,论文病例报告,2017-01-01,诊断,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c2d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,胰腺肿瘤标本,MUC4,,类别型,阳性,,强阳性,,免疫组化,LLM提取,论文病例报告,2017-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c2d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,胰腺肿瘤标本,Ki-67,,数值型,5%+,5,,%,免疫组化,LLM提取,论文病例报告,2017-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c2d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,胰腺肿瘤标本,p53,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2017-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,d3e4f5a6-b7c8-4d9e-8f01-2a3b4c5d6e7f,胰腺肿瘤标本,FUS重排,,类别型,阳性,,FISH示>30%肿瘤细胞分离信号,,FISH,LLM提取,论文病例报告,2017-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f4a5b6c7-d8e9-4f0a-8b1c-2d3e4f5a6b7c,患者,影像所见,,文本型,CT示左上叶及纵隔肿块，约70mm×56mm×53mm，压迫左肺动脉,,,,CT,LLM提取,论文病例报告,2020-01-01,影像,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,e5b6c7d8-e9f0-4a1b-8c2d-3e4f5a6b7c8d,患者,治疗方案,,类别型,安罗替尼,,治疗1.5个月后因反复感染停用,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f6c7d8e9-f0a1-4b2c-9d3e-4f5a6b7c8d9e,患者,影像所见,,文本型,胸部CT示左胸腔占位性肿块增大，并有胸腔积液和心包积液,,,,CT,LLM提取,论文病例报告,2022-01-01,影像,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f6c7d8e9-f0a1-4b2c-9d3e-4f5a6b7c8d9e,患者,影像所见,,文本型,双肺及右侧小脑半球见多发异常信号，考虑多发脑转移,,2023年5月,,CT,LLM提取,论文病例报告,2023-05-01,影像,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a7d8e9f0-1a2b-4c3d-9e4f-5a6b7c8d9e0f,患者,手术名称,,类别型,支气管镜下活检,,同期行左主支气管支架置入,,,LLM提取,论文病例报告,2022-01-01,手术,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a7d8e9f0-1a2b-4c3d-9e4f-5a6b7c8d9e0f,左肺上叶/纵隔肿块标本,病理诊断,,文本型,复发的低级别纤维黏液样肉瘤，伴去分化改变,,,,,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a7d8e9f0-1a2b-4c3d-9e4f-5a6b7c8d9e0f,左肺上叶/纵隔肿块标本,MUC4,,类别型,阳性,,强阳性,,免疫组化,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a7d8e9f0-1a2b-4c3d-9e4f-5a6b7c8d9e0f,左肺上叶/纵隔肿块标本,Ki-67,,数值型,50%,50,,%,免疫组化,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,a7d8e9f0-1a2b-4c3d-9e4f-5a6b7c8d9e0f,左肺上叶/纵隔肿块标本,p53,,类别型,阳性,,强而弥漫表达,,免疫组化,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,b8e9f0a1-2b3c-4d5e-9f01-2a3b4c5d6e7f,左肺上叶/纵隔肿块标本,FUS重排,,类别型,阳性,,FISH示>30%肿瘤细胞分离信号,,FISH,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,b8e9f0a1-2b3c-4d5e-9f01-2a3b4c5d6e7f,左肺上叶/纵隔肿块标本,FUS::CREB3L2融合,,类别型,阳性,,FUS exon 6::CREB3L2 exon 5,,NGS/RT-PCR,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,b8e9f0a1-2b3c-4d5e-9f01-2a3b4c5d6e7f,左肺上叶/纵隔肿块标本,TP53突变,,类别型,阳性,,H193Y,,NGS,LLM提取,论文病例报告,2022-01-01,病理,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c9f0a1b2-3c4d-5e6f-9012-3b4c5d6e7f80,患者,治疗方案,,类别型,多柔比星+异环磷酰胺+信迪利单抗,,第1-2周期,,,LLM提取,论文病例报告,2022-09-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c9f0a1b2-3c4d-5e6f-9012-3b4c5d6e7f80,患者,药品名称,,类别型,多柔比星,,60mg d1,mg,,LLM提取,论文病例报告,2022-09-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c9f0a1b2-3c4d-5e6f-9012-3b4c5d6e7f80,患者,药品名称,,类别型,异环磷酰胺,,2g d1-d3,g,,LLM提取,论文病例报告,2022-09-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c9f0a1b2-3c4d-5e6f-9012-3b4c5d6e7f80,患者,药品名称,,类别型,信迪利单抗,,200mg d1,mg,,LLM提取,论文病例报告,2022-09-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,c9f0a1b2-3c4d-5e6f-9012-3b4c5d6e7f80,患者,不良反应名称,,类别型,骨髓抑制,,3级,,,LLM提取,论文病例报告,2022-09-01,不良反应,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,d0a1b2c3-4d5e-6f70-8123-4c5d6e7f8091,患者,治疗方案,,类别型,脂质体紫杉醇+卡铂+信迪利单抗,,第3-6周期,,,LLM提取,论文病例报告,2022-10-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,d0a1b2c3-4d5e-6f70-8123-4c5d6e7f8091,患者,疗效评估,,类别型,疾病稳定,,,,影像学评估,LLM提取,论文病例报告,2022-10-01,评估,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,e1b2c3d4-5e6f-7081-9234-5d6e7f8091a2,患者,治疗方案,,类别型,舒格利单抗+贝伐珠单抗,,第7-10周期,,,LLM提取,论文病例报告,2023-02-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,e1b2c3d4-5e6f-7081-9234-5d6e7f8091a2,患者,疗效评估,,类别型,疾病进展,,,,影像学评估,LLM提取,论文病例报告,2023-02-01,评估,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f2c3d4e5-6f70-8192-a345-6e7f8091a2b3,患者,不良反应名称,,类别型,恶心性心包积液,,,,,LLM提取,论文病例报告,2022-10-01,不良反应,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f2c3d4e5-6f70-8192-a345-6e7f8091a2b3,患者,处理措施,,文本型,调整治疗方案,,,,,LLM提取,论文病例报告,2022-10-01,不良反应,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f2c3d4e5-6f70-8192-a345-6e7f8091a2b3,患者,治疗方案,,类别型,舒格利单抗+贝伐珠单抗+依托泊苷,,第11-13周期,,,LLM提取,论文病例报告,2023-05-01,用药,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,f2c3d4e5-6f70-8192-a345-6e7f8091a2b3,患者,疗效评估,,类别型,疾病进展,,当前评估,,影像学评估,LLM提取,论文病例报告,2023-05-01,评估,v1
+388bcdb2d4f1099c4d2b8c0cf64fc409,4e29e89b4c31cc9fddc30f62254b6dc5_1,9f0a1b2c-3d4e-5f60-7123-4d5e6f708192,患者,诊断名称,,类别型,原发性肺低级别纤维黏液样肉瘤,,伴胰腺转移及纵隔复发去分化,,,LLM提取,论文病例报告,2023-05-01,诊断,v1

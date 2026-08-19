@@ -1,0 +1,53 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,8d2f5a18-8cb9-4e24-9f2d-8a4af3f6c0b1,患者,入院年龄,,数值型,71,71,,岁,,LLM提取,论文病例报告,2016-03-01,入院,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,8d2f5a18-8cb9-4e24-9f2d-8a4af3f6c0b1,患者,入院途径,,类别型,门诊/就诊,,,,,LLM提取,论文病例报告,2016-03-01,入院,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,1d1c9b7e-7b5a-4a2d-9f40-2a0d0ddf2f3b,患者,主诉,,文本型,排尿困难，尿流中断，夜尿增多,,,,,LLM提取,论文病例报告,2016-03-01,病史,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,1d1c9b7e-7b5a-4a2d-9f40-2a0d0ddf2f3b,患者,既往史,,文本型,全身性癫痫（苯巴比妥治疗）、Dupuytren病、憩室性肠病、Peyronie病、既往脑缺血相关弥漫性脑萎缩,,,,,LLM提取,论文病例报告,2016-03-01,病史,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,1d1c9b7e-7b5a-4a2d-9f40-2a0d0ddf2f3b,患者,家族史,,文本型,前列腺癌、乳腺癌、肺癌家族史阳性,,,,,LLM提取,论文病例报告,2016-03-01,病史,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,3a97a1f8-8fbe-4d8e-a7b0-39d8f5f8d3b2,患者,查体,,文本型,可触及多发增大的上、下膈上及膈下淋巴结,,,,,LLM提取,论文病例报告,2016-03-01,评估,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,6e4d8c0a-2f3f-4f9c-8d2c-7d7c7a5fd1aa,前列腺穿刺活检,病理诊断,,文本型,腺泡型腺癌,,Gleason 4+3，Grade group 3,,,LLM提取,论文病例报告,2016-03-01,病理,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,6e4d8c0a-2f3f-4f9c-8d2c-7d7c7a5fd1aa,前列腺穿刺活检,分化程度,,类别型,中-高分化,,Gleason 4+3,,,LLM提取,论文病例报告,2016-03-01,病理,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,0b5f0f0b-0d2d-4ef8-b0b9-7dbf2d5a4a8f,患者,诊断名称,,类别型,前列腺癌,,腺泡型腺癌,,,LLM提取,论文病例报告,2016-03-01,诊断,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,0b5f0f0b-0d2d-4ef8-b0b9-7dbf2d5a4a8f,患者,临床分期,,类别型,未分期,,骨显像阴性；CT见多发淋巴结肿大,,,LLM提取,论文病例报告,2016-03-01,诊断,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,9f1d5d2e-0d3b-4f4e-9e75-8dcb0a9b2f54,CT,影像所见,,文本型,多发增大的上、下膈上及腹股沟淋巴结；前主动脉旁和腹主动脉旁组直径更大，最大约6.5 cm,,,,CT,LLM提取,论文病例报告,2016-03-01,影像,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,9f1d5d2e-0d3b-4f4e-9e75-8dcb0a9b2f54,CT,影像结论,,文本型,异常淋巴结分布提示合并淋巴系统肿瘤可能,,,,CT,LLM提取,论文病例报告,2016-03-01,影像,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,c4d1d3a4-6d2c-4d57-a0e6-38b1e62c0f77,FDG PET,影像所见,,文本型,左腹股沟淋巴结SUVmax最高为13.0,,SUVmax 13.0,,PET-CT,LLM提取,论文病例报告,2016-03-01,影像,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,d9afc8c0-6a1d-4d8b-9c4f-4e2b6f0d3a11,左腹股沟淋巴结活检,病理诊断,,文本型,滤泡性非霍奇金淋巴瘤,,Grade 3a,,,LLM提取,论文病例报告,2016-03-01,病理,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,d9afc8c0-6a1d-4d8b-9c4f-4e2b6f0d3a11,左腹股沟淋巴结活检,分化程度,,类别型,3a级,,滤泡性淋巴瘤,,,LLM提取,论文病例报告,2016-03-01,病理,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,0d9d0c5f-6a1d-4b45-8c7d-3b2e6f4d1c20,患者,诊断名称,,类别型,滤泡性非霍奇金淋巴瘤,,Ann Arbor IVA期,,,LLM提取,论文病例报告,2016-06-01,诊断,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,0d9d0c5f-6a1d-4b45-8c7d-3b2e6f4d1c20,患者,临床分期,,类别型,IVA期,,Ann Arbor标准,,,LLM提取,论文病例报告,2016-06-01,诊断,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,0d9d0c5f-6a1d-4b45-8c7d-3b2e6f4d1c20,患者,分子标志物,,类别型,t(14;18)易位阳性,,外周血及骨髓活检，nested PCR检测,,nested PCR,LLM提取,论文病例报告,2016-06-01,诊断,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,0d9d0c5f-6a1d-4b45-8c7d-3b2e6f4d1c20,患者,病理分期,,类别型,FLIPI-2高危组,,5年PFS 18.8%,,,LLM提取,论文病例报告,2016-06-01,诊断,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e3d0c7a1-1f2b-4a9d-9b4f-2e1f0f6e3c55,前列腺MRI,影像所见,,文本型,右侧叶外周后内侧尖部及左侧叶外周后内侧/外侧区见明显异常信号，PI-RADS 4；左侧叶同区见早期包膜侵犯征象,,,,mp-MRI,LLM提取,论文病例报告,2016-04-01,影像,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e3d0c7a1-1f2b-4a9d-9b4f-2e1f0f6e3c55,前列腺MRI,影像结论,,文本型,前列腺恶性病变高度可疑,,PI-RADS 4,,mp-MRI,LLM提取,论文病例报告,2016-04-01,影像,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,7b6d9f8e-1a4e-4d7f-9c1d-2f3b5a6d7e88,患者,治疗方案,,类别型,Rituximab+CHOP,,每21天1次,,,LLM提取,论文病例报告,2016-06-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,7b6d9f8e-1a4e-4d7f-9c1d-2f3b5a6d7e88,患者,周期数,,数值型,6,6,June 2016 to October 2016,次,,LLM提取,论文病例报告,2016-06-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,7b6d9f8e-1a4e-4d7f-9c1d-2f3b5a6d7e88,患者,治疗反应,,类别型,完全缓解,,淋巴瘤,,,LLM提取,论文病例报告,2016-10-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,a7c2f9d1-6e3b-4b2c-8d1f-5a6b7c8d9e01,患者,药品名称,,类别型,filgrastim,,用于3级中性粒细胞减少,,,LLM提取,论文病例报告,2016-06-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,a7c2f9d1-6e3b-4b2c-8d1f-5a6b7c8d9e01,患者,剂量,,数值型,300,300,daily,μg,,LLM提取,论文病例报告,2016-06-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,b8d3e4f5-6a7b-4c8d-9e1f-2a3b4c5d6e77,患者,药品名称,,类别型,erythropoietin,,用于2级贫血,,,LLM提取,论文病例报告,2016-06-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,b8d3e4f5-6a7b-4c8d-9e1f-2a3b4c5d6e77,患者,剂量,,数值型,50,50,3 times per week,UI/kg,,LLM提取,论文病例报告,2016-06-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,c9e4f5a6-7b8c-4d9e-8f1a-2b3c4d5e6f88,患者,药品名称,,类别型,triptorelin,,雄激素去势治疗,,,LLM提取,论文病例报告,2016-07-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,c9e4f5a6-7b8c-4d9e-8f1a-2b3c4d5e6f88,患者,剂量,,数值型,3.75,3.75,monthly,mg,,LLM提取,论文病例报告,2016-07-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,d0f5a6b7-8c9d-4e1f-9a2b-3c4d5e6f7a99,患者,药品名称,,类别型,bicalutamide,,仅治疗第1个月,,,LLM提取,论文病例报告,2016-07-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,d0f5a6b7-8c9d-4e1f-9a2b-3c4d5e6f7a99,患者,剂量,,数值型,150,150,daily during first month,mg,,LLM提取,论文病例报告,2016-07-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e1a6b7c8-9d0e-4f1a-8b2c-3d4e5f6a7b00,患者,药品名称,,类别型,Rituximab,,维持治疗,,,LLM提取,论文病例报告,2016-10-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e1a6b7c8-9d0e-4f1a-8b2c-3d4e5f6a7b00,患者,剂量,,数值型,1400,1400,every 2 months for 2 years,mg/m2,,LLM提取,论文病例报告,2016-10-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,f2b7c8d9-0e1f-4a2b-9c3d-4e5f6a7b8c11,患者,治疗方案,,类别型,VMAT radiotherapy with SIB,,联合ADT,,,LLM提取,论文病例报告,2017-03-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,f2b7c8d9-0e1f-4a2b-9c3d-4e5f6a7b8c11,患者,治疗反应,,类别型,缓解,,前列腺癌放疗后,,,LLM提取,论文病例报告,2017-03-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,f2b7c8d9-0e1f-4a2b-9c3d-4e5f6a7b8c11,患者,周期数,,数值型,1,1,1 month,月,,LLM提取,论文病例报告,2017-03-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,a4c5d6e7-8f90-4a1b-9c2d-3e4f5a6b7c22,患者,不良反应名称,,类别型,腹泻,,轻度,,,LLM提取,论文病例报告,2017-03-01,不良反应,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,a4c5d6e7-8f90-4a1b-9c2d-3e4f5a6b7c22,患者,处理措施,,文本型,对症监测，后续出现严重腹泻后停用利妥昔单抗并调整饮食，给予美沙拉嗪和益生菌,,,,,LLM提取,论文病例报告,2017-03-01,不良反应,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d33,患者,药品名称,,类别型,triptorelin,,持续ADT,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d33,患者,剂量,,数值型,3.75,3.75,every 28 days,mg,,LLM提取,论文病例报告,2018-01-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e44,患者,不良反应名称,,类别型,慢性腹泻,,伴烧灼痛、里急后重、水样便、吸收不良,,,LLM提取,论文病例报告,2018-01-01,不良反应,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e44,患者,分级,,类别型,重度,,,,,LLM提取,论文病例报告,2018-01-01,不良反应,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e44,患者,处理措施,,文本型,停用利妥昔单抗，饮食调整，给予美沙拉嗪和益生菌,,3个月后症状完全缓解,,,LLM提取,论文病例报告,2018-01-01,不良反应,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,d3e4f5a6-b7c8-4d9e-8f1a-2b3c4d5e6f55,结肠黏膜活检,病理诊断,,文本型,溃疡性结肠炎,,上皮中度萎缩、杯状细胞减少、间质水肿/充血、慢急性炎细胞浸润、弥漫性隐窝炎,,,LLM提取,论文病例报告,2018-02-01,病理,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,d3e4f5a6-b7c8-4d9e-8f1a-2b3c4d5e6f55,结肠黏膜活检,病理所见,,文本型,上皮中度萎缩，杯状细胞减少，水肿、充血，慢急性炎性浸润，弥漫性隐窝炎,,,,,LLM提取,论文病例报告,2018-02-01,病理,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e4f5a6b7-c8d9-4e1f-9a2b-3c4d5e6f7a66,患者,药品名称,,类别型,mesalazine,,治疗腹泻/结肠炎,,,LLM提取,论文病例报告,2018-02-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e4f5a6b7-c8d9-4e1f-9a2b-3c4d5e6f7a66,患者,剂量,,数值型,800,800,3 times daily for 6 weeks,mg,,LLM提取,论文病例报告,2018-02-01,用药,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,f5a6b7c8-d9e0-4f1a-8b2c-3d4e5f6a7b77,患者,治疗方案,,类别型,饮食调整+美沙拉嗪+益生菌,,停用利妥昔单抗后,,,LLM提取,论文病例报告,2018-02-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,f5a6b7c8-d9e0-4f1a-8b2c-3d4e5f6a7b77,患者,治疗反应,,类别型,症状完全缓解,,3个月后,,,LLM提取,论文病例报告,2018-05-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e1a6b7c8-9d0e-4f1a-8b2c-3d4e5f6a7b00,患者,治疗反应,,类别型,完全缓解,,截至2018-04随访时，淋巴瘤及前列腺癌均CR,,,LLM提取,论文病例报告,2018-04-01,病程,v1
+e6a84a2913e7c6d5ffd9d0b8398f1b46,f402d857cf009194faac86cbe82e781a,e1a6b7c8-9d0e-4d1a-8b2c-3d4e5f6a7b00,患者,随访结果,,文本型,治疗结束后1年6个月，患者总体情况良好，前列腺癌和滤泡性淋巴瘤均持续完全缓解；肠道毒性减轻，大便每日2-3次，体重增加,,,,,LLM提取,论文病例报告,2018-04-01,病程,v1

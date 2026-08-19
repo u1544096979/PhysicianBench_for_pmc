@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,a3d2c7d2-1d3a-4e5a-9c0a-8f7c1a2d3b11,患者,入院科室,,类别型,本院科室,,,,,LLM提取,论文病例报告,2022-07-18,入院,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,a3d2c7d2-1d3a-4e5a-9c0a-8f7c1a2d3b11,患者,入院年龄,,数值型,57,57,,岁,,LLM提取,论文病例报告,2022-07-18,入院,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,a3d2c7d2-1d3a-4e5a-9c0a-8f7c1a2d3b11,患者,主诉,,文本型,左侧胸闷、频繁干咳、进行性端坐呼吸，4个月体重下降5 kg，约1个月前开始夜间胸闷和干咳,,,,,LLM提取,论文病例报告,2022-07-18,病史,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,b4f1a8d9-2c3e-4f5a-8b7c-1d2e3f4a5b66,患者,既往史,,文本型,既往健康史无特殊,,,,,LLM提取,论文病例报告,2022-07-18,病史,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,b4f1a8d9-2c3e-4f5a-8b7c-1d2e3f4a5b66,患者,个人史,,文本型,吸烟史：主动吸烟，约每3天1包；职业史：室内设计工作20年，长期石棉暴露，接触含高水平石棉的隔音和隔热材料，未持续佩戴口罩,,,,,LLM提取,论文病例报告,2022-07-18,病史,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,c5a2b9e0-3d4f-4a6b-9c8d-2e3f4a5b6c77,患者,体重,,数值型,73.4,73.4,,kg,,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,c5a2b9e0-3d4f-4a6b-9c8d-2e3f4a5b6c77,患者,身高,,数值型,173,173,,cm,,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,c5a2b9e0-3d4f-4a6b-9c8d-2e3f4a5b6c77,患者,血压,,文本型,102/67,,,mmHg,,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,c5a2b9e0-3d4f-4a6b-9c8d-2e3f4a5b6c77,患者,心率,,数值型,81,81,,次/分,,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,c5a2b9e0-3d4f-4a6b-9c8d-2e3f4a5b6c77,患者,呼吸频率,,数值型,24,24,,次/分,,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,c5a2b9e0-3d4f-4a6b-9c8d-2e3f4a5b6c77,患者,查体,,文本型,双下肢凹陷性水肿，心音低钝且不规则，颈静脉怒张,,,,,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,d6b3c0f1-4e5f-4a7c-8d9e-3f4a5b6c7d88,标本,白细胞计数,,数值型,16390,16390,,cells/mm3,,LLM提取,论文病例报告,2022-07-18,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,d6b3c0f1-4e5f-4a7c-8d9e-3f4a5b6c7d88,标本,BUN/肌酐比值,,文本型,31/1.16,,,,,LLM提取,论文病例报告,2022-07-18,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,d6b3c0f1-4e5f-4a7c-8d9e-3f4a5b6c7d88,标本,高敏肌钙蛋白I,,数值型,4.3,4.3,,pg/ml,,LLM提取,论文病例报告,2022-07-18,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,d6b3c0f1-4e5f-4a7c-8d9e-3f4a5b6c7d88,标本,NT-proBNP,,数值型,418.0,418.0,,pg/ml,,LLM提取,论文病例报告,2022-07-18,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,d6b3c0f1-4e5f-4a7c-8d9e-3f4a5b6c7d88,标本,癌胚抗原,,数值型,1.9,1.9,,ng/ml,,LLM提取,论文病例报告,2022-07-18,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,e7c4d1f2-5a6b-4b7c-9d0e-4f5a6b7c8d99,患者,心电图所见,,文本型,窦性心动过速，无异常T波或ST段改变,,,,心电图,LLM提取,论文病例报告,2022-07-18,评估,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,f8d5e2a3-6b7c-4c8d-9e0f-5a6b7c8d9e00,患者,影像所见,,文本型,心影增大，心包积液，胸片示左侧肋膈角变钝；CT示大量心包积液、心包增厚及双侧胸腔积液,,,,胸片、CT,LLM提取,论文病例报告,2022-07-18,影像,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,g9e6f3a4-7c8d-4d9e-8f10-6b7c8d9e0f11,患者,心包穿刺术,,文本型,实施心包穿刺引流，穿刺液为脓性血性积液,,Day 1,,,LLM提取,论文病例报告,2022-07-19,手术,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,h0f7a4b5-8d9e-4e0f-9g11-7c8d9e0f1a22,心包积液标本,细胞学检查,,文本型,可见成簇间皮细胞,,,,细胞病理,LLM提取,论文病例报告,2022-07-19,病理,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,i1a8b5c6-9e0f-4f1a-a012-8d9e0f1a2b33,患者,手术名称,,类别型,胸腔镜下心包活检,,,,,LLM提取,论文病例报告,2022-07-21,手术,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,i1a8b5c6-9e0f-4f1a-a012-8d9e0f1a2b33,患者,手术结果,,文本型,获取活检标本用于病理及免疫组化检查,,,,,LLM提取,论文病例报告,2022-07-21,手术,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,j2b9c6d7-0f1a-4g2b-b123-9e0f1a2b3c44,心包活检标本,病理诊断,,文本型,间皮细胞过度增生，细胞核异型，结缔组织胶原增多，纤维蛋白样渗出物积聚，符合恶性间皮瘤,,,,H&E染色,LLM提取,论文病例报告,2022-07-21,病理,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,j2b9c6d7-0f1a-4g2b-b123-9e0f1a2b3c44,心包活检标本,免疫组化,,文本型,CK5/6阳性、Calretinin阳性、TTF-1阴性、CEA阴性、MTAP表达缺失、BAP1保留表达,,,,免疫组织化学,LLM提取,论文病例报告,2022-07-21,病理,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,k3c0d7e8-1a2b-4h3c-c234-0f1a2b3c4d55,患者,影像所见,,文本型,PET-CT示前纵隔前部18F-FDG摄取增高，未见远处转移,,,,PET-CT,LLM提取,论文病例报告,2022-07-28,影像,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,l4d1e8f9-2b3c-4i4d-d345-1a2b3c4d5e66,患者,诊断名称,,类别型,原发性心包间皮瘤,,,,,LLM提取,论文病例报告,2022-07-29,诊断,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,m5e2f9a0-3c4d-4j5e-e456-2b3c4d5e6f77,患者,治疗方案,,类别型,姑息化疗联合贝伐珠单抗,,推荐手术减瘤联合姑息化疗，但患者拒绝手术,,,LLM提取,论文病例报告,2022-08-20,病程,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,m5e2f9a0-3c4d-4j5e-e456-2b3c4d5e6f77,患者,周期数,,数值型,6,6,第一疗程,次,,LLM提取,论文病例报告,2022-08-20,病程,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,m5e2f9a0-3c4d-4j5e-e456-2b3c4d5e6f77,患者,治疗反应,,类别型,症状完全缓解,,耐受良好，无明显并发症,,,LLM提取,论文病例报告,2022-08-20,病程,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,m5e2f9a0-3c4d-4j5e-e456-2b3c4d5e6f77,患者,治疗方案,,类别型,贝伐珠单抗+顺铂+培美曲塞,,第一疗程1-6周期，贝伐珠单抗5 mg/kg，顺铂50-60 mg/m2，培美曲塞400-500 mg/m2,,,LLM提取,论文病例报告,2022-08-20,用药,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,m5e2f9a0-3c4d-4j5e-e456-2b3c4d5e6f77,患者,处理措施,,文本型,针灸作为辅助治疗以减轻治疗相关症状,,首次化疗后仅有轻度食欲减退和恶心,,,LLM提取,论文病例报告,2022-08-20,病程,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,n6f3a0b1-4d5e-4k6f-f567-3c4d5e6f7g88,标本,白细胞计数,,数值型,5.89,5.89,,cells/mm3,,LLM提取,论文病例报告,2022-12-17,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,n6f3a0b1-4d5e-4k6f-f567-3c4d5e6f7g88,标本,BUN/肌酐比值,,文本型,15/1.03,,,,,LLM提取,论文病例报告,2022-12-17,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,n6f3a0b1-4d5e-4k6f-f567-3c4d5e6f7g88,标本,高敏肌钙蛋白I,,数值型,5.8,5.8,,ng/ml,,LLM提取,论文病例报告,2022-12-17,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,n6f3a0b1-4d5e-4k6f-f567-3c4d5e6f7g88,标本,NT-proBNP,,数值型,871,871,,pg/ml,,LLM提取,论文病例报告,2022-12-17,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,n6f3a0b1-4d5e-4k6f-f567-3c4d5e6f7g88,标本,癌胚抗原,,数值型,1.6,1.6,,ng/ml,,LLM提取,论文病例报告,2022-12-17,检验,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,o7g4b1c2-5e6f-4l7g-g678-4d5e6f7g8h99,患者,影像所见,,文本型,复查胸片示心影大小正常，无胸腔或心包积液；CT示心包积液消退、心包增厚减轻,,,,胸片、CT,LLM提取,论文病例报告,2022-12-17,影像,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,p8h5c2d3-6f7g-4m8h-h789-5e6f7g8h9i00,患者,出院状况,,文本型,病情稳定出院，残余副作用轻微,,伴轻度体重下降、食欲减退和疲劳,,,LLM提取,论文病例报告,2022-12-17,出院,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,q9i6d3e4-7g8h-4n9i-i890-6f7g8h9i0j11,患者,治疗方案,,类别型,第二疗程化疗,,Day 270开始；因心律失常加重及轻度呼吸困难而启动,,,LLM提取,论文病例报告,2023-04-14,病程,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,q9i6d3e4-7g8h-4n9i-i890-6f7g8h9i0j11,患者,处理措施,,文本型,患者因副作用在第二疗程开始后中止治疗，并转入临终关怀病房,,,,,LLM提取,论文病例报告,2023-04-14,病程,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,r0j7e4f5-8h9i-4o0j-j901-7g8h9i0j1k22,患者,不良反应名称,,类别型,食欲减退、恶心、体重下降、乏力,,第一疗程仅轻度；第二疗程后因副作用停治,,,LLM提取,论文病例报告,2023-04-14,不良反应,v1
+6dfdebc71560b79fb8f1e27a35ce1d73,3728c8dc36f1e4a0465d7ee7dd3efe81_1,s1k8f5g6-9i0j-4p1k-k012-8h9i0j1k2l33,患者,结局,,文本型,发病后1年死亡,,Day 355,,,LLM提取,论文病例报告,2023-07-08,病程,v1

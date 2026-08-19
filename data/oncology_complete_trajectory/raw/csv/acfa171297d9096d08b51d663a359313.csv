@@ -1,0 +1,25 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,3c92c0df-6f7f-4c9a-a9f7-4a8eb6d7d1a1,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,3c92c0df-6f7f-4c9a-a9f7-4a8eb6d7d1a1,患者,年龄,,数值型,40岁,40,,岁,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,5b2b6a7d-6c2d-4f63-9c7a-5fd0d7f7dd0c,患者,吸烟史,,文本型,10 pack-year,,,,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,5b2b6a7d-6c2d-4f63-9c7a-5fd0d7f7dd0c,患者,饮酒史,,文本型,每周1到2次，每次1瓶,,,,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,5b2b6a7d-6c2d-4f63-9c7a-5fd0d7f7dd0c,患者,家族史,,文本型,无相关脑肿瘤家族史,,,,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,8c5e1ff5-5f52-4e0f-9f07-55b7f3b4b8d4,患者,职业史,,文本型,纸业浸渍纸制造相关作业，长期接触甲醛树脂；曾在半导体封装制造厂工作1.5个月,,,,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,f2f83b5c-4aa6-49ff-9ae2-3fda8ce9b6b1,患者,现病史,,文本型,2017年9月15日因严重头痛就诊；脑CT示顶叶肿块，进一步MRI示右颞叶2.7 cm肿块，后行开颅及肿瘤切除术，病理诊断为颞叶胶质母细胞瘤；2019年复发后再次行开颅切除；2020年死亡,,,,,LLM提取,论文病例报告,2017-09-15,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,7f9f6d45-4f85-4d1c-8a7b-4c6d0f7a4c1f,患者,就诊方式,,类别型,急诊就诊并由当地医院转至大学医院急诊科,,,,,LLM提取,论文病例报告,2017-09-15,入院,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,7f9f6d45-4f85-4d1c-8a7b-4c6d0f7a4c1f,患者,主诉,,文本型,严重头痛,,,,,LLM提取,论文病例报告,2017-09-15,入院,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,0f4c6d9f-9f18-4f7a-9a5d-2f4c2fbbd3f1,脑CT,影像所见,,文本型,顶叶肿块,,,,,LLM提取,论文病例报告,2017-09-15,影像,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,2d7f7c60-5e7f-4e52-b7d1-8df6b5c1d2f3,脑MRI,影像所见,,文本型,右颞叶见2.7 cm大小肿块,,,,磁共振成像,LLM提取,论文病例报告,2017-09-17,影像,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,9a7b4e1f-6c3d-4f6b-8f8c-9a4f1b2c3d4e,患者,诊断名称,,类别型,胶质母细胞瘤,,颞叶,,,LLM提取,论文病例报告,2017-09-26,诊断,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,9a7b4e1f-6c3d-4f6b-8f8c-9a4f1b2c3d4e,患者,临床部位,,类别型,右颞叶,,,,,LLM提取,论文病例报告,2017-09-26,诊断,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,a1c2d3e4-f5a6-4789-9abc-def123456789,患者,手术名称,,类别型,开颅肿瘤切除术,,,,,LLM提取,论文病例报告,2017-09-26,手术,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,a1c2d3e4-f5a6-4789-9abc-def123456789,患者,手术结果,,文本型,肿瘤切除,,,,,LLM提取,论文病例报告,2017-09-26,手术,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,b2c3d4e5-f6a7-4890-abcd-ef2345678901,患者,病理诊断,,文本型,颞叶胶质母细胞瘤,,,,,LLM提取,论文病例报告,2017-09-26,病理,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,c3d4e5f6-a7b8-4901-bcde-f3456789012a,患者,复发,,类别型,脑肿瘤复发,,,,,LLM提取,论文病例报告,2019-01-01,诊断,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,d4e5f6a7-b8c9-4012-cdef-4567890123ab,患者,手术名称,,类别型,开颅手术,,再次切除复发肿瘤,,,LLM提取,论文病例报告,2019-02-14,手术,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,d4e5f6a7-b8c9-4012-cdef-4567890123ab,患者,手术结果,,文本型,切除复发肿瘤,,,,,LLM提取,论文病例报告,2019-02-14,手术,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,e5f6a7b8-c9d0-4123-def4-567890123abc,患者,死亡,,类别型,是,,,,,LLM提取,论文病例报告,2020-02-04,病程,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,e5f6a7b8-c9d0-4123-def4-567890123abc,患者,结局,,类别型,死亡,,,,,LLM提取,论文病例报告,2020-02-04,病程,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,f6a7b8c9-d0e1-4234-ef56-67890123abcd,患者,体检/健康检查结果,,文本型,2009至2017年常规健康检查未见特殊异常,,,,,LLM提取,论文病例报告,,评估,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,a7b8c9d0-e1f2-4345-f678-7890123abcde,患者,既往史,,文本型,工作期间曾多次因皮肤病接受治疗,,,,,LLM提取,论文病例报告,,病史,v1
+acfa171297d9096d08b51d663a359313,4beb8dde5fdeae322a6ef0c4e9566b1c,b8c9d0e1-f234-4567-8901-23abcde45678,患者,暴露史,,文本型,长期暴露于甲醛树脂；工作时未佩戴呼吸器或防护手套,,推定经呼吸和皮肤暴露,,,LLM提取,论文病例报告,,病史,v1

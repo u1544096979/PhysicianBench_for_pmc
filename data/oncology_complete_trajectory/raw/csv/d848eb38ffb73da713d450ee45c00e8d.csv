@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,9f5e2d4c-6d0d-4e7e-b2a4-1c3a4f6b7d10,患者,入院年龄,,数值型,58,58,,岁,,LLM提取,论文病例报告,2017-01-01,入院,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,a1d3b2c4-5e6f-4789-8a1b-2c3d4e5f6a70,患者,主诉,,文本型,阴囊区不适1个月,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,b2c3d4e5-f6a7-4890-9b1c-2d3e4f5a6b71,患者,现病史,,文本型,2017年1月因阴囊区不适就诊，超声发现左侧睾丸实性肿块，随后行根治性腹股沟睾丸切除术。,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,c3d4e5f6-a7b8-4901-9c2d-3e4f5a6b7c82,患者,既往史,,文本型,慢性肾小球肾炎所致慢性肾脏病，曾行重复肾移植。,,,,,LLM提取,论文病例报告,2008-10-01,病史,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,c3d4e5f6-a7b8-4901-9c2d-3e4f5a6b7c82,患者,既往史,,文本型,首次肾移植于2003年12月，因移植物排斥后于2008年10月再次肾移植。,,,,,LLM提取,论文病例报告,2008-10-01,病史,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,d4e5f6a7-b8c9-4a12-9d3e-4f5a6b7c8d93,左睾丸,超声检查所见,,文本型,左睾丸见实性肿块。,,,,超声,LLM提取,论文病例报告,2017-01-01,影像,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,d4e5f6a7-b8c9-4a12-9d3e-4f5a6b7c8d93,左睾丸,影像结论,,文本型,提示左睾丸实性肿块。,,,,超声,LLM提取,论文病例报告,2017-01-01,影像,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,e5f6a7b8-c9d0-4a23-9e4f-5a6b7c8d9e04,患者,手术名称,,类别型,根治性腹股沟睾丸切除术,,左侧,,,LLM提取,论文病例报告,2017-02-01,手术,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,f6a7b8c9-d0e1-4b34-9f5a-6b7c8d9e0f15,标本,病理诊断,,文本型,非精原细胞性生殖细胞睾丸肿瘤（NSGCT），肿瘤大小20 mm，以胚胎性癌为主，混有卵黄囊瘤成分，存在淋巴血管侵犯（LVI）。,,pT2,,病理检查,LLM提取,论文病例报告,2017-02-01,病理,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,f6a7b8c9-d0e1-4b34-9f5a-6b7c8d9e0f15,标本,标本部位,,类别型,左睾丸,,,,病理检查,LLM提取,论文病例报告,2017-02-01,病理,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,g7b8c9d0-e1f2-4c45-9a6b-7c8d9e0f1a26,患者,诊断名称,,类别型,非精原细胞性生殖细胞睾丸肿瘤,,临床分期IB；TNM: pT2 N0 M0 S0；高危（LVI+）,,,LLM提取,论文病例报告,2017-02-01,诊断,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,g7b8c9d0-e1f2-4c45-9a6b-7c8d9e0f1a26,患者,临床分期,,类别型,IB期,,TNM 8版：pT2 N0 M0 S0,,,LLM提取,论文病例报告,2017-02-01,诊断,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,g7b8c9d0-e1f2-4c45-9a6b-7c8d9e0f1a26,患者,病理分期,,类别型,pT2 N0 M0 S0,,第8版TNM,,,LLM提取,论文病例报告,2017-02-01,诊断,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,g7b8c9d0-e1f2-4c45-9a6b-7c8d9e0f1a26,患者,分子标志物,,类别型,LVI阳性,,,,,LLM提取,论文病例报告,2017-02-01,诊断,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,h8c9d0e1-f2a3-4d56-9b7c-8d9e0f1a2b37,胸部及腹部,CT检查所见,,文本型,未见明显肿瘤播散/转移证据。,,,,CT,LLM提取,论文病例报告,2017-02-01,影像,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,h8c9d0e1-f2a3-4d56-9b7c-8d9e0f1a2b37,胸部及腹部,影像结论,,文本型,未见明显播散。,,,,CT,LLM提取,论文病例报告,2017-02-01,影像,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,i9d0e1f2-a3b4-4e67-9c8d-9e0f1a2b3c48,血液,肿瘤标志物,,类别型,未升高,,术前及术后,,,LLM提取,论文病例报告,2017-02-01,检验,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,j0e1f2a3-b4c5-4f78-9d0e-0f1a2b3c4d59,患者,治疗方案,,类别型,BEP方案辅助化疗,,Bleomycin + Etoposide + Cisplatin，1个疗程,,,LLM提取,论文病例报告,2017-03-22,病程,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,j0e1f2a3-b4c5-4f78-9d0e-0f1a2b3c4d59,患者,周期数,,数值型,1,1,,个疗程,,LLM提取,论文病例报告,2017-03-22,病程,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,j0e1f2a3-b4c5-4f78-9d0e-0f1a2b3c4d59,患者,治疗反应,,类别型,肾功能仅一过性升高,,,,,LLM提取,论文病例报告,2017-03-22,病程,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,k1f2a3b4-c5d6-4f89-9e0f-1a2b3c4d5e60,患者,药品名称,,类别型,Bleomycin,,BEP方案组成；按说明书减量至原剂量75%,,,LLM提取,论文病例报告,2017-03-22,用药,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,k1f2a3b4-c5d6-4f89-9e0f-1a2b3c4d5e60,患者,药品名称,,类别型,Etoposide,,BEP方案组成；按说明书减量至原剂量75%,,,LLM提取,论文病例报告,2017-03-22,用药,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,k1f2a3b4-c5d6-4f89-9e0f-1a2b3c4d5e60,患者,药品名称,,类别型,Cisplatin,,BEP方案组成；按说明书减量至原剂量75%,,,LLM提取,论文病例报告,2017-03-22,用药,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,l2a3b4c5-d6e7-4f90-9f1a-2b3c4d5e6f71,患者,给药途径,,类别型,静脉给药,,在重症监护病房实施,,,LLM提取,论文病例报告,2017-03-22,用药,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,l2a3b4c5-d6e7-4f90-9f1a-2b3c4d5e6f71,患者,用药周期,,文本型,2017-03-22至2017-03-26,,密切监测液体平衡和肌酐,,,LLM提取,论文病例报告,2017-03-22,用药,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,m3b4c5d6-e7f8-4fa1-9f2b-3c4d5e6f7a82,患者,不良反应名称,,类别型,发热性中性粒细胞减少症,,第9天，体温>38℃；合并CRP升高,,,LLM提取,论文病例报告,2017-03-31,不良反应,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,m3b4c5d6-e7f8-4fa1-9f2b-3c4d5e6f7a82,患者,分级,,类别型,4级,,中性粒细胞减少,,,LLM提取,论文病例报告,2017-03-31,不良反应,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,m3b4c5d6-e7f8-4fa1-9f2b-3c4d5e6f7a82,患者,处理措施,,文本型,给予广谱抗生素治疗，并使用5次粒细胞集落刺激因子后中性粒细胞恢复。,,,,,LLM提取,论文病例报告,2017-03-31,不良反应,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,n4c5d6e7-f8a9-4fb2-9f3c-4d5e6f7a8b93,患者,实验室检查项目,,类别型,肌酐,,波动于1.58-2.51 mg/dL；化疗期间监测,mg/dL,,LLM提取,论文病例报告,2017-03-22,检验,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,o5d6e7f8-a9b0-4fc3-9f4d-5e6f7a8b9c04,患者,出院状况,,类别型,病情稳定,,实验室参数满意,,,LLM提取,论文病例报告,2017-03-26,出院,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,o5d6e7f8-a9b0-4fc3-9f4d-5e6f7a8b9c04,患者,出院医嘱,,文本型,出院后门诊随访；继续常规肾脏科检查和观察复发。,,,,,LLM提取,论文病例报告,2017-03-26,出院,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,p6e7f8a9-b0c1-4fd4-9f5e-6f7a8b9c0d15,患者,肿瘤复发,,类别型,未证实,,截至2020年9月腹部CT未见转移,,,LLM提取,论文病例报告,2020-09-01,病程,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,p6e7f8a9-b0c1-4fd4-9f5e-6f7a8b9c0d15,腹部,CT检查所见,,文本型,未见转移证据。,,,,CT,LLM提取,论文病例报告,2020-09-01,影像,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,p6e7f8a9-b0c1-4fd4-9f5e-6f7a8b9c0d15,腹部,影像结论,,文本型,未见转移。,,,,CT,LLM提取,论文病例报告,2020-09-01,影像,v1
+d848eb38ffb73da713d450ee45c00e8d,dcc4a1c097a6f4f9f71c8cafc6a7410b,q7f8a9b0-c1d2-4fe5-9f6a-7f8a9b0c1d26,患者,随访结果,,文本型,随访期间未见复发，移植肾功能稳定，未进入透析程序。,,截至发表时,,,LLM提取,论文病例报告,2020-09-01,病程,v1

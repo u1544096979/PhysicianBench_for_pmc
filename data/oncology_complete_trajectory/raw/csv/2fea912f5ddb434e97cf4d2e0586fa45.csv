@@ -1,0 +1,32 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,d4e5f6a7-b8c9-4d3e-9f4a-5b6c7d8e9f04,患者,入院年龄,,数值型,59,59,,岁,,LLM提取,论文病例报告,2019-11-28,入院,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,d4e5f6a7-b8c9-4d3e-9f4a-5b6c7d8e9f04,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,2019-11-28,病史,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,d4e5f6a7-b8c9-4d3e-9f4a-5b6c7d8e9f04,患者,吸烟史,,类别型,无,,,,,LLM提取,论文病例报告,2019-11-28,病史,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,e5f6a7b8-c9d0-4e4f-a5b6-c7d8e9f0a105,患者,主诉,,文本型,右侧胸痛,,,,,LLM提取,论文病例报告,2019-11-28,病史,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f6a7b8c9-d0e1-4f5a-b6c7-d8e9f0a1b206,患者,影像所见,,文本型,左上肺占位性病变，左上叶前段不规则肿块（2.1 cm × 1.5 cm），左前纵隔软组织肿块（5.1 cm × 3.2 cm），双肺及胸膜多发结节。,,PET-CT提示代谢增高，考虑恶性病变,,PET-CT,LLM提取,论文病例报告,2019-12-03,影像,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f6a7b8c9-d0e1-4f5a-b6c7-d8e9f0a1b206,病理标本,病理诊断,,文本型,浸润性肺腺癌,,经经皮肺穿刺活检,,病理活检,LLM提取,论文病例报告,2019-12-03,病理,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f6a7b8c9-d0e1-4f5a-b6c7-d8e9f0a1b206,病理标本,免疫组化,,文本型,"TTF-1(+), C-MET(+), ALK(-)",,,,免疫组化染色,LLM提取,论文病例报告,2019-12-03,病理,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f6a7b8c9-d0e1-4f5a-b6c7-d8e9f0a1b206,病理标本,NGS检出基因变异,,文本型,EGFR exon 20 insertion突变（p.Ala767_Val769dup）,,无共突变,,NGS,LLM提取,论文病例报告,2019-12-03,病理,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f6a7b8c9-d0e1-4f5a-b6c7-d8e9f0a1b206,病理标本,PD-L1状态,,类别型,未表达,,,,,LLM提取,论文病例报告,2019-12-03,病理,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f6a7b8c9-d0e1-4f5a-b6c7-d8e9f0a1b206,病理标本,肿瘤突变负荷,,数值型,1.0,1.0,mutation/Mb,mutation/Mb,NGS,LLM提取,论文病例报告,2019-12-03,病理,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,a7b8c9d0-e1f2-4a5b-b6c7-d8e9f0a1b307,患者,治疗方案,,类别型,PP化疗（培美曲塞+奈达铂）联合贝伐珠单抗,,3周期,,,LLM提取,论文病例报告,2019-12-07,用药,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,a7b8c9d0-e1f2-4a5b-b6c7-d8e9f0a1b307,患者,不良反应名称,,类别型,心房颤动,,,,,LLM提取,论文病例报告,2019-12-07,不良反应,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,a7b8c9d0-e1f2-4a5b-b6c7-d8e9f0a1b307,患者,不良反应名称,,类别型,胃肠道反应2级,,,,,LLM提取,论文病例报告,2019-12-07,不良反应,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,b8c9d0e1-f2a3-4a5b-b6c7-d8e9f0a1b308,患者,治疗方案,,类别型,培美曲塞单药,,2周期,,,LLM提取,论文病例报告,2020-03-05,用药,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,b8c9d0e1-f2a3-4a5b-b6c7-d8e9f0a1b308,患者,治疗方案,,类别型,培美曲塞单药,,2周期,,,LLM提取,论文病例报告,2020-04-07,用药,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,b8c9d0e1-f2a3-4a5b-b6c7-d8e9f0a1b308,患者,治疗反应,,类别型,疾病无进展,,PFS1约5.9个月,,,LLM提取,论文病例报告,2020-04-07,病程,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,c9d0e1f2-a3b4-4a5b-b6c7-d8e9f0a1b309,患者,诊断名称,,类别型,疾病进展,,肺内及纵隔淋巴结病灶部分增大,,,LLM提取,论文病例报告,2020-06-03,诊断,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,d9e0f1a2-b3c4-4a5b-b6c7-d8e9f0a1b310,患者,治疗方案,,类别型,TP化疗联合贝伐珠单抗,,3周期，bevacizumab 500 mg,,,LLM提取,论文病例报告,2020-06-12,病程,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,e0f1a2b3-c4d5-4a5b-b6c7-d8e9f0a1b311,患者,手术名称,,类别型,CT引导下肺穿刺+金标植入,,,,,LLM提取,论文病例报告,2020-08-25,手术,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f1a2b3c4-d5e6-4a5b-b6c7-d8e9f0a1b312,患者,手术/放疗名称,,类别型,SBRT,,左肺病灶，PTV 50 Gy/5 F,,,LLM提取,论文病例报告,2020-09-07,手术,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,f1a2b3c4-d5e6-4a5b-b6c7-d8e9f0a1b312,患者,治疗反应,,类别型,疾病无进展,,PFS2约8.7个月,,,LLM提取,论文病例报告,2020-09-07,病程,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,2a3b4c5d-6e7f-4a5b-b6c7-d8e9f0a1b313,患者,影像所见,,文本型,双肺多发小结节，前纵隔多发肿大淋巴结，考虑多发转移。,,胸部CT,,CT,LLM提取,论文病例报告,2021-03-03,影像,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,3b4c5d6e-7f8a-4a5b-b6c7-d8e9f0a1b314,患者,手术/放疗名称,,类别型,SBRT,,右肺病灶，PTV 24 Gy/3 F,,,LLM提取,论文病例报告,2021-03-12,手术,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,4c5d6e7f-8a9b-4a5b-b6c7-d8e9f0a1b315,患者,药品名称,,类别型,卡瑞利珠单抗,,,,,LLM提取,论文病例报告,2021-03-16,用药,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,4c5d6e7f-8a9b-4a5b-b6c7-d8e9f0a1b315,患者,药品名称,,类别型,阿帕替尼,,,,,LLM提取,论文病例报告,2021-03-16,用药,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,4c5d6e7f-8a9b-4a5b-b6c7-d8e9f0a1b315,患者,周期数,,数值型,10,10,,周期,,LLM提取,论文病例报告,2021-03-16,用药,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,4c5d6e7f-8a9b-4a5b-b6c7-d8e9f0a1b315,患者,治疗反应,,类别型,疾病稳定,,,,,LLM提取,论文病例报告,2021-03-16,评估,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,5d6e7f8a-9b0c-4a5b-b6c7-d8e9f0a1b316,患者,治疗反应,,类别型,疾病稳定,,2021-11-19评估SD后继续9周期卡瑞利珠单抗+阿帕替尼,,,LLM提取,论文病例报告,2021-11-19,评估,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,6e7f8a9b-0c1d-4a5b-b6c7-d8e9f0a1b317,患者,诊断名称,,类别型,肿瘤进展,,,,,LLM提取,论文病例报告,2022-06-05,诊断,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,7f8a9b0c-1d2e-4a5b-b6c7-d8e9f0a1b318,患者,治疗方案,,类别型,SBRT联合阿帕替尼联合卡瑞利珠单抗,,第三线治疗,,,LLM提取,论文病例报告,2022-06-05,病程,v1
+2fea912f5ddb434e97cf4d2e0586fa45,dfe7c7fca83ad91fd26bda2627639671_2,7f8a9b0c-1d2e-4a5b-b6c7-d8e9f0a1b318,患者,病程描述,,文本型,SBRT后14.8个月基础呼吸状态未恶化，后续治疗未能控制肿瘤进展，2023年6月死亡。,,,,,LLM提取,论文病例报告,2023-06-01,病程,v1

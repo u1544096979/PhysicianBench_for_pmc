@@ -1,0 +1,40 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,3b8f0db2-7e0f-4b2f-9bb3-9f9f4e0d5f01,患者,既往史,,文本型,2014年左右开始睾酮替代治疗（Androgel）以治疗性腺功能减退和乏力,,,,,LLM提取,论文病例报告,2014-09-01,病史,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,9c2fb8a4-1e6a-4c4f-8c8f-7c5a6d0f5b12,患者,主诉,,文本型,常规筛查发现PSA显著升高,,,,,LLM提取,论文病例报告,2015-05-01,病史,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,9c2fb8a4-1e6a-4c4f-8c8f-7c5a6d0f5b12,患者,检验项目,,数值型,1800,1800,,,PSA,LLM提取,论文病例报告,2015-05-01,检验,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,3d8dd0e3-0b8b-4c47-9ef7-2bcf2c0a8ad1,患者,病理诊断,,文本型,前列腺腺癌，Gleason 7（3+4）,,,,前列腺穿刺活检,LLM提取,论文病例报告,2015-08-01,病理,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,3d8dd0e3-0b8b-4c47-9ef7-2bcf2c0a8ad1,前列腺,标本部位,,类别型,前列腺,,,,前列腺穿刺活检,LLM提取,论文病例报告,2015-08-01,病理,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,c1c8f4a2-2e0d-4a6a-9c4a-9c4f0c4b7b21,患者,影像所见,,文本型,CT及骨扫描显示轴向及四肢骨骼广泛淋巴结和骨转移,,,,CT、骨扫描,LLM提取,论文病例报告,2015-08-01,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,5f3f2d2c-7d1b-4ec0-8f9a-1b4d8d0d6f30,患者,治疗方案,,类别型,ADT,,degarelix,,,LLM提取,论文病例报告,2015-08-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,0a6f4d2f-8cc4-4e70-8cc7-8c34c7f7e7e5,患者,诊断名称,,类别型,前列腺癌,,Gleason 7（4+3），4B期,,,LLM提取,论文病例报告,2015-09-01,诊断,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,0a6f4d2f-8cc4-4e70-8cc7-8c34c7f7e7e5,患者,临床分期,,类别型,4B期,,,,,LLM提取,论文病例报告,2015-09-01,诊断,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,6c1f9d4e-4c21-4e1d-8a8c-8f2a0a5d9c11,患者,治疗方案,,类别型,ADT,,leuprolide,,,LLM提取,论文病例报告,2015-10-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,7a4d9e66-1f2f-4d59-9e0b-1b6d7d0efc22,患者,药品名称,,类别型,denosumab,,用于骨支持,,,LLM提取,论文病例报告,2015-11-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,8f4d1c3b-6b8a-4d6f-8c1a-4f1e7a2b9c33,患者,治疗方案,,类别型,化疗,,docetaxel，6个周期,,,LLM提取,论文病例报告,2015-11-01,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,8f4d1c3b-6b8a-4d6f-8c1a-4f1e7a2b9c33,患者,周期数,,数值型,6,6,,个周期,,LLM提取,论文病例报告,2015-11-01,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,8f4d1c3b-6b8a-4d6f-8c1a-4f1e7a2b9c33,患者,治疗反应,,类别型,部分缓解,,治疗后影像较前改善,,,LLM提取,论文病例报告,2016-03-01,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,8f4d1c3b-6b8a-4d6f-8c1a-4f1e7a2b9c33,患者,影像所见,,文本型,已知骨转移灶较前改善，无内脏器官转移或腹盆腔淋巴结肿大证据,,,,CT、骨扫描,LLM提取,论文病例报告,2016-03-01,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,6c1f9d4e-4c21-4e1d-8a8c-8f2a0a5d9c11,患者,治疗方案,,类别型,ADT,,leuprolide单药维持,,,LLM提取,论文病例报告,2016-03-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,a1d6b8c2-9f4e-4d8f-8d1e-2b7f3f0c9a44,患者,检验项目,,数值型,,,PSA再度升高,,PSA,LLM提取,论文病例报告,2016-10-01,检验,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,b2e7d9f1-1a3c-4a5f-8f2a-6c9d0e1f2a55,患者,治疗方案,,类别型,ADT,,degarelix,,,LLM提取,论文病例报告,2016-10-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,c3f8e0a2-2b4d-4c6f-9f3e-7d0e1f2a3b66,患者,影像所见,,文本型,CT、MRI及18F骨显像PET/CT提示持续性成骨性骨骼转移,,,,CT、MRI、18F骨显像PET/CT,LLM提取,论文病例报告,2016-12-01,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,d4a9f1b3-3c5d-4d7f-8a4b-8e1f2a3b4c77,患者,影像所见,,文本型,Ga-68 PSMA PET/CT示多发PSMA高摄取病灶，符合活动性骨转移；软组织未见PSMA摄取,,,,Ga-68 PSMA PET/CT,LLM提取,论文病例报告,2016-12-30,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,e5b0a2c4-4d6f-4e7f-9a5c-9f2a3b4c5d88,患者,诊断名称,,类别型,去势抵抗性转移性前列腺癌,,mCRPC,,,LLM提取,论文病例报告,2017-02-01,诊断,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,e5b0a2c4-4d6f-4e7f-9a5c-9f2a3b4c5d88,患者,分子标志物,,类别型,PSMA阳性,,多发骨转移灶,,Ga-68 PSMA PET/CT,LLM提取,论文病例报告,2017-02-01,诊断,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,f6c1a3b4-5d7e-4f8a-9b6c-a1b2c3d4e5f9,患者,治疗方案,,类别型,阿比特龙,,开始联合治疗,,,LLM提取,论文病例报告,2017-02-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,f6c1a3b4-5d7e-4f8a-9b6c-a1b2c3d4e5f9,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2017-02-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,f6c1a3b4-5d7e-4f8a-9b6c-a1b2c3d4e5f9,患者,用药周期,,文本型,每日持续用药,,,,,LLM提取,论文病例报告,2017-02-01,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,a7d2c3b4-6e8f-4a9b-9c0d-b1e2f3a4c5d6,患者,治疗方案,,类别型,177Lu-PSMA-617放射性配体治疗,,共4个周期，历时约10个月,,,LLM提取,论文病例报告,2017-03-01,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,a7d2c3b4-6e8f-4a9b-9c0d-b1e2f3a4c5d6,患者,周期数,,数值型,4,4,,个周期,,LLM提取,论文病例报告,2017-03-01,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,a7d2c3b4-6e8f-4a9b-9c0d-b1e2f3a4c5d6,患者,治疗反应,,类别型,治疗有效,,耐受良好，无明显不良反应,,,LLM提取,论文病例报告,2017-03-01,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,b8e3f4a5-7c9d-4d0e-8f1a-c2d3e4f5a6b7,患者,影像所见,,文本型,首次PRLT后，骨转移灶摄取较前明显但减弱，提示分子层面应答,,全身平面显像及SPECT/CT用于监测,,全身平面显像、SPECT/CT,LLM提取,论文病例报告,2017-05-07,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,c9f4a5b6-8d0e-4e1f-9a2b-d3e4f5a6b7c8,患者,影像所见,,文本型,两次PRLT后，骨及骨髓转移灶显著退缩，PSMA表达下降84%（靶灶）,,,,Ga-68 PSMA PET,LLM提取,论文病例报告,2017-07-24,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,d0a5b6c7-9e1f-4f2a-8b3c-e4f5a6b7c8d9,患者,治疗方案,,类别型,177Lu-PSMA-617放射性配体治疗,,第3个周期后继续治疗,,,LLM提取,论文病例报告,2018-01-15,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,d0a5b6c7-9e1f-4f2a-8b3c-e4f5a6b7c8d9,患者,治疗反应,,类别型,显著缓解,,已知骨和骨髓转移灶明显退缩,,,LLM提取,论文病例报告,2018-01-15,病程,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,e1b6c7d8-0f2a-4g3b-9c4d-f5a6b7c8d9e0,患者,影像所见,,文本型,4个周期后，疾病进一步退缩，既往广泛骨及骨髓转移灶PSMA表达下降；前列腺背侧左叶原发灶仅轻度残余表达，无PSMA阳性淋巴结、内脏或新发转移,,,,Ga-68 PSMA PET,LLM提取,论文病例报告,2018-05-14,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,f2c7d8e9-1a0b-4c1d-9e2f-a3b4c5d6e7f8,患者,影像所见,,文本型,近乎完全缓解；仅中央骨骼和胸骨见极轻度摄取，无新的或明显PSMA-avid病灶,,,,Ga-68 PSMA PET,LLM提取,论文病例报告,2019-02-11,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,f3d8e9f0-2b1c-4d2e-9f3a-b4c5d6e7f809,患者,影像所见,,文本型,持续缓解；原发肿瘤无明显残余PSMA表达，无PSMA阳性淋巴结、内脏或新发转移,,距4个PRLT周期后约2年,,Ga-68 PSMA PET,LLM提取,论文病例报告,2020-02-11,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,f4e9f0a1-3b2c-4d3e-9f4b-c5d6e7f8091a,患者,影像所见,,文本型,骨骼仅见极淡、非均质性PSMA摄取，右近端股骨最明显；前列腺及淋巴结未见PSMA表达；肝、肺、脑及其他脏器未见受累,,,,Ga-68 PSMA PET,LLM提取,论文病例报告,2021-08-30,影像,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,g5f0a1b2-4c3d-4e5f-9a5b-c6d7e8f9012b,患者,治疗方案,,类别型,ADT,,leuprolide每3个月一次,,,LLM提取,论文病例报告,2021-08-30,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,g5f0a1b2-4c3d-4e5f-9a5b-c6d7e8f9012b,患者,药品名称,,类别型,阿比特龙,,每日持续,,,LLM提取,论文病例报告,2021-08-30,用药,v1
+a5a49b21bb17a4bfa7362baf85cd1b71,399f91ae2b1d080b2601cdf31f2fa17d_1,h6a1b2c3-5d4e-4f6a-9b6c-d7e8f9012b3c,患者,出院诊断,,类别型,转移性去势抵抗性前列腺癌,,长期完全缓解,,,LLM提取,论文病例报告,2021-08-30,出院,v1

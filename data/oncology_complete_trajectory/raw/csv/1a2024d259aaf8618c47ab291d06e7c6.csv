@@ -1,0 +1,50 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,c0a4b9d8-6d1d-4f5f-8a3a-2d5a2b8b5c11,患者,入院年龄,,数值型,53,53,,岁,,LLM提取,论文病例报告,2020-01-01,入院,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,1f1d1c7e-9a2b-4d0f-9f7c-6b8e4b3c2d12,患者,既往史,,文本型,无明显既往病史,,,,,LLM提取,论文病例报告,2020-01-01,病史,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,7f2c3a1e-8a4b-4c5d-9e2f-1b3a4d5e6f13,患者,诊断名称,,类别型,急性髓系白血病M2b,,AML1-ETO阳性；t(8;21)(q22;q22)；cKIT D816V突变；FLT3野生型,,,LLM提取,论文病例报告,2020-01-01,诊断,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,7f2c3a1e-8a4b-4c5d-9e2f-1b3a4d5e6f13,患者,临床分期,,类别型,R/R AML,,复发/难治,,,LLM提取,论文病例报告,2020-01-01,诊断,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,8a3b4c5d-6e7f-4a8b-9c1d-2e3f4a5b6c14,骨髓,检验项目,,数值型,70,70,原始细胞（blasts）比例,%,,LLM提取,论文病例报告,2020-01-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,8a3b4c5d-6e7f-4a8b-9c1d-2e3f4a5b6c14,细胞遗传学,染色体核型,,文本型,"45,X,-X,t(8;21)(q22;q22)",,,,,LLM提取,论文病例报告,2020-01-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,8a3b4c5d-6e7f-4a8b-9c1d-2e3f4a5b6c14,骨髓/分子检测,AML1-ETO融合基因,,类别型,阳性,,109.45%,,,LLM提取,论文病例报告,2020-01-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,8a3b4c5d-6e7f-4a8b-9c1d-2e3f4a5b6c14,骨髓/分子检测,cKIT突变,,类别型,D816V阳性,,变异等位基因频率43.4%,,,LLM提取,论文病例报告,2020-01-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,8a3b4c5d-6e7f-4a8b-9c1d-2e3f4a5b6c14,骨髓/分子检测,FLT3突变,,类别型,阴性,,150基因panel,,,LLM提取,论文病例报告,2020-01-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,9b4c5d6e-7f8a-4b9c-8d1e-2f3a4b5c6d15,患者,治疗方案,,类别型,DA方案,,柔红霉素+阿糖胞苷,,,LLM提取,论文病例报告,2020-09-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,9b4c5d6e-7f8a-4b9c-8d1e-2f3a4b5c6d15,患者,药品名称,,类别型,daunorubicin,,,,,LLM提取,论文病例报告,2020-09-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,9b4c5d6e-7f8a-4b9c-8d1e-2f3a4b5c6d15,患者,药品名称,,类别型,cytarabine,,,,,LLM提取,论文病例报告,2020-09-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c16,骨髓,检验项目,,文本型,形态学完全缓解（CR）,,化疗后3周,,骨髓穿刺,LLM提取,论文病例报告,2020-10-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d17,患者,治疗方案,,类别型,巩固治疗,,IA 1个疗程；HAA；CAG,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d17,患者,药品名称,,类别型,idarubicin,,IA方案组成,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d17,患者,药品名称,,类别型,cytarabine,,IA/HAA/CAG方案组成,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d17,患者,药品名称,,类别型,homoharringtonine,,HAA方案组成,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d17,患者,药品名称,,类别型,aclacinomycin,,HAA/CAG方案组成,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d17,患者,药品名称,,类别型,granulocyte colony stimulating factor,,CAG方案组成,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e18,骨髓/分子检测,AML1-ETO融合基因,,类别型,阳性,,9.61%,,NGS,LLM提取,论文病例报告,2020-12-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e18,骨髓/分子检测,MRD,,类别型,阴性,,流式细胞术,,FCM,LLM提取,论文病例报告,2020-12-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f19,患者,诊断名称,,类别型,形态学复发,,治疗中复发,,,LLM提取,论文病例报告,2021-03-01,诊断,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a20,患者,治疗方案,,类别型,venetoclax联合azacitidine,,7天,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a20,患者,药品名称,,类别型,venetoclax,,Day1 100 mg；Day2 200 mg；Day3-28 400 mg,mg,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a20,患者,药品名称,,类别型,azacitidine,,75 mg/m2/day,mg/m2,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b21,骨髓,检验项目,,数值型,28,28,原始细胞（blasts）比例,%,骨髓穿刺,LLM提取,论文病例报告,2021-03-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c22,患者,治疗方案,,类别型,HAA方案,,再次挽救治疗，无效,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,h8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d23,患者,治疗方案,,类别型,venetoclax联合三氧化二砷和西达本胺,,未达缓解,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,h8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d23,患者,药品名称,,类别型,arsenic trioxide,,三氧化二砷,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,h8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d23,患者,药品名称,,类别型,chidamide,,,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,i9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e24,外周血,检验项目,,数值型,84,84,原始细胞比例,%,,LLM提取,论文病例报告,2021-03-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,i9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e24,外周血,检验项目,,数值型,56,56,治疗后下降,%,,LLM提取,论文病例报告,2021-03-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,j0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f25,患者,治疗方案,,类别型,gilteritinib联合venetoclax和azacitidine,,初始剂量gilteritinib 80 mg,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,j0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f25,患者,药品名称,,类别型,gilteritinib,,80 mg起始,mg,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,j0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f25,患者,药品名称,,类别型,venetoclax,,,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,j0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f25,患者,药品名称,,类别型,azacitidine,,,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,k1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a26,外周血,检验项目,,数值型,3.0,3.0,原始细胞比例,%,,LLM提取,论文病例报告,2021-03-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,k1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a26,骨髓,检验项目,,数值型,9.5,9.5,原始细胞比例,%,骨髓穿刺,LLM提取,论文病例报告,2021-03-01,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,l2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b27,患者,治疗方案,,类别型,挽救性haplo-HSCT,,2021年7月,,,LLM提取,论文病例报告,2021-07-01,手术,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,m3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c28,患者,治疗反应,,类别型,植入成功,,移植后第15天中性粒细胞植入,,,LLM提取,论文病例报告,2021-07-16,评估,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,m3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c28,外周血,ANC,,数值型,2.7×10^9,2.7,峰值,L,,LLM提取,论文病例报告,2021-07-16,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,n4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d29,外周血,嵌合率,,数值型,98.65,98.65,供者细胞比例,%,STR检测,LLM提取,论文病例报告,2021-07-16,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,n4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d29,外周血,检验项目,,文本型,原始细胞清除,,,,,LLM提取,论文病例报告,2021-07-16,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,n4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d29,骨髓,检验项目,,数值型,2,2,原始细胞比例,%,骨髓穿刺,LLM提取,论文病例报告,2021-07-16,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,n4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d29,骨髓/分子检测,MRD,,类别型,阴性,,FCM,,,LLM提取,论文病例报告,2021-07-16,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,n4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d29,骨髓/分子检测,AML1-ETO融合基因,,类别型,阳性,,0.11%,,NGS,LLM提取,论文病例报告,2021-07-16,检验,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,o5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e30,患者,不良反应名称,,类别型,二次植入失败,,伴严重细菌和真菌感染、II级急性肠道GVHD,,,LLM提取,论文病例报告,2021-08-01,不良反应,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,o5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e30,患者,分级,,类别型,II级,,急性肠道GVHD,,,LLM提取,论文病例报告,2021-08-01,不良反应,v1
+1a2024d259aaf8618c47ab291d06e7c6,845caf8d7b18ac75168fcd9c985a640b_1,p6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f31,患者,病程,,文本型,死亡,,重度感染后粒细胞缺乏状态下死亡,,,LLM提取,论文病例报告,2021-08-01,病程,v1

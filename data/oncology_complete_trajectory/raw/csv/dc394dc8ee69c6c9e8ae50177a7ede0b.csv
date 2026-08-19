@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,1f7d45e4-0f7d-4d42-9f6d-3c5d9bf2df2d,患者,个人史,,文本型,曾有黑色素瘤、原位黑色素瘤及基底细胞癌病史,,黑色素瘤（下肢，1995）；原位黑色素瘤（2012）；前臂基底细胞癌（1995）,,,LLM提取,论文病例报告,1995-01-01,病史,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,1f7d45e4-0f7d-4d42-9f6d-3c5d9bf2df2d,患者,既往史,,文本型,既往有黑色素瘤和基底细胞癌病史,,文中未述其他合并症,,,LLM提取,论文病例报告,1995-01-01,病史,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,5e1a1d59-6e64-45df-9e58-5d7a9f5a2c2a,患者,主诉,,文本型,左上唇/面部肿块逐渐增大，后快速增长,,病灶起始于2017年左上唇,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,5e1a1d59-6e64-45df-9e58-5d7a9f5a2c2a,患者,现病史,,文本型,左上唇病灶最初被认为良性而未处理，随后3年逐渐增大，2020年初突然快速增大，累及左面颌区,,2020年8月首次就诊皮肤科时肿块已占据整个左上唇并延伸至面颌区,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,0db8bca7-cc0a-4a2d-8e7f-3c61e6e0ad1d,患者,入院科室,,类别型,皮肤科,,,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,0db8bca7-cc0a-4a2d-8e7f-3c61e6e0ad1d,患者,年龄,,数值型,70余岁,,男性，late 70s,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,0db8bca7-cc0a-4a2d-8e7f-3c61e6e0ad1d,患者,主诉,,文本型,巨大破坏性面部肿块,,累及左上唇及左颌面部,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,a3b78f0c-3f9f-4f58-9a7a-67a74d0f4d91,患者,查体,,文本型,外生性肿块，占据整个左上唇并延伸至面颌区,,首次皮肤科就诊时,,,LLM提取,论文病例报告,2020-08-01,评估,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,b5e23c7d-9f2c-4b84-8f2a-59f8c39dc3f8,病灶,病理诊断,,文本型,刮取活检提示基底细胞癌，伴坏死，可能合并鳞状细胞癌成分,,2020年8月,,shave biopsy,LLM提取,论文病例报告,2020-08-01,病理,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,c8d3cf63-5d5a-4c6b-bb52-3c6d1c0d2f2d,病灶,影像所见,,文本型,PET示2个高代谢颈部淋巴结，未见远处转移,,约2020年9月中旬,,PET,LLM提取,论文病例报告,2020-09-15,影像,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,d8f02f35-e7be-4c8d-88fb-cd8c8d7d8b93,肿瘤组织,基因检测,,文本型,HRAS G13R、TP53C176F突变；SMO A327T变异（意义未明）,,50%等位基因频率,,genomics,LLM提取,论文病例报告,2020-09-15,病理,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,d8f02f35-e7be-4c8d-88fb-cd8c8d7d8b93,肿瘤组织,分子标志物,,类别型,PD-L1阳性,,CPS 111,,免疫组化,LLM提取,论文病例报告,2020-09-15,诊断,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,e1f4f9d5-2b5c-4b6a-bdb8-1b8ddc7de5f4,患者,诊断名称,,类别型,局部晚期/IV期头面部皮肤鳞状细胞癌,,临床倾向基底-鳞癌，但最终按cSCC治疗,,,LLM提取,论文病例报告,2020-10-01,诊断,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,e1f4f9d5-2b5c-4b6a-bdb8-1b8ddc7de5f4,患者,临床分期,,类别型,T4a N2b M0,,IV期,,,LLM提取,论文病例报告,2020-10-01,诊断,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,f1b2f8f2-5f9d-4e4e-9c4c-0d0e4fb0cf1a,患者,病程,,文本型,住院前体能状态下降，恶病质/未能维持生存（failure to thrive）,,2020年10月,,,LLM提取,论文病例报告,2020-10-01,病史,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,6c5d0f2f-8d6f-4c0e-9a9c-6d0a6c8f7f11,病灶,影像所见,,文本型,上颌骨破坏，肿瘤延伸入左上颌窦及鼻腔,,头颅/面部MRI，住院后,,MRI,LLM提取,论文病例报告,2020-10-01,影像,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,7c4dbe7e-8d5a-4d7e-8d2f-2f2b1a1f0c3e,病灶,病理诊断,,文本型,左脸全层活检示低分化鳞状细胞癌,,住院后,,full-thickness biopsy,LLM提取,论文病例报告,2020-10-01,病理,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,8a4b0f72-0f0e-4b9b-9f0d-3c1a1f7a2c5d,患者,治疗方案,,类别型,免疫治疗（cemiplimab）联合QUAD shot放疗,,新辅助治疗,,,LLM提取,论文病例报告,2020-11-08,用药,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,8a4b0f72-0f0e-4b9b-9f0d-3c1a1f7a2c5d,cemiplimab,药品名称,,类别型,cemiplimab,,抗PD-1抗体,,,LLM提取,论文病例报告,2020-11-08,用药,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,8a4b0f72-0f0e-4b9b-9f0d-3c1a1f7a2c5d,cemiplimab,给药途径,,类别型,静脉/系统治疗,,文中未明确剂量,,,LLM提取,论文病例报告,2020-11-08,用药,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,9b6e5a5d-9c6c-4a2d-8d4f-3b2a1c0d9e1f,病程,治疗方案,,类别型,QUAD shot放疗,,14 Gy/4次，BID×2天，每3周1个周期，共计划4个周期,,,LLM提取,论文病例报告,2020-11-30,病程,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,9b6e5a5d-9c6c-4a2d-8d4f-3b2a1c0d9e1f,病程,周期数,,数值型,4,4,计划4个周期,次,,LLM提取,论文病例报告,2020-11-30,病程,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,9b6e5a5d-9c6c-4a2d-8d4f-3b2a1c0d9e1f,病程,剂量,,数值型,14,14,总剂量,Gy,,LLM提取,论文病例报告,2020-11-30,病程,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,9b6e5a5d-9c6c-4a2d-8d4f-3b2a1c0d9e1f,病程,治疗反应,,类别型,治疗后病灶缩小,,首次放疗后至第二次给药期间明显下降,,,LLM提取,论文病例报告,2020-11-30,病程,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,8a4b0f72-0f0e-4b9b-9f0d-3c1a1f7a2c5d,cemiplimab,给药途径,,类别型,静脉/系统治疗,,第1周期给药,,,LLM提取,论文病例报告,2020-11-08,用药,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,b0f2d6e9-7c5b-4c2d-9f0a-6a2f1c3d4e5f,患者,不良反应名称,,类别型,肿瘤短暂进展/伪进展伴出血,,急诊就诊时,,,LLM提取,论文病例报告,2020-11-23,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,b0f2d6e9-7c5b-4c2d-9f0a-6a2f1c3d4e5f,患者,处理措施,,文本型,考虑为免疫治疗后flare（伪进展），继续计划放疗,,ED就诊后由放疗肿瘤科建议QUAD shot,,,LLM提取,论文病例报告,2020-11-23,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,9b6e5a5d-9c6c-4a2d-8d4f-3b2a1c0d9e1f,病程,治疗反应,,类别型,明显缓解,,联合首剂cemiplimab+首个放疗周期后,,,LLM提取,论文病例报告,2020-12-03,病程,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,c7a6b8f1-2d3e-4f5a-9c7d-1e2f3a4b5c6d,患者,不良反应名称,,类别型,甲状腺功能减退,,2级,,,LLM提取,论文病例报告,2020-12-23,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,9b6e5a5d-9c6c-4a2d-8d4f-3b2a1c0d9e1f,病程,治疗反应,,类别型,肿块进一步缩小约75%,,至2020-12-23左右,,,LLM提取,论文病例报告,2020-12-23,病程,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,a8c9d0e1-f2a3-4b5c-8d6e-7f8091a2b3c4,患者,治疗方案,,类别型,cemiplimab持续治疗,,cycle 4 day 1给药后继续,,,LLM提取,论文病例报告,2021-01-04,用药,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,a8c9d0e1-f2a3-4b5c-8d6e-7f8091a2b3c4,cemiplimab,药品名称,,类别型,cemiplimab,,第4周期第1天,,,LLM提取,论文病例报告,2021-01-04,用药,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,d9e0f1a2-b3c4-4d5e-8f6a-7b8091c2d3e4,患者,不良反应名称,,类别型,上颌窦和鼻腔瘘,,2个瘘管，被认为是病灶退缩部位,,,LLM提取,论文病例报告,2021-01-04,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,病灶,影像所见,,文本型,面部MRI示眶下区肿瘤近乎完全退缩,,2021-01-27,,MRI,LLM提取,论文病例报告,2021-01-27,影像,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c,患者,不良反应名称,,类别型,转氨酶升高,,1级；AST/ALT升高,,,LLM提取,论文病例报告,2021-02-04,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c,患者,处理措施,,文本型,暂停cemiplimab，AST/ALT改善后恢复,,计划在cycle 5前停药,,,LLM提取,论文病例报告,2021-02-04,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,0a1b2c3d-4e5f-6789-abcd-ef0123456789,肿瘤组织,病理诊断,,文本型,2个活检点未见残余癌,,2021-02-04共取4处活检,,biopsy,LLM提取,论文病例报告,2021-02-04,病理,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,0a1b2c3d-4e5f-6789-abcd-ef0123456789,肿瘤组织,病理诊断,,文本型,4处活检均未见残余癌,,原文描述为四个活检未见残余癌证据,,biopsy,LLM提取,论文病例报告,2021-02-04,病理,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,1a2b3c4d-5e6f-7890-abcd-ef1234567890,患者,手术名称,,类别型,清创及重建手术,,清除坏死组织并重建,,,LLM提取,论文病例报告,2021-02-04,手术,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,1a2b3c4d-5e6f-7890-abcd-ef1234567890,患者,手术结果,,文本型,耐受手术，完成挽救性/重建性处理,,术后存在较多并发症,,,LLM提取,论文病例报告,2021-02-04,手术,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,2b3c4d5e-6f7a-8901-bcde-f1234567890a,患者,不良反应名称,,类别型,艰难梭菌结肠炎,,术后难治性，影响恢复,,,LLM提取,论文病例报告,2021-02-04,不良反应,v1
+dc394dc8ee69c6c9e8ae50177a7ede0b,06b3ca70710542d5d1d5305dec03b9fc,3c4d5e6f-7a89-0123-cdef-2345678901ab,患者,病程,,文本型,术后12个月无局部复发的临床或影像学证据,,仍计划进一步手术以缩小面部皮瓣并处理放疗/手术相关眶周并发症,,,LLM提取,论文病例报告,2022-02-04,病程,v1

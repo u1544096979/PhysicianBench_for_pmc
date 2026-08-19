@@ -1,0 +1,35 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,2f2e6a2f-9d8a-4d4f-b6b0-7b8d7a8e4c1a,患者,年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,2020-01-01,病史,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,2f2e6a2f-9d8a-4d4f-b6b0-7b8d7a8e4c1a,患者,种族,,文本型,Caucasian（western European）,,,,,LLM提取,论文病例报告,2020-01-01,病史,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,b2e1f8b0-9d67-4b6a-a4cb-7ce6eb3d3f2e,患者,主诉,,文本型,PSA升高至4.97 µg/l，无可触及结节，前来筛查,,,,,LLM提取,论文病例报告,2020-12-01,病史,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,b2e1f8b0-9d67-4b6a-a4cb-7ce6eb3d3f2e,患者,现病史,,文本型,2020年底筛查时发现PSA升高；MRI提示PI-RADS 5病灶,,,,,LLM提取,论文病例报告,2020-12-01,病史,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,b2e1f8b0-9d67-4b6a-a4cb-7ce6eb3d3f2e,患者,既往史,,文本型,2019年经Millin入路手术,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,2e1f1a7f-7f2f-4d1b-9d9f-4d7a53a9de11,患者,入院年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,2020-12-15,入院,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,4b5bf5e2-2b7a-4e5d-8aa2-3de2c8f2f6db,血清,PSA,,数值型,4.97,4.97,,µg/l,,LLM提取,论文病例报告,2020-12-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,7fd5d3c9-3d3f-4b14-8e76-4f4dcd7d2ce8,影像检查,影像所见,,文本型,前列腺MRI示PI-RADS 5病灶,,,,MRI,LLM提取,论文病例报告,2020-12-01,影像,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,7fd5d3c9-3d3f-4b14-8e76-4f4dcd7d2ce8,影像检查,影像结论,,文本型,提示前列腺高度可疑恶性病变（PI-RADS 5）,,,,MRI,LLM提取,论文病例报告,2020-12-01,影像,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d3c7d4b9-4a47-4cc1-9a83-7f9ebc4f6b10,患者,手术名称,,类别型,经会阴穿刺活检,,,,,LLM提取,论文病例报告,2020-12-15,手术,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d3c7d4b9-4a47-4cc1-9a83-7f9ebc4f6b10,病理标本,病理诊断,,文本型,前列腺癌,,,,组织病理学,LLM提取,论文病例报告,2020-12-15,病理,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d3c7d4b9-4a47-4cc1-9a83-7f9ebc4f6b10,病理标本,Gleason评分,,类别型,3+4=7a,,1/12 cores阳性,,组织病理学,LLM提取,论文病例报告,2020-12-15,病理,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d3c7d4b9-4a47-4cc1-9a83-7f9ebc4f6b10,病理标本,阳性针数,,数值型,1,1,共12针,针,组织病理学,LLM提取,论文病例报告,2020-12-15,病理,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,9d5f7a8b-0c14-4c47-9f0d-5a5f4f7b5e21,患者,IPSS,,数值型,7,7,35分制,分,,LLM提取,论文病例报告,2020-12-15,评估,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,9d5f7a8b-0c14-4c47-9f0d-5a5f4f7b5e21,患者,QoL评分,,数值型,1,1,6分制,分,,LLM提取,论文病例报告,2020-12-15,评估,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,f1f5f4f4-7e64-4b4a-8e7c-9c1d0b5d2f33,诊断,诊断名称,,类别型,前列腺癌,,中危,,,LLM提取,论文病例报告,2020-12-15,诊断,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,f1f5f4f4-7e64-4b4a-8e7c-9c1d0b5d2f33,诊断,临床分期,,类别型,中危,,PSA<10 µg/l，Gleason 7a仅1针阳性,,,LLM提取,论文病例报告,2020-12-15,诊断,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d9d0d7a2-1f7c-4b1d-9d8b-1f2c3e4a5b67,患者,手术名称,,类别型,125I近距离放疗,,术前超声计划,,,LLM提取,论文病例报告,2021-03-09,手术,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d9d0d7a2-1f7c-4b1d-9d8b-1f2c3e4a5b67,患者,麻醉方式,,类别型,未提及,,,,,LLM提取,论文病例报告,2021-03-09,手术,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d9d0d7a2-1f7c-4b1d-9d8b-1f2c3e4a5b67,患者,手术结果,,文本型,125I近距离放疗成功完成，术后过程平稳,,,,,LLM提取,论文病例报告,2021-03-09,手术,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d9d0d7a2-1f7c-4b1d-9d8b-1f2c3e4a5b67,患者,出血量,,数值型,,,未提及,,,LLM提取,论文病例报告,2021-03-09,手术,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,a7f8b9c1-0d2e-4f3a-9c1d-2e3f4a5b6c78,患者,治疗方案,,类别型,125I近距离放疗,,处方外周剂量145 Gy,,,LLM提取,论文病例报告,2021-03-09,病程,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,a7f8b9c1-0d2e-4f3a-9c1d-2e3f4a5b6c78,患者,治疗反应,,类别型,术后恢复良好,,,,,LLM提取,论文病例报告,2021-03-09,病程,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,c6d7e8f9-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,PSA,,数值型,1.37,1.37,术后8-9个月达到nadir,µg/l,,LLM提取,论文病例报告,2021-12-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,c2e3f4a5-b6c7-4d8e-9f01-2a3b4c5d6e7f,患者,症状,,文本型,排尿情况满意，无血尿、尿失禁、腹泻或便血,,术后6个月,,,LLM提取,论文病例报告,2021-09-01,评估,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,e1f2a3b4-c5d6-4e7f-8091-2a3b4c5d6e7f,患者,PSA,,数值型,1.5,1.5,约6个月后轻度升高,µg/l,,LLM提取,论文病例报告,2022-06-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,f4a5b6c7-d8e9-4f01-9234-5d6e7f8091a2,血清,PSA,,数值型,4.16,4.16,符合ASTRO定义的生化失败（nadir+2）,µg/l,,LLM提取,论文病例报告,2022-11-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,f4a5b6c7-d8e9-4f01-9234-5d6e7f8091a2,患者,诊断名称,,类别型,生化失败,,ASTRO标准：nadir+2 µg/l,,,LLM提取,论文病例报告,2022-11-01,诊断,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,PET-CT,影像所见,,文本型,前列腺内见PSMA高摄取灶，提示局部复发,,未见转移灶,,F-18-PSMA PET-CT,LLM提取,论文病例报告,2022-11-01,影像,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,PET-CT,影像结论,,文本型,疑似前列腺局部复发,,PSMA PET-CT假阳性可能,,F-18-PSMA PET-CT,LLM提取,论文病例报告,2022-11-01,影像,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,d1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e6f,患者,PSA,,数值型,3.75,3.75,4周后复查下降,µg/l,,LLM提取,论文病例报告,2022-12-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,e7f8a9b0-c1d2-4e3f-8091-2a3b4c5d6e7f,患者,PSA,,数值型,2.68,2.68,进一步下降,µg/l,,LLM提取,论文病例报告,2023-01-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,f0a1b2c3-d4e5-4f67-8091-2a3b4c5d6e7f,患者,PSA,,数值型,0.48,0.48,随后进一步下降，提示bounce phenomenon,µg/l,,LLM提取,论文病例报告,2024-07-01,检验,v1
+bc8b7ca9f4b161398af03e6f9447be0e,373c200ed66bcdf4d95a7a38f18ad292,f0a1b2c3-d4e5-4f67-8091-2a3b4c5d6e7f,患者,治疗反应,,类别型,无需进一步治疗,,避免了挽救治疗,,,LLM提取,论文病例报告,2024-07-01,病程,v1

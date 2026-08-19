@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,3f6f7f4d-2e6a-4a8d-a1b4-2b2d8d6d9f11,患者,个人史,,文本型,2010年子宫平滑肌瘤,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,3f6f7f4d-2e6a-4a8d-a1b4-2b2d8d6d9f11,患者,既往史,,文本型,阵发性房颤、反流性食管炎、慢性焦虑,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,c6b2d56f-71df-4ef1-b6b8-5a7c1a3f4b92,患者,主诉,,文本型,头痛、恶心、失读,,,,,LLM提取,论文病例报告,2014-04-01,病史,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,d3b7c3e0-2d8f-4d7c-9bfe-8e7d5f1cf4a1,患者,影像所见,,文本型,MRI示左侧颞顶叶脑内高信号肿块,,,,MRI,LLM提取,论文病例报告,2014-04-01,影像,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,b4c1e2f7-7d9d-4e3b-8b0c-6d8a9d2c1f55,患者,手术名称,,类别型,最大范围切除术,,伴5-ALA（5-氨基乙酰丙酸）输注,,,LLM提取,论文病例报告,2014-04-01,手术,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,e1c5a7d9-9f3f-4a2d-a7ef-1f8c2d4b6a33,肿瘤标本,病理诊断,,文本型,胶质母细胞瘤（GBM）,,IDH野生型，MGMT未甲基化，ATRX核染色保留，EGFR IHC阴性,,组织病理学/IHC,LLM提取,论文病例报告,2014-04-01,病理,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,e1c5a7d9-9f3f-4a2d-a7ef-1f8c2d4b6a33,肿瘤标本,分子标志物,,类别型,IDH1野生型,,,,IHC/测序,LLM提取,论文病例报告,2014-04-01,诊断,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,e1c5a7d9-9f3f-4a2d-a7ef-1f8c2d4b6a33,肿瘤标本,MGMT状态,,类别型,未甲基化,,,,焦磷酸测序,LLM提取,论文病例报告,2014-04-01,诊断,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,e1c5a7d9-9f3f-4a2d-a7ef-1f8c2d4b6a33,肿瘤标本,EGFR状态,,类别型,IHC阴性,,,,免疫组化,LLM提取,论文病例报告,2014-04-01,诊断,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,f2f4a3c1-8a2b-4c6d-9d2e-7c1a5d4e9b10,患者,治疗方案,,类别型,同步放化疗 + 持续TMZ后辅助TMZ,,EORTC方案；辅助TMZ 6个月，5天方案,,,LLM提取,论文病例报告,2014-04-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,f2f4a3c1-8a2b-4c6d-9d2e-7c1a5d4e9b10,患者,治疗反应,,类别型,稳定,,无进展23个月,,,LLM提取,论文病例报告,2014-04-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,9e8d7c6b-5a4f-4d3a-8c2b-1f0e9d8c7b66,患者,影像所见,,文本型,MRI示T2/FLAIR改变增加,,,,MRI,LLM提取,论文病例报告,2016-03-01,影像,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,a7c3d5e1-4f6a-4c2d-9a1b-8e7d6c5b4a22,患者,治疗方案,,类别型,口服TMZ再挑战,,,,,LLM提取,论文病例报告,2016-03-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,8a2d1c3e-6f4b-4d7a-9c2e-1b5a7d8e9c11,患者,影像所见,,文本型,MRI示T2/FLAIR病灶增大,,,,MRI,LLM提取,论文病例报告,2016-05-01,影像,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,8a2d1c3e-6f4b-4d7a-9c2e-1b5a7d8e9c11,患者,治疗方案,,类别型,停止TMZ，改用pembrolizumab单药,,PD-1抑制剂,,,LLM提取,论文病例报告,2016-05-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,8a2d1c3e-6f4b-4d7a-9c2e-1b5a7d8e9c11,患者,治疗反应,,类别型,进展,,接受4个周期后出现新左额叶肿块,,,LLM提取,论文病例报告,2016-05-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,7d6e5c4b-3a2f-4d1c-9e8b-6a5f4c3d2b77,肿瘤标本,病理诊断,,文本型,复发性胶质母细胞瘤,,EGFR IHC强阳性，MGMT仍未甲基化,,组织病理学/IHC,LLM提取,论文病例报告,2016-09-01,病理,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,7d6e5c4b-3a2f-4d1c-9e8b-6a5f4c3d2b77,肿瘤标本,EGFR状态,,类别型,IHC强阳性,,,,免疫组化,LLM提取,论文病例报告,2016-09-01,诊断,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,7d6e5c4b-3a2f-4d1c-9e8b-6a5f4c3d2b77,肿瘤标本,MGMT状态,,类别型,仍未甲基化,,,,焦磷酸测序,LLM提取,论文病例报告,2016-09-01,诊断,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,2b7f1d4e-9c3a-4f5d-8a1b-6d4e2c7a9f88,患者,治疗方案,,类别型,复照射,,针对左额叶病灶床,,,LLM提取,论文病例报告,2016-11-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,2b7f1d4e-9c3a-4f5d-8a1b-6d4e2c7a9f88,患者,治疗方案,,类别型,bevacizumab姑息治疗,,抗VEGF单抗,,,LLM提取,论文病例报告,2016-11-01,用药,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,2b7f1d4e-9c3a-4f5d-8a1b-6d4e2c7a9f88,患者,治疗反应,,类别型,进展,,MRI提示多发远离原肿瘤床的病灶,,,LLM提取,论文病例报告,2016-11-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,5c8d7e6f-4a3b-4d1a-9e2c-7f6a5b4c3d99,患者,治疗方案,,类别型,bevacizumab + ABT-414,,ABT-414为新型EGFR抑制剂,,,LLM提取,论文病例报告,2016-11-01,用药,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,5c8d7e6f-4a3b-4d1a-9e2c-7f6a5b4c3d99,患者,药品名称,,类别型,TMZ,,与ABT-414联用1个周期,,,LLM提取,论文病例报告,2016-11-01,用药,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,5c8d7e6f-4a3b-4d1a-9e2c-7f6a5b4c3d99,患者,不良反应名称,,类别型,骨髓抑制,,明显骨髓抑制,,,LLM提取,论文病例报告,2016-11-01,不良反应,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,5c8d7e6f-4a3b-4d1a-9e2c-7f6a5b4c3d99,患者,治疗方案,,类别型,ABT-414单药继续,,,,,LLM提取,论文病例报告,2016-11-01,用药,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,5c8d7e6f-4a3b-4d1a-9e2c-7f6a5b4c3d99,患者,治疗反应,,类别型,进展,,MRI示进一步进展,,,LLM提取,论文病例报告,2016-11-01,病程,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,4a1d2c3b-5e6f-4a7d-9c8b-1f2e3d4c5b66,患者,出院状况,,类别型,卧床,,随后转为居家姑息照护,,,LLM提取,论文病例报告,2017-10-01,出院,v1
+f4d887611c9e85df823f51a8c7fd54b8,f02145e256c01aebf9a1d1439a320caa_1,4a1d2c3b-5e6f-4a7d-9c8b-1f2e3d4c5b66,患者,随访结果,,文本型,死亡,,初诊后42个月（2017年10月）去世,,,LLM提取,论文病例报告,2017-10-01,病程,v1

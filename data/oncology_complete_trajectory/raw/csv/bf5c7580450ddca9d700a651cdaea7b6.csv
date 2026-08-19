@@ -1,0 +1,46 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,5d2e0ad2-9c3a-4f0b-8d4f-8f9a8f5d1a11,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,,病史,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,5d2e0ad2-9c3a-4f0b-8d4f-8f9a8f5d1a11,患者,年龄,,数值型,60,60,,岁,,LLM提取,论文病例报告,,病史,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,1f0a8b7e-9df7-4e77-9f7d-3d4f1d8b6c21,患者,主诉,,文本型,自2015年起双侧髋部疼痛不适，进行性下肢无力；2024年3月出现左大腿外形畸形伴疼痛不明显诱因,,,,,LLM提取,论文病例报告,2015-01-01,病史,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,8a8db2c7-1f6f-4f7b-8dcb-2c8d8d7f1b22,患者,既往史,,文本型,2015-2017年因双侧髋关节疼痛不适和进行性下肢无力多次住院；无外伤史；否认糖尿病、肾脏及心血管系统基础疾病；否认骨病和肿瘤相关遗传病史,,,,,LLM提取,论文病例报告,,病史,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,8a8db2c7-1f6f-4f7b-8dcb-2c8d8d7f1b22,患者,家族史,,文本型,否认家族中有类似骨折史；6个兄弟姐妹无类似骨折史；有1个女儿，生长发育正常,,,,,LLM提取,论文病例报告,,病史,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,c4d2b8d0-7d67-4a63-8c8f-0f2b0b8f3c31,患者,体格检查,,文本型,多颗牙齿缺失，全身皮肤干燥脱屑，佝偻病，桶状胸；心脏听诊无异常；右侧远端股骨髌上囊可触及4×3×2 cm肿块，边界清楚，质硬，活动受限，无压痛；双下肢血供正常，感觉对称一致,,检查时左下肢石膏固定,,,LLM提取,论文病例报告,2024-03-01,评估,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,3f0b8f2b-1b2d-4e7a-9c4c-5d1d2f3a4b55,影像,影像所见,,文本型,2015年6月双侧股骨颈骨折；2016年9月较前移位并未愈合；2017年9月较前稍移位仍未愈合；2021年9月右侧近端股骨外侧皮质出现骨折征象,,来自X线/髋关节MRI随访,,X线、MRI,LLM提取,论文病例报告,2015-06-01,影像,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,7d1e2c3f-4a5b-4c6d-8e7f-9a0b1c2d3e44,患者,诊断名称,,类别型,代谢性骨病相关低磷骨软化症/疑似TIO,,2015-2017年由内分泌科及肾内科会诊后判断,,,LLM提取,论文病例报告,2017-09-01,诊断,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,9a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c66,患者,用药名称,,类别型,鲑鱼降钙素,,对症治疗,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,9a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c66,患者,用药名称,,类别型,雌三醇,,对症治疗,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,9a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c66,患者,用药名称,,类别型,维生素D,,对症治疗,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2b4c6d7e-8f90-4a1b-9c2d-3e4f5a6b7c88,患者,手术名称,,类别型,左股骨骨折切开复位内固定术,,7孔锁定钢板，5枚锁定螺钉，3枚空心钉固定,,,LLM提取,论文病例报告,2018-03-01,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2b4c6d7e-8f90-4a1b-9c2d-3e4f5a6b7c88,患者,麻醉方式,,类别型,全身麻醉,,,,,LLM提取,论文病例报告,2018-03-01,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2b4c6d7e-8f90-4a1b-9c2d-3e4f5a6b7c88,患者,手术结果,,文本型,骨折复位满意，术中X线显示钢板位置及骨折对位对线良好,,,,术中X线,LLM提取,论文病例报告,2018-03-01,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2b4c6d7e-8f90-4a1b-9c2d-3e4f5a6b7c88,患者,出血量,,数值型,,,,,,LLM提取,论文病例报告,2018-03-01,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e99,患者,诊断名称,,类别型,左股骨转子下骨折,,2018年3月入院时,,,LLM提取,论文病例报告,2018-03-01,诊断,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e99,患者,影像所见,,文本型,骨盆X线示双侧股骨颈骨折未完全愈合，伴左侧股骨转子间骨折；术后随访显示内固定牢固、骨折愈合良好,,2018年3月、2019年6月、2021年9月随访影像总结,,X线,LLM提取,论文病例报告,2018-03-01,影像,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e99,患者,诊断名称,,类别型,慢性低磷血症/骨软化症/骨质疏松,,长期存在，具体时间未明,,,LLM提取,论文病例报告,,诊断,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,磷,,数值型,低,,长期反复低磷；术前明显降低,mmol/L,,LLM提取,论文病例报告,2024-03-22,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,钙,,数值型,正常/偏低,,多次随访基本正常；2025-04-27为2.54 mmol/L,mmol/L,,LLM提取,论文病例报告,2025-04-27,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,25(OH)D,,数值型,缺乏,,长期维生素D缺乏,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,PTH,,数值型,正常,,,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,ALP,,数值型,升高,,术前升高,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,β-CTX,,数值型,基本正常,,术前长期监测未明显升高；术后升高,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,N-MID,,数值型,基本正常,,术前长期监测未明显升高；术后升高,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,a1b2c3d4-e5f6-4789-9abc-def012345678,血液,PINP,,数值型,基本正常,,术前长期监测未明显升高；术后升高,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,血液,HLA-B27,,类别型,未见异常,,,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,血液,ASO,,类别型,未见异常,,,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,血液,RF,,类别型,未见异常,,,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70,血液,肿瘤标志物,,类别型,未见异常,,,,,LLM提取,论文病例报告,,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7081,骨密度,腰椎BMD,,数值型,0.76,0.76,2015-2024年持续监测；2024年最低,g/cm²,DXA,LLM提取,论文病例报告,2024-01-01,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7081,骨密度,腰椎T-Score,,数值型,-3.0,-3.0,符合骨质疏松,,DXA,LLM提取,论文病例报告,2024-01-01,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7081,骨密度,左股骨BMD,,数值型,0.627,0.627,,g/cm²,DXA,LLM提取,论文病例报告,2024-01-01,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,e5f6a7b8-c9d0-4e1f-9a2b-3c4d5e6f7081,骨密度,左股骨T-Score,,数值型,-2.7,-2.7,,,DXA,LLM提取,论文病例报告,2024-01-01,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708192,右髌上囊肿块,影像所见,,文本型,PET/CT示右侧髌上囊囊实性结节，FDG PET提示囊壁轻度代谢增高，68Ga-DOTA-TATE PET/CT提示明显代谢增高,,大小约2.6×1.3×2.5 cm；SUVmax 3.0（FDG），14.8（DOTA-TATE）,,18F-FDG PET/CT、68Ga-DOTA-TATE PET/CT,LLM提取,论文病例报告,2024-03-22,影像,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708192,右髌上囊肿块,诊断名称,,类别型,磷酸盐尿性间叶性肿瘤（PMT）,,基于PET/CT及病理,,,LLM提取,论文病例报告,2024-03-22,诊断,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708192,患者,诊断名称,,类别型,肿瘤诱发性骨软化症（TIO）,,确诊,,,LLM提取,论文病例报告,2024-03-22,诊断,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,0a1b2c3d-4e5f-4067-8a9b-0c1d2e3f4a50,右髌上囊肿块,手术名称,,类别型,肿块切除术,,术中完整切除；棕褐色液体外溢；肿块约2.7×2.5×1.4 cm，表面光滑，暗红色，质地较硬,,,LLM提取,论文病例报告,2024-03-22,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,0a1b2c3d-4e5f-4067-8a9b-0c1d2e3f4a50,患者,手术名称,,类别型,左股骨近端骨折切开复位内固定术,,与肿块切除同期进行,,,LLM提取,论文病例报告,2024-03-22,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,0a1b2c3d-4e5f-4067-8a9b-0c1d2e3f4a50,患者,手术结果,,文本型,肿块完整切除，左股骨近端骨折复位并固定，术后对位良好,,,,,LLM提取,论文病例报告,2024-03-22,手术,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,1a2b3c4d-5e6f-4a70-8b9c-0d1e2f3a4b61,病理标本,病理诊断,,文本型,符合磷酸盐尿性间叶性肿瘤（PMT）,,镜下见短梭形/星芒状细胞，血管丰富，钙化及玻璃样变等,,组织病理学,LLM提取,论文病例报告,2024-03-22,病理,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2c3d4e5f-6a70-4b81-9c0d-1e2f3a4b5c72,患者,随访结果,,文本型,术后1年余随访无下肢肌肉抽搐及髋痛，使用助行器可下地行走；左侧骨折部位步行时轻度疼痛不适,,2025-04-27复诊,,,LLM提取,论文病例报告,2025-04-27,病程,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2c3d4e5f-6a70-4b81-9c0d-1e2f3a4b5c72,血液,磷,,数值型,0.97,0.97,,mmol/L,,LLM提取,论文病例报告,2025-04-27,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2c3d4e5f-6a70-4b81-9c0d-1e2f3a4b5c72,血液,钙,,数值型,2.54,2.54,,mmol/L,,LLM提取,论文病例报告,2025-04-27,检验,v1
+bf5c7580450ddca9d700a651cdaea7b6,15cad0bb6448efac98b05fd0c7b33823,2c3d4e5f-6a70-4b81-9c0d-1e2f3a4b5c72,影像,影像所见,,文本型,双下肢全长DR示右侧股骨骨折端愈合良好,,,,DR,LLM提取,论文病例报告,2025-04-27,影像,v1

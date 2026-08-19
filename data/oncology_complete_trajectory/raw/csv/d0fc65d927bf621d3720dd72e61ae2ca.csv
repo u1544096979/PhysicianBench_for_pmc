@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,2b2d0c6b-9c13-4f0d-9f2d-4b2f2f1ef8c1,患者,病史,,文本型,1975年因子宫肌瘤行子宫切除术,,,,,LLM提取,论文病例报告,1975-01-01,病史,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,d8ce5c7b-38a9-4d76-8d27-3a2d8f7d4f6c,患者,诊断名称,,类别型,会阴部平滑肌肉瘤,,UICC I期；肿瘤大小3×2 cm；无淋巴结转移或远处转移,,,LLM提取,论文病例报告,2001-01-01,诊断,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,d8ce5c7b-38a9-4d76-8d27-3a2d8f7d4f6c,患者,临床分期,,类别型,I期,,UICC,,,LLM提取,论文病例报告,2001-01-01,诊断,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,d8ce5c7b-38a9-4d76-8d27-3a2d8f7d4f6c,患者,手术名称,,类别型,会阴部平滑肌肉瘤切除术,,肿瘤完全切除,,,LLM提取,论文病例报告,2001-01-01,手术,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,0f0a9d3f-0c93-4d1c-8d0c-34f3b0e7a2d1,患者,入院年龄,,数值型,79,79,,岁,,LLM提取,论文病例报告,2009-10-01,入院,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,0f0a9d3f-0c93-4d1c-8d0c-34f3b0e7a2d1,患者,主诉,,文本型,体检胸部X线异常阴影,,无特殊症状,,,LLM提取,论文病例报告,2009-10-01,入院,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,0f0a9d3f-0c93-4d1c-8d0c-34f3b0e7a2d1,患者,一般状况_体温,,文本型,35.8°C,,,,,LLM提取,论文病例报告,2009-10-01,评估,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,0f0a9d3f-0c93-4d1c-8d0c-34f3b0e7a2d1,患者,一般状况_血压,,文本型,119/78 mmHg,,,,,LLM提取,论文病例报告,2009-10-01,评估,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,0f0a9d3f-0c93-4d1c-8d0c-34f3b0e7a2d1,患者,一般状况_脉搏,,文本型,68次/分,,,,,LLM提取,论文病例报告,2009-10-01,评估,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,0f0a9d3f-0c93-4d1c-8d0c-34f3b0e7a2d1,患者,一般状况_血氧饱和度,,文本型,97%,,室内空气,,,LLM提取,论文病例报告,2009-10-01,评估,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,f7c2d0ef-3b43-4b0f-b79d-1a6d2d4a0a8b,血液,肿瘤标志物SCC,,类别型,正常,,未见异常,,,LLM提取,论文病例报告,2009-10-01,检验,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,f7c2d0ef-3b43-4b0f-b79d-1a6d2d4a0a8b,血液,肿瘤标志物SLX,,类别型,正常,,未见异常,,,LLM提取,论文病例报告,2009-10-01,检验,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,5d6ad1c2-6c31-4f8a-9f47-0c4f77d6d8f9,胸部X线,影像所见,,文本型,右肺中野见币形结节影,,,,X线,LLM提取,论文病例报告,2009-10-01,影像,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,5d6ad1c2-6c31-4f8a-9f47-0c4f77d6d8f9,胸部X线,影像结论,,文本型,考虑右肺结节性病变,,,,X线,LLM提取,论文病例报告,2009-10-01,影像,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,8f0d6d2c-8f5b-4d5b-a7a7-7d3a2d6f0dcb,胸部CT,影像所见,,文本型,右肺S2段见边界清楚、直径20 mm的结节,20,边界清楚,mm,CT,LLM提取,论文病例报告,2009-10-01,影像,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,8f0d6d2c-8f5b-4d5b-a7a7-7d3a2d6f0dcb,胸部CT,影像结论,,文本型,右肺占位性病变，考虑转移,,,,CT,LLM提取,论文病例报告,2009-10-01,影像,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,a3c1f0a6-5a52-4d7f-bc5f-5bb8adf2d111,患者,手术名称,,类别型,右上叶胸腔镜切除术,,切除右肺上叶病灶,,,LLM提取,论文病例报告,2010-02-01,手术,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,a3c1f0a6-5a52-4d7f-bc5f-5bb8adf2d111,患者,病理诊断,,文本型,切除病灶符合平滑肌肉瘤,,结合既往会阴部平滑肌肉瘤病史及组织学相似性，诊断为肺转移,,组织病理学,LLM提取,论文病例报告,2010-02-01,病理,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,c7c9e2d5-7a4a-4c49-9b1c-5f9cde6f7a22,患者,诊断名称,,类别型,会阴部平滑肌肉瘤肺转移,,右肺,,,LLM提取,论文病例报告,2010-02-01,诊断,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,f1f0c2b3-2d7d-4f1c-8a9d-7b8e2d9c4f55,胸部CT,影像所见,,文本型,左肺S10见边缘不规则但边界尚清的结节,,,,CT,LLM提取,论文病例报告,2010-07-01,影像,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,f1f0c2b3-2d7d-4f1c-8a9d-7b8e2d9c4f55,胸部CT,影像结论,,文本型,考虑转移性平滑肌肉瘤,,,,CT,LLM提取,论文病例报告,2010-07-01,影像,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,f1f0c2b3-2d7d-4f1c-8a9d-7b8e2d9c4f55,患者,诊断名称,,类别型,转移性平滑肌肉瘤,,左肺,,,LLM提取,论文病例报告,2010-07-01,诊断,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,用药名称,,类别型,TS-1,,门诊口服治疗；患者拒绝住院治疗,,,LLM提取,论文病例报告,2010-09-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,剂量,,数值型,100,100,第1周期：每日2次分服,mg/day,,LLM提取,论文病例报告,2010-09-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,用药周期,,文本型,连续28天，随后停药14天,,第1周期,,,LLM提取,论文病例报告,2010-09-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,b4a1e2d3-f4c5-4b6a-8d7e-9f0a1b2c3d4e,患者,不良反应名称,,类别型,食欲下降,,第1周期结束后出现,,,LLM提取,论文病例报告,2010-10-01,不良反应,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,b4a1e2d3-f4c5-4b6a-8d7e-9f0a1b2c3d4e,患者,处理措施,,文本型,将TS-1减量至80 mg/day,,第2周期,,,LLM提取,论文病例报告,2010-10-01,不良反应,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,用药名称,,类别型,TS-1,,第2周期,,,LLM提取,论文病例报告,2010-10-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,剂量,,数值型,80,80,,mg/day,,LLM提取,论文病例报告,2010-10-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,用药周期,,文本型,28天用药，随后14天停药,,第2周期,,,LLM提取,论文病例报告,2010-10-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,9b8d7c6a-1f2e-4c3b-8d9a-0e1f2a3b4c5d,患者,治疗反应,,类别型,肿瘤缩小,,第2周期结束时胸部CT显示,,CT评估,LLM提取,论文病例报告,2010-10-01,病程,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,e2b3c4d5-f6a7-48b9-9c0d-1e2f3a4b5c6d,患者,用药名称,,类别型,TS-1,,第4周期起,,,LLM提取,论文病例报告,2010-12-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,e2b3c4d5-f6a7-48b9-9c0d-1e2f3a4b5c6d,患者,剂量,,数值型,80,80,第4周期及以后,mg/day,,LLM提取,论文病例报告,2010-12-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,e2b3c4d5-f6a7-48b9-9c0d-1e2f3a4b5c6d,患者,用药周期,,文本型,用药14天，停药14天,,第4周期起,,,LLM提取,论文病例报告,2010-12-01,用药,v1
+d0fc65d927bf621d3720dd72e61ae2ca,ef353b30f7f00f68aba0a524ff3c56c8,6a7b8c9d-0e1f-4a2b-8c3d-4e5f6a7b8c9d,患者,病程,,文本型,完成16个周期TS-1治疗，病灶无进一步增大，无副作用，体能状态维持良好,,截至2012年3月,,,LLM提取,论文病例报告,2012-03-01,病程,v1

@@ -1,0 +1,73 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,6a6bb7c9-2d2d-4a49-8b56-6e63f85f2d7f,患者,入院年龄,,数值型,57,57,,岁,,LLM提取,论文病例报告,1996-08-01,入院,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,6a6bb7c9-2d2d-4a49-8b56-6e63f85f2d7f,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,1996-08-01,入院,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,6a6bb7c9-2d2d-4a49-8b56-6e63f85f2d7f,患者,主诉,,文本型,左上腹痛,,,,,LLM提取,论文病例报告,1996-08-01,病史,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,d7e6114f-4f13-4e05-a5c5-7bb64f2d0c45,腹部增强CT,影像所见,,文本型,胃大弯侧见10×9.5×12 cm软组织肿块，密度不均匀,,,,CT,LLM提取,论文病例报告,1996-08-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,d7e6114f-4f13-4e05-a5c5-7bb64f2d0c45,腹部增强CT,影像结论,,文本型,考虑胃平滑肌肉瘤,,,,CT,LLM提取,论文病例报告,1996-08-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,c4d0d4fb-7d26-4a78-95b8-5a5a95b5f2f6,手术,手术名称,,类别型,胃病灶切除术+部分横结肠切除术,,,,,LLM提取,论文病例报告,1996-08-21,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,c4d0d4fb-7d26-4a78-95b8-5a5a95b5f2f6,手术,手术结果,,文本型,完成切除,,,,,LLM提取,论文病例报告,1996-08-21,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,8ed7d2d0-95c5-4f44-9b95-3b1a4f7af61f,病理,病理诊断,,文本型,胃平滑肌肉瘤，低度恶性,,,,,LLM提取,论文病例报告,1996-08-21,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,2a3a0b3e-7a65-4b8c-93dd-4f2d4a6df9d3,患者,现病史,,文本型,11年后因腹痛复查发现腹部病灶,,,,,LLM提取,论文病例报告,2007-04-01,病史,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,1f7c9c8a-2b4f-4f79-9d1b-7f6f5b0a8f4f,腹部CT,影像所见,,文本型,肝与胃之间见低密度圆形软组织肿块,,,,CT,LLM提取,论文病例报告,2007-04-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,1f7c9c8a-2b4f-4f79-9d1b-7f6f5b0a8f4f,腹部CT,影像结论,,文本型,考虑复发肿瘤,,,,CT,LLM提取,论文病例报告,2007-04-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,7f3e1f0d-9e45-4f95-8a6c-2a6bf5a1d9c1,手术,手术名称,,类别型,胃病灶切除术+左肝叶切除术,,,,,LLM提取,论文病例报告,2007-04-29,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,7f3e1f0d-9e45-4f95-8a6c-2a6bf5a1d9c1,手术,手术结果,,文本型,完成切除,,,,,LLM提取,论文病例报告,2007-04-29,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,b0d6a4b7-4e4d-4b0e-8f72-4f3a7cf7f6c2,病理,病理诊断,,文本型,低度恶性胃肠道间质瘤,,,,,LLM提取,论文病例报告,2007-04-29,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,c7c0d2de-3d2b-4f9c-9d0d-8d0e1c2d4e55,患者,现病史,,文本型,2013年常规复查发现腹部病灶再次复发,,,,,LLM提取,论文病例报告,2013-04-01,病史,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,e2c4d9f8-2b1a-4c9f-b6f5-6b2f1f0f4b22,腹部CT,影像所见,,文本型,腹腔内见两个较大囊性病灶：1个位于肝尾状叶与胃底右侧之间，另1个位于腹膜后,,,,CT,LLM提取,论文病例报告,2013-04-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,e2c4d9f8-2b1a-4c9f-b6f5-6b2f1f0f4b22,腹部CT,影像结论,,文本型,提示GIST复发,,,,CT,LLM提取,论文病例报告,2013-04-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,5f8a4fd4-2c7b-4c5e-9d74-9c2d3a7d4e66,手术,手术名称,,类别型,全胃切除术+胰腺部分切除术+脾切除术+左肾上腺切除术+Roux-en-Y食管空肠吻合术,,,,,LLM提取,论文病例报告,2013-04-01,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,5f8a4fd4-2c7b-4c5e-9d74-9c2d3a7d4e66,手术,手术结果,,文本型,完成切除,,,,,LLM提取,论文病例报告,2013-04-01,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,9d7b2d3e-1f0a-4d55-8a9c-3c1d2e3f4a55,病理,病理诊断,,文本型,胃肠道间质瘤,,,,,LLM提取,论文病例报告,2013-04-01,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,9d7b2d3e-1f0a-4d55-8a9c-3c1d2e3f4a55,病理,分化程度,,类别型,低度恶性,,,,,LLM提取,论文病例报告,2013-04-01,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,药品名称,,类别型,伊马替尼,,,,,LLM提取,论文病例报告,2013-05-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,剂量,,数值型,400,400,,mg/日,,LLM提取,论文病例报告,2013-05-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2013-05-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,用药周期,,文本型,每日持续用药,,,,,LLM提取,论文病例报告,2013-05-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,不良反应名称,,类别型,腹泻,,,,,LLM提取,论文病例报告,2013-05-01,不良反应,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,不良反应名称,,类别型,水肿,,,,,LLM提取,论文病例报告,2013-05-01,不良反应,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,4c6d7e8f-9a0b-4c1d-8e2f-1a2b3c4d5e6f,患者,处理措施,,文本型,未减量，2个月后自行缓解,,,,,LLM提取,论文病例报告,2013-05-01,不良反应,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,a1b2c3d4-e5f6-4789-9abc-def012345678,患者,主诉,,文本型,左侧背部疼痛,,,,,LLM提取,论文病例报告,2015-11-01,病史,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,b1c2d3e4-f5a6-4789-9abc-def012345679,CT,影像所见,,文本型,L5左侧横突与骶髂关节之间见不规则病灶，大小约4.2×5.7×6.7 cm，部分累及骶骨和左髂骨，增强呈不均匀强化,,,,CT,LLM提取,论文病例报告,2015-11-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,b1c2d3e4-f5a6-4789-9abc-def012345679,CT,影像结论,,文本型,提示软组织肿瘤,,,,CT,LLM提取,论文病例报告,2015-11-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,c1d2e3f4-a5b6-4789-9abc-def012345680,手术,手术名称,,类别型,腰椎软组织肿瘤切除术,,,,,LLM提取,论文病例报告,2016-01-11,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,c1d2e3f4-a5b6-4789-9abc-def012345680,手术,手术结果,,文本型,完成切除,,,,,LLM提取,论文病例报告,2016-01-11,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,d1e2f3a4-b5c6-4789-9abc-def012345681,病理,病理诊断,,文本型,恶性骨化性黏液纤维肉瘤,,,,,LLM提取,论文病例报告,2016-01-11,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,d1e2f3a4-b5c6-4789-9abc-def012345681,病理,浸润生长,,类别型,是,,,,,LLM提取,论文病例报告,2016-01-11,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,d1e2f3a4-b5c6-4789-9abc-def012345681,病理,卫星结节,,类别型,有,,,,,LLM提取,论文病例报告,2016-01-11,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,d1e2f3a4-b5c6-4789-9abc-def012345681,病理,免疫组化,,文本型,SMA(+)、CD34(+)、CDK4(+)、p63(-)、S-100(-)、GFAP(-)、EMA(-)、pan-CK(-)、vimentin(局灶+)、Ki-67(1–2%+),,,,免疫组化,LLM提取,论文病例报告,2016-01-11,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,e1f2a3b4-c5d6-4789-9abc-def012345682,CT/MRI,影像所见,,文本型,术后L5未见明显变化,,,,CT/MRI,LLM提取,论文病例报告,2017-01-01,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,f1a2b3c4-d5e6-4789-9abc-def012345683,体格检查,查体,,文本型,右前颈部多发肿大淋巴结,,,,,LLM提取,论文病例报告,2018-03-06,评估,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,f1a2b3c4-d5e6-4789-9abc-def012345683,CT,影像所见,,文本型,右肝见2个低回声结节，呈靶样改变,,,,CT,LLM提取,论文病例报告,2018-03-06,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,f1a2b3c4-d5e6-4789-9abc-def012345683,CT,影像结论,,文本型,提示肝内转移可能,,,,CT,LLM提取,论文病例报告,2018-03-06,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,g1h2i3j4-k5l6-4789-9abc-def012345684,右颈部淋巴结,手术名称,,类别型,颈部淋巴结清扫活检术,,,,,LLM提取,论文病例报告,2018-03-06,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,g1h2i3j4-k5l6-4789-9abc-def012345684,右颈部淋巴结,手术结果,,文本型,完成活检,,,,,LLM提取,论文病例报告,2018-03-06,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,h1i2j3k4-l5m6-4789-9abc-def012345685,右颈部淋巴结,病理诊断,,文本型,转移性低分化腺癌,,,,,LLM提取,论文病例报告,2018-03-06,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,h1i2j3k4-l5m6-4789-9abc-def012345685,右颈部淋巴结,免疫组化,,文本型,EMA(+)、CKpan(+)、CK7(+)、CK19(+)、CEA(+)、TTF-1(+)、S-100(+),,,,免疫组化,LLM提取,论文病例报告,2018-03-06,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,h1i2j3k4-l5m6-4789-9abc-def012345685,右颈部淋巴结,诊断名称,,类别型,肺来源转移性腺癌,,,,,LLM提取,论文病例报告,2018-03-06,诊断,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,i1j2k3l4-m5n6-4789-9abc-def012345686,PET-CT,影像所见,,文本型,结合PET-CT提示右下肺叶肺腺癌及肝转移,,,,PET-CT,LLM提取,论文病例报告,2018-03-06,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,i1j2k3l4-m5n6-4789-9abc-def012345686,患者,诊断名称,,类别型,右下肺叶肺腺癌伴肝转移,,,,,LLM提取,论文病例报告,2018-03-06,诊断,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,i1j2k3l4-m5n6-4789-9abc-def012345686,患者,临床分期,,类别型,T1bN3Mx,,,,,LLM提取,论文病例报告,2018-03-06,诊断,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,j1k2l3m4-n5o6-4789-9abc-def012345687,肿瘤组织,基因检测,,文本型,BRAF V600E突变阳性,,LR-PCR-based NGS,,NGS,LLM提取,论文病例报告,2018-03-06,诊断,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,k1l2m3n4-o5p6-4789-9abc-def012345688,患者,药品名称,,类别型,达拉非尼,,,,,LLM提取,论文病例报告,2018-04-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,k1l2m3n4-o5p6-4789-9abc-def012345688,患者,剂量,,数值型,300,300,,mg/日,,LLM提取,论文病例报告,2018-04-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,k1l2m3n4-o5p6-4789-9abc-def012345688,患者,药品名称,,类别型,曲美替尼,,,,,LLM提取,论文病例报告,2018-04-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,k1l2m3n4-o5p6-4789-9abc-def012345688,患者,剂量,,数值型,2,2,,mg/日,,LLM提取,论文病例报告,2018-04-01,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,l1m2n3o4-p5q6-4789-9abc-def012345689,胸部CT,影像所见,,文本型,右下肺叶结节、双肺多发结节及纵隔淋巴结明显缩小,,,,CT,LLM提取,论文病例报告,2018-06-08,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,l1m2n3o4-p5q6-4789-9abc-def012345689,胸部CT,影像结论,,文本型,疾病稳定（SD）,,RECIST 1.1,,RECIST,LLM提取,论文病例报告,2018-06-08,评估,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,m1n2o3p4-q5r6-4789-9abc-def012345690,胸部CT,影像所见,,文本型,右下肺叶结节、双肺多发结节及纵隔淋巴结明显缩小,,,,CT,LLM提取,论文病例报告,2018-08-03,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,m1n2o3p4-q5r6-4789-9abc-def012345690,胸部CT,影像结论,,文本型,疾病稳定（SD）,,RECIST 1.1,,RECIST,LLM提取,论文病例报告,2018-08-03,评估,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,n1o2p3q4-r5s6-4789-9abc-def012345691,腹部CT,影像所见,,文本型,右肝低回声结节较前增大,,,,CT,LLM提取,论文病例报告,2018-10-24,影像,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,n1o2p3q4-r5s6-4789-9abc-def012345691,腹部CT,影像结论,,文本型,疾病进展,,,,CT,LLM提取,论文病例报告,2018-10-24,评估,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,o1p2q3r4-s5t6-4789-9abc-def012345692,肝脏病灶,手术名称,,类别型,CT引导下经皮肝穿刺活检术,,,,,LLM提取,论文病例报告,2018-10-29,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,o1p2q3r4-s5t6-4789-9abc-def012345692,肝脏病灶,手术结果,,文本型,完成活检,,,,,LLM提取,论文病例报告,2018-10-29,手术,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,p1q2r3s4-t5u6-4789-9abc-def012345693,肝组织,病理诊断,,文本型,恶性肿瘤细胞浸润肝组织,,,,,LLM提取,论文病例报告,2018-10-29,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,p1q2r3s4-t5u6-4789-9abc-def012345693,肝组织,免疫组化,,文本型,CKpan(+)、CK7(+)、p40(+)、Napsin A局灶(+)、TTF-1(+)、CD117(-)、Dog-1(-)、CD34(-)、肝细胞抗原(-)、Arginase-1(-)、PD-L1(-；70%),,,,免疫组化,LLM提取,论文病例报告,2018-10-29,病理,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,p1q2r3s4-t5u6-4789-9abc-def012345693,肝组织,诊断名称,,类别型,肺癌肝转移,,,,,LLM提取,论文病例报告,2018-10-29,诊断,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,q1r2s3t4-u5v6-4789-9abc-def012345694,患者,药品名称,,类别型,培美曲塞,,,,,LLM提取,论文病例报告,2018-10-29,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,q1r2s3t4-u5v6-4789-9abc-def012345694,患者,剂量,,数值型,700,700,,mg,,LLM提取,论文病例报告,2018-10-29,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,q1r2s3t4-u5v6-4789-9abc-def012345694,患者,用药周期,,文本型,每3周第2天,,,,,LLM提取,论文病例报告,2018-10-29,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,q1r2s3t4-u5v6-4789-9abc-def012345694,患者,药品名称,,类别型,贝伐珠单抗,,,,,LLM提取,论文病例报告,2018-10-29,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,q1r2s3t4-u5v6-4789-9abc-def012345694,患者,剂量,,数值型,400,400,,mg,,LLM提取,论文病例报告,2018-10-29,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,q1r2s3t4-u5v6-4789-9abc-def012345694,患者,用药周期,,文本型,每3周第1天,,,,,LLM提取,论文病例报告,2018-10-29,用药,v1
+5e4e1ca3cad53197a7257eea0b6cf70a,41ccc946ecbb848ac4beed028df6d3a4_1,r1s2t3u4-v5w6-4789-9abc-def012345695,化疗评估,疗效评估,,类别型,疾病稳定（SD）,,RECIST 1.1,,RECIST,LLM提取,论文病例报告,2018-10-29,评估,v1

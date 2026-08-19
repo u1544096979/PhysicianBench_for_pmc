@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,7d3d49ce-2c3d-4f4a-bc60-4f3d0a2f9d4d,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,7d3d49ce-2c3d-4f4a-bc60-4f3d0a2f9d4d,患者,年龄,,数值型,41,41,,岁,,LLM提取,论文病例报告,2020-08-01,病史,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,7d3d49ce-2c3d-4f4a-bc60-4f3d0a2f9d4d,患者,现病史,,文本型,体检发现肝占位伴发热，发热超过半个月，伴腹痛；曾因复查提示占位增大及半个月前出现发热而就诊。,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,7d3d49ce-2c3d-4f4a-bc60-4f3d0a2f9d4d,患者,既往史,,文本型,既往史无特殊；否认乙肝、丙肝病史。,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,7d3d49ce-2c3d-4f4a-bc60-4f3d0a2f9d4d,患者,个人史,,文本型,否认外伤史。,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,7d3d49ce-2c3d-4f4a-bc60-4f3d0a2f9d4d,患者,家族史,,文本型,未提及明显家族史异常。,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,e2fbf5b8-5b2a-4d8f-b6f0-8cf83df3a7f7,患者,主诉,,文本型,腹痛伴发热半个多月，体检发现肝占位。,,,,,LLM提取,论文病例报告,2020-08-18,入院,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,e2fbf5b8-5b2a-4d8f-b6f0-8cf83df3a7f7,患者,入院日期,,日期型,2020-08-18,,,,,LLM提取,论文病例报告,2020-08-18,入院,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,e2fbf5b8-5b2a-4d8f-b6f0-8cf83df3a7f7,患者,入院年龄,,数值型,41,41,,岁,,LLM提取,论文病例报告,2020-08-18,入院,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,1f9c4d55-1e47-4f3a-9e36-7f0a2fd0f2d1,患者,体温,,文本型,发热,,持续半个多月,,,LLM提取,论文病例报告,2020-08-01,评估,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,1f9c4d55-1e47-4f3a-9e36-7f0a2fd0f2d1,患者,腹部查体,,文本型,腹部无明显阳性体征。,,,,,LLM提取,论文病例报告,2020-08-18,评估,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,白细胞计数,,数值型,11.02,11.02,,×10^9/L,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,AFP,,数值型,0.820,0.82,,ng/ml,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,CEA,,数值型,0.91,0.91,,ng/ml,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,CA125,,数值型,22.19,22.19,,U/ml,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,CA199,,数值型,1.69,1.69,,U/ml,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,PCT,,数值型,0.12,0.12,,ng/ml,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a6bb8f8b-8f5f-4ef7-9f4d-4d0b8a7a61e1,血液,CRP,,数值型,182.12,182.12,,mg/L,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,b7c5f8bc-1b0d-4b45-9d56-bcb17cbd8db1,血液,肝功能,,文本型,基本正常,,,,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,b7c5f8bc-1b0d-4b45-9d56-bcb17cbd8db1,血液,血培养,,类别型,未见细菌生长,,,,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,b7c5f8bc-1b0d-4b45-9d56-bcb17cbd8db1,粪便及尿液,镜检,,类别型,未见真菌,,,,,LLM提取,论文病例报告,2020-08-18,检验,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,3ef2ed6f-0ef1-4a4c-8a9a-9f6adf3f6d4d,肝脏MRI,影像所见,,文本型,肝右叶异常信号，病灶约9×9×6 cm。,,考虑梭形细胞肿瘤或间叶来源肿瘤,,增强MRI,LLM提取,论文病例报告,2020-08-22,影像,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,3ef2ed6f-0ef1-4a4c-8a9a-9f6adf3f6d4d,肝脏MRI,影像结论,,文本型,肝右叶占位，考虑梭形细胞肿瘤/间叶来源肿瘤。,,,,增强MRI,LLM提取,论文病例报告,2020-08-22,影像,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a44f4d0c-0c9f-4f8b-9fb2-6a0dc3b1d5f0,胸部CT,影像结论,,文本型,未见远处转移征象。,,,,,LLM提取,论文病例报告,2020-08-22,影像,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,a44f4d0c-0c9f-4f8b-9fb2-6a0dc3b1d5f0,腹部MRI,影像结论,,文本型,未见远处转移征象。,,,,,LLM提取,论文病例报告,2020-08-22,影像,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,f5b7a7a5-6c3a-4f14-9b2d-5a7d2e8cc8e1,患者,诊断名称,,类别型,肝恶性肿瘤待鉴别，考虑肝脏炎性肌纤维母细胞瘤,,术前,,,LLM提取,论文病例报告,2020-08-22,诊断,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,d4d8c5f6-5a43-4d6d-8f6c-3f8c5e8d7a11,手术,手术名称,,类别型,右半肝切除术,,,,,LLM提取,论文病例报告,2020-09-01,手术,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,d4d8c5f6-5a43-4d6d-8f6c-3f8c5e8d7a11,手术,手术结果,,文本型,手术顺利完成,,,,,LLM提取,论文病例报告,2020-09-01,手术,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,f9c2f0a1-6e12-4a88-9ad2-9e9b1f0aa123,病理标本,病理诊断,,文本型,炎性肌纤维母细胞瘤,,术后病理证实肝脏炎性肌纤维母细胞瘤,,病理检查,LLM提取,论文病例报告,2020-09-01,病理,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,f9c2f0a1-6e12-4a88-9ad2-9e9b1f0aa123,病理标本,免疫组化,,文本型,"ALK-1(−), CD23(−), CD21(−), CD30(−), CD34(内皮+), EMA(散在+), SMA(−), Vim(+), Ki-67(15%)",,,,免疫组织化学,LLM提取,论文病例报告,2020-09-01,病理,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,f9c2f0a1-6e12-4a88-9ad2-9e9b1f0aa123,患者,最终诊断名称,,类别型,肝脏炎性肌纤维母细胞瘤,,,,,LLM提取,论文病例报告,2020-09-01,诊断,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,b2e3a4a7-9b3d-4b6f-8c2d-7d2f4a9b8c11,患者,出院状况,,类别型,一般情况良好,,实验室参数正常,,,LLM提取,论文病例报告,2020-09-11,出院,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,b2e3a4a7-9b3d-4b6f-8c2d-7d2f4a9b8c11,患者,出院医嘱,,文本型,门诊规律随访，监测肿瘤标志物及影像学复查。,,,,,LLM提取,论文病例报告,2020-09-11,出院,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,b2e3a4a7-9b3d-4b6f-8c2d-7d2f4a9b8c11,患者,住院天数,,数值型,24,24,,天,,LLM提取,论文病例报告,2020-09-11,出院,v1
+cc2a38dbf4a545ca705965e82bd418e9,c8fef5384e97340c4f8d903d3821bdcb,c1a7b8d9-3c4d-4e5f-9a1b-2c3d4e5f6a7b,患者,随访结果,,文本型,患者恢复良好，肿瘤标志物正常，超声及MRI未见复发，规律门诊随访中，无不良事件。,,,,超声、MRI,LLM提取,论文病例报告,2022-04-04,病程,v1

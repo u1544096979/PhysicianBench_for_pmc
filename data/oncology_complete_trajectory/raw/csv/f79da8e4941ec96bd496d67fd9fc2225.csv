@@ -1,0 +1,53 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,4f8b8f66-4f2f-4f65-8a7a-4e1c0f72f1a1,患者,入院年龄,,数值型,19,19,,岁,,LLM提取,论文病例报告,2018-01-01,入院,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,9f1ce5f7-4c2f-4ad9-8d3e-8c5ec2f2a6c4,患者,主诉,,文本型,右侧颈部可触及肿块,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,9f1ce5f7-4c2f-4ad9-8d3e-8c5ec2f2a6c4,患者,现病史,,文本型,除右侧颈部包块外无其他明显症状。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,9f1ce5f7-4c2f-4ad9-8d3e-8c5ec2f2a6c4,患者,既往史,,文本型,无特殊。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,9f1ce5f7-4c2f-4ad9-8d3e-8c5ec2f2a6c4,患者,家族史,,文本型,无特殊。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,9f1ce5f7-4c2f-4ad9-8d3e-8c5ec2f2a6c4,患者,个人史,,文本型,无特殊。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,1c2b2f76-4e8d-4f47-95d1-43d4f3f5aa11,血液,甲状腺功能检查,,类别型,正常,,,,,LLM提取,论文病例报告,2018-01-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,1c2b2f76-4e8d-4f47-95d1-43d4f3f5aa11,血液,甲状腺球蛋白（Tg）,,类别型,阴性,,,,,LLM提取,论文病例报告,2018-01-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,1c2b2f76-4e8d-4f47-95d1-43d4f3f5aa11,血液,甲状腺过氧化物酶抗体（TPOAb）,,类别型,阴性,,,,,LLM提取,论文病例报告,2018-01-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,a4d0c8c4-7df4-4d57-8db0-7c57b7f7d3f0,右下甲状腺,影像所见,,文本型,超声示TIRADS 3等回声实性结节，无明显血流，大小约2.8 cm。,,TIRADS 3,cm,超声,LLM提取,论文病例报告,2018-01-01,影像,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,b7f9a4c0-4aa8-4f6d-9f0f-2f8ad3ce8f41,右下甲状腺病灶,病理诊断,,文本型,非典型意义未定（AUS）,,,,细针穿刺细胞学（FNA）,LLM提取,论文病例报告,2018-01-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,b7f9a4c0-4aa8-4f6d-9f0f-2f8ad3ce8f41,右下甲状腺病灶,检查方法,,类别型,FNA,,,,细针穿刺细胞学,LLM提取,论文病例报告,2018-01-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,c3cbe9f9-79a7-4c1c-9f6a-1e9c2d7f5f31,右下甲状腺病灶,病理诊断,,文本型,良性滤泡性结节,,,,粗针活检（gun biopsy）,LLM提取,论文病例报告,2018-02-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,c3cbe9f9-79a7-4c1c-9f6a-1e9c2d7f5f31,右下甲状腺病灶,检查方法,,类别型,gun biopsy,,,,粗针活检,LLM提取,论文病例报告,2018-02-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d0ad3c7c-22a8-4b42-9b5d-8b7f2f0c4b51,右下甲状腺,影像所见,,文本型,肿块增大至约3.9 cm。,3.9,最大径,cm,超声/CT,LLM提取,论文病例报告,2020-02-01,影像,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d0ad3c7c-22a8-4b42-9b5d-8b7f2f0c4b51,右下甲状腺,影像所见,,文本型,超声及CT提示右下甲状腺为TIRADS 3等回声实性肿块，大小约3.43 cm × 2.28 cm × 3.91 cm，伴左侧气管偏移。,,TIRADS 3,cm,超声/CT,LLM提取,论文病例报告,2020-02-01,影像,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e9a6cb69-8c35-43c0-9d0d-1d4df5f8d7d2,患者,诊断名称,,类别型,甲状腺滤泡癌,,术前考虑良性，术后病理证实,,,LLM提取,论文病例报告,2020-02-01,诊断,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e9a6cb69-8c35-43c0-9d0d-1d4df5f8d7d2,患者,诊断名称,,类别型,乳头状微癌,,同侧甲状腺内并存,,,LLM提取,论文病例报告,2020-02-01,诊断,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f3d6a2ef-8b0a-4f7e-9e1d-4f6e9c7a8a92,患者,手术名称,,类别型,经口腔内镜甲状腺切除前庭入路（TOETVA）右侧甲状腺切除术,,,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f3d6a2ef-8b0a-4f7e-9e1d-4f6e9c7a8a92,患者,手术结果,,文本型,术中甲状腺包膜部分破裂，肉眼可见甲状腺组织已仔细吸净，未行蒸馏水冲洗。标本置入塑料标本袋，经下前庭中间孔取出。,,,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f3d6a2ef-8b0a-4f7e-9e1d-4f6e9c7a8a92,患者,麻醉方式,,文本型,未提及,,,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f3d6a2ef-8b0a-4f7e-9e1d-4f6e9c7a8a92,患者,出血量,,数值型,,,,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,a11c8d2f-6c0f-45a9-8d0a-2c5d1e4f9b33,右甲状腺,病理诊断,,文本型,微浸润性甲状腺滤泡癌，伴轻度包膜浸润和轻度静脉浸润。,,最大径3.0 cm,cm,术后病理,LLM提取,论文病例报告,2020-02-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,a11c8d2f-6c0f-45a9-8d0a-2c5d1e4f9b33,右甲状腺,病理诊断,,文本型,乳头状微癌,,0.4 cm,cm,术后病理,LLM提取,论文病例报告,2020-02-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,a11c8d2f-6c0f-45a9-8d0a-2c5d1e4f9b33,患者,分化程度,,类别型,微浸润,,,,,LLM提取,论文病例报告,2020-02-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,b4f1e2c3-5d6a-4a7b-9c1d-7e8f9a0b1c2d,患者,病程,,文本型,术后恢复顺利，实验室检查及声带检查正常。,,,,,LLM提取,论文病例报告,2020-02-01,病程,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,c6a9d8f1-2b3c-4d5e-8f9a-1b2c3d4e5f60,患者,影像所见,,文本型,2022年6月（术后27个月）超声和CT示多个结节，位于术后甲状腺床、右下唇皮下层、颏下区及右中上颈I、IIA、VI区；左侧甲状腺叶另见0.4 cm低回声结节。,,,,超声/CT,LLM提取,论文病例报告,2022-06-01,影像,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,c6a9d8f1-2b3c-4d5e-8f9a-1b2c3d4e5f60,颈部IIA区软组织病灶,病理诊断,,文本型,见大量形态温和的滤泡细胞。,,,,FNA细胞学,LLM提取,论文病例报告,2022-06-01,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d2e3f4a5-6b7c-48d9-9e0f-1a2b3c4d5e6f,患者,诊断名称,,类别型,甲状腺癌沿手术通道种植性复发,,术后甲状腺床及皮下层多发种植,,,LLM提取,论文病例报告,2022-06-01,诊断,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e7f8a9b0-c1d2-4e3f-9a0b-1c2d3e4f5a6b,患者,手术名称,,类别型,左侧甲状腺切除术、双侧中央区淋巴结清扫、多发结节切除及部分邻近带状肌切除,,经新的低领切口及下唇小切口,,,LLM提取,论文病例报告,2022-06-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e7f8a9b0-c1d2-4e3f-9a0b-1c2d3e4f5a6b,患者,手术结果,,文本型,切除软组织中下唇、带状肌及颈I、IIA、VI区的转移性FTC，所有肿瘤灶合并最大径4.1 cm。左侧甲状腺另见0.6 cm乳头状微癌。切除25枚淋巴结均未见肿瘤累及。,,25枚淋巴结阴性,cm,术后病理,LLM提取,论文病例报告,2022-06-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e7f8a9b0-c1d2-4e3f-9a0b-1c2d3e4f5a6b,患者,麻醉方式,,文本型,未提及,,,,,LLM提取,论文病例报告,2022-06-01,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f1a2b3c4-d5e6-4789-9a0b-1c2d3e4f5a6c,颈部I区及VI区软组织病灶,病理诊断,,文本型,转移性甲状腺滤泡癌,,最大结节1.5 cm,cm,活检,LLM提取,论文病例报告,2022-06-15,病理,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,b2c3d4e5-f6a7-4890-9a0b-1c2d3e4f5a6d,患者,药品名称,,类别型,左甲状腺素,,每日100 mcg,,,LLM提取,论文病例报告,2022-06-15,用药,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,b2c3d4e5-f6a7-4890-9a0b-1c2d3e4f5a6d,患者,剂量,,数值型,100,100,,mcg/日,,LLM提取,论文病例报告,2022-06-15,用药,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,b2c3d4e5-f6a7-4890-9a0b-1c2d3e4f5a6d,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2022-06-15,用药,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,c4d5e6f7-a8b9-4c0d-9e0f-1a2b3c4d5e6a,患者,处理措施,,文本型,术后两周经颏下切口再次探查并切除残余结节。,,,,,LLM提取,论文病例报告,2022-06-15,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,c4d5e6f7-a8b9-4c0d-9e0f-1a2b3c4d5e6a,患者,手术结果,,文本型,术后恢复顺利。,,,,,LLM提取,论文病例报告,2022-06-15,手术,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,患者,治疗方案,,类别型,放射性碘治疗（RAI）,,150 mCi I-131，停用甲状腺激素后进行,mCi,,LLM提取,论文病例报告,2022-09-01,病程,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,患者,周期数,,数值型,1,1,第1次RAI,次,,LLM提取,论文病例报告,2022-09-01,病程,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,患者,治疗反应,,类别型,部分缓解/残余病灶显像阳性,,治疗后全身显像见右甲状腺床、上纵隔及颏下区局灶摄取,,治疗后全身显像（WBS）,LLM提取,论文病例报告,2022-09-01,评估,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,血液,TSH,,数值型,105.4,105.4,,mIU/L,,LLM提取,论文病例报告,2022-09-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,血液,Tg,,数值型,59.04,59.04,,ng/mL,,LLM提取,论文病例报告,2022-09-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,d9e0f1a2-b3c4-4d5e-8f9a-0b1c2d3e4f5a,血液,Tg-Ab,,数值型,493,493,,U/mL,,LLM提取,论文病例报告,2022-09-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,患者,治疗方案,,类别型,放射性碘治疗（RAI）,,100 mCi I-131,mCi,,LLM提取,论文病例报告,2023-04-01,病程,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,患者,周期数,,数值型,2,2,第2次RAI,次,,LLM提取,论文病例报告,2023-04-01,病程,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,患者,治疗反应,,类别型,无异常摄取,,治疗后WBS无异常摄取提示残余甲状腺或复发肿瘤,,治疗后全身显像（WBS）,LLM提取,论文病例报告,2023-04-01,评估,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,血液,TSH,,数值型,154.5,154.5,,uIU/L,,LLM提取,论文病例报告,2023-04-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,血液,Tg,,数值型,<0.2,,低于检测下限,ng/mL,,LLM提取,论文病例报告,2023-04-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,e0f1a2b3-c4d5-4e6f-8a9b-0c1d2e3f4a5b,血液,Tg-Ab,,数值型,91,91,,U/mL,,LLM提取,论文病例报告,2023-04-01,检验,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f5a6b7c8-d9e0-4f1a-8b9c-0d1e2f3a4b5c,颈部,影像所见,,文本型,2023年10月随访CT示局部无明确肿瘤复发或残余甲状腺组织。,,,,CT,LLM提取,论文病例报告,2023-10-01,影像,v1
+f79da8e4941ec96bd496d67fd9fc2225,c0edf854c484683977a7ffcbef75ec1d,f5a6b7c8-d9e0-4f1a-8b9c-0d1e2f3a4b5c,患者,病程,,文本型,随访未见局部复发或明确残余甲状腺组织。,,,,,LLM提取,论文病例报告,2023-10-01,病程,v1

@@ -1,0 +1,33 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,2d1fca8e-0f6f-4ad6-9a75-4b8d3aaf5e7c,患者,年龄,,数值型,78,78,,岁,,LLM提取,论文病例报告,2021-01-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,2d1fca8e-0f6f-4ad6-9a75-4b8d3aaf5e7c,患者,性别,,类别型,男,,Caucasian,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,2d1fca8e-0f6f-4ad6-9a75-4b8d3aaf5e7c,患者,既往史,,文本型,Barrett's metaplasia and esophagitis，自2002年起已知，长期使用奥美拉唑,,,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,2d1fca8e-0f6f-4ad6-9a75-4b8d3aaf5e7c,患者,家族史,,文本型,无已知癌症家族史,,,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,2d1fca8e-0f6f-4ad6-9a75-4b8d3aaf5e7c,患者,个人史,,文本型,吸烟史7.5 pack-year，规律饮酒（最多8杯/周）,,,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,a7d2f0fb-8f2d-4bc5-b8cc-7649d7b3f7b1,患者,主诉,,文本型,间歇性吞咽困难，每周3-4次，主要在进食固体食物时出现,,,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,b0d4d7ef-4d28-4b5f-8d31-1b0b3f3a9d4d,胃镜,检查结果,,文本型,食管距门齿约30 cm处见3 cm菜花样、宽基底病灶,,,,EGD,LLM提取,论文病例报告,2021-01-01,其他,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,7f5c2e63-24a7-4f8d-8f6e-4d4f6d7e7f11,CT,影像所见,,文本型,胸/腹/盆腔CT示远端食管近胃食管结合部环形壁增厚,,,,增强CT,LLM提取,论文病例报告,2021-04-01,影像,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,7f5c2e63-24a7-4f8d-8f6e-4d4f6d7e7f11,PET-CT,影像所见,,文本型,对应病灶FDG摄取增高，SUVmax约4.9,,,,PET-CT,LLM提取,论文病例报告,2021-04-01,影像,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,c2c5cb7b-f4a9-4df7-9f8d-7f0d0a7e8b2a,患者,诊断名称,,类别型,食管腺癌,,初诊,,,LLM提取,论文病例报告,2021-04-01,诊断,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,d4c3b7e0-5f61-4a7d-9e7d-0c6c5f7b2f11,患者,治疗方案,,类别型,同步放化疗,,卡铂+紫杉醇,,,LLM提取,论文病例报告,2021-06-01,病程,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,d4c3b7e0-5f61-4a7d-9e7d-0c6c5f7b2f11,患者,周期数,,数值型,2,2,2021年6-7月,,,LLM提取,论文病例报告,2021-06-01,病程,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,e1a8f4b2-9f6b-4f7a-a8d6-7a3b2f0c1d22,患者,手术名称,,类别型,经裂孔全食管切除术+胃上提,,,,,LLM提取,论文病例报告,2021-08-30,手术,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,e1a8f4b2-9f6b-4f7a-a8d6-7a3b2f0c1d22,患者,手术结果,,文本型,切缘阴性，治疗反应良好,,ypT1N1；16枚淋巴结中1枚阳性,,,LLM提取,论文病例报告,2021-08-30,手术,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f1b7d8c9-3e4a-4c1d-8f2a-9d7b0c2a3e55,患者,诊断名称,,类别型,食管腺癌术后分期,,ypT1N1,,,LLM提取,论文病例报告,2021-08-30,诊断,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f1b7d8c9-3e4a-4c1d-8f2a-9d7b0c2a3e55,患者,病理分期,,类别型,ypT1N1,,16枚淋巴结中1枚受累，切缘阴性,,,LLM提取,论文病例报告,2021-08-30,诊断,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,a8b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c44,患者,治疗方案,,类别型,辅助免疫治疗,,纳武利尤单抗,,,LLM提取,论文病例报告,2021-11-01,用药,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,a8b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c44,纳武利尤单抗,药品名称,,类别型,纳武利尤单抗,,6个周期,,,LLM提取,论文病例报告,2021-11-01,用药,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e9f,患者,疗效评估,,类别型,无肿瘤复发证据,,随访期间直到2023年3月前,,影像随访,LLM提取,论文病例报告,2023-03-01,评估,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d55,患者,主诉,,文本型,肉眼血尿数次，伴周围性水肿,,无腰痛或梗阻性泌尿症状,,,LLM提取,论文病例报告,2023-03-01,病史,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d55,患者,检验项目,,数值型,128,128,基线约80多,μmol/L,,LLM提取,论文病例报告,2023-03-01,检验,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,c9d8e7f6-a5b4-4c3d-8e1f-2a3b4c5d6e77,CT,影像所见,,文本型,右肾上极约9 cm浸润性肿块，侵犯肾静脉和下腔静脉，并延伸入肾盂及近端输尿管，伴邻近淋巴结肿大,,,,增强CT,LLM提取,论文病例报告,2023-03-01,影像,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,c9d8e7f6-a5b4-4c3d-8e1f-2a3b4c5d6e77,CT,影像所见,,文本型,胸部CT示多发新发肺结节及新发纵隔淋巴结肿大,,,,增强CT,LLM提取,论文病例报告,2023-03-01,影像,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,c9d8e7f6-a5b4-4c3d-8e1f-2a3b4c5d6e77,PET-CT,影像所见,,文本型,肾脏肿块、肺结节及淋巴结均见明显FDG摄取增高,,,,PET-CT,LLM提取,论文病例报告,2023-03-01,影像,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e7f88,2R气管旁淋巴结,病理诊断,,文本型,腺癌，符合食管癌复发,,,,活检,LLM提取,论文病例报告,2023-03-01,病理,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,d5e6f7a8-b9c0-4d1e-8f2a-3b4c5d6e7f88,右肾病灶,病理诊断,,文本型,腺癌，符合食管癌复发转移,,,,活检,LLM提取,论文病例报告,2023-03-01,病理,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,e6f7a8b9-c0d1-4e2f-8a3b-4c5d6e7f8899,患者,诊断名称,,类别型,食管腺癌复发并右肾转移,,伴肾静脉/下腔静脉侵犯及肾盂/近端输尿管侵犯，伴肺及纵隔/腹腔淋巴结转移,,,LLM提取,论文病例报告,2023-03-01,诊断,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f7a8b9c0-d1e2-4f3a-8b4c-5d6e7f8899aa,患者,治疗方案,,类别型,姑息性系统治疗,,卡铂+卡培他滨+纳武利尤单抗联合EBRT,,,LLM提取,论文病例报告,2023-03-01,病程,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f7a8b9c0-d1e2-4f3a-8b4c-5d6e7f8899aa,患者,治疗反应,,类别型,部分缓解/混合反应,,肾肿块缩小，但肺结节增大；肾静脉和IVC仍有肿瘤栓,,,LLM提取,论文病例报告,2023-07-01,病程,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f7a8b9c0-d1e2-4f3a-8b4c-5d6e7f8899aa,患者,治疗方案,,类别型,卡铂+卡培他滨+纳武利尤单抗+EBRT,,持续治疗期间影像复查,,,LLM提取,论文病例报告,2023-07-01,病程,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f8b9c0d1-e2f3-4a4b-8c5d-6e7f8899aabb,患者,治疗反应,,类别型,疾病轻度进展,,胸腔及腹腔转移较前加重，肾肿块更浸润,,,LLM提取,论文病例报告,2023-09-01,病程,v1
+969b89a26b7affa3ddfc4f2c1e1f6713,f0e70f65a643cffefe19744d680859b4,f8b9c0d1-e2f3-4a4b-8c5d-6e7f8899aabb,患者,治疗方案,,类别型,后续线治疗,,ramucirumab+paclitaxel,,,LLM提取,论文病例报告,2023-09-01,用药,v1

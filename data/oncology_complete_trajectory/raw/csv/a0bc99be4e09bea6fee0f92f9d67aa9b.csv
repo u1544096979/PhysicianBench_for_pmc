@@ -1,0 +1,62 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,f1c8c8b3-6a4e-4f4c-9d1e-2d55f3b4c501,患者,入院年龄,,数值型,42,42,,岁,,LLM提取,论文病例报告,2015-05,入院,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,f1c8c8b3-6a4e-4f4c-9d1e-2d55f3b4c501,患者,入院科室,,类别型,乳腺癌/肿瘤相关就诊,,,,,LLM提取,论文病例报告,2015-05,入院,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,f1c8c8b3-6a4e-4f4c-9d1e-2d55f3b4c501,患者,主诉,,文本型,自检发现左乳肿块,,临床分期 IIA（cT2N1）三阴性乳腺癌,,,LLM提取,论文病例报告,2015-05,病史,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,4c2c1e3a-5c1f-4e1f-8ad1-8b5f2b6cb2a9,患者,诊断名称,,类别型,左乳三阴性乳腺癌,,临床分期 IIA（cT2N1）,,,LLM提取,论文病例报告,2015-05,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,4c2c1e3a-5c1f-4e1f-8ad1-8b5f2b6cb2a9,患者,分子标志物,,类别型,TNBC,,,,,LLM提取,论文病例报告,2015-05,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,7d1b9f4d-8b3d-4cc4-8d0a-8d4f0c0d5f62,患者,治疗方案,,类别型,新辅助化疗TC（多西他赛+环磷酰胺）,,4个周期,周期,,LLM提取,论文病例报告,2015-05,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,7d1b9f4d-8b3d-4cc4-8d0a-8d4f0c0d5f62,患者,治疗反应,,类别型,部分缓解,,,,,LLM提取,论文病例报告,2015-05,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,0c6c1f7f-9e0b-4f58-a4c4-4c5f7f2f3a31,患者,手术名称,,类别型,左乳肿块保乳手术及腋窝淋巴结清扫,,,,,LLM提取,论文病例报告,2015-09,手术,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,0c6c1f7f-9e0b-4f58-a4c4-4c5f7f2f3a31,患者,手术结果,,文本型,切除后病理提示残余TNBC,,ypT1-cN0(0/13)；I期,,,LLM提取,论文病例报告,2015-09,手术,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,5f7e8f18-3b2d-4c1f-9f86-1a8a0f2a6d77,患者,治疗方案,,类别型,辅助放疗,,完成于2016-01,,,LLM提取,论文病例报告,2016-01,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,8a8f3f8c-3f4a-4e85-9b4d-7f0f9d4c2a11,患者,诊断名称,,类别型,右中叶肺结节，考虑复发性TNBC,,3.3 cm,cm,CT引导肺活检,LLM提取,论文病例报告,2018-08,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,8a8f3f8c-3f4a-4e85-9b4d-7f0f9d4c2a11,肺标本,病理诊断,,文本型,复发性三阴性乳腺癌,,CT引导肺活检证实,,,LLM提取,论文病例报告,2018-08,病理,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,9c3e2f4a-0f95-4e0f-9c51-2a1d3c4d5e66,患者,治疗方案,,类别型,TC一线系统治疗,,约10个月,月,,LLM提取,论文病例报告,2018-08,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,9c3e2f4a-0f95-4e0f-9c51-2a1d3c4d5e66,患者,治疗反应,,类别型,完全缓解,,,,,LLM提取,论文病例报告,2018-08,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,a7f7c2c1-1d2b-4e8f-9d1a-3b4c5d6e7f88,患者,影像所见,,文本型,右中叶肺结节增大并出现2个新的卫星肺结节,,PET/CT,,,LLM提取,论文病例报告,2019-07-03,影像,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,b8a8c9d0-2e3f-4a5b-8c9d-0e1f2a3b4c5d,患者,主诉,,文本型,头痛、短期记忆障碍、视物模糊、表达性失语,,进行性加重，约前6个月开始,,,LLM提取,论文病例报告,2019-07-03,病史,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,c9d0e1f2-3a4b-4c5d-8e9f-0a1b2c3d4e5f,患者,影像所见,,文本型,左颞叶2.7 cm肿块伴明显血管源性水肿,,脑MRI,cm,MRI,LLM提取,论文病例报告,2019-07-24,影像,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,d0e1f2a3-4b5c-4d6e-8f90-1a2b3c4d5e6f,患者,诊断名称,,类别型,左颞叶脑转移瘤,,伴明显血管源性水肿,,MRI,LLM提取,论文病例报告,2019-07-24,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,e1f2a3b4-5c6d-4e7f-8f90-1a2b3c4d5e6a,患者,用药名称,,类别型,激素,,用于减轻水肿,,,LLM提取,论文病例报告,2019-07-24,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,e1f2a3b4-5c6d-4e7f-8f90-1a2b3c4d5e6a,患者,用药名称,,类别型,左乙拉西坦,,癫痫预防,,,LLM提取,论文病例报告,2019-07-24,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,f2a3b4c5-6d7e-4f8f-9a01-2b3c4d5e6f70,患者,手术名称,,类别型,左颞叶开颅肿瘤切除术,,,,,LLM提取,论文病例报告,2019-08-21,手术,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,f2a3b4c5-6d7e-4f8f-9a01-2b3c4d5e6f70,患者,手术结果,,文本型,肿瘤切除,,术后病理为低分化TNBC,,,LLM提取,论文病例报告,2019-08-21,手术,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,g3b4c5d6-7e8f-4a90-9b01-3c4d5e6f7081,脑转移灶标本,病理诊断,,文本型,低分化三阴性乳腺癌转移,,开颅术后病理,,病理,LLM提取,论文病例报告,2019-08-21,病理,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,h4c5d6e7-8f90-4a01-9b02-4c5d6e7f8091,患者,手术名称,,类别型,Gamma Knife立体定向放射外科,,,,,LLM提取,论文病例报告,2019-08-30,手术,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,i5d6e7f8-9a01-4b02-9c03-5d6e7f8091a2,患者,会诊,,文本型,转诊至肿瘤内科评估全身治疗,,2019-09-30,,,LLM提取,论文病例报告,2019-09-30,会诊,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,患者,基因检测结果,,类别型,HOXB13 c.251G>A (p.Gly84Glu)致病性突变,,Invitae遗传性肿瘤 panel；胚系检测,,NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,PDJ扩增,,PD-L1/PD-L2/JAK2 9拷贝扩增,,Tempus xT NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,TP53 p.Y107* LOF,,VAF 87.3%,,Tempus xT NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,ARID1A p.S264* LOF,,VAF 21.8%,,Tempus xT NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,MYC拷贝数增益,,,,Tempus xT NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,MYCL拷贝数增益,,,,Tempus xT NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,RECQL4拷贝数增益,,,,Tempus xT NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,PD-L1 RNA高表达,,69百分位,,RNA测序,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,PD-L2 RNA高表达,,83百分位,,RNA测序,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,分子标志物,,类别型,JAK2 RNA高表达,,72百分位,,RNA测序,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,PD-L1状态,,类别型,阴性,,肿瘤细胞<1%；肿瘤相关免疫细胞10%,,IHC,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,MMR状态,,类别型,完整,,MLH1/PMS2/MSH2/MSH6 IHC正常；MSI阴性,,IHC/NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,j6e7f8091-a2b3-4c04-9d05-6e7f8091a2b3,脑转移瘤标本,TMB,,数值型,5.0,5.0,74百分位,mut/MB,NGS,LLM提取,论文病例报告,2019-09-30,诊断,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,k7f8091a-2b3c-4d05-9e06-7f8091a2b3c4,患者,影像所见,,文本型,右中叶肺转移灶、卫星结节及右肺门淋巴结增大并FDG摄取增加,,PET/CT,,PET/CT,LLM提取,论文病例报告,2019-10-14,影像,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,l8091a2b-3c4d-4e05-9f07-8091a2b3c4d5,患者,用药名称,,类别型,帕博利珠单抗,,单药第1次给药,,,LLM提取,论文病例报告,2019-11-18,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,m91a2b3c-4d5e-4f06-9f08-91a2b3c4d5e6,患者,主诉,,文本型,意识模糊、嗜睡、全身无力加重,,用药前数日,,,LLM提取,论文病例报告,2019-11-18,病史,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,n1a2b3c4-d5e6-4f07-9f09-a1b2c3d4e5f6,患者,影像所见,,文本型,左额叶两枚新发大肿块，伴明显水肿、占位效应、中线右移、镰下疝及右侧脑室受压/嵌顿,,前部4.6×2.9 cm；上部4.1×2.3 cm；脑MRI,cm,MRI,LLM提取,论文病例报告,2019-11-24,影像,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,o2b3c4d5-e6f7-4f08-9f10-b2c3d4e5f607,患者,手术名称,,类别型,左额叶肿瘤减瘤切除术,,切除前部病灶大部分,,,LLM提取,论文病例报告,2019-11-25,手术,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,o2b3c4d5-e6f7-4f08-9f10-b2c3d4e5f607,前额叶转移瘤标本,病理诊断,,文本型,与既往报道一致的转移性TNBC,,术后病理,,病理,LLM提取,论文病例报告,2019-11-25,病理,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,p3c4d5e6-f708-4f09-9f11-c3d4e5f60718,患者,用药名称,,类别型,帕博利珠单抗,,第2次给药,,,LLM提取,论文病例报告,2019-12-09,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,q4d5e6f7-0819-4f0a-9f12-d4e5f6071829,患者,治疗方案,,类别型,全脑放疗（WBRT）,,30 Gy，2019-12-12至2019-12-26,Gy,放疗,LLM提取,论文病例报告,2019-12-12,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,r5e6f7081-92a3-4f0b-9f13-e5f60718293a,患者,治疗方案,,类别型,帕博利珠单抗单药治疗,,再完成4个周期,周期,,LLM提取,论文病例报告,2019-12-30,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,r5e6f7081-92a3-4f0b-9f13-e5f60718293a,患者,治疗反应,,类别型,疾病稳定,,最佳疗效,,,LLM提取,论文病例报告,2019-12-30,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,s6f70819-a2b3-4f0c-9f14-f60718293a4b,患者,影像结论,,文本型,右中叶肺肿块及纵隔/肺门/颈部淋巴结进展,,PET/CT,,PET/CT,LLM提取,论文病例报告,2020-03-02,影像,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,t7f8091a2-b3c4-4f0d-9f15-0819a2b3c4d5,患者,用药名称,,类别型,阿替利珠单抗,,联合白蛋白紫杉醇,,,LLM提取,论文病例报告,2020-03-02,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,t7f8091a2-b3c4-4f0d-9f15-0819a2b3c4d5,患者,用药名称,,类别型,白蛋白紫杉醇,,联合阿替利珠单抗,,,LLM提取,论文病例报告,2020-03-02,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,t7f8091a2-b3c4-4f0d-9f15-0819a2b3c4d5,患者,治疗反应,,类别型,部分缓解,,2个周期后，按RECIST v1.1,,RECIST v1.1,LLM提取,论文病例报告,2020-03-02,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,u8f901a2-b3c4-4f0e-9f16-192a3b4c5d6e,患者,不良反应名称,,类别型,肺炎,,1级；自发缓解,,,LLM提取,论文病例报告,2020-03-02,不良反应,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,u8f901a2-b3c4-4f0e-9f16-192a3b4c5d6e,患者,不良反应名称,,类别型,结肠炎,,2级，改善至1级,,,LLM提取,论文病例报告,2020-03-02,不良反应,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,u8f901a2-b3c4-4f0e-9f16-192a3b4c5d6e,患者,不良反应名称,,类别型,关节不适,,2级，支持治疗后改善,,,LLM提取,论文病例报告,2020-03-02,不良反应,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,v9a2b3c4-d5e6-4f10-9f17-a2b3c4d5e6f7,患者,手术/治疗结果,,文本型,停止阿替利珠单抗+白蛋白紫杉醇后，PET/CT仍为PR,,共12个周期后停药,,,LLM提取,论文病例报告,2021-01,病程,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,w0b3c4d5-e6f7-4f11-9f18-b3c4d5e6f708,患者,主诉,,文本型,咽喉疼痛并出血,,与PET/CT提示下咽部及颈部淋巴结摄取增高相符,,,LLM提取,论文病例报告,2021-02,病史,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,x1c4d5e6-f708-4f12-9f19-c4d5e6f70918,下咽标本,病理诊断,,文本型,免疫细胞浸润,,活检,,病理,LLM提取,论文病例报告,2021-02,病理,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,y2d5e6f7-0819-4f13-9f20-d5e6f7091829,患者,影像所见,,文本型,轻度肿瘤进展,,停药约2个月后PET/CT,,PET/CT,LLM提取,论文病例报告,2021-04,影像,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,z3e6f7081-92a3-4f14-9f21-e6f70918293a,患者,用药名称,,类别型,sacituzumab govitecan-hziy,,商品名Trodelvy；自2021年4月初开始,,,LLM提取,论文病例报告,2021-04,用药,v1
+a0bc99be4e09bea6fee0f92f9d67aa9b,1c41cede92aa5bc1b703436727b27770,z3e6f7081-92a3-4f14-9f21-e6f70918293a,患者,治疗反应,,类别型,部分缓解,,肺转移灶持续PR；无新发或复发脑转移,,,LLM提取,论文病例报告,2021-04,病程,v1

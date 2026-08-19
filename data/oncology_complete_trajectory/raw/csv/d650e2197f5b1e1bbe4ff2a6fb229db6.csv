@@ -1,0 +1,39 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,1e1a07ae-5b7b-4eb8-9f2a-7d5b7d8d4c11,患者,既往史,,文本型,2003年因头痛、恶心、呕吐就诊急诊，脑CT发现鞍内肿块，后进一步证实为垂体肿块。,,,,,LLM提取,论文病例报告,2003-01-01,病史,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,1e1a07ae-5b7b-4eb8-9f2a-7d5b7d8d4c11,患者,现病史,,文本型,2003年发现鞍内/垂体肿块，失访；随后按大垂体泌乳素腺瘤接受多巴胺受体激动剂治疗，2011年入院时出现急性头晕和视力障碍。,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,0f4a4c12-4f9c-4b7d-9b0e-9c4f9d1c4f65,患者,入院科室,,类别型,神经外科,,,,,LLM提取,论文病例报告,2011-01-01,入院,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,0f4a4c12-4f9c-4b7d-9b0e-9c4f9d1c4f65,患者,主诉,,文本型,急性头晕、视力障碍。,,,,,LLM提取,论文病例报告,2011-01-01,入院,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d0e2b7a7-7b14-4e2a-8f3c-1f2f0b8d7c19,患者,诊断名称,,类别型,大垂体泌乳素腺瘤,,,,,LLM提取,论文病例报告,2003-01-01,诊断,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d0e2b7a7-7b14-4e2a-8f3c-1f2f0b8d7c19,患者,临床分期,,类别型,侵袭性垂体肿瘤,,影像提示右侧海绵窦侵犯,,,LLM提取,论文病例报告,2003-01-01,诊断,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,5f6d8d2b-0f63-4c0c-8c0d-3f8a5d8f2d91,脑/鞍区MRI,影像所见,,文本型,鞍区垂体肿块，约1.8 cm，伴右侧海绵窦侵犯。,,,,MRI,LLM提取,论文病例报告,2003-01-01,影像,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,8f4d0f2d-2f6f-4f0d-a0e9-0f7d4b5f7e22,血清,泌乳素,,数值型,958,958,参考范围0-25 ng/ml,ng/ml,,LLM提取,论文病例报告,2003-01-01,检验,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,b7b5b7a5-2f5a-4c5b-9c8c-3c4d5e6f7a88,患者,药品名称,,类别型,溴隐亭,,起始用于大垂体泌乳素腺瘤治疗,,,LLM提取,论文病例报告,2003-01-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c1b2d3e4-f5a6-47b8-9c0d-1e2f3a4b5c6d,患者,手术名称,,类别型,经蝶窦手术,,首次手术，因药物治疗反应差而行,,,LLM提取,论文病例报告,2005-01-01,手术,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c1b2d3e4-f5a6-47b8-9c0d-1e2f3a4b5c6d,患者,病理诊断,,文本型,PRL免疫组化强阳性，提示泌乳素分泌性垂体肿瘤。,,Ki-67 6%；有丝分裂指数2/10 HPF；p53阴性,,免疫组化,LLM提取,论文病例报告,2005-01-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c1b2d3e4-f5a6-47b8-9c0d-1e2f3a4b5c6d,患者,免疫组化,,文本型,PRL强阳性。,,,,免疫组化,LLM提取,论文病例报告,2005-01-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c1b2d3e4-f5a6-47b8-9c0d-1e2f3a4b5c6d,患者,分化程度,,类别型,侵袭性/增殖活跃,,Ki-67 6%，mitotic index 2/10 HPF，p53阴性,,,LLM提取,论文病例报告,2005-01-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d7e8f9a0-b1c2-43d4-a5e6-f7a8b9c0d1e2,患者,药品名称,,类别型,卡麦角林,,术后改用卡麦角林,,,LLM提取,论文病例报告,2005-01-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d7e8f9a0-b1c2-43d4-a5e6-f7a8b9c0d1e2,患者,药品名称,,类别型,泼尼松龙,,术后垂体功能减退替代治疗,,,LLM提取,论文病例报告,2005-01-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d7e8f9a0-b1c2-43d4-a5e6-f7a8b9c0d1e2,患者,药品名称,,类别型,左甲状腺素,,术后垂体功能减退替代治疗,,,LLM提取,论文病例报告,2005-01-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,e1f2a3b4-c5d6-47e8-9f0a-b1c2d3e4f5a6,血清,泌乳素,,数值型,<200,200,术后2年在卡麦角林治疗下下降至此水平,ng/ml,,LLM提取,论文病例报告,2007-01-01,检验,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f1a2b3c4-d5e6-47f8-90ab-c1d2e3f4a5b6,患者,诊断名称,,类别型,GIST伴肝脏和腹膜转移,,常规体检发现,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f1a2b3c4-d5e6-47f8-90ab-c1d2e3f4a5b6,患者,诊断名称,,类别型,转移性胃肠间质瘤,,初始临床考虑,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f1a2b3c4-d5e6-47f8-90ab-c1d2e3f4a5b6,患者,诊断名称,,类别型,恶性泌乳素腺瘤/PRL分泌性垂体癌,,最终病理证实有肝转移,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c7,患者,药品名称,,类别型,伊马替尼,,用于GIST治疗,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,b1c2d3e4-f5a6-47b8-9c0d-d1e2f3a4b5c8,血清,泌乳素,,数值型,>900,900,2016年卡麦角林增量至2 mg/周后仍升高,ng/ml,,LLM提取,论文病例报告,2016-01-01,检验,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c2d3e4f5-a6b7-48c9-9d0e-f1a2b3c4d5e6,鞍区MRI,影像所见,,文本型,未见垂体肿块复发。,,,,MRI,LLM提取,论文病例报告,2016-01-01,影像,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d2e3f4a5-b6c7-49da-9e0f-a1b2c3d4e5f6,患者,药品名称,,类别型,卡麦角林,,因绝经后状态曾停药1年，后因PRL升至8000 ng/ml再次恢复并加量至3 mg/周，随后停用,,,LLM提取,论文病例报告,2016-01-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,e3f4a5b6-c7d8-4a9e-8f0a-b1c2d3e4f5a7,血清,泌乳素,,数值型,8000,8000,卡麦角林治疗期间持续升高,ng/ml,,LLM提取,论文病例报告,2016-01-01,检验,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f4a5b6c7-d8e9-4b0a-9f1a-b2c3d4e5f6a8,患者,手术名称,,类别型,第二次经蝶窦手术,,因复发鞍区肿块及视力障碍而行,,,LLM提取,论文病例报告,2018-03-01,手术,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f4a5b6c7-d8e9-4b0a-9f1a-b2c3d4e5f6a8,患者,病理诊断,,文本型,第二次手术组织Ki-67增高，提示肿瘤更具侵袭性。,,Ki-67 8%；mitotic index 3/10 HPF,,病理,LLM提取,论文病例报告,2018-03-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f4a5b6c7-d8e9-4b0a-9f1a-b2c3d4e5f6a8,患者,分化程度,,类别型,高增殖活性/侵袭性特征,,Ki-67 8%，mitotic index 3/10 HPF,,,LLM提取,论文病例报告,2018-03-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f4a5b6c7-d8e9-4b0a-9f1a-b2c3d4e5f6a8,患者,药品名称,,类别型,卡麦角林,,第二次手术前重新启动,,,LLM提取,论文病例报告,2018-03-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f4a5b6c7-d8e9-4b0a-9f1a-b2c3d4e5f6a8,患者,放疗,,文本型,对垂体柄残余肿瘤行放射治疗。,,,,,LLM提取,论文病例报告,2018-03-01,病程,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,b2c3d4e5-f6a7-48b9-9c0d-e1f2a3b4c5d6,血清,泌乳素,,数值型,33,33,第二次手术后下降至此水平,ng/ml,,LLM提取,论文病例报告,2018-03-01,检验,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c3d4e5f6-a7b8-49c0-9d1e-f2a3b4c5d6e7,患者,治疗方案,,文本型,伊马替尼治疗期间，原发肿块和腹膜转移灶显著缩小，但肝转移灶明显进展。,,,,,LLM提取,论文病例报告,2018-05-01,病程,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,c3d4e5f6-a7b8-49c0-9d1e-f2a3b4c5d6e7,患者,治疗反应,,类别型,GIST原发灶及腹膜转移灶缩小，肝转移灶加重,,,,,LLM提取,论文病例报告,2018-05-01,病程,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d4e5f6a7-b8c9-4d0e-9f1a-b2c3d4e5f6a8,肝脏病灶,病理诊断,,文本型,肝脏病灶为PRL分泌性垂体癌转移，而非GIST转移。,,经经皮活检证实,,经皮活检,LLM提取,论文病例报告,2018-05-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,d4e5f6a7-b8c9-4d0e-9f1a-b2c3d4e5f6a8,肝脏病灶,免疫组化,,文本型,PRL强阳性。,,支持PRL分泌性垂体癌转移,,免疫组化,LLM提取,论文病例报告,2018-05-01,病理,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,e5f6a7b8-c9d0-4e1f-9a2b-c3d4e5f6a7b8,患者,药品名称,,类别型,替莫唑胺,,曾考虑但未使用,,,LLM提取,论文病例报告,2018-09-01,用药,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f6a7b8c9-d0e1-4f2a-9b3c-d4e5f6a7b8c9,患者,出院诊断,,类别型,恶性泌乳素腺瘤伴肝转移；GIST伴肝/腹膜转移,,,,,LLM提取,论文病例报告,2018-09-01,出院,v1
+d650e2197f5b1e1bbe4ff2a6fb229db6,22079adb62b92fd2bdd32dfb34418b27,f6a7b8c9-d0e1-4f2a-9b3c-d4e5f6a7b8c9,患者,出院状况,,类别型,死亡,,第二次手术后6个月因急性肾衰竭和败血症死亡,,,LLM提取,论文病例报告,2018-09-01,出院,v1

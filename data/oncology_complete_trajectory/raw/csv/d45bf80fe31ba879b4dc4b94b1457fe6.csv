@@ -1,0 +1,54 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,7e9d95e8-3d67-4df2-9f02-9f7f8a9c8b61,患者,诊断名称,,类别型,多发性骨髓瘤,,standard risk,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c3b2d5c9-2c9f-4d5d-a0f8-1c0e6c1f7e22,患者,Ig亚型,,类别型,IgA kappa,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c3b2d5c9-2c9f-4d5d-a0f8-1c0e6c1f7e22,患者,风险分层,,类别型,标准风险,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c3b2d5c9-2c9f-4d5d-a0f8-1c0e6c1f7e22,患者,ISS分期,,类别型,1,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c3b2d5c9-2c9f-4d5d-a0f8-1c0e6c1f7e22,患者,CRAB特征,,文本型,溶骨性病变和软组织样肿块,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c3b2d5c9-2c9f-4d5d-a0f8-1c0e6c1f7e22,患者,杜里-萨尔蒙分期,,类别型,IIIA,,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c3b2d5c9-2c9f-4d5d-a0f8-1c0e6c1f7e22,患者,核型,,文本型,"47, XY, +17",,,,,LLM提取,论文病例报告,2013-01-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,1d1d2d4a-2ef0-4c9e-9e18-7eddf7b8f001,患者,治疗方案,,类别型,来那度胺+阿霉素+地塞米松诱导治疗,,3个周期,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,1d1d2d4a-2ef0-4c9e-9e18-7eddf7b8f001,患者,治疗反应,,类别型,部分缓解,,,,,LLM提取,论文病例报告,2013-01-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,9d8c4f1e-7e7a-4b49-9c3d-8b9f2e7c2f11,患者,治疗方案,,类别型,硼替佐米+来那度胺+地塞米松+顺铂+阿霉素+环磷酰胺+依托泊苷（VRD-PACE）,,强化诱导治疗,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,2c8e0c7a-6a32-4c4d-8f4b-7d2b4f9c3a90,患者,治疗方案,,类别型,美法仑大剂量化疗后自体造血干细胞移植,,,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,2c8e0c7a-6a32-4c4d-8f4b-7d2b4f9c3a90,患者,治疗反应,,类别型,非常好的部分缓解,,VGPR,,,LLM提取,论文病例报告,2013-01-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,5f5b9db1-0f2a-4ef7-a6b2-0c1e4c2e9b12,患者,治疗方案,,类别型,同胞HLA相合同种异基因造血干细胞移植,,首次异基因HSCT,,,LLM提取,论文病例报告,2013-11-01,手术,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,5f5b9db1-0f2a-4ef7-a6b2-0c1e4c2e9b12,移植物,供者血型,,类别型,A Rh-,,HLA匹配同胞供者，A1亚群,,,LLM提取,论文病例报告,2013-11-01,其他,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,5f5b9db1-0f2a-4ef7-a6b2-0c1e4c2e9b12,患者,原血型,,类别型,O Rh+,,,,,LLM提取,论文病例报告,2013-11-01,病史,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,5f5b9db1-0f2a-4ef7-a6b2-0c1e4c2e9b12,患者,移植后血型,,类别型,A Rh-,,嵌合后,,,LLM提取,论文病例报告,2013-11-01,其他,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,5f5b9db1-0f2a-4ef7-a6b2-0c1e4c2e9b12,患者,输血,,文本型,A Rh-悬浮红细胞,,无并发症,,,LLM提取,论文病例报告,2013-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,5f5b9db1-0f2a-4ef7-a6b2-0c1e4c2e9b12,患者,治疗方案,,类别型,来那度胺维持治疗,,,,,LLM提取,论文病例报告,2013-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d74b3d4b-3f53-4a8a-b4f1-5f4a0f0e2c13,患者,诊断名称,,类别型,疾病进展,,progressive disease,,,LLM提取,论文病例报告,2015-12-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d74b3d4b-3f53-4a8a-b4f1-5f4a0f0e2c13,患者,IgA,,数值型,升高,,,,,LLM提取,论文病例报告,2015-12-01,检验,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d74b3d4b-3f53-4a8a-b4f1-5f4a0f0e2c13,患者,影像所见,,文本型,多发新发活动性溶骨性骨病变及软组织肿块样膨胀性病灶,,18F-FDG-PET,,,LLM提取,论文病例报告,2015-12-01,影像,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d74b3d4b-3f53-4a8a-b4f1-5f4a0f0e2c13,患者,核型,,文本型,"51, XY, +3, +9, +11, +15, +17",,复杂异常核型,,,LLM提取,论文病例报告,2015-12-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,a3b7d9e0-4f01-4d2f-9d0b-7d5f2d1a3e44,患者,治疗方案,,类别型,硼替佐米+来那度胺+地塞米松（VRD）,,1个周期,,,LLM提取,论文病例报告,2015-12-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,a3b7d9e0-4f01-4d2f-9d0b-7d5f2d1a3e44,患者,治疗反应,,类别型,疾病进展,,,,,LLM提取,论文病例报告,2015-12-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,b7e2a0d3-8f6c-4d74-9b2d-9f6c1e7d5a55,患者,治疗方案,,类别型,泊马度胺+硼替佐米+环磷酰胺+地塞米松（VCD）,,4个周期；并行供者淋巴细胞输注4次,,,LLM提取,论文病例报告,2016-07-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,b7e2a0d3-8f6c-4d74-9b2d-9f6c1e7d5a55,患者,治疗反应,,类别型,部分缓解,,2016年7月,,,LLM提取,论文病例报告,2016-07-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c4e9d0a1-1a5a-4b8b-9e3d-1d0f8e7c6b66,患者,诊断名称,,类别型,疾病进展,,multiple new osteolytic lesions and extensive bone marrow expansion,,,LLM提取,论文病例报告,2016-11-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c4e9d0a1-1a5a-4b8b-9e3d-1d0f8e7c6b66,患者,治疗方案,,类别型,艾洛珠单抗+泊马度胺+地塞米松,,随后改为卡非佐米+环磷酰胺+地塞米松；同时接受骨病灶放疗,,,LLM提取,论文病例报告,2016-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,c4e9d0a1-1a5a-4b8b-9e3d-1d0f8e7c6b66,患者,治疗反应,,类别型,无反应,,,,,LLM提取,论文病例报告,2016-11-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,治疗方案,,类别型,达雷妥尤单抗+泊马度胺+地塞米松,,11个周期（2017年7月-2018年5月）,,,LLM提取,论文病例报告,2017-07-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,治疗反应,,类别型,部分缓解,,,,,LLM提取,论文病例报告,2017-07-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,e2f3a4b5-c6d7-48e9-9a0b-2b3c4d5e6f78,患者,治疗方案,,类别型,维奈克拉+卡非佐米+地塞米松,,巩固治疗,,,LLM提取,论文病例报告,2018-06-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,e2f3a4b5-c6d7-48e9-9a0b-2b3c4d5e6f78,患者,治疗反应,,类别型,非常好的部分缓解,,VGPR,,,LLM提取,论文病例报告,2018-06-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,8f9e0d1c-2b3a-4c5d-9e1f-0a1b2c3d4e5f,患者,治疗方案,,类别型,异基因造血干细胞移植,,第二次异基因HSCT；预处理为氟达拉滨+曲奥司他+ATG,,,LLM提取,论文病例报告,2018-10-01,手术,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,8f9e0d1c-2b3a-4c5d-9e1f-0a1b2c3d4e5f,患者,供者血型,,类别型,A Rh-,,HLA匹配无关供者；A2亚群,,,LLM提取,论文病例报告,2018-10-01,其他,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,8f9e0d1c-2b3a-4c5d-9e1f-0a1b2c3d4e5f,患者,GVHD预防,,文本型,环孢素+吗替麦考酚酯,,,,,LLM提取,论文病例报告,2018-10-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,8f9e0d1c-2b3a-4c5d-9e1f-0a1b2c3d4e5f,患者,治疗反应,,类别型,完全缓解,,MRD阴性,,,LLM提取,论文病例报告,2018-10-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,8f9e0d1c-2b3a-4c5d-9e1f-0a1b2c3d4e5f,患者,植入/重建,,文本型,中性粒细胞植入,,day +28,,,LLM提取,论文病例报告,2018-10-01,病程,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,8f9e0d1c-2b3a-4c5d-9e1f-0a1b2c3d4e5f,患者,并发症,,文本型,急性GVHD,,无体征或症状,,,LLM提取,论文病例报告,2018-10-01,不良反应,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,不良反应名称,,类别型,Coombs阳性溶血,,直接Coombs试验阳性；持续低结合珠蛋白和LDH升高,,直接Coombs试验,LLM提取,论文病例报告,2018-11-01,不良反应,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,血清,结合珠蛋白,,数值型,<10,10,,mg/dl,,LLM提取,论文病例报告,2018-11-01,检验,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,血清,乳酸脱氢酶,,数值型,300-1228,300,升高范围,U/l,,LLM提取,论文病例报告,2018-11-01,检验,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,治疗方案,,类别型,泼尼松,2,mg/kg/day，初始剂量,mg/kg/day,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,治疗方案,,类别型,利妥昔单抗,375,mg/m2，每周1次，共4周,mg/m2,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,治疗方案,,类别型,血浆置换,,每3周1次,,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,治疗方案,,类别型,达雷妥尤单抗,16,mg/kg，每周1次，共3周，off-label,mg/kg,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,输血,,文本型,A Rh-悬浮红细胞,,初期耐受后多数交叉配血阳性,,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,血型异常,,文本型,A1相关同种抗体,,血清中检出anti-A抗体,,,LLM提取,论文病例报告,2018-11-01,诊断,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,患者,输血,,文本型,O Rh-悬浮红细胞,,后耐受良好,,,LLM提取,论文病例报告,2018-11-01,用药,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,血清,乳酸脱氢酶,,数值型,恢复正常,,,U/l,,LLM提取,论文病例报告,2018-11-01,检验,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,d5e6f7a8-b9c0-41d2-8e3f-0a1b2c3d4e5a,血清,结合珠蛋白,,数值型,恢复正常,,,mg/dl,,LLM提取,论文病例报告,2018-11-01,检验,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,患者,感染,,文本型,单纯疱疹病毒感染,,严重疱疹性龈口炎、HSV病毒血症、骨髓HSV DNA阳性,,,LLM提取,论文病例报告,2019-01-01,不良反应,v1
+d45bf80fe31ba879b4dc4b94b1457fe6,3f446afdc98b72536b809e392dd5eefb,a9b8c7d6-e5f4-4a3b-9c2d-1e0f2a3b4c5d,患者,出院状态,,类别型,死亡,,死于败血症,,,LLM提取,论文病例报告,2019-01-01,出院,v1

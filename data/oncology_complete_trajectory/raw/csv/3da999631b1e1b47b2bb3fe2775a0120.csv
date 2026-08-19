@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,7f6a1f19-7f2c-4f44-9e0e-4c7c9f1f9d7a,患者,入院年龄,,数值型,53,53,,岁,,LLM提取,论文病例报告,2015-04-07,入院,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,0f3d7d6d-0a25-4b83-9f6f-3f9f7f6b9f6a,患者,手术名称,,类别型,primary debulking surgery,,,,,LLM提取,论文病例报告,2015-04-07,手术,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,9d8b3f6a-2c7d-4b1e-8d2f-4c7e8d9a1b2c,左卵巢,病理诊断,,文本型,high-grade serous carcinoma,,,,,LLM提取,论文病例报告,2015-04-07,病理,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,c1d2e3f4-5678-4abc-9def-1234567890ab,患者,诊断名称,,类别型,ovarian cancer,,left ovary high-grade serous carcinoma,,,LLM提取,论文病例报告,2015-04-07,诊断,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,a2b3c4d5-e6f7-48a9-b0c1-d2e3f4a5b6c7,患者,药品名称,,类别型,taxel,,with carboplatin; 4 cycles,,,LLM提取,论文病例报告,2015-04-07,用药,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,a2b3c4d5-e6f7-48a9-b0c1-d2e3f4a5b6c7,患者,药品名称,,类别型,carboplatin,,with taxel; 4 cycles,,,LLM提取,论文病例报告,2015-04-07,用药,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d4c3b2a1-0f9e-4d8c-8b7a-6e5d4c3b2a1f,患者,检验项目,,数值型,36.4,36.4,,,,LLM提取,论文病例报告,2015-04-07,检验,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d4c3b2a1-0f9e-4d8c-8b7a-6e5d4c3b2a1f,患者,检验项目,,数值型,117,117,,,,LLM提取,论文病例报告,2015-04-07,检验,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7a8b9,患者,检验项目,,数值型,CA125,,fluctuated between 36.4 and 117 in nearly one year,,,LLM提取,论文病例报告,2015-04-07,检验,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,f1e2d3c4-b5a6-4789-9abc-def012345678,患者,诊断名称,,类别型,recurrent ovarian cancer,,confirmed by PET/CT; right pelvis lesion invading vaginal stump and right ureter,,PET/CT,LLM提取,论文病例报告,2017-10-27,诊断,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,f1e2d3c4-b5a6-4789-9abc-def012345678,患者,影像所见,,文本型,maximum 6 cm lesion with increased 18F-FDG uptake in the right pelvis; invaded the vaginal stump and right ureter leading to dilatation and hydrop of the upper ureter,,,,PET/CT,LLM提取,论文病例报告,2017-10-27,影像,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,f1e2d3c4-b5a6-4789-9abc-def012345678,患者,影像结论,,文本型,recurrence,,,,PET/CT,LLM提取,论文病例报告,2017-10-27,影像,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,b2c3d4e5-f6a7-4890-9bcd-ef0123456789,患者,手术名称,,类别型,secondary debulking surgery,,,,,LLM提取,论文病例报告,2017-11-10,手术,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,b2c3d4e5-f6a7-4890-9bcd-ef0123456789,患者,手术结果,,文本型,"tumor tightly adhered to the posterior wall of the bladder, the lower right ureter and the iliac blood vessels",,,,,LLM提取,论文病例报告,2017-11-10,手术,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,c3d4e5f6-a7b8-4901-abcd-ef1234567890,右盆腔残余病灶,病理诊断,,文本型,high-grade serous carcinoma,,,,,LLM提取,论文病例报告,2017-11-10,病理,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d7e8f9a0-b1c2-4934-c5d6-e7f8091a2b3c,患者,药品名称,,类别型,taxel,,with carboplatin; started after secondary debulking surgery,,,LLM提取,论文病例报告,2017-11-18,用药,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d7e8f9a0-b1c2-4934-c5d6-e7f8091a2b3c,患者,药品名称,,类别型,carboplatin,,with taxel; started after secondary debulking surgery,,,LLM提取,论文病例报告,2017-11-18,用药,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d7e8f9a0-b1c2-4934-c5d6-e7f8091a2b3c,患者,不良反应名称,,类别型,nausea,,severe,,,LLM提取,论文病例报告,2017-11-18,不良反应,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d7e8f9a0-b1c2-4934-c5d6-e7f8091a2b3c,患者,不良反应名称,,类别型,vomiting,,severe,,,LLM提取,论文病例报告,2017-11-18,不良反应,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,d7e8f9a0-b1c2-4934-c5d6-e7f8091a2b3c,患者,不良反应名称,,类别型,fatigue,,severe,,,LLM提取,论文病例报告,2017-11-18,不良反应,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,4a5b6c7d-8e9f-4012-93a4-b5c6d7e8f901,患者,治疗方案,,文本型,whole pelvic radiation,,45 Gy/25 fractions; simultaneous boost 60 Gy/25 fractions,Gy,,LLM提取,论文病例报告,2017-12-18,病程,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,5b6c7d8e-9f01-4123-a4b5-c6d7e8f90123,患者,影像所见,,文本型,residual lesion shrinkage on MRI,,,,MRI,LLM提取,论文病例报告,2018-02-28,影像,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,6c7d8e9f-0123-4234-b5c6-d7e8f9012345,患者,影像所见,,文本型,"residual lesion with increased 18F-FDG uptake, indicating slow progression",,,,PET/CT,LLM提取,论文病例报告,2018-03-26,影像,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,7d8e9f01-2345-4345-c6d7-e8f901234567,患者,症状,,文本型,vaginal bleeding,,,,,LLM提取,论文病例报告,2018-07-01,病程,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,7d8e9f01-2345-4345-c6d7-e8f901234567,患者,查体,,文本型,larger lesion on the anterior vaginal wall fused with the vaginal residual,,,,gynecological examination,LLM提取,论文病例报告,2018-07-01,评估,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,8e9f0123-4567-4456-d7e8-f90123456789,患者,治疗方案,,文本型,brachytherapy,,30 Gy/5 fractions; with vaginal tube,Gy,,LLM提取,论文病例报告,2018-07-01,病程,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,9f012345-6789-4567-e8f9-0123456789ab,患者,影像所见,,文本型,clear lesion on the same location,,,,PET/CT,LLM提取,论文病例报告,2018-10-12,影像,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,0a1b2c3d-4e5f-4678-9abc-def012345678,肿瘤组织,检验项目,,数值型,TMB,47.18,high TMBs,muts/Mb,gene analysis,LLM提取,论文病例报告,2018-10-12,检验,v1
+3da999631b1e1b47b2bb3fe2775a0120,9554b786a77df4ddae8dbda6790524d0,0a1b2c3d-4e5f-4678-9abc-def012345678,肿瘤组织,检验项目,,类别型,BRCA2 mutation,,,,gene analysis,LLM提取,论文病例报告,2018-10-12,检验,v1

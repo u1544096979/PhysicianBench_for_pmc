@@ -1,0 +1,26 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,3b0a1a2e-9b85-4d38-a52c-2d4bb8f1a9a1,患者,病史,,文本型,20多岁女性，6年前接受右侧颈动脉体肿瘤切除术时右颈总动脉和颈内动脉损伤，随后行人工血管(ePTFE，外径4 mm)置换。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,3b0a1a2e-9b85-4d38-a52c-2d4bb8f1a9a1,患者,既往史,,文本型,右侧颈动脉体肿瘤切除术后行右颈总动脉和颈内动脉人工血管置换。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,bb7f3b1f-6b9a-4c06-8b05-1e3ff6f4d5cc,患者,影像所见,,文本型,术后2年磁共振血管成像(MRA)未见右侧颈动脉明显狭窄。,,,,MRA,LLM提取,论文病例报告,2020-01-01,影像,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,c3e67d1d-7cf3-4f6b-9df0-27d0a2a1bcf2,患者,影像所见,,文本型,术后3年颈部CT血管造影(CTA)未见人工血管明显狭窄。,,,,CTA,LLM提取,论文病例报告,2021-01-01,影像,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,f2b6c3f7-6db0-43b9-9db6-4c7f2e3b9e11,患者,影像所见,,文本型,术后4年MRA提示人工血管内可疑狭窄。,,,,MRA,LLM提取,论文病例报告,2022-01-01,影像,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,f2b6c3f7-6db0-43b9-9db6-4c7f2e3b9e11,患者,药品名称,,类别型,阿司匹林,,100 mg；因术后4年发现狭窄后开始抗血小板治疗,mg,,LLM提取,论文病例报告,2022-01-01,用药,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,f2b6c3f7-6db0-43b9-9db6-4c7f2e3b9e11,患者,影像所见,,文本型,颈动脉超声示血管内膜增厚及等回声纤维组织，最狭窄处收缩期峰值流速(PSV)242 cm/s。,242,提示狭窄位于血管内,cm/s,颈动脉超声,LLM提取,论文病例报告,2022-01-01,影像,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,f2b6c3f7-6db0-43b9-9db6-4c7f2e3b9e11,患者,诊断名称,,类别型,颈动脉人工血管内狭窄,,术后4年发现,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,a91bf1f5-1b9f-4af6-9ec0-8d2e4f4b1f0d,患者,影像所见,,文本型,随访中超声示狭窄较前进展，PSV升至255 cm/s；MRA示右颈动脉几乎闭塞；CTA示狭窄位于人工血管吻合口稍远端；患者无神经系统症状；Diamox负荷SPECT示无明显血流动力学受损。,255,右颈动脉近乎闭塞,cm/s,颈动脉超声、MRA、CTA、SPECT with Diamox stress,LLM提取,论文病例报告,2024-01-01,影像,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,a91bf1f5-1b9f-4af6-9ec0-8d2e4f4b1f0d,患者,诊断名称,,类别型,颈动脉人工血管内狭窄进展,,非吻合口区；病变明显进展,,,LLM提取,论文病例报告,2024-01-01,诊断,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,a91bf1f5-1b9f-4af6-9ec0-8d2e4f4b1f0d,患者,评估方法,,类别型,Diamox负荷SPECT,,脑血流(CBF)评估,,,LLM提取,论文病例报告,2024-01-01,评估,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,治疗方案,,类别型,经皮腔内血管成形术(PTA) + 颈动脉支架植入术(CAS),,先以非顺应性球囊扩张，后置入开环支架；使用远端保护,,,LLM提取,论文病例报告,2024-01-01,病程,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,手术结果,,文本型,完成血运重建，最终造影显示狭窄明显改善，颈总动脉及颅内颈内动脉显影良好。,,,,介入血管造影,LLM提取,论文病例报告,2024-01-01,手术,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,麻醉方式,,类别型,局部麻醉,,,,,LLM提取,论文病例报告,2024-01-01,手术,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,出血量,,数值型,,,,,,LLM提取,论文病例报告,2024-01-01,手术,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,药品名称,,类别型,肝素,5000,静脉给予并维持ACT≥250,units,,LLM提取,论文病例报告,2024-01-01,用药,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,药品名称,,类别型,Rx-Genity,,3.5 mm × 40 mm球囊；预扩张两次，8 atm 60 s和14 atm 60 s,,,LLM提取,论文病例报告,2024-01-01,用药,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,药品名称,,类别型,Protage RX支架,,8.0 mm × 60 mm,,,LLM提取,论文病例报告,2024-01-01,用药,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,药品名称,,类别型,Rx-Genity,,4.5 mm × 30 mm球囊；后扩张，8 atm 5 s,,,LLM提取,论文病例报告,2024-01-01,用药,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,d4d0a3c2-4f3e-4c1c-a9ee-3b0d8d8b1f44,患者,评估,,文本型,术中NIRS监测无变化。,,,,NIRS监测,LLM提取,论文病例报告,2024-01-01,评估,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,e5f5f4e2-0d54-4f7b-8e16-9b2d8b8d1b22,患者,影像所见,,文本型,术后MRI未见新发缺血灶；颈动脉超声示人工血管外径无变化，但血管内狭窄已成功扩张，PSV降至93.4 cm/s。,93.4,人工血管外径4 mm,cm/s,MRI、颈动脉超声,LLM提取,论文病例报告,2024-01-01,影像,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,e5f5f4e2-0d54-4f7b-8e16-9b2d8b8d1b22,患者,出院状况,,类别型,无神经功能缺损,,术后第4天出院,,,LLM提取,论文病例报告,2024-01-04,出院,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,e5f5f4e2-0d54-4f7b-8e16-9b2d8b8d1b22,患者,住院天数,,数值型,,4,,天,,LLM提取,论文病例报告,2024-01-04,出院,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,e5f5f4e2-0d54-4f7b-8e16-9b2d8b8d1b22,患者,出院诊断,,类别型,颈动脉人工血管狭窄，CAS术后状态,,,,,LLM提取,论文病例报告,2024-01-04,出院,v1
+b7c0ab2c0805edff297e646378f7b65e,c8d95cddf052062f731b6655f04b46fb,9c2d8f3a-8f3a-4d2d-9f1f-2f1c8e7a6b55,患者,随访结果,,文本型,1年随访未见明显再狭窄。,,,,,LLM提取,论文病例报告,2025-01-01,病程,v1

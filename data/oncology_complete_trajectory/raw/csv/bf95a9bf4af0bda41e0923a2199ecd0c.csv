@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,6a3cb5d9-6f7e-4f12-8f24-4c3cb31d0d4c,患者,入院年龄,,数值型,56,56,,岁,,LLM提取,论文病例报告,2017-08-23,入院,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,6a3cb5d9-6f7e-4f12-8f24-4c3cb31d0d4c,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2017-08-23,病史,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,6a3cb5d9-6f7e-4f12-8f24-4c3cb31d0d4c,患者,手术名称,,类别型,食管癌根治术,,,,,LLM提取,论文病例报告,2017-08-23,手术,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,b2a0c2a9-7a15-4d6f-b4c4-0f8a7a6f3a12,患者,病理诊断,,文本型,食管鳞状细胞癌，病理分期IIB，PT2N1M0,,,,,LLM提取,论文病例报告,2017-08-23,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,b2a0c2a9-7a15-4d6f-b4c4-0f8a7a6f3a12,患者,诊断名称,,类别型,食管鳞状细胞癌,,术后病理,,,LLM提取,论文病例报告,2017-08-23,诊断,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,b2a0c2a9-7a15-4d6f-b4c4-0f8a7a6f3a12,患者,病理分期,,类别型,IIB,,pT2N1M0,,,LLM提取,论文病例报告,2017-08-23,诊断,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,3ef4b3e6-8c3d-4f1d-9d60-9f1eb4fd0cb8,患者,随访结果,,文本型,术后未行辅助治疗，按每3个月随访,,,,,LLM提取,论文病例报告,2017-08-23,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,d9c7cf6e-3d2c-4b3b-8b8d-7d1d1de3f1b1,患者,影像所见,,文本型,CT示肝脏、左肾上腺及纵隔淋巴结多发转移灶，右肩皮下可见多发结节样病灶，直径约1.5 cm,,,,CT,LLM提取,论文病例报告,2018-09-03,影像,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,d9c7cf6e-3d2c-4b3b-8b8d-7d1d1de3f1b1,患者,影像结论,,文本型,肝脏、左肾上腺及纵隔淋巴结转移,,,,CT,LLM提取,论文病例报告,2018-09-03,影像,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,0d8e7e2f-39d4-4d62-bf1c-3f1a0a56e9a1,右肩皮下结节,病理诊断,,文本型,转移性鳞状细胞癌,,细针穿刺细胞学,,细针穿刺,LLM提取,论文病例报告,2018-09-03,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,0d8e7e2f-39d4-4d62-bf1c-3f1a0a56e9a1,右肩皮下结节,诊断名称,,类别型,转移性鳞状细胞癌,,,,,LLM提取,论文病例报告,2018-09-03,诊断,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,7c8f4a0e-3e4d-4e4a-9b7a-7dfc8d1c0a11,患者,治疗方案,,类别型,帕博利珠单抗联合多西他赛+顺铂,,一线 chemo-immunotherapy,,,LLM提取,论文病例报告,2018-09-08,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,7c8f4a0e-3e4d-4e4a-9b7a-7dfc8d1c0a11,帕博利珠单抗,药品名称,,类别型,pembrolizumab,,2 mg/kg，Q3W,,,LLM提取,论文病例报告,2018-09-08,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,7c8f4a0e-3e4d-4e4a-9b7a-7dfc8d1c0a11,多西他赛,药品名称,,类别型,docetaxel,,75 mg/m2，Q3W,,,LLM提取,论文病例报告,2018-09-08,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,7c8f4a0e-3e4d-4e4a-9b7a-7dfc8d1c0a11,顺铂,药品名称,,类别型,cisplatin,,75 mg/m2，Q3W,,,LLM提取,论文病例报告,2018-09-08,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,7c8f4a0e-3e4d-4e4a-9b7a-7dfc8d1c0a11,患者,周期数,,数值型,2,2,首轮治疗,周期,,LLM提取,论文病例报告,2018-09-08,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,a1c3f2e5-6c9d-4c55-b0d0-7cc1f7c4e7b2,右睾丸,病理诊断,,文本型,鳞状细胞癌,,睾丸切除术后,,病理,LLM提取,论文病例报告,2018-10-08,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,a1c3f2e5-6c9d-4c55-b0d0-7cc1f7c4e7b2,右睾丸,诊断名称,,类别型,转移性鳞状细胞癌,,,,,LLM提取,论文病例报告,2018-10-08,诊断,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,f0a2c9e8-0b9d-4d7e-9a8f-0c7d1f2a3b4c,患者,影像所见,,文本型,CT示肝脏和左肾上腺转移灶增大,,,,CT,LLM提取,论文病例报告,2018-11-02,影像,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,f0a2c9e8-0b9d-4d7e-9a8f-0c7d1f2a3b4c,患者,影像结论,,文本型,疾病进展（PD）,,RECIST 1.1,,CT,LLM提取,论文病例报告,2018-11-02,评估,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,c6b7f1a2-3d4e-4f5a-9b8c-1d2e3f4a5b6c,患者,治疗方案,,类别型,帕博利珠单抗联合多西他赛+顺铂,,PD后继续原方案治疗2个周期,,,LLM提取,论文病例报告,2018-11-05,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,c6b7f1a2-3d4e-4f5a-9b8c-1d2e3f4a5b6c,右肩皮下结节,体积变化,,文本型,直径缩小约50%,,,,,LLM提取,论文病例报告,2018-11-05,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,d4d5e6f7-8a9b-4c0d-9e1f-2a3b4c5d6e7f,患者,影像所见,,文本型,CT示纵隔、肝脏及左肾上腺病灶缩小,,,,CT,LLM提取,论文病例报告,2018-12-28,影像,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,d4d5e6f7-8a9b-4c0d-9e1f-2a3b4c5d6e7f,患者,疗效评估,,类别型,部分缓解（PR）,,RECIST 1.1,,CT,LLM提取,论文病例报告,2018-12-28,评估,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,e7f8a9b0-c1d2-4e3f-8a9b-0c1d2e3f4a5b,患者,治疗方案,,类别型,帕博利珠单抗单药维持治疗,,2 mg/kg，Q3W,,,LLM提取,论文病例报告,2018-12-30,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,e7f8a9b0-c1d2-4e3f-8a9b-0c1d2e3f4a5b,患者,周期数,,数值型,7,7,维持治疗,周期,,LLM提取,论文病例报告,2018-12-30,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,9a0b1c2d-3e4f-4a5b-8c9d-0e1f2a3b4c5d,患者,影像所见,,文本型,CT示左肾上腺转移灶增大，纵隔淋巴结及肝转移灶无明显变化,,,,CT,LLM提取,论文病例报告,2019-06-04,影像,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,9a0b1c2d-3e4f-4a5b-8c9d-0e1f2a3b4c5d,患者,疗效评估,,类别型,疾病进展（PD）,,仅左肾上腺进展,,CT,LLM提取,论文病例报告,2019-06-04,评估,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,1b2c3d4e-5f60-4a7b-8c9d-0e1f2a3b4c5e,左肾上腺,手术名称,,类别型,左肾上腺肿物切除术,,lumpectomy,,,LLM提取,论文病例报告,2019-06-13,手术,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,1b2c3d4e-5f60-4a7b-8c9d-0e1f2a3b4c5e,左肾上腺,病理诊断,,文本型,鳞状细胞癌,,术后病理,,病理,LLM提取,论文病例报告,2019-06-13,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,4c5d6e7f-8a9b-4c0d-9e1f-2a3b4c5d6e7a,患者,治疗方案,,类别型,帕博利珠单抗+替加氟吉美拉西尔奥替拉西钾胶囊（S1）,,二线治疗,,,LLM提取,论文病例报告,2019-06-21,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,4c5d6e7f-8a9b-4c0d-9e1f-2a3b4c5d6e7a,帕博利珠单抗,药品名称,,类别型,pembrolizumab,,2 mg/kg，Q3W,,,LLM提取,论文病例报告,2019-06-21,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,4c5d6e7f-8a9b-4c0d-9e1f-2a3b4c5d6e7a,S1,药品名称,,类别型,tegafur gimeracil oteracil potassium capsule,,60 mg bid，D1-14，Q3W,,,LLM提取,论文病例报告,2019-06-21,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,4c5d6e7f-8a9b-4c0d-9e1f-2a3b4c5d6e7a,患者,周期数,,数值型,6,6,二线治疗,周期,,LLM提取,论文病例报告,2019-06-21,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,8d9e0f1a-2b3c-4d5e-8f90-1a2b3c4d5e6f,患者,疗效评估,,类别型,疾病稳定（SD）,,肝、纵隔淋巴结病灶大小相近,,CT,LLM提取,论文病例报告,2019-06-21,评估,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,治疗方案,,类别型,帕博利珠单抗单药维持治疗,,2 mg/kg，Q3W,,,LLM提取,论文病例报告,2019-06-21,用药,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,周期数,,数值型,8,8,维持治疗直到2020-06-20,周期,,LLM提取,论文病例报告,2020-06-20,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b,患者,疗效评估,,类别型,疾病稳定（SD）,,持续至2020-06-20,,,LLM提取,论文病例报告,2020-06-20,评估,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,f1a2b3c4-d5e6-4f70-8a9b-0c1d2e3f4a5c,患者,随访结果,,文本型,总生存期22个月，耐受性良好，无明显不良反应，生活质量较好,,,,,LLM提取,论文病例报告,2020-06-20,病程,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,aa11bb22-cc33-44dd-88ee-ff0011223344,患者,PD-L1状态,,类别型,低/阴性,,四份肿瘤组织CPS分别为0、0、0、3,,免疫组化,LLM提取,论文病例报告,2017-08-23,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,aa11bb22-cc33-44dd-88ee-ff0011223344,患者,PD-L1状态,,类别型,低/阴性,,TE CPS=0,,免疫组化,LLM提取,论文病例报告,2018-10-22,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,aa11bb22-cc33-44dd-88ee-ff0011223344,患者,PD-L1状态,,类别型,低/阴性,,TT CPS=0,,免疫组化,LLM提取,论文病例报告,2018-12-12,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,aa11bb22-cc33-44dd-88ee-ff0011223344,患者,PD-L1状态,,类别型,低/阴性,,TS CPS=0,,免疫组化,LLM提取,论文病例报告,2018-12-12,病理,v1
+bf95a9bf4af0bda41e0923a2199ecd0c,899cf6b235a65ad6053d0f6d2bcf9ca5,aa11bb22-cc33-44dd-88ee-ff0011223344,患者,PD-L1状态,,类别型,低/阴性,,TA CPS=3,,免疫组化,LLM提取,论文病例报告,2019-06-13,病理,v1

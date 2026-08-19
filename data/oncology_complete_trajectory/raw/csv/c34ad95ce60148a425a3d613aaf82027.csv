@@ -1,0 +1,54 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,3c2a4df4-6a9d-4bb4-9d5f-7f0cb8d2a0b1,患者,入院年龄,,数值型,54,54,,岁,,LLM提取,论文病例报告,2022-12-05,入院,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,3c2a4df4-6a9d-4bb4-9d5f-7f0cb8d2a0b1,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,2022-12-05,入院,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,8b7f06d8-0d0f-4f3c-9d7c-7e5c6a7f5d10,患者,既往史,,文本型,10年前曾因急性早幼粒细胞白血病接受蒽环类方案治疗（idarubicin，累计剂量400 mg/m2 doxorubicin equivalent），无其他相关合并症或既往心血管疾病，既往心功能保持正常。,,,,,LLM提取,论文病例报告,2012-04-01,病史,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,a2e6e2f4-4f5f-4a0c-9fb7-7b7c2a8d5d11,骨髓活检,病理诊断,,文本型,急性早幼粒细胞白血病,,,,,LLM提取,论文病例报告,2012-04-01,病理,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,f3c8f1d4-7c3a-4df3-8f2b-0f5e9e4a9d12,患者,治疗方案,,类别型,"PHEMA方案（Tretinoin, Idarubicin, Mitoxantrone, Mercaptopurine）",,已完成,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,c2c0f8f0-4f1f-4f8e-8b7c-1d9a0f0a7a13,TTE,左室射血分数,,数值型,55,55,>55%,%,transthoracic echocardiography,LLM提取,论文病例报告,2012-04-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,c2c0f8f0-4f1f-4f8e-8b7c-1d9a0f0a7a13,TTE,左室射血分数,,数值型,55,55,>55%,%,transthoracic echocardiography,LLM提取,论文病例报告,2012-06-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,c2c0f8f0-4f1f-4f8e-8b7c-1d9a0f0a7a13,TTE,左室射血分数,,数值型,55,55,>55%,%,transthoracic echocardiography,LLM提取,论文病例报告,2015-03-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,c2c0f8f0-4f1f-4f8e-8b7c-1d9a0f0a7a13,TTE,左室射血分数,,数值型,55,55,>55%,%,transthoracic echocardiography,LLM提取,论文病例报告,2017-03-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,e2d5f4c0-3f15-4a7e-8a1f-6a2e9b7f0b14,乳腺影像,影像所见,,文本型,右乳可见两个肿块，大小分别约1.2 cm和0.6 cm。,,,,mammogram,LLM提取,论文病例报告,2022-01-01,影像,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,d4b7e6a2-8f1c-4d5f-9a2b-7c3d4e5f6a15,患者,手术名称,,类别型,乳腺肿块切除术联合前哨淋巴结活检,,,,,LLM提取,论文病例报告,2022-03-01,手术,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,f9a3d2b1-6c7e-4d8f-9a1b-2c3d4e5f6a16,手术标本,病理诊断,,文本型,浸润性导管癌，3级；伴导管原位癌。,,,,,LLM提取,论文病例报告,2022-03-01,病理,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,f9a3d2b1-6c7e-4d8f-9a1b-2c3d4e5f6a16,手术标本,分化程度,,类别型,3级,,,,,LLM提取,论文病例报告,2022-03-01,病理,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,f9a3d2b1-6c7e-4d8f-9a1b-2c3d4e5f6a16,手术标本,雌激素受体,,类别型,阳性,,90-95%,,,LLM提取,论文病例报告,2022-03-01,病理,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,f9a3d2b1-6c7e-4d8f-9a1b-2c3d4e5f6a16,手术标本,孕激素受体,,类别型,阴性,,0%,,,LLM提取,论文病例报告,2022-03-01,病理,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,f9a3d2b1-6c7e-4d8f-9a1b-2c3d4e5f6a16,手术标本,HER2状态,,类别型,阳性,,3+,,,LLM提取,论文病例报告,2022-03-01,病理,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c17,患者,临床分期,,类别型,IA期,,"cT1c, cN0, cM0",,,LLM提取,论文病例报告,2022-03-01,诊断,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c17,患者,诊断名称,,类别型,早期HER2阳性乳腺癌,,,,,LLM提取,论文病例报告,2022-03-01,诊断,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d18,患者,治疗方案,,类别型,紫杉醇联合曲妥珠单抗,,每周一次，共12个周期；紫杉醇80 mg/m2，曲妥珠单抗2 mg/kg,,,LLM提取,论文病例报告,2022-06-01,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d18,患者,周期数,,数值型,12,12,,次,,LLM提取,论文病例报告,2022-06-01,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d18,患者,治疗方案,,类别型,曲妥珠单抗维持治疗,,9个月疗程；6 mg/kg,,,LLM提取,论文病例报告,2022-11-01,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e19,TTE,左室射血分数,,数值型,55-60,55,正常左室舒张功能；GLS -14,%,transthoracic echocardiography,LLM提取,论文病例报告,2022-06-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e19,TTE,左室整体纵向应变,,数值型,-14,-14,提示亚临床心脏损伤,,transthoracic echocardiography,LLM提取,论文病例报告,2022-06-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e19,TTE,左房,,类别型,轻度/中度扩张,,2022年9月复查提示中度扩张,,transthoracic echocardiography,LLM提取,论文病例报告,2022-09-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e19,TTE,左室射血分数,,数值型,60-65,60,左房中度扩张,%,transthoracic echocardiography,LLM提取,论文病例报告,2022-09-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,急诊就诊,主诉,,文本型,进行性呼吸困难、端坐呼吸、双下肢肿胀1天。,,首次维持剂量曲妥珠单抗输注后1周,,,LLM提取,论文病例报告,2022-12-05,入院,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,体格检查,查体,,文本型,双侧肺底湿啰音，双下肢2+凹陷性水肿。,,,,,LLM提取,论文病例报告,2022-12-05,评估,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,心电图,心律,,类别型,窦性心动过速,,低电压QRS,,EKG,LLM提取,论文病例报告,2022-12-05,评估,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,血液,肌钙蛋白I,,类别型,阴性,,,,,LLM提取,论文病例报告,2022-12-05,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,血液,proBNP,,数值型,2035,2035,,,,LLM提取,论文病例报告,2022-12-05,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,胸部X线,影像所见,,文本型,双侧肺血管充血，心胸比增大，肺实质致密影增多，肺动脉增大，重度肺水肿。,,,,Chest X-ray,LLM提取,论文病例报告,2022-12-05,影像,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,TTE,左室射血分数,,数值型,5,5,重度弥漫性左室运动减弱，左室中度扩张,%,transthoracic echocardiography,LLM提取,论文病例报告,2022-12-06,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f20,TTE,左室运动,,文本型,重度弥漫性左室运动减弱,,,,transthoracic echocardiography,LLM提取,论文病例报告,2022-12-06,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a21,患者,诊断名称,,类别型,曲妥珠单抗诱导的心脏毒性/急性失代偿性心力衰竭,,已排除缺血、感染、物质、放疗等其他病因,,,LLM提取,论文病例报告,2022-12-06,诊断,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a2b22,患者,用药名称,,类别型,呋塞米,,静脉使用,,,LLM提取,论文病例报告,2022-12-05,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a2b22,患者,用药名称,,类别型,Entresto,,低剂量启动,,,LLM提取,论文病例报告,2022-12-05,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,6f7a8b9c-0d1e-2f3a-4b5c6d7e8f9a2b22,患者,用药名称,,类别型,呋塞米,,口服40 mg每日一次，出院后维持,,,LLM提取,论文病例报告,2022-12-06,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,6f7a8b9c-0d1e-2f3a-4b5c6d7e8f9a2b22,患者,用药名称,,类别型,sacubitril/valsartan,,24/26 mg，每日2次,,,LLM提取,论文病例报告,2022-12-06,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,6f7a8b9c-0d1e-2f3a-4b5c6d7e8f9a2b22,患者,用药名称,,类别型,metoprolol succinate,,50 mg，每日一次,,,LLM提取,论文病例报告,2022-12-06,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,6f7a8b9c-0d1e-2f3a-4b5c6d7e8f9a2b22,患者,用药名称,,类别型,dapagliflozin,,已启动,,,LLM提取,论文病例报告,2022-12-06,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a2b3c23,患者,处理措施,,文本型,曲妥珠单抗停用。,,,,,LLM提取,论文病例报告,2022-12-06,不良反应,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,8b9c0d1e-2f3a-4b5c-6d7e-8f9a2b3c4d24,患者,出院状况,,类别型,症状较前改善后出院，NYHA IV,,,,,LLM提取,论文病例报告,2022-12-06,出院,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,8b9c0d1e-2f3a-4b5c-6d7e-8f9a2b3c4d24,患者,出院医嘱,,文本型,口服呋塞米40 mg每日一次；sacubitril/valsartan 24/26 mg每日2次；metoprolol succinate 50 mg每日一次；dapagliflozin；门诊随访并按GDMT逐步调整。,,,,,LLM提取,论文病例报告,2022-12-06,出院,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,9c0d1e2f-3a4b-5c6d-7e8f-9a2b3c4d5e25,TTE,左室射血分数,,数值型,10,10,重度弥漫性左室运动减弱,%,transthoracic echocardiography,LLM提取,论文病例报告,2023-02-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,9c0d1e2f-3a4b-5c6d-7e8f-9a2b3c4d5e25,TTE,左室运动,,文本型,重度弥漫性左室运动减弱,,,,transthoracic echocardiography,LLM提取,论文病例报告,2023-02-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f26,患者,用药名称,,类别型,spironolactone,,加用,,,LLM提取,论文病例报告,2023-02-01,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f26,患者,用药名称,,类别型,sacubitril/valsartan,,尝试增加至49/51 mg，每日2次，但不能耐受并出现症状性低血压,,,LLM提取,论文病例报告,2023-02-01,用药,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f26,患者,不良反应名称,,类别型,症状性低血压,,由sacubitril/valsartan加量后出现,,,LLM提取,论文病例报告,2023-02-01,不良反应,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,ad1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f27,患者,症状,,文本型,较前逐渐改善；3月可步行1个街区后气促并间断下肢肿胀；7月可步行2-3个街区无气促，否认端坐呼吸及下肢肿胀。,,随访过程中逐渐恢复,,,LLM提取,论文病例报告,2023-07-01,病程,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,ad1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f27,患者,随访结果,,文本型,症状和心功能部分改善，但LVEF仍<35%，NYHA II。,,已转诊advanced heart failure clinic,,,LLM提取,论文病例报告,2023-07-01,病程,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,b2c3d4e5-f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f28,TTE,左室射血分数,,数值型,33,33,重度弥漫性左室运动减弱，轻度右室运动减弱,%,transthoracic echocardiography,LLM提取,论文病例报告,2023-07-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,b2c3d4e5-f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f28,TTE,左室运动,,文本型,重度弥漫性左室运动减弱,,,,transthoracic echocardiography,LLM提取,论文病例报告,2023-07-01,检验,v1
+c34ad95ce60148a425a3d613aaf82027,6b0e69afd471863c49945dd8c3d18e77,b2c3d4e5-f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f28,TTE,右室运动,,文本型,轻度右室运动减弱,,,,transthoracic echocardiography,LLM提取,论文病例报告,2023-07-01,检验,v1

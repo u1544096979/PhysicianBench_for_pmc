@@ -1,0 +1,46 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,8a1ce1e1-9d3b-4d8a-8d5f-9e5e5b7a3a51,患者,入院年龄,,数值型,48,48,,岁,,LLM提取,论文病例报告,,入院,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,8a1ce1e1-9d3b-4d8a-8d5f-9e5e5b7a3a51,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,入院,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,c7a9a3a8-5d6c-4d4d-94f8-7d5a4f6f0f44,患者,既往史,,文本型,甲状腺功能减退、消化性溃疡病史；2019年早期诊断左足跟恶性黑色素瘤，接受切除、前哨淋巴结活检和植皮，病理示肢端型浸润性恶性黑色素瘤，病理分期IIB。,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,6d6de2c5-7f25-4fb6-9c6a-2bf4d6b6e5b0,患者,诊断名称,,类别型,左足跟肢端型浸润性恶性黑色素瘤,,病理示stage IIB,,,LLM提取,论文病例报告,2019-01-01,诊断,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,6d6de2c5-7f25-4fb6-9c6a-2bf4d6b6e5b0,患者,临床分期,,类别型,IIB,,,,,LLM提取,论文病例报告,2019-01-01,诊断,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,1d4f6e0b-6c9a-4ef8-9a3a-4f5a0f9b2b11,患者,治疗方案,,类别型,切除、前哨淋巴结活检、植皮,,,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,4b7d8d1f-2d7b-4cb2-9c20-3d8d5c0b7a10,患者,诊断名称,,类别型,IV期黑色素瘤,,伴腹股沟淋巴结病变/淋巴结肿大,,,LLM提取,论文病例报告,2019-12-01,诊断,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,9d2e7baf-4e3a-4d53-9c9d-2f1e3c9b8d22,患者,治疗方案,,类别型,纳武利尤单抗+伊匹木单抗双免疫治疗,,晚期黑色素瘤一线治疗,,,LLM提取,论文病例报告,2019-12-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,9d2e7baf-4e3a-4d53-9c9d-2f1e3c9b8d22,Nivolumab,药品名称,,类别型,Nivolumab,,,,,LLM提取,论文病例报告,2019-12-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,9d2e7baf-4e3a-4d53-9c9d-2f1e3c9b8d22,Ipilimumab,药品名称,,类别型,Ipilimumab,,,,,LLM提取,论文病例报告,2019-12-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,2a4b8c2e-1a6e-4e3d-8d6a-9e0c1a7b5f33,患者,不良反应名称,,类别型,腹泻,,归因于伊匹木单抗,,,LLM提取,论文病例报告,2020-01-01,不良反应,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,2a4b8c2e-1a6e-4e3d-8d6a-9e0c1a7b5f33,患者,不良反应名称,,类别型,腹部不适,,归因于伊匹木单抗,,,LLM提取,论文病例报告,2020-01-01,不良反应,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,3f2b7d8a-5c6e-4f1b-9a2d-8c7e1f0a2b44,患者,检验项目,,文本型,CT扫描,,提示病情稳定,,,LLM提取,论文病例报告,2020-01-01,影像,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,3f2b7d8a-5c6e-4f1b-9a2d-8c7e1f0a2b44,患者,影像结论,,文本型,病情稳定，无肠道受损,,,,,LLM提取,论文病例报告,2020-01-01,影像,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,5b8f7c6e-1d2a-4f3b-9a7c-0d1e2f3a4b55,患者,评估方法,,类别型,结肠镜,,用于评估结肠炎,,,LLM提取,论文病例报告,2020-01-01,评估,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,5b8f7c6e-1d2a-4f3b-9a7c-0d1e2f3a4b55,患者,诊断名称,,类别型,结肠炎,,推测与伊匹木单抗相关,,,LLM提取,论文病例报告,2020-01-01,诊断,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,6f1c2d3e-4a5b-4c6d-8e7f-1a2b3c4d5e66,患者,治疗方案,,类别型,泼尼松,,用于结肠炎后观察治疗,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,7a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c77,患者,治疗方案,,类别型,纳武利尤单抗再挑战,,额外5个周期,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,7a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c77,Nivolumab,药品名称,,类别型,Nivolumab,,,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,8b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d88,患者,治疗方案,,类别型,替莫唑胺,,1个周期,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,8b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d88,Temozolomide,药品名称,,类别型,Temozolomide,,,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,9c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e99,患者,治疗方案,,类别型,纳武利尤单抗+低剂量伊匹木单抗双免疫治疗,,伊匹木单抗由3 mg/kg降至1 mg/kg,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,9c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e99,Ipilimumab,药品名称,,类别型,Ipilimumab,,1 mg/kg,mg/kg,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,9c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e99,Nivolumab,药品名称,,类别型,Nivolumab,,,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c01,患者,主诉,,文本型,腹绞痛、呕吐,,急诊就诊前4天刚接受免疫治疗,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d02,患者,影像所见,,文本型,腹部CT示小肠套叠，套叠点位于中远段回肠袢，未见肠缺血、穿孔或急腹症征象。,,,,CT,LLM提取,论文病例报告,2021-01-01,影像,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d02,患者,影像结论,,文本型,中远段回肠套叠,,病理性领先点所致,,CT,LLM提取,论文病例报告,2021-01-01,影像,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e03,患者,查体,,文本型,生命体征稳定，腹部无急腹症体征。,,,,,LLM提取,论文病例报告,2021-01-01,评估,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f04,患者,诊断名称,,类别型,小肠套叠,,首次发作,,,LLM提取,论文病例报告,2021-01-01,诊断,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8g05,患者,出院状况,,类别型,症状缓解后出院,,,,,LLM提取,论文病例报告,2021-01-01,出院,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8g9h06,患者,主诉,,文本型,再次发作腹绞痛,,初次发作4天后,,,LLM提取,论文病例报告,2021-01-05,病史,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8g9h06,患者,主诉,,文本型,再次发作腹绞痛、呕吐,,同样保守治疗后缓解,,,LLM提取,论文病例报告,2021-01-05,病程,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,a7b8c9d0-e1f2-4a3b-4c5d-6e7f8g9h0i07,患者,主诉,,文本型,腹绞痛2天，伴1天便秘及多次胆汁性呕吐,,2021年5月急诊就诊,,,LLM提取,论文病例报告,2021-05-01,病史,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,a7b8c9d0-e1f2-4a3b-4c5d-6e7f8g9h0i07,患者,影像所见,,文本型,CT示回-回套叠，未见穿孔或肠缺血/受损迹象。,,,,CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,a7b8c9d0-e1f2-4a3b-4c5d-6e7f8g9h0i07,患者,影像结论,,文本型,回-回性肠套叠,,反复发作,,CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b8c9d0e1-f2a3-4b4c-5d6e-7f8g9h0i1j08,患者,治疗方案,,类别型,诊断性腹腔镜,,第一步手术探查,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b8c9d0e1-f2a3-4b4c-5d6e-7f8g9h0i1j08,患者,手术结果,,文本型,发现多发深色病灶播散于系膜及小肠,,确认肠套叠并发现大的致病领先点病灶,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b8c9d0e1-f2a3-4b4c-5d6e-7f8g9h0i1j08,患者,治疗方案,,类别型,复位后切除,,经右下腹切口处理套叠肠段,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b8c9d0e1-f2a3-4b4c-5d6e-7f8g9h0i1j08,患者,手术结果,,文本型,行肠吻合术,,,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b8c9d0e1-f2a3-4b4c-5d6e-7f8g9h0i1j08,患者,治疗方案,,类别型,切除另一处大病灶,,以避免肠梗阻并发症,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,b8c9d0e1-f2a3-4b4c-5d6e-7f8g9h0i1j08,患者,手术结果,,文本型,术中未见并发症,,,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,c9d0e1f2-a3b4-4c5d-6e7f-8g9h0i1j2k09,患者,治疗方案,,类别型,术后抗生素,,术后前2天使用,,,LLM提取,论文病例报告,2021-05-01,用药,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,d0e1f2a3-b4c5-4d6e-7f8g-9h0i1j2k3l10,患者,出院状况,,类别型,稳定,,术后9天出院,,,LLM提取,论文病例报告,2021-05-10,出院,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,d0e1f2a3-b4c5-4d6e-7f8g-9h0i1j2k3l10,患者,住院天数,,数值型,9,9,,天,,LLM提取,论文病例报告,2021-05-10,出院,v1
+170dd1bbcf27e4efd1666dd49e47b8fb,e5e33e02fdc3ea2a95ff98f37d884381,e1f2a3b4-c5d6-4e7f-8g9h-0i1j2k3l4m11,患者,随访结果,,文本型,术后2周专科门诊随访，无术后并发症,,,,,LLM提取,论文病例报告,2021-05-24,病程,v1

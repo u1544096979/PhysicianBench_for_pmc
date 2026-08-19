@@ -1,0 +1,24 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,2d0c7f9e-1c5a-4a5d-8dcb-1c7c9d4f8d2d,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,病史,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,2d0c7f9e-1c5a-4a5d-8dcb-1c7c9d4f8d2d,患者,入院年龄,,数值型,65,65,,岁,,LLM提取,论文病例报告,,入院,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,f6b3b2cb-5c3f-4e7a-8d79-1d78e7f9b7b1,患者,既往史,,文本型,2006年经全面检查（包括肝活检）诊断为慢性丙型肝炎。,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,6c3cc1df-38f9-4c8b-8d73-2a7cfe8b6a11,患者,诊断名称,,类别型,急性型成人T细胞白血病/淋巴瘤,,,,,LLM提取,论文病例报告,2010-01-01,诊断,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,9f4a1e9c-2b3f-4d11-8f6b-2e1c8d7c1a22,患者,治疗方案,,类别型,VCAP-AMP-VECD（mLSG15）联合聚乙二醇干扰素α-2b,,6个周期,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,9f4a1e9c-2b3f-4d11-8f6b-2e1c8d7c1a22,患者,治疗反应,,类别型,完全缓解,,,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,46d1d7b1-0ef2-4f6b-9d0c-7b8b8d8e5f33,患者,复发,,类别型,成人T细胞白血病/淋巴瘤复发,,2010年8月,,,LLM提取,论文病例报告,2010-08-01,诊断,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,7e6f0d67-6f18-4d8d-a2d4-2d3d8e6b4c44,患者,治疗方案,,类别型,EPOCH联合聚乙二醇干扰素α-2b,,6个周期,,,LLM提取,论文病例报告,2010-08-01,病程,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,7e6f0d67-6f18-4d8d-a2d4-2d3d8e6b4c44,患者,治疗反应,,类别型,第二次完全缓解,,维持至今,,,LLM提取,论文病例报告,2011-03-01,病程,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,3b8a7f20-4f7d-4f3c-8c1f-4b7f0f8f5a55,外周单个核细胞,HTLV-1 proviral load,,数值型,25-65,,"copies/1,000 peripheral mononuclear cells","copies/1,000 peripheral mononuclear cells",,LLM提取,论文病例报告,2011-03-01,检验,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,8f1a2d4c-9a0e-4d5b-8c3a-5e6f7a8b9c66,患者,治疗方案,,类别型,索非布韦/来迪派韦,,12周,,,LLM提取,论文病例报告,2015-12-01,病程,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,8f1a2d4c-9a0e-4d5b-8c3a-5e6f7a8b9c66,患者,治疗反应,,类别型,持续病毒学应答,,2016年2月起未检测到HCV,,,LLM提取,论文病例报告,2016-02-01,病程,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,d2c5f1a0-1b2c-4d3e-9f4a-6b7c8d9e0f77,肝脏,影像所见,,文本型,S8段见单发肿瘤，直径20 mm；未见远处转移,,超声、CT、MRI提示,,超声/CT/MRI,LLM提取,论文病例报告,2016-10-01,影像,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,d2c5f1a0-1b2c-4d3e-9f4a-6b7c8d9e0f77,患者,诊断名称,,类别型,肝细胞癌,,,,,LLM提取,论文病例报告,2016-10-01,诊断,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,d2c5f1a0-1b2c-4d3e-9f4a-6b7c8d9e0f77,患者,手术名称,,类别型,拟行手术切除,,后因肿瘤缩小取消手术,,,LLM提取,论文病例报告,2016-10-01,手术,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,e3d6c7b8-9a0b-4c1d-8e2f-7a9b0c1d2e88,肝脏,影像所见,,文本型,肿瘤直径较前缩小至14 mm,,CT,,CT,LLM提取,论文病例报告,2017-01-01,影像,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,e3d6c7b8-9a0b-4c1d-8e2f-7a9b0c1d2e88,患者,手术结果,,文本型,取消手术，改为密切随访,,,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,f9a1b2c3-d4e5-4f6a-8b7c-9d0e1f2a3b99,肝脏,影像所见,,文本型,肿瘤直径进一步缩小至10 mm,,CT,,CT,LLM提取,论文病例报告,2017-03-01,影像,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c55,肝脏,影像所见,,文本型,未检出肿瘤,,后续超声亦未见肿瘤；HCC未复发,,CT/超声,LLM提取,论文病例报告,2017-10-01,影像,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d66,患者,疗效评估,,类别型,HCC消失，自发缓解,,,,,LLM提取,论文病例报告,2017-10-01,评估,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e77,外周单个核细胞,HCV-specific CTLs,,类别型,检出并持续监测,,自2019年2月起,,tetramer analysis,LLM提取,论文病例报告,2019-02-01,检验,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f88,外周单个核细胞,TCR V beta gene repertoire,,类别型,寡克隆扩增,,CD8+效应和记忆CTLs,,T-cell receptor repertoire analysis,LLM提取,论文病例报告,2015-01-01,检验,v1
+7e6741d6d5b2af02bd70ea69fa47e996,6df41b67797f4242db688938fe1096a8,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f88,外周单个核细胞,TCR V beta 13.1 CTLs,,数值型,逐年增加,,自HCC发生后,,T-cell receptor repertoire analysis,LLM提取,论文病例报告,2018-01-01,检验,v1

@@ -1,0 +1,65 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,6b5d9c35-4f2d-4db1-9bb4-3aa8a4baf0d3,患者,年龄,,数值型,63,63,,岁,,LLM提取,论文病例报告,,病史,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,6b5d9c35-4f2d-4db1-9bb4-3aa8a4baf0d3,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,病史,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,6b5d9c35-4f2d-4db1-9bb4-3aa8a4baf0d3,患者,吸烟史,,文本型,吸烟47 pack-years，持续34年,,,,,LLM提取,论文病例报告,,病史,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,6b5d9c35-4f2d-4db1-9bb4-3aa8a4baf0d3,患者,既往史,,文本型,慢性阻塞性肺疾病；20年前因良性甲状腺结节行全甲状腺切除术后甲状腺功能减退；儿童期事故后曾行眼科手术,,,,,LLM提取,论文病例报告,,病史,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f0b65e3b-4e17-4f8d-8bc8-bfcb7f33c3a1,患者,主诉,,文本型,2022年4月出现咯血性痰,,,,,LLM提取,论文病例报告,2022-04-01,病史,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,1b7f7f8d-6b6e-4d91-9b95-9df74a1c2a2f,患者,影像所见,,文本型,胸部CT示纵隔淋巴结肿大及左侧内乳链淋巴结肿大,,,,CT,LLM提取,论文病例报告,2022-04-01,影像,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,2f6f5c9c-9e1c-4d7d-a1a0-8bc7b2d5f3f4,患者,影像所见,,文本型,PET-CT示右侧支气管-肺门区多发高代谢淋巴结，纵隔多发淋巴结肿大，考虑肺转移,,最大者约13×9 mm（SUVmax 14.3）；左上胸骨旁25×16 mm（SUVmax 13.2）；隆突下19×15 mm（SUVmax 10）,,PET-CT,LLM提取,论文病例报告,2022-07-12,影像,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,3c8d7f0c-4d73-4b8c-8f7f-6d4a0e76dba1,淋巴结穿刺标本,病理诊断,,文本型,非霍奇金B细胞淋巴瘤，生发中心免疫表型,,形态学及免疫表型符合,,经支气管超声引导穿刺活检,LLM提取,论文病例报告,2022-07-18,病理,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,3c8d7f0c-4d73-4b8c-8f7f-6d4a0e76dba1,淋巴结穿刺标本,免疫组化,,文本型,CD10强阳性；BCL2约20%阳性；BCL6>30%阳性；C-MYC约20%阳性；MUM1阴性,,,,免疫组化,LLM提取,论文病例报告,2022-07-18,病理,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,b5a2a4d0-5f4b-4f5a-8d5e-8f0c4f7c9f22,左侧内乳链病灶标本,病理诊断,,文本型,卵黄囊型生殖细胞肿瘤,,,,切开活检,LLM提取,论文病例报告,2022-09-14,病理,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,b5a2a4d0-5f4b-4f5a-8d5e-8f0c4f7c9f22,左侧内乳链病灶标本,病理所见,,文本型,中到大细胞，核明显多形性，部分可见小核仁及假包涵体样改变,,towel distribution,,HE染色,LLM提取,论文病例报告,2022-09-14,病理,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,b5a2a4d0-5f4b-4f5a-8d5e-8f0c4f7c9f22,左侧内乳链病灶标本,免疫组化,,文本型,Glypican强且弥漫阳性；CDX2和CD99异质性阳性；AE1/AE3、CAM5.2和EMA局灶阳性；AFP、C-Kit、LCA、CK7/CK20、TTF1、Inhibin、CD20、CD3、CD30阴性；Ki-67约80%,,,,免疫组化,LLM提取,论文病例报告,2022-09-14,病理,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,c2db5c0d-2e0b-48f0-8f8a-0cbe8b3e1e45,患者,症状,,文本型,头晕、震颤、呕吐,,出院3天后出现,,,LLM提取,论文病例报告,2022-09-17,病程,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,c2db5c0d-2e0b-48f0-8f8a-0cbe8b3e1e45,患者,查体,,文本型,神经系统检查示opsoclonus伴交替性上方眼震，眼动可向右、左、上、下偏斜,,,,神经系统查体,LLM提取,论文病例报告,2022-09-17,评估,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,白细胞,,数值型,6.7,6.7,4.0-11.0,10^3/μL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,中性粒细胞,,数值型,4.5,4.5,1.8-7.0,10^3/μL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,淋巴细胞,,数值型,1.1,1.1,1.0-5.0,10^3/μL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,血红蛋白,,数值型,13.2,13.2,12.0-16.0,g/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,血小板,,数值型,288,288,140-400,10^3/μL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,空腹血糖,,数值型,121,121,70-115,mg/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,尿素,,数值型,32,32,10-50,mg/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,肌酐,,数值型,0.9,0.9,0.5-1.2,mg/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,钠,,数值型,135,135,135-145,mg/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,钾,,数值型,3.6,3.6,3.5-5.1,mmol/L,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,离子钙,,数值型,1.13,1.13,1.14-1.29,mmol/L,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,丙氨酸氨基转移酶,,数值型,32,32,≤40,U/L,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,天冬氨酸氨基转移酶,,数值型,30,30,≤40,U/L,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,γ-谷氨酰转肽酶,,数值型,50,50,≤49,U/L,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3b1e-4c0c-b8f4-1c56c6c0e9c1,外周血,总胆红素,,数值型,0.3,0.3,≤1.2,mg/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-3e1-4c0c-b8f4-1c56c6c0e9c1,外周血,直接胆红素,,数值型,0.1,0.1,≤0.3,mg/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4e0c-4c0c-b8f4-1c56c6c0e9c1,外周血,乳酸脱氢酶,,数值型,630,630,120-246,U/L,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0c-b8f4-1c56c6c0e9c1,外周血,白蛋白,,数值型,3.5,3.5,3.5-5.0,g/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0c-b8f4-1c56c6c0e9c1,外周血,总蛋白,,数值型,5.9,5.9,6.0-8.0,g/dL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0c-b8f4-1c56c6c0e9c1,外周血,甲状旁腺激素,,数值型,73.0,73.0,18.0-80.0,pg/mL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0b-b8f4-1c56c6c0e9c1,外周血,25-羟维生素D,,数值型,28.56,28.56,18-80,ng/mL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0b-b8f4-1c56c6c0e9c1,外周血,促甲状腺激素,,数值型,3.2,3.2,<4.5,μUI/mL,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0b-b8f4-1c56c6c0e9c1,外周血,抗核抗体,,数值型,0,0,≤1.0,units,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0b-b8f4-1c56c6c0e9c1,外周血,抗平滑肌抗体,,数值型,0,0,≤1:80,units,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d7e8a0a5-4f0c-4c0b-b8f4-1c56c6c0e9c1,外周血,抗中性粒细胞胞浆抗体,,数值型,0,0,阴性,units,,LLM提取,论文病例报告,2022-09-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,9c2c2df1-3a56-4d6b-b4f1-9d3d4e0ed2d6,患者,检查结果,,文本型,脑电图示背景活动保留，无病理活动，未见颞区慢波,,,,EEG,LLM提取,论文病例报告,2022-09-21,评估,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,5e0db8a2-2f3a-4a9b-8c4b-4b0c3e5f4d77,脑脊液,细胞计数,,数值型,1,1,≤5,WBC/mm3,,LLM提取,论文病例报告,2022-09-21,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,5e0db8a2-2f3a-4a9b-8c4b-4b0c3e5f4d77,脑脊液,葡萄糖,,数值型,53,53,40-80,mg/dL,,LLM提取,论文病例报告,2022-09-21,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,5e0db8a2-2f3a-4a9b-8c4b-4b0c3e5f4d77,脑脊液,总蛋白,,数值型,45,45,15-60,mg/dL,,LLM提取,论文病例报告,2022-09-21,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,a6a6a5d1-7d3d-4af5-b1b3-6a1c9f4b0b3a,患者,治疗方案,,类别型,人免疫球蛋白治疗5天后，口服泼尼松龙50 mg/日,,神经科住院期间,,,LLM提取,论文病例报告,2022-09-21,用药,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,a6a6a5d1-7d3d-4af5-b1b3-6a1c9f4b0b3a,患者,治疗反应,,类别型,临床稳定，眼肌阵挛/上方眼震仍存在,,,,,LLM提取,论文病例报告,2022-09-21,病程,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,b8a9d7e1-6c5a-4d8d-9c9b-4d7c5f0b2a11,患者,精神状态评估,,文本型,CAM评估示意识状态波动，伴激越与嗜睡加重交替出现,,,,Confusion Assessment Method,LLM提取,论文病例报告,2022-10-01,评估,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,c5f4b1a2-0e3d-4d8c-8a6a-2d7b5c0a1f33,患者,用药,,类别型,泼尼松龙20 mg + 20 mg（剂量调整）,,,,,LLM提取,论文病例报告,2022-11-07,用药,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,c5f4b1a2-0e3d-4d8c-8a6a-2d7b5c0a1f33,患者,治疗方案,,类别型,BEP方案,,"bleomycin 30000 IU D2,8,15 + cisplatin 50 mg/m2 D1-2 + etoposide 165 mg/m2 D1-3",,,LLM提取,论文病例报告,2022-11-07,用药,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,c5f4b1a2-0e3d-4d8c-8a6a-2d7b5c0a1f33,患者,周期数,,数值型,1,1,,次,,LLM提取,论文病例报告,2022-11-07,用药,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,c5f4b1a2-0e3d-4d8c-8a6a-2d7b5c0a1f33,患者,治疗反应,,类别型,开始化疗,,,,,LLM提取,论文病例报告,2022-11-07,病程,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,e4b3d2c1-7f6a-4b8e-9d5a-2b1c3d4e5f67,患者,不良反应名称,,类别型,口腔黏膜炎,,CTCAE 2级,,,LLM提取,论文病例报告,2022-11-15,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,e4b3d2c1-7f6a-4b8e-9d5a-2b1c3d4e5f67,患者,不良反应名称,,类别型,SARS-CoV-2感染,,无特异症状,,,LLM提取,论文病例报告,2022-11-15,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,不良反应名称,,类别型,发热,,,,,LLM提取,论文病例报告,2022-11-17,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,不良反应名称,,类别型,中性粒细胞减少,,CTCAE 4级，ANC 300/μL,,,LLM提取,论文病例报告,2022-11-17,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,不良反应名称,,类别型,腹泻,,CTCAE 2级,,,LLM提取,论文病例报告,2022-11-17,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,不良反应名称,,类别型,脓毒性休克,,,,,LLM提取,论文病例报告,2022-11-17,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,患者,处理措施,,文本型,去甲肾上腺素支持；静脉注射哌拉西林/他唑巴坦并依据药敏调整；输注血小板,,,,,LLM提取,论文病例报告,2022-11-17,不良反应,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,血培养,检出病原体,,类别型,大肠埃希菌,,,,血培养,LLM提取,论文病例报告,2022-11-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a67,外周血,血小板,,数值型,12000,12000,CTCAE 4级,10^3/μL,,LLM提取,论文病例报告,2022-11-17,检验,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d9e8f7a6-b5c4-4d3e-9f8a-1b2c3d4e5f90,患者,治疗反应,,类别型,症状改善，opsoclonus已缓解,,化疗后1个月,,,LLM提取,论文病例报告,2022-12-07,病程,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d9e8f7a6-b5c4-4d3e-9f8a-1b2c3d4e5f90,患者,出院去向,,类别型,转入长期照护机构,,,,,LLM提取,论文病例报告,2022-12-07,出院,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,d9e8f7a6-b5c4-4d3e-9f8a-1b2c3d4e5f90,患者,后续治疗,,文本型,因化疗后重度感染，决定不再继续化疗，仅由姑息治疗团队管理,,,,,LLM提取,论文病例报告,2022-12-07,病程,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,死亡日期,,日期型,2023-01-24,,,,,LLM提取,论文病例报告,2023-01-24,病程,v1
+e68e7bebc7c19459b2630cffa5f85bcc,f8f1cad85d4d410953bc92e663f53825,0a1b2c3d-4e5f-6789-abcd-ef0123456789,患者,结局,,类别型,死亡,,,,,LLM提取,论文病例报告,2023-01-24,出院,v1

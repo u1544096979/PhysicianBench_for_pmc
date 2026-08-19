@@ -1,0 +1,62 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,7d0d3a9f-6b6e-4b67-9f7a-0a3fbe5e2f1a,患者,主诉,,文本型,进食梗阻感伴反流不规律2个月,,,,,LLM提取,论文病例报告,,病史,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,c4c4ffbb-4a5e-4f3f-8c9d-9c9f8c0d1a31,患者,入院年龄,,数值型,59,59,,岁,,LLM提取,论文病例报告,2020-01-03,入院,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,c4c4ffbb-4a5e-4f3f-8c9d-9c9f8c0d1a31,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2020-01-03,入院,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d8fd5d8d-0a15-4b6f-9e4a-5b6db0cf5f8f,患者,诊断名称,,类别型,胃腺癌伴胰腺转移,,T4N0M1；IV期,,,LLM提取,论文病例报告,2020-01-03,诊断,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d8fd5d8d-0a15-4b6f-9e4a-5b6db0cf5f8f,患者,临床分期,,类别型,T4N0M1,,IV期,,,LLM提取,论文病例报告,2020-01-03,诊断,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f0dbd6df-5c27-4b0c-bc20-c6bf7b1e1db2,患者,病理诊断,,文本型,中分化胃腺癌,,肿块大小5×4×1 cm,,术后病理,LLM提取,论文病例报告,2020-01-11,病理,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f0dbd6df-5c27-4b0c-bc20-c6bf7b1e1db2,患者,免疫组化,,文本型,CK8/18、MLHI、MSH2、mSH6、PMS2阳性；Ki67阳性指数40%,,,,免疫组化,LLM提取,论文病例报告,2020-01-11,病理,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,2f6bc8a4-4b60-4f1c-9d1e-0e9b12d4af53,患者,手术名称,,类别型,胃癌根治术,,术中见胰尾转移灶未能切除,,,LLM提取,论文病例报告,2020-01-11,手术,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,2f6bc8a4-4b60-4f1c-9d1e-0e9b12d4af53,患者,手术结果,,文本型,胃体、胃底、贲门肿瘤；胰尾转移癌未切除,,胃体、胃底、贲门肿瘤约6.0×6.0×4.0 cm；胰尾肿瘤约3 cm,,,LLM提取,论文病例报告,2020-01-11,手术,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,3c7a0dfe-6c7a-4d8c-a95f-0fb63d6db4b1,CT,影像所见,,文本型,胰体低密度影,,术前；胰体可见低密度影,,CT,LLM提取,论文病例报告,2020-01-04,影像,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,4c8fb2a6-7b64-4d57-a74b-bf1a5b8c1e74,CT,影像所见,,文本型,胰体低密度影无明显变化,,术后,,CT,LLM提取,论文病例报告,2020-01-17,影像,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,患者,药品名称,,类别型,奥沙利铂,,,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,患者,剂量,,数值型,200,200,,mg,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,患者,给药途径,,类别型,静脉注射,,,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,患者,药品名称,,类别型,替加氟,,,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,患者,剂量,,数值型,40,40,每日2次；口服14天，停1周,mg,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,患者,给药途径,,类别型,口服,,每日2次；口服14天，停1周,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,NK细胞,药品名称,,类别型,NK细胞回输,,2×10^9 cells/course,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,9bb0c1b4-7f3f-4f76-8d3a-6c4c6a2d8f66,NK细胞,剂量,,数值型,2,2,×10^9 cells/course,cells/course,,LLM提取,论文病例报告,2020-02-01,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,b4fda6e0-2a8d-4d79-a0e8-1b3d9d0a7d11,CT,影像所见,,文本型,双肺下叶线样高密度影及双侧胸腔积液较前减少；上腹部脂肪间隙密度增高减轻；腹盆腔少量积液吸收,,前4个疗程后，提示初始治疗有效,,CT,LLM提取,论文病例报告,2020-05-15,影像,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,c1d6c1e6-7b45-4e1e-8f0f-4f7ef7d4f1a2,患者,药品名称,,类别型,奥沙利铂,,,,,LLM提取,论文病例报告,2020-05-15,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,c1d6c1e6-7b45-4e1e-8f0f-4f7ef7d4f1a2,患者,药品名称,,类别型,替加氟,,,,,LLM提取,论文病例报告,2020-05-15,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,c1d6c1e6-7b45-4e1e-8f0f-4f7ef7d4f1a2,NK细胞,药品名称,,类别型,NK细胞回输,,与前4个疗程相同,,,LLM提取,论文病例报告,2020-05-15,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,e2f1f3e8-0d1b-4f7f-8a4f-6c3d5d2b8e91,CT,影像所见,,文本型,第七个疗程结束时CT无明显变化,,,,CT,LLM提取,论文病例报告,2020-07-14,影像,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,e2f1f3e8-0d1b-4f7f-8a4f-6c3d5d2b8e91,患者,药品名称,,类别型,奥沙利铂,,,,,LLM提取,论文病例报告,2020-07-14,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,e2f1f3e8-0d1b-4f7f-8a4f-6c3d5d2b8e91,患者,药品名称,,类别型,替加氟,,,,,LLM提取,论文病例报告,2020-07-14,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,e2f1f3e8-0d1b-4f7f-8a4f-6c3d5d2b8e91,NK细胞,药品名称,,类别型,NK细胞回输,,,,,LLM提取,论文病例报告,2020-07-14,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f2d0a1b3-4d6c-4f7b-9c1a-2e1d3c4b5a6f,患者,药品名称,,类别型,替加氟,,单药,,,LLM提取,论文病例报告,2020-11-17,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f2d0a1b3-4d6c-4f7b-9c1a-2e1d3c4b5a6f,患者,剂量,,数值型,40,40,每日2次；口服14天，停1周,mg,,LLM提取,论文病例报告,2020-11-17,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f3b5c6d7-8e9f-4a1b-9c2d-3e4f5a6b7c8d,标本,Alpha fetoprotein (AFP),,数值型,45.52,45.52,参考范围≤25,µg/ml,,LLM提取,论文病例报告,2020-05-12,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f3b5c6d7-8e9f-4a1b-9c2d-3e4f5a6b7c8d,标本,Carcinoembryonic antigen (CEA),,数值型,3.66,3.66,参考范围≤5.0,ng/ml,,LLM提取,论文病例报告,2020-05-12,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f3b5c6d7-8e9f-4a1b-9c2d-3e4f5a6b7c8d,标本,CA724,,数值型,0.519,0.519,参考范围≤7.0,u/ml,,LLM提取,论文病例报告,2020-05-12,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f3b5c6d7-8e9f-4a1b-9c2d-3e4f5a6b7c8d,标本,CA199,,数值型,24.25,24.25,参考范围≤37.0,u/ml,,LLM提取,论文病例报告,2020-05-12,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f3b5c6d7-8e9f-4a1b-9c2d-3e4f5a6b7c8d,标本,Neuron-specific enolase (NSE),,数值型,9.50,9.5,参考范围<16.3,µg/l,,LLM提取,论文病例报告,2020-05-12,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,f3b5c6d7-8e9f-4a1b-9c2d-3e4f5a6b7c8d,标本,Free prostate specific antigen / Total Prostate Specific Antigen,,数值型,0.236,0.236,参考范围>0.16,,,LLM提取,论文病例报告,2020-05-12,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,标本,Alpha fetoprotein (AFP),,数值型,38.31,38.31,参考范围≤25,µg/ml,,LLM提取,论文病例报告,2020-07-14,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,标本,Carcinoembryonic antigen (CEA),,数值型,7.23,7.23,参考范围≤5.0,ng/ml,,LLM提取,论文病例报告,2020-07-14,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,标本,CA724,,数值型,0.501,0.501,参考范围≤7.0,u/ml,,LLM提取,论文病例报告,2020-07-14,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,标本,CA199,,数值型,26.94,26.94,参考范围≤37.0,u/ml,,LLM提取,论文病例报告,2020-07-14,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,标本,Neuron-specific enolase (NSE),,数值型,9.99,9.99,参考范围<16.3,µg/l,,LLM提取,论文病例报告,2020-07-14,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,标本,Free prostate specific antigen / Total Prostate Specific Antigen,,数值型,0.209,0.209,参考范围>0.16,,,LLM提取,论文病例报告,2020-07-14,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d1e2f3a4-b5c6-4789-9abc-def012345678,标本,Alpha fetoprotein (AFP),,数值型,29.63,29.63,参考范围≤25,µg/ml,,LLM提取,论文病例报告,2020-11-17,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d1e2f3a4-b5c6-4789-9abc-def012345678,标本,Carcinoembryonic antigen (CEA),,数值型,4.17,4.17,参考范围≤5.0,ng/ml,,LLM提取,论文病例报告,2020-11-17,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d1e2f3a4-b5c6-4789-9abc-def012345678,标本,CA724,,数值型,0.835,0.835,参考范围≤7.0,u/ml,,LLM提取,论文病例报告,2020-11-17,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d1e2f3a4-b5c6-4789-9abc-def012345678,标本,CA199,,数值型,26.17,26.17,参考范围≤37.0,u/ml,,LLM提取,论文病例报告,2020-11-17,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d1e2f3a4-b5c6-4789-9abc-def012345678,标本,Neuron-specific enolase (NSE),,数值型,8.56,8.56,参考范围<16.3,µg/l,,LLM提取,论文病例报告,2020-11-17,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,d1e2f3a4-b5c6-4789-9abc-def012345678,标本,Free prostate specific antigen / Total Prostate Specific Antigen,,数值型,0.283,0.283,参考范围>0.16,,,LLM提取,论文病例报告,2020-11-17,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,e9f8d7c6-b5a4-4321-9abc-0def12345678,患者,药品名称,,类别型,替加氟,,单药；口服14天，停1周,,,LLM提取,论文病例报告,2020-11-17,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,e9f8d7c6-b5a4-4321-9abc-0def12345678,患者,剂量,,数值型,40,40,每日2次；口服14天，停1周,mg,,LLM提取,论文病例报告,2020-11-17,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,11223344-5566-4777-8899-aabbccddeeff,NK细胞,药品名称,,类别型,NK细胞回输,,继续治疗；每年5次,,,LLM提取,论文病例报告,2021-01-12,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,11223344-5566-4777-8899-aabbccddeeff,NK细胞,剂量,,数值型,2,2,×10^9 cells/time；每年5次,cells/time,,LLM提取,论文病例报告,2021-01-12,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,11223344-5566-4777-8899-aabbccddeeff,NK细胞,药品名称,,类别型,NK细胞回输,,继续治疗；每年5次,,,LLM提取,论文病例报告,2022-09-23,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,11223344-5566-4777-8899-aabbccddeeff,NK细胞,剂量,,数值型,2,2,×10^9 cells/time；每年5次,cells/time,,LLM提取,论文病例报告,2022-09-23,用药,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,CT,影像所见,,文本型,胰体低密度影逐渐缩小或甚至消失,,最近一次随访,,CT,LLM提取,论文病例报告,2023-02-06,影像,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,标本,Alpha fetoprotein (AFP),,数值型,3.84,3.84,参考范围≤25,µg/ml,,LLM提取,论文病例报告,2023-02-06,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,标本,Carcinoembryonic antigen (CEA),,数值型,1.82,1.82,参考范围≤5.0,ng/ml,,LLM提取,论文病例报告,2023-02-06,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,标本,CA724,,数值型,0.725,0.725,参考范围≤7.0,u/ml,,LLM提取,论文病例报告,2023-02-06,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,标本,CA199,,数值型,17.58,17.58,参考范围≤37.0,u/ml,,LLM提取,论文病例报告,2023-02-06,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,标本,Neuron-specific enolase (NSE),,数值型,5.43,5.43,参考范围<16.3,µg/l,,LLM提取,论文病例报告,2023-02-06,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,标本,Free prostate specific antigen / Total Prostate Specific Antigen,,数值型,0.265,0.265,参考范围>0.16,,,LLM提取,论文病例报告,2023-02-06,检验,v1
+ebade05bdc194fc2ca0048b4a5e22228,a6ac99b3ada1e7d6f2ec8c9951387aec_1,99887766-5544-4333-2211-aabbccddeeff,患者,病程/随访结果,,文本型,疾病控制良好，无明显副作用；随访超过3年，仍无病生存,,,,,LLM提取,论文病例报告,2023-02-06,病程,v1

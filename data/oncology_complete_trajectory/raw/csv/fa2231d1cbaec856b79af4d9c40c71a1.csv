@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,8a8c6f5e-5c4a-4f06-8d7e-1f7a0f9f2b01,患者,年龄,,数值型,74,74,,岁,,LLM提取,论文病例报告,2013-04-24,病史,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,8a8c6f5e-5c4a-4f06-8d7e-1f7a0f9f2b01,患者,主诉,,文本型,尿频、排尿困难、血尿,,,,,LLM提取,论文病例报告,2013-04-24,病史,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,7f5fd8e5-2f3a-4a8f-9a7d-3d7a0a9f2c10,患者,诊断名称,,类别型,膀胱癌,,膀胱镜检查诊断,,膀胱镜检查,LLM提取,论文病例报告,2013-04-24,诊断,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,c0d1c8d7-2d6f-4d8c-8b4b-9d4a4c7f3a11,患者,手术名称,,类别型,根治性膀胱切除术,,合并回肠袢尿流改道,,,LLM提取,论文病例报告,2013-05-10,手术,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,c0d1c8d7-2d6f-4d8c-8b4b-9d4a4c7f3a11,患者,病理诊断,,文本型,移行细胞癌，T3aN1Mx,,术后病理,,,LLM提取,论文病例报告,2013-05-10,病理,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,d5f7e91a-8d15-4fd7-9a0f-1d2d5e7c4a12,患者,影像所见,,文本型,尿道残端轻度不均匀FDG摄取增高,,考虑复发,,PET-CT,LLM提取,论文病例报告,2013-06-22,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,d5f7e91a-8d15-4fd7-9a0f-1d2d5e7c4a12,患者,影像结论,,文本型,疑似尿道残端复发,,,,PET-CT,LLM提取,论文病例报告,2013-06-22,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,e6a4a0a7-2b0f-4d5a-9f2c-3b4a5c6d7e13,患者,手术名称,,类别型,全尿道切除术,,,,,LLM提取,论文病例报告,2013-07-17,手术,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,f7b5b1b8-3c1d-4e6f-8a0f-4c5d6e7f8a14,患者,影像所见,,文本型,双肺多发转移性结节,,,,CT,LLM提取,论文病例报告,2013-08-29,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,f7b5b1b8-3c1d-4e6f-8a0f-4c5d6e7f8a14,患者,诊断名称,,类别型,IV期膀胱癌,,最终诊断修订,,,LLM提取,论文病例报告,2013-08-29,诊断,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,0a1b2c3d-4e5f-4a6b-8c7d-9e0f1a2b3c15,患者,入院科室,,类别型,韩医学医院,,,,,LLM提取,论文病例报告,2014-01-11,入院,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,0a1b2c3d-4e5f-4a6b-8c7d-9e0f1a2b3c15,患者,主诉,,文本型,咳嗽加重、咳痰、咯血、呼吸困难,,,,,LLM提取,论文病例报告,2014-01-11,入院,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,0a1b2c3d-4e5f-4a6b-8c7d-9e0f1a2b3c15,患者,诊断名称,,类别型,双肺转移性膀胱癌,,入院临床诊断,,,LLM提取,论文病例报告,2014-01-11,诊断,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d16,胸部正位X线,影像所见,,文本型,双肺多发转移性结节,,,,X线,LLM提取,论文病例报告,2014-01-11,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,野山参药针,,10 ml，静脉注射，每周1次,ml,静脉注射,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,冬虫夏草药针,,10 ml，静脉注射，每周1次,ml,静脉注射,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,栝楼药针,,10 ml，静脉注射，每周1次,ml,静脉注射,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,桔梗药针,,10 ml，静脉注射，每周1次,ml,静脉注射,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,Soramdan,,1 pill，口服，每周4次,,口服,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,冬虫夏草蒸馏液,,10 ml，口服，每周4次,ml,口服,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,Gunchildan,,1000 mg，口服，每日3次,mg,口服,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e17,患者,药品名称,,类别型,Soram雾化液,,8 ml，吸入，每日1次,ml,吸入,LLM提取,论文病例报告,2014-01-11,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f18,胸部正位X线,影像所见,,文本型,与2014-01-11相比，双肺结节数量和大小增加,,病情进展,,X线,LLM提取,论文病例报告,2014-03-13,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f18,患者,治疗反应,,类别型,疾病进展,,,,,LLM提取,论文病例报告,2014-03-13,病程,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,4e5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a19,患者,药品名称,,类别型,Hyunamdan,,4 g，口服，每日3次,g,口服,LLM提取,论文病例报告,2014-03-13,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,4e5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a19,患者,药品名称,,类别型,Hangamdan S,,1000 mg，口服，每日3次,mg,口服,LLM提取,论文病例报告,2014-03-13,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,4e5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a19,患者,药品名称,,类别型,Soram雾化液,,8 ml，吸入，每日1次,ml,吸入,LLM提取,论文病例报告,2014-03-13,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,5f6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b20,胸部正位X线,影像所见,,文本型,双肺结节数量和大小减少，残留结节影子变淡,,,,X线,LLM提取,论文病例报告,2014-04-10,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,5f6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b20,患者,治疗反应,,类别型,部分缓解,,影像学改善,,,LLM提取,论文病例报告,2014-04-10,评估,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,5f6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b20,患者,评估方法,,类别型,胸部X线,,,,X线,LLM提取,论文病例报告,2014-04-10,评估,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c21,患者,药品名称,,类别型,Hyunamdan,,4 g，口服，每日3次,g,口服,LLM提取,论文病例报告,2014-04-10,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c21,患者,药品名称,,类别型,Hangamdan S,,1000 mg，口服，每日3次,mg,口服,LLM提取,论文病例报告,2014-04-10,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c21,患者,药品名称,,类别型,Soram雾化液,,8 ml，吸入，每日1次,ml,吸入,LLM提取,论文病例报告,2014-04-10,用药,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,7b8c9d0e-1f2a-4b3c-4d5e-6f7a8b9c0d22,胸部正位X线,影像所见,,文本型,大多数结节几乎消失,,,,X线,LLM提取,论文病例报告,2014-05-17,影像,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,7b8c9d0e-1f2a-4b3c-4d5e-6f7a8b9c0d22,患者,治疗反应,,类别型,显著缓解,,接近完全缓解,,,LLM提取,论文病例报告,2014-05-17,评估,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,7b8c9d0e-1f2a-4b3c-4d5e-6f7a8b9c0d22,患者,评估方法,,类别型,胸部X线,,,,X线,LLM提取,论文病例报告,2014-05-17,评估,v1
+fa2231d1cbaec856b79af4d9c40c71a1,9eba4d567db0f407065eb7c6a46ddadd,7b8c9d0e-1f2a-4b3c-4d5e-6f7a8b9c0d22,患者,出院状况,,类别型,症状消失，肺转移灶明显缩小/近乎消失,,,,,LLM提取,论文病例报告,2014-05-17,出院,v1

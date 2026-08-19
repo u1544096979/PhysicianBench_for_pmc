@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c51,患者,入院年龄,,数值型,36,36,,岁,,LLM提取,论文病例报告,2006-01-01,入院,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c51,患者,病史,,文本型,囊性纤维化，2006年行肺移植，需长期免疫抑制以预防排斥。,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d62,患者,诊断名称,,类别型,皮肤鳞状细胞癌,,原发部位：右鼻翼,,,LLM提取,论文病例报告,2018-12-01,诊断,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e73,患者,手术名称,,类别型,Mohs手术,,因右鼻翼cSCC,,,LLM提取,论文病例报告,2018-12-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f84,患者,诊断名称,,类别型,复发性皮肤鳞状细胞癌,,部位：切除部位,,,LLM提取,论文病例报告,2019-12-01,诊断,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f84,患者,手术名称,,类别型,Mohs手术,,因复发病灶,,,LLM提取,论文病例报告,2019-12-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a95,患者,放疗方案,,文本型,辅助放疗,,鼻翼，总剂量60 Gy/30次,,,LLM提取,论文病例报告,2019-12-01,病程,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,6f7a8b9c-0d1e-4f2a-3b4c-5d6e7f8a9b06,患者,诊断名称,,类别型,局部区域复发/转移性皮肤鳞状细胞癌,,部位：右上鼻唇沟及右上唇,,,LLM提取,论文病例报告,2020-09-01,诊断,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,7a8b9c0d-1e2f-4a3b-4c5d-6e7f8a9b0c17,患者,用药名称,,类别型,cetuximab,,EGFR抑制剂单药治疗，无明显获益,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d28,患者,影像所见,,文本型,右颌下淋巴结转移。,,CT检查,,,LLM提取,论文病例报告,2020-12-01,影像,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d28,患者,手术名称,,类别型,右侧改良根治性颈清扫,,Levels IB/IIA/IIB/III/IV,,,LLM提取,论文病例报告,2020-12-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d28,患者,手术名称,,类别型,切除,,鼻唇沟肿块、右上唇肿块及独立软组织面部肿块,,,LLM提取,论文病例报告,2020-12-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e39,患者,病理诊断,,文本型,低分化鳞状细胞癌伴肉瘤样特征、神经周围侵袭。,,32枚淋巴结中3枚受累,,,LLM提取,论文病例报告,2020-12-01,病理,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,a0b1c2d3-e4f5-4a6b-7c8d-9e0f1a2b3c40,患者,放疗方案,,文本型,辅助放疗,,右颈部66 Gy/30次,,,LLM提取,论文病例报告,2020-12-01,病程,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,a0b1c2d3-e4f5-4a6b-7c8d-9e0f1a2b3c40,capecitabine,用药名称,,类别型,capecitabine,,同步治疗尝试，但耐受不良，3周后停用,,,LLM提取,论文病例报告,2020-12-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d50,患者,诊断名称,,类别型,第三次复发,,部位：右鼻桥；PET显示左侧颈部1B淋巴结9mm,,,LLM提取,论文病例报告,2021-06-01,诊断,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e61,患者,手术名称,,类别型,左侧改良根治性颈清扫,,Levels IB/IIA/III,,,LLM提取,论文病例报告,2021-07-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e61,患者,手术名称,,类别型,部分鼻切除术,,并行右内眦成形术,,,LLM提取,论文病例报告,2021-07-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e61,患者,病理诊断,,文本型,鼻桥3.5 cm cSCC，并累及右面颊、右上唇及鼻背；3/16淋巴结受累。,,,,,LLM提取,论文病例报告,2021-07-01,病理,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,d3e4f5a6-b7c8-4d9e-0f1a-2b3c4d5e6f72,患者,手术名称,,类别型,右面部病灶切除,,总鼻切除术及右唇楔形切除术,,,LLM提取,论文病例报告,2021-10-01,手术,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,d3e4f5a6-b7c8-4d9e-0f1a-2b3c4d5e6f72,患者,病理诊断,,文本型,复发性皮肤鳞状细胞癌,,术后病理再次证实,,,LLM提取,论文病例报告,2021-10-01,病理,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,e4f5a6b7-c8d9-4e0f-1a2b-3c4d5e6f7a83,患者,放疗方案,,文本型,辅助放疗,,左颈IB-IV区，200 cGy × 33次,,,LLM提取,论文病例报告,2021-10-01,病程,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,f5a6b7c8-d9e0-4f1a-2b3c-4d5e6f7a8b94,患者,用药名称,,类别型,TVEC (talimogene laherparepvec),,瘤内治疗，3个周期,,,LLM提取,论文病例报告,2021-12-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,f5a6b7c8-d9e0-4f1a-2b3c-4d5e6f7a8b94,患者,病程,,文本型,疾病明确进展，面部右侧出现严重溃疡性开放创面并接近右眼。,,,,,LLM提取,论文病例报告,2021-12-01,病程,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b05,患者,诊断名称,,类别型,无可行动靶点,,分子：TMB 17 Mut/Mb，CDKN2A/FANCA/TP53/STK11突变；PD-L1未报告,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c16,cemiplimab,药品名称,,类别型,cemiplimab,,与泼尼松、他克莫司联用以预防移植排斥,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c16,prednisone,药品名称,,类别型,prednisone,,与cemiplimab联用,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c16,tacrolimus,药品名称,,类别型,tacrolimus,,与cemiplimab联用,,,LLM提取,论文病例报告,2022-02-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,h8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d37,cemiplimab,药品名称,,类别型,cemiplimab,,350 mg IV，每3周一次；联合carboplatin和paclitaxel的CIO方案,,,LLM提取,论文病例报告,2022-06-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,h8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d37,carboplatin,药品名称,,类别型,carboplatin,,AUC 2，每周一次,,,LLM提取,论文病例报告,2022-06-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,h8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d37,paclitaxel,药品名称,,类别型,paclitaxel,,60 mg/m2，每周一次,,,LLM提取,论文病例报告,2022-06-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,h9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e48,患者,治疗反应,,类别型,部分缓解,,PET显示右面颊/面部肿块代谢活性下降；临床疼痛减轻、肿瘤缩小,,,LLM提取,论文病例报告,2022-09-22,评估,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,i0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f59,患者,不良反应名称,,类别型,中性粒细胞减少伴发热,,需要减量,,,LLM提取,论文病例报告,2022-07-01,不良反应,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,j1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a60,患者,用药名称,,类别型,cemiplimab,,在中性粒细胞减少持续存在且已有临床缓解后，改为单药继续,,,LLM提取,论文病例报告,2022-12-01,用药,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,k2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b71,患者,不良反应名称,,类别型,PD-1诱导性肺炎,,导致低氧性呼吸衰竭,,,LLM提取,论文病例报告,2023-01-01,不良反应,v1
+efff877d0dfaaa75e5bd98c306af0b72,6eb03ef9cbed00177fddecd02d854fc0_2,k2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b71,患者,出院状况,,类别型,转为舒适治疗,,进展性呼吸衰竭,,,LLM提取,论文病例报告,2023-01-01,出院,v1

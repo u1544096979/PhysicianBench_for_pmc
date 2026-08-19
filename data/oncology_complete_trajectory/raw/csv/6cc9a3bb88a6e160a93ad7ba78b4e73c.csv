@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,2f2b0a9b-5f1f-4e0a-8c9f-3f2c2d8d9a01,患者,年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,2021-02-01,入院,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,2f2b0a9b-5f1f-4e0a-8c9f-3f2c2d8d9a01,患者,主诉,,文本型,无症状，因附件区肿块就诊评估,,,,,LLM提取,论文病例报告,2021-02-01,入院,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d7a2c1a3-8f5d-4e5b-a1b8-0f8f7d7c2f10,患者,既往史,,文本型,2009年HCV相关肝细胞癌，Edmonson and Stainer grade 2，pT2 N0 M0，G2，V1；曾行左半肝切除扩大至肝IV段切除、胆囊切除及Kehr引流,,,,,LLM提取,论文病例报告,2009-01-01,病史,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d7a2c1a3-8f5d-4e5b-a1b8-0f8f7d7c2f10,患者,家族史,,文本型,有结肠肿瘤家族史,,,,,LLM提取,论文病例报告,,病史,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d7a2c1a3-8f5d-4e5b-a1b8-0f8f7d7c2f10,患者,个人史,,文本型,既往有良性乳腺肿块手术史,,,,,LLM提取,论文病例报告,,病史,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d7a2c1a3-8f5d-4e5b-a1b8-0f8f7d7c2f10,患者,合并症,,文本型,颈动脉粥样硬化、憩室性结肠病、甲亢、胃食管疾病,,,,,LLM提取,论文病例报告,,病史,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,8f2d7d30-6fb4-4f6f-b8c4-0d7a1d9b3b22,血液,HBV抗体/感染状态,,类别型,阴性,,,,,LLM提取,论文病例报告,2009-01-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,8f2d7d30-6fb4-4f6f-b8c4-0d7a1d9b3b22,血液,HCV抗体/感染状态,,类别型,阴性,,,,,LLM提取,论文病例报告,2009-01-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,7c1d0c44-cc0d-4f02-8c2e-1b7a8d3c5f33,患者,诊断名称,,类别型,HCV相关肝细胞癌,,Edmonson and Stainer grade 2；pT2 N0 M0；G2；V1,,,LLM提取,论文病例报告,2009-01-01,诊断,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,b3f3fcb7-6cf7-4c1d-9f2c-0a7a8a5c8d44,患者,手术名称,,类别型,左半肝切除扩大至肝IV段切除、胆囊切除、Kehr引流置入,,,,,LLM提取,论文病例报告,2009-01-01,手术,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,b3f3fcb7-6cf7-4c1d-9f2c-0a7a8a5c8d44,患者,手术结果,,文本型,切除完成,,,,,LLM提取,论文病例报告,2009-01-01,手术,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c6d8fbb1-5b6a-4f8f-bf6d-0f3d6f7e9a55,血液,AFP,,数值型,8600,8600,,ng/mL,,LLM提取,论文病例报告,2009-01-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c6d8fbb1-5b6a-4f8f-bf6d-0f3d6f7e9a55,血液,AFP,,数值型,2.7,2.7,术后,ng/mL,,LLM提取,论文病例报告,2009-01-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,f1c4a7de-0f3b-4e76-a8c1-2d3b6e7f8a66,患者,肿瘤复发/病程,,文本型,随访期间无病进展至2020年10月后发现AFP升高，提示复发可能,,,,,LLM提取,论文病例报告,2020-10-01,病程,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,9e0d7c6a-3c5b-4f0f-a7e8-1f2d3c4b5a77,血液,AFP,,数值型,467,467,,ng/mL,,LLM提取,论文病例报告,2020-10-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,9e0d7c6a-3c5b-4f0f-a7e8-1f2d3c4b5a77,血液,CA125,,数值型,37.4,37.4,临界值,IU/mL,,LLM提取,论文病例报告,2020-10-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,0a5d8f9c-1e2b-4c3d-9f7a-8b6c5d4e3f88,CT,影像所见,,文本型,残余肝脏未见病灶；左侧附件区见实性-囊性占位伴钙化，右侧卵巢增大；盆腔少量积液；未见肿大淋巴结，腹膜阴性,,,,胸腹部CT,LLM提取,论文病例报告,2020-10-01,影像,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,0a5d8f9c-1e2b-4c3d-9f7a-8b6c5d4e3f88,CT,影像结论,,文本型,考虑左附件区肿块，残余肝脏未见复发证据,,,,胸腹部CT,LLM提取,论文病例报告,2020-10-01,影像,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,1f6a7b8c-2d3e-4f5a-9b6c-7d8e9f0a1b99,超声,影像所见,,文本型,双侧卵巢增大，左卵巢62×23×34 mm，呈多房-实性囊肿，彩色评分2分；轻度盆腔积液,,IOTA adnex model恶性风险59.6%,,妇科超声,LLM提取,论文病例报告,2020-10-01,影像,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,1f6a7b8c-2d3e-4f5a-9b6c-7d8e9f0a1b99,超声,影像结论,,文本型,提示左附件区肿瘤性病变可能性大,,,,妇科超声,LLM提取,论文病例报告,2020-10-01,影像,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,a7b8c9d0-e1f2-4a3b-8c9d-0e1f2a3b4c55,患者,诊断名称,,类别型,卵巢附件区肿块，疑似肿瘤复发,,鉴别诊断包括原发性卵巢肝样癌与肝细胞癌卵巢转移/复发,,,LLM提取,论文病例报告,2021-02-01,诊断,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d4e5f6a7-b8c9-4d0e-a1b2-c3d4e5f6a7b8,患者,手术名称,,类别型,腹腔镜左侧卵巢切除术,,术中送冰冻病理,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d4e5f6a7-b8c9-4d0e-a1b2-c3d4e5f6a7b8,患者,手术名称,,类别型,子宫切除术、双侧卵巢切除术、盆腔腹膜切除术、网膜切除术,,改为开腹方式完成,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,d4e5f6a7-b8c9-4d0e-a1b2-c3d4e5f6a7b8,患者,手术结果,,文本型,肿瘤残留0，未见其他肉眼肿瘤局灶,,,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7a8b9,左卵巢,病理诊断,,文本型,浆液性腺纤维瘤，邻近边界性浆液性肿瘤,,TNM 2017: pT1a,,病理检查,LLM提取,论文病例报告,2021-03-01,病理,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7a8b9,左卵巢,病理诊断,,文本型,肝样癌,,伴盆腔腹膜结节、左侧结肠旁沟转移/继发种植,,病理检查,LLM提取,论文病例报告,2021-03-01,病理,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,f7a8b9c0-d1e2-4f3a-9b0c-1d2e3f4a5b6c,标本,免疫组化,,文本型,CK7阳性，AFP局灶阳性，ER阴性，PR阴性，p53阴性，PAX8阴性,,,,免疫组化,LLM提取,论文病例报告,2021-03-01,病理,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,f7a8b9c0-d1e2-4f3a-9b0c-1d2e3f4a5b6c,标本,免疫组化,,文本型,Hep PAR1阳性，Arginase阳性，alpha-fetoprotein阳性,,支持HCC来源,,免疫组化,LLM提取,论文病例报告,2021-03-01,病理,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d,患者,诊断名称,,类别型,肝细胞癌卵巢复发/转移,,结合病史、影像、病理及免疫组化、多学科讨论后确定,,,LLM提取,论文病例报告,2021-03-01,诊断,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,出院状况,,类别型,一般情况稳定,,,,,LLM提取,论文病例报告,2021-03-04,出院,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,住院天数,,数值型,3,3,术后第3天出院,天,,LLM提取,论文病例报告,2021-03-04,出院,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e,患者,出院医嘱,,文本型,继续妇瘤随访，定期临床、实验室及影像学检查,,每4个月随访一次,,,LLM提取,论文病例报告,2021-03-04,出院,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c1d2e3f4-a5b6-47c8-9d0e-1f2a3b4c5d6e,患者,随访结果,,文本型,持续接受妇瘤及肿瘤科随访，临床、实验室和影像学监测,,每4个月一次,,,LLM提取,论文病例报告,2022-06-01,病程,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c1d2e3f4-a5b6-47c8-9d0e-1f2a3b4c5d6e,血液,AFP,,数值型,93.7,93.7,上升,IU/mL,,LLM提取,论文病例报告,2022-06-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c1d2e3f4-a5b6-47c8-9d0e-1f2a3b4c5d6e,血液,CA125,,数值型,18.3,18.3,,IU/mL,,LLM提取,论文病例报告,2022-06-01,检验,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c1d2e3f4-a5b6-47c8-9d0e-1f2a3b4c5d6e,MRI,影像所见,,文本型,上腹部MRI未见提示复发的影像学证据,,,,上腹部MRI,LLM提取,论文病例报告,2022-06-01,影像,v1
+6cc9a3bb88a6e160a93ad7ba78b4e73c,6bf3ed855eb5707afac0f099c6128ea3,c1d2e3f4-a5b6-47c8-9d0e-1f2a3b4c5d6e,MRI,影像结论,,文本型,未见疾病复发,,,,上腹部MRI,LLM提取,论文病例报告,2022-06-01,影像,v1

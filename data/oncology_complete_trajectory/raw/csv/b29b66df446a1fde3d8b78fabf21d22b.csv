@@ -1,0 +1,39 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,5b2a1a0c-9f0b-4fd0-9c7e-0b6b0a8f8d11,患者,入院年龄,,数值型,74,74,,岁,,LLM提取,论文病例报告,,入院,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,5b2a1a0c-9f0b-4fd0-9c7e-0b6b0a8f8d11,患者,入院途径,,类别型,转诊至中心进一步治疗,,,,,LLM提取,论文病例报告,,入院,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,c6f7d7f2-5f2f-4ed4-bf53-6e6d5f2c8a22,患者,主诉,,文本型,发现左乳肿块,,,,,LLM提取,论文病例报告,,病史,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,c6f7d7f2-5f2f-4ed4-bf53-6e6d5f2c8a22,患者,现病史,,文本型,左乳发现肿块，超声提示腺体层内低回声肿物，边界相对清晰，形态规则，边缘稍不规则，内部回声不均匀，彩超可见血流信号，RI 0.77，诊断考虑左乳实性结节（BI-RADS 4A-4B）,,肿块最大径约3.2 cm,,超声,LLM提取,论文病例报告,2024-02-26,病史,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d4c4bb7a-7d2e-4e4d-9c3f-0a1f1e8d3d33,左乳超声,影像所见,,文本型,腺体层内见低回声肿物，边界较清，形态规则，边缘稍不规则，内部回声不均匀，可探及血流信号,,3.2×2.1 cm，RI 0.77,,彩色多普勒超声,LLM提取,论文病例报告,2024-02-26,影像,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d4c4bb7a-7d2e-4e4d-9c3f-0a1f1e8d3d33,左乳超声,影像结论,,类别型,左乳实性结节,,BI-RADS 4A-4B,,彩色多普勒超声,LLM提取,论文病例报告,2024-02-26,影像,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e2f1b8c9-1a2d-4c3e-8f4b-7d8e9f0a4b44,左乳穿刺活检,病理诊断,,文本型,癌，难以分类，考虑低度恶性肿瘤,,,,局麻下穿刺活检,LLM提取,论文病例报告,2024-03-06,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,f3a2c4d5-6e7f-4a8b-9c0d-1e2f3a4b5c55,乳腺钼靶,影像所见,,文本型,见肿块影,,,,钼靶X线,LLM提取,论文病例报告,2024-03-09,影像,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,f3a2c4d5-6e7f-4a8b-9c0d-1e2f3a4b5c55,乳腺钼靶,影像结论,,类别型,BI-RADS 6,,,,钼靶X线,LLM提取,论文病例报告,2024-03-09,影像,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6,患者,手术名称,,类别型,左乳全乳切除术+前哨淋巴结探查,,,,,LLM提取,论文病例报告,2024-03-11,手术,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6,患者,手术结果,,文本型,切除肿瘤，前哨淋巴结未见癌转移,,,,,LLM提取,论文病例报告,2024-03-11,手术,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,左乳切除标本,病理诊断,,文本型,乳腺多形性腺癌,,前哨淋巴结未见癌转移,,术后病理,LLM提取,论文病例报告,2024-03-15,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d7e,左乳切除标本,标本部位,,类别型,左乳,,,,术后病理,LLM提取,论文病例报告,2024-03-15,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,c7d8e9f0-a1b2-4c3d-9e0f-1a2b3c4d5e6f,左乳切除标本,病理诊断,,文本型,肿瘤中央主要为实性结构，部分筛状并含蓝染分泌物；肿瘤周边见条索状及腺管样结构；肿瘤细胞核仁可见，核分裂活跃，胞质稀少,,镜下形态符合多形性腺癌,,显微镜检查,LLM提取,论文病例报告,2024-03-15,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,ER,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,PR,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,HER2状态,,类别型,0,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,Ki-67,,类别型,20%+,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,Bcl-2,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,CK7,,类别型,局灶阳性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,P63,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,Calponin,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,E-cadherin,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,S100,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,CD117,,类别型,部分阳性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,d8e9f0a1-b2c3-4d5e-9f01-2a3b4c5d6e7f,肿瘤组织,SOX-10,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2024-03-20,病理,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,PIK3CA,,类别型,c.1258T>C (p.C420R),,外显子7，突变等位基因频率41.24%，COSMIC ID: COSM757,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,DPYD,,类别型,c.85C>T (p.R29C),,COSMIC ID: COSM3735988,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,EPCAM,,类别型,c.344T>C (p.M115T),,COSMIC ID: COSM3927762,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,XRCC1,,类别型,c.1196A>G (p.Q399R),,COSMIC ID: COSM3756906,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,MTHFR,,类别型,c.665C>T (p.A222V),,COSMIC ID: COSM146404,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,GSTP1,,类别型,c.313A>G (p.I105V),,COSMIC ID: COSM3752683,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,e9f0a1b2-c3d4-4e5f-9a01-2b3c4d5e6f70,肿瘤组织,NQO1,,类别型,c.559C>T (p.P187S),,COSMIC ID: COSM148097,,NGS,LLM提取,论文病例报告,2024-04-01,检验,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,f0a1b2c3-d4e5-4f6a-9b01-2c3d4e5f6a71,患者,药品名称,,类别型,Capecitabine,,口服，术后1个疗程,,,LLM提取,论文病例报告,2024-04-25,用药,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,f0a1b2c3-d4e5-4f6a-9b01-2c3d4e5f6a71,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2024-04-25,用药,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,f0a1b2c3-d4e5-4f6a-9b01-2c3d4e5f6a71,患者,用药周期,,文本型,1个疗程,,术后开始,,,LLM提取,论文病例报告,2024-04-25,用药,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,0a1b2c3d-4e5f-4a6b-9c01-2d3e4f5a6b72,患者,随访结果,,文本型,术后2年无复发，疾病无进展,,,,随访,LLM提取,论文病例报告,2026-04-25,病程,v1
+b29b66df446a1fde3d8b78fabf21d22b,0c9e9a8fe550f7ac6f0ee4b06a38c6e6,0a1b2c3d-4e5f-4a6b-9c01-2d3e4f5a6b72,患者,无进展生存期,,数值型,24,24,,月,随访,LLM提取,论文病例报告,2026-04-25,病程,v1

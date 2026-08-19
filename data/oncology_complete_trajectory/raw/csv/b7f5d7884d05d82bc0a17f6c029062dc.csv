@@ -1,0 +1,65 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1b5ef7d2-3f3e-4b7e-8c17-7c7c57d3f6f8,患者,入院年龄,,数值型,66,66,,岁,,LLM提取,论文病例报告,2020-08-01,入院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1b5ef7d2-3f3e-4b7e-8c17-7c7c57d3f6f8,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1b5ef7d2-3f3e-4b7e-8c17-7c7c57d3f6f8,患者,入院科室,,类别型,Weifang Second People's Hospital,,,,,LLM提取,论文病例报告,2020-08-01,入院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,8c8f0d8e-1c8c-4c3d-a2f8-4b2d6a6b2d34,患者,既往史,,文本型,2型糖尿病；无心脏病史；无其他自身免疫性疾病史,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,8c8f0d8e-1c8c-4c3d-a2f8-4b2d6a6b2d34,患者,家族史,,文本型,无心脏病或其他自身免疫性疾病家族史,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,8c8f0d8e-1c8c-4c3d-a2f8-4b2d6a6b2d34,患者,主诉,,文本型,左乳肿块红肿1个月,,,,,LLM提取,论文病例报告,2020-08-01,病史,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f0f2c2ce-6d4a-4b7d-9b1f-7dfb8f8f2c11,左乳肿块标本,病理诊断,,文本型,浸润性乳腺癌,,免疫组化证实,,HE染色/免疫组化,LLM提取,论文病例报告,2020-08-01,病理,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f0f2c2ce-6d4a-4b7d-9b1f-7dfb8f8f2c11,左乳肿块标本,分化程度,,类别型,未提及,,后续手术病理提示侵袭性导管癌II级,,,LLM提取,论文病例报告,2020-08-01,病理,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,b8a6b7f6-9d2a-4a6d-b0d6-5f8a6d0b1c22,乳腺MRI/CT,影像所见,,文本型,左乳病灶影像提示浸润性乳腺癌特征,,MRI与CT进一步证实,,MRI/CT,LLM提取,论文病例报告,2020-08-01,影像,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,c4cfc8e3-0f8a-4f1d-9a64-2a4a2d4b7d55,患者,诊断名称,,类别型,左乳III期炎性乳腺癌,,T4N0M0,,,LLM提取,论文病例报告,2020-08-01,诊断,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,c4cfc8e3-0f8a-4f1d-9a64-2a4a2d4b7d55,患者,临床分期,,类别型,III期,,,,,LLM提取,论文病例报告,2020-08-01,诊断,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,5c2d0e2b-1b7a-4f4a-9a3e-1f4b8c7d2e66,左乳手术标本,病理诊断,,文本型,侵袭性导管癌,,II级；腋窝淋巴结转移28/35,,HE染色/免疫组化,LLM提取,论文病例报告,2020-09-01,病理,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,5c2d0e2b-1b7a-4f4a-9a3e-1f4b8c7d2e66,左乳手术标本,分化程度,,类别型,II级,,,,,LLM提取,论文病例报告,2020-09-01,病理,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,6d5f2f9a-3b8d-4e5f-9c1d-3a1f9e8d2f77,患者,手术名称,,类别型,左乳改良根治术,,,,,LLM提取,论文病例报告,2020-09-01,手术,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,6d5f2f9a-3b8d-4e5f-9c1d-3a1f9e8d2f77,患者,手术结果,,文本型,完成左乳改良根治术,,,,,LLM提取,论文病例报告,2020-09-01,手术,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7e6f3a8b-4c9d-4f6a-8a2d-4a1f0b9d3c88,患者,药品名称,,类别型,表柔比星,,新辅助化疗,,静脉滴注,LLM提取,论文病例报告,2020-09-01,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7e6f3a8b-4c9d-4f6a-8a2d-4a1f0b9d3c88,患者,剂量,,数值型,50,50,250 ml saline稀释,mg,,LLM提取,论文病例报告,2020-09-01,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7e6f3a8b-4c9d-4f6a-8a2d-4a1f0b9d3c88,患者,药品名称,,类别型,紫杉醇,,新辅助化疗,,静脉滴注,LLM提取,论文病例报告,2020-09-02,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7e6f3a8b-4c9d-4f6a-8a2d-4a1f0b9d3c88,患者,剂量,,数值型,120,120,500 ml saline稀释,mg,,LLM提取,论文病例报告,2020-09-02,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7e6f3a8b-4c9d-4f6a-8a2d-4a1f0b9d3c88,患者,用药周期,,文本型,共6周期，术前1次，术后每月1次,,,,,LLM提取,论文病例报告,2020-09-02,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,a1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,手术名称,,类别型,右乳改良根治术,,,,,LLM提取,论文病例报告,2022-05-01,手术,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,a1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,手术结果,,文本型,完成右乳改良根治术,,,,,LLM提取,论文病例报告,2022-05-01,手术,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,b2d3c4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,右乳手术标本,病理诊断,,文本型,侵袭性癌,,III级；血管癌栓、神经侵犯；乳头及基底切缘未见癌；腋窝淋巴结23/23及其他3/3均转移,,HE染色/免疫组化,LLM提取,论文病例报告,2022-05-01,病理,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,b2d3c4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,右乳手术标本,分化程度,,类别型,III级,,,,,LLM提取,论文病例报告,2022-05-01,病理,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f,患者,影像所见,,文本型,胸部CT示双肺多发微小结节，考虑转移；腰骶椎MRI示可能继发转移,,,,CT/MRI,LLM提取,论文病例报告,2022-06-01,影像,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a,患者,诊断名称,,类别型,双肺继发恶性肿瘤、肋骨继发转移、腰骶椎继发转移,,,,,LLM提取,论文病例报告,2022-08-01,诊断,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b,患者,入院年龄,,数值型,68,68,文中此处描述为68岁,岁,,LLM提取,论文病例报告,2022-08-01,入院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2022-08-01,入院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b,患者,入院科室,,类别型,Weifang Second People's Hospital,,,,,LLM提取,论文病例报告,2022-08-01,入院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,一般状况_体温,,文本型,36.5,,,℃,,LLM提取,论文病例报告,2022-08-01,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,一般状况_心率,,数值型,70,70,,次/分,,LLM提取,论文病例报告,2022-08-01,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,一般状况_呼吸频率,,数值型,20,20,,次/分,,LLM提取,论文病例报告,2022-08-01,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,一般状况_血压,,文本型,139/78,,,mmHg,,LLM提取,论文病例报告,2022-08-01,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,查体,,文本型,咳嗽、喘息,,,,,LLM提取,论文病例报告,2022-08-01,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,COVID-19核酸,,类别型,阴性,,鼻咽拭子,,,LLM提取,论文病例报告,2022-08-01,检验,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,0a1b2c3d-4e5f-6789-abcd-ef0123456789,血液,肌酸激酶,,数值型,2263.2,2263.2,参考范围40-200,U/L,,LLM提取,论文病例报告,2022-08-06,检验,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,0a1b2c3d-4e5f-6789-abcd-ef0123456789,血液,心肌肌钙蛋白I,,数值型,18.01,18.01,参考范围0-0.028,ng/ml,,LLM提取,论文病例报告,2022-08-06,检验,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,0a1b2c3d-4e5f-6789-abcd-ef0123456789,血液,CK-MB,,数值型,172,172,参考范围0-20,U/L,,LLM提取,论文病例报告,2022-08-06,检验,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,0a1b2c3d-4e5f-6789-abcd-ef0123456789,血液,N末端脑钠肽前体,,数值型,9121,9121,参考范围0-300,pg/ml,,LLM提取,论文病例报告,2022-08-06,检验,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f,患者,心电图所见,,文本型,窦性心律、I度房室传导阻滞、完全性右束支传导阻滞、频发室性早搏、心肌缺血,,,,心电图,LLM提取,论文病例报告,2022-08-06,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a,患者,诊断名称,,类别型,急性冠脉综合征/免疫相关性心肌炎待排,,初步诊断,,,LLM提取,论文病例报告,2022-08-06,诊断,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,药品名称,,类别型,甲基泼尼松龙,,0.5 g IV,,,LLM提取,论文病例报告,2022-08-06,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b,患者,剂量,,数值型,0.5,0.5,,g,,LLM提取,论文病例报告,2022-08-06,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c,患者,诊断名称,,类别型,免疫性心肌炎,,结合心电图、心肌酶谱及免疫抑制剂使用史考虑,,,LLM提取,论文病例报告,2022-08-06,诊断,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d,患者,心脏超声所见,,文本型,未见有医学意义的心肌梗死,,,,超声心动图,LLM提取,论文病例报告,2022-08-06,评估,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e,冠状动脉造影,检查结果,,文本型,左主干无狭窄；左前降支中段40%狭窄；回旋支未见明显狭窄；右冠粗大光滑无狭窄,,,,冠状动脉造影,LLM提取,论文病例报告,2022-08-06,影像,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,药品名称,,类别型,甲基泼尼松龙琥珀酸钠,,激素冲击治疗,,静脉滴注,LLM提取,论文病例报告,2022-08-06,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,剂量,,数值型,0.5,0.5,100 ml saline稀释,g,,LLM提取,论文病例报告,2022-08-06,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a,患者,药品名称,,类别型,丙种球蛋白,,辅助治疗,,静脉注射,LLM提取,论文病例报告,2022-08-06,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a,患者,剂量,,数值型,10,10,每日一次至第11天,g,,LLM提取,论文病例报告,2022-08-06,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b,患者,不良反应名称,,类别型,阵发性室性心动过速,,监测到,,心电监测,LLM提取,论文病例报告,2022-08-06,不良反应,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b,患者,处理措施,,文本型,立即给予单次艾司洛尔静脉注射联合甲基泼尼松龙激素冲击治疗,,,,,LLM提取,论文病例报告,2022-08-06,不良反应,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c,血液,CK-MB,,数值型,116.6,116.6,较前下降；参考范围0-20,U/L,,LLM提取,论文病例报告,2022-08-10,检验,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d,患者,出院状况,,类别型,病情稳定，出院,,,,,LLM提取,论文病例报告,2022-08-22,出院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d,患者,出院诊断,,类别型,免疫性心肌炎,,,,,LLM提取,论文病例报告,2022-08-22,出院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d,患者,住院天数,,数值型,22,22,,天,,LLM提取,论文病例报告,2022-08-22,出院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d,患者,出院医嘱,,文本型,规律休息，避免劳累和情绪激动，按时服药，定期复查，不适及时就诊,,,,,LLM提取,论文病例报告,2022-08-22,出院,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,药品名称,,类别型,螺内酯,,出院后用药,,,LLM提取,论文病例报告,2022-08-22,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,剂量,,数值型,20,20,,mg,,LLM提取,论文病例报告,2022-08-22,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,药品名称,,类别型,酒石酸美托洛尔,,出院后用药,,,LLM提取,论文病例报告,2022-08-22,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,剂量,,数值型,20,20,,mg,,LLM提取,论文病例报告,2022-08-22,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,药品名称,,类别型,氯化钾缓释片,,出院后用药,,,LLM提取,论文病例报告,2022-08-22,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e,患者,剂量,,数值型,0.5,0.5,,g,,LLM提取,论文病例报告,2022-08-22,用药,v1
+b7f5d7884d05d82bc0a17f6c029062dc,2a13bd1fa56ddfb00e27f83208af1d6b,3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f,患者,随访结果,,文本型,电话随访1个月，无心肌炎复发及胸闷、心悸等症状,,,,,LLM提取,论文病例报告,2022-09-22,病程,v1

@@ -1,0 +1,44 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,2f2e0e58-7f3f-4c6d-8d3f-6e0ef0f5c5a1,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,2014-06-01,病史,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,2f2e0e58-7f3f-4c6d-8d3f-6e0ef0f5c5a1,患者,年龄,,数值型,49岁,49,,岁,,LLM提取,论文病例报告,2014-06-01,病史,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,2f2e0e58-7f3f-4c6d-8d3f-6e0ef0f5c5a1,患者,吸烟史,,类别型,从不吸烟,,,,,LLM提取,论文病例报告,2014-06-01,病史,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,7c3d4f2a-0b3a-4d7f-9a63-9a4f2c0c5a11,患者,诊断名称,,类别型,肺腺癌,,"临床分期：IIIA期(T3,N1,M0)；EGFR阳性（19外显子缺失）",,,LLM提取,论文病例报告,2014-06-01,诊断,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,7c3d4f2a-0b3a-4d7f-9a63-9a4f2c0c5a11,患者,临床分期,,类别型,IIIA期,,"T3,N1,M0",,,LLM提取,论文病例报告,2014-06-01,诊断,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,7c3d4f2a-0b3a-4d7f-9a63-9a4f2c0c5a11,患者,分子标志物,,类别型,EGFR阳性（19外显子缺失）,,,,,LLM提取,论文病例报告,2014-06-01,诊断,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,9a4b8e6f-8f2f-4e9e-9c1b-4d6d7d8f0b21,患者,手术名称,,类别型,左上叶肺叶切除术,,,,,LLM提取,论文病例报告,2014-06-01,手术,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,9a4b8e6f-8f2f-4e9e-9c1b-4d6d7d8f0b21,患者,手术结果,,文本型,手术后接受辅助治疗,,,,,LLM提取,论文病例报告,2014-06-01,手术,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1b0c8a9-5b1d-4f3d-9c2e-7b6f7b2a1c31,患者,药品名称,,类别型,卡铂,,AUC=5,,,LLM提取,论文病例报告,2014-06-01,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1b0c8a9-5b1d-4f3d-9c2e-7b6f7b2a1c31,患者,剂量,,数值型,AUC 5,5,,AUC,,LLM提取,论文病例报告,2014-06-01,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1b0c8a9-5b1d-4f3d-9c2e-7b6f7b2a1c31,患者,药品名称,,类别型,培美曲塞,,500 mg/m2,,,LLM提取,论文病例报告,2014-06-01,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1b0c8a9-5b1d-4f3d-9c2e-7b6f7b2a1c31,患者,剂量,,数值型,500,500,,mg/m2,,LLM提取,论文病例报告,2014-06-01,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1b0c8a9-5b1d-4f3d-9c2e-7b6f7b2a1c31,患者,用药周期,,文本型,4个周期,,于2014-10-29结束,,,LLM提取,论文病例报告,2014-06-01,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,5f1c3b4a-6d7e-4c8f-9a1b-2e3f4a5b6c71,患者,影像所见,,文本型,胰腺出现新发肿块,,CT检查,,CT,LLM提取,论文病例报告,2014-06-01,影像,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,6a2b3c4d-5e6f-4a7b-8c9d-1e2f3a4b5c61,标本,病理诊断,,文本型,腹部转移灶，来源于原发肺癌，EGFR阳性,,手术切除标本,,,LLM提取,论文病例报告,2014-12-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,6a2b3c4d-5e6f-4a7b-8c9d-1e2f3a4b5c61,标本,标本部位,,类别型,腹部,,,,,LLM提取,论文病例报告,2014-12-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,7d8e9f0a-1b2c-4d3e-8f9a-0b1c2d3e4f51,患者,主诉,,文本型,上腹痛、体重下降,,,,,LLM提取,论文病例报告,2014-12-01,病史,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,8e9f0a1b-2c3d-4e5f-9a0b-1c2d3e4f5a61,患者,手术名称,,类别型,腹部转移灶切除术,,,,,LLM提取,论文病例报告,2014-12-01,手术,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,8e9f0a1b-2c3d-4e5f-9a0b-1c2d3e4f5a61,患者,手术结果,,文本型,病理证实为EGFR阳性腹部转移,,,,,LLM提取,论文病例报告,2014-12-01,手术,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b41,标本,病理诊断,,文本型,细针穿刺标本示肺腺癌转移,,胰腺肿块FNA,,细针穿刺,LLM提取,论文病例报告,2014-12-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b41,标本,分子标志物,,类别型,EGFR exon 19突变阳性,,,,,LLM提取,论文病例报告,2014-12-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b41,标本,标本部位,,类别型,胰腺,,,,,LLM提取,论文病例报告,2014-12-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c51,患者,药品名称,,类别型,厄洛替尼,,150 mg每日1次,,,LLM提取,论文病例报告,2014-12-22,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c51,患者,剂量,,数值型,150,150,,mg/日,,LLM提取,论文病例报告,2014-12-22,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d51,患者,影像所见,,文本型,复查CT示转移灶缩小,,约8周后,,CT,LLM提取,论文病例报告,2015-02-16,影像,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e51,患者,影像所见,,文本型,疾病进展,,约2015-07,,CT,LLM提取,论文病例报告,2015-07-01,影像,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e51,标本,病理诊断,,文本型,肿块仍持续存在EGFR exon 19突变,,再次FNA,,细针穿刺,LLM提取,论文病例报告,2015-07-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e51,标本,分子标志物,,类别型,EGFR exon 19突变阳性,,,,,LLM提取,论文病例报告,2015-07-01,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f51,患者,药品名称,,类别型,TH-4000,,II期临床试验用药,,,LLM提取,论文病例报告,2015-08-01,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f51,患者,治疗方案,,类别型,TH-4000治疗,,每周一次,,,LLM提取,论文病例报告,2015-08-01,病程,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a51,患者,药品名称,,类别型,RRx-001,,4 mg，每周1次，TRIPLE THREAT试验,,,LLM提取,论文病例报告,2015-10-08,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a51,患者,剂量,,数值型,4,4,,mg,,LLM提取,论文病例报告,2015-10-08,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a51,患者,用药周期,,文本型,每周1次,,,,,LLM提取,论文病例报告,2015-10-08,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a51,患者,治疗方案,,类别型,RRx-001治疗,,TRIPLE THREAT试验,,,LLM提取,论文病例报告,2015-10-08,病程,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b51,患者,影像所见,,文本型,PET/CT示胰头部肿块增大并明显坏死，外周薄层可见疑似存活肿瘤,,符合假性进展/RECIST v1.1进展,,PET/CT,LLM提取,论文病例报告,2015-11-12,影像,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b51,患者,疗效评估,,类别型,进展,,假性进展/肿瘤坏死所致外观增大,,RECIST v1.1,LLM提取,论文病例报告,2015-11-12,评估,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,g1h2i3j4-k5l6-4m7n-8o9p-0q1r2s3t4u51,标本,病理诊断,,文本型,坏死碎屑为主，伴CD8+ T细胞浸润,,引导下抽吸液细胞学,,细胞学,LLM提取,论文病例报告,2015-11-12,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,g1h2i3j4-k5l6-4m7n-8o9p-0q1r2s3t4u51,标本,免疫组化,,文本型,CD8+ T细胞浸润,,亦见CD3+、CD8+免疫细胞浸润,,,LLM提取,论文病例报告,2015-11-12,病理,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,h1i2j3k4-l5m6-4n7o-8p9q-0r1s2t3u4v51,患者,治疗方案,,类别型,重新给予铂类双药化疗,,顺铂/培美曲塞,,,LLM提取,论文病例报告,2015-11-10,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,h1i2j3k4-l5m6-4n7o-8p9q-0r1s2t3u4v51,患者,药品名称,,类别型,顺铂,,与培美曲塞联用,,,LLM提取,论文病例报告,2015-11-10,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,h1i2j3k4-l5m6-4n7o-8p9q-0r1s2t3u4v51,患者,药品名称,,类别型,培美曲塞,,与顺铂联用,,,LLM提取,论文病例报告,2015-11-10,用药,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,i1j2k3l4-m5n6-4o7p-8q9r-0s1t2u3v4w51,患者,操作,,文本型,放置经皮引流导管,,肿瘤中央部分液化,,,LLM提取,论文病例报告,2015-11-10,手术,v1
+9da868d7cd40808b1cc388c13f8ab69c,57efe4ddfe0e3e2abfef1992807eb552_1,i1j2k3l4-m5n6-4o7p-8q9r-0s1t2u3v4w51,患者,手术结果,,文本型,症状明显改善,,引流后,,,LLM提取,论文病例报告,2015-11-10,手术,v1

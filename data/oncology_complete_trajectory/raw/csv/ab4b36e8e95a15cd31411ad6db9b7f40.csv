@@ -1,0 +1,24 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,4d8e5f38-7e2d-4c57-8a9d-1c1f7e8b2c11,患者,既往史,,文本型,1995年因未分化非角化性鼻咽癌接受单纯常规外照射放疗，剂量70 Gy/35次，未行化疗,,AJCC第4版分期III期,,,LLM提取,论文病例报告,1995-01-01,病史,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,b5f0c3bf-8f7e-4ad6-96c0-2f8f7ef2c5c1,患者,入院年龄,,数值型,50岁,50,,岁,,LLM提取,论文病例报告,2016-07-01,入院,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,b5f0c3bf-8f7e-4ad6-96c0-2f8f7ef2c5c1,患者,入院途径,,类别型,住院,,,,,LLM提取,论文病例报告,2016-07-01,入院,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,b5f0c3bf-8f7e-4ad6-96c0-2f8f7ef2c5c1,患者,主诉,,文本型,左侧鼻塞伴同侧耳鸣1个月,,,,,LLM提取,论文病例报告,2016-07-01,入院,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,c6eddfc0-4d7f-4c0d-9b54-5f7c4f1c4d20,患者,查体,,文本型,体检见鼻咽左侧壁及左咽鼓管圆枕占位肿块,,,,,LLM提取,论文病例报告,2016-07-01,评估,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,d6e2b2f2-1b63-4d3d-8d7a-61d7a1c5f8d3,鼻咽MRI,影像所见,,文本型,鼻咽部26×16×27 mm强化肿块，累及左Rosenmüller窝、咽旁间隙及颅底，并伴左侧II区颈淋巴结肿大（12×6×14 mm）,,,,MRI,LLM提取,论文病例报告,2016-07-01,影像,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,e2a7e1f9-1f76-4f7a-8a2d-2a83c2f98a0b,鼻咽活检标本,病理诊断,,文本型,未分化非角化性癌,,,,HE染色,LLM提取,论文病例报告,2016-07-01,病理,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,f2a5b9aa-8f4e-4d2c-9a85-1b6f0a8d3f6d,患者,诊断名称,,类别型,放疗后复发鼻咽癌,,rT3N1M0，AJCC第7版III期,,,LLM提取,论文病例报告,2016-07-01,诊断,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,8a2b4f1c-4d0c-4f6e-a45e-0c7d4d59c5d4,患者,放疗,,文本型,鼻咽部再放疗,,鼻咽GTV 66 Gy；淋巴结GTV及高危CTV 60 Gy；低危CTV 54 Gy；共33次，疗程50天,,,LLM提取,论文病例报告,2016-07-01,病程,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,8a2b4f1c-4d0c-4f6e-a45e-0c7d4d59c5d4,患者,治疗反应,,类别型,疾病进展,,再放疗后约2个月MRI评估,,MRI,LLM提取,论文病例报告,2016-09-01,病程,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,c2fd5db7-fd2a-4f0e-9c13-1d8d6a7b9c21,患者,化疗方案,,文本型,吉西他滨-顺铂方案一线化疗,,,,,LLM提取,论文病例报告,2016-09-01,病程,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,c2fd5db7-fd2a-4f0e-9c13-1d8d6a7b9c21,患者,治疗反应,,类别型,部分缓解,,鼻咽及咽旁肿瘤较前缩小,,MRI,LLM提取,论文病例报告,2016-09-01,病程,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,c2fd5db7-fd2a-4f0e-9c13-1d8d6a7b9c21,患者,治疗反应,,类别型,完全缓解,,转移性颈部淋巴结,,MRI,LLM提取,论文病例报告,2016-09-01,病程,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,3fd3e0b7-1e6b-4b9c-9f2c-2f0c4b5d7c6a,外耳道肿块标本,病理诊断,,文本型,腺癌,,首次外耳道活检,,HE染色及免疫组化,LLM提取,论文病例报告,2016-10-01,病理,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,3fd3e0b7-1e6b-4b9c-9f2c-2f0c4b5d7c6a,外耳道肿块标本,免疫组化,,文本型,CK7、CK8、CK18强阳性；Ki-67热点区>90%,,并表达CD56、synaptophysin、chromogranin A,,免疫组化,LLM提取,论文病例报告,2016-10-01,病理,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,6b6fb1d8-8b44-4fa0-8e0b-4b93c4f0e3a7,外耳道肿块标本,病理诊断,,文本型,腺癌,,第二次外耳道活检；CDX2阴性,,HE染色及免疫组化,LLM提取,论文病例报告,2016-11-01,病理,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,6b6fb1d8-8b44-4fa0-8e0b-4b93c4f0e3a7,外耳道肿块标本,免疫组化,,文本型,CK7、carcinoembryonic antigen、synaptophysin阳性；CK7/CEA/ synaptophysin在>90%肿瘤细胞中共同表达；CDX2阴性,,支持混合腺神经内分泌癌,,免疫组化,LLM提取,论文病例报告,2016-11-01,病理,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,9e7a2d3c-3f8f-4c9f-9d2a-8b3d1c2f5a6b,患者,诊断名称,,类别型,鼻咽混合性腺神经内分泌癌（MANEC）,,原发于鼻咽的继发性第二原发恶性肿瘤,,,LLM提取,论文病例报告,2016-12-01,诊断,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,9e7a2d3c-3f8f-4c9f-9d2a-8b3d1c2f5a6b,患者,肿瘤标志物,,文本型,神经元特异性烯醇化酶（NSE）22.81 ng/mL；CEA 8.90 ng/mL,,NSE参考范围0.00–16.30 ng/mL；CEA参考范围0.00–5.00 ng/mL,ng/mL,,LLM提取,论文病例报告,2016-12-01,检验,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,9e7a2d3c-3f8f-4c9f-9d2a-8b3d1c2f5a6b,患者,治疗方案,,文本型,脂质体紫杉醇150 mg/m2 + 顺铂70 mg/m2,,额外1个化疗周期,mg/m2,,LLM提取,论文病例报告,2016-12-01,用药,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,9e7a2d3c-3f8f-4c9f-9d2a-8b3d1c2f5a6b,患者,治疗反应,,类别型,无缓解,,耳痛仍未缓解，后续未再接受抗肿瘤治疗，转为保守治疗,,,LLM提取,论文病例报告,2016-12-01,病程,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,a1b2c3d4-e5f6-4789-9abc-def123456789,患者,死亡结局,,文本型,因多发肝转移死亡,,腹部增强CT证实,,CT,LLM提取,论文病例报告,2017-08-01,出院,v1
+ab4b36e8e95a15cd31411ad6db9b7f40,297089e3650d6d8d6478f56b748f40df,a1b2c3d4-e5f6-4789-9abc-def123456789,患者,总生存期,,数值型,8个月,8,自最终诊断起算,月,,LLM提取,论文病例报告,2017-08-01,病程,v1

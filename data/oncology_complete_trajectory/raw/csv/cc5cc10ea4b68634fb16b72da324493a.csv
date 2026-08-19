@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,6f57a34d-4a5f-4b95-a1f5-9a0c1fb5d2ad,患者,入院年龄,,数值型,47,47,,岁,,LLM提取,论文病例报告,2013-07-01,入院,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,d9d5dc2f-0a2a-4d9b-8f0c-2c1b5f54db48,患者,个人史,,文本型,吸烟史；既往有一过性妊娠期糖尿病,,,,,LLM提取,论文病例报告,,病史,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,a7f0f5b0-6d5d-4f48-b2f6-2f2e7b3f6f3d,患者,主诉,,文本型,偶发、自限性腹痛,,,,,LLM提取,论文病例报告,2013-07-01,病史,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,0d8c3f5f-8b9c-4b7d-8b3a-6c7f7d2fbe3a,患者,影像所见,,文本型,腹盆腔CT显示双侧肝叶多个低密度病灶，左肝叶最大约7.0×6.4×4.6 cm,,,,CT,LLM提取,论文病例报告,2013-08-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,c6d73f4d-8b68-4a92-b0c4-fd4d5e2a3d90,患者,影像所见,,文本型,腹部MRI再次证实肝内多发病灶，强化不均，考虑非典型血管瘤、腺瘤或恶性肿瘤可能,,,,MRI,LLM提取,论文病例报告,2013-08-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,2d1f4b1c-8d62-4c5e-8a56-0f4d3b9d4f11,患者,影像所见,,文本型,FDG PET/CT显示肝内多个FDG摄取增高病灶，最大约8 cm,,,,PET/CT,LLM提取,论文病例报告,2013-08-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,8f2a3a56-5f5e-4c71-8d8a-9d6df5d4e3b2,患者,病理诊断,,文本型,肝左叶肿块CT引导活检：低分化腺癌,,肿瘤细胞高度异型，浸润肝实质，呈实性生长伴轻度腺样结构，局灶坏死及间质硬化反应,,CT引导活检,LLM提取,论文病例报告,2013-09-15,病理,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,8f2a3a56-5f5e-4c71-8d8a-9d6df5d4e3b2,患者,免疫组化,,文本型,CK7强且弥漫阳性，CEA局灶弱阳性；CK20、CA-125、TTF-1、NapsinA、Brst2、GATA3、ER、PR、Her2阴性,,,,免疫组化,LLM提取,论文病例报告,2013-09-15,病理,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,54f2d4d1-2f0b-4bc4-8a52-2c3d0c7a4d90,血清,肿瘤标志物,,类别型,chromogranin A升高,,,,,LLM提取,论文病例报告,2013-09-15,检验,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,54f2d4d1-2f0b-4bc4-8a52-2c3d0c7a4d90,血清,肿瘤标志物,,类别型,CEA升高,,,,,LLM提取,论文病例报告,2013-09-15,检验,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,54f2d4d1-2f0b-4bc4-8a52-2c3d0c7a4d90,血清,肿瘤标志物,,类别型,CA15-3升高,,,,,LLM提取,论文病例报告,2013-09-15,检验,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,5f1b4e8c-6f0d-47a9-8c61-5d2c3f4b8a11,患者,诊断名称,,类别型,低分化肝内胆管癌,,IV期；伴肝、肺、胸膜及骨多发转移,,,LLM提取,论文病例报告,2013-09-15,诊断,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,5f1b4e8c-6f0d-47a9-8c61-5d2c3f4b8a11,患者,临床分期,,类别型,IV期,,不可切除,,,LLM提取,论文病例报告,2013-09-15,诊断,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,a6d6d4a1-5f33-4a8b-9f2a-0d7a8f0b7b33,患者,治疗方案,,类别型,姑息性肝区放疗联合持续静脉5-氟尿嘧啶化疗,,5-FU 200 mg/m2/day，7天/周,,,LLM提取,论文病例报告,2013-09-15,病程,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,a6d6d4a1-5f33-4a8b-9f2a-0d7a8f0b7b33,患者,治疗反应,,类别型,完成该疗程,,于2013年12月下旬完成,,,LLM提取,论文病例报告,2013-12-25,病程,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,cbe2b5d1-3c7a-4d8a-b2a9-2d4a7e1f3d55,患者,影像所见,,文本型,胸部CT示大量左侧胸腔积液，左下叶及远端肺动脉充盈缺损，考虑亚急性/慢性肺栓塞,,,,CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,d2a5d5f4-8e1a-4d64-9a7d-2d7a4c8d9b66,患者,药品名称,,类别型,依诺肝素,,系统抗凝治疗,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,e8a6b3c4-0c1d-4a7e-9d9a-7a2b3c4d5e66,胸水,病理诊断,,文本型,胸水细胞学：转移性腺癌,,,,细胞学,LLM提取,论文病例报告,2014-01-01,病理,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,f1a2b3c4-d5e6-4f78-9a0b-1c2d3e4f5a67,患者,影像所见,,文本型,腹部MRI示多发肝占位，最大8.4×7.3×5.5 cm,,,,MRI,LLM提取,论文病例报告,2014-01-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,0a1b2c3d-4e5f-6789-0abc-def123456789,患者,影像所见,,文本型,PET/CT示至少4个代谢活跃的肝转移灶，较前增大；新发纵隔及双侧肺门淋巴结高代谢，右下叶1.7 cm结节/实变，左下叶3.1 cm肿块，右第一肋及右股骨颈新发骨转移，右肺散在代谢性实变灶,,,,PET/CT,LLM提取,论文病例报告,2014-02-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,1b2c3d4e-5f67-4890-abcd-ef0123456789,肿瘤组织,基因检测结果,,类别型,BRAF p.V600E c.1799T>A突变，等位基因频率52.77%,,8819/16712 reads,%,下一代测序,LLM提取,论文病例报告,2014-02-01,检验,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,2c3d4e5f-6789-4abc-bcde-f0123456789a,患者,治疗方案,,类别型,达拉非尼联合曲美替尼,,off-label；姑息治疗,,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,2c3d4e5f-6789-4abc-bcde-f0123456789a,达拉非尼,剂量,,数值型,50,50,,mg,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,2c3d4e5f-6789-4abc-bcde-f0123456789a,达拉非尼,给药途径,,类别型,口服,,每日2次,,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,2c3d4e5f-6789-4abc-bcde-f0123456789a,曲美替尼,剂量,,数值型,2,2,,mg,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,2c3d4e5f-6789-4abc-bcde-f0123456789a,曲美替尼,给药途径,,类别型,口服,,每日1次,,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,3d4e5f67-89ab-4cde-bf01-23456789abcd,患者,药品名称,,类别型,地诺单抗,,预防骨相关事件,,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,3d4e5f67-89ab-4cde-bf01-23456789abcd,患者,药品名称,,类别型,维生素D,,与钙补充剂联合,,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,3d4e5f67-89ab-4cde-bf01-23456789abcd,患者,药品名称,,类别型,钙剂,,与维生素D联合,,,LLM提取,论文病例报告,2014-02-01,用药,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,4e5f6789-abcd-4ef0-9012-3456789abcde,患者,手术名称,,类别型,外照射质子放疗,,右股骨病灶8 Gy，1次,Gy,,LLM提取,论文病例报告,2014-02-01,手术,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,5f6789ab-cdef-4012-3456-789abcdef012,患者,影像所见,,文本型,复查CT示左侧胸腔积液消失，右肺肿块样结节及肺门腺病几乎完全消退，肝内病灶缩小，骨病灶出现硬化性反应,,开始治疗后不足4周,,CT,LLM提取,论文病例报告,2014-03-01,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,6a789abc-def0-4123-4567-89abcdef0123,患者,影像所见,,文本型,复查CT及PET/CT显示持续缓解，左肝叶残余反应性病灶，原先肝、肺及骨转移灶代谢活动消失,,2014年4月中旬,,CT/PET-CT,LLM提取,论文病例报告,2014-04-15,影像,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,7b89abcd-ef01-4234-5678-9abcdef01234,患者,不良反应名称,,类别型,寒战/发抖,,夜间发作,,,LLM提取,论文病例报告,2014-10-01,不良反应,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,7b89abcd-ef01-4234-5678-9abcdef01234,患者,不良反应名称,,类别型,皮疹,,左踝，自限性；诊断为结节性红斑,,,LLM提取,论文病例报告,2014-10-01,不良反应,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,7b89abcd-ef01-4234-5678-9abcdef01234,患者,分级,,类别型,1级,,头晕、阅读小字模糊视物,,,LLM提取,论文病例报告,2014-10-01,不良反应,v1
+cc5cc10ea4b68634fb16b72da324493a,3449debbf7a6eb2df1b7154ed2344dfd,8c9abcde-f012-4345-6789-abcdef012345,患者,症状改善,,文本型,咳嗽消失，髋痛消失，整体几乎无症状，仅偶有夜间寒战和皮疹,,治疗34周后,,,LLM提取,论文病例报告,2014-10-01,病程,v1

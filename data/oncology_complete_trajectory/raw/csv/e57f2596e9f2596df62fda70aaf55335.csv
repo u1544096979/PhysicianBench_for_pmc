@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,7d5d9c2f-5e61-4a42-8b92-5d0e4e8b1e7f,患者,入院年龄,,数值型,23,23,,岁,,LLM提取,论文病例报告,2022-11-11,入院,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,7d5d9c2f-5e61-4a42-8b92-5d0e4e8b1e7f,患者,入院途径,,类别型,门诊/就诊入院,,,,,LLM提取,论文病例报告,2022-11-11,入院,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,7d5d9c2f-5e61-4a42-8b92-5d0e4e8b1e7f,患者,主诉,,文本型,颈部肿块进行性增大2个月,,,,,LLM提取,论文病例报告,2022-11-11,入院,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,c1f4f7b3-bc7c-4d6d-8f73-0f9f0e6f4e22,患者,既往史,,文本型,无明显既往病史,,,,,LLM提取,论文病例报告,2022-11-11,病史,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,c1f4f7b3-bc7c-4d6d-8f73-0f9f0e6f4e22,患者,家族史,,文本型,无明显家族史,,,,,LLM提取,论文病例报告,2022-11-11,病史,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,a2c7c0b1-4e7a-4c9b-9d79-1c1c0d2bb5a1,患者,查体,,文本型,颈部明显增粗，气管右移，未见颈静脉怒张，触及约8cm×6cm颈部肿块；双侧甲状腺III度肿大，质硬，表面不平，活动随吞咽，压痛阴性，未触及震颤及血管杂音；可触及颈部淋巴结肿大,,,,,LLM提取,论文病例报告,2022-11-11,评估,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,b52d59c5-bc4f-4f0f-a18b-0f55f2d3c4a1,甲状腺超声,影像所见,,文本型,双侧甲状腺体积增大，内部回声不均，多发实性低回声结节并钙化；双侧颈部II、III、IV、VI区淋巴结肿大，考虑转移,,,,超声,LLM提取,论文病例报告,2022-11-18,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,b52d59c5-bc4f-4f0f-a18b-0f55f2d3c4a1,甲状腺超声,影像结论,,文本型,考虑甲状腺癌并颈部淋巴结转移,,,,超声,LLM提取,论文病例报告,2022-11-18,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,d7c1f6a7-3f47-4c2f-8d48-8b0c1d8d0b31,PET/CT,影像所见,,文本型,左叶甲状腺不规则高代谢肿块伴钙化，压迫气管致局部狭窄并右移；左颈部II-V区及纵隔多发高代谢肿大淋巴结；上腔静脉及左头臂静脉可疑肿瘤栓/血栓,,,,PET/CT,LLM提取,论文病例报告,2022-11-23,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,d7c1f6a7-3f47-4c2f-8d48-8b0c1d8d0b31,PET/CT,影像结论,,文本型,考虑恶性肿瘤并多发淋巴结及纵隔转移，伴上腔静脉和左头臂静脉肿瘤栓/血栓,,,,PET/CT,LLM提取,论文病例报告,2022-11-23,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f4d2a9cc-7b66-4a0c-9c8d-2a2c8b0f7d12,患者,手术名称,,类别型,急诊气管切开术及甲状腺肿瘤切除术（甲状腺峡部肿瘤部分切除）,,,,,LLM提取,论文病例报告,2022-11-27,手术,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f4d2a9cc-7b66-4a0c-9c8d-2a2c8b0f7d12,患者,手术结果,,文本型,解除上气道梗阻，置入气管切开管,,,,,LLM提取,论文病例报告,2022-11-27,手术,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f5f6f5b7-1d2e-4f4d-9f0d-7b5f6b6c8d90,甲状腺手术标本,病理诊断,,文本型,甲状腺母细胞瘤,,肿瘤由甲状腺上皮成分、梭形间质成分及原始神经上皮成分组成,,HE及免疫组化,LLM提取,论文病例报告,2022-11-27,病理,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f5f6f5b7-1d2e-4f4d-9f0d-7b5f6b6c8d90,甲状腺手术标本,分化程度,,类别型,原始多向分化,,,,HE及免疫组化,LLM提取,论文病例报告,2022-11-27,病理,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f5f6f5b7-1d2e-4f4d-9f0d-7b5f6b6c8d90,甲状腺手术标本,免疫组化,,文本型,"SALL4(+), TTF-1部分(+), P16(+), PAX-8弱(+), CD99部分(+); Syn部分(+), NSE(+), Nestin(+), CD56(+); vimentin(+), desmin(+), myogenin(+); TG(-), CT(-), CK7(-), CK19(-), CK20(-), MC(-), Galectin-3(-), BRAFV600E(-), CK(-), EMA(-), S-100(-), SOX10(-), H3K27Me3(-), SMA(-), CD117弱(+), inhibin(-), CgA(-), WT-1胞质(+), HMB45(-), Melan-A(-), INI-1完整, Ki67约60%(+)",,,,免疫组化,LLM提取,论文病例报告,2022-11-27,病理,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,1c7c5b72-2a9e-4b3d-8a88-5c0c5d2b6e11,外周血白细胞DNA,分子标志物,,类别型,DICER1胚系杂合致病突变 p.G1784*,,,,NGS,LLM提取,论文病例报告,2022-11-27,诊断,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,1c7c5b72-2a9e-4b3d-8a88-5c0c5d2b6e11,血浆游离DNA,分子标志物,,类别型,DICER1体细胞热点突变 p.E1813D,,,,NGS,LLM提取,论文病例报告,2022-11-27,诊断,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,9fd5d1a6-3b29-4fb6-9f7f-3a5b2c6d4e55,患者,诊断名称,,类别型,甲状腺母细胞瘤,,根据形态学及免疫组化，结合NGS结果确诊,,,LLM提取,论文病例报告,2022-11-27,诊断,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,3e4b3d6a-9b1c-4d4d-8c7e-2b1c8d9a0f21,患者,病程,,文本型,术后起初呼吸困难暂时缓解3天，随后CT提示甲状腺肿瘤快速进展，纤支镜证实肿瘤压迫气道，需置入气管支架；疾病进展迅速,,,,,LLM提取,论文病例报告,2022-11-30,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,8c2d4f6b-1f2e-4a8d-9e7b-6c4d2f1a7b33,患者,用药名称,,类别型,BEP方案,,bleomycin + etoposide + cisplatin,,,LLM提取,论文病例报告,2022-12-06,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,8c2d4f6b-1f2e-4a8d-9e7b-6c4d2f1a7b33,患者,治疗反应,,类别型,呼吸困难缓解，肿瘤缩小,,急诊BEP化疗后,,,LLM提取,论文病例报告,2022-12-06,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,a7c4b5d6-2e3f-4a8b-9c7d-5e6f7a8b9c10,患者,用药名称,,类别型,BEP方案,,第二程化疗,,,LLM提取,论文病例报告,2022-12-27,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,a7c4b5d6-2e3f-4a8b-9c7d-5e6f7a8b9c10,患者,治疗反应,,类别型,部分缓解（PR）,,第二次BEP后CT提示肿瘤缩小,,,LLM提取,论文病例报告,2022-12-27,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,b1a2c3d4-e5f6-4789-abcd-1234567890ab,患者,用药名称,,类别型,BEP方案,,2023年1月至4月共4个后续周期,,,LLM提取,论文病例报告,2023-04-30,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,b1a2c3d4-e5f6-4789-abcd-1234567890ab,患者,周期数,,数值型,4,4,后续周期数,周期,,LLM提取,论文病例报告,2023-04-30,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,b1a2c3d4-e5f6-4789-abcd-1234567890ab,患者,治疗反应,,类别型,部分缓解（PR）,,最佳疗效,,,LLM提取,论文病例报告,2023-04-30,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,c4d5e6f7-8a9b-4cde-b123-4567890abcde,患者,治疗方案,,类别型,放疗,,甲状腺及颈部淋巴结区,,,LLM提取,论文病例报告,2023-05-31,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,c4d5e6f7-8a9b-4cde-b123-4567890abcde,患者,剂量,,数值型,60,60,,Gy,,LLM提取,论文病例报告,2023-05-31,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,c4d5e6f7-8a9b-4cde-b123-4567890abcde,患者,周期数,,数值型,30,30,,F,,LLM提取,论文病例报告,2023-05-31,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,c4d5e6f7-8a9b-4cde-b123-4567890abcde,患者,治疗反应,,类别型,较前进一步缩小，但未达完全缓解（CR）,,放疗后,,,LLM提取,论文病例报告,2023-05-31,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,e5f6a7b8-c9d0-4e1f-8a2b-3c4d5e6f7a81,患者,用药名称,,类别型,利伐沙班,,抗凝治疗,,,LLM提取,论文病例报告,2023-05-31,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f1a2b3c4-d5e6-47f8-9abc-def012345678,PET/CT,影像所见,,文本型,甲状腺多发低密度钙化结节，较前明显缩小，代谢基本恢复正常；上腔静脉和左头臂静脉既往高代谢灶恢复正常,,,,PET/CT,LLM提取,论文病例报告,2023-08-25,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,f1a2b3c4-d5e6-47f8-9abc-def012345678,PET/CT,影像结论,,文本型,治疗后肿瘤活性大多被抑制,,,,PET/CT,LLM提取,论文病例报告,2023-08-25,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,1f2e3d4c-5b6a-4789-8c7d-9e0f1a2b3c4d,患者,病程,,文本型,随访期间病情稳定,,治疗后随访,,,LLM提取,论文病例报告,2023-08-25,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,2a3b4c5d-6e7f-4890-9abc-def123456789,PET/CT,影像所见,,文本型,甲状腺病灶大小无变化，代谢正常；上腔静脉和右心房新发高代谢灶，考虑癌栓,,,,PET/CT,LLM提取,论文病例报告,2024-03-15,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,2a3b4c5d-6e7f-4890-9abc-def123456789,PET/CT,影像结论,,文本型,提示治疗后肿瘤局部受控，但出现上腔静脉及右心房癌栓,,,,PET/CT,LLM提取,论文病例报告,2024-03-15,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,3b4c5d6e-7f80-49a1-9bcd-ef2345678901,CTA,影像所见,,文本型,双肺下叶肺动脉、右心房、上腔静脉及其分支癌栓形成,,,,CTA,LLM提取,论文病例报告,2024-03-19,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,3b4c5d6e-7f80-49a1-9bcd-ef2345678901,CTA,影像结论,,文本型,癌栓形成并多发侧支循环,,,,CTA,LLM提取,论文病例报告,2024-03-19,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,4c5d6e7f-8091-4ab2-9cde-f34567890123,心脏超声,影像所见,,文本型,右心房内稍高回声肿块，伴右心房和右心室增大,,,,超声心动图,LLM提取,论文病例报告,2024-05-20,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,4c5d6e7f-8091-4ab2-9cde-f34567890123,心脏超声,影像结论,,文本型,右心房占位并右心房、右心室增大,,,,超声心动图,LLM提取,论文病例报告,2024-05-20,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,5d6e7f80-91a2-4bc3-9def-456789012345,患者,用药名称,,类别型,VIP方案,,etoposide + ifosfamide + cisplatin,,,LLM提取,论文病例报告,2024-04-14,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,6e7f8091-a2b3-4cd4-9ef0-567890123456,患者,病程,,文本型,发热、咳嗽、呼吸困难，不能平卧；予抗感染、解痉、支气管扩张治疗后好转出院,,并诊断/处理双侧肺炎,,,LLM提取,论文病例报告,2024-05-13,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,7f8091a2-b3c4-4de5-9f01-678901234567,CT,影像所见,,文本型,甲状腺术后改变同前，右心房和上腔静脉多发癌栓未变,,,,CT,LLM提取,论文病例报告,2024-05-13,影像,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,8a91a2b3-c4d5-4ef6-9f02-789012345678,患者,用药名称,,类别型,VIP方案,,3月24日和4月14日分别给予,,,LLM提取,论文病例报告,2024-04-14,用药,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,9b0c1d2e-3f4a-5b6c-7d8e-901234567890,患者,病程,,文本型,突发晕厥后就诊，影像提示上腔静脉、右心房、右心室及左头臂静脉癌栓增大，并多发肺转移；经抗凝和呼吸支持后未改善,,,,,LLM提取,论文病例报告,2024-06-12,病程,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,9b0c1d2e-3f4a-5b6c-7d8e-901234567890,患者,不良反应名称,,类别型,心搏骤停,,癌栓进展至右心房/右心室后死亡,,,LLM提取,论文病例报告,2024-06-15,不良反应,v1
+e57f2596e9f2596df62fda70aaf55335,d6dffaedb8c968aee49035b7b2bb3df7_1,9b0c1d2e-3f4a-5b6c-7d8e-901234567890,患者,出院/结局状况,,类别型,死亡,,死因为癌栓进展相关心搏骤停,,,LLM提取,论文病例报告,2024-06-15,出院,v1

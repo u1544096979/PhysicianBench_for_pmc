@@ -1,0 +1,56 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,2e6a5a08-7d53-4f0f-9c51-7c93eb7f7c49,患者,入院年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,2018-08-01,入院,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,6d3ec77f-4b1f-4b8c-aaf0-8f5a2f4a3a83,患者,既往史,,文本型,支气管哮喘、慢性阻塞性肺疾病,,,,,LLM提取,论文病例报告,2018-08-01,病史,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,b4c74f70-1d8d-4d5a-8c55-0f3f4b2fd9f2,患者,主诉,,文本型,胸痛,,,,,LLM提取,论文病例报告,2018-08-01,病史,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,8d7c9f8e-5e2f-4f9f-b4f2-8a4d8c6e6a2e,胸部X线,影像所见,,文本型,右中肺野线状阴影,,,,X线,LLM提取,论文病例报告,2018-08-01,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,d8a0ff7c-1a4c-4f2d-8e7e-2c8e3f8f9d11,胸部CT,影像所见,,文本型,隆突下间隙27 mm肿瘤，右上叶和中叶胸膜侵犯，右主支气管沿线强化的肺门肿块影,,,,增强CT,LLM提取,论文病例报告,2018-08-01,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,1e5d1a4d-3f4a-4db0-9f2d-6a4db0f9d2d3,脑MRI,影像所见,,文本型,小脑和大脑各见2个小结节,,,,增强MRI,LLM提取,论文病例报告,2018-08-01,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,c3f3d0b2-7e9b-4b5c-9f1a-2f3d9a4b6c7d,FDG PET/CT,影像所见,,文本型,隆突下间隙和胸膜结节FDG摄取明显增高,,,,PET/CT,LLM提取,论文病例报告,2018-08-01,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4b6d7c8-9a1b-4c2d-8e3f-4a5b6c7d8e9f,经支气管肺活检标本,病理诊断,,文本型,腺癌,,,,组织病理学,LLM提取,论文病例报告,2018-08-01,病理,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4b6d7c8-9a1b-4c2d-8e3f-4a5b6c7d8e9f,经支气管肺活检标本,标本部位,,类别型,隆突下间隙,,,,,LLM提取,论文病例报告,2018-08-01,病理,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4b6d7c8-9a1b-4c2d-8e3f-4a5b6c7d8e9f,经支气管肺活检标本,PDL1状态,,类别型,阳性,,肿瘤比例评分100%；抗体克隆22C3,,免疫组化,LLM提取,论文病例报告,2018-08-01,病理,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4b6d7c8-9a1b-4c2d-8e3f-4a5b6c7d8e9f,经支气管肺活检标本,分子标志物,,类别型,EGFR阴性、ALK融合阴性、ROS1融合阴性、BRAF突变阴性,,,,分子检测,LLM提取,论文病例报告,2018-08-01,病理,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,9a8b7c6d-5e4f-4a3b-9c8d-7e6f5a4b3c2d,患者,诊断名称,,类别型,ⅣB期肺腺癌,,TxN2M1c（脑、胸膜）,,,LLM提取,论文病例报告,2018-08-01,诊断,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,5b6c7d8e-9f1a-4b2c-8d3e-4f5a6b7c8d9e,患者,治疗方案,,类别型,帕博利珠单抗,,200 mg，每3周1次,,,LLM提取,论文病例报告,2018-08-07,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,a1b2c3d4-e5f6-4789-8abc-def012345678,患者,药品名称,,类别型,氧可酮盐酸盐水合物片,,用于胸膜病变所致胸痛；10 mg/day后调整至30 mg/day,,,LLM提取,论文病例报告,2018-08-01,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,a1b2c3d4-e5f6-4789-8abc-def012345678,患者,剂量,,数值型,10,10,后续改为30 mg/day,mg/day,,LLM提取,论文病例报告,2018-08-01,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,b2c3d4e5-f6a7-4890-9bcd-ef0123456789,γ刀治疗,手术名称,,类别型,γ-knife照射,,针对2个脑转移灶,,,LLM提取,论文病例报告,2018-08-01,手术,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,c4d5e6f7-8a9b-4c0d-9e1f-23456789abcd,患者,症状,,文本型,开始帕博利珠单抗后第2天出现持续性恶心,,,,,LLM提取,论文病例报告,2018-08-09,病程,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,d5e6f7a8-9b0c-4d1e-af23-456789abcde0,患者,入院原因,,文本型,为查明恶心原因而入院,,帕博利珠单抗开始后第5天,,,LLM提取,论文病例报告,2018-08-12,入院,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,e6f7a8b9-0c1d-4e2f-b345-56789abcdef1,患者,查体,,文本型,无发热、无Kernig征、无Brudzinski征、无颈强直；有心动过速；无意识改变,,,,体格检查,LLM提取,论文病例报告,2018-08-12,评估,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f7a8b9c0-1d2e-4f3a-c456-6789abcdef12,血液,C反应蛋白,,数值型,0.74,0.74,轻度升高,mg/dl,,LLM提取,论文病例报告,2018-08-12,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f7a8b9c0-1d2e-4f3a-c456-6789abcdef12,血液,电解质,,文本型,未见异常,,,,,LLM提取,论文病例报告,2018-08-12,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f7a8b9c0-1d2e-4f3a-c456-6789abcdef12,血液,内分泌功能,,文本型,未见异常,,,,,LLM提取,论文病例报告,2018-08-12,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,a1b2c3d4-e5f6-4789-8abc-def012345679,腹部增强CT,影像所见,,文本型,仅见胃壁轻度增厚及强化，无其他新发现,,,,增强CT,LLM提取,论文病例报告,2018-08-12,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,b1c2d3e4-f5a6-4b7c-8d9e-0f123456789a,上消化道内镜,影像所见,,文本型,未见梗阻或出血性病变，仅见萎缩性胃炎,,,,内镜,LLM提取,论文病例报告,2018-08-12,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,c1d2e3f4-a5b6-4c7d-8e9f-1a23456789ab,患者,治疗方案,,类别型,阿片类药物轮换,,由氧可酮盐酸盐水合物片30 mg/day改为芬太尼持续输注0.6 mg/day,,,LLM提取,论文病例报告,2018-08-12,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,c1d2e3f4-a5b6-4c7d-8e9f-1a23456789ab,患者,药品名称,,类别型,芬太尼,,持续输注,,,LLM提取,论文病例报告,2018-08-12,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,c1d2e3f4-a5b6-4c7d-8e9f-1a23456789ab,患者,剂量,,数值型,0.6,0.6,,mg/day,,LLM提取,论文病例报告,2018-08-12,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,d2e3f4a5-b6c7-4d8e-9f01-23456789abcd,患者,症状,,文本型,恶心于帕博利珠单抗开始后第9天改善，随后第15天再次加重,,,,,LLM提取,论文病例报告,2018-08-21,病程,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,e3f4a5b6-c7d8-4e9f-9012-3456789abcde,脑MRI,影像所见,,文本型,无肿瘤进展、无新发肿瘤、无蛛网膜下强化，提示脑膜炎可能,,,,增强MRI,LLM提取,论文病例报告,2018-08-24,影像,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,检验项目,,文本型,葡萄糖,,正常,,腰穿,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,检验项目,,类别型,涂片,,阴性,,腰穿,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,检验项目,,类别型,细菌,,阴性,,腰穿,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,检验项目,,类别型,真菌,,阴性,,腰穿,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,检验项目,,类别型,分枝杆菌,,阴性,,腰穿,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,检验项目,,类别型,结核分枝杆菌,,阴性,,PCR,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,总细胞计数,,数值型,,,轻度升高；淋巴细胞比例增加,,腰穿,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,ADA,,数值型,,,轻度升高，提示淋巴细胞增殖和分化,U/L,,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,细胞学,,文本型,淋巴细胞炎症,,,,病理学检查,LLM提取,论文病例报告,2018-08-24,病理,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,脑脊液,IgG指数,,数值型,,,升高,,,LLM提取,论文病例报告,2018-08-24,检验,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,f4a5b6c7-d8e9-4f01-9123-456789abcdef,患者,分级,,类别型,3级,,帕博利珠单抗相关无菌性脑膜炎,,CTCAE,LLM提取,论文病例报告,2018-08-24,诊断,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,g5h6i7j8-k9l0-4m1n-o234-56789abcdef0,患者,不良反应名称,,类别型,无菌性脑膜炎,,疑似免疫相关不良反应,,,LLM提取,论文病例报告,2018-08-24,不良反应,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,g5h6i7j8-k9l0-4m1n-o234-56789abcdef0,患者,处理措施,,文本型,开始使用倍他米松4 mg治疗，并作为脑膜癌病变的姑息治疗,,,,,LLM提取,论文病例报告,2018-08-24,不良反应,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,h6i7j8k9-l0m1-4n2o-p345-6789abcdef01,患者,治疗反应,,类别型,症状立即改善,,开始激素治疗后恶心即刻缓解,,,LLM提取,论文病例报告,2018-08-24,评估,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,i7j8k9l0-m1n2-4o3p-q456-789abcdef012,患者,药品名称,,类别型,倍他米松,,后改为泼尼松龙长期治疗,,,LLM提取,论文病例报告,2018-08-24,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,i7j8k9l0-m1n2-4o3p-q456-789abcdef012,患者,剂量,,数值型,4,4,,mg,,LLM提取,论文病例报告,2018-08-24,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,j8k9l0m1-n2o3-4p5q-r567-89abcdef0123,患者,药品名称,,类别型,泼尼松龙,,80 mg起始，逐渐减量,,,LLM提取,论文病例报告,2018-08-25,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,j8k9l0m1-n2o3-4p5q-r567-89abcdef0123,患者,剂量,,数值型,80,80,初始剂量，按1 mg/kg,mg,,LLM提取,论文病例报告,2018-08-25,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,j8k9l0m1-n2o3-4p5q-r567-89abcdef0123,患者,用药周期,,文本型,80 mg减至60 mg，再以每5天10 mg递减至20 mg，随后每2周5 mg递减至10 mg,,,,,LLM提取,论文病例报告,2018-08-25,用药,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,k9l0m1n2-o3p4-4q5r-s678-9abcdef01234,患者,住院天数,,数值型,75,75,,天,,LLM提取,论文病例报告,2018-10-26,出院,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,k9l0m1n2-o3p4-4q5r-s678-9abcdef01234,患者,出院状况,,类别型,好转出院,,第75天出院,,,LLM提取,论文病例报告,2018-10-26,出院,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,k9l0m1n2-o3p4-4q5r-s678-9abcdef01234,患者,出院诊断,,类别型,帕博利珠单抗诱导的无菌性脑膜炎,,irAE,,,LLM提取,论文病例报告,2018-10-26,出院,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,k9l0m1n2-o3p4-4q5r-s678-9abcdef01234,患者,出院医嘱,,文本型,继续激素减量治疗；未再尝试ICI再挑战,,,,,LLM提取,论文病例报告,2018-10-26,出院,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,l0m1n2o3-p4q5-4r6s-t789-abcdef012345,患者,肿瘤反应,,类别型,部分缓解,,出院时评估,,RECIST/临床评估,LLM提取,论文病例报告,2018-10-26,评估,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,m1n2o3p4-q5r6-4s7t-u890-bcdef0123456,患者,病程,,文本型,出院后4个月出现疾病进展，表现为隆突下间隙肿瘤增大,,,,,LLM提取,论文病例报告,2019-02-26,病程,v1
+4d39c85c103e3bfd0ce2a21bae383b39,82dedf1022bdeaec4b8463913ca49e4a,n2o3p4q5-r6s7-4t8u-v901-cdef01234567,患者,治疗方案,,类别型,二线卡铂联合培美曲塞,,用于疾病进展,,,LLM提取,论文病例报告,2019-02-26,用药,v1

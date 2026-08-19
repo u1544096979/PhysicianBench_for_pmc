@@ -1,0 +1,51 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,2f7d5b28-8d6b-4b4f-8f7d-9c58a2d4e0d1,患者,入院年龄,,数值型,12,12,,岁,,LLM提取,论文病例报告,2023-08-05,入院,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,2f7d5b28-8d6b-4b4f-8f7d-9c58a2d4e0d1,患者,入院途径,,类别型,住院,,因高危B细胞急性淋巴细胞白血病诱导化疗入院,,,LLM提取,论文病例报告,2023-08-05,入院,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,2f7d5b28-8d6b-4b4f-8f7d-9c58a2d4e0d1,患者,主诉,,文本型,高危B细胞急性淋巴细胞白血病，拟行诱导化疗,,,,,LLM提取,论文病例报告,2023-08-05,入院,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,5e1c1f7b-3c42-4c6b-8a65-0f0c2c8f7f21,患者,诊断名称,,类别型,高危B细胞急性淋巴细胞白血病,,,,,LLM提取,论文病例报告,2023-08-05,诊断,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,7c3b2d2d-3d6a-4f1c-8b8f-6d4c0f8a9a11,患者,既往史,,文本型,无已记录的个人或家族神经系统或精神疾病史,,,,,LLM提取,论文病例报告,2023-08-05,病史,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,9f6d1d59-0e6f-4b6b-9f0b-2d1e8c7a4f33,患者,脑MRI所见,,文本型,轻度脑沟增宽，未见其他异常,,基线检查,,磁共振成像,LLM提取,论文病例报告,2023-08-05,影像,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,b4d8f2a1-2a6f-4f75-9c66-1c0d9f4b7d55,患者,脑电图所见,,文本型,背景活动正常，无癫痫样放电,,基线检查,,脑电图,LLM提取,论文病例报告,2023-08-05,影像,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d1f8d8c7-5b6a-4f2e-9f1a-3a7d8b6c1e22,患者,治疗方案,,类别型,诱导化疗,,vincristine、daunorubicin、l-asparaginase、dexamethasone、口服dasatinib,,,LLM提取,论文病例报告,2023-08-05,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d1f8d8c7-5b6a-4f2e-9f1a-3a7d8b6c1e22,vincristine,药品名称,,类别型,vincristine,,,,,LLM提取,论文病例报告,2023-08-05,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d1f8d8c7-5b6a-4f2e-9f1a-3a7d8b6c1e22,daunorubicin,药品名称,,类别型,daunorubicin,,,,,LLM提取,论文病例报告,2023-08-05,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d1f8d8c7-5b6a-4f2e-9f1a-3a7d8b6c1e22,l-asparaginase,药品名称,,类别型,l-asparaginase,,,,,LLM提取,论文病例报告,2023-08-05,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d1f8d8c7-5b6a-4f2e-9f1a-3a7d8b6c1e22,dexamethasone,药品名称,,类别型,dexamethasone,,,,,LLM提取,论文病例报告,2023-08-05,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d1f8d8c7-5b6a-4f2e-9f1a-3a7d8b6c1e22,dasatinib,药品名称,,类别型,dasatinib,,口服,,,LLM提取,论文病例报告,2023-08-05,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,0d2f4e8a-9f3e-4d9c-8d2e-7f1a3b4c5d66,患者,体温,,数值型,37.6,37.6,低热；最高体温,°C,,LLM提取,论文病例报告,2023-08-10,评估,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,0d2f4e8a-9f3e-4d9c-8d2e-7f1a3b4c5d66,患者,C反应蛋白,,数值型,40.32,40.32,,mg/L,,LLM提取,论文病例报告,2023-08-10,检验,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,0d2f4e8a-9f3e-4d9c-8d2e-7f1a3b4c5d66,血液,电解质,,文本型,基本正常,,无电解质紊乱,,,LLM提取,论文病例报告,2023-08-10,检验,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,0d2f4e8a-9f3e-4d9c-8d2e-7f1a3b4c5d66,血液,炎症指标,,文本型,基本正常,,未见明显异常,,,LLM提取,论文病例报告,2023-08-10,检验,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,1a8f9c7d-2b3e-4c5d-9e6f-7a8b9c0d1e2f,患者,抗生素治疗,,类别型,美罗培南,,800 mg每12小时，静脉给药,,,LLM提取,论文病例报告,2023-08-10,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,1a8f9c7d-2b3e-4c5d-9e6f-7a8b9c0d1e2f,患者,药品名称,,类别型,meropenem,,,,,LLM提取,论文病例报告,2023-08-10,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,2b9d8e7f-4c3a-4d5e-9f6a-1b2c3d4e5f67,患者,药品名称,,类别型,vancomycin,,806 mg每12小时，3天后加用，静脉给药,,,LLM提取,论文病例报告,2023-08-13,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,3c4d5e6f-7a8b-4c9d-8e1f-2a3b4c5d6e78,患者,失眠,,文本型,有,,夜间出现急性行为异常,,,LLM提取,论文病例报告,2023-08-10,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,3c4d5e6f-7a8b-4c9d-8e1f-2a3b4c5d6e78,患者,激越,,文本型,有,,夜间出现急性行为异常,,,LLM提取,论文病例报告,2023-08-10,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,3c4d5e6f-7a8b-4c9d-8e1f-2a3b4c5d6e78,患者,言语不清,,文本型,有,,言语混乱/不连贯,,,LLM提取,论文病例报告,2023-08-10,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,3c4d5e6f-7a8b-4c9d-8e1f-2a3b4c5d6e78,患者,尖叫,,文本型,有,,阵发性尖叫,,,LLM提取,论文病例报告,2023-08-10,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f70,患者,镇静治疗,,类别型,地西泮静脉注射,,10 mg,mg,静脉注射,LLM提取,论文病例报告,2023-08-10,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,5e6f7a8b-9c0d-4e1f-8a2b-3c4d5e6f7081,患者,抽搐,,文本型,有,,全身强直性发作2次，每次约1分钟,,,LLM提取,论文病例报告,2023-08-10T03:00,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,5e6f7a8b-9c0d-4e1f-8a2b-3c4d5e6f7081,患者,凝视偏斜,,文本型,有,,发作伴随症状,,,LLM提取,论文病例报告,2023-08-10T03:00,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,5e6f7a8b-9c0d-4e1f-8a2b-3c4d5e6f7081,患者,流涎,,文本型,有,,发作伴随症状,,,LLM提取,论文病例报告,2023-08-10T03:00,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,5e6f7a8b-9c0d-4e1f-8a2b-3c4d5e6f7081,患者,肢体强直,,文本型,有,,发作伴随症状,,,LLM提取,论文病例报告,2023-08-10T03:00,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,6f708192-a3b4-4c5d-9e6f-7a8b9c0d1e2f,患者,脑电图所见,,文本型,背景活动普遍减慢,,发作后EEG，<8 Hz,,脑电图,LLM提取,论文病例报告,2023-08-10T03:00,影像,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,6f708192-a3b4-4c5d-9e6f-7a8b9c0d1e2f,患者,MRI所见,,文本型,较基线显示脑萎缩加速,,复查MRI,,磁共振成像,LLM提取,论文病例报告,2023-08-10T03:00,影像,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,7a8192a3-b4c5-4d6e-9f7a-8b9c0d1e2f30,患者,化疗方案,,类别型,中断,,因急性并发症停用,,,LLM提取,论文病例报告,2023-08-10,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,7a8192a3-b4c5-4d6e-9f7a-8b9c0d1e2f30,患者,治疗反应,,类别型,无明显改善,,神经精神症状持续,,,LLM提取,论文病例报告,2023-08-11,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,8b9c0d1e-2f30-4a81-92a3-b4c5d6e7f809,患者,精神症状,,文本型,持续存在,,夜间激越、幻视、坐立不安、喊叫、亢奋、易激惹、语速增快,,,LLM提取,论文病例报告,2023-08-11,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,8b9c0d1e-2f30-4a81-92a3-b4c5d6e7f809,患者,用药,,类别型,地西泮,,静脉给药,,,LLM提取,论文病例报告,2023-08-11,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,8b9c0d1e-2f30-4a81-92a3-b4c5d6e7f809,患者,用药,,类别型,咪达唑仑,,静脉给药,,,LLM提取,论文病例报告,2023-08-11,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,8b9c0d1e-2f30-4a81-92a3-b4c5d6e7f809,患者,用药,,类别型,阿立哌唑,,5 mg每日2次，口服,,,LLM提取,论文病例报告,2023-08-11,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,8b9c0d1e-2f30-4a81-92a3-b4c5d6e7f809,患者,用药,,类别型,丙戊酸钠,,1000 mg夜间，500 mg晨间，口服,,,LLM提取,论文病例报告,2023-08-11,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,9c0d1e2f-304a-4b81-92a3-b4c5d6e7f80a,患者,会诊,,文本型,精神科会诊,,两位有经验的精神科医师评估,,,LLM提取,论文病例报告,2023-08-17,会诊,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,9c0d1e2f-304a-4b81-92a3-b4c5d6e7f80a,患者,诊断名称,,类别型,谵妄,,符合DSM-5标准,,,LLM提取,论文病例报告,2023-08-17,诊断,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,9c0d1e2f-304a-4b81-92a3-b4c5d6e7f80a,患者,评估方法,,类别型,DSM-5,,回顾性评估,,,LLM提取,论文病例报告,2023-08-17,评估,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,9c0d1e2f-304a-4b81-92a3-b4c5d6e7f80a,患者,评估方法,,类别型,CAPD,,回顾性评分26/32,,Cornell Assessment of Paediatric Delirium,LLM提取,论文病例报告,2023-08-17,评估,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,9c0d1e2f-304a-4b81-92a3-b4c5d6e7f80a,患者,疗效评估,,类别型,由高激越型转为低活动型谵妄,,与停用美罗培南及镇静/丙戊酸相关,,,LLM提取,论文病例报告,2023-08-17,评估,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,用药,,类别型,丙戊酸钠,,停用,,,LLM提取,论文病例报告,2023-08-17,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,用药,,类别型,苯二氮卓类药物,,停用,,,LLM提取,论文病例报告,2023-08-17,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,用药,,类别型,阿立哌唑,,减量至1.25 mg每日,,,LLM提取,论文病例报告,2023-08-17,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,患者,病程,,文本型,逐渐恢复正常活动,,仍有轻度记忆受损和反应迟缓,,,LLM提取,论文病例报告,2023-08-31,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f,患者,用药,,类别型,阿立哌唑,,停用,,,LLM提取,论文病例报告,2023-09-04,用药,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f,患者,病程,,文本型,情绪稳定，幻觉消失,,30天后,,,LLM提取,论文病例报告,2023-09-04,病程,v1
+a5813cc5184d3f6e4105addd96f171f0,5ea3ba6a7d6606165d8ecbef3bf850d5_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f80,患者,随访结果,,文本型,6个月随访期间成功完成5个化疗周期，未再出现神经精神症状,,,,,LLM提取,论文病例报告,2024-02-05,病程,v1

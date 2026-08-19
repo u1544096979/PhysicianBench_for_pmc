@@ -1,0 +1,35 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,7a7d7f0e-6b9c-4c3b-8b6f-1f6a4f7d9d11,患者,入院年龄,,数值型,39,39,,岁,,LLM提取,论文病例报告,2012-01-01,入院,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,7a7d7f0e-6b9c-4c3b-8b6f-1f6a4f7d9d11,患者,主诉,,文本型,非诱发性咯血,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,2dbb0b5f-9d4f-4c5e-9b5c-7d35c8d6d7a1,患者,影像所见,,文本型,胸部CT示左上叶肿块，胰腺未见病灶,,,,CT,LLM提取,论文病例报告,2012-01-01,影像,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,3cc5d1a8-4f41-4a7c-8b2f-9b66d2b7b2f2,患者,手术名称,,类别型,肺切除术,,,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,3cc5d1a8-4f41-4a7c-8b2f-9b66d2b7b2f2,患者,手术结果,,文本型,术后切除左上叶肿块；初始诊断为孤立性纤维瘤,,,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,e4f2f8c0-1e55-4c77-a4f5-9f2b4b7d6a63,患者,影像所见,,文本型,术后复查CT示主肺动脉附近小影，考虑术后改变，未予进一步治疗,,,,CT,LLM提取,论文病例报告,2016-01-01,影像,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,a7b1d2c3-4e5f-4a6b-8c7d-9e0f1a2b3c4d,患者,影像所见,,文本型,腹部CT示胰腺体部低密度、边界清楚肿瘤，大小约60mm×50mm×30mm，轻度强化且均匀，胰管扩张，脾动脉轻度受压,,,,CT,LLM提取,论文病例报告,2017-01-01,影像,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,b8c2d3e4-5f6a-4b7c-8d9e-0f1a2b3c4d5e,患者,手术名称,,类别型,胰体中段切除术,,,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,b8c2d3e4-5f6a-4b7c-8d9e-0f1a2b3c4d5e,患者,病理诊断,,文本型,胰腺低级别纤维黏液样肉瘤（LGFMS）,,,,,LLM提取,论文病例报告,2017-01-01,病理,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,c9d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,标本,标本部位,,类别型,胰腺,,,,,LLM提取,论文病例报告,2017-01-01,病理,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,c9d3e4f5-6a7b-4c8d-9e0f-1a2b3c4d5e6f,标本,免疫组化,,文本型,MUC4阳性；S-100、CD117、CK、EMA、Desmin、CD34、SMA、β-Catenin阴性；Ki-67约5%+；p53阴性,,,,免疫组化,LLM提取,论文病例报告,2017-01-01,病理,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,d0e4f5a6-7b8c-4d9e-0f1a-2b3c4d5e6f7a,标本,基因融合,,类别型,FUS::CREB3L2,,外显子6::外显子5,,RT-PCR,LLM提取,论文病例报告,2017-01-01,病理,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,e1f5a6b7-8c9d-4e0f-1a2b-3c4d5e6f7a8b,患者,影像所见,,文本型,胸部CT示左上肺及中纵隔肿块，大小约70mm×56mm×53mm，压迫左肺动脉,,,,CT,LLM提取,论文病例报告,2020-01-01,影像,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,f2a6b7c8-9d0e-4f1a-2b3c-4d5e6f7a8b9c,患者,用药名称,,类别型,安罗替尼,,因反复感染停药,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,f2a6b7c8-9d0e-4f1a-2b3c-4d5e6f7a8b9c,患者,用药周期,,文本型,1.5个月,,,,,LLM提取,论文病例报告,2020-01-01,用药,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,g3b7c8d9-e0f1-4a2b-3c4d-5e6f7a8b9c0d,患者,主诉,,文本型,呼吸困难,,,,,LLM提取,论文病例报告,2022-01-01,病史,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,h4c8d9e0-f1a2-4b3c-5d6e-7f8a9b0c1d2e,患者,影像所见,,文本型,胸部CT示左胸腔巨大肿块，伴胸膜及心包积液；双侧大脑半球及右侧小脑半球多发异常信号，考虑多发脑转移,,,,CT,LLM提取,论文病例报告,2022-01-01,影像,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,i5d9e0f1-a2b3-4c5d-6e7f-8a9b0c1d2e3f,患者,评估方法,,类别型,支气管镜检查,,,,支气管镜,LLM提取,论文病例报告,2022-01-01,评估,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,i5d9e0f1-a2b3-4c5d-6e7f-8a9b0c1d2e3f,患者,查体,,文本型,左主支气管被菜花样肿物完全堵塞,,,,支气管镜,LLM提取,论文病例报告,2022-01-01,评估,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,j6e0f1a2-b3c4-4d5e-6f7a-8b9c0d1e2f3a,患者,手术名称,,类别型,支气管支架置入术,,,,,LLM提取,论文病例报告,2022-01-01,手术,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,k7f1a2b3-c4d5-4e6f-7a8b-9c0d1e2f3a4b,患者,治疗方案,,类别型,多柔比星+异环磷酰胺+信迪利单抗,,doxorubicin 60mg d1；ifosphosate 2g d1-d3；sintilimab 200mg d1,,,LLM提取,论文病例报告,2022-09-01,病程,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,k7f1a2b3-c4d5-4e6f-7a8b-9c0d1e2f3a4b,患者,周期数,,数值型,2,2,初始方案治疗2个周期,周期,,LLM提取,论文病例报告,2022-09-01,病程,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,k7f1a2b3-c4d5-4e6f-7a8b-9c0d1e2f3a4b,患者,不良反应名称,,类别型,骨髓抑制,,3级,,,LLM提取,论文病例报告,2022-09-01,不良反应,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,k7f1a2b3-c4d5-4e6f-7a8b-9c0d1e2f3a4b,患者,不良反应名称,,类别型,心包积液,,伴恶心,,,LLM提取,论文病例报告,2022-09-01,不良反应,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,l8a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c,患者,治疗方案,,类别型,紫杉醇脂质体+卡铂+信迪利单抗,,Liposu 210mg d1；carboplatin 500mg d1；sintilimab 200mg d1,,,LLM提取,论文病例报告,2022-10-01,病程,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,l8a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c,患者,治疗反应,,类别型,疾病稳定,,第3至第6周期期间评估,,,LLM提取,论文病例报告,2022-10-01,评估,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,m9b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,患者,治疗方案,,类别型,苏加利单抗+贝伐珠单抗,,sugalimab 1200mg d1；bevacizumab 400mg d1,,,LLM提取,论文病例报告,2023-02-01,病程,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,m9b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,患者,治疗反应,,类别型,疾病进展,,第7至第10周期期间评估,,,LLM提取,论文病例报告,2023-02-01,评估,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,n0c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d7e,患者,主诉,,文本型,癫痫发作,,,,,LLM提取,论文病例报告,2023-05-01,病史,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,n0c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d7e,患者,影像所见,,文本型,CT示双侧大脑半球及右侧小脑半球多发异常信号，考虑多发脑转移,,,,CT,LLM提取,论文病例报告,2023-05-01,影像,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,o1d5e6f7-a8b9-4c0d-1e2f-3a4b5c6d7e8f,患者,手术名称,,类别型,全脑放疗,,CTV-haima 30 Gy/12f,,,LLM提取,论文病例报告,2023-05-01,手术,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,p2e6f7a8-b9c0-4d1e-2f3a-4b5c6d7e8f9a,患者,治疗方案,,类别型,苏加利单抗+贝伐珠单抗+依托泊苷,,sugalimab 1200mg d1；bevacizumab 400mg d1；etoposide 200mg d1-d5,,,LLM提取,论文病例报告,2023-05-01,病程,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,p2e6f7a8-b9c0-4d1e-2f3a-4b5c6d7e8f9a,患者,治疗反应,,类别型,疾病进展,,第11至第13周期期间评估,,,LLM提取,论文病例报告,2023-05-01,评估,v1
+b4c0cc5da82e119beb0922340a7cf01f,4e29e89b4c31cc9fddc30f62254b6dc5,q3f7a8b9-c0d1-4e2f-3a4b-5c6d7e8f9a0b,患者,出院诊断,,类别型,原发性肺低级别纤维黏液样肉瘤，伴胰腺转移及纵隔复发去分化，合并TP53突变,,,,,LLM提取,论文病例报告,2023-05-01,出院,v1

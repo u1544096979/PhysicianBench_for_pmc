@@ -1,0 +1,28 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,7d9d3e53-7c58-4c5e-9b91-5c7f2b5a6c61,患者,病史,,文本型,肺腺癌,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,4f31c8f0-3d8c-4d53-b0e7-0a6d75e6e5ea,患者,手术名称,,类别型,右上肺叶切除术,,并行纵隔淋巴结取样,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,4f31c8f0-3d8c-4d53-b0e7-0a6d75e6e5ea,患者,麻醉方式,,类别型,,,,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,9f7c4f6f-1b3a-4a63-9d4a-3a5ebd7b7f4f,患者,治疗方案,,类别型,辅助化疗,,4个周期,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,9f7c4f6f-1b3a-4a63-9d4a-3a5ebd7b7f4f,患者,周期数,,数值型,4,4,,周期,,LLM提取,论文病例报告,2019-01-01,病程,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,1bb3b6f4-7f27-4f2b-8f20-9f7f0a6c4db2,患者,入院年龄,,数值型,71,71,,岁,,LLM提取,论文病例报告,2020-12-01,入院,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,1bb3b6f4-7f27-4f2b-8f20-9f7f0a6c4db2,患者,入院科室,,类别型,颌面外科,,,,,LLM提取,论文病例报告,2020-12-01,入院,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,1bb3b6f4-7f27-4f2b-8f20-9f7f0a6c4db2,患者,主诉,,文本型,左侧下颌髁突见大型溶骨性病灶,,,,,LLM提取,论文病例报告,2020-12-01,入院,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,0f0e7d0e-3f20-4a86-8f3e-8f3e7a6b6a91,PET,影像所见,,文本型,左侧髁突见骨溶解区，放射性药物局灶性摄取异常，SUVmax 3.6,,性质可疑,,PET,LLM提取,论文病例报告,2020-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,0f0e7d0e-3f20-4a86-8f3e-8f3e7a6b6a91,PET,影像结论,,文本型,左侧下颌髁突骨溶解灶，代谢摄取轻度异常，肿瘤性证据不典型,,,,PET,LLM提取,论文病例报告,2020-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,b0b8a7cf-7f7a-45a7-9ef4-8b2c6a0a4c7b,CT,影像所见,,文本型,左侧下颌髁突病灶，伴皮质骨部分侵蚀,,,,CT,LLM提取,论文病例报告,2020-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,b0b8a7cf-7f7a-45a7-9ef4-8b2c6a0a4c7b,CT,影像结论,,文本型,左侧下颌髁突骨溶解性病变伴皮质骨部分破坏,,,,CT,LLM提取,论文病例报告,2020-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,c4d1a2e3-5f9c-4e7a-8d8c-4f2f5b6a7c8d,MRI,影像所见,,文本型,邻近肌肉组织轻度异常信号,,提示周围软组织受累,,MRI,LLM提取,论文病例报告,2020-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,c4d1a2e3-5f9c-4e7a-8d8c-4f2f5b6a7c8d,MRI,影像结论,,文本型,左侧下颌髁突周围软组织轻度异常信号改变,,,,MRI,LLM提取,论文病例报告,2020-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,d7ab6a7f-4f3a-4c5d-9f87-1b2c3d4e5f60,患者,手术名称,,类别型,左侧髁突切除术,,全麻下；术中行假体重建,,,LLM提取,论文病例报告,2021-01-01,手术,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,d7ab6a7f-4f3a-4c5d-9f87-1b2c3d4e5f60,患者,麻醉方式,,类别型,全身麻醉,,,,,LLM提取,论文病例报告,2021-01-01,手术,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,d7ab6a7f-4f3a-4c5d-9f87-1b2c3d4e5f60,患者,手术结果,,文本型,切除范围约1.5–2 cm，切缘看似正常，随后植入髁突假体以恢复功能,,,,,LLM提取,论文病例报告,2021-01-01,手术,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,e3b5f7a1-2c4d-4e6f-8a9b-0c1d2e3f4a5b,患者,病理诊断,,文本型,骨内肺腺癌转移,,,,组织病理学,LLM提取,论文病例报告,2021-01-01,病理,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,e3b5f7a1-2c4d-4e6f-8a9b-0c1d2e3f4a5b,患者,免疫组化,,文本型,TTF1阳性，CK7阳性,,,,免疫组化,LLM提取,论文病例报告,2021-01-01,病理,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,9a8b7c6d-5e4f-4a3b-9c2d-1e0f1a2b3c4d,患者,检验项目,,文本型,术后3个月复查CT未见肿瘤复发证据,,,,CT,LLM提取,论文病例报告,2021-04-01,评估,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,6c5d4e3f-2a1b-4c6d-8e7f-9a0b1c2d3e4f,患者,治疗方案,,类别型,立体定向体部放疗,,隔日一次，总剂量3000 cGy,,,LLM提取,论文病例报告,2021-05-01,病程,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,6c5d4e3f-2a1b-4c6d-8e7f-9a0b1c2d3e4f,患者,周期数,,数值型,1,1,隔日一次至完成总剂量,疗程,,LLM提取,论文病例报告,2021-05-01,病程,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,6c5d4e3f-2a1b-4c6d-8e7f-9a0b1c2d3e4f,患者,治疗方案,,类别型,放疗,,,,,LLM提取,论文病例报告,2021-05-01,用药,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,2f1e3d4c-5b6a-4f7e-8d9c-0a1b2c3d4e5f,MRI,影像所见,,文本型,残余髁突区见26×23×35 mm实性膨胀性肿块，T1W和T2W呈中间信号，邻近软组织轻度信号改变,,未见明确咬肌和外侧翼肌浸润,mm,MRI,LLM提取,论文病例报告,2021-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,2f1e3d4c-5b6a-4f7e-8d9c-0a1b2c3d4e5f,MRI,影像结论,,文本型,残余髁突区复发/残留病灶可能,,,,MRI,LLM提取,论文病例报告,2021-12-01,影像,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,7b6c5d4e-3f2a-4b1c-9d8e-7f6a5b4c3d2e,患者,治疗方案,,类别型,化疗,,MRI提示复发/残留后给予,,,LLM提取,论文病例报告,2021-12-01,病程,v1
+c9fd0fba74fa3ebba8987e5078f08e3a,7d65dabc21cf6602c67c4a350805b7ae_1,8d7c6b5a-4e3f-2a1b-9c8d-7e6f5a4b3c2d,患者,出院状况,,文本型,术后恢复良好，随访未见复发；患者于术后32个月无病生存,,,,,LLM提取,论文病例报告,,出院,v1

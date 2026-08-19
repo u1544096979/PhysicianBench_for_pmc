@@ -1,0 +1,59 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,1bcb8c7f-5d7a-4c4b-bf4c-8d4e9a5b3bb1,患者,入院年龄,,数值型,40,40,,岁,,LLM提取,论文病例报告,2018-11-26,入院,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,1bcb8c7f-5d7a-4c4b-bf4c-8d4e9a5b3bb1,患者,入院科室,,类别型,第四医院河北医科大学,,,,,LLM提取,论文病例报告,2018-11-26,入院,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,1bcb8c7f-5d7a-4c4b-bf4c-8d4e9a5b3bb1,患者,主诉,,文本型,接触性出血2周,,,,,LLM提取,论文病例报告,2018-11-26,入院,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,1bcb8c7f-5d7a-4c4b-bf4c-8d4e9a5b3bb1,患者,ECOG PS,,类别型,0,,,,,LLM提取,论文病例报告,2018-11-26,评估,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,1bcb8c7f-5d7a-4c4b-bf4c-8d4e9a5b3bb1,患者,个人史,,文本型,无吸烟史，未报告基础疾病,,,,,LLM提取,论文病例报告,2018-11-26,病史,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,1bcb8c7f-5d7a-4c4b-bf4c-8d4e9a5b3bb1,患者,家族史,,文本型,无肿瘤相关家族史,,,,,LLM提取,论文病例报告,2018-11-26,病史,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,a8d2b5d2-4f7b-4d52-a70d-0f5a3a3c6d1d,患者,妊娠史,,文本型,4次妊娠，2次人工流产，2次自然分娩,,,,,LLM提取,论文病例报告,2018-11-26,病史,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,2e6e8f5c-1b0d-4a1b-8c7c-2f8d8d0d8a11,患者,查体,,文本型,无明显异常,,,,,LLM提取,论文病例报告,2018-11-26,评估,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,7f0f4bb5-6e6a-45c5-8f9e-2b7cc6ef1c90,MRI,影像所见,,文本型,宫颈肿块，最大径约4.0 cm，右髂血管旁淋巴结肿大，短径2.7 cm,,,,盆腔MRI,LLM提取,论文病例报告,2018-11-26,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,7f0f4bb5-6e6a-45c5-8f9e-2b7cc6ef1c90,MRI,影像结论,,文本型,考虑宫颈癌伴右髂血管旁淋巴结转移可能,,,,盆腔MRI,LLM提取,论文病例报告,2018-11-26,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,0f0d5f9b-2e3b-4d6b-8b32-8e2f0d7f7c44,胸部X线,影像所见,,文本型,未见明显肿瘤性病变,,,,X线,LLM提取,论文病例报告,2018-11-26,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,d4f0c4a7-7df7-4e6b-9a78-3d1a8a4a0e55,血清,SCCA,,数值型,61.10,61.10,参考值<1.5 ng/ml,ng/ml,,LLM提取,论文病例报告,2018-11-26,检验,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,9a7d8b68-4d2d-4e9c-8c6a-1a2c3d4e5f60,患者,诊断名称,,类别型,宫颈癌,,2018 FIGO分期IIIC1r,,,LLM提取,论文病例报告,2018-11-26,诊断,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,9a7d8b68-4d2d-4e9c-8c6a-1a2c3d4e5f60,患者,诊断编码,,类别型,IIIC1r,,2018 FIGO,,,LLM提取,论文病例报告,2018-11-26,诊断,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,c5c0b8c1-6e7d-4f8b-9a3c-0a1b2c3d4e5f,患者,手术名称,,类别型,经腹广泛子宫切除术+双侧输卵管卵巢切除术+盆腔及腹主动脉旁淋巴结清扫术,,,,,LLM提取,论文病例报告,2018-11-30,手术,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,c5c0b8c1-6e7d-4f8b-9a3c-0a1b2c3d4e5f,患者,麻醉方式,,类别型,全身麻醉,,,,,LLM提取,论文病例报告,2018-11-30,手术,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,c5c0b8c1-6e7d-4f8b-9a3c-0a1b2c3d4e5f,患者,手术结果,,文本型,手术完成,,,,,LLM提取,论文病例报告,2018-11-30,手术,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,手术标本,病理诊断,,文本型,宫颈鳞状细胞癌,,肿瘤大小3.5×3.5×2.5 cm；深肌层浸润>宫颈间质1/2；脉管浸润阳性,,病理检查,LLM提取,论文病例报告,2018-11-30,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,左盆腔淋巴结,病理诊断,,文本型,转移癌,,7枚中1枚阳性,,病理检查,LLM提取,论文病例报告,2018-11-30,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,右盆腔淋巴结,病理诊断,,文本型,转移癌,,10枚中5枚阳性,,病理检查,LLM提取,论文病例报告,2018-11-30,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,右髂总淋巴结,病理诊断,,文本型,转移癌,,7枚中5枚阳性,,病理检查,LLM提取,论文病例报告,2018-11-30,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,腹主动脉旁淋巴结,病理诊断,,文本型,转移癌,,16枚中16枚阳性,,病理检查,LLM提取,论文病例报告,2018-11-30,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,9a7d8b68-4d2d-4e9c-8c6a-1a2c3d4e5f60,患者,病理分期,,类别型,IIIC2p,,2018 FIGO,,,LLM提取,论文病例报告,2018-11-30,诊断,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,8f7e6d5c-4b3a-2f1e-9d8c-7b6a5c4d3e2f,患者,治疗方案,,类别型,紫杉醇脂质体+洛铂辅助化疗,,q21d，共3个周期；175 mg/m² d1 + 40 mg d1,,,LLM提取,论文病例报告,2018-12-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,8f7e6d5c-4b3a-2f1e-9d8c-7b6a5c4d3e2f,患者,周期数,,数值型,3,3,,周期,,LLM提取,论文病例报告,2018-12-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,8f7e6d5c-4b3a-2f1e-9d8c-7b6a5c4d3e2f,患者,治疗反应,,类别型,治疗后继续进展/高风险复发,,,,,LLM提取,论文病例报告,2019-01-31,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,放疗计划,治疗方案,,类别型,盆腔及腹主动脉旁野IMRT,,总剂量48.6 Gy/27次,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,放疗计划,治疗反应,,类别型,完成,,,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,c6d7e8f9-0a1b-4c2d-8e3f-4a5b6c7d8e9f,放疗计划,治疗方案,,类别型,伊立替康192近距离后装治疗,,7 Gy/次，每周1次，共2次,,,LLM提取,论文病例报告,2019-01-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,d7e8f9a0-1b2c-4d5e-8f3a-4b5c6d7e8f90,血清,SCCA,,数值型,2.2,2.2,参考值<2.7 ng/ml（2019年8月后）；此前参考值<1.5 ng/ml,ng/ml,,LLM提取,论文病例报告,2019-02-01,检验,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,e8f9a0b1-2c3d-4e5f-8f9a-0b1c2d3e4f5a,CT,影像所见,,文本型,左腋窝淋巴结轻度增大；颈部及肺部未见异常,,,,CT,LLM提取,论文病例报告,2019-03-29,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,e8f9a0b1-2c3d-4e5f-8f9a-0b1c2d3e4f5a,CT,影像结论,,文本型,提示左腋窝淋巴结异常,,,,CT,LLM提取,论文病例报告,2019-03-29,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c,左腋窝淋巴结,病理诊断,,文本型,低分化癌,,超声引导活检，免疫组化未做,,活检,LLM提取,论文病例报告,2019-04-03,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c,左腋窝淋巴结,标本部位,,类别型,左腋窝淋巴结,,,,活检,LLM提取,论文病例报告,2019-04-03,病理,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,PET-CT,影像所见,,文本型,左后颈三角区、锁骨区及腋窝多发肿大淋巴结，葡萄糖代谢异常增高,,,,PET-CT,LLM提取,论文病例报告,2019-04-04,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,PET-CT,影像结论,,文本型,左锁骨上区及左腋窝淋巴结转移高度可能,,,,PET-CT,LLM提取,论文病例报告,2019-04-04,影像,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,治疗方案,,类别型,TP方案化疗,,白蛋白结合紫杉醇175 mg/m² d1 + 顺铂50 mg/m² d2-3；q21d,,,LLM提取,论文病例报告,2019-04-08,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,药品名称,,类别型,白蛋白结合紫杉醇,,,,,LLM提取,论文病例报告,2019-04-08,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,剂量,,数值型,175,175,d1,mg/m²,,LLM提取,论文病例报告,2019-04-08,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,药品名称,,类别型,顺铂,,,,,LLM提取,论文病例报告,2019-04-08,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,剂量,,数值型,50,50,d2-3,mg/m²,,LLM提取,论文病例报告,2019-04-08,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,周期数,,数值型,1,1,q21d,周期,,LLM提取,论文病例报告,2019-04-08,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,f6e7d8c9-b0a1-4c2d-8e3f-9a0b1c2d3e4f,患者,治疗反应,,类别型,后续接受局部放疗并继续治疗,,,,,LLM提取,论文病例报告,2019-04-08,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,g1h2i3j4-k5l6-4m7n-8o9p-0q1r2s3t4u5v,放疗计划,治疗方案,,类别型,宫颈区IMRT,,50.4 Gy/28次，5次/周,,,LLM提取,论文病例报告,2019-04-15,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,g1h2i3j4-k5l6-4m7n-8o9p-0q1r2s3t4u5v,放疗计划,治疗方案,,类别型,左锁骨上及左腋窝转移淋巴结加量照射,,总剂量60.2 Gy/28次,,,LLM提取,论文病例报告,2019-04-15,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,g1h2i3j4-k5l6-4m7n-8o9p-0q1r2s3t4u5v,放疗计划,治疗反应,,类别型,完成,,,,,LLM提取,论文病例报告,2019-04-15,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,h2i3j4k5-l6m7-4n8o-9p0q-1r2s3t4u5v6w,患者,不良反应名称,,类别型,骨髓抑制,,严重,,,LLM提取,论文病例报告,2019-04-15,不良反应,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,h2i3j4k5-l6m7-4n8o-9p0q-1r2s3t4u5v6w,患者,不良反应名称,,类别型,胃肠道毒性,,严重,,,LLM提取,论文病例报告,2019-04-15,不良反应,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,h2i3j4k5-l6m7-4n8o-9p0q-1r2s3t4u5v6w,患者,处理措施,,文本型,停用同步化疗,,因患者要求,,,LLM提取,论文病例报告,2019-04-15,不良反应,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,i3j4k5l6-m7n8-4o9p-0q1r-2s3t4u5v6w7x,患者,药品名称,,类别型,替雷利珠单抗,,240 mg静脉滴注每3周1次,,,LLM提取,论文病例报告,2019-05-01,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,i3j4k5l6-m7n8-4o9p-0q1r-2s3t4u5v7x,患者,给药途径,,类别型,静脉滴注,,,,,LLM提取,论文病例报告,2019-05-01,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,i3j4k5l6-m7n8-4o9p-0q1r-2s3t4u5v7x,患者,剂量,,数值型,240,240,每3周1次,mg,,LLM提取,论文病例报告,2019-05-01,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,i3j4k5l6-m7n8-4o9p-0q1r-2s3t4u5v7x,患者,治疗周期,,文本型,每3周1次,,,,,LLM提取,论文病例报告,2019-05-01,用药,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,i3j4k5l6-m7n8-4o9p-0q1r-2s3t4u5v7x,患者,治疗反应,,类别型,完全缓解,,,,,LLM提取,论文病例报告,,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,j4k5l6m7-n8o9-4p0q-1r2s-3t4u5v6w7x8y,患者,随访结果,,文本型,72个月随访未见复发或转移,,总体生存期>72个月；替雷利珠单抗治疗65个月,,,LLM提取,论文病例报告,2024-11-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,j4k5l6m7-n8o9-4p0q-1r2s-3t4u5v6w7x8y,患者,总生存期,,数值型,72,72,,个月,,LLM提取,论文病例报告,2024-11-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,j4k5l6m7-n8o9-4p0q-1r2s-3t4u5v6w7x8y,患者,无进展生存期,,数值型,72,72,自治疗后至随访,个月,,LLM提取,论文病例报告,2024-11-01,病程,v1
+71af50c891bd0e80cd017c8beb2bb446,0e1873680f0a0dbc1a5cf80ed222aeb8,j4k5l6m7-n8o9-4p0q-1r2s-3t4u5v6w7x8y,患者,不良反应名称,,类别型,免疫相关不良反应,,未发生,,,LLM提取,论文病例报告,2024-11-01,不良反应,v1

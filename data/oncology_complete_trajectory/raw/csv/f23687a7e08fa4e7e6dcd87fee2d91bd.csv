@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,0f5f9a0f-7a3d-4e5f-9a2e-5b5d2d4c6f01,患者,入院年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,2017-01-01,入院,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,1d2a8d6b-3d7a-4d57-bf63-6d8cb2d4f101,患者,主诉,,文本型,尿潴留,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,1d2a8d6b-3d7a-4d57-bf63-6d8cb2d4f101,患者,现病史,,文本型,2017年因尿潴留就诊于外院，血清PSA为5.06 ng/mL。,,,,,LLM提取,论文病例报告,2017-01-01,病史,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,2c3b9d7e-8f41-4c2c-9f2d-8a2e3d4f5102,血清,PSA,,数值型,5.06,5.06,,ng/mL,,LLM提取,论文病例报告,2017-01-01,检验,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,3e4c0f9a-6b52-4f3a-8d1c-9b3f4e5a6103,患者,药品名称,,类别型,Silodosin,,,,,LLM提取,论文病例报告,2017-01-01,用药,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,4f5d1a0b-7c63-4a4b-9e2d-0c4f5a6b7104,患者,检验项目,,数值型,14.16,14.16,,ng/mL,,LLM提取,论文病例报告,2017-01-01,检验,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,5a6e2b1c-8d74-4b5c-af3e-1d5a6b7c8105,前列腺,活检方式,,类别型,经直肠超声引导前列腺活检,,,,,LLM提取,论文病例报告,2018-01-01,手术,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,6b7f3c2d-9e85-4c6d-b04f-2e6b7c8d9106,前列腺,病理诊断,,文本型,导管腺癌（DAP）,,与临床分期T4N0M1b相符,,HE染色,LLM提取,论文病例报告,2018-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,7c8a4d3e-af96-4d7e-b15f-3f7c8d9ea107,患者,诊断名称,,类别型,前列腺导管腺癌,,,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,7c8a4d3e-af96-4d7e-b15f-3f7c8d9ea107,患者,临床分期,,类别型,T4N0M1b,,,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,8d9b5e4f-b0a7-4e8f-c26f-4g8d9eafb208,患者,治疗方案,,类别型,联合雄激素阻断治疗,,,,,LLM提取,论文病例报告,2018-10-01,病程,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,8d9b5e4f-b0a7-4e8f-c26f-4g8d9eafb208,患者,治疗反应,,类别型,PSA下降至最低点后再上升,,最低点0.32 ng/mL（2019-04）,,,LLM提取,论文病例报告,2019-04-01,病程,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,9eaf6f50-c1b8-4f90-d37g-5h9eafbgc309,血清,PSA,,数值型,0.32,0.32,nadir,ng/mL,,LLM提取,论文病例报告,2019-04-01,检验,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,a0bg7g61-d2c9-4a01-e48h-6i0afbchd410,患者,出院/再入院原因,,文本型,急性尿潴留,,,,,LLM提取,论文病例报告,2019-12-01,病史,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,b1ch8h72-e3da-4b12-f59i-7j1bgcdie511,血清,PSA,,数值型,4.52,4.52,,ng/mL,,LLM提取,论文病例报告,2019-12-01,检验,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,c2di9i83-f4eb-4c23-g60j-8k2chdejf612,患者,影像所见,,文本型,多发肺转移和广泛骨转移,,CT提示,,CT,LLM提取,论文病例报告,2019-12-01,影像,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,c2di9i83-f4eb-4c23-g60j-8k2chdejf612,患者,影像结论,,文本型,多发肺转移和广泛骨转移,,,,CT/MRI,LLM提取,论文病例报告,2019-12-01,影像,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,d3ej0j94-g5fc-4d34-h71k-9l3diefkg713,患者,入院/就诊原因,,文本型,因急性尿潴留转诊至本院治疗,,,,,LLM提取,论文病例报告,2019-12-01,入院,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,e4fk1k05-h6gd-4e45-i82l-0m4ejfglh814,血清,PSA,,数值型,9.73,9.73,,ng/mL,,LLM提取,论文病例报告,2020-01-01,检验,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,f5gl2l16-i7he-4f56-j93m-1n5fkghmi915,前列腺,手术名称,,类别型,经尿道前列腺切开/通道式TURP,,,,,LLM提取,论文病例报告,2020-01-01,手术,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,g6hm3m27-j8if-4g67-k04n-2o6glhinj016,前列腺标本,病理诊断,,文本型,导管腺癌（DAP）,,再次病理证实,,HE染色,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,h7in4n38-k9jg-4h78-l15o-3p7hmiojk117,前列腺肿瘤细胞,雄激素受体,,类别型,部分阳性,,,,免疫组化,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,h7in4n38-k9jg-4h78-l15o-3p7hmiojk117,前列腺肿瘤细胞,PSA,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,h7in4n38-k9jg-4h78-l15o-3p7hmiojk117,前列腺肿瘤细胞,Chromogranin,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,h7in4n38-k9jg-4h78-l15o-3p7hmiojk117,前列腺肿瘤细胞,Synaptophysin,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,h7in4n38-k9jg-4h78-l15o-3p7hmiojk117,前列腺肿瘤细胞,Ki-67,,类别型,高标记指数,,,,免疫组化,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,h7in4n38-k9jg-4h78-l15o-3p7hmiojk117,前列腺肿瘤细胞,MAP3K1,,类别型,蛋白表达降低,,提示蛋白水平缺失,,免疫组化,LLM提取,论文病例报告,2020-01-01,病理,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,i8jo5o49-l0kh-4i89-m26p-4q8injplk218,前列腺肿瘤,TP53体细胞突变,,类别型,p.Gly245Ser,,致病性变异,,靶向NGS,LLM提取,论文病例报告,2020-01-01,诊断,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,i8jo5o49-l0kh-4i89-m26p-4q8injplk218,前列腺肿瘤,RB1体细胞突变,,类别型,p.Ser485Phe,,意义未明变异,,靶向NGS,LLM提取,论文病例报告,2020-01-01,诊断,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,i8jo5o49-l0kh-4i89-m26p-4q8injplk218,前列腺肿瘤,MAP3K1,,类别型,纯合缺失,,拷贝数缺失,,靶向NGS,LLM提取,论文病例报告,2020-01-01,诊断,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,i8jo5o49-l0kh-4i89-m26p-4q8injplk218,前列腺肿瘤,肿瘤突变负荷,,数值型,5.4,5.4,single nucleotide variants/Mbp,SNV/Mbp,靶向NGS,LLM提取,论文病例报告,2020-01-01,诊断,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,j9kp6p5a-m1li-4j90-n37q-5r9jokqml319,患者,骨折,,文本型,椎体压缩性骨折,,,,,LLM提取,论文病例报告,2020-03-01,病史,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,k0lq7q6b-n2mj-4k01-o48r-6s0kplrnm420,血清,PSA,,数值型,123.73,123.73,,ng/mL,,LLM提取,论文病例报告,2020-04-01,检验,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,l1mr8r7c-o3nk-4l12-p59s-7t1lqmsno521,患者,药品名称,,类别型,enzalutamide,,,,,LLM提取,论文病例报告,2020-04-01,用药,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,m2ns9s8d-p4ol-4m23-q60t-8u2mrntop622,患者,治疗反应,,类别型,疾病进展,,出现肝转移,,,LLM提取,论文病例报告,2020-04-01,病程,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,n3ot0t9e-q5pm-4n34-r71u-9v3nsouqp723,患者,影像结论,,文本型,肝转移,,,,,LLM提取,论文病例报告,2020-04-01,影像,v1
+f23687a7e08fa4e7e6dcd87fee2d91bd,fffb7ff4a13429f45f2c3dea3c49f350,o4pu1u0f-r6qn-4o45-s82v-0w4otpvrq824,患者,死亡,,文本型,死亡,,2020年6月,,,LLM提取,论文病例报告,2020-06-01,病程,v1

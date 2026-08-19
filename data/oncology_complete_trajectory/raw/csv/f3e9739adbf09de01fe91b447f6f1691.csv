@@ -1,0 +1,42 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,1d3d6d70-0dc7-4c62-9f5d-4af0e0c0f7d1,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,1956-01-01,病史,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,1d3d6d70-0dc7-4c62-9f5d-4af0e0c0f7d1,患者,出生年份,,日期型,1956,,,,,LLM提取,论文病例报告,1956-01-01,病史,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,c7eb2f8d-bf66-4c66-8d0e-4c6f5dfc6f0d,患者,家族史,,文本型,有恶性黑色素瘤家族史：母亲小腿/踝附近黑色素瘤，姑妈髋部黑色素瘤并发生远处转移后死亡,,,,,LLM提取,论文病例报告,,病史,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,c7eb2f8d-bf66-4c66-8d0e-4c6f5dfc6f0d,患者,既往史,,文本型,既往行扁桃体切除术；2012年行开胸心脏手术治疗房间隔缺损,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,c7eb2f8d-bf66-4c66-8d0e-4c6f5dfc6f0d,患者,个人史,,文本型,不饮酒，不吸烟，避免日晒和晒黑床，饮食以有机未加工食物为主,,,,,LLM提取,论文病例报告,,病史,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,74c5b89d-4d84-46e4-9fb3-1ef6c995c5bf,患者,入院年龄,,数值型,51,51,,岁,,LLM提取,论文病例报告,2007-10-01,入院,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,74c5b89d-4d84-46e4-9fb3-1ef6c995c5bf,患者,主诉,,文本型,无症状；在眼底照片中发现左眼轻度色素沉着病灶,,,,,LLM提取,论文病例报告,2007-10-01,入院,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,6f0f5e17-1f2e-4c82-8b7e-5b2d1b4f7f7c,左眼,影像所见,,文本型,眼底照片见下方弓形静脉弓外侧小病灶；超声示病灶隆起近2 mm，高内部反射,,,,眼底照相、超声,LLM提取,论文病例报告,2007-10-01,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,9cb8bc86-7f4b-4d25-a98b-3d9a0c92fd85,左眼,诊断名称,,类别型,脉络膜黑色素瘤,,小病灶，位于后极下方,,,LLM提取,论文病例报告,2007-10-11,诊断,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,9cb8bc86-7f4b-4d25-a98b-3d9a0c92fd85,左眼,影像所见,,文本型,重复散瞳眼底检查示后极下方小脉络膜黑色素瘤，黄斑区有渗出证据，病灶表面见橙色色素,,,,散瞳眼底检查,LLM提取,论文病例报告,2007-10-11,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,9cb8bc86-7f4b-4d25-a98b-3d9a0c92fd85,左眼,影像所见,,文本型,B超示病灶约1.3 mm隆起，直径约4.5 mm,,,mm,B超,LLM提取,论文病例报告,2007-10-11,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,f6f4ebf1-4dc2-4d18-96a6-fb61c44cbf5c,左眼,手术名称,,类别型,经瞳孔温热疗法（TTT）,,,,,LLM提取,论文病例报告,2007-10-15,手术,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,0e8d9b15-4b27-4f70-9d30-ff3d9e6f8d58,患者,影像所见,,文本型,PET/CT未见转移性疾病,,,,PET/CT,LLM提取,论文病例报告,2007-10-19,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,2a9c0d4e-0d7b-4f58-8b56-3a7f2c7d3f4f,左眼,影像所见,,文本型,复查B超示肿瘤似已硬化并变平，厚度约1.0 mm,,,mm,B超,LLM提取,论文病例报告,2007-11-27,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,e5a0b7f7-4e3f-4c32-8d2a-0bfe7f0c1d1d,患者,影像所见,,文本型,2010年8月出现类似结膜炎症状，后发展为视物模糊、强烈充血及瘙痒灼热感,,,,,LLM提取,论文病例报告,2010-08-01,病程,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,f8b6c3a4-0f1f-4b66-8b2b-4d77c1f4d3a7,左眼,治疗方案,,类别型,眼药水,,由基层医生开具,,,LLM提取,论文病例报告,2010-08-01,用药,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,d2d6b2c1-7f2d-4f7f-8f9e-2d9c2a4d6b1c,左眼,症状变化,,文本型,停止使用眼药水后视力未改善，随后症状持续数月,,,,,LLM提取,论文病例报告,2010-08-01,病程,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,3d5f2a3d-2a5f-4f6a-8e4d-1f3a3f2c5a6b,左眼,影像所见,,文本型,2016-02-16眼底摄影和增强深度成像（EDI）示肿瘤增大并有液体渗漏，较上次复查增长0.285 mm,0.285,较上次检查增长,mm,眼底摄影、EDI,LLM提取,论文病例报告,2016-02-16,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,8f6c0b2a-9a4c-4c0f-8d6a-7f8d0b1c2d3e,左眼,手术名称,,类别型,光动力疗法（PDT）,,,,,LLM提取,论文病例报告,2016-03-02,手术,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,4f0a1b2c-3d4e-4f5a-8b6c-7d8e9f0a1b2c,左眼,影像所见,,文本型,PDT后1个月视力稍改善，EDI示左眼液体减少；6周后视力再次恶化，眼底照片和OCT示橙色色素及轻度中央视网膜下液体,,,,眼底摄影、OCT、EDI,LLM提取,论文病例报告,2016-04-02,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e,左眼,影像所见,,文本型,2016-09-13肿瘤厚度增至1.3 mm,1.3,,mm,影像检查,LLM提取,论文病例报告,2016-09-13,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,7a8b9c0d-1e2f-4a5b-8c9d-0e1f2a3b4c5d,左眼,手术名称,,类别型,细针穿刺活检,,,,,LLM提取,论文病例报告,2016-09-21,手术,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,7a8b9c0d-1e2f-4a5b-8c9d-0e1f2a3b4c5d,肿瘤组织,检验项目,,类别型,DecisionDx-UM基因表达谱检测,,检测12个标志基因和3个对照基因,,RT-PCR,LLM提取,论文病例报告,2016-09-23,检验,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,9a0b1c2d-3e4f-4a5b-8b6c-7d8e9f0a1b2d,肿瘤组织,分子标志物,,类别型,class 2,,高转移风险，5年内转移概率约72%,,DecisionDx-UM,LLM提取,论文病例报告,2016-09-23,诊断,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e,左眼,手术名称,,类别型,经瞳孔温热疗法（TTT）,,再次实施,,,LLM提取,论文病例报告,2016-09-27,手术,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,c3d4e5f6-a7b8-4c9d-9e0f-1a2b3c4d5e6f,患者,症状,,文本型,间歇性左眼疼痛，中央视力受影响,,,,,LLM提取,论文病例报告,2016-10-01,病程,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,左眼,手术名称,,类别型,左眼球摘除术,,伴视神经切除,,,LLM提取,论文病例报告,2016-10-20,手术,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,左眼,病理诊断,,文本型,原发恶性黑色素瘤,,pT1a；pNX；pMX,,组织病理学,LLM提取,论文病例报告,2016-10-20,病理,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,左眼,分化程度,,类别型,梭形细胞和上皮样细胞组成,,,,组织病理学,LLM提取,论文病例报告,2016-10-20,病理,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a,左眼,病理诊断,,文本型,肿瘤附着于球后壁内表面，最大基底径5.4 mm、垂直径1.3 mm；巩膜内生长<0.1 mm；无睫状体受侵；有有丝分裂活性，3/10 HPF；见PAS阳性细胞外环；HMB45在90%肿瘤细胞中呈弱至强胞浆染色，Ki67在3%肿瘤细胞中呈强核染色,,免疫组化及特殊染色结果,,HE、PAS、免疫组化,LLM提取,论文病例报告,2016-10-20,病理,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,e6f7a8b9-c0d1-4e2f-8a3b-4c5d6e7f8a9b,患者,治疗方案,,类别型,Rigvir®溶瘤病毒治疗,,辅助治疗,,,LLM提取,论文病例报告,2016-12-28,用药,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,e6f7a8b9-c0d1-4e2f-8a3b-4c5d6e7f8a9b,Rigvir®,给药方案,,文本型,连续3天每日给药3次，随后每周1次,,起始后调整为每周一次,,,LLM提取,论文病例报告,2016-12-28,用药,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,f7a8b9c0-d1e2-4f3a-9b4c-5d6e7f8a9b0c,患者,检验项目,,类别型,磷酸己糖异构酶,,治疗前检测,U/L,,LLM提取,论文病例报告,2016-12-06,检验,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,f7a8b9c0-d1e2-4f3a-9b4c-5d6e7f8a9b0c,患者,磷酸己糖异构酶,,数值型,61.8,61.8,参考范围内,U/L,,LLM提取,论文病例报告,2016-12-06,检验,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,9f0a1b2c-3d4e-4f5a-8b6c-7d8e9f0a1b2d,患者,治疗方案,,类别型,Rigvir®溶瘤病毒治疗,,治疗3个月后复查实验室参数,,,LLM提取,论文病例报告,2017-03-17,检验,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,9f0a1b2c-3d4e-4f5a-8b6c-7d8e9f0a1b2d,患者,磷酸己糖异构酶,,数值型,24.3,24.3,参考范围内,U/L,,LLM提取,论文病例报告,2017-03-17,检验,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,0a1b2c3d-4e5f-4a6b-8c7d-8e9f0a1b2c3d,患者,影像所见,,文本型,MRCP未见转移形成证据,,,,磁共振胰胆管成像,LLM提取,论文病例报告,2018-05-07,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,患者,影像所见,,文本型,腹部超声未见转移形成证据,,,,腹部超声,LLM提取,论文病例报告,2019-03-23,影像,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,疗效评估,,类别型,生活质量高，病情稳定,,FACT-G总分102/108,,FACT-G量表V4,LLM提取,论文病例报告,2019-06-01,评估,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,患者,出院诊断,,类别型,脉络膜黑色素瘤（已行左眼球摘除术）,,,,,LLM提取,论文病例报告,2016-10-20,出院,v1
+f3e9739adbf09de01fe91b447f6f1691,f11c943ace331f3ebd317d97cb0da2ad,3c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e6f,患者,出院状况,,类别型,稳定,,后续持续接受Rigvir®治疗,,,LLM提取,论文病例报告,2020-01-01,出院,v1

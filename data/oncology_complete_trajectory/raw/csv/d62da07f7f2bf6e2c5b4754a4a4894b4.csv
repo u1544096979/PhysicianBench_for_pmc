@@ -1,0 +1,57 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,11111111-1111-1111-1111-111111111111,患者,入院年龄,,数值型,29,29,,岁,,LLM提取,论文病例报告,2018-01-01,入院,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,22222222-2222-2222-2222-222222222222,患者,主诉,,文本型,反复便秘、肛门不适,,自2013年起,,,LLM提取,论文病例报告,2013-01-01,病史,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,22222222-2222-2222-2222-222222222222,患者,既往史,,文本型,否认相关显著既往史,,,,,LLM提取,论文病例报告,2013-01-01,病史,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,22222222-2222-2222-2222-222222222222,患者,家族史,,文本型,否认相关家族史,,,,,LLM提取,论文病例报告,2013-01-01,病史,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,33333333-3333-3333-3333-333333333333,标本,病理诊断,,文本型,直肠溃疡/溃疡性病变，考虑SRUS,,2013-2018期间当地医院直肠镜/结肠镜病理未明确，后于2018年病理结合临床确诊,,H&E,LLM提取,论文病例报告,2018-01-01,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,33333333-3333-3333-3333-333333333333,标本,免疫组化,,文本型,p53(+),,约15% Ki-67(+),,IHC,LLM提取,论文病例报告,2018-01-01,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,33333333-3333-3333-3333-333333333333,标本,免疫组化,,文本型,Ki-67(+),,约15%,,IHC,LLM提取,论文病例报告,2018-01-01,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,44444444-4444-4444-4444-444444444444,患者,影像所见,,文本型,盆腔MRI示直肠区环形致密影，局部肠壁不规则，高度怀疑瘘管；后续见直肠壁炎症、肉芽肿及局灶黏液形成,,2018年,,MRI,LLM提取,论文病例报告,2018-01-01,影像,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,55555555-5555-5555-5555-555555555555,患者,治疗方案,,类别型,美沙拉嗪栓/灌肠治疗,,长期使用，症状缓解不佳,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,66666666-6666-6666-6666-666666666666,患者,症状,,文本型,反复发热、右臀部疼痛,,2019年7月-2020年10月,,,LLM提取,论文病例报告,2019-07-01,病程,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,66666666-6666-6666-6666-666666666666,患者,治疗方案,,类别型,头孢类抗生素,,暂时缓解，易复发,,,LLM提取,论文病例报告,2019-07-01,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,77777777-7777-7777-7777-777777777777,患者,影像所见,,文本型,直肠中上段壁多发缺损，伴直肠周围脓肿；直肠后壁瘘口增大；直肠、乙状结肠系膜及双侧盆壁多发淋巴结，部分增大,,2020年10月,,MRI,LLM提取,论文病例报告,2020-10-01,影像,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,88888888-8888-8888-8888-888888888888,患者,影像所见,,文本型,直肠距肛缘6 cm见较大溃疡性病灶，表面结节样隆起，覆盖大量脓性分泌物，边缘可见瘘口,,约3 cm×5 cm，占直肠环腔1/3至1/2,,肠镜,LLM提取,论文病例报告,2020-10-01,影像,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,99999999-9999-9999-9999-999999999999,患者,症状,,文本型,发热、右臀痛,,2020年12月症状加重,,,LLM提取,论文病例报告,2020-12-01,病程,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,手术名称,,类别型,横结肠造口术,,因发热和右臀痛加重,,,LLM提取,论文病例报告,2020-12-01,手术,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,患者,手术结果,,文本型,症状缓解,,,,,LLM提取,论文病例报告,2020-12-01,手术,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,患者,症状,,文本型,发热、右臀痛复发，伴下肢活动明显受限,,造口术后约4个月,,,LLM提取,论文病例报告,2021-04-01,病程,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,cccccccc-cccc-cccc-cccc-cccccccccccc,患者,查体,,文本型,右髋压痛；下段直肠后壁距齿状线6 cm可触及肿块，表面光滑、质硬、活动差、上缘触不到；指套暗红色血染；肛门括约肌收缩正常；外生殖器未见明显异常,,入院后查体,,,LLM提取,论文病例报告,2021-09-01,评估,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,dddddddd-dddd-dddd-dddd-dddddddddddd,患者,体温,,数值型,38.5,38.5,最高体温,℃,,LLM提取,论文病例报告,2021-09-01,评估,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,血液,白细胞,,数值型,10.38,10.38,,×10^9/L,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,血液,中性粒细胞,,数值型,8.15,8.15,,×10^9/L,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,血液,高敏C反应蛋白,,数值型,63.25,63.25,,mg/L,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,血液,癌胚抗原,,数值型,1.79,1.79,,ng/mL,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,血液,糖类抗原125,,数值型,9.7,9.7,,U/mL,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,血液,CA199,,数值型,2.1,2.1,,U/mL,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,ffffffff-ffff-ffff-ffff-ffffffffffff,标本,结核特异性抗原刺激细胞因子释放试验,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,ffffffff-ffff-ffff-ffff-ffffffffffff,标本,G试验,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,ffffffff-ffff-ffff-ffff-ffffffffffff,标本,类风湿因子,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,ffffffff-ffff-ffff-ffff-ffffffffffff,标本,ESR,,数值型,20,20,,mm/h,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,gggggggg-gggg-gggg-gggg-gggggggggggg,标本,HIV抗原抗体,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,gggggggg-gggg-gggg-gggg-gggggggggggg,标本,梅毒TP-Ab,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,gggggggg-gggg-gggg-gggg-gggggggggggg,标本,乙肝抗原,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,gggggggg-gggg-gggg-gggg-gggggggggggg,标本,丙肝抗原,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh,标本,粪便隐血试验,,类别型,阴性,,,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,粪便,SDC2甲基化,,类别型,阳性,,两次检测均阳性，结果8.27和9.3,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,iiiiiiii-iiii-iiii-iiii-iiiiiiiiiiii,粪便,SDC2甲基化,,类别型,阳性,,两次检测均阳性，结果9.3,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,jjjjjjjj-jjjj-jjjj-jjjj-jjjjjjjjjjjj,患者,影像所见,,文本型,骶前部不规则肿块，约44 mm×75 mm×107 mm；T2WI及脂抑T2WI高信号，内部多发隔膜样低信号，累及直肠后壁、双侧梨状肌、右提肛肌，并形成右坐骨肛窝瘘影,,MRI提示骶前及直肠后方黏液性腺癌，黏液成分为主,,MRI,LLM提取,论文病例报告,2021-09-01,影像,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,kkkkkkkk-kkkk-kkkk-kkkk-kkkkkkkkkkkk,患者,诊断名称,,类别型,骶前肿瘤/直肠后方黏液性腺癌,,复杂病例讨论认为由SRUS进展而来，不能排除恶变,,,LLM提取,论文病例报告,2021-09-01,诊断,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,llllllll-llll-llll-llll-llllllllllll,患者,手术名称,,类别型,骶骨肿块切除+盆底重建+部分直肠切除（远端闭合）+双侧输尿管支架置入,,全麻气管插管,,,LLM提取,论文病例报告,2021-09-06,手术,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,llllllll-llll-llll-llll-llllllllllll,患者,手术结果,,文本型,术中快速冰冻病理证实黏液性腺癌，遂行远端直肠闭合并置引流管,,手术顺利,,,LLM提取,论文病例报告,2021-09-06,手术,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,llllllll-llll-llll-llll-llllllllllll,患者,出血量,,数值型,100,100,术中失血量约100 mL,mL,,LLM提取,论文病例报告,2021-09-06,手术,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,病理诊断,,文本型,骶骨肿块黏液性腺癌,,切缘阴性，无血管癌栓，未见淋巴结转移,,H&E,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,MLH1(+),,pMMR相关,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,MSH2(+),,pMMR相关,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,MSH6(+),,pMMR相关,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,PMS2(+),,pMMR相关,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,HER2(+),,,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,Braf(−),,,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,免疫组化,,文本型,CD3/CD8示肿瘤间质少量散在T淋巴细胞,,,,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,mmmmmmmm-mmmm-mmmm-mmmm-mmmmmmmmmmmm,标本,Ki-67,,数值型,35,35,肿瘤细胞阳性率约35%,%,IHC,LLM提取,论文病例报告,2021-09-06,病理,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn,患者,治疗方案,,类别型,FOLFOX6辅助化疗,,术后约1个月开始，共8个周期；含奥沙利铂、亚叶酸钙、氟尿嘧啶及3种中草药抗结直肠癌药物,,,LLM提取,论文病例报告,2021-10-06,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn,患者,药品名称,,类别型,奥沙利铂,,,,,LLM提取,论文病例报告,2021-10-06,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn,患者,药品名称,,类别型,亚叶酸钙,,,,,LLM提取,论文病例报告,2021-10-06,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn,患者,药品名称,,类别型,氟尿嘧啶,,,,,LLM提取,论文病例报告,2021-10-06,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,oooooooo-oooo-oooo-oooo-oooooooooooo,患者,治疗方案,,类别型,IMRT盆腔放疗,,GTV 55 Gy/25 f，CTV 45 Gy/25 f,,,LLM提取,论文病例报告,2021-09-17,用药,v1
+d62da07f7f2bf6e2c5b4754a4a4894b4,97acac0f58bc598afdf8b8c3f74343ce,pppppppp-pppp-pppp-pppp-pppppppppppp,患者,随访结果,,文本型,术后恢复平稳，无明显并发症；2年随访未见局部复发或远处转移,,,,,LLM提取,论文病例报告,2023-09-06,病程,v1

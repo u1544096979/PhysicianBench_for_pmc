@@ -1,0 +1,31 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,7f2f2c6c-7c4d-4e4d-9c8d-3f5d5a6d0c11,患者,年龄,,数值型,58,58,,岁,,LLM提取,论文病例报告,,入院,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,7f2f2c6c-7c4d-4e4d-9c8d-3f5d5a6d0c11,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,,入院,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,7f2f2c6c-7c4d-4e4d-9c8d-3f5d5a6d0c11,患者,主诉,,文本型,咳嗽3周,,,,,LLM提取,论文病例报告,2023-08-24,病史,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,0f6b9f6f-2f0a-4d48-8d76-0dd8e6b3d2c1,患者,个人史,,文本型,无吸烟史、无饮酒史,,,,,LLM提取,论文病例报告,2023-08-24,病史,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,0f6b9f6f-2f0a-4d48-8d76-0dd8e6b3d2c1,患者,既往史,,文本型,无慢性病及恶性肿瘤家族遗传病史,,,,,LLM提取,论文病例报告,2023-08-24,病史,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,d2f7b6b1-7b8c-4d39-9e3f-9b9a1f2f2a10,PET/CT,影像所见,,文本型,右肺肿物伴代谢增高；远端肺组织阻塞性改变；纵隔、右侧内乳区及右肺门淋巴结伴代谢增高；右侧第6肋骨成骨性骨质破坏伴软组织肿物形成，伴代谢增高,,,,PET/CT,LLM提取,论文病例报告,2023-08-16,影像,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,d2f7b6b1-7b8c-4d39-9e3f-9b9a1f2f2a10,PET/CT,影像结论,,文本型,考虑肺癌并淋巴结转移及骨转移,,,,PET/CT,LLM提取,论文病例报告,2023-08-16,影像,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,4d1c0c7f-3df2-4f7b-b2d2-4ed9a5bbf1e2,病理组织,病理诊断,,文本型,肺腺癌,,,,穿刺活检,LLM提取,论文病例报告,2023-08-16,病理,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,4d1c0c7f-3df2-4f7b-b2d2-4ed9a5bbf1e2,病理组织,免疫组化,,文本型,ROS1(-)，TTF-1(3+)，Napsin-A(3+)，Ki-67(+10%)，P63(3+)，ALK(2+)，CD56(-)，CK7(3+)，EGFR-L858R(-)，MET(1+)，CK20(-),,,,IHC,LLM提取,论文病例报告,2023-08-16,病理,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,4d1c0c7f-3df2-4f7b-b2d2-4ed9a5bbf1e2,病理组织,病理会诊结果,,类别型,ALK阳性,,中国医学科学院肿瘤医院；石蜡切片；未注明克隆号,,IHC,LLM提取,论文病例报告,2023-08-24,病理,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,8d8c7d4a-5a72-4a1e-8c3d-1b9c8e9a3f01,患者,诊断名称,,类别型,右肺恶性肿瘤,,伴淋巴结转移、骨转移,,,LLM提取,论文病例报告,2023-08-24,诊断,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,8d8c7d4a-5a72-4a1e-8c3d-1b9c8e9a3f01,患者,临床分期,,类别型,IVA期,,T2N2M1,,TNM分期,LLM提取,论文病例报告,2023-08-24,诊断,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,c1e2d4f5-6a7b-4c8d-9e0f-1234567890ab,胸部CT,影像所见,,文本型,右肺下叶肿物；双肺多发微结节；纵隔、右肺门及右内乳区多发稍大淋巴结；右侧第6肋骨骨质破坏,,,,CT,LLM提取,论文病例报告,2023-08-24,影像,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,c1e2d4f5-6a7b-4c8d-9e0f-1234567890ab,胸部CT,影像结论,,文本型,符合肺癌表现；提示转移及骨质破坏,,,,CT,LLM提取,论文病例报告,2023-08-24,影像,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f3a1d2c4-5b6e-4f7a-8c9d-1e2f3a4b5c6d,患者,用药名称,,类别型,培美曲塞二钠,,静脉化疗1个周期,,,LLM提取,论文病例报告,2023-08-25,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f3a1d2c4-5b6e-4f7a-8c9d-1e2f3a4b5c6d,患者,剂量,,数值型,700,700,d1,mg,,LLM提取,论文病例报告,2023-08-25,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f3a1d2c4-5b6e-4f7a-8c9d-1e2f3a4b5c6d,患者,用药名称,,类别型,卡铂,,静脉化疗1个周期,,,LLM提取,论文病例报告,2023-08-25,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f3a1d2c4-5b6e-4f7a-8c9d-1e2f3a4b5c6d,患者,剂量,,数值型,400,400,d1,mg,,LLM提取,论文病例报告,2023-08-25,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,a7b8c9d0-e1f2-4a3b-8c9d-0a1b2c3d4e5f,病理组织石蜡切片,基因检测结果,,类别型,未检出肿瘤驱动基因突变,,DNA-based NGS,,NGS,LLM提取,论文病例报告,2023-09-04,检验,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,b1c2d3e4-f5a6-4789-9abc-def012345678,病理组织石蜡切片,诊断/检测结果,,类别型,ALK阳性,,IHC（Ventana D5F3）,,IHC,LLM提取,论文病例报告,2023-09-11,病理,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,c0d1e2f3-a4b5-4678-9abc-0def12345678,患者,用药名称,,类别型,洛拉替尼,,分子靶向治疗,,,LLM提取,论文病例报告,2023-09-14,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,c0d1e2f3-a4b5-4678-9abc-0def12345678,患者,剂量,,数值型,100,100,qd,mg,,LLM提取,论文病例报告,2023-09-14,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,d9e8f7a6-b5c4-4d3e-9f0a-1234abcd5678,胸部CT,影像所见,,文本型,右肺下叶肿物较前无明显变化；双肺多发结节,,,,CT,LLM提取,论文病例报告,2023-09-14,影像,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,d9e8f7a6-b5c4-4d3e-9f0a-1234abcd5678,胸部CT,疗效评估,,类别型,疾病稳定,,SD,,RECIST,LLM提取,论文病例报告,2023-09-14,评估,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,e1f2a3b4-c5d6-4789-9abc-1a2b3c4d5e6f,病理组织石蜡切片,基因检测结果,,类别型,EML4-ALK基因融合阳性,,V1亚型；RNA-based NGS,,NGS,LLM提取,论文病例报告,2023-09-23,检验,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f0e1d2c3-b4a5-4678-9abc-abcdef123456,胸部CT,影像所见,,文本型,右肺下叶肿物较前减小；原双肺多发微结节已基本消失；纵隔多发稍大淋巴结较前减小,,,,CT,LLM提取,论文病例报告,2023-10-12,影像,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f0e1d2c3-b4a5-4678-9abc-abcdef123456,胸部CT,疗效评估,,类别型,部分缓解,,PR,,RECIST,LLM提取,论文病例报告,2023-10-12,评估,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f0e1d2c3-b4a5-4678-9abc-abcdef123456,患者,症状变化,,文本型,咳嗽症状较前明显缓解，体力状况改善,,PS评分1分,,,LLM提取,论文病例报告,2023-10-12,评估,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,f0e1d2c3-b4a5-4678-9abc-abcdef123456,患者,用药名称,,类别型,洛拉替尼,,继续口服靶向治疗,,,LLM提取,论文病例报告,2023-10-12,用药,v1
+c5a0ffaa59bde89d512ace5eb5c6ba75,7358e275bf3ab26b4e2b1f86f9cce1cf,11223344-5566-4789-9abc-aabbccddeeff,患者,随访结果,,文本型,一般状况良好，继续口服洛拉替尼分子靶向治疗,,随访至2024年2月,,,LLM提取,论文病例报告,2024-02,病程,v1

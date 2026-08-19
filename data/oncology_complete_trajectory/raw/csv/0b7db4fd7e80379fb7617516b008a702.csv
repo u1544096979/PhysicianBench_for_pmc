@@ -1,0 +1,49 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,2d3f1b8e-0f7a-4d2f-9f19-6f4e6c8f8f01,患者,入院年龄,,数值型,63,63,,岁,,LLM提取,论文病例报告,2015-01-01,病史,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,2d3f1b8e-0f7a-4d2f-9f19-6f4e6c8f8f01,患者,既往史,,文本型,2015年初诊为右乳浸润性导管癌，ER阳性，HER-2正常；行乳房切除术后接受辅助化疗和放疗。,,,,,LLM提取,论文病例报告,2015-01-01,病史,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,3f1f95c5-3a2b-4d8f-8b7b-1e2f5f8a2c11,患者,诊断名称,,类别型,右乳浸润性导管癌,,ER阳性，HER-2正常,,,LLM提取,论文病例报告,2015-01-01,诊断,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,4c3f6d6e-7f0c-4d4f-9f77-8d5b1a9f0a21,患者,手术名称,,类别型,乳房切除术,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5a6f2e1b-0d2c-4d9d-8e2f-9a3c4f5d6e71,患者,治疗方案,,类别型,辅助化疗,,Epirubicin + Cyclophosphamide + Docetaxel,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5a6f2e1b-0d2c-4d9d-8e2f-9a3c4f5d6e71,Epirubicin,药品名称,,类别型,Epirubicin,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5a6f2e1b-0d2c-4d9d-8e2f-9a3c4f5d6e71,Cyclophosphamide,药品名称,,类别型,Cyclophosphamide,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5a6f2e1b-0d2c-4d9d-8e2f-9a3c4f5d6e71,Docetaxel,药品名称,,类别型,Docetaxel,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6d7e8f90-1a2b-4c3d-9e4f-5a6b7c8d9e01,患者,放疗,,文本型,标准放疗,,,,,LLM提取,论文病例报告,2015-01-01,其他,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,7e8f9a0b-1c2d-4e3f-8a9b-0c1d2e3f4a11,患者,用药,,文本型,Letrozole,,辅助内分泌治疗,,,LLM提取,论文病例报告,2016-01-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,7e8f9a0b-1c2d-4e3f-8a9b-0c1d2e3f4a11,患者,出院/停药情况,,文本型,因不良反应于2017年停用Letrozole,,,,,LLM提取,论文病例报告,2017-01-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,8f901a2b-3c4d-4e5f-9a0b-1c2d3e4f5a61,患者,病程,,文本型,2019年乳腺癌复发，转移至肺和胸膜。,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c41,患者,诊断名称,,类别型,转移性乳腺癌,,肺和胸膜转移,,,LLM提取,论文病例报告,2019-01-01,诊断,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d51,患者,治疗方案,,类别型,Letrozole + Ribociclib,,,,,LLM提取,论文病例报告,2019-01-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d51,患者,疗效评估,,类别型,疾病进展,,治疗3个月后CT提示进展,,CT,LLM提取,论文病例报告,2019-04-01,评估,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e61,患者,用药,,文本型,Capecitabine,,减量使用，因既往抗癌药毒性,,,LLM提取,论文病例报告,2019-04-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e61,患者,治疗周期数,,数值型,1,1,已完成第1周期,周期,,LLM提取,论文病例报告,2019-04-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e71,血液,乳酸脱氢酶,,数值型,298,298,参考范围105–205 U/L,U/L,,LLM提取,论文病例报告,2019-04-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e71,血液,丙氨酸氨基转移酶,,数值型,360,360,参考范围10–45 U/L,U/L,,LLM提取,论文病例报告,2019-04-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f81,患者,症状,,文本型,轻度不适及右侧肋缘下酸痛,,,,,LLM提取,论文病例报告,2019-04-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8191,患者,治疗方案,,类别型,Capecitabine停用,,因肝酶升高取消第2周期,,,LLM提取,论文病例报告,2019-04-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8191a1,患者,不良反应名称,,类别型,药物性肝损伤,,疑似由Capecitabine引起,,,LLM提取,论文病例报告,2019-04-01,不良反应,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8191a1b1,血液,乳酸脱氢酶,,数值型,376,376,峰值,U/L,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8191a1b1,血液,丙氨酸氨基转移酶,,数值型,1217,1217,峰值,U/L,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8191a1b1,血液,胆红素,,数值型,67,67,参考范围5–25 μmol/L；峰值,μmol/L,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6a7b8c9d-0e1f-2a3b-4c5d-6e7f8191a1b1,血液,碱性磷酸酶,,数值型,302,302,参考范围35–105 U/L；峰值,U/L,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,7b8c9d0e-1f2a-3b4c-5d6e-7f8191a1b1c1,患者,症状,,文本型,恶心、乏力加重、尿色和粪便变深、总体状况明显下降,,,,,LLM提取,论文病例报告,2019-06-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,7b8c9d0e-1f2a-3b4c-5d6e-7f8191a1b1c1,患者,诊断名称,,类别型,急性肝炎,,临床表现明确,,,LLM提取,论文病例报告,2019-06-01,诊断,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,8c9d0e1f-2a3b-4c5d-6e7f-8191a1b1c1d1,患者,检验项目,,类别型,病毒性肝炎,,EBV/CMV/病毒性肝炎检测均阴性,,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,8c9d0e1f-2a3b-4c5d-6e7f-8191a1b1c1d1,患者,检验项目,,类别型,EBV,,阴性,,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,8c9d0e1f-2a3b-4c5d-6e7f-8191a1b1c1d1,患者,检验项目,,类别型,CMV,,阴性,,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,9d0e1f2a-3b4c-5d6e-7f81-91a1b1c1d1e1,患者,检验项目,,类别型,免疫球蛋白,,正常,,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,9d0e1f2a-3b4c-5d6e-7f81-91a1b1c1d1e1,患者,检验项目,,类别型,平滑肌抗体,,正常,,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,9d0e1f2a-3b4c-5d6e-7f81-91a1b1c1d1e1,患者,检验项目,,类别型,线粒体抗体,,正常,,,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,0e1f2a3b-4c5d-6e7f-8191-a1b1c1d1e1f1,患者,基因检测,,类别型,DPYD突变,,未检出,,基因测序,LLM提取,论文病例报告,2019-06-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,1f2a3b4c-5d6e-7f81-91a1-b1c1d1e1f1a1,患者,影像所见,,文本型,胆道超声未见病理性发现。,,用于排除胆道梗阻,,超声,LLM提取,论文病例报告,2019-06-01,影像,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,1f2a3b4c-5d6e-7f81-91a1-b1c1d1e1f1a1,患者,影像所见,,文本型,增强CT未见病理性发现。,,用于排除肝静脉或门静脉血栓,,对比增强CT,LLM提取,论文病例报告,2019-06-01,影像,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,2a3b4c5d-6e7f-8191-a1b1-c1d1e1f1a1b2,患者,病理诊断,,文本型,急性药物性肝损伤（DILI）-毒性肝炎,,肝活检证实,,肝活检,LLM提取,论文病例报告,2019-06-01,病理,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,3b4c5d6e-7f81-91a1-b1c1-d1e1f1a1b2c3,患者,评估方法,,类别型,RUCAM,,,,,LLM提取,论文病例报告,2019-06-01,评估,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,3b4c5d6e-7f81-91a1-b1c1-d1e1f1a1b2c3,患者,疗效评估,,类别型,probable,,RUCAM评分7分,,RUCAM,LLM提取,论文病例报告,2019-06-01,评估,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,4c5d6e7f-8191-a1b1-c1d1-e1f1a1b2c3d4,患者,评估方法,,类别型,Naranjo,,,,,LLM提取,论文病例报告,2019-06-01,评估,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,4c5d6e7f-8191-a1b1-c1d1-e1f1a1b2c3d4,患者,疗效评估,,类别型,probable,,Naranjo评分6分,,Naranjo,LLM提取,论文病例报告,2019-06-01,评估,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5d6e7f81-91a1-b1c1-d1e1-f1a1b2c3d4e5,患者,症状,,文本型,停用Capecitabine后症状未立即缓解,,约2个月后改善,,,LLM提取,论文病例报告,2019-08-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,5d6e7f81-91a1-b1c1-d1e1-f1a1b2c3d4e5,患者,检验结果,,文本型,肝酶恢复正常,,,,,LLM提取,论文病例报告,2019-08-01,检验,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6e7f8191-a1b1-c1d1-e1f1-a1b2c3d4e5f6,患者,治疗方案,,类别型,Eribulin,,减量,,,LLM提取,论文病例报告,2019-08-01,用药,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,6e7f8191-a1b1-c1d1-e1f1-a1b2c3d4e5f6,患者,治疗反应,,类别型,耐受良好,,无并发症、无肝毒性,,,LLM提取,论文病例报告,2019-08-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,7f8191a1-b1c1-d1e1-f1a1-b2c3d4e5f6a7,患者,治疗周期数,,数值型,12,12,Eribulin治疗共12个周期,周期,,LLM提取,论文病例报告,2020-01-01,病程,v1
+0b7db4fd7e80379fb7617516b008a702,ac77dfca679c45f8d41cb5bb017dd346_1,8a91a1b1-c1d1-e1f1-a1b2-c3d4e5f6a7b8,患者,治疗方案,,类别型,Paclitaxel,,因疾病进展改用,,,LLM提取,论文病例报告,2020-01-01,用药,v1

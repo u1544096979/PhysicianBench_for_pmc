@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,3f3a8db0-7f6d-4a8e-9f85-6c10e74d6f5a,患者,入院年龄,,数值型,86,86,,岁,,LLM提取,论文病例报告,2017-01-01,入院,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,3f3a8db0-7f6d-4a8e-9f85-6c10e74d6f5a,患者,入院科室,,类别型,血管外科,,,,,LLM提取,论文病例报告,2017-01-01,入院,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,8c0b2c63-7e84-4f8a-9d88-69ddc7dd0f73,患者,既往史,,文本型,EVAR前无明显重要既往病史。,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,8c0b2c63-7e84-4f8a-9d88-69ddc7dd0f73,患者,主诉,,文本型,有症状的5 cm腹主动脉瘤，伴腹痛和腰背痛。,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,ad8b8a7d-fb25-4f15-8da6-6dd7c1af8d23,患者,诊断名称,,类别型,腹主动脉瘤,,症状性，5 cm,,,LLM提取,论文病例报告,2012-01-01,诊断,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,5c3f9cc8-00d5-4c2d-b2a8-7d5b8b1a7f1e,患者,手术名称,,类别型,腹主动脉瘤腔内修复术（EVAR）,,,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,5c3f9cc8-00d5-4c2d-b2a8-7d5b8b1a7f1e,患者,手术结果,,文本型,手术完成,,,,,LLM提取,论文病例报告,2012-01-01,手术,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,5c3f9cc8-00d5-4c2d-b2a8-7d5b8b1a7f1e,患者,支架型号,,类别型,Endurant II aortic stent graft,,"Medtronic, Minneapolis, Minn",,,LLM提取,论文病例报告,2012-01-01,手术,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,2cf8f5f5-3f67-4f2d-8f6f-9ad8f0f3ce3d,CTA,影像所见,,文本型,术前CTA未见即将破裂或LMS证据，动脉瘤腔内为均质血栓，未见可疑异常。,,腹主动脉瘤约5 cm,,computed tomography angiography,LLM提取,论文病例报告,2012-01-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,2cf8f5f5-3f67-4f2d-8f6f-9ad8f0f3ce3d,CTA,影像结论,,文本型,未见疑似肿瘤或即将破裂征象。,,,,computed tomography angiography,LLM提取,论文病例报告,2012-01-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,4d5c3d89-5fd6-4e92-8ed2-6f4f0dd1f9a1,患者,随访结果,,文本型,EVAR后规律随访，CTA显示主动脉囊稳定，无可疑病灶。,,2012至2016年间,,,LLM提取,论文病例报告,2016-01-01,病程,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,4d5c3d89-5fd6-4e92-8ed2-6f4f0dd1f9a1,CTA,影像结论,,文本型,EVAR后复查显示主动脉外观正常，支架在位。,,,,computed tomography angiography,LLM提取,论文病例报告,2016-01-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,9abf0b63-6d74-4f77-a4d8-f4f13f6fd2c2,患者,诊断名称,,类别型,IIb型内漏,,双侧髂支相关,,,LLM提取,论文病例报告,2017-01-01,诊断,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,9abf0b63-6d74-4f77-a4d8-f4f13f6fd2c2,患者,诊断名称,,类别型,动脉瘤囊隐匿性扩大,,>0.5 cm,,,LLM提取,论文病例报告,2017-01-01,诊断,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,9abf0b63-6d74-4f77-a4d8-f4f13f6fd2c2,患者,手术名称,,类别型,再次EVAR并双侧髂动脉延长术,,,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,9abf0b63-6d74-4f77-a4d8-f4f13f6fd2c2,患者,手术结果,,文本型,在本中心成功实施。,,,,,LLM提取,论文病例报告,2017-01-01,手术,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,d4cc1ed0-7f4c-4f0a-9c2a-7f4b8f9c7c3a,双下肢,治疗方案,,类别型,家庭式序贯加压装置,,用于外周动脉疾病,,,LLM提取,论文病例报告,2019-04-01,用药,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,d4cc1ed0-7f4c-4f0a-9c2a-7f4b8f9c7c3a,患者,治疗方案,,类别型,最佳药物治疗,,,,,LLM提取,论文病例报告,2019-04-01,用药,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,c2d9a5b8-0f92-4f7b-8e3a-7c4d2cbbd5dd,患者,主诉,,文本型,耻骨上区和右侧腰部疼痛。,,随后加重，伴静息时下背痛和左腿痛,,,LLM提取,论文病例报告,2019-07-01,病史,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,c2d9a5b8-0f92-4f7b-8e3a-7c4d2cbbd5dd,患者,症状变化,,文本型,3个月内体重下降约18 kg。,18,,kg,,LLM提取,论文病例报告,2019-07-01,病程,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,f9a3f4c6-8d76-4f5f-95a6-b7f1b1c9d7b1,CT,影像所见,,文本型,动脉瘤囊增大至7.4 cm，血管轮廓改变，移植物左主支血栓形成，未见内漏。,7.4,囊增大；左主支血栓形成,cm,computed tomography,LLM提取,论文病例报告,2019-07-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,f9a3f4c6-8d76-4f5f-95a6-b7f1b1c9d7b1,CT,影像结论,,文本型,提示动脉瘤囊快速扩大并伴移植物血栓形成，未见内漏证据。,,,,computed tomography,LLM提取,论文病例报告,2019-07-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,7e7d9b0a-3d3f-4f6d-9e2d-2d9c7e6c1b8e,患者,检验项目,,类别型,白细胞计数 12000/mm3,12000,,/mm3,,LLM提取,论文病例报告,2019-07-01,检验,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,7e7d9b0a-3d3f-4f6d-9e2d-2d9c7e6c1b8e,患者,检验项目,,类别型,C反应蛋白 56 mg/dL,56,,mg/dL,,LLM提取,论文病例报告,2019-07-01,检验,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,a1a8f3c7-4f2a-4b4a-9f2d-1f8d4b6c7e9a,PET,影像所见,,文本型,主动脉FDG摄取增高，右臀部活跃结节，右肺亦见活跃结节。,,,,positron emission tomography,LLM提取,论文病例报告,2019-07-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,a1a8f3c7-4f2a-4b4a-9f2d-1f8d4b6c7e9a,PET,影像结论,,文本型,提示主动脉及远处软组织病灶代谢活跃，考虑恶性肿瘤。,,右臀部、右肺,,positron emission tomography,LLM提取,论文病例报告,2019-07-01,影像,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,6b5d1f0a-9c4d-4f1f-8c3a-2e8d7a1c9b0f,右臀部病灶,病理诊断,,文本型,LMS,,活检证实,,biopsy,LLM提取,论文病例报告,2019-07-01,病理,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,0f7b2c1a-8d9e-4a2b-9c3d-5e1f2a3b4c5d,患者,病程,,文本型,1周内出现右小腿实性病灶。,,,,,LLM提取,论文病例报告,2019-07-08,病程,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,0f7b2c1a-8d9e-4a2b-9c3d-5e1f2a3b4c5d,患者及家属,治疗方案,,类别型,姑息治疗,,拒绝主动脉活检及进一步手术干预,,,LLM提取,论文病例报告,2019-07-08,病程,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,1c9f2a3b-4d5e-4f6a-8b7c-9d0e1f2a3b4c,患者,死亡,,文本型,死亡,,2020年1月,,,LLM提取,论文病例报告,2020-01-01,病程,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,1c9f2a3b-4d5e-4f6a-8b7c-9d0e1f2a3b4c,患者,随访结果,,文本型,病情快速恶化并死亡。,,,,,LLM提取,论文病例报告,2020-01-01,病程,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,e7c1b2a3-4d5e-4f6a-8b7c-9d0e1f2a3b4d,尸检,病理诊断,,文本型,腹主动脉平滑肌肉瘤（aortic LMS）,,尸检确认,,autopsy,LLM提取,论文病例报告,2020-01-01,病理,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,e7c1b2a3-4d5e-4f6a-8b7c-9d0e1f2a3b4d,尸检,病理所见,,文本型,腹膜后巨大肿块，广泛坏死，肿瘤包绕腹主动脉并累及支架，且有肝脏和右肺多发转移结节。,,肿块200×150 mm；肝最大30×25 mm,mm,autopsy,LLM提取,论文病例报告,2020-01-01,病理,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,e7c1b2a3-4d5e-4f6a-8b7c-9d0e1f2a3b4d,尸检,免疫组化,,文本型,"vimentin(+), smooth muscle actin(+), cKit(-), S100(-), CD31(-), CD99(-), CD34(-)",,,,immunohistochemistry,LLM提取,论文病例报告,2020-01-01,病理,v1
+dc16472698a0dba5a4523ced6024bafb,aa0b12c12f1346caaac8478527477275,e7c1b2a3-4d5e-4f6a-8b7c-9d0e1f2a3b4d,尸检,分化程度,,类别型,高级别,,梭形细胞为主，核异型明显，核分裂多见，伴上皮样形态及广泛坏死,,histology,LLM提取,论文病例报告,2020-01-01,病理,v1

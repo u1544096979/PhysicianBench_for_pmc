@@ -1,0 +1,56 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,2f1b6f2a-9f93-4f7e-bf9f-5e6d1a9d2c11,患者,入院年龄,,数值型,18,18,,岁,,LLM提取,论文病例报告,2007-01-01,入院,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,8d1c8d6f-6c88-4e47-9c3e-5f5a5b5b1d22,患者,主诉,,文本型,"polyarthralgia, fever, malar rash, and fatigue",,,,,LLM提取,论文病例报告,2007-01-01,病史,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,8d1c8d6f-6c88-4e47-9c3e-5f5a5b5b1d22,患者,现病史,,文本型,2007年因多关节痛、发热、蝶形红斑和乏力就诊，后诊断为系统性红斑狼疮。,,,,,LLM提取,论文病例报告,2007-01-01,病史,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f0c3f7b3-8d9b-4b67-9f57-1f63d5a7a3c3,患者,诊断名称,,类别型,系统性红斑狼疮,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f0c3f7b3-8d9b-4b67-9f57-1f63d5a7a3c3,患者,诊断编码,,类别型,American College of Rheumatology criteria,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f0c3f7b3-8d9b-4b67-9f57-1f63d5a7a3c3,患者,分子标志物,,类别型,anti-DS-DNA阳性; anti-Sm阳性; anti-Ro阳性; anti-RNP阳性; C3/C4降低,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f0c3f7b3-8d9b-4b67-9f57-1f63d5a7a3c3,患者,临床表现,,文本型,自身免疫性溶血性贫血（直接Coombs试验阳性）和白细胞减少,,,,,LLM提取,论文病例报告,2007-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a8c1e0d2-7b52-4a62-9c2e-4d8a3f6c7e44,患者,药品名称,,类别型,羟氯喹,,,,,LLM提取,论文病例报告,2007-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a8c1e0d2-7b52-4a62-9c2e-4d8a3f6c7e44,患者,药品名称,,类别型,泼尼松龙,,,,,LLM提取,论文病例报告,2007-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,3f1b7c8d-2e55-4f66-9d7d-6c7d8e9f0a11,患者,药品名称,,类别型,吗替麦考酚酯,,,,,LLM提取,论文病例报告,2007-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,3f1b7c8d-2e55-4f66-9d7d-6c7d8e9f0a11,患者,治疗方案,,文本型,HCQ + prednisolone，后加MMF,,,,,LLM提取,论文病例报告,2007-01-01,病程,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,7f2a3b4c-5d6e-4f7a-8b9c-0d1e2f3a4b5c,患者,既往史,,文本型,既往有复发性流产史。,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,9a1b2c3d-4e5f-6071-8293-a4b5c6d7e8f9,患者,药品名称,,类别型,硫唑嘌呤,,,,,LLM提取,论文病例报告,2012-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,9a1b2c3d-4e5f-6071-8293-a4b5c6d7e8f9,患者,药品名称,,类别型,羟氯喹,,,,,LLM提取,论文病例报告,2012-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,9a1b2c3d-4e5f-6071-8293-a4b5c6d7e8f9,患者,药品名称,,类别型,低分子肝素,,,,,LLM提取,论文病例报告,2012-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,9a1b2c3d-4e5f-6071-8293-a4b5c6d7e8f9,患者,治疗方案,,文本型,妊娠期间改为硫唑嘌呤和HCQ，并使用低分子肝素,,,,,LLM提取,论文病例报告,2012-01-01,病程,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,b1c2d3e4-f5a6-4789-9abc-def012345678,患者,药品名称,,类别型,吗替麦考酚酯,,,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,b1c2d3e4-f5a6-4789-9abc-def012345678,患者,药品名称,,类别型,羟氯喹,,,,,LLM提取,论文病例报告,2013-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,c1d2e3f4-a5b6-4789-9abc-def123456789,患者,药品名称,,类别型,类固醇,,,,,LLM提取,论文病例报告,2015-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,c1d2e3f4-a5b6-4789-9abc-def123456789,患者,治疗方案,,文本型,MMF、HCQ继续使用，并加用激素,,,,,LLM提取,论文病例报告,2015-01-01,病程,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,d1e2f3a4-b5c6-4789-9abc-def234567890,骨髓,检验项目,,类别型,骨髓检查：高细胞性,,IHC: CD61阳性、MPO阳性；FISH显示BCR-ABL t(9;22)(q34;q11)相互易位，形成费城染色体,,骨髓穿刺/活检; IHC; FISH,LLM提取,论文病例报告,2016-11-01,检验,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,d1e2f3a4-b5c6-4789-9abc-def234567890,骨髓,细胞密度,,类别型,高细胞性,,,,,LLM提取,论文病例报告,2016-11-01,检验,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,d1e2f3a4-b5c6-4789-9abc-def234567890,骨髓,免疫组化,,文本型,CD61阳性；MPO阳性,,,,IHC,LLM提取,论文病例报告,2016-11-01,检验,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,d1e2f3a4-b5c6-4789-9abc-def234567890,骨髓,分子标志物,,类别型,BCR-ABL t(9;22)(q34;q11)相互易位/费城染色体,,,,FISH（LSI ABL1/BCR t(9;22) dual color translocation probe）,LLM提取,论文病例报告,2016-11-01,检验,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,e1f2a3b4-c5d6-4789-9abc-def345678901,患者,诊断名称,,类别型,慢性髓性白血病,,,,,LLM提取,论文病例报告,2016-11-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,e1f2a3b4-c5d6-4789-9abc-def345678901,患者,风险分层,,类别型,SOKAL中危,,pre-treatment SOKAL score 0.85,,,LLM提取,论文病例报告,2016-11-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f1a2b3c4-d5e6-4789-9abc-def456789012,患者,药品名称,,类别型,达沙替尼,,,,,LLM提取,论文病例报告,2016-11-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f1a2b3c4-d5e6-4789-9abc-def456789012,患者,剂量,,数值型,100,100,,mg,,LLM提取,论文病例报告,2016-11-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f1a2b3c4-d5e6-4789-9abc-def456789012,患者,治疗方案,,文本型,达沙替尼100 mg治疗,,,,,LLM提取,论文病例报告,2016-11-01,病程,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f2a3b4c5-d6e7-4890-9abc-def567890123,患者,病程,,文本型,接受达沙替尼治疗期间关节滑膜炎加重，予利妥昔单抗控制症状。,,,,,LLM提取,论文病例报告,2017-01-01,病程,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f2a3b4c5-d6e7-4890-9abc-def567890123,患者,药品名称,,类别型,利妥昔单抗,,,,,LLM提取,论文病例报告,2017-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f3a4b5c6-d7e8-4891-9abc-def678901234,患者,疗效评估,,类别型,血液学、细胞遗传学和分子学缓解,,初始缓解为短暂，后经咨询后维持至12个月末,,,LLM提取,论文病例报告,2017-11-01,评估,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f4a5b6c7-d8e9-4892-9abc-def789012345,患者,主诉,,文本型,multiple oral mucosal ulcerations,,,,,LLM提取,论文病例报告,2021-10-01,病史,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f4a5b6c7-d8e9-4892-9abc-def789012345,患者,现病史,,文本型,CML缓解期间出现多发口腔黏膜溃疡。,,,,,LLM提取,论文病例报告,2021-10-01,病史,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f5a6b7c8-d9e0-4893-9abc-def890123456,患者,影像所见,,文本型,left lateral border of the tongue lesion with no significant neck nodes,,,,CT,LLM提取,论文病例报告,2021-12-01,影像,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f5a6b7c8-d9e0-4893-9abc-def890123456,患者,影像结论,,文本型,左侧舌缘病灶，无明显颈部淋巴结肿大,,,,CT,LLM提取,论文病例报告,2021-12-01,影像,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f6a7b8c9-d0e1-4894-9abc-def901234567,舌病灶,病理诊断,,文本型,中-低分化鳞状细胞癌,,,,活检病理,LLM提取,论文病例报告,2021-12-01,病理,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f6a7b8c9-d0e1-4894-9abc-def901234567,舌病灶,免疫组化,,文本型,AE1/AE3阳性,,,,IHC,LLM提取,论文病例报告,2021-12-01,病理,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f7a8b9c0-d1e2-4895-9abc-def012345678,患者,手术名称,,类别型,左侧舌缘病灶广泛局部切除+左侧改良性颈清扫,,,,,LLM提取,论文病例报告,2022-01-01,手术,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f7a8b9c0-d1e2-4895-9abc-def012345678,患者,手术结果,,文本型,切缘阴性,,,,,LLM提取,论文病例报告,2022-01-01,手术,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4896-9abc-def123456780,患者,诊断名称,,类别型,舌鳞状细胞癌,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4895-9abc-def123456780,患者,病理分期,,类别型,pT3N0,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4896-9abc-def123456780,患者,临床分期,,类别型,无颈部淋巴结转移,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4896-9abc-def123456780,患者,最大肿瘤大小,,数值型,3.6,3.6,,cm,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4895-9abc-def123456780,患者,DOI,,数值型,9,9,,mm,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4896-9abc-def123456780,患者,WPOI,,类别型,5,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4896-9abc-def123456780,患者,神经周围侵犯,,类别型,局灶性,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,f8a9b0c1-d2e3-4896-9abc-def123456780,患者,淋巴血管间隙侵犯,,类别型,无,,,,,LLM提取,论文病例报告,2022-01-01,诊断,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a1b2c3d4-e5f6-4897-9abc-def234567891,患者,治疗方案,,文本型,术后辅助放疗（PORT）,,因高危病理特征,,,LLM提取,论文病例报告,2022-01-01,病程,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a1b2c3d4-e5f6-4897-9abc-def234567891,患者,放疗方案,,文本型,VMAT，SIB技术,,"6 MV photons, multiple arcs",,Eclipse treatment planning system; Truebeam STx,LLM提取,论文病例报告,2022-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a1b2c3d4-e5f6-4897-9abc-def234567891,患者,剂量,,数值型,60,60,30 fractions,Gy,,LLM提取,论文病例报告,2022-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a1b2c3d4-e5f6-4897-9abc-def234567891,患者,剂量,,数值型,54,54,"30 fractions, bilateral neck level I-IV",Gy,,LLM提取,论文病例报告,2022-01-01,用药,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a1b2c3d4-e5f6-4897-9abc-def234567891,患者,不良反应名称,,类别型,口腔黏膜反应,,2级,,,LLM提取,论文病例报告,2022-01-01,不良反应,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,a1b2c3d4-e5f6-4897-9abc-def234567891,患者,不良反应名称,,类别型,皮肤反应,,2级,,,LLM提取,论文病例报告,2022-01-01,不良反应,v1
+4bcb64804b551b91a0eff6d64de7fe4c,71a788c7357c6ee45c1a24a7d41ca7c3_1,b2c3d4e5-f6a7-4898-9abc-def345678902,患者,随访结果,,文本型,放疗后规律随访，未见异常局部皮肤或黏膜毒性；目前舌部局部区域无临床-影像学复发证据，已持续2年。,,,,临床-影像随访,LLM提取,论文病例报告,2024-01-01,病程,v1

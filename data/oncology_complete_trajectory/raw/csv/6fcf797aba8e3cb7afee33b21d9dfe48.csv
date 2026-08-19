@@ -1,0 +1,78 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,d2d5a8d7-6f7e-4a2d-b1c7-7f8c5e2c0f01,患者,入院年龄,,数值型,43,43,,岁,,LLM提取,论文病例报告,2022-12-01,入院,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,d2d5a8d7-6f7e-4a2d-b1c7-7f8c5e2c0f01,患者,入院科室,,类别型,妇科,,,,,LLM提取,论文病例报告,2022-12-01,入院,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,d3c0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a67,患者,既往史,,文本型,子宫肌瘤4年，因贫血有输血史；既往有下肢深静脉血栓病史,,,,,LLM提取,论文病例报告,2022-12-01,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,d3c0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a67,患者,个人史,,文本型,未使用过口服短效避孕药；未接种COVID-19疫苗,,,,,LLM提取,论文病例报告,2022-12-01,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,d3c0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a67,患者,月经史,,文本型,月经周期30天，经期4天，经量中等，无痛经,,,,,LLM提取,论文病例报告,2022-12-01,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,d3c0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a67,患者,孕产史,,文本型,G3P1,,,,,LLM提取,论文病例报告,2022-12-01,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,4c4c5e6e-7f80-4a91-8b92-9c0d1e2f3a4b,患者,主诉,,文本型,子宫肌瘤4年，近3个月月经不规则,,,,,LLM提取,论文病例报告,2022-12-01,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5a5b6c7d-8e9f-4a0b-9c1d-2e3f4a5b6c7d,患者,查体,,文本型,宫颈光滑，宫颈管内见约3 cm肿物脱出，呈息肉样、形态不规则；盆腔及腹部触及约5个月妊娠子宫大小肿块，边界清楚，无明显压痛,,,,,LLM提取,论文病例报告,2022-12-01,评估,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,6a6b7c8d-9e0f-4b1a-8c2d-3e4f5a6b7c8d,宫颈新生物,病理诊断,,文本型,子宫内膜息肉,,,,病理检查,LLM提取,论文病例报告,2022-12-01,病理,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,7b7c8d9e-0f1a-4b2c-9d3e-4f5a6b7c8d9e,超声检查,影像所见,,文本型,未见正常子宫结构，盆腹腔见20.6 cm × 17.7 cm × 10.7 cm低回声肿块，形态不规则、回声不均；宫颈管向下突出约2.6 cm × 2.0 cm；其周围另见18.3 cm × 14.3 cm × 8.3 cm低回声肿块,,,,经阴道超声,LLM提取,论文病例报告,2022-12-01,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,8c8d9e0f-1a2b-4c3d-9e4f-5a6b7c8d9e0f,左下肢血管超声,影像所见,,文本型,左下肢肌间静脉血栓，约4.1 cm长,,,,血管超声,LLM提取,论文病例报告,2022-12-01,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,8c8d9e0f-1a2b-4c3d-9e4f-5a6b7c8d9e0f,血液,D-二聚体,,数值型,1340,1340,,ng/mL,,LLM提取,论文病例报告,2022-12-01,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,9d9e0f1a-2b3c-4d5e-9f6a-7b8c9d0e1f2a,患者,诊断名称,,类别型,左下肢深静脉血栓形成,,,,,LLM提取,论文病例报告,2022-12-01,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,0a0b1c2d-3e4f-4a5b-8c6d-7e8f9a0b1c2d,患者,病程/既往治疗,,文本型,曾口服利伐沙班抗凝后自行停药，未再就诊；因感染COVID-19、发热及胸部CT示肺部炎症，原定手术延期,,,,,LLM提取,论文病例报告,2022-12-01,病程,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,1b1c2d3e-4f5a-4b6c-9d7e-8f9a0b1c2d3e,患者,主诉,,文本型,阴道脱出肿物2天,,,,,LLM提取,论文病例报告,2023-12-14,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,1b1c2d3e-4f5a-4b6c-9d7e-8f9a0b1c2d3e,患者,现病史,,文本型,咳嗽后阴道内肿物脱出，无法回纳，伴少量阴道流血；自觉乏力、轻度胸闷憋气、明显腹痛及腰骶部痛、排尿困难,,,,,LLM提取,论文病例报告,2023-12-14,病史,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,2c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e5f,患者,查体,,文本型,腹部膨隆，下腹可触及坚硬肿块约25 cm，上缘达脐上4 cm；左下肢轻度水肿；阴道脱出肿物约8 cm，柱状，堵塞阴道口，紫红色，沿阴道向上延伸，伴大量淡黄色、异味阴道分泌物；宫颈未触及；盆腹腔可触及>6个月妊娠子宫大小肿块，无压痛,,,,,LLM提取,论文病例报告,2023-12-14,评估,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,3d3e4f5a-6b7c-4d8e-9f0a-1b2c3d4e5f6a,患者,入院诊断,,文本型,可疑子宫肌瘤、阴道脱出肿物并感染、既往深静脉血栓史,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,4e4f5a6b-7c8d-4e9f-0a1b-2c3d4e5f6a7b,超声检查,影像所见,,文本型,盆腹腔实性低回声肿块，至少27 cm × 24 cm × 14 cm，内部回声不均，可见多个不规则囊腔，边缘环状强回声；肿块上缘达剑突下，下缘突至阴道口外,,,,经阴道超声,LLM提取,论文病例报告,2023-12-14,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,D-二聚体,,数值型,14620,14620,参考范围0–500,ng/mL,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,凝血酶原时间,,数值型,正常,,,,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,活化部分凝血活酶时间,,数值型,正常,,,,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,白细胞计数,,数值型,15.25,15.25,参考范围3.5–9.5,×10^9/L,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,血红蛋白,,数值型,84,84,参考范围115–150,g/L,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,C反应蛋白,,数值型,61.55,61.55,参考范围0–5,mg/L,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,降钙素原,,数值型,0.068,0.068,参考范围0–0.05,ng/mL,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,5f5a6b7c-8d9e-4f0a-1b2c-3d4e5f6a7b8c,血液,CA125,,数值型,106,106,参考范围0–47,U/mL,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,6a6b7c8d-9e0f-4f1a-8b2c-3d4e5f6a7b8c,左下肢血管超声,影像所见,,文本型,左侧股总静脉、腘静脉、胫后静脉、腓静脉、小腿肌间静脉、大隐静脉、小隐静脉内见实性低回声充填，诊断为左下肢深静脉血栓形成,,,,血管超声,LLM提取,论文病例报告,2023-12-14,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,7b7c8d9e-0f1a-4b2c-9d3e-4f5a6b7c8d9e,心脏超声,影像所见,,文本型,肺动脉压66 mmHg，提示重度肺动脉高压；右心房、右心室增大，右心功能减低，重度三尖瓣反流,,,,超声心动图,LLM提取,论文病例报告,2023-12-14,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,8c8d9e0f-1a2b-4c3d-9e4f-5a6b7c8d9e0f,肺动脉CT血管造影,影像所见,,文本型,双侧肺动脉多节段充盈缺损，累及左肺动脉、左上肺动脉、左下肺动脉、右肺动脉、右上肺动脉、右下肺动脉，提示双侧肺动脉多发血栓栓塞,,,,CT血管造影,LLM提取,论文病例报告,2023-12-14,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,9d9e0f1a-2b3c-4d5e-9f6a-7b8c9d0e1f2a,下腔静脉CT血管造影,影像所见,,文本型,未见下腔静脉血栓,,,,CT血管造影,LLM提取,论文病例报告,2023-12-14,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,adadbeef-1234-4abc-9def-1234567890ab,血液,高敏肌钙蛋白T,,数值型,0.333,0.333,参考范围0–0.014,µg/L,,LLM提取,论文病例报告,2023-12-14,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,双侧肺动脉多发肺栓塞,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,左下肢深静脉血栓形成,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,急性心功能不全,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,急性肾功能不全,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,休克,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,重度肺动脉高压,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,重度三尖瓣反流,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,贫血,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,低蛋白血症,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,bdc0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a68,患者,诊断名称,,类别型,高乳酸血症,,,,,LLM提取,论文病例报告,2023-12-14,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,cec0f2c2-0f7b-4d7c-a0d4-1c2f3d4e5a69,患者,病程,,文本型,转入ICU，予去甲肾上腺素等血管活性药物，静脉泵入；予亚胺培南-西司他丁1 g q8h抗感染；输注红细胞改善氧合，纠正低蛋白血症，控制补液速度与总量并给予利尿治疗,,,,,LLM提取,论文病例报告,2023-12-14,病程,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,dedeadbe-1234-4abc-9def-abcdef123456,患者,治疗方案,,类别型,低分子肝素抗凝,,术前12小时停药,,,LLM提取,论文病例报告,2023-12-14,用药,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,dedeadbe-1234-4abc-9def-abcdef123456,患者,用药名称,,类别型,低分子肝素,,术前抗凝,,,LLM提取,论文病例报告,2023-12-14,用药,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,efefefef-5678-4abc-9def-abcdef654321,患者,手术名称,,类别型,下腔静脉滤器置入术,,经右股静脉入路，滤器置于L2–3椎体水平,,,LLM提取,论文病例报告,2023-12-18,手术,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,efefefef-5678-4abc-9def-abcdef654321,患者,手术名称,,类别型,开腹子宫切除术,,同时行右附件切除术、左输卵管切除术,,,LLM提取,论文病例报告,2023-12-18,手术,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,efefefef-5678-4abc-9def-abcdef654321,患者,麻醉方式,,类别型,全身麻醉,,,,,LLM提取,论文病例报告,2023-12-18,手术,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,efefefef-5678-4abc-9def-abcdef654321,患者,手术结果,,文本型,手术顺利，止血精细；术中未见子宫旁及双侧髂内血管明显增厚或变硬，未触及管腔内条索状肿物,,,,,LLM提取,论文病例报告,2023-12-18,手术,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,efefefef-5678-4abc-9def-abcdef654321,患者,出血量,,数值型,100,100,,mL,,LLM提取,论文病例报告,2023-12-18,手术,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,f0f1f2f3-4567-4a5b-8c9d-0e1f2a3b4c5d,手术标本,病理诊断,,文本型,平滑肌来源肿瘤，伴出血和梗死；肿瘤巨大，无明显细胞异型性，部分区域变性、水肿，血管丰富；子宫肌层局灶大血管内见瘤栓结构,,,,术后病理,LLM提取,论文病例报告,2023-12-18,病理,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,f0f1f2f3-4567-4a5b-8c9d-0e1f2a3b4c5d,手术标本,分化程度,,类别型,平滑肌肿瘤,,,,术后病理,LLM提取,论文病例报告,2023-12-18,病理,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,脱出性子宫平滑肌瘤伴感染,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,血管内平滑肌瘤病,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,双侧肺动脉多发肺栓塞,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,深静脉血栓形成,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,循环衰竭,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,急性心功能不全,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,急性肾功能不全,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,重度肺动脉高压,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,重度三尖瓣反流,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,贫血,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,低蛋白血症,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,g1g2g3g4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,高乳酸血症,,,,,LLM提取,论文病例报告,2023-12-18,诊断,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,h1h2h3h4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,用药名称,,类别型,低分子肝素,,术后12小时恢复，5000 IU q12h，皮下注射,,,LLM提取,论文病例报告,2023-12-18,用药,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,h1h2h3h4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,治疗方案,,类别型,抗凝治疗,,术后恢复；联合间歇充气压力装置及抗血栓压力绷带,,,LLM提取,论文病例报告,2023-12-18,用药,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,i1i2i3i4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,病程,,文本型,术后第1天停用呼吸机，逐渐减停血管活性药物,,,,,LLM提取,论文病例报告,2023-12-19,病程,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,i1i2i3i4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,病程,,文本型,术后第3天转回妇科病房，胸闷、憋气消失，左下肢肿胀逐渐改善,,,,,LLM提取,论文病例报告,2023-12-21,病程,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,j1j2j3j4-5678-4a5b-8c9d-0e1f2a3b4c5d,肺动脉CT血管造影,影像所见,,文本型,术后7天复查，双侧下肺动脉部分分支仍见肺栓塞，但较前明显减少,,,,CT血管造影,LLM提取,论文病例报告,2023-12-25,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,k1k2k3k4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,出院状况,,类别型,好转出院,,,,,LLM提取,论文病例报告,2023-12-28,出院,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,k1k2k3k4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,出院诊断,,文本型,脱出性子宫肌瘤并感染、双侧肺动脉多发肺栓塞、左下肢深静脉血栓形成、急性心功能不全、急性肾功能不全、重度肺动脉高压、重度三尖瓣反流、贫血、低蛋白血症、高乳酸血症,,,,,LLM提取,论文病例报告,2023-12-28,出院,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,k1k2k3k4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,出院医嘱,,文本型,口服利伐沙班15 mg bid抗凝,,,,,LLM提取,论文病例报告,2023-12-28,出院,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,l1l2l3l4-5678-4a5b-8c9d-0e1f2a3b4c5d,肺动脉CT血管造影,影像所见,,文本型,术后1个月未见血栓,,,,CT血管造影,LLM提取,论文病例报告,2024-01-18,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,l1l2l3l4-5678-4a5b-8c9d-0e1f2a3b4c5d,左下肢血管超声,影像所见,,文本型,左深股静脉起始段见条索状高回声，宽约0.19 cm，考虑陈旧性血栓,,,,血管超声,LLM提取,论文病例报告,2024-01-18,影像,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,l1l2l3l4-5678-4a5b-8c9d-0e1f2a3b4c5d,血液,D-二聚体,,数值型,200,200,,ng/mL,,LLM提取,论文病例报告,2024-01-18,检验,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,m1m2m3m4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,用药名称,,类别型,利伐沙班,,维持剂量20 mg qd,,,LLM提取,论文病例报告,2024-01-18,用药,v1
+6fcf797aba8e3cb7afee33b21d9dfe48,741c89c7b4c38e1b8281df288df9bb4a,n1n2n3n4-5678-4a5b-8c9d-0e1f2a3b4c5d,患者,病程,,文本型,术后3个月肺动脉CT血管造影及下肢血管超声结果一致；无出血事件，D-二聚体280 ng/mL；3月29日成功取出下腔静脉滤器；之后继续利伐沙班20 mg qd，计划1个月后减量并停药,,,,,LLM提取,论文病例报告,2024-03-29,病程,v1

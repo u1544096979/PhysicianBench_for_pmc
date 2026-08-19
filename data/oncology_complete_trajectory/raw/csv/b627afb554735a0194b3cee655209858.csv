@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,2f8e0b6c-1b0a-4a3f-9e4a-1dbb4f7c9b11,患者,年龄,,数值型,28,28,,岁,,LLM提取,论文病例报告,2004-01-01,病史,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,2f8e0b6c-1b0a-4a3f-9e4a-1dbb4f7c9b11,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2004-01-01,病史,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,2f8e0b6c-1b0a-4a3f-9e4a-1dbb4f7c9b11,患者,现病史,,文本型,2004年至2007年间反复出现呕吐、全身不适和腹泻。,,,,,LLM提取,论文病例报告,2004-01-01,病史,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,c5d0ef6c-0a59-4f7e-9d2c-3b36b6fb2f63,患者,入院,,类别型,入院,,因低钠血症,,,LLM提取,论文病例报告,2004-01-01,入院,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,c5d0ef6c-0a59-4f7e-9d2c-3b36b6fb2f63,患者,主诉,,文本型,反复呕吐、全身不适和腹泻,,持续约3年,,,LLM提取,论文病例报告,2004-01-01,入院,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,114,114,低钠血症最低血清钠,mEq/L,,LLM提取,论文病例报告,2004-01-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,112,112,2007年7月再次入院时血钠,mEq/L,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,7.8,7.8,低钙,mg/dL,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,247,247,低血清渗透压,mOsm/kg,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,419,419,低尿渗透压,mOsm/kg,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,2.9,2.9,低磷,mg/dL,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,2.9,2.9,低甲状旁腺激素,pg/mL,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,检验项目,,数值型,1026,1026,复查尿渗透压升高,mOsm/kg,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,尿钠,,类别型,正常,,,,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,皮质醇,,类别型,正常,,,,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,甲状腺功能,,类别型,正常,,,,,LLM提取,论文病例报告,2007-07-01,检验,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,诊断名称,,类别型,慢性SIADH,,,,,LLM提取,论文病例报告,2007-07-01,诊断,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,8f5b8d22-4d36-4a59-8c8e-0d0e1f1a3e20,患者,用药名称,,类别型,demeclocycline,,口服,,,LLM提取,论文病例报告,2007-07-01,用药,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,4f8d4f51-7a7f-4b4f-9a69-2af9c02b3c61,腹部CT,影像所见,,文本型,双侧肾结石，未见肿瘤性病变证据。,,,,CT,LLM提取,论文病例报告,2007-07-01,影像,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,9a6b2e7c-0f72-4c42-9d6f-6f0b3a4f8c72,脑MRI,影像所见,,文本型,左侧鼻腔内见异质性肿块，T2高信号、T1低信号，未见颅内受累。,,,,钆增强MRI,LLM提取,论文病例报告,2007-07-01,影像,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,b0c6ef8a-9d25-4d7d-8b7d-2c5f8f3e5a10,鼻窦CT,影像所见,,文本型,左侧ostiomeatal unit和中鼻甲为中心的生长缓慢样肿块，伴点状钙化，突入左上颌窦，并向上延伸至筛板。,,,,CT,LLM提取,论文病例报告,2007-07-01,影像,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,d7f8d9a1-3c0b-4d56-9f0e-7d8c9b0a1b23,耳鼻喉科门诊,评估,,文本型,鼻腔肿块评估,,转诊耳鼻喉科,,内镜,LLM提取,论文病例报告,2007-07-01,评估,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,d7f8d9a1-3c0b-4d56-9f0e-7d8c9b0a1b23,鼻腔肿块,查体,,文本型,左侧ostiomeatal unit处可见2 cm边界光滑的息肉样肿块，向上并向鼻中隔方向延伸。,,,,内镜,LLM提取,论文病例报告,2007-07-01,评估,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,e3d1b1c2-9f3a-4f9e-9b66-1a2b3c4d5e6f,患者,妊娠状态,,类别型,孕10周,,在肿块诊治期间发现,,,LLM提取,论文病例报告,2007-07-01,病史,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,f1a2b3c4-d5e6-4f70-8a90-b1c2d3e4f5a6,患者,手术名称,,类别型,鼻内镜下肿瘤全切除术,,妊娠第二孕期实施,,,LLM提取,论文病例报告,2007-10-01,手术,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,f1a2b3c4-d5e6-4f70-8a90-b1c2d3e4f5a6,患者,手术结果,,文本型,肿瘤被完整切除，来源于左侧鼻外侧壁，易于与下方骨质分离。,,延伸至筛板区，未见明显与上鼻腔附着,,,LLM提取,论文病例报告,2007-10-01,手术,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,a7b8c9d0-e1f2-4a3b-9c8d-0e1f2a3b4c5d,病理标本,病理诊断,,文本型,1级嗅神经母细胞瘤（esthesioneuroblastoma）,,中鼻甲残端切缘受累,,HE染色及免疫组化,LLM提取,论文病例报告,2007-10-01,病理,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,a7b8c9d0-e1f2-4a3b-9c8d-0e1f2a3b4c5d,病理标本,免疫组化,,文本型,Chromogranin阳性; GFAP阳性; pancytokeratin阳性; neurofilament protein阳性; NSE阳性; Neu-N阳性; S-100阳性; synaptophysin阳性,,,,免疫组化,LLM提取,论文病例报告,2007-10-01,病理,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,c6d7e8f9-a0b1-4c2d-8e9f-1a2b3c4d5e6f,患者,诊断名称,,类别型,1级嗅神经母细胞瘤,,,,,LLM提取,论文病例报告,2007-10-01,诊断,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,c6d7e8f9-a0b1-4c2d-8e9f-1a2b3c4d5e6f,患者,临床分期,,类别型,未报告,,,,,LLM提取,论文病例报告,2007-10-01,诊断,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,患者,病程,,文本型,术后病理提示恶性肿瘤，建议扩大切除以确保阴性切缘；患者选择待分娩后再行追加手术。,,期间血钠和渗透压恢复正常,,,LLM提取,论文病例报告,2007-10-01,病程,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6,患者,分娩情况,,文本型,妊娠经过顺利分娩,,约首次手术后8个月,,,LLM提取,论文病例报告,2008-06-01,病程,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,e7f8a9b0-c1d2-4e3f-8a90-b1c2d3e4f5a7,患者,手术名称,,类别型,左侧鼻腔外侧壁扩大切除术,,分娩后实施,,,LLM提取,论文病例报告,2008-06-01,手术,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,e7f8a9b0-c1d2-4e3f-8a90-b1c2d3e4f5a7,手术标本,病理诊断,,类别型,未见残余恶性肿瘤,,第二次手术所有标本阴性,,病理检查,LLM提取,论文病例报告,2008-06-01,病理,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,f9a0b1c2-d3e4-4f5a-8a90-b1c2d3e4f5a8,多学科肿瘤委员会,评估,,文本型,不需要辅助放疗或化疗,,共识意见,,,LLM提取,论文病例报告,2008-06-01,评估,v1
+b627afb554735a0194b3cee655209858,3cc10bd42abfbbdd1e0e9daffa5fc9aa,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5e,患者,随访结果,,文本型,术后2年内未见复发，血钠持续正常。,,,,,LLM提取,论文病例报告,2010-06-01,病程,v1

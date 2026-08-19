@@ -1,0 +1,66 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,3d7d2af0-8d3f-4b4f-b33e-3b6b6e1f6f01,患者,性别,,类别型,男,,,,,LLM提取,论文病例报告,,病史,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,3d7d2af0-8d3f-4b4f-b33e-3b6b6e1f6f01,患者,年龄,,数值型,26,26,,岁,,LLM提取,论文病例报告,,病史,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,3d7d2af0-8d3f-4b4f-b33e-3b6b6e1f6f01,患者,既往诊断名称,,类别型,慢性期慢性髓性白血病（CML，BCR::ABL1 p210阳性）,,,,,LLM提取,论文病例报告,,病史,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,3d7d2af0-8d3f-4b4f-b33e-3b6b6e1f6f01,患者,既往治疗,,文本型,曾接受酪氨酸激酶抑制剂（TKI）治疗，具体为氟马替尼,,,,,LLM提取,论文病例报告,,病史,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,b7ed4d2d-8c6e-4eb7-8f2e-4c90ce5d3f3f,患者,主诉,,文本型,急性右眼疼痛，随后出现逐渐加重的骶尾部疼痛/肿块,,,,,LLM提取,论文病例报告,2024-03-01,病史,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,c6f8c61f-85a0-4c7d-bf0d-8dbdcfe5d0b1,患者,入院年龄,,数值型,26,26,,岁,,LLM提取,论文病例报告,2024-03-01,入院,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,c6f8c61f-85a0-4c7d-bf0d-8dbdcfe5d0b1,患者,入院科室,,类别型,未说明,,首次就诊/评估,,,LLM提取,论文病例报告,2024-03-01,入院,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,58d0f6f8-1c5f-4f8b-9f8f-83f5dd8d37b0,患者,血常规_WBC,,数值型,337.2,337.2,参考范围未提供,×10^9/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,58d0f6f8-1c5f-4f8b-9f8f-83f5dd8d37b0,患者,血常规_中性粒细胞,,数值型,252.9,252.9,参考范围未提供,×10^9/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,58d0f6f8-1c5f-4f8b-9f8f-83f5dd8d37b0,患者,血常规_嗜酸性粒细胞,,数值型,10.12,10.12,参考范围未提供,×10^9/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,58d0f6f8-1c5f-4f8b-9f8f-83f5dd8d37b0,患者,血常规_嗜碱性粒细胞,,数值型,13.49,13.49,参考范围未提供,×10^9/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,58d0f6f8-1c5f-4f8b-9f8f-83f5dd8d37b0,患者,血常规_血红蛋白,,数值型,88,88,参考范围未提供,g/L,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,b0d4a8a8-1d45-4f7a-b5c9-6b8e9f8e4d2d,患者,影像所见,,文本型,腹部超声示脾大,,,,超声,LLM提取,论文病例报告,2024-03-01,影像,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,9e6d5a37-0c20-4f47-a83b-5df4c2c1a4e2,骨髓,病理诊断,,文本型,骨髓象符合慢性髓性白血病（CML）,,骨髓活检示明显粒系增生,,骨髓涂片/活检,LLM提取,论文病例报告,2024-03-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,9e6d5a37-0c20-4f47-a83b-5df4c2c1a4e2,骨髓,流式细胞术,,文本型,原始细胞0.5%，粒细胞95.3%，嗜碱性粒细胞2.6%，伴轻度抗原表达异常,,,,流式细胞术,LLM提取,论文病例报告,2024-03-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,9e6d5a37-0c20-4f47-a83b-5df4c2c1a4e2,骨髓,染色体核型,,文本型,"46,XY,t(9;22)(q34;q11.2)",,Philadelphia染色体阳性,,常规细胞遗传学,LLM提取,论文病例报告,2024-03-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,0a1bcf10-4f23-4b6d-a8e6-8f4c0a1f2d3c,骨髓,BCR::ABL1转录本水平,,数值型,133.4897,133.4897,International Scale (IS),%,RT-qPCR,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,0a1bcf10-4f23-4b6d-a8e6-8f4c0a1f2d3c,骨髓,JAK2 V617F,,类别型,阴性,,,,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,0a1bcf10-4f23-4b6d-a8e6-8f4c0a1f2d3c,骨髓,CALR exon 9 indels,,类别型,阴性,,,,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,0a1bcf10-4f23-4b6d-a8e6-8f4c0a1f2d3c,骨髓,MPL W515,,类别型,阴性,,,,,LLM提取,论文病例报告,2024-03-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,1d4b7b8b-0f31-4b89-9f7d-3a5b5e6f7a11,患者,诊断名称,,类别型,慢性期慢性髓性白血病（p210亚型）,,初始诊断,,,LLM提取,论文病例报告,2024-03-01,诊断,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,2d1b9d3a-5a6d-4b3d-8c9a-7e1f2a3b4c5d,氟马替尼,药品名称,,类别型,氟马替尼,,,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,2d1b9d3a-5a6d-4b3d-8c9a-7e1f2a3b4c5d,氟马替尼,剂量,,数值型,600,600,每日一次,mg,,LLM提取,论文病例报告,2024-04-01,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,2d1b9d3a-5a6d-4b3d-8c9a-7e1f2a3b4c5d,氟马替尼,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,2d1b9d3a-5a6d-4b3d-8c9a-7e1f2a3b4c5d,氟马替尼,用药周期,,文本型,持续治疗,,,,,LLM提取,论文病例报告,2024-04-01,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,4d5e6f7a-8b9c-4d0e-a1b2-c3d4e5f60718,患者,治疗反应,,类别型,血液学缓解,,1个月后达到,,,LLM提取,论文病例报告,2024-05-01,病程,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,7f8e9d0c-1b2a-4c3d-8e9f-0a1b2c3d4e5f,骨髓,BCR::ABL1转录本水平,,数值型,5.1366,5.1366,International Scale (IS)；早期分子学反应,%,RT-qPCR,LLM提取,论文病例报告,2024-06-17,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,8a9b0c1d-2e3f-4a5b-9c0d-1e2f3a4b5c6d,患者,主诉,,文本型,骶尾部疼痛逐渐加重,,,,,LLM提取,论文病例报告,2024-07-01,病程,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e,患者,影像所见,,文本型,PET-CT示骶尾椎前方高代谢软组织肿块，大小3.8×1.3×4.2 cm,,,,PET-CT,LLM提取,论文病例报告,2024-07-01,影像,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,病理诊断,,文本型,小圆细胞未分化肉瘤（初步诊断）,,穿刺活检,,H&E/免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,AE1/AE3,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,Synaptophysin,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,LCA,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,desmin,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,SATB2,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,CD99,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,NKX2.2,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,WT1,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,CD34,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a0b1c2d3-e4f5-6789-abcd-ef0123456789,骶尾部肿块,pan-TRK,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2024-07-01,病理,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,d3e4f5a6-b7c8-49d0-8e1f-2a3b4c5d6e7f,骶尾部肿块,CIC重排FISH,,类别型,阴性,,,,FISH,LLM提取,论文病例报告,2024-07-01,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,e4f5a6b7-c8d9-4e0f-9a1b-2c3d4e5f6071,患者,药品名称,,类别型,VDC方案,,长春新碱+多柔比星+环磷酰胺,,,LLM提取,论文病例报告,2024-07-01,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,e4f5a6b7-c8d9-4e0f-9a1b-2c3d4e5f6071,患者,药品名称,,类别型,IE方案,,异环磷酰胺+依托泊苷,,,LLM提取,论文病例报告,2024-07-01,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f5a6b7c8-d9e0-4f1a-8b2c-3d4e5f607182,骶尾部肿块,治疗方案,,类别型,靶向RNA测序,,MP2024-21126 panel,,RNA-seq,LLM提取,论文病例报告,2024-09-30,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f5a6b7c8-d9e0-4f1a-8b2c-3d4e5f607182,骶尾部肿块,NPM1::CCDC28A,,类别型,阳性,,,,RNA-seq,LLM提取,论文病例报告,2024-09-30,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f5a6b7c8-d9e0-4f1a-8b2c-3d4e5f607182,骶尾部肿块,BCR::ABL1,,类别型,阳性,,,,RNA-seq,LLM提取,论文病例报告,2024-09-30,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708193,骨髓,骨髓原始细胞比例,,数值型,0.8,0.8,骨髓涂片,%,,LLM提取,论文病例报告,2024-10-10,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708193,骨髓,流式细胞术,,文本型,未见异常群体,,,,流式细胞术,LLM提取,论文病例报告,2024-10-10,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708193,骨髓,BCR::ABL1 FISH,,类别型,阴性,,间期FISH,,FISH,LLM提取,论文病例报告,2024-10-10,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708193,骨髓,染色体核型,,文本型,"46,XY",,正常核型,,常规细胞遗传学,LLM提取,论文病例报告,2024-10-10,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708193,骨髓,BCR::ABL1转录本水平,,数值型,0.00579,0.00579,International Scale (IS)；分子学缓解/深度分子反应,%,RT-qPCR,LLM提取,论文病例报告,2024-10-10,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,f6a7b8c9-d0e1-4f2a-9b3c-4d5e6f708193,骨髓,ABL1激酶区突变,,类别型,阴性,,Sanger测序,,Sanger测序,LLM提取,论文病例报告,2024-10-10,检验,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,4a5b6c7d-8e9f-4a0b-9c1d-2e3f4a5b6c7d,患者,诊断名称,,类别型,CML髓外原始细胞危象（骨髓基本缓解背景下）,,复评后,,,LLM提取,论文病例报告,2024-10-16,诊断,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,5b6c7d8e-9f0a-4b1c-8d2e-3f4a5b6c7d8e,患者,诊断名称,,类别型,CML原始细胞期（髓外）,,多学科讨论后,,,LLM提取,论文病例报告,2024-10-28,诊断,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e9f,氟马替尼,药品名称,,类别型,氟马替尼,,,,,LLM提取,论文病例报告,2024-10-28,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e9f,氟马替尼,剂量,,数值型,600,600,每日一次，继续使用,mg,,LLM提取,论文病例报告,2024-10-28,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e9f,患者,治疗方案,,类别型,MA方案,,脂质体米托蒽醌+阿糖胞苷,,,LLM提取,论文病例报告,2024-10-28,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e9f,患者,脂质体米托蒽醌剂量,,数值型,40,40,第1天,mg,,LLM提取,论文病例报告,2024-10-28,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,6c7d8e9f-0a1b-4c2d-8e3f-4a5b6c7d8e9f,患者,阿糖胞苷剂量,,数值型,100,100,190 mg实际剂量；第1-7天,mg/m²,,LLM提取,论文病例报告,2024-10-28,用药,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,7c8d9e0f-1a2b-4c3d-8e4f-5a6b7c8d9e0f,患者,不良反应名称,,类别型,骨髓抑制,,一过性,,,LLM提取,论文病例报告,2024-10-28,不良反应,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,7c8d9e0f-1a2b-4c3d-8e4f-5a6b7c8d9e0f,患者,处理措施,,文本型,支持治疗后缓解,,,,,LLM提取,论文病例报告,2024-10-28,不良反应,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,8d9e0f1a-2b3c-4d5e-9f0a-1b2c3d4e5f60,患者,影像所见,,文本型,骶尾骨前方仅见轻度软组织增厚，无异常摄取，提示肿瘤显著退缩,,,,PET-CT,LLM提取,论文病例报告,2024-11-01,影像,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,9e0f1a2b-3c4d-5e6f-9f0a-1b2c3d4e5f61,患者,随访结果,,文本型,作为异基因造血干细胞移植桥接治疗，已于2025年1月接受移植,,,,,LLM提取,论文病例报告,2025-01-01,病程,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a1b2c3d4-e5f6-7890-abcd-ef1234567890,患者,住院天数,,数值型,,,文中未明确,,,LLM提取,论文病例报告,,出院,v1
+3e23d0248c66ea9b06c026b4702960f1,ee18f8da1b5d330dccd907faa1d5fae0_1,a1b2c3d4-e5f6-7890-abcd-ef1234567890,患者,出院诊断,,类别型,CML髓外原始细胞危象,,桥接移植前状态,,,LLM提取,论文病例报告,,出院,v1

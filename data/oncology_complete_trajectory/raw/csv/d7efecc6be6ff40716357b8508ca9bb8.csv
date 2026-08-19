@@ -1,0 +1,39 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,6a4c2d2c-2d4d-4e5e-8f49-2ed8c6b4b7c1,患者,年龄,,数值型,64,64,,岁,,LLM提取,论文病例报告,2015-06-01,入院,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,6a4c2d2c-2d4d-4e5e-8f49-2ed8c6b4b7c1,患者,入院途径,,类别型,转诊,,,,,LLM提取,论文病例报告,2015-06-01,入院,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,8a8e4d6c-5e87-4bf7-8d5a-6f5fd0d9c9a1,患者,主诉,,文本型,筛查性结肠镜发现结肠腺癌，患者无症状,,,,,LLM提取,论文病例报告,2015-06-01,病史,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,8a8e4d6c-5e87-4bf7-8d5a-6f5fd0d9c9a1,患者,既往史,,文本型,子宫切除术史，因症状性子宫肌瘤行手术,,,,,LLM提取,论文病例报告,2015-06-01,病史,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,8a8e4d6c-5e87-4bf7-8d5a-6f5fd0d9c9a1,患者,家族史,,文本型,无癌症家族史,,,,,LLM提取,论文病例报告,2015-06-01,病史,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,d0b6d7f2-7f5f-4f4f-9ef8-7d9f2cfe2d2a,结肠病灶,病理诊断,,文本型,腺癌,,免疫组化提示来源于乳腺原发,,免疫组化,LLM提取,论文病例报告,2015-06-01,病理,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,d0b6d7f2-7f5f-4f4f-9ef8-7d9f2cfe2d2a,结肠病灶,免疫组化,,文本型,"CK7(+), GATA-3(+), ER(+), MOC-31(弱+), CK20(-), CDX2(-), PR(-), PAX-8(-), SOX-10(-), CD45(-), chromogranin(-), synaptophysin(-), TTF-1(-)",,,,IHC,LLM提取,论文病例报告,2015-06-01,病理,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,e0b4d4f6-6c0c-4a3c-9a8d-7f8c6e3e2d1f,患者,诊断名称,,类别型,乳腺来源转移性肿瘤,,结肠转移,,,LLM提取,论文病例报告,2015-06-01,诊断,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,7f2b0d8e-0e49-4b7b-9a8f-1f3c7b2d5f6a,患者,一般状况_查体,,文本型,无症状，体检未触及肿块或淋巴结肿大,,,,,LLM提取,论文病例报告,2015-06-01,评估,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,9c0f6d2a-3e4b-4a7d-8c9f-2e1f5a6b7c8d,乳腺X线,影像结论,,文本型,正常,,筛查乳腺钼靶，约1个月前,,mammography,LLM提取,论文病例报告,2015-05-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c,胸腹盆CT,影像所见,,文本型,胸椎及骨盆溶骨性病灶，双侧腋窝淋巴结肿大，右侧最大1.4 cm，左侧最大1.1 cm,,,,CT,LLM提取,论文病例报告,2015-08-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c,胸腹盆CT,影像结论,,文本型,提示骨转移及双侧腋窝淋巴结转移可能,,,,CT,LLM提取,论文病例报告,2015-08-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,b2c3d4e5-f6a7-48b9-9c0d-2e3f4a5b6c7d,PET-CT,影像所见,,文本型,右腋窝代谢活跃，脊柱条片状放射性摄取增高，与CT所见一致,,,,PET-CT,LLM提取,论文病例报告,2015-10-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,b2c3d4e5-f6a7-48b9-9c0d-2e3f4a5b6c7d,PET-CT,影像结论,,文本型,提示右腋窝及脊柱骨转移代谢活跃,,,,PET-CT,LLM提取,论文病例报告,2015-10-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,c3d4e5f6-a7b8-49c0-9d1e-3f4a5b6c7d8e,右腋窝淋巴结,检验项目,,类别型,FNA阴性,,未见恶性,,细针穿刺,LLM提取,论文病例报告,2015-11-01,检验,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,d4e5f6a7-b8c9-40d1-9e2f-4a5b6c7d8e9f,血液,CEA,,数值型,2.08,2.08,参考范围内,ng/mL,,LLM提取,论文病例报告,2015-11-01,检验,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,d4e5f6a7-b8c9-40d1-9e2f-4a5b6c7d8e9f,血液,CA19-9,,数值型,<1,,参考范围内,U/mL,,LLM提取,论文病例报告,2015-11-01,检验,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,d4e5f6a7-b8c9-40d1-9e2f-4a5b6c7d8e9f,血液,CA-125,,数值型,6.4,6.4,参考范围内,U/mL,,LLM提取,论文病例报告,2015-11-01,检验,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,e5f6a7b8-c9d0-41e2-9f3a-5b6c7d8e9f0a,患者,诊断名称,,类别型,乳腺侵袭性导管癌,,转移性，伴骨转移,,,LLM提取,论文病例报告,2016-03-01,诊断,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,e5f6a7b8-c9d0-41e2-9f3a-5b6c7d8e9f0a,患者,分子标志物,,类别型,ER阳性，PR阳性，HER2阴性,,CK7阳性，GATA3阳性,,IHC,LLM提取,论文病例报告,2016-03-01,诊断,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,f6a7b8c9-d0e1-42f3-9a4b-6c7d8e9f0a1b,乳腺超声,影像结论,,文本型,仅见双侧腋窝淋巴结肿大,,未见明确乳腺原发灶,,超声,LLM提取,论文病例报告,2016-03-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,f6a7b8c9-d0e1-42f3-9a4b-6c7d8e9f0a1b,乳腺钼靶,影像结论,,文本型,未见明确原发乳腺肿瘤,,,,mammography,LLM提取,论文病例报告,2016-03-01,影像,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,g7b8c9d0-e1f2-43a4-9b5c-7d8e9f0a1b2c,右骶骨病灶,病理诊断,,文本型,转移性乳腺侵袭性导管癌,,骨活检证实,,骨活检,LLM提取,论文病例报告,2016-03-01,病理,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,g7b8c9d0-e1f2-43a4-9b5c-7d8e9f0a1b2c,右骶骨病灶,免疫组化,,文本型,"CK7(+), GATA3(+), ER(+), PR(+), CD45(-), CD138(-), HER2(-)",,,,IHC,LLM提取,论文病例报告,2016-03-01,病理,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,h8c9d0e1-f2a3-44b5-9c6d-8e9f0a1b2c3d,患者,治疗方案,,类别型,阿那曲唑,,开始内分泌治疗,,,LLM提取,论文病例报告,2016-03-01,用药,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,i9d0e1f2-a3b4-45c6-9d7e-9f0a1b2c3d4e,患者,治疗方案,,类别型,哌柏西利+来曲唑,,3个月后更换，期望更长疾病控制,,,LLM提取,论文病例报告,2016-06-01,用药,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,j0e1f2a3-b4c5-46d7-9e8f-0a1b2c3d4e5f,患者,疗效评估,,类别型,病情稳定,,持续18个月,,,LLM提取,论文病例报告,2017-12-01,评估,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,k1f2a3b4-c5d6-47e8-9f0a-1b2c3d4e5f6a,患者,病程,,文本型,出现体重下降，新发肺、肝转移及明显腹膜癌病伴腹水,,疾病进展,,,LLM提取,论文病例报告,2018-02-01,病程,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,l2a3b4c5-d6e7-48f9-0a1b-2c3d4e5f6a7b,患者,治疗方案,,类别型,紫杉醇,,80 mg/m2，每周一次,,,LLM提取,论文病例报告,2018-02-01,用药,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,l2a3b4c5-d6e7-48f9-0a1b-2c3d4e5f6a7b,患者,周期数,,数值型,2,2,因中性粒细胞减少、腹水加重及下肢水肿停止,周期,,LLM提取,论文病例报告,2018-02-01,用药,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,m3b4c5d6-e7f8-490a-1b2c-3d4e5f6a7b8c,患者,不良反应名称,,类别型,中性粒细胞减少,,伴腹水加重、下肢水肿,,,LLM提取,论文病例报告,2018-02-01,不良反应,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,m3b4c5d6-e7f8-490a-1b2c-3d4e5f6a7b8c,患者,处理措施,,文本型,停止紫杉醇并住院治疗,,,,,LLM提取,论文病例报告,2018-02-01,不良反应,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,n4c5d6e7-f8a9-4a0b-1c2d-3e4f5a6b7c8d,患者,治疗方案,,类别型,氟维司群,,因化疗不耐受而更换,,,LLM提取,论文病例报告,2018-03-01,用药,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,n4c5d6e7-f8a9-4a0b-1c2d-3e4f5a6b7c8d,患者,治疗反应,,类别型,无应答,,出现症状性全身水肿,,,LLM提取,论文病例报告,2018-03-01,用药,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,o5d6e7f8-a9b0-4b1c-2d3e-4f5a6b7c8d9e,患者,病程,,文本型,选择临终关怀,,病情快速进展且症状明显,,,LLM提取,论文病例报告,2018-04-01,病程,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,p6e7f8a9-b0c1-4c2d-3e4f-5a6b7c8d9e0f,患者,出院状况,,类别型,死亡,,于住院后数日内去世,,,LLM提取,论文病例报告,2018-04-01,出院,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,p6e7f8a9-b0c1-4c2d-3e4f-5a6b7c8d9e0f,患者,出院诊断,,类别型,转移性乳腺癌，结肠转移，骨转移，肺转移，肝转移，腹膜癌病伴腹水,,,,,LLM提取,论文病例报告,2018-04-01,出院,v1
+d7efecc6be6ff40716357b8508ca9bb8,3c2181d7cab3114280dd4f3dbf82531d_1,p6e7f8a9-b0c1-4c2d-3e4f-5a6b7c8d9e0f,患者,住院天数,,数值型,几天,,临终关怀后短时间内死亡,,,LLM提取,论文病例报告,2018-04-01,出院,v1

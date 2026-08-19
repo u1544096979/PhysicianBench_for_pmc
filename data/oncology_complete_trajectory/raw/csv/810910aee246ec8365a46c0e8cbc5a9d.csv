@@ -1,0 +1,34 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,1a0d2e62-59b5-4f6a-8db7-2c8de0dcb3b1,患者,主诉,,文本型,便血1个月,,,,,LLM提取,论文病例报告,2022-01-07,病史,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,2c4f0f3d-9f3c-4f8f-9f5c-7a8b7c9bb0af,结肠镜,检查所见,,文本型,距肛缘5-8 cm见隆起性病变,,,,结肠镜,LLM提取,论文病例报告,2022-01-13,其他,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,2c4f0f3d-9f3c-4f8f-9f5c-7a8b7c9bb0af,标本,病理诊断,,文本型,腺癌,,,,,LLM提取,论文病例报告,2022-01-13,病理,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,3c5f1b7a-8c9d-4e0f-9c2b-1f2a3b4c5d6e,盆腔MR,影像所见,,文本型,直肠距肛缘约7.0 cm见肿瘤，T3aN1a，MRF-，EMVI-,,,,MR,LLM提取,论文病例报告,2022-02-16,影像,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,3c5f1b7a-8c9d-4e0f-9c2b-1f2a3b4c5d6e,患者,临床分期,,类别型,IIIb期,,,,,LLM提取,论文病例报告,2022-02-16,诊断,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,4d6e2c8f-9a0b-4c1d-8e2f-3b4c5d6e7f80,患者,治疗方案,,类别型,XELOX + PD-1,,奥沙利铂200 mg d1 + 卡培他滨1000 mg/m2 bid d1-d14 + 特瑞普利单抗240 mg d1,,,LLM提取,论文病例报告,2022-02-23,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,4d6e2c8f-9a0b-4c1d-8e2f-3b4c5d6e7f80,患者,周期数,,数值型,1,1,,周期,,LLM提取,论文病例报告,2022-02-23,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,5e7f3d90-ab1c-4d2e-9f30-4c5d6e7f8091,患者,症状,,文本型,发际线附近出现散在脱色斑,,,,,LLM提取,论文病例报告,2022-03-07,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,6f8091a2-b3c4-4d5e-9f31-5d6e7f8091a2,患者,治疗方案,,类别型,XELOX + PD-1,,第二个周期,,,LLM提取,论文病例报告,2022-03-22,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,7a8091b3-c4d5-4e6f-9f32-6e7f8091a2b3,患者,治疗方案,,类别型,短程放疗,,2500 cGy/5 Fx；原发直肠病灶及盆腔淋巴引流区,,,LLM提取,论文病例报告,2022-04-18,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,8b91a2c4-d5e6-4f70-9f33-7f8091a2b3c4,患者,症状,,文本型,脱色斑迅速扩大，累及头部、胸背部和四肢，并伴强烈瘙痒,,,,,LLM提取,论文病例报告,2022-04-19,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,9ca2b3d5-e6f7-4f81-9f34-8091a2b3c4d5,患者,症状,,文本型,脱色皮疹继续扩大，约在最后一次放疗后一周达到最严重状态，体表面积约10%,,TBSA约10%,,,LLM提取,论文病例报告,2022-04-30,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,aad3c4e5-f607-4f92-9f35-91a2b3c4d5e6,患者,治疗方案,,类别型,XELOX + PD-1,,第三个周期,,,LLM提取,论文病例报告,2022-05-09,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,bbd4e5f6-0718-4fa3-9f36-a2b3c4d5e6f7,盆腔MR,影像所见,,文本型,肿瘤较前缩小，T2N0，MRF-，EMVI-,,,,MR,LLM提取,论文病例报告,2022-05-30,影像,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,bbd4e5f6-0718-4fa3-9f36-a2b3c4d5e6f7,患者,临床分期,,类别型,T2N0,,MR评估,,,LLM提取,论文病例报告,2022-05-30,诊断,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,cc e5f607-1829-4fb4-9f37-b3c4d5e6f708,血液/生化标本,CRE,,数值型,178,178,,μmol/L,,LLM提取,论文病例报告,2022-06-10,检验,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,cc e5f607-1829-4fb4-9f37-b3c4d5e6f708,血液/生化标本,PROBNP,,数值型,111.00,111.0,,pmol/L,,LLM提取,论文病例报告,2022-06-10,检验,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,cc e5f607-1829-4fb4-9f37-b3c4d5e6f708,血液/生化标本,FT4,,数值型,6.37,6.37,,pmol/L,,LLM提取,论文病例报告,2022-06-10,检验,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,cc e5f607-1829-4fb4-9f37-b3c4d5e6f708,血液/生化标本,TSH,,文本型,>100.0000,,,mIU/L,,LLM提取,论文病例报告,2022-06-10,检验,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,cc e5f607-1829-4fb4-9f37-b3c4d5e6f708,血液/生化标本,TGAb,,数值型,23.77,23.77,,IU/mL,,LLM提取,论文病例报告,2022-06-10,检验,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,cc e5f607-1829-4fb4-9f37-b3c4d5e6f708,血液/生化标本,TPOAb,,数值型,67.46,67.46,,IU/mL,,LLM提取,论文病例报告,2022-06-10,检验,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,ddf60718-29a3-4fb5-9f38-c4d5e6f70819,患者,治疗措施,,文本型,甲泼尼龙、左甲状腺素钠片及对症治疗,,用于处理AKI及甲状腺功能异常,,,LLM提取,论文病例报告,2022-06-10,用药,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,eef71829-3ab4-4fc6-9f39-d5e6f708192a,患者,症状,,文本型,瘙痒改善，广泛脱色仍在,,TBSA约10%,,,LLM提取,论文病例报告,2022-06-16,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,ff81923a-4bc5-4fd7-9f3a-e6f708192a3b,患者,治疗方案,,类别型,XELOX,,未联合PD-1抑制剂,,,LLM提取,论文病例报告,2022-07-11,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,0a923b4c-5d6e-4f80-9f3b-f708192a3b4c,患者,诊断名称,,类别型,皮肤免疫相关不良事件伴白癜风,,基于病史、皮疹形态及Wood灯检查,,Wood灯,LLM提取,论文病例报告,2022-07-18,诊断,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,0a923b4c-5d6e-4f80-9f3b-f708192a3b4c,患者,治疗措施,,文本型,每日外用哈洛他松乳膏及enliutasol膜剂,,enliutasol含水杨酸、丙酸氯倍他索和地蒽酚,,,LLM提取,论文病例报告,2022-07-18,用药,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,112a3b4c-5d6e-4f81-9f3c-g708192a3b4d,患者,治疗方案,,类别型,XELOX,,第五个周期，未联合PD-1抑制剂,,,LLM提取,论文病例报告,2022-08-01,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,123b4c5d-6e7f-4f82-9f3d-8192a3b4c5d6,患者,症状,,文本型,未见新发脱色斑，明显复色,,TBSA约5%,,,LLM提取,论文病例报告,2022-08-22,病程,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,234c5d6e-7f80-4f83-9f3e-92a3b4c5d6e7,肛指检查,检查所见,,文本型,未触及明显肿块,,,,肛指检查,LLM提取,论文病例报告,2022-08-23,其他,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,345d6e7f-8091-4f84-9f3f-a3b4c5d6e7f8,结肠镜,检查所见,,文本型,距肛缘约6 cm见放疗后瘢痕，血管纹理增厚，无明显溃疡或新生物,,提示新辅助放疗后直肠癌，cCR可能,,结肠镜,LLM提取,论文病例报告,2022-08-24,其他,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,456e7f80-91a2-4f85-9f30-b4c5d6e7f809,盆腔MR,影像所见,,文本型,病灶目前不明显,,,,MR,LLM提取,论文病例报告,2022-08-24,影像,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,567f8091-a2b3-4f86-9f31-c5d6e7f8091a,PET-CT,影像所见,,文本型,直肠未见明显异常升高的FDG代谢灶，亦未见其他明显异常FDG代谢,,,,PET-CT,LLM提取,论文病例报告,2022-08-26,影像,v1
+810910aee246ec8365a46c0e8cbc5a9d,537d631bc2cff2eba777d84f2b6e76d9_1,678091a2-b3c4-4f87-9f32-d6e7f8091a2b,患者,临床结局,,文本型,持续临床完全缓解，无复发或转移证据,,活动性随访中,,,LLM提取,论文病例报告,2022-11-27,病程,v1

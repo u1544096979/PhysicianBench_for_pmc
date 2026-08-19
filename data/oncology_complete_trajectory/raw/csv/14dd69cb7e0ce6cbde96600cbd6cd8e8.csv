@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,8fd4b8d2-7e9b-4f1b-8cb1-7c8f0a3a5d11,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,,病史,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,8fd4b8d2-7e9b-4f1b-8cb1-7c8f0a3a5d11,患者,年龄,,数值型,23,23,首次卵黄囊瘤发病时年龄,岁,,LLM提取,论文病例报告,2017-10-01,病史,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,8fd4b8d2-7e9b-4f1b-8cb1-7c8f0a3a5d11,患者,现病史,,文本型,右侧腹部不适2周,,,,,LLM提取,论文病例报告,2017-10-01,病史,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,f1f6f56c-2db7-4ce2-8d3b-1a8c0a9f2e2c,患者,影像所见,,文本型,CT显示右侧附件区14 cm实性囊性肿块，未见其他影像学异常,,,,CT,LLM提取,论文病例报告,2017-11-01,影像,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,c3c2b8f9-8e7b-4d7e-9d7d-7a7f2d0b8a55,血清,AFP,,数值型,1210,1210,参考范围0–9 ng/mL,ng/mL,,LLM提取,论文病例报告,2017-11-01,检验,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,c3c2b8f9-8e7b-4d7e-9d7d-7a7f2d0b8a55,血清,肿瘤标志物,,类别型,其他肿瘤标志物正常,,,,,LLM提取,论文病例报告,2017-11-01,检验,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,d0bf5a3f-9d71-4d7d-9c37-4f6c4e5f2d0c,患者,手术名称,,类别型,右侧附件切除术,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,d0bf5a3f-9d71-4d7d-9c37-4f6c4e5f2d0c,患者,手术结果,,文本型,未行进一步全面分期手术，右侧附件切除结束；术中腹腔、网膜和阑尾未见明显种植，肿瘤被完整切除,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,e7e5d9f2-11d6-4a8a-b6da-4ef0e3d1e2d9,右卵巢肿块,病理诊断,,文本型,卵黄囊瘤,,术中冰冻病理提示恶性，考虑卵黄囊瘤,,病理,LLM提取,论文病例报告,2017-12-01,病理,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,e7e5d9f2-11d6-4a8a-b6da-4ef0e3d1e2d9,右卵巢肿块,免疫组化,,文本型,"AFP(+), CD30(±), CK(+), OCT4(-), SALL4(+)",,,,免疫组化,LLM提取,论文病例报告,2017-12-01,病理,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,a9f8c6a1-7f3d-4b0d-8f61-2f5c7d3a4b21,患者,治疗方案,,文本型,术后化疗BEP方案（博来霉素+依托泊苷+顺铂）,,共4个周期,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,a9f8c6a1-7f3d-4b0d-8f61-2f5c7d3a4b21,患者,周期数,,数值型,4,4,,周期,,LLM提取,论文病例报告,2018-01-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,f7d8e4b3-0d2d-4f1e-8f6f-2a7b8c9d0e11,血清,AFP,,数值型,正常,,术后下降至正常，首次化疗前已正常,,,LLM提取,论文病例报告,2018-01-01,检验,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,c6f9d5e2-1b3c-4a8d-9e0f-3b2c4d5e6f71,患者,影像所见,,文本型,术后1个月胸部和腹部CT未见转移,,,,CT,LLM提取,论文病例报告,2018-01-01,影像,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,b4a7c6d8-2f1e-4c9a-8d7b-6a5e4c3b2a10,患者,查体,,文本型,盆腔检查示子宫稍大,,,,,LLM提取,论文病例报告,2020-11-01,评估,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,9d3b4c5e-6f71-4a8d-9c2b-1e0f3b2c4d5e,患者,主诉,,文本型,月经延长2个月,,此前月经正常,,,LLM提取,论文病例报告,2020-11-01,病史,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,子宫内膜组织,病理诊断,,文本型,子宫内膜腺癌，中分化,,宫腔镜及刮宫后病理,,病理,LLM提取,论文病例报告,2021-01-01,病理,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,子宫内膜组织,免疫组化,,文本型,"p53(90%+), Ki-67(30%+), CK8/18(10%+), ER(80%+), PR(95%+), MLH1(+), PMS2(+), MSH2(+), MSH6(+)",,,,免疫组化,LLM提取,论文病例报告,2021-01-01,病理,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,6e7f8a9b-1c2d-4e3f-9a0b-1c2d3e4f5a6b,患者,影像所见,,文本型,MRI示子宫内膜增厚，约1.6 cm，信号及强化不均匀；PET/CT示子宫腔FDG摄取增高，合并后腹膜淋巴结、双侧盆壁多发淋巴结及盆腔腹膜受累,,PET/CT SUVmax=6.89,,MRI; PET/CT,LLM提取,论文病例报告,2021-01-01,影像,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,2b3c4d5e-6f71-4a8d-9c2b-1e0f3b2c4d5f,血清,CA125,,数值型,123.8,123.8,,U/mL,,LLM提取,论文病例报告,2021-01-01,检验,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,2b3c4d5e-6f71-4a8d-9c2b-1e0f3b2c4d5f,血清,HE4,,数值型,165.0,165.0,,pmol/L,,LLM提取,论文病例报告,2021-01-01,检验,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,手术名称,,类别型,开腹减瘤手术,,最终术式包括根治性子宫切除、左侧附件切除、盆腔及腹主动脉旁淋巴结清扫、盆腹腔病灶切除、大网膜切除和阑尾切除,,,LLM提取,论文病例报告,2021-02-01,手术,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,手术结果,,文本型,肿瘤完全切除，无肉眼残留,,,,,LLM提取,论文病例报告,2021-02-01,手术,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,病理诊断,,文本型,中分化子宫内膜样腺癌，累及深肌层并宫颈受累；大网膜、腹膜、肠表面病灶、左盆腔淋巴结、骶前淋巴结及腹主动脉旁淋巴结转移,,术后病理,,病理,LLM提取,论文病例报告,2021-02-01,病理,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,免疫组化,,文本型,"ER(30%+), PR(40%+), P53(60%+), Ki-67(30%+), CK8/18(90%+), MLH1(+), PMS2(+), MSH2(+), MSH6(+), NapsinA(-)",,,,免疫组化,LLM提取,论文病例报告,2021-02-01,病理,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f,患者,临床分期,,类别型,FIGO IVb期,,,,,LLM提取,论文病例报告,2021-02-01,诊断,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,b1c2d3e4-f5a6-47b8-9c0d-1e2f3a4b5c6d,患者,不良反应名称,,类别型,过敏反应,,面部潮红、荨麻疹、呼吸困难,,,LLM提取,论文病例报告,2021-03-01,不良反应,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,b1c2d3e4-f5a6-47b8-9c0d-1e2f3a4b5c6d,患者,处理措施,,文本型,将方案改为贝伐珠单抗+脂质体多柔比星+卡铂,,发生于紫杉醇注射用（白蛋白结合型）第3周期开始时,,,LLM提取,论文病例报告,2021-03-01,不良反应,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,e1f2a3b4-c5d6-47e8-9f0a-1b2c3d4e5f6a,患者,治疗方案,,文本型,贝伐珠单抗+紫杉醇（白蛋白结合型）+卡铂,,2个周期,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,e1f2a3b4-c5d6-47e8-9f0a-1b2c3d4e5f6a,患者,治疗方案,,文本型,贝伐珠单抗+脂质体多柔比星+卡铂,,后续6个周期,,,LLM提取,论文病例报告,2021-04-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,e1f2a3b4-c5d6-47e8-9f0a-1b2c3d4e5f6a,患者,周期数,,数值型,8,8,总化疗周期,周期,,LLM提取,论文病例报告,2021-04-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2,患者,治疗方案,,文本型,贝伐珠单抗维持治疗,,q21天，共16个周期,,,LLM提取,论文病例报告,2021-10-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2,患者,周期数,,数值型,16,16,,周期,,LLM提取,论文病例报告,2021-10-01,用药,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,d5e6f7a8-b9c0-41d2-e3f4-a5b6c7d8e9f0,患者,诊断名称,,类别型,Li-Fraumeni综合征,,"TP53 c.844C>T, p.(R282W) 杂合致病变异",,NGS,LLM提取,论文病例报告,2021-07-01,诊断,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,d5e6f7a8-b9c0-41d2-e3f4-a5b6c7d8e9f0,患者,分子标志物,,类别型,"TP53 c.844C>T, p.(R282W)",,NM_000546.5；class 5 (C5)；常染色体显性遗传；胚系杂合变异,,NGS,LLM提取,论文病例报告,2021-07-01,诊断,v1
+14dd69cb7e0ce6cbde96600cbd6cd8e8,4fe81d26e6e708bd06cdafb2830153b5_1,d5e6f7a8-b9c0-41d2-e3f4-a5b6c7d8e9f0,患者,诊断名称,,类别型,胚系TP53致病变异携带者,,家系考虑为父系遗传,,Sanger测序,LLM提取,论文病例报告,,诊断,v1

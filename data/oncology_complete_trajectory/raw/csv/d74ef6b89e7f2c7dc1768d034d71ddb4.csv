@@ -1,0 +1,37 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,9d2db8e4-6d59-4c8c-9f21-0b3c1f1d2a11,患者,既往史,,文本型,2013年切除皮肤黑色素瘤,,,,,LLM提取,论文病例报告,2013-01-01,病史,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,3f7f79ef-b0a3-4d5f-9e7b-9b0ef5d59a0c,患者,现病史,,文本型,2018年发现新的皮肤转移灶，进一步检查发现共4处转移：双肺各1处、脾脏上极1处、脾脏下极1处；随后在国外接受肺和脾转移灶消融治疗，并于之后接受尼沃利单抗治疗。,,,,,LLM提取,论文病例报告,2018-01-01,病史,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,c7f5cb30-f4f0-4f79-8b82-4c72d5b7d2ae,患者,诊断名称,,类别型,转移性黑色素瘤,,IV期,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,c7f5cb30-f4f0-4f79-8b82-4c72d5b7d2ae,患者,诊断名称,,类别型,脾转移,,单发；位于下极,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,d4df0d0e-24a2-44c5-9d2d-0a05a6d7d8f6,CT/PET-CT,影像所见,,文本型,脾脏上极17×13 mm转移灶；脾脏下极6×5 mm转移灶。,,,mm,CT，PET-CT,LLM提取,论文病例报告,2018-01-01,影像,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,d4df0d0e-24a2-44c5-9d2d-0a05a6d7d8f6,CT/PET-CT,影像结论,,文本型,转移性黑色素瘤累及脾脏上、下极。,,,,CT，PET-CT,LLM提取,论文病例报告,2018-01-01,影像,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,6d6f6f4e-2f4b-4f7f-8f22-6d5c4c8a1c10,患者,治疗方案,,类别型,Argon-Helium消融,,肺部和脾脏转移灶均接受消融,,,LLM提取,论文病例报告,2018-01-01,病程,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,5c0f7c0f-4e2f-4f79-9d68-7b3a2df3a4ef,尼沃利单抗,药品名称,,类别型,Nivolumab,,PD-1抑制剂,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,5c0f7c0f-4e2f-4f79-9d68-7b3a2df3a4ef,尼沃利单抗,剂量,,数值型,480,480,,mg,,LLM提取,论文病例报告,2018-01-01,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,5c0f7c0f-4e2f-4f79-9d68-7b3a2df3a4ef,尼沃利单抗,用药周期,,文本型,每4周1次，共2年,,,,,LLM提取,论文病例报告,2018-01-01,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,7a1d5b7e-8a6a-4d70-8c75-3a9f4f0d2d12,患者,治疗方案,,类别型,立体定向放疗,,15 Gy × 3次,Gy,,LLM提取,论文病例报告,2020-01-01,病程,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,1a8e0f62-7d3f-4d8e-8c0f-9f7e8f8d2b33,PET-CT,影像所见,,文本型,除脾脏下极病灶外未见其他转移灶。,,,,PET-CT,LLM提取,论文病例报告,2021-04-01,影像,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,1a8e0f62-7d3f-4d8e-8c0f-9f7e8f8d2b33,PET-CT,影像结论,,文本型,仅余脾脏下极病灶，未见其他残余黑色素瘤活动。,,,,PET-CT,LLM提取,论文病例报告,2021-04-01,影像,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,f1b4a8d1-0f2b-4bc8-9a1e-0a4d2b8f7c55,患者,诊断名称,,类别型,单发脾转移灶拟行脾部分切除术,,术前评估,,,LLM提取,论文病例报告,2021-04-01,诊断,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,8d2d5d4c-4f2d-4f2c-9b0d-3a7c6f5e1a66,患者,药品名称,,类别型,Prevenar,,接种肺炎球菌结合疫苗,,,LLM提取,论文病例报告,2021-04-01,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,8d2d5d4c-4f2d-4f2c-9b0d-3a7c6f5e1a66,患者,药品名称,,类别型,Bexsero,,接种B群脑膜炎球菌疫苗,,,LLM提取,论文病例报告,2021-04-01,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,8d2d5d4c-4f2d-4f2c-9b0d-3a7c6f5e1a66,患者,药品名称,,类别型,Nimenrix,,接种A/C/W/135/Y群脑膜炎球菌疫苗,,,LLM提取,论文病例报告,2021-04-01,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,2db6f5c8-7a65-4bc1-9f75-2f6d1f9e4c77,患者,血压,,文本型,未提供,,,,,LLM提取,论文病例报告,2021-04-01,评估,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,e4c8d7f0-9b21-4ed8-8b1a-0c1f6f7a8d88,患者,主诉,,文本型,左上腹痛,,入院时需阿片类药物镇痛,,,LLM提取,论文病例报告,2021-04-01,病史,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,e4c8d7f0-9b21-4ed8-8b1a-0c1f6f7a8d88,患者,检验项目,,数值型,15.6,15.6,,g/dL,,LLM提取,论文病例报告,2021-04-01,检验,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,e4c8d7f0-9b21-4ed8-8b1a-0c1f6f7a8d88,患者,检验项目,,数值型,9.2,9.2,,×10^9/L,,LLM提取,论文病例报告,2021-04-01,检验,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,e4c8d7f0-9b21-4ed8-8b1a-0c1f6f7a8d88,患者,检验项目,,数值型,114,114,,mg/L,,LLM提取,论文病例报告,2021-04-01,检验,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,f4a2d1c3-5b6f-4b91-8f7a-2e1c6d4b7e99,患者,治疗方案,,类别型,超选择性动脉栓塞,,脾下极节段动脉栓塞；PVA颗粒150–250 μm；合并微弹簧圈栓塞侧支动脉,,,LLM提取,论文病例报告,2021-04-01,手术,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,f4a2d1c3-5b6f-4b91-8f7a-2e1c6d4b7e99,患者,手术结果,,文本型,造影证实脾脏下2/3血流停止,,过程顺利,,数字减影血管造影,LLM提取,论文病例报告,2021-04-01,手术,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,c1d6f5b8-8a3e-4b9a-9f2d-1e3c5d7a8f00,患者,手术名称,,类别型,脾部分切除术,,上腹正中切口；全身麻醉,,,LLM提取,论文病例报告,2021-04-05,手术,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,c1d6f5b8-8a3e-4b9a-9f2d-1e3c5d7a8f00,患者,麻醉方式,,类别型,全身麻醉,,,,,LLM提取,论文病例报告,2021-04-05,手术,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,c1d6f5b8-8a3e-4b9a-9f2d-1e3c5d7a8f00,患者,手术结果,,文本型,成功完成脾部分切除，术中无出血，保留约2/3脾脏。,,术中冰冻病理见坏死脾组织及异型细胞,,,LLM提取,论文病例报告,2021-04-05,手术,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,c1d6f5b8-8a3e-4b9a-9f2d-1e3c5d7a8f00,患者,出血量,,数值型,0,0,术中未见明显出血,mL,,LLM提取,论文病例报告,2021-04-05,手术,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,b7c8d9e0-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,治疗方案,,类别型,术后预防性抗凝,,低分子肝素（Deltaparin）于术后第3天开始,,,LLM提取,论文病例报告,2021-04-08,用药,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,0f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b,患者,病程,,文本型,术后恢复平稳，无并发症，第8天出院。,,恢复稍慢，主要因营养摄入不足,,,LLM提取,论文病例报告,2021-04-13,病程,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,0f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b,患者,出院诊断,,类别型,转移性黑色素瘤脾转移切除术后,,,,,LLM提取,论文病例报告,2021-04-13,出院,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,0f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b,患者,出院状况,,类别型,一般情况良好,,无并发症,,,LLM提取,论文病例报告,2021-04-13,出院,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,0f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b,患者,住院天数,,数值型,8,8,,天,,LLM提取,论文病例报告,2021-04-13,出院,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,0f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b,患者,出院医嘱,,文本型,出院后随访。,,,,,LLM提取,论文病例报告,2021-04-13,出院,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,a9b8c7d6-e5f4-4a3b-9c2d-1e0f1a2b3c4d,PET-CT,影像所见,,文本型,脾脏局部未见局部复发或其他残余黑色素瘤活动征象。,,术后4个月复查,,PET-CT,LLM提取,论文病例报告,2021-08-01,影像,v1
+d74ef6b89e7f2c7dc1768d034d71ddb4,bcb15dece105cc30df475b52ff352147,a9b8c7d6-e5f4-4a3b-9c2d-1e0f1a2b3c4d,PET-CT,影像结论,,文本型,未见局部脾脏复发及其他残余黑色素瘤活动。,,,,PET-CT,LLM提取,论文病例报告,2021-08-01,影像,v1

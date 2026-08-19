@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,4f9b0f0a-8f6f-4c88-9c50-0c3f7c7f6c9e,患者,入院年龄,,数值型,70,70,,岁,,LLM提取,论文病例报告,2014-10-01,病史,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,8a6c2f5c-46d4-4b49-8b0d-8b2a7e52f6f1,患者,既往史,,文本型,2009年曾行经直肠前列腺活检，2010年接受重离子放射治疗（HIRT）治疗局限性前列腺癌；术后前2年接受最大雄激素阻断治疗。,,,,,LLM提取,论文病例报告,2010-01-01,病史,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,c6d9c62e-28e2-4b28-8de5-3bb9fca7d1f4,患者,主诉,,文本型,HIRT后随访期间PSA逐渐升高，考虑局部复发。,,,,,LLM提取,论文病例报告,2014-10-01,病史,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,2f9fcb37-5c9f-4b5e-8d4a-7df8d4f5a6c4,血清,PSA,,数值型,6.64,6.64,参考范围未提供,ng/mL,,LLM提取,论文病例报告,2009-01-01,检验,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,d45f8a6a-0b45-4ef2-9b4b-2f0b4f8a7f2a,前列腺经直肠活检标本,病理诊断,,文本型,腺癌，Gleason评分4+4；10个部位中1个部位阳性。,,,,,LLM提取,论文病例报告,2009-01-01,病理,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,1b7b1b8c-3b1d-4f44-9a3f-3f2d7df8c1a1,患者,诊断名称,,类别型,局限性前列腺癌,,T1cN0M0,,,LLM提取,论文病例报告,2009-01-01,诊断,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,6e8d5a5a-5db3-4f4d-9c5a-5d5d8d7f8c2d,CT,影像所见,,文本型,未见转移病灶。,,,,CT,LLM提取,论文病例报告,2009-01-01,影像,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,6e8d5a5a-5db3-4f4d-9c5a-5d5d8d7f8c2d,骨扫描,影像所见,,文本型,未见转移病灶。,,,,骨扫描,LLM提取,论文病例报告,2009-01-01,影像,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,9c0a0f2e-8a2a-4d3a-9e3f-1f2d3c4b5a6e,患者,治疗方案,,类别型,重离子放射治疗（HIRT）,,57.6 GyE/16次,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,9c0a0f2e-8a2a-4d3a-9e3f-1f2d3c4b5a6e,患者,治疗方案,,类别型,最大雄激素阻断（MAB）,,HIRT后前2年,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,7d4f5c6b-8a9e-4f0a-b1c2-d3e4f5a6b7c8,患者,病程,,文本型,HIRT后3年内PSA维持在可接受范围。,,,,,LLM提取,论文病例报告,2013-01-01,病程,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,7d4f5c6b-8a9e-4f0a-b1c2-d3e4f5a6b7c8,患者,病程,,文本型,出现生化进展，PSA升高。,,2014年10月,,,LLM提取,论文病例报告,2014-10-01,病程,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,e2f3a4b5-c6d7-48e9-9f0a-b1c2d3e4f5a6,CT,影像所见,,文本型,未见转移病灶。,,,,CT,LLM提取,论文病例报告,2014-10-01,影像,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,e2f3a4b5-c6d7-48e9-9f0a-b1c2d3e4f5a6,MRI,影像所见,,文本型,未见转移病灶。,,,,MRI,LLM提取,论文病例报告,2014-10-01,影像,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,e2f3a4b5-c6d7-48e9-9f0a-b1c2d3e4f5a6,骨扫描,影像所见,,文本型,未见转移病灶。,,,,骨扫描,LLM提取,论文病例报告,2014-10-01,影像,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,e2f3a4b5-c6d7-48e9-9f0a-b1c2d3e4f5a6,PET,影像所见,,文本型,未见转移病灶。,,,,PET,LLM提取,论文病例报告,2014-10-01,影像,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,a1b2c3d4-e5f6-4789-9abc-def012345678,前列腺模板穿刺活检标本,病理诊断,,文本型,腺癌，Gleason评分4+3；34个活检部位中6个阳性。,,,,,LLM提取,论文病例报告,2014-11-01,病理,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,b1c2d3e4-f5a6-4789-9abc-def012345679,患者,诊断名称,,类别型,HIRT后局部复发前列腺癌,,,,,LLM提取,论文病例报告,2014-11-01,诊断,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,c1d2e3f4-a5b6-4789-9abc-def012345680,患者,治疗方案,,类别型,机器人辅助根治性前列腺切除术（salvage RARP）,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,c1d2e3f4-a5b6-4789-9abc-def012345680,患者,手术名称,,类别型,机器人辅助根治性前列腺切除术,,经腹膜入路，6孔,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,c1d2e3f4-a5b6-4789-9abc-def012345680,患者,麻醉方式,,类别型,未提及,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,c1d2e3f4-a5b6-4789-9abc-def012345680,患者,出血量,,数值型,100,100,,mL,,LLM提取,论文病例报告,2015-01-01,手术,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,c1d2e3f4-a5b6-4789-9abc-def012345680,患者,手术结果,,文本型,顺利完成。,,手术时间3小时44分；console时间3小时9分；双侧不保留神经血管束。,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,d4e5f6a7-b8c9-4d0e-9f01-23456789abcd,患者,评估方法,,类别型,尿道膀胱造影（UCG）,,术后第5天,,,LLM提取,论文病例报告,2015-01-06,评估,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,d4e5f6a7-b8c9-4d0e-9f01-23456789abcd,UCG,影像所见,,文本型,未见造影剂外漏。,,,,UCG,LLM提取,论文病例报告,2015-01-06,评估,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,e5f6a7b8-c9d0-4e1f-9012-3456789abcde,患者,出院状况,,类别型,一般情况稳定，轻度尿失禁，无急性尿潴留。,,术后第9天出院,,,LLM提取,论文病例报告,2015-01-10,出院,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,e5f6a7b8-c9d0-4e1f-9012-3456789abcde,患者,住院天数,,数值型,9,9,,天,,LLM提取,论文病例报告,2015-01-10,出院,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,f6a7b8c9-d0e1-4f2a-9012-456789abcdef,手术后病理标本,病理诊断,,文本型,腺癌，Gleason评分4+5，ly1，v0，pn1，sv0，pT3a。,,,,,LLM提取,论文病例报告,2015-01-01,病理,v1
+b2767b4e8f0666bb6eabd83a073e0d6a,7eb7feb4bf3ed92ceb6fd40f051dea9e_1,f7a8b9c0-d1e2-4f3a-9012-56789abcdef0,患者,病程,,文本型,术后1个月至10个月PSA持续不可检测。,,无尿失禁及并发症,,,LLM提取,论文病例报告,2015-02-01,病程,v1

@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,6e0f5c1b-7f8e-4db4-9a0a-1d5d4f2d8e11,患者,既往史,,文本型,重度吸烟史、慢性肾功能衰竭、心肌梗死；2009年行根治性前列腺切除术；2010年行前列腺床补救放疗（pT4 N0 R1，Gleason 4+4）；2012年3月行膀胱切除术（WHO 3级尿路上皮癌，pT1）,,,,,LLM提取,论文病例报告,,病史,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,b8b9f1c8-0f63-4de8-9f0f-4d4c8bfb0c4f,患者,诊断名称,,类别型,非小细胞肺癌,,左上叶,,,LLM提取,论文病例报告,2013-02-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,b8b9f1c8-0f63-4de8-9f0f-4d4c8bfb0c4f,患者,手术名称,,类别型,肺叶切除术,,左上叶,,,LLM提取,论文病例报告,2013-02-01,手术,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,f1f6f3be-1f8f-4c1d-98f0-0b8f2e93d8be,病理标本,病理诊断,,文本型,腺鳞癌，两灶，分别22 mm和23 mm，侵犯脏层胸膜,,,,,LLM提取,论文病例报告,2013-02-01,病理,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,f1f6f3be-1f8f-4c1d-98f0-0b8f2e93d8be,病理标本,分化程度,,类别型,腺鳞癌,,两灶,,,LLM提取,论文病例报告,2013-02-01,病理,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,f1f6f3be-1f8f-4c1d-98f0-0b8f2e93d8be,病理标本,标本部位,,类别型,肺左上叶,,,,,LLM提取,论文病例报告,2013-02-01,病理,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,f1f6f3be-1f8f-4c1d-98f0-0b8f2e93d8be,病理标本,免疫组化,,文本型,p53仅在其中一个肿瘤中阳性,,,,,LLM提取,论文病例报告,2013-02-01,病理,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,3f5c0f4f-0e7c-4f7d-9b33-3e2e52c4c1a1,患者,诊断名称,,类别型,前列腺癌术后生化复发,,,,,LLM提取,论文病例报告,2011-11-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,3f5c0f4f-0e7c-4f7d-9b33-3e2e52c4c1a1,患者,用药名称,,类别型,比卡鲁胺,,抗雄激素治疗,,,LLM提取,论文病例报告,2011-11-01,用药,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,4f0bb8ab-2b1e-4d26-a0b6-5f0bb4f8c6c9,患者,诊断名称,,类别型,膀胱癌,,WHO 3级尿路上皮癌，pT1,,,LLM提取,论文病例报告,2012-03-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,4f0bb8ab-2b1e-4d26-a0b6-5f0bb4f8c6c9,患者,手术名称,,类别型,膀胱切除术,,,,,LLM提取,论文病例报告,2012-03-01,手术,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,5c1a9d4f-6e1a-4f8f-8bb2-0f0b9e2e7c21,患者,入院年龄,,数值型,67,67,,岁,,LLM提取,论文病例报告,2013-02-01,入院,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,5c1a9d4f-6e1a-4f8f-8bb2-0f0b9e2e7c21,患者,入院途径,,类别型,住院治疗,,,,,LLM提取,论文病例报告,2013-02-01,入院,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,5c1a9d4f-6e1a-4f8f-8bb2-0f0b9e2e7c21,患者,主诉,,文本型,左上叶非小细胞肺癌术后治疗,,,,,LLM提取,论文病例报告,2013-02-01,入院,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,0d1b8f5c-5b4d-4b5d-9f45-6f9c3cf5e5f2,患者,治疗方案,,类别型,辅助化疗,,卡铂AUC6 + 长春瑞滨30 mg/m2；因肾功能受损,,,LLM提取,论文病例报告,2013-04-01,病程,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,0d1b8f5c-5b4d-4b5d-9f45-6f9c3cf5e5f2,患者,周期数,,数值型,4,4,完成3/4周期后出现复发,周期,,LLM提取,论文病例报告,2013-04-01,病程,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,1c2a7c6d-0d4f-4b8c-8c7a-7e2b3a9d6f44,患者,诊断名称,,类别型,胸壁局部复发,,伴上半身及上肢皮肤改变，诊断为大疱性类天疱疮,,,LLM提取,论文病例报告,2013-06-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,1c2a7c6d-0d4f-4b8c-8c7a-7e2b3a9d6f44,患者,诊断名称,,类别型,大疱性类天疱疮,,局部复发相关皮肤改变,,,LLM提取,论文病例报告,2013-06-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,1c2a7c6d-0d4f-4b8c-8c7a-7e2b3a9d6f44,患者,评估方法,,类别型,血常规,,白细胞计数及分类正常,,,LLM提取,论文病例报告,2013-06-01,评估,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,1c2a7c6d-0d4f-4b8c-8c7a-7e2b3a9d6f44,患者,治疗方案,,类别型,姑息性放疗,,胸膜/胸壁复发区，3 Gy×13次,,三维适形放疗,LLM提取,论文病例报告,2013-07-01,病程,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,1c2a7c6d-0d4f-4b8c-8c7a-7e2b3a9d6f44,患者,治疗反应,,类别型,局部控制,,照射病灶持续控制,,,LLM提取,论文病例报告,2013-07-01,病程,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,a6d4a0b2-7d7e-4d2d-9d1a-0a6c7f2c9e33,患者,诊断名称,,类别型,系统性进展,,新发双侧肺转移及纵隔、左腋窝淋巴结转移,,,LLM提取,论文病例报告,2013-11-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,a6d4a0b2-7d7e-4d2d-9d1a-0a6c7f2c9e33,患者,影像所见,,文本型,双侧肺部新发转移灶，纵隔及左侧腋窝淋巴结转移,,,,CT,LLM提取,论文病例报告,2013-11-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,a6d4a0b2-7d7e-4d2d-9d1a-0a6c7f2c9e33,患者,影像结论,,文本型,疾病进展,,,,CT,LLM提取,论文病例报告,2013-11-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,a6d4a0b2-7d7e-4d2d-9d1a-0a6c7f2c9e33,患者,治疗方案,,类别型,姑息性放疗,,对全部淋巴结转移灶，3 Gy×10次,,三维适形放疗,LLM提取,论文病例报告,2013-11-01,病程,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,2d3b4c5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,不良反应名称,,类别型,大疱性类天疱疮加重,,放疗期间,,,LLM提取,论文病例报告,2013-11-01,不良反应,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,2d3b4c5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,不良反应名称,,类别型,继发感染,,放疗期间发生,,,LLM提取,论文病例报告,2013-11-01,不良反应,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,2d3b4c5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,检验项目,,数值型,50,50,参考范围未述,mg/L,,LLM提取,论文病例报告,2013-11-01,检验,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,2d3b4c5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,检验项目,,数值型,11.1,11.1,轻度升高,×10^9/L,,LLM提取,论文病例报告,2013-11-01,检验,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,2d3b4c5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,用药名称,,类别型,泼尼松龙,,放疗期间每日20 mg,,,LLM提取,论文病例报告,2013-11-01,用药,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,2d3b4c5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,用药名称,,类别型,头孢呋辛,,抗生素治疗,,,LLM提取,论文病例报告,2013-11-01,用药,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,7a8b9c0d-1e2f-4a5b-8c9d-0e1f2a3b4c5d,患者,诊断名称,,类别型,肺炎,,左下叶肺炎性浸润,,,LLM提取,论文病例报告,2013-12-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,7a8b9c0d-1e2f-4a5b-8c9d-0e1f2a3b4c5d,患者,影像所见,,文本型,胸片示左下叶肺炎性浸润,,,,胸部X线,LLM提取,论文病例报告,2013-12-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6f,患者,诊断名称,,类别型,败血症,,由大肠杆菌引起,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6f,患者,诊断名称,,类别型,大肠杆菌感染,,败血症病原,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6f,患者,影像结论,,文本型,部分缓解,,照射和未照射病灶均有部分缓解,,CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,8b9c0d1e-2f3a-4b5c-9d0e-1f2a3b4c5d6f,患者,影像所见,,文本型,肺转移灶及照射病灶均较前缩小,,非照射肺转移灶也缩小,,CT,LLM提取,论文病例报告,2014-01-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,9c0d1e2f-3a4b-5c6d-7e8f-901234567890,患者,用药名称,,类别型,奥司他韦,,用于治疗甲型流感病毒感染,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,9c0d1e2f-3a4b-5c6d-7e8f-901234567890,患者,诊断名称,,类别型,甲型流感病毒感染,,再次感染,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,c1d2e3f4-5678-4abc-9def-0123456789ab,患者,影像结论,,文本型,所有肺转移灶进展,,,,CT,LLM提取,论文病例报告,2014-04-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,c1d2e3f4-5678-4abc-9def-0123456789ab,患者,影像所见,,文本型,双肺转移灶进展,,,,CT,LLM提取,论文病例报告,2014-04-01,影像,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,c1d2e3f4-5678-4abc-9def-0123456789ab,患者,治疗方案,,类别型,支持治疗,,因体能状态下降、肾功能受损及频繁感染，未再行全身治疗；接受镇痛和姑息治疗,,,LLM提取,论文病例报告,2014-04-01,病程,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,d2e3f4a5-b6c7-48d9-8e0f-123456789abc,患者,出院状况,,类别型,出院后反复住院,,既往多次感染住院,,,LLM提取,论文病例报告,2014-01-01,出院,v1
+5494089b5fc3aea9f0e999a4966a1fe9,ed6abf1ffee3eff63860fddb4d17a6c6_1,e3f4a5b6-c7d8-49e0-9f12-23456789abcd,患者,死亡原因,,文本型,肺衰竭,,2014年7月死亡，初次原发肿瘤切除后17个月,,,LLM提取,论文病例报告,2014-07-01,其他,v1

@@ -1,0 +1,43 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,3d6c8e0d-2c5d-4d6e-8a63-3f7b0c9ed0a1,患者,个人史,,文本型,African-American woman，原籍津巴布韦，2007年移居美国时41岁,,,,,LLM提取,论文病例报告,2001-01-01,病史,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,b5f1e3e1-6c4a-4d69-8d8f-6c1d8f1f4f9a,患者,诊断名称,,类别型,HIV/AIDS,,,,,LLM提取,论文病例报告,2001-01-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,b5f1e3e1-6c4a-4d69-8d8f-6c1d8f1f4f9a,患者,诊断名称,,类别型,Kaposi's sarcoma (KS),,,,,LLM提取,论文病例报告,2001-01-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,9e1aa5f2-4e0d-4b07-9b62-6d0f5f4a9d11,患者,治疗方案,,文本型,combination antiretroviral therapy (ART),,,,,LLM提取,论文病例报告,2001-01-01,用药,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,诊断名称,,类别型,Kaposi's sarcoma new lesions,,,,,LLM提取,论文病例报告,2007-12-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,诊断名称,,类别型,HHV-8-positive multicentric Castleman's disease (MCD),,,,,LLM提取,论文病例报告,2007-12-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,入院年龄,,数值型,48,48,,岁,,LLM提取,论文病例报告,2007-12-01,入院,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,CD4计数,,数值型,162,162,,cells/μL,,LLM提取,论文病例报告,2007-12-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,HIV viral load,,数值型,256,256,,copies/mL,,LLM提取,论文病例报告,2007-12-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,贫血,,类别型,存在,,,,,LLM提取,论文病例报告,2007-12-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,低白蛋白血症,,类别型,存在,,,,,LLM提取,论文病例报告,2007-12-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,5c7a1a9e-8f47-4d2d-b1bb-3b5a8e7a2c12,患者,红细胞沉降率升高,,类别型,存在,,,,,LLM提取,论文病例报告,2007-12-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,c4f5b0f2-2c47-4b31-9d2e-9b8e3a0d1a33,患者,治疗方案,,文本型,rituximab + vincristine,,intermittent interruptions due to cytopenias,,,LLM提取,论文病例报告,2008-01-01,用药,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,c4f5b0f2-2c47-4b31-9d2e-9b8e3a0d1a33,患者,用药周期,,文本型,2008-2013年,,,,,LLM提取,论文病例报告,2008-01-01,用药,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,患者,主诉,,文本型,sepsis-like illness and worsening diffuse lymphadenopathy,,,,,LLM提取,论文病例报告,2014-01-01,病史,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,患者,CD4计数,,数值型,307,307,,cells/μL,,LLM提取,论文病例报告,2014-01-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,患者,HIV viral load,,文本型,undetectable,,<20 copies/mL,,,LLM提取,论文病例报告,2014-01-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,右腹股沟淋巴结,病理诊断,,文本型,"MCD, plasmacytic type",,core biopsy,,,LLM提取,论文病例报告,2014-01-01,病理,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,右腹股沟淋巴结,免疫组化,,文本型,HHV-8 LANA positive; lambda-light chain restriction; EBER positive,,germinal centers replaced by large plasmacytoid cells/plasmablasts,,,LLM提取,论文病例报告,2014-01-01,病理,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,患者,诊断名称,,类别型,HHV-8-positive germinotropic lymphoproliferative disorder (GLPD),,,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,d1c4f6f9-8d5a-4aa0-9d1b-3e1d2f0a9c44,患者,治疗方案,,文本型,cyclophosphamide + vincristine + valganciclovir,,during admission; later continued with rituximab as outpatient,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,e2a7a4f8-3d6e-4d1f-9f6b-2a5d4c7e8f55,患者,主诉,,文本型,worsening left upper quadrant abdominal pain,,,,,LLM提取,论文病例报告,2014-03-01,病史,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,e2a7a4f8-3d6e-4d1f-9f6b-2a5d4c7e8f55,患者,贫血,,类别型,存在,,,,,LLM提取,论文病例报告,2014-03-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,e2a7a4f8-3d6e-4d1f-9f6b-2a5d4c7e8f55,患者,血小板减少,,类别型,存在,,,,,LLM提取,论文病例报告,2014-03-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,e2a7a4f8-3d6e-4d1f-9f6b-2a5d4c7e8f55,患者,诊断名称,,类别型,progressive splenomegaly,,,,,LLM提取,论文病例报告,2014-03-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,f3b8c9d0-4e5f-4a6b-8c7d-9e0f1a2b3c66,脾脏,手术名称,,类别型,laparoscopic splenectomy,,,,,LLM提取,论文病例报告,2014-05-01,手术,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,f3b8c9d0-4e5f-4a6b-8c7d-9e0f1a2b3c66,患者,手术结果,,文本型,pain and cytopenias improved,,,,,LLM提取,论文病例报告,2014-05-01,手术,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,f3b8c9d0-4e5f-4a6b-8c7d-9e0f1a2b3c66,脾脏,病理诊断,,文本型,"extended red pulp due to congestion, fibrosis, and focal extramedullary hematopoiesis",,"no evidence of MCD, KS, or infectious mononucleosis (EBV)",,,LLM提取,论文病例报告,2014-05-01,病理,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,患者,主诉,,文本型,progressive dyspnea,,,,,LLM提取,论文病例报告,2014-06-01,病史,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,患者,诊断名称,,类别型,nonischemic heart failure with reduced ejection fraction,,,,,LLM提取,论文病例报告,2014-06-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,患者,CD4计数,,数值型,746,746,,cells/μL,,LLM提取,论文病例报告,2014-06-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,患者,HIV viral load,,文本型,undetectable,,<20 copies/mL,,,LLM提取,论文病例报告,2014-06-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,右侧胸腔积液,检查方法,,文本型,thoracentesis,,,,,LLM提取,论文病例报告,2014-06-01,影像,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,右侧胸腔积液,影像所见,,文本型,large right pleural effusion,,,,,LLM提取,论文病例报告,2014-06-01,影像,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,g4c9d0e1-5f6a-4b7c-8d9e-0f1a2b3c4d77,右侧胸腔积液,病理诊断,,文本型,malignant pleural effusion consistent with PEL,,"abundant large plasmablasts; CD138+, MUM1+, CD30+, HHV-8 LANA+; lambda restricted; CD45-, CD20-, PAX5-, CD79a-, CD3-",,,LLM提取,论文病例报告,2014-06-01,病理,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,h5d0e1f2-6a7b-4c8d-9e0f-1a2b3c4d5e88,患者,诊断名称,,类别型,primary effusion lymphoma (PEL),,,,,LLM提取,论文病例报告,2014-06-01,诊断,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,h5d0e1f2-6a7b-4c8d-9e0f-1a2b3c4d5e88,患者,治疗方案,,文本型,dose-adjusted EPOCH minus doxorubicin,,for 8 cycles due to history of heart failure,,,LLM提取,论文病例报告,2014-06-01,病程,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,h5d0e1f2-6a7b-4c8d-9e0f-1a2b3c4d5e88,患者,周期数,,数值型,8,8,,个周期,,LLM提取,论文病例报告,2014-06-01,病程,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,h5d0e1f2-6a7b-4c8d-9e0f-1a2b3c4d5e88,患者,治疗反应,,类别型,complete response,,,,,LLM提取,论文病例报告,2014-06-01,评估,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,i6e1f2a3-b4c5-4d6e-8f70-1a2b3c4d5e99,患者,血清HHV-8抗体IgG,,类别型,positive,,April 2014,,,LLM提取,论文病例报告,2014-04-01,检验,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,j7f2a3b4-c5d6-4e7f-8a01-2b3c4d5e6f00,患者,疗效评估,,类别型,complete remission,,"based on PET, symptom resolution, and normalized laboratory tests",,PET,LLM提取,论文病例报告,2019-03-01,评估,v1
+86bf62ed780f72843002f6d1109cf355,160d80d9f42e62e98118363ac22fc610_1,j7f2a3b4-c5d6-4e7f-8a01-2b3c4d5e6f00,患者,生存状态,,类别型,alive,,,,,LLM提取,论文病例报告,2019-03-01,病程,v1

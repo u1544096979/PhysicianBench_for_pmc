@@ -1,0 +1,33 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,7f3b7ce6-4f67-4d72-a8a5-8d8f2d2b2c11,患者,既往史,,文本型,2011年足月顺产1女,,,,,LLM提取,论文病例报告,2011-01-01,病史,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,1c3c3cf8-2eb0-43f4-8b7a-1f2f0f4d6a91,患者,诊断名称,,类别型,部分性葡萄胎,,,,,LLM提取,论文病例报告,2015-08-04,诊断,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,1c3c3cf8-2eb0-43f4-8b7a-1f2f0f4d6a91,患者,手术名称,,类别型,剖宫产,,孕19+2周,,,LLM提取,论文病例报告,2015-08-04,手术,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,a9a0c7c5-0ef8-4b6a-9f78-9b7d3b5b8f7d,标本,病理诊断,,文本型,胎盘绒毛、蜕膜和脐带组织；绒毛水肿伴中央池形成、滋养细胞增生、复合性水泡样葡萄胎,,,,,LLM提取,论文病例报告,2015-08-04,病理,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,5f2f8f9d-12e0-4d1c-9e0d-9f7e4c1d0f20,患者,检查项目,,类别型,B超,,异常回声，宫腔内异常回声伴盆腔积液,,,LLM提取,论文病例报告,2015-08-04,影像,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,d4c0e8b5-7b4f-4f9b-8b7c-8d0a3c9f0a11,血液,hCG,,数值型,19.11,19.11,,mIU/mL,,LLM提取,论文病例报告,2015-11-18,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,8e5c4f5a-0a4a-4e8a-9d0b-2f5f0b9c3d21,患者,手术名称,,类别型,宫腔镜子宫切除术+腹腔镜探查,,术中发现左卵巢表面及宫腔组织间隙黄色结节，取左卵巢结节为临床标本,,,LLM提取,论文病例报告,2015-11-19,手术,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,a3d4f9d1-0d8f-4f5b-9a3c-7c1e2d9f4a31,标本,病理诊断,,文本型,宫腔增殖期子宫内膜伴出血和纤维样坏死，部分呈息肉样改变,,,,,LLM提取,论文病例报告,2015-11-19,病理,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,a3d4f9d1-0d8f-4f5b-9a3c-7c1e2d9f4a31,标本,病理诊断,,文本型,左卵巢退变性蜕膜结节，伴少量滋养细胞上皮细胞,,,,,LLM提取,论文病例报告,2015-11-19,病理,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,c2b5d3a1-9f4e-4f6b-8c2a-3d1e2f7a4b51,血液,hCG,,数值型,5.71,5.71,,mIU/mL,,LLM提取,论文病例报告,2016-02-26,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,9f1a2b3c-4d5e-4f6a-8b7c-1d2e3f4a5b61,患者,手术名称,,类别型,剖宫产,,分娩1子,,,LLM提取,论文病例报告,2019-01-26,手术,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,6d7e8f9a-1b2c-4d3e-9f0a-2b3c4d5e6f71,患者,主诉,,文本型,停经46天，阴道流血1周,,,,,LLM提取,论文病例报告,2020-09-12,病史,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,6d7e8f9a-1b2c-4d3e-9f0a-2b3c4d5e6f71,患者,既往史,,文本型,末次月经2020-07-29；停经34天尿妊娠试验阳性；7天前出现血性阴道分泌物，伴腰酸、腹胀不适、头晕、乏力,,,,,LLM提取,论文病例报告,2020-09-12,病史,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,6d7e8f9a-1b2c-4d3e-9f0a-2b3c4d5e6f71,患者,查体,,文本型,月经周期规则；为避免包块破裂未行妇科检查,,,,,LLM提取,论文病例报告,2020-09-12,评估,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,b4c5d6e7-f8a9-4b0c-8d1e-2f3a4b5c6d71,血液,hCG,,数值型,8529.8,8529.8,,mIU/mL,,LLM提取,论文病例报告,2020-09-11,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,b4c5d6e7-f8a9-4b0c-8d1e-2f3a4b5c6d71,血液,hCG,,数值型,12878,12878,,mIU/mL,,LLM提取,论文病例报告,2020-09-12,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,e5f6a7b8-c9d0-4e1f-8a2b-3c4d5e6f7a81,患者,检查项目,,类别型,经阴道超声,,左附件区囊性回声，考虑黄体可能，左附件区低回声，直径约3 cm,,,LLM提取,论文病例报告,2020-09-12,影像,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b91,患者,诊断名称,,类别型,宫外孕,,临床考虑之一,,,LLM提取,论文病例报告,2020-09-12,诊断,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b91,患者,诊断名称,,类别型,滋养细胞肿瘤,,临床考虑之二,,,LLM提取,论文病例报告,2020-09-12,诊断,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,c0d1e2f3-a4b5-4c6d-8e7f-9a0b1c2d3e41,患者,手术名称,,类别型,腹腔镜左侧卵巢切除术+输卵管切除术+诊断性刮宫,,,,,LLM提取,论文病例报告,2020-09-12,手术,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,c0d1e2f3-a4b5-4c6d-8e7f-9a0b1c2d3e41,患者,药品名称,,类别型,米非司酮,,术后口服7 d,,,LLM提取,论文病例报告,2020-09-12,用药,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,d8e9f0a1-b2c3-4d5e-8f9a-0b1c2d3e4f51,标本,病理诊断,,文本型,左卵巢及输卵管病变为上皮样滋养细胞肿瘤（ETT）,,,,,LLM提取,论文病例报告,2020-09-12,病理,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a61,胸部CT,影像所见,,文本型,未见异常,,,,,LLM提取,论文病例报告,2020-09-12,影像,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b71,血液,hCG,,数值型,3454.00,3454.0,,mIU/mL,,LLM提取,论文病例报告,2015-09-09,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,f3a4b5c6-d7e8-4f9a-8b0c-1d2e3f4a5b81,血液,hCG,,数值型,35.46,35.46,,mIU/mL,,LLM提取,论文病例报告,2015-09-16,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,a4b5c6d7-e8f9-4a0b-8c1d-2e3f4a5b6c91,血液,β-hCG,,数值型,4.02,4.02,,mIU/mL,,LLM提取,论文病例报告,2020-10-15,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,a4b5c6d7-e8f9-4a0b-8c1d-2e3f4a5b6c91,血液,β-hCG,,数值型,<5,,,mIU/mL,,LLM提取,论文病例报告,2020-10-24,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,b5c6d7e8-f9a0-4b1c-8d2e-3f4a5b6c7d01,患者,检查项目,,类别型,盆腔MRI,,未见异常,,,LLM提取,论文病例报告,2020-10-28,影像,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,c6d7e8f9-a0b1-4c2d-8e3f-4a5b6c7d8e11,血液,β-hCG,,数值型,0.59,0.59,,mIU/mL,,LLM提取,论文病例报告,2020-11-06,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,d7e8f9a0-b1c2-4d3e-8f4a-5b6c7d8e9f21,血液,hCG,,数值型,25.78,25.78,连续3次观察后呈上升趋势,mIU/mL,,LLM提取,论文病例报告,2021-02-17,检验,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,e8f9a0b1-c2d3-4e5f-8a6b-7c8d9e0f1a31,患者,治疗方案,,类别型,化疗,,因血hCG再次升高,,,LLM提取,论文病例报告,2021-02-17,病程,v1
+e5ab42f04dacf66d3dfc2196becf880d,4b3d9e8f980e7123d6226d2740d3b696,f9a0b1c2-d3e4-4f5a-8b6c-9d0e1f2a3b41,患者,出院状况,,类别型,目前恢复正常,,血hCG无异常,,,LLM提取,论文病例报告,,出院,v1

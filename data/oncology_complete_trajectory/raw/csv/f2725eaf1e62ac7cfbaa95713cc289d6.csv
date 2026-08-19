@@ -1,0 +1,36 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,2c5a6d5e-2d76-4b41-9d84-2a0b8e0f6d31,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,2c5a6d5e-2d76-4b41-9d84-2a0b8e0f6d31,患者,年龄,,数值型,36岁,36,,岁,,LLM提取,论文病例报告,2019-01-01,病史,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,2c5a6d5e-2d76-4b41-9d84-2a0b8e0f6d31,患者,既往史,,文本型,无合并症,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,2c5a6d5e-2d76-4b41-9d84-2a0b8e0f6d31,患者,个人史,,文本型,无吸烟史,,,,,LLM提取,论文病例报告,2019-01-01,病史,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,3a7cb7e5-6f3e-4d5a-bc7b-9a2f0a4d7d12,右眼,影像所见,,文本型,黑色素性病变,,,,眼科检查/眼底检查,LLM提取,论文病例报告,2019-01-01,评估,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,4e7f4a1b-8d6d-4b2c-9d0a-1d3f5c7d8e21,全身,影像所见,,文本型,总身CT未见转移,,,,总身CT,LLM提取,论文病例报告,2019-01-01,影像,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,5b8a9c1d-2f3e-4c5a-b6d7-8e9f0a1b2c34,患者,手术名称,,类别型,右眼摘除术,,,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,5b8a9c1d-2f3e-4c5a-b6d7-8e9f0a1b2c34,患者,手术结果,,文本型,手术后病理学检查提示脉络膜黑色素瘤,,,,,LLM提取,论文病例报告,2019-01-01,手术,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,6c9d0e1f-2a3b-4c5d-8e9f-0a1b2c3d4e5f,肿瘤,病理诊断,,文本型,脉络膜黑色素瘤,,,,,LLM提取,论文病例报告,2019-01-01,病理,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,6c9d0e1f-2a3b-4c5d-8e9f-0a1b2c3d4e5f,肿瘤,分化程度,,类别型,上皮样细胞,,,,,LLM提取,论文病例报告,2019-01-01,病理,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,6c9d0e1f-2a3b-4c5d-8e9f-0a1b2c3d4e5f,肿瘤,标本部位,,类别型,右眼,,,,,LLM提取,论文病例报告,2019-01-01,病理,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a,肿瘤,分子标志物,,类别型,中等风险脉络膜黑色素瘤（D3/8g）,,无其他基因突变,,分子生物学,LLM提取,论文病例报告,2019-01-01,诊断,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b,肿瘤,病理诊断,,文本型,病灶为上皮样细胞型，大小20 mm × 15 mm，侵及巩膜内浅层、睫状体、虹膜及房角；未见巩膜外浸润、栓塞或视神经受损,,,,病理检查,LLM提取,论文病例报告,2019-01-01,病理,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c,肝脏,影像所见,,文本型,MRI示VIII段12 mm和VI段4 mm两个局灶性病灶，T2高信号、T1低信号，动脉期增强，形态较均匀，考虑转移灶；另见V段胆囊囊肿,,,,MRI,LLM提取,论文病例报告,2020-01-01,影像,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,手术名称,,类别型,肝脏VIII段及VI段段切除术,,,,,LLM提取,论文病例报告,2020-04-01,手术,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,患者,手术结果,,文本型,病理证实脉络膜黑色素瘤转移，切缘阴性（in sano resection）,,,,,LLM提取,论文病例报告,2020-04-01,手术,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e,肿瘤,病理诊断,,文本型,脉络膜黑色素瘤肝转移,,,,病理检查,LLM提取,论文病例报告,2020-04-01,病理,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f,肝脏,影像所见,,文本型,随访MRI示疾病进展，V/I段交界及VI段出现多发病灶,,,,MRI,LLM提取,论文病例报告,2020-12-01,影像,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a,患者,治疗方案,,类别型,NIVOLUMAB + IPILIMUMAB双免疫治疗,,NIVOLUMAB 1 mg/kg；IPILIMUMAB 3 mg/kg,,,LLM提取,论文病例报告,2020-12-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a,NIVOLUMAB,药品名称,,类别型,NIVOLUMAB,,,,,LLM提取,论文病例报告,2020-12-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a,NIVOLUMAB,剂量,,数值型,1 mg/kg,1,,mg/kg,,LLM提取,论文病例报告,2020-12-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a,IPILIMUMAB,药品名称,,类别型,IPILIMUMAB,,,,,LLM提取,论文病例报告,2020-12-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a,IPILIMUMAB,剂量,,数值型,3 mg/kg,3,,mg/kg,,LLM提取,论文病例报告,2020-12-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b,患者,治疗方案,,类别型,NIVOLUMAB维持治疗,,240 mg 每2周一次,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b,NIVOLUMAB,药品名称,,类别型,NIVOLUMAB,,,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b,NIVOLUMAB,剂量,,数值型,240 mg,240,每2周一次,mg,,LLM提取,论文病例报告,2021-03-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,肝脏,疗效评估,,类别型,完全缓解,,治疗3个月后,,MRI,LLM提取,论文病例报告,2021-06-01,评估,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c,患者,不良反应名称,,类别型,无不良事件,,,,,LLM提取,论文病例报告,2021-06-01,不良反应,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d,患者,治疗方案,,类别型,NIVOLUMAB维持治疗（480 mg/4周）,,因耐受良好继续,,,LLM提取,论文病例报告,2021-06-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d,NIVOLUMAB,药品名称,,类别型,NIVOLUMAB,,,,,LLM提取,论文病例报告,2021-06-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,g7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d,NIVOLUMAB,剂量,,数值型,480 mg/4周,480,每4周一次,mg,,LLM提取,论文病例报告,2021-06-01,用药,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,h8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e,肝脏,疗效评估,,类别型,完全缓解,,截至报道时,,MRI/临床随访,LLM提取,论文病例报告,,评估,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,h8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e,患者,总生存期,,数值型,39个月,39,,月,,LLM提取,论文病例报告,,病程,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,h8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e,患者,出院诊断,,类别型,脉络膜黑色素瘤肝转移,,,,,LLM提取,论文病例报告,,出院,v1
+f2725eaf1e62ac7cfbaa95713cc289d6,ed7afa6ba1e7ca1fa5c4dc1bae6e2062_1,h8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e,患者,出院状况,,类别型,完全缓解，耐受良好,,,,,LLM提取,论文病例报告,,出院,v1

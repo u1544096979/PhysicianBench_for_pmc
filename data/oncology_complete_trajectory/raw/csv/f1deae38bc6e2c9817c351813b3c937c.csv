@@ -1,0 +1,57 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,6b2d2c4d-7f6f-4a2c-9f3d-7e4dcb0f6d01,患者,入院年龄,,数值型,31,31,,岁,,LLM提取,论文病例报告,2020-05-01,入院,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,6b2d2c4d-7f6f-4a2c-9f3d-7e4dcb0f6d01,患者,入院科室,,类别型,"Sharret Institute of Oncology, Hadassah University Medical Center",,"Jerusalem, Israel",,,LLM提取,论文病例报告,2020-05-01,入院,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,a2f4d6d7-6c5d-4f3a-8b2c-8d1f5c9f2a11,患者,主诉,,文本型,自发现右乳肿块后就诊,,,,,LLM提取,论文病例报告,2020-05-01,病史,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,c1b8b2ac-2a6d-4df0-8f42-1f0b8f0d9e21,患者,影像所见,,文本型,乳腺X线、超声、乳腺MRI和PET-CT示右乳两个明确肿瘤，右腋窝淋巴结明显肿大，未见远处转移,,初诊影像,,"mammogram, ultrasound, breast MRI, PET-CT",LLM提取,论文病例报告,2020-05-01,影像,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d4d6a9f3-8a2b-4d9a-9b5e-2f0a1e3b7c31,患者,病理诊断,,文本型,混合型浸润性导管癌-浸润性小叶癌（IDC-ILC）,,乳腺肿瘤活检,,病理活检,LLM提取,论文病例报告,2020-05-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d4d6a9f3-8a2b-4d9a-9b5e-2f0a1e3b7c31,患者,标本部位,,类别型,右乳肿瘤,,,,,LLM提取,论文病例报告,2020-05-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d4d6a9f3-8a2b-4d9a-9b5e-2f0a1e3b7c31,患者,ER状态,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2020-05-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d4d6a9f3-8a2b-4d9a-9b5e-2f0a1e3b7c31,患者,PR状态,,类别型,阳性,,50%,,免疫组化,LLM提取,论文病例报告,2020-05-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d4d6a9f3-8a2b-4d9a-9b5e-2f0a1e3b7c31,患者,HER2状态,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2020-05-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,e7f9d3c2-5c8a-4f6b-9a0d-7b3c1d2e4f51,患者,诊断名称,,类别型,BRCA1致病性突变相关三阴性乳腺癌,,局部进展期,,,LLM提取,论文病例报告,2020-05-01,诊断,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,e7f9d3c2-5c8a-4f6b-9a0d-7b3c1d2e4f51,患者,分子标志物,,类别型,BRCA1,,胚系致病性移码变异 c.68_69delAG; p.Glu23Valfs*17,,遗传检测,LLM提取,论文病例报告,2020-05-01,诊断,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f1c2e3d4-8a9b-4c6d-9e1f-2a3b4c5d6e71,患者,药品名称,,类别型,Doxorubicin,,新辅助治疗；AC方案,,,LLM提取,论文病例报告,2020-05-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f1c2e3d4-8a9b-4c6d-9e1f-2a3b4c5d6e71,患者,药品名称,,类别型,Cyclophosphamide,,新辅助治疗；AC方案,,,LLM提取,论文病例报告,2020-05-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f1c2e3d4-8a9b-4c6d-9e1f-2a3b4c5d6e71,患者,治疗方案,,类别型,AC方案,,Doxorubicin + Cyclophosphamide,,,LLM提取,论文病例报告,2020-05-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f1c2e3d4-8a9b-4c6d-9e1f-2a3b4c5d6e71,患者,治疗反应,,类别型,部分/显著缓解,,MRI肿瘤大小由8 cm降至2 cm，腋窝淋巴结明显缩小,,,LLM提取,论文病例报告,2020-05-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,0c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e61,患者,药品名称,,类别型,Paclitaxel,,随后使用,,,LLM提取,论文病例报告,2020-06-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,0c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e61,患者,药品名称,,类别型,Carboplatin,,与Paclitaxel联用,,,LLM提取,论文病例报告,2020-06-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,0c4d5e6f-7a8b-4c9d-9e0f-1a2b3c4d5e61,患者,治疗反应,,类别型,轻微缓解,,加用Carboplatin后未见明显增益,,,LLM提取,论文病例报告,2020-06-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,8d7c6b5a-4e3f-4a2d-9c1b-0f1e2d3c4b51,患者,手术名称,,类别型,双侧乳房切除术,,,,,LLM提取,论文病例报告,2020-07-01,手术,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,8d7c6b5a-4e3f-4a2d-9c1b-0f1e2d3c4b51,患者,手术结果,,文本型,术后残余肿块3.5 cm，7/8淋巴结阳性,,,,病理,LLM提取,论文病例报告,2020-07-01,手术,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,8d7c6b5a-4e3f-4a2d-9c1b-0f1e2d3c4b51,患者,KI67,,数值型,60,60,,%,免疫组化,LLM提取,论文病例报告,2020-07-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,8d7c6b5a-4e3f-4a2d-9c1b-0f1e2d3c4b51,患者,PD-L1状态,,类别型,边界阳性/低表达,,肿瘤相关免疫细胞ICS: 5%,,免疫组化,LLM提取,论文病例报告,2020-07-01,病理,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,9a1b2c3d-4e5f-4a6b-9c7d-8e9f0a1b2c31,患者,治疗方案,,类别型,胸壁及腋窝放疗,,辅助放疗,,,LLM提取,论文病例报告,2020-08-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f2e3d4c5-b6a7-4d8e-9f1a-2b3c4d5e6f71,患者,影像所见,,文本型,放疗后出现新的皮肤及肺结节,,,,影像学复查,LLM提取,论文病例报告,2020-09-01,影像,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f2e3d4c5-b6a7-4d8e-9f1a-2b3c4d5e6f71,患者,药品名称,,类别型,Capecitabine,,因放疗后皮肤及肺结节出现而启动,,,LLM提取,论文病例报告,2020-09-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f2e3d4c5-b6a7-4d8e-9f1a-2b3c4d5e6f71,患者,治疗反应,,类别型,疾病稳定后进展,,,,,LLM提取,论文病例报告,2020-09-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,a3b4c5d6-e7f8-4a9b-8c1d-2e3f4a5b6c71,患者,药品名称,,类别型,Olaparib,,因BRCA1致病性变异而开始,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,a3b4c5d6-e7f8-4a9b-8c1d-2e3f4a5b6c71,患者,治疗反应,,类别型,继续进展,,,,,LLM提取,论文病例报告,2020-10-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d71,患者,诊断名称,,类别型,BRCA1野生型等位基因丢失、MYC扩增、TP53双重错义突变,,皮肤活检后基因组分析,,肿瘤基因组分析,LLM提取,论文病例报告,2020-10-01,诊断,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d71,患者,分子标志物,,类别型,MYC,,扩增（>5拷贝）,,肿瘤基因组分析,LLM提取,论文病例报告,2020-10-01,诊断,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,b4c5d6e7-f8a9-4b0c-9d1e-2f3a4b5c6d71,患者,分子标志物,,类别型,TP53,,双重错义突变 c.818G>A; p.Arg273His,,肿瘤基因组分析,LLM提取,论文病例报告,2020-10-01,诊断,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,c5d6e7f8-a9b0-4c1d-9e2f-3a4b5c6d7e81,患者,药品名称,,类别型,Pembrolizumab,,与姑息性皮肤放疗同时开始,,,LLM提取,论文病例报告,2020-10-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,c5d6e7f8-a9b0-4c1d-9e2f-3a4b5c6d7e81,患者,治疗反应,,类别型,稳定后进展,,,,,LLM提取,论文病例报告,2020-10-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d6e7f8a9-b0c1-4d2e-9f3a-4b5c6d7e8f91,患者,药品名称,,类别型,Sacituzumab govitecan,,尝试治疗,,,LLM提取,论文病例报告,2020-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,d6e7f8a9-b0c1-4d2e-9f3a-4b5c6d7e8f91,患者,治疗反应,,类别型,进展,,2个月后皮肤恶化，肺和骨骼受累,,随访影像,LLM提取,论文病例报告,2021-01-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,e7f8a9b0-c1d2-4e3f-9a4b-5c6d7e8f9011,患者,药品名称,,类别型,Doxorubicin,,再挑战,,,LLM提取,论文病例报告,2021-01-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,e7f8a9b0-c1d2-4e3f-9a4b-5c6d7e8f9011,患者,药品名称,,类别型,Bevacizumab,,与Doxorubicin联用,,,LLM提取,论文病例报告,2021-01-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,e7f8a9b0-c1d2-4e3f-9a4b-5c6d7e8f9011,患者,药品名称,,类别型,Disulfiram,,与Doxorubicin联用,,,LLM提取,论文病例报告,2021-01-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,e7f8a9b0-c1d2-4e3f-9a4b-5c6d7e8f9011,患者,治疗反应,,类别型,继续进展,,,,,LLM提取,论文病例报告,2021-01-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,治疗方案,,类别型,肿瘤浸润淋巴细胞输注（TIL）,,实验性治疗,,,LLM提取,论文病例报告,2021-11-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,治疗方案,,类别型,Cyclophosphamide + Fludarabine,,淋巴清除预处理,,,LLM提取,论文病例报告,2021-11-01,病程,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,药品名称,,类别型,Cyclophosphamide,,淋巴清除；3000 mg/day，2天,,,LLM提取,论文病例报告,2021-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,剂量,,数值型,3000,3000,2天,mg/day,,LLM提取,论文病例报告,2021-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,药品名称,,类别型,Fludarabine,,淋巴清除；45 mg/day，5天,,,LLM提取,论文病例报告,2021-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,剂量,,数值型,45,45,5天,mg/day,,LLM提取,论文病例报告,2021-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,药品名称,,类别型,IL-2,,连续输注，总计18 million IU/24h；累计45 million units后停用,,,LLM提取,论文病例报告,2021-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,剂量,,数值型,18,18,24h,million IU/day,,LLM提取,论文病例报告,2021-11-01,用药,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,不良反应名称,,类别型,低血压性休克,,IL-2后停药原因之一,,,LLM提取,论文病例报告,2021-11-01,不良反应,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,不良反应名称,,类别型,肾功能衰竭,,IL-2后,,,LLM提取,论文病例报告,2021-11-01,不良反应,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,不良反应名称,,类别型,细胞因子释放综合征,,危及生命,,,LLM提取,论文病例报告,2021-11-01,不良反应,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9b5c-6d7e8f901122,患者,不良反应名称,,类别型,急性心肌炎,,肌钙蛋白和proBNP升高,,,LLM提取,论文病例报告,2021-11-05,不良反应,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f8a9b0c1-d2e3-4f4a-9c1b-0f1e2d3c4b52,患者,处理措施,,文本型,氢化可的松治疗、常规心衰治疗,,用于细胞因子释放综合征/心肌炎,,,LLM提取,论文病例报告,2021-11-05,不良反应,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,f9b0c1d2-e3f4-4a5b-9c6d-7e8f90112233,患者,疗效评估,,类别型,主观改善/肿瘤负荷下降,,主要见于皮肤病灶,,临床评估,LLM提取,论文病例报告,2021-11-05,评估,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,0a1b2c3d-4e5f-4a6b-9d7e-8f9011223344,患者,出院状况,,类别型,病情改善后出院,,曾离院1个月,,,LLM提取,论文病例报告,2021-11-15,出院,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,0a1b2c3d-4e5f-4a6b-9d7e-8f9011223344,患者,出院医嘱,,文本型,出院后密切随访,,,,,LLM提取,论文病例报告,2021-11-15,出院,v1
+f1deae38bc6e2c9817c351813b3c937c,afa852c5cd878d7dbd3afcc9c4d567ee_1,1b2c3d4e-5f6a-4b7c-9d8e-9f0122334455,患者,治疗反应,,类别型,短暂获益后快速复发并死亡,,TIL/IL-2后约1个月,,,LLM提取,论文病例报告,2021-12-01,病程,v1

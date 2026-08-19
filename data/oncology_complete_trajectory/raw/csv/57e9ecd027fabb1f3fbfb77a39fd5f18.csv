@@ -1,0 +1,45 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,2f4a7c1d-8d1b-4f9f-a2c6-9d8e2c1a6f11,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,2f4a7c1d-8d1b-4f9f-a2c6-9d8e2c1a6f11,患者,年龄,,数值型,38,38,,岁,,LLM提取,论文病例报告,2021-06-01,病史,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,2f4a7c1d-8d1b-4f9f-a2c6-9d8e2c1a6f11,患者,吸烟史,,类别型,从不吸烟,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,5f8d2a3c-0f9f-4b7d-9a8d-4d6e2f8f1b22,患者,主诉,,文本型,多发头部皮下结节，乏力、头晕，偶有咳嗽少量白色痰,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,c3d8f2a1-7e2f-4b6a-9e1c-2a8b7d3c5f33,患者,体温,,文本型,37.2-39,,发热，波动于37.2-39°C,°C,,LLM提取,论文病例报告,2021-08-10,评估,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,8a1d3c5e-6f7a-4b8c-9d0e-1f2a3b4c5d66,标本,细针穿刺活检病理诊断,,文本型,腺癌（ADC）,,部位：头部皮下结节,,细针穿刺活检,LLM提取,论文病例报告,2021-07-01,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,b1c2d3e4-f5a6-4789-8b0c-1d2e3f4a5b77,患者,PET/CT所见,,文本型,左肺门中央型肺癌及左上叶尖后段周围型肺癌；双肺、多个淋巴结、双侧胸膜、左腮腺、双乳腺、胰头、双侧肾上腺、双肾、骨、肌肉及全身皮下多发转移,,,,PET/CT,LLM提取,论文病例报告,2021-09-10,影像,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,b1c2d3e4-f5a6-4789-8b0c-1d2e3f4a5b77,患者,PET/CT结论,,文本型,广泛转移性肺癌表现,,,,PET/CT,LLM提取,论文病例报告,2021-09-10,影像,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,d4e5f6a7-b8c9-4d0e-8f1a-2b3c4d5e6f88,患者,CT所见,,文本型,左肺上叶肿块,,胸部增强CT,,CT,LLM提取,论文病例报告,2021-09-18,影像,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,e6f7a8b9-c0d1-4e2f-9a1b-3c4d5e6f7a99,标本,病理诊断,,文本型,鳞状细胞癌（SQCC）,,左主支气管肿瘤刷检,,纤维支气管镜刷检,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,e6f7a8b9-c0d1-4e2f-9a1b-3c4d5e6f7a99,标本,TTF-1,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,e6f7a8b9-c0d1-4e2f-9a1b-3c4d5e6f7a99,标本,CK7,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,e6f7a8b9-c0d1-4e2f-9a1b-3c4d5e6f7a99,标本,P40,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f7a8b9c0-d1e2-4f3a-9b1c-4d5e6f7a8b00,标本,病理诊断,,文本型,中分化腺癌（ADC），腺泡状生长为主并有细胞外黏液分泌,,部位：头皮皮下结节,,病理,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f7a8b9c0-d1e2-4f3a-9b1c-4d5e6f7a8b00,标本,TTF-1,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f7a8b9c0-d1e2-4f3a-9b1c-4d5e6f7a8b00,标本,Napsin A,,类别型,阴性,,,,免疫组化,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f7a8b9c0-d1e2-4f3a-9b1c-4d5e6f7a8b00,标本,CK7,,类别型,阳性,,,,免疫组化,LLM提取,论文病例报告,2021-09-18,病理,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,a1b2c3d4-e5f6-4789-9a0b-1c2d3e4f5a11,患者,肿瘤分期,,类别型,IVB,,T4N3M1c,,,LLM提取,论文病例报告,2021-09-18,诊断,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,a1b2c3d4-e5f6-4789-9a0b-1c2d3e4f5a11,患者,诊断名称,,类别型,肺癌，ALK基因重排，伴多发远处转移,,临床诊断,,,LLM提取,论文病例报告,2021-09-18,诊断,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,a1b2c3d4-e5f6-4789-9a0b-1c2d3e4f5a11,患者,ECOG PS,,类别型,2-3,,,,,LLM提取,论文病例报告,2021-09-18,评估,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,c2d3e4f5-a6b7-4890-9b1c-2d3e4f5a6b22,患者,治疗方案,,类别型,白蛋白紫杉醇联合奈达铂化疗,,300 mg + 80 mg，1个周期,,,LLM提取,论文病例报告,2021-09-28,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,c2d3e4f5-a6b7-4890-9b1c-2d3e4f5a6b22,白蛋白紫杉醇,药品名称,,类别型,白蛋白紫杉醇,,,,,LLM提取,论文病例报告,2021-09-28,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,c2d3e4f5-a6b7-4890-9b1c-2d3e4f5a6b22,白蛋白紫杉醇,剂量,,数值型,300,300,,mg,,LLM提取,论文病例报告,2021-09-28,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,c2d3e4f5-a6b7-4890-9b1c-2d3e4f5a6b22,奈达铂,药品名称,,类别型,奈达铂,,,,,LLM提取,论文病例报告,2021-09-28,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,c2d3e4f5-a6b7-4890-9b1c-2d3e4f5a6b22,奈达铂,剂量,,数值型,80,80,,mg,,LLM提取,论文病例报告,2021-09-28,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,d3e4f5a6-b7c8-4901-9b1c-3d4e5f6a7b33,患者,治疗方案,,类别型,阿来替尼靶向治疗,,600 mg，口服，每日2次,,,LLM提取,论文病例报告,2021-09-30,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,d3e4f5a6-b7c8-4901-9b1c-3d4e5f6a7b33,阿来替尼,药品名称,,类别型,阿来替尼,,,,,LLM提取,论文病例报告,2021-09-30,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,d3e4f5a6-b7c8-4901-9b1c-3d4e5f6a7b33,阿来替尼,剂量,,数值型,600,600,,mg,,LLM提取,论文病例报告,2021-09-30,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,d3e4f5a6-b7c8-4901-9b1c-3d4e5f6a7b33,阿来替尼,给药途径,,类别型,口服,,每日2次,,,LLM提取,论文病例报告,2021-09-30,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,e4f5a6b7-c8d9-4012-9b1c-4e5f6a7b8c44,患者,疗效评估,,类别型,部分缓解（PR）,,阿来替尼治疗8周后；CT示肺部病灶缩小,,CT,LLM提取,论文病例报告,2021-11-25,评估,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,e4f5a6b7-c8d9-4012-9b1c-4e5f6a7b8c44,患者,ECOG PS,,类别型,1,,由2-3改善至1,,,LLM提取,论文病例报告,2021-11-25,评估,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f5a6b7c8-d9e0-4123-9b1c-5f6a7b8c9d55,患者,疗效评估,,类别型,稳定疾病（SD）,,2022年5月，阿来替尼治疗期间,,CT,LLM提取,论文病例报告,2022-05-01,评估,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f6a7b8c9-d0e1-4234-9b1c-6a7b8c9d0e66,患者,疗效评估,,类别型,疾病进展（PD）,,2022年8月；胸腹盆腔CT提示原发灶及转移灶增大,,CT,LLM提取,论文病例报告,2022-08-01,评估,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,a9b8c7d6-e5f4-4321-9a0b-7c6d5e4f3a77,患者,治疗方案,,类别型,洛拉替尼靶向治疗,,2个月,,,LLM提取,论文病例报告,2022-08-25,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,a9b8c7d6-e5f4-4321-9a0b-7c6d5e4f3a77,洛拉替尼,药品名称,,类别型,洛拉替尼,,,,,LLM提取,论文病例报告,2022-08-25,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,1a2b3c4d-5e6f-4071-9a0b-8c7d6e5f4a88,患者,ctDNA结果,,文本型,持续存在EML4-ALK重排，并新增PIK3CA p.E542K突变,,外周血检测,,ctDNA检测,LLM提取,论文病例报告,2022-10-25,检验,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,患者,治疗方案,,类别型,白蛋白紫杉醇联合卡铂、卡瑞利珠单抗及重组人血管内皮抑素,,1个周期,,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,白蛋白紫杉醇,药品名称,,类别型,白蛋白紫杉醇,,,,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,白蛋白紫杉醇,剂量,,数值型,350,350,,mg,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,卡铂,药品名称,,类别型,卡铂,,,,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,卡铂,剂量,,数值型,400,400,,mg,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,卡瑞利珠单抗,药品名称,,类别型,卡瑞利珠单抗,,,,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,7b8c9d0e-1f2a-4356-9a0b-9d8c7b6a5e99,重组人血管内皮抑素,药品名称,,类别型,重组人血管内皮抑素,,,,,LLM提取,论文病例报告,2022-11-05,用药,v1
+57e9ecd027fabb1f3fbfb77a39fd5f18,f64e1dd8e2dfb01592cfde38bd7dc24f,f0e1d2c3-b4a5-4678-9a0b-8d7c6b5a4f00,患者,结局,,文本型,呼吸状况恶化，数日内死亡,,2022年11月用药后,,,LLM提取,论文病例报告,2022-11-08,病程,v1

@@ -1,0 +1,53 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,0f3b1f8f-6c7f-4c9d-8d3d-4d9b1d4c7d91,患者,年龄,,数值型,49,49,,岁,,LLM提取,论文病例报告,2021-11-09,入院,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,0f3b1f8f-6c7f-4c9d-8d3d-4d9b1d4c7d91,患者,性别,,类别型,女,,,,,LLM提取,论文病例报告,2021-11-09,入院,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,0f3b1f8f-6c7f-4c9d-8d3d-4d9b1d4c7d91,患者,入院科室,,类别型,神经内科,,,,,LLM提取,论文病例报告,2021-11-09,入院,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,0f3b1f8f-6c7f-4c9d-8d3d-4d9b1d4c7d91,患者,主诉,,文本型,胸闷、胸痛2天,,,,,LLM提取,论文病例报告,2021-11-09,入院,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,c0b5d2f6-3cf2-4f4e-9b4f-4d3d2c5e2b9a,患者,既往史,,文本型,6个月前因呼吸困难诊断为重症肌无力合并胸腺瘤，胸腺瘤术后长期使用糖皮质激素及他克莫司治疗6个月,,,,,LLM提取,论文病例报告,2021-11-09,病史,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,c0b5d2f6-3cf2-4f4e-9b4f-4d3d2c5e2b9a,患者,用药史,,文本型,甲泼尼龙片60 mg qd（每月减4 mg），他克莫司胶囊10 mg bid，溴化吡啶斯的明片60 mg bid,,持续6个月,,,LLM提取,论文病例报告,2021-11-09,病史,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,5d4a6a36-6e0d-4e5c-9b5e-3d8d3c6a7a11,患者,现病史,,文本型,入院前5天胸部CT提示左侧少量胸腔积液；入院后初步考虑重症肌无力复发，后出现呼吸困难加重及双侧胸腔积液,,,,,LLM提取,论文病例报告,2021-11-09,病史,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,白蛋白,,数值型,30.6,30.6,参考范围35-55,g/L,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,脑利钠肽,,数值型,208.6,208.6,参考范围0-121,pg/mL,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,CD4+T细胞计数,,数值型,197.25,197.25,参考范围550-1440,cells/μL,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,肝功能,,类别型,正常,,,,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,肾功能,,类别型,正常,,,,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,结缔组织病检查,,类别型,正常,,,,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,"1,3-β-D葡聚糖试验",,类别型,阴性,,参考范围0-95 pg/mL,pg/mL,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,半乳甘露聚糖试验,,类别型,阴性,,参考范围0-0.5,μg/L,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,C反应蛋白,,类别型,阴性,,参考范围0-5,mg/L,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7a2f2c4e-2b73-4f4a-9a7d-5b8c0f7c1e22,血清,降钙素原,,类别型,阴性,,参考范围0-0.046,ng/mL,,LLM提取,论文病例报告,2021-11-09,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,b1d2c3e4-5f67-4890-9abc-def123456789,患者,治疗方案,,文本型,甲泼尼龙40 mg/day联合丙种球蛋白400 mg/kg,,用于治疗重症肌无力复发,,,LLM提取,论文病例报告,2021-11-09,用药,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,b1d2c3e4-5f67-4890-9abc-def123456789,患者,药品名称,,类别型,甲泼尼龙,,,,,LLM提取,论文病例报告,2021-11-09,用药,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,b1d2c3e4-5f67-4890-9abc-def123456789,患者,药品名称,,类别型,丙种球蛋白,,,,,LLM提取,论文病例报告,2021-11-09,用药,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,胸腔积液颜色,,文本型,淡黄色,,轻度浑浊,,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,蛋白,,数值型,44.1,44.1,参考范围0-30,g/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,葡萄糖,,数值型,4.71,4.71,参考范围3.6-5.5,mmol/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,乳酸脱氢酶,,数值型,206,206,参考范围75-245,U/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,细胞计数,,数值型,2223,2223,61.3%多核细胞,×10^6/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,腺苷脱氨酶,,数值型,9,9,参考范围0-22,IU/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8c9d0e1f-2345-4678-9abc-def012345678,左胸腔积液,CEA,,数值型,105,105,培养阴性,μg/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,胸腔积液颜色,,文本型,淡黄色,,轻度浑浊,,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,蛋白,,数值型,45.1,45.1,,g/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,葡萄糖,,数值型,8.23,8.23,,mmol/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,乳酸脱氢酶,,数值型,147,147,,U/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,细胞计数,,数值型,1420,1420,58.4%多核细胞,×10^6/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,腺苷脱氨酶,,数值型,11,11,参考范围0-22,IU/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,d4e5f6a7-8901-4b23-9cde-f0123456789a,右胸腔积液,CEA,,数值型,10,10,培养阴性,μg/L,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,e6f7a8b9-c012-4d34-9ef0-1234567890ab,患者,ADA检测,,类别型,阴性,,胸水结核PCR阴性；肿瘤标志物正常；双侧胸水培养阴性,,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,e6f7a8b9-c012-4d34-9ef0-1234567890ab,患者,结核PCR,,类别型,阴性,,胸水标本,,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,e6f7a8b9-c012-4d34-9ef0-1234567890ab,患者,肿瘤标志物,,类别型,正常,,,,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,e6f7a8b9-c012-4d34-9ef0-1234567890ab,患者,胸水培养,,类别型,阴性,,双侧胸水,,,LLM提取,论文病例报告,2021-11-12,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,f1a2b3c4-d5e6-4789-abcd-ef0123456789,患者,治疗方案,,文本型,头孢哌酮/舒巴坦经验性治疗,,因严重呼吸困难；无明显改善,,,LLM提取,论文病例报告,2021-11-12,用药,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,1a2b3c4d-5e6f-4789-abcd-ef1234567890,患者,影像所见,,文本型,双侧胸膜增厚，双侧胸膜代谢增高，最高SUV 12.5,,PET-CT,,PET-CT,LLM提取,论文病例报告,2021-11-22,影像,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,1a2b3c4d-5e6f-4789-abcd-ef1234567890,患者,影像结论,,文本型,考虑胸膜受累，需鉴别胸膜转移与胸膜特异性感染,,,,PET-CT,LLM提取,论文病例报告,2021-11-22,影像,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,2b3c4d5e-6f70-4891-abcd-ef2345678901,右侧胸膜活检组织,病理诊断,,文本型,见大量酵母样组织，周围有黏液性包膜；考虑隐球菌感染,,HE、AB-PAS、六胺银、黏液卡红染色提示,,病理染色,LLM提取,论文病例报告,2021-11-22,病理,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,2b3c4d5e-6f70-4891-abcd-ef2345678901,右侧胸膜活检组织,标本部位,,类别型,右胸膜,,,,,LLM提取,论文病例报告,2021-11-22,病理,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,2b3c4d5e-6f70-4891-abcd-ef2345678901,右侧胸膜活检组织,免疫组化,,文本型,AB-PAS、六胺银、黏液卡红染色可疑隐球菌,,,,,LLM提取,论文病例报告,2021-11-22,病理,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,3c4d5e6f-7081-4a92-abcd-ef3456789012,胸膜组织,mNGS结果,,类别型,Cryptococcus neoformans检出,,SSRN 4；ENA项目PRJEB64498,,mNGS,LLM提取,论文病例报告,2021-11-22,检验,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,4d5e6f70-8192-4ba3-abcd-ef4567890123,患者,腰穿,,类别型,已完成,,用于排除中枢神经系统感染,,,LLM提取,论文病例报告,2021-11-22,其他,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,5e6f7081-92a3-4cb4-abcd-ef5678901234,患者,治疗方案,,文本型,两性霉素B,,抗隐球菌治疗,,,LLM提取,论文病例报告,2021-11-22,用药,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,5e6f7081-92a3-4cb4-abcd-ef5678901234,患者,治疗反应,,类别型,胸腔积液逐渐减少,,治疗1周后胸部B超无胸腔积液,,,LLM提取,论文病例报告,2021-11-29,病程,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,6f708192-a3b4-4cd5-abcd-ef6789012345,患者,治疗方案,,文本型,两性霉素B后序贯氟康唑口服,,氟康唑治疗2个月,,,LLM提取,论文病例报告,2022-01-29,用药,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7f8192a3-b4c5-4de6-abcd-ef7890123456,患者,影像所见,,文本型,胸腔积液消失,,随访胸部CT,,胸部CT,LLM提取,论文病例报告,2022-01-29,影像,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,7f8192a3-b4c5-4de6-abcd-ef7890123456,患者,影像结论,,文本型,无胸腔积液,,,,胸部CT,LLM提取,论文病例报告,2022-01-29,影像,v1
+d0e681a2cbfbcebb0098d44b40204361,f221b8c0bc3ebc96be4efb8f1c52cbfe_1,8a92a3b4-c5d6-4ef7-abcd-ef8901234567,患者,随访结果,,文本型,1年后仍无胸腔积液，健康状况良好,,,,,LLM提取,论文病例报告,2022-11-09,病程,v1

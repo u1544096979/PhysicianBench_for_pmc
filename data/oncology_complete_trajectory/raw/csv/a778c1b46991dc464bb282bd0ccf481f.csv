@@ -1,0 +1,48 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,1f2f8a3d-5d4a-4b7a-9d4a-4f7c7e2d9f01,患者,既往史,,文本型,2016年行乳腺癌根治术，术后化疗8程、放疗16程,,,,,LLM提取,论文病例报告,2016-01-01,病史,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,1f2f8a3d-5d4a-4b7a-9d4a-4f7c7e2d9f01,患者,既往史,,文本型,2012年于当地医院行胆囊切除术,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,6c4d7c2f-1d8b-4ed2-9b74-0d9e7c7f4d11,患者,主诉,,文本型,右侧腹膜后肿瘤发现1年以上,,,,,LLM提取,论文病例报告,2021-04-01,病史,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,6c4d7c2f-1d8b-4ed2-9b74-0d9e7c7f4d11,患者,现病史,,文本型,2021年4月因腰痛就诊外院，PET/CT提示右侧腹膜后软组织肿块伴葡萄糖代谢增高，考虑肿瘤性病变；建议手术但患者拒绝，未予处理后出院,,,,,LLM提取,论文病例报告,2021-04-01,病史,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,b8d0dd2e-0a7f-4b88-8c6d-8a2fd2d3f401,患者,入院年龄,,数值型,50多岁,,女性，early 50s,岁,,LLM提取,论文病例报告,2022-08-05,入院,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,b8d0dd2e-0a7f-4b88-8c6d-8a2fd2d3f401,患者,主诉,,文本型,右侧腰背痛加重2周,,,,,LLM提取,论文病例报告,2022-08-05,入院,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,b8d0dd2e-0a7f-4b88-8c6d-8a2fd2d3f401,患者,入院科室,,类别型,未提及,,"Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan Hospital",,,LLM提取,论文病例报告,2022-08-05,入院,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,c3b2ef2b-3f0c-4a6d-9e4d-6c6d5f7d8a21,患者,查体,,文本型,入院体格检查无明显异常,,,,,LLM提取,论文病例报告,2022-08-05,评估,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,d1a5f2e6-6c7d-4d5b-9f3e-1c2d3e4f5a67,血液,血常规,,类别型,未见明显异常,,,,,LLM提取,论文病例报告,2022-08-05,检验,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,d1a5f2e6-6c7d-4d5b-9f3e-1c2d3e4f5a67,血液,肿瘤标志物,,类别型,未见明显异常,,,,,LLM提取,论文病例报告,2022-08-05,检验,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,d1a5f2e6-6c7d-4d5b-9f3e-1c2d3e4f5a67,血液,其他血检,,类别型,未见明显异常,,,,,LLM提取,论文病例报告,2022-08-05,检验,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,d1a5f2e6-6c7d-4d5b-9f3e-1c2d3e4f5a67,血液,心电图,,类别型,未见明显异常,,,,,LLM提取,论文病例报告,2022-08-05,检验,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,d1a5f2e6-6c7d-4d5b-9f3e-1c2d3e4f5a67,血液,超声心动图,,类别型,未见明显异常,,,,,LLM提取,论文病例报告,2022-08-05,检验,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,e4b1c2d3-f4a5-4678-9abc-1d2e3f4a5b67,影像检查,影像所见,,文本型,右侧中下腹膜后见肿块，约5.3cm×4.4cm×10.1cm，右侧卵巢静脉增粗迂曲，病灶累及右肾静脉及邻近下腔静脉，并包绕右输尿管致右肾积水；双侧附件区低密度灶，子宫多发结节/肿块考虑肌瘤,,增强CT，盆腔全扫,,CT,LLM提取,论文病例报告,2022-08-05,影像,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,e4b1c2d3-f4a5-4678-9abc-1d2e3f4a5b67,影像检查,影像结论,,文本型,右侧中下腹膜后肿块，侵犯右肾静脉和下腔静脉，伴右侧输尿管受压及右肾积水，考虑血管内平滑肌瘤性病变/IVL可能,,,,,LLM提取,论文病例报告,2022-08-05,影像,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,f6a7b8c9-d0e1-4f23-9a45-b6c7d8e9f012,影像检查,影像所见,,文本型,右侧中下腹膜后不规则混杂信号肿块，边界尚清，沿右卵巢静脉及右肾静脉生长，部分突入下腔静脉，大小约4.0cm×5.4cm×14.2cm；累及右输尿管上段致右肾盂肾盏扩张积水,,增强MRI，腹部上中段扫描,,MRI,LLM提取,论文病例报告,2022-08-11,影像,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,f6a7b8c9-d0e1-4f23-9a45-b6c7d8e9f012,影像检查,影像结论,,文本型,考虑血管内平滑肌瘤病（IVL）表现,,,,,LLM提取,论文病例报告,2022-08-11,影像,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,a1b2c3d4-e5f6-4789-abcd-1234567890ab,患者,诊断名称,,类别型,III期血管内平滑肌瘤性病变（术前诊断）,,,,,LLM提取,论文病例报告,2022-08-11,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,g1h2i3j4-k5l6-4789-mnop-1234567890cd,核医学检查,检查结果,,文本型,肾功能无明显异常,,术前肾功能核素显像,,,LLM提取,论文病例报告,2022-08-11,检验,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,h1i2j3k4-l5m6-4789-nopq-1234567890ef,患者,手术名称,,类别型,右腹膜后肿瘤切除术,,联合右肾静脉及下腔静脉血栓切除、右肾静脉人工血管重建,,,LLM提取,论文病例报告,2022-08-11,手术,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,h1i2j3k4-l5m6-4789-nopq-1234567890ef,患者,手术结果,,文本型,成功切除肿瘤，分离右输尿管，切除与十二指肠及右腰大肌粘连部分，保留右肾,,,,,LLM提取,论文病例报告,2022-08-11,手术,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,h1i2j3k4-l5m6-4789-nopq-1234567890ef,患者,麻醉方式,,类别型,未提及,,,,,LLM提取,论文病例报告,2022-08-11,手术,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,i1j2k3l4-m5n6-4789-opqr-1234567890gh,病理标本,病理诊断,,文本型,平滑肌肉瘤,,术后病理提示腹膜后平滑肌肉瘤,,HE染色/免疫组化,LLM提取,论文病例报告,2022-08-11,病理,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,i1j2k3l4-m5n6-4789-opqr-1234567890gh,病理标本,标本部位,,类别型,右腹膜后肿瘤,,,,HE染色/免疫组化,LLM提取,论文病例报告,2022-08-11,病理,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,i1j2k3l4-m5n6-4789-opqr-1234567890gh,病理标本,免疫组化,,文本型,"CK(-), vimentin(+), SMA(+), desmin(灶+), actin(+), S100(-), MDM2(-), Bcl-2(灶+), EMA(+), CD34(血管+), CD99(+), TLE1(-), CD117(-), DOG1(-), SDHB(+), Ki-67(+，约50%), calponin(+), CD31(血管+), FLI-1(弱+), CD68(灶+), CD163(部分+)",,,,免疫组化,LLM提取,论文病例报告,2022-08-11,病理,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,j1k2l3m4-n5o6-4789-pqrs-1234567890ij,患者,出院状况,,类别型,术后恢复后出院,,术后1周，给予抗炎、抗感染对症治疗后出院,,,LLM提取,论文病例报告,2022-08-18,出院,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,j1k2l3m4-n5o6-4789-pqrs-1234567890ij,患者,出院诊断,,类别型,腹膜后平滑肌肉瘤术后,,,,,LLM提取,论文病例报告,2022-08-18,出院,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,j1k2l3m4-n5o6-4789-pqrs-1234567890ij,患者,出院医嘱,,文本型,建议术后化疗，但患者因经济原因拒绝继续治疗,,,,,LLM提取,论文病例报告,2022-08-18,出院,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,k1l2m3n4-o5p6-4789-qrst-1234567890kl,患者,治疗方案,,类别型,术后化疗,,ifosfamide + doxorubicin,,,LLM提取,论文病例报告,2022-08-18,病程,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,k1l2m3n4-o5p6-4789-qrst-1234567890kl,患者,药品名称,,类别型,ifosfamide,,,,,LLM提取,论文病例报告,2022-08-18,用药,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,k1l2m3n4-o5p6-4789-qrst-1234567890kl,患者,药品名称,,类别型,doxorubicin,,,,,LLM提取,论文病例报告,2022-08-18,用药,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,k1l2m3n4-o5p6-4789-qrst-1234567890kl,患者,治疗反应,,类别型,治疗过程顺利,,但出现明显消化道反应,,,LLM提取,论文病例报告,2022-08-18,病程,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,l1m2n3o4-p5q6-4789-rstu-1234567890mn,患者,治疗方案,,类别型,化疗,,isocyclophosphamide + doxorubicin hydrochloride,,,LLM提取,论文病例报告,2023-11-28,病程,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,l1m2n3o4-p5q6-4789-rstu-1234567890mn,患者,药品名称,,类别型,isocyclophosphamide,,"d1, 31.5 g",,,LLM提取,论文病例报告,2023-11-28,用药,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,l1m2n3o4-p5q6-4789-rstu-1234567890mn,患者,剂量,,数值型,31.5,31.5,d1,g,,LLM提取,论文病例报告,2023-11-28,用药,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,l1m2n3o4-p5q6-4789-rstu-1234567890mn,患者,药品名称,,类别型,doxorubicin hydrochloride,,"d1, 225 mg",,,LLM提取,论文病例报告,2023-11-28,用药,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,l1m2n3o4-p5q6-4789-rstu-1234567890mn,患者,剂量,,数值型,225,225,d1,mg,,LLM提取,论文病例报告,2023-11-28,用药,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,l1m2n3o4-p5q6-4789-rstu-1234567890mn,患者,治疗反应,,类别型,化疗过程顺利,,但出现明显消化道反应后给予对症支持治疗并出院,,,LLM提取,论文病例报告,2023-11-28,病程,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,m1n2o3p4-q5r6-4789-stuv-1234567890op,患者,诊断名称,,类别型,腹膜后恶性肿瘤术后复发,,伴胰腺继发恶性肿瘤、腹膜后淋巴结继发恶性肿瘤、右肾盂积水、高血压、乳腺恶性肿瘤病史,,,LLM提取,论文病例报告,2023-11-28,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,m1n2o3p4-q5r6-4789-stuv-1234567890op,患者,诊断名称,,类别型,胰腺继发恶性肿瘤,,,,,LLM提取,论文病例报告,2023-11-28,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,m1n2o3p4-q5r6-4789-stuv-1234567890op,患者,诊断名称,,类别型,腹膜后淋巴结继发恶性肿瘤,,,,,LLM提取,论文病例报告,2023-11-28,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,m1n2o3p4-q5r6-4789-stuv-1234567890op,患者,诊断名称,,类别型,右肾盂积水,,,,,LLM提取,论文病例报告,2023-11-28,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,m1n2o3p4-q5r6-4789-stuv-1234567890op,患者,诊断名称,,类别型,高血压,,,,,LLM提取,论文病例报告,2023-11-28,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,m1n2o3p4-q5r6-4789-stuv-1234567890op,患者,诊断名称,,类别型,乳腺恶性肿瘤病史,,,,,LLM提取,论文病例报告,2023-11-28,诊断,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,n1o2p3q4-r5s6-4789-tuvw-1234567890qr,患者,影像所见,,文本型,右侧中下腹部多发结节/肿块，胰尾模糊结节，远端胰腺胰管扩张,,2023年11月当地医院复查影像,,CT/MRI,LLM提取,论文病例报告,2023-11-01,影像,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,n1o2p3q4-r5s6-4789-tuvw-1234567890qr,患者,影像结论,,文本型,考虑腹膜后肉瘤术后复发及转移可能,,,,,LLM提取,论文病例报告,2023-11-01,影像,v1
+a778c1b46991dc464bb282bd0ccf481f,fbf3dc0aa650e6a6584686a8ae9ef5ca,o1p2q3r4-s5t6-4789-uvwx-1234567890st,患者,出院医嘱,,文本型,建议留置输尿管支架管或行右肾造瘘处理右肾盂积水，但患者及家属拒绝，要求转上级医院继续处理,,,,,LLM提取,论文病例报告,2023-11-28,出院,v1

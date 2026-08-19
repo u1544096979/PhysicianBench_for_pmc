@@ -1,0 +1,35 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,8d1d6b75-7c1d-4c1d-8e7e-0d5f4f8b9e31,患者,性别,,类别型,女,,African-American；24岁,,,LLM提取,论文病例报告,2014-12-01,病史,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,8d1d6b75-7c1d-4c1d-8e7e-0d5f4f8b9e31,患者,病史,,文本型,镰状细胞性状（SCT）,,,,,LLM提取,论文病例报告,2014-12-01,病史,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,8d1d6b75-7c1d-4c1d-8e7e-0d5f4f8b9e31,患者,主诉,,文本型,肉眼血尿、间歇性右侧腰痛，病程1个月,,,,,LLM提取,论文病例报告,2014-12-01,病史,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,2f0f5f4c-7e14-4b63-9f3f-2f1e8f4db9aa,CT,影像所见,,文本型,右肾上极界限清楚的实性肿块，中心坏死，大小6.0×3.9×5.0 cm；左下肺见2个肺结节，分别约3 mm和2 mm，考虑转移。,,,,CT,LLM提取,论文病例报告,2014-12-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,2f0f5f4c-7e14-4b63-9f3f-2f1e8f4db9aa,CT,影像结论,,文本型,提示右肾髓质癌并肺转移可能,,,,CT,LLM提取,论文病例报告,2014-12-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,5d3a0c28-9c63-46bc-8d3b-4c6f8c6c9f2b,患者,手术名称,,类别型,右侧根治性肾切除术,,,,,LLM提取,论文病例报告,2015-01-01,手术,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,8a5d8e5a-0c54-4d0d-9f57-3a4f7e7c8c2b,病理,病理诊断,,文本型,肾髓质癌（RMC）,,组织学及免疫组化提示,,组织学/IHC,LLM提取,论文病例报告,2015-01-01,病理,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,8a5d8e5a-0c54-4d0d-9f57-3a4f7e7c8c2b,病理,分子标志物,,类别型,SMARCB1突变,,,,,LLM提取,论文病例报告,2015-01-01,病理,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,c9e8f0bb-2a1f-4c2f-9c8b-2a0d2df8b7b1,患者,诊断名称,,类别型,转移性肾髓质癌,,,,,LLM提取,论文病例报告,2015-01-01,诊断,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,d4f2d5a9-41a8-4d27-a4d4-6d0a5e9f1e2c,CT,影像所见,,文本型,左下肺结节增大至7 mm，左上肺叶出现新病灶；术后床区出现两个新结节，每个约1 cm。,,,,CT,LLM提取,论文病例报告,2015-02-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,d4f2d5a9-41a8-4d27-a4d4-6d0a5e9f1e2c,CT,影像结论,,文本型,提示病灶进展,,,,CT,LLM提取,论文病例报告,2015-02-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,1f2f54f4-9d4d-4c7c-9a41-7f8e2d2a4c10,患者,药品名称,,类别型,顺铂,,联合方案起始：顺铂、紫杉醇、吉西他滨,,,LLM提取,论文病例报告,2015-03-01,用药,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,1f2f54f4-9d4d-4c7c-9a41-7f8e2d2a4c10,患者,药品名称,,类别型,紫杉醇,,第1个周期后因3级毒性停用,,,LLM提取,论文病例报告,2015-03-01,用药,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,1f2f54f4-9d4d-4c7c-9a41-7f8e2d2a4c10,患者,药品名称,,类别型,吉西他滨,,联合方案：后续与顺铂继续使用,,,LLM提取,论文病例报告,2015-03-01,用药,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,2a6b9e42-3f7f-4b3b-8fd2-0f5c4d7a7c11,患者,不良反应名称,,类别型,中性粒细胞减少,,3级,,,LLM提取,论文病例报告,2015-03-01,不良反应,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,3b6d8e0f-6c0f-4d8e-9c0e-5b0d7a6f8e12,患者,治疗反应,,类别型,完全缓解,,第3个周期后观察到,,,LLM提取,论文病例报告,2015-05-01,病程,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,4c7e9f1a-8b2c-4d1e-9a7f-0c1d2e3f4a55,患者,治疗反应,,类别型,无病灶/疾病无证据,,第6个周期结束后（2015-07）,,,LLM提取,论文病例报告,2015-07-01,病程,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,6f1e2d3c-4b5a-4c6d-8e7f-9a0b1c2d3e44,CT,影像所见,,文本型,右肾切除床区1.6×1.6 cm结节，左下肺两个结节增大，提示病灶负荷增加。,,,,CT,LLM提取,论文病例报告,2015-10-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,6f1e2d3c-4b5a-4c6d-8e7f-9a0b1c2d3e44,CT,影像结论,,文本型,复发/进展,,,,CT,LLM提取,论文病例报告,2015-10-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,7a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c55,病理,免疫组化,,文本型,PD-L1在25%的肿瘤细胞中表达（SP142）,,参考：ICS≥5%为阳性,,IHC,LLM提取,论文病例报告,2015-10-01,病理,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,8c9d0e1f-2a3b-4c5d-8e6f-0a1b2c3d4e66,患者,药品名称,,类别型,纳武利尤单抗,,3 mg/kg，每2周一次,,,LLM提取,论文病例报告,2015-10-19,用药,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,9d0e1f2a-3b4c-4d5e-8f6a-1b2c3d4e5f77,患者,不良反应名称,,类别型,恶心,,轻度；使用ondansetron控制,,,LLM提取,论文病例报告,2015-10-19,不良反应,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,aa1b2c3d-4e5f-4a6b-8c7d-0e1f2a3b4c88,患者,妊娠状态,,类别型,妊娠6周,,因UTI就诊时发现；纳武利尤单抗暂停,,,LLM提取,论文病例报告,2015-12-01,病程,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,bb2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d99,患者,手术名称,,类别型,清宫术（D&C）,,患者选择于2016年1月行该手术,,,LLM提取,论文病例报告,2016-01-01,手术,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,cc3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5eaa,CT,影像所见,,文本型,右肾切除床区疾病稳定，肺转移灶较前改善。,,恢复纳武利尤单抗前,,CT,LLM提取,论文病例报告,2016-02-12,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,cc3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5eaa,CT,影像结论,,文本型,稳定/部分缓解,,,,CT,LLM提取,论文病例报告,2016-02-12,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,dd4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6faa,PET,影像所见,,文本型,手术床复发灶轻度增大，左下肺转移灶持续消退。,,,,PET,LLM提取,论文病例报告,2016-05-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,dd4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6faa,PET,影像结论,,文本型,局部进展，远处肺转移灶改善,,,,PET,LLM提取,论文病例报告,2016-05-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,ee5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7aab,患者,不良反应名称,,类别型,结肠炎,,伴恶心、腹泻、腹痛；给予泼尼松后改善,,,LLM提取,论文病例报告,2016-07-01,不良反应,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,ff6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8bbc,患者,手术名称,,类别型,复发灶切除术,,,,,LLM提取,论文病例报告,2016-07-01,手术,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,001a2b3c-4d5e-4f6a-8b7c-9d0e1f2a3bcc,患者,药品名称,,类别型,纳武利尤单抗,,2016-07-21恢复治疗，Cycle#13,,,LLM提取,论文病例报告,2016-07-21,用药,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,112b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4cdd,PET,影像所见,,文本型,纵隔病灶减少，但辐射野外出现新的肺和肝转移灶，右肾切除床区复发。,,在完成28个周期纳武利尤单抗并接受纵隔姑息放疗后,,PET,LLM提取,论文病例报告,2017-02-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,112b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4cdd,PET,影像结论,,文本型,疾病进展,,,,PET,LLM提取,论文病例报告,2017-02-01,影像,v1
+100e6c88ba139cbc86f0a95d92847f87,b754213ae1f990ed2ee8bded122ee0de_1,223c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5dee,患者,药品名称,,类别型,伊匹单抗,,加用至纳武利尤单抗,,,LLM提取,论文病例报告,2017-02-01,用药,v1

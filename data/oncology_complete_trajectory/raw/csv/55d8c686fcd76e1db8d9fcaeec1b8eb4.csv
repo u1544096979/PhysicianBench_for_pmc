@@ -1,0 +1,29 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,f2d8d3b8-8d88-4d4b-9d5e-4f1d7d8e1a01,患者,入院年龄,,数值型,54,54,,岁,,LLM提取,论文病例报告,2015-10-01,入院,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,8f0a5c57-4f6e-4a7e-8d5f-6f6d0d2b2b02,患者,病史,,文本型,既往诊断为小细胞肺癌（SCLC），曾接受多线化疗及胸壁、右锁骨上区、胸椎、右肾上腺放疗，后多次复发。,,,,,LLM提取,论文病例报告,2015-10-01,病史,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,b2cb8d61-2c8b-4a1d-9df6-6c8f5c0f0a03,患者,诊断名称,,类别型,小细胞肺癌（SCLC）,,,,,LLM提取,论文病例报告,2015-10-01,诊断,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,c3c1a0e8-8a5d-4b68-9c34-7d7d3b4f4a04,患者,影像所见,,文本型,MR显示右腋窝、双侧锁骨上淋巴结、右第七肋及左髂骨多发转移。,,,,MR,LLM提取,论文病例报告,2015-10-01,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,d4d2b1f9-2a5f-4f9f-9c7a-8e8e8d5d5a05,患者,治疗方案,,类别型,化疗：EP方案（依托泊苷+顺铂）,,既往已接受多个周期,,,LLM提取,论文病例报告,2013-12-01,病程,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,e5e3c2fa-3b6f-4a0a-8a8a-9f9f9e6e6b06,患者,治疗方案,,类别型,放疗：胸壁、右锁骨上区、胸椎、右肾上腺,,评估为部分缓解,,,LLM提取,论文病例报告,2013-12-01,病程,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,e5e3c2fa-3b6f-4a0a-8a8a-9f9f9e6e6b06,患者,疗效评估,,类别型,部分缓解,,,,,LLM提取,论文病例报告,2015-08-01,评估,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,f6f4d30b-4c7f-4b1b-9b9b-0a0a0f7f7c07,患者,诊断名称,,类别型,小细胞肺癌（SCLC）复发/进展,,多次复发后就诊,,,LLM提取,论文病例报告,2015-10-01,诊断,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,a7a5e41c-5d8f-4c2c-9c9c-1b1b1g8g8d08,患者,治疗方案,,类别型,化疗：EP方案（依托泊苷+顺铂）,,2个周期,,,LLM提取,论文病例报告,2016-01-01,病程,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,a7a5e41c-5d8f-4c2c-9c9c-1b1b1g8g8d08,患者,治疗方案,,类别型,化疗：单药紫杉醇,,1个周期,,,LLM提取,论文病例报告,2016-01-01,病程,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,b8b6f52d-6e9f-4d3d-8d8d-2c2c2h9h9e09,患者,影像所见,,文本型,MR显示多发肝转移。,,,,MR,LLM提取,论文病例报告,2016-02-16,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,c9c7g63e-7f0f-4e4e-9e9e-3d3d3i0i0f10,患者,治疗方案,,类别型,化疗：白蛋白紫杉醇+卡铂,,2个周期，未见肿瘤反应,,,LLM提取,论文病例报告,2016-03-01,病程,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,c9c7g63e-7f0f-4e4e-9e9e-3d3d3i0i0f10,患者,诊断名称,,类别型,右侧胸膜转移,,新发,,,LLM提取,论文病例报告,2016-03-01,诊断,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,d0d0h74f-8a1f-4f5f-9f9f-4e4e4j1j1g11,患者,手术名称,,类别型,CT引导下永久性125I粒子植入（PRISI）,,仅处理2个病灶中的2个（1个背侧、1个腹侧）,,CT引导,LLM提取,论文病例报告,2016-07-06,手术,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,d0d0h74f-8a1f-4f5f-9f9f-4e4e4j1j1g11,患者,手术结果,,文本型,在两处肝转移灶内成功植入125I粒子,,背侧病灶38粒，腹侧病灶26粒；处方剂量120 Gy,,,LLM提取,论文病例报告,2016-07-06,手术,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,d1d1i85g-9b2f-4f6f-9g9g-5f5f5k2k2h12,患者,治疗方案,,类别型,替莫唑胺（TMZ）节拍化疗,,50 mg/m2/day，d1-21，每28天1周期；与PRISI联合,,,LLM提取,论文病例报告,2016-07-06,用药,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,e2e2j96h-0c3f-4f7f-9h9h-6g6g6l3l3i13,患者,影像所见,,文本型,CT随访显示所有肝脏病灶明显缩小，包括未接受PRISI治疗的4个病灶，提示发生远隔效应（abscopal effect）。,,,,CT,LLM提取,论文病例报告,2016-08-03,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,e2e2j96h-0c3f-4f7f-9h9h-6g6g6l3l3i13,患者,影像所见,,文本型,CT随访显示所有肝脏病灶明显缩小，包括未接受PRISI治疗的4个病灶，提示发生远隔效应（abscopal effect）。,,,,CT,LLM提取,论文病例报告,2016-09-21,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,f3f3k07i-1d4f-4f8f-9i9i-7h7h7m4m4j14,患者,影像所见,,文本型,CT/MR显示多数转移结节达到完全缓解，残余2个病灶部分缓解。,,其中1个由52.86 mm缩小至12.62 mm，另1个由65.92 mm缩小至16.69 mm,,CT/MR,LLM提取,论文病例报告,2016-12-29,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,f3f3k07i-1d4f-4f8f-9i9i-7h7h7m4m4j14,患者,影像所见,,文本型,CT/MR显示多数转移结节达到完全缓解，残余2个病灶部分缓解。,,其中1个由52.86 mm缩小至12.62 mm，另1个由65.92 mm缩小至16.69 mm,,CT/MR,LLM提取,论文病例报告,2017-04-07,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,g4g4l18j-2e5f-4f9f-9j9j-8i8i8n5n5k15,患者,影像所见,,文本型,随访显示所有肝结节达到完全缓解（CR）。,,,,MR/CT,LLM提取,论文病例报告,2017-08-02,影像,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,g4g4l18j-2e5f-4f9f-9j9j-8i8i8n5n5k15,患者,疗效评估,,类别型,完全缓解,,肝转移灶,,MR/CT,LLM提取,论文病例报告,2017-08-02,评估,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,h5h5m29k-3f6f-4f0f-9k9k-9j9j9o6o6l16,患者,疗效评估,,类别型,持续完全缓解,,PRISI后13-15个月,,MR/CT,LLM提取,论文病例报告,2017-10-10,评估,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,i6i6n30l-4g7f-4g1g-9l9l-0k0k0p7p7m17,患者,不良反应名称,,类别型,非肿瘤性肠梗阻,,导致营养不良并最终死亡,,,LLM提取,论文病例报告,2017-10-28,不良反应,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,i6i6n30l-4g7f-4g1g-9l9l-0k0k0p7p7m17,患者,不良反应名称,,类别型,营养不良,,死亡原因,,,LLM提取,论文病例报告,2017-10-28,不良反应,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,j7j7o41m-5h8f-4h2h-9m9m-1l1l1q8q8n18,患者,出院诊断,,类别型,广泛期小细胞肺癌（ES-SCLC）伴多发肝转移,,,,,LLM提取,论文病例报告,,出院,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,j7j7o41m-5h8f-4h2h-9m9m-1l1l1q8q8n18,患者,出院状况,,类别型,死亡,,死于营养不良,,,LLM提取,论文病例报告,2017-10-28,出院,v1
+55d8c686fcd76e1db8d9fcaeec1b8eb4,b25cd4b85f66a61149b5cafea749cac8,j7j7o41m-5h8f-4h2h-9m9m-1l1l1q8q8n18,患者,总生存期,,数值型,58.5,58.5,自诊断起,月,,LLM提取,论文病例报告,2017-10-28,病程,v1

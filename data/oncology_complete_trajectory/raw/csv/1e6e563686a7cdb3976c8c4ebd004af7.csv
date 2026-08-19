@@ -1,0 +1,47 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,5d7c44a3-1fbb-4d21-9c4a-1b3a2d7c0d9a,患者,入院年龄,,数值型,38,38,,岁,,LLM提取,论文病例报告,2003-01-01,入院,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,0a66d4ad-2c55-4e8d-bc4f-7a7c4c0e9de4,患者,既往史,,文本型,2003年因左乳腺癌接受治疗：新辅助化疗FEC方案3个周期（5-氟尿嘧啶、表柔比星、环磷酰胺），左乳全切除+腋窝清扫，即刻乳房重建（胸肌下宏纹理Allergan假体）；随后行辅助化疗（环磷酰胺、多柔比星、泼尼松龙/文中写作CMF）6个周期及内分泌治疗5年，之后长期无病生存且无重建并发症。,,,,,LLM提取,论文病例报告,2003-01-01,病史,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,1d12f3b3-1d8f-4f1f-b4f5-6b0f6c9d2f11,患者,诊断名称,,类别型,左乳腺癌 T4N1M0,,,,,LLM提取,论文病例报告,2003-01-01,诊断,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,2f4a1a3d-0a7c-4db0-bd5e-6a0d0b8f2aa1,患者,治疗方案,,类别型,新辅助化疗FEC方案3个周期,,5-氟尿嘧啶、表柔比星、环磷酰胺,,,LLM提取,论文病例报告,2003-01-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,2f4a1a3d-0a7c-4db0-bd5e-6a0d0b8f2aa1,患者,周期数,,数值型,3,3,,个周期,,LLM提取,论文病例报告,2003-01-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,3a6e4f39-55f0-4f56-b8c6-8a6f52f53a6b,患者,手术名称,,类别型,左乳全切除+腋窝清扫,,,,,LLM提取,论文病例报告,2003-01-01,手术,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,4f3d4f2d-2f77-4b0a-9c5c-1b0e4b4fd7e2,患者,手术名称,,类别型,即刻乳房重建,,胸肌下宏纹理Allergan假体,,,LLM提取,论文病例报告,2003-01-01,手术,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,5d0c7c8e-6c1f-4c1d-9c0a-9a2e9f1f2d33,患者,治疗方案,,类别型,辅助化疗,,环磷酰胺、多柔比星、泼尼松龙（文中写作CMF）,,,LLM提取,论文病例报告,2003-01-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,5d0c7c8e-6c1f-4c1d-9c0a-9a2e9f1f2d33,患者,周期数,,数值型,6,6,,个周期,,LLM提取,论文病例报告,2003-01-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,6b5f6d2c-4c9c-4d17-a76a-4b6f9f3f5f10,患者,治疗方案,,类别型,内分泌治疗,,5年,,,LLM提取,论文病例报告,2003-01-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,8b3c1e2a-0b7d-4fd2-a0c1-8e2b6f2f0a11,患者,病史,,文本型,2020年3月曾感染SARS-CoV-2，病程很轻。,,,,,LLM提取,论文病例报告,2020-03-01,病史,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,9c7d2f1b-6b4a-4d7e-9c2a-1d7f4c2a6b22,患者,主诉,,文本型,近数月出现左乳局部压痛、局部体积轻度增大，并有Baker III级包膜挛缩。,,,,,LLM提取,论文病例报告,2020-07-01,病史,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,a1d4c6b8-2e63-4a8f-8a1c-1f8b2c4d6e33,患者,影像所见,,文本型,超声示BIRADS 2，假体完整，无明显损伤；可见少量混合性液体，部分低回声、部分无回声，考虑浆液/血肿；未见可疑淋巴结。,,,,超声,LLM提取,论文病例报告,2020-07-01,影像,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,b2f4c8d6-3c1a-4b5a-9d2e-2d7f6c1e3a44,患者,诊断名称,,类别型,包膜挛缩,,Baker III级,,,LLM提取,论文病例报告,2020-07-01,诊断,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,c3e5d7f1-4a2b-4d6f-8a3c-3f7b6c2e4d55,患者,治疗方案,,类别型,计划假体更换,,,,,LLM提取,论文病例报告,2020-07-01,手术,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,d4f6e8a2-5b3c-4e7f-9a4d-4g8c7d3e5f66,患者,主诉,,文本型,2021年1月突然出现乳房皮肤水疱，使用可的松乳膏治疗。,,左乳皮肤,,,LLM提取,论文病例报告,2021-01-01,病史,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,e5a7f9b3-6c4d-4f8a-9b5e-5h9d8e4f6a77,患者,治疗方案,,类别型,局部外用可的松乳膏,,用于皮肤水疱,,,LLM提取,论文病例报告,2021-01-01,用药,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,f6b8g0c4-7d5e-4g9b-0c6f-6i0e9f5g7h88,患者,治疗方案,,类别型,COVID-19疫苗接种（AstraZeneca）,,第1剂,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,f6b8g0c4-7d5e-4g9b-0c6f-6i0e9f5g7h88,患者,治疗反应,,类别型,接种后出现左乳广泛红斑及不适,,,,,LLM提取,论文病例报告,2021-03-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,g7c9h1d5-8e6f-4h0a-1d7f-7j1f0g6h8i99,患者,治疗方案,,类别型,COVID-19疫苗接种（AstraZeneca）,,第2剂,,,LLM提取,论文病例报告,2021-05-01,用药,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,g7c9h1d5-8e6f-4h0a-1d7f-7j1f0g6h8i99,患者,治疗反应,,类别型,接种后出现左乳广泛红斑及不适,,,,,LLM提取,论文病例报告,2021-05-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,h8d0i2e6-9f7g-4i1b-2e8f-8k2g1h7i9j00,患者,主诉,,文本型,左乳局部广泛红斑、干燥、脱屑，伴轻度发热。,,系统症状：夜汗、体重下降、每日低热、全身皮肤干燥；仍有左乳压痛和红斑,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,h8d0i2e6-9f7g-4i1b-2e8f-8k2g1h7i9j00,患者,既往史,,文本型,近期有夜汗、体重下降、每日低热和全身皮肤干燥。,,,,,LLM提取,论文病例报告,2021-06-01,病史,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,i9e1j3f7-0g8h-4j2c-3f9g-9l3h2i8j0k11,患者,一般状况_体温,,文本型,轻度发热,,,,,LLM提取,论文病例报告,2021-06-01,评估,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,i9e1j3f7-0g8h-4j2c-3f9g-9l3h2i8j0k11,患者,一般状况_血液炎症指标,,文本型,ESR升高、CRP升高,,,,,LLM提取,论文病例报告,2021-06-01,评估,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,j0f2k4g8-1h9i-4k3d-4g0h-0m4i3j9k1l22,患者,影像所见,,文本型,再次超声检查未见可疑征象。,,,,超声,LLM提取,论文病例报告,2021-06-01,影像,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,k1g3l5h9-2i0j-4l4e-5h1i-1n5j4k0l2m33,患者,病理诊断,,文本型,皮肤活检示上皮增生、真皮纤维化及慢性血管周围炎症。,,,,活检,LLM提取,论文病例报告,2021-06-01,病理,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,l2h4m6i0-3j1k-4m5f-6i2j-2o6k5l1m3n44,患者,诊断名称,,类别型,BIA-ALCL可疑,,基于持续炎症表现与植入物相关病灶,,,LLM提取,论文病例报告,2021-06-01,诊断,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,m3i5n7j1-4k2l-4n6g-7j3k-3p7l6m2n4o55,患者,手术名称,,类别型,择期假体更换入院,,,,,LLM提取,论文病例报告,2021-09-01,入院,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,m3i5n7j1-4k2l-4n6g-7j3k-3p7l6m2n4o55,患者,入院状况,,文本型,存在体重下降、夜汗、每日低热、全身皮肤干燥、左乳压痛和红斑。,,,,,LLM提取,论文病例报告,2021-09-01,入院,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,n4j6o8k2-5l3m-4o7h-8k4l-4q8m7n3o5p66,患者,手术名称,,类别型,整块全包膜切除（en bloc total capsulectomy）,,因疑似BIA-ALCL，术中无冰冻诊断条件,,,LLM提取,论文病例报告,2021-09-01,手术,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,n4j6o8k2-5l3m-4o7h-8k4l-4q8m7n3o5p66,患者,手术结果,,文本型,取出完整假体后，发现后壁有一巨大肿块；包膜内仅有极少量浆液。,,,,,LLM提取,论文病例报告,2021-09-01,手术,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,o5k7p9l3-6m4n-4p8i-9l5m-5r9n8o4p6q77,患者,手术名称,,类别型,即刻重建,,解剖型纹理Mentor假体,,,LLM提取,论文病例报告,2021-09-01,手术,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,p6l8q0m4-7n5o-4q9j-0m6n-6s0o9p5q7r88,患者,病理诊断,,文本型,BIA-ALCL，pT4，切缘阴性。,,标本重量218g；肿瘤延伸至包膜周围组织,,病理,LLM提取,论文病例报告,2021-09-01,病理,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,p6l8q0m4-7n5o-4q9j-0m6n-6s0o9p5q7r88,标本,标本部位,,类别型,乳房植入物包膜及其周围组织,,,,,LLM提取,论文病例报告,2021-09-01,病理,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,p6l8q0m4-7n5o-4q9j-0m6n-6s0o9p5q7r88,患者,免疫组化,,文本型,CD30、CD2、CD4、EMA、perforin阳性；CD3、CD5、CD7、CD8、ALKc、PAX5、CD20、EBV/EBER阴性；Ki-67增殖指数高。,,,,免疫组化,LLM提取,论文病例报告,2021-09-01,病理,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,q7m9r1n5-8o6p-4r0k-1n7o-7t1p0q6r8s99,患者,检验项目,,类别型,血清细胞学,,阴性,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,q7m9r1n5-8o6p-4r0k-1n7o-7t1p0q6r8s99,患者,检验项目,,类别型,皮肤活检,,阴性,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,q7m9r1n5-8o6p-4r0k-1n7o-7t1p0q6r8s99,患者,检验项目,,类别型,微生物培养,,阴性,,,LLM提取,论文病例报告,2021-09-01,检验,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,r8n0s2o6-9p7q-4s1l-2o8p-8u2q1r7s9t00,患者,影像所见,,文本型,全身PET-CT及乳腺MRI未见肿瘤残留/疾病证据。,,,,PET-CT；MRI,LLM提取,论文病例报告,2021-09-01,影像,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,s9o1t3p7-0q8r-4t2m-3p9q-9v3r2s8t0u11,患者,病理诊断,,文本型,骨髓活检未见淋巴增殖性疾病证据。,,可见TCR gamma基因不规则多克隆重排,,活检,LLM提取,论文病例报告,2021-09-01,病理,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,t0p2u4q8-1r9s-4u3n-4q0r-0w4s3t9u1v22,患者,治疗反应,,类别型,术后局部红斑消失,,残留轻度色素减退；患者自觉改善且无发热,,,LLM提取,论文病例报告,2021-09-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,u1q3v5r9-2s0t-4v4o-5r1s-1x5t4u0v2w33,患者,治疗方案,,类别型,CHP + Brentuximab,,CHP（环磷酰胺、多柔比星、泼尼松）+ Brentuximab，计划4个周期后再行4个Brentuximab周期,,,LLM提取,论文病例报告,2021-10-01,用药,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,u1q3v5r9-2s0t-4v4o-5r1s-1x5t4u0v2w33,患者,周期数,,数值型,8,8,CHP+Brentuximab总计划,个周期,,LLM提取,论文病例报告,2021-10-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,u1q3v5r9-2s0t-4v4o-5r1s-1x5t4u0v2w33,患者,治疗反应,,类别型,完成药物治疗，至随访时无病证据,,,,,LLM提取,论文病例报告,2022-09-01,病程,v1
+1e6e563686a7cdb3976c8c4ebd004af7,10afb9cf087ba1063f2e3b1bc444e1dd,v2r4w6s0-3t1u-4w5p-6s2t-2y6u5v1w3x44,患者,随访结果,,文本型,术后1年无病证据（NED）。,,,,,LLM提取,论文病例报告,2022-09-01,病程,v1

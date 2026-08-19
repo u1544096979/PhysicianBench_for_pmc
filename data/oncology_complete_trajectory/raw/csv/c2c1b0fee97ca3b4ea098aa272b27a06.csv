@@ -1,0 +1,41 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,1b5c0a7f-4f0b-4d8f-9f0b-8f0a9a4e3f01,患者,入院年龄,,数值型,53,53,,岁,,LLM提取,论文病例报告,2022-03-01,入院,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,2a7f0b8b-2a0a-4a1c-9f67-6d2c7b8d3a11,患者,主诉,,文本型,诊断前4天因前列腺癌转诊至本院,,,,,LLM提取,论文病例报告,2022-03-01,病史,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,3c9c2d2e-6f7a-4c74-8f1d-1b2d3c4e5f60,患者,既往史,,文本型,未提及明显既往史,,,,,LLM提取,论文病例报告,2022-03-01,病史,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,4d8b2a1c-5e6f-4a7b-9c8d-0e1f2a3b4c5d,患者,体格检查,,文本型,直肠指检示前列腺异常增大并粘连直肠，直肠活动度下降,,,,直肠指检,LLM提取,论文病例报告,2022-03-01,评估,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,5e1f2a3b-4c5d-4e6f-8a9b-0c1d2e3f4a5b,血清,PSA,,数值型,0.75,0.75,,ng/mL,,LLM提取,论文病例报告,2022-03-01,检验,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,5e1f2a3b-4c5d-4e6f-8a9b-0c1d2e3f4a5b,血清,游离PSA,,数值型,0.2,0.2,,ng/mL,,LLM提取,论文病例报告,2022-03-01,检验,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,5e1f2a3b-4c5d-4e6f-8a9b-0c1d2e3f4a5b,血清,睾酮,,数值型,6.48,6.48,,ng/mL,,LLM提取,论文病例报告,2022-03-01,检验,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,6f2a3b4c-5d6e-4f7a-8b9c-0d1e2f3a4b5c,患者,影像所见,,文本型,MRI示前列腺大小约5.3×6.0×5.7 cm,,,cm,MRI,LLM提取,论文病例报告,2022-03-20,影像,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,6f2a3b4c-5d6e-4f7a-8b9c-0d1e2f3a4b5c,患者,影像结论,,文本型,前列腺肿瘤局部巨大，符合非常高危局限性前列腺癌表现,,,,MRI,LLM提取,论文病例报告,2022-03-20,影像,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,7a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d,患者,影像所见,,文本型,PET-CT证实精囊受侵，压迫直肠和膀胱，未见远处转移,,,,PET-CT,LLM提取,论文病例报告,2022-03-28,影像,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,7a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d,患者,影像结论,,文本型,临床分期T4N0M0,,,,PET-CT,LLM提取,论文病例报告,2022-03-28,影像,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,8b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e,患者,诊断名称,,类别型,前列腺癌,,非常高危，临床局限性,,,LLM提取,论文病例报告,2022-03-28,诊断,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,8b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e,患者,临床分期,,类别型,T4N0M0,,,,,LLM提取,论文病例报告,2022-03-28,诊断,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,8b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e,患者,分子标志物,,类别型,MSI-H,,NGS结果,,NGS,LLM提取,论文病例报告,2022-04-09,诊断,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,8b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e,患者,分子标志物,,类别型,TMB-H,,TMB 64.87 mutations/Mb，NGS结果,,NGS,LLM提取,论文病例报告,2022-04-09,诊断,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,8b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e,患者,PDL1状态,,类别型,阴性,,IHC（22C3 pharmDx）,,免疫组化,LLM提取,论文病例报告,2022-04-09,诊断,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,9c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f,前列腺穿刺活检标本,病理诊断,,文本型,双侧叶腺癌，Gleason 4+5,,,,穿刺活检,LLM提取,论文病例报告,2022-03-23,病理,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,9c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f,前列腺穿刺活检标本,分化程度,,类别型,高分级,,Gleason 4+5，Grade Group 5倾向,,穿刺活检,LLM提取,论文病例报告,2022-03-23,病理,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,a0d1e2f3-4a5b-4c6d-8e7f-9a0b1c2d3e4f,患者,治疗方案,,类别型,ADT联合多西他赛,,新辅助降期治疗,,,LLM提取,论文病例报告,2022-03-30,病程,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,a0d1e2f3-4a5b-4c6d-8e7f-9a0b1c2d3e4f,患者,药品名称,,类别型,多西他赛,,100 mg，IV gtt，Q3W,mg,静脉滴注,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,a0d1e2f3-4a5b-4c6d-8e7f-9a0b1c2d3e4f,患者,给药途径,,类别型,静脉,,IV gtt,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,a0d1e2f3-4a5b-4c6d-8e7f-9a0b1c2d3e4f,患者,用药周期,,文本型,Q3W,,,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,b1e2f3a4-5b6c-4d7e-8f9a-0b1c2d3e4f5a,患者,药品名称,,类别型,戈舍瑞林,,3.6 mg，ih，Q4W,mg,皮下注射,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,b1e2f3a4-5b6c-4d7e-8f9a-0b1c2d3e4f5a,患者,给药途径,,类别型,皮下注射,,ih,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,b1e2f3a4-5b6c-4d7e-8f9a-0b1c2d3e4f5a,患者,用药周期,,文本型,Q4W,,,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,c2f3a4b5-6c7d-4e8f-9a0b-1c2d3e4f5a6b,患者,药品名称,,类别型,比卡鲁胺,,50 mg，po，qd,mg,口服,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,c2f3a4b5-6c7d-4e8f-9a0b-1c2d3e4f5a6b,患者,给药途径,,类别型,口服,,po,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,c2f3a4b5-6c7d-4e8f-9a0b-1c2d3e4f5a6b,患者,用药周期,,文本型,qd,,,,,LLM提取,论文病例报告,2022-03-30,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,d3a4b5c6-7d8e-4f9a-0b1c-2d3e4f5a6b7c,患者,治疗方案,,类别型,ADT联合多西他赛后的降期治疗效果欠佳,,考虑加用zimberelimab前,,,LLM提取,论文病例报告,2022-05-30,病程,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,d3a4b5c6-7d8e-4f9a-0b1c-2d3e4f5a6b7c,患者,影像所见,,文本型,MRI示前列腺大小缩小至4.7×4.5×5.2 cm,,,cm,MRI,LLM提取,论文病例报告,2022-05-30,影像,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,d4b5c6d7-8e9f-4a0b-1c2d-3e4f5a6b7c8d,患者,药品名称,,类别型,zimberelimab,,120 mg Q3W,mg,,LLM提取,论文病例报告,2022-07-14,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,d4b5c6d7-8e9f-4a0b-1c2d-3e4f5a6b7c8d,患者,用药周期,,文本型,Q3W,,,,,LLM提取,论文病例报告,2022-07-14,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,e5c6d7e8-9f0a-4b1c-2d3e-4f5a6b7c8d9e,患者,治疗方案,,类别型,ADT联合多西他赛后加用zimberelimab,,继续ADT,,,LLM提取,论文病例报告,2022-07-14,病程,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f6d7e8f9-0a1b-4c2d-3e4f-5a6b7c8d9e0f,患者,疗效评估,,类别型,部分缓解,,4次zimberelimab后影像学改善明显,,MRI+直肠指检,LLM提取,论文病例报告,2022-08-15,评估,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f6d7e8f9-0a1b-4c2d-3e4f-5a6b7c8d9e0f,患者,影像所见,,文本型,MRI示前列腺大小缩小至2.8×3.0×3.6 cm，直肠粘连明显改善,,,cm,MRI,LLM提取,论文病例报告,2022-08-15,影像,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f7e8f9a0-1b2c-4d3e-5f6a-7b8c9d0e1f2a,患者,药品名称,,类别型,zimberelimab,,追加1次以进一步降低直肠损伤风险,,,LLM提取,论文病例报告,2022-08-22,用药,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f8f9a0b1-2c3d-4e5f-6a7b-8c9d0e1f2a3b,患者,手术名称,,类别型,机器人辅助根治性前列腺切除术,,,,,LLM提取,论文病例报告,2022-09-08,手术,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f8f9a0b1-2c3d-4e5f-6a7b-8c9d0e1f2a3b,患者,手术结果,,文本型,手术成功,,术后病理达到病理完全缓解（pCR）,,,LLM提取,论文病例报告,2022-09-08,手术,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f9a0b1c2-3d4e-5f6a-7b8c-9d0e1f2a3b4c,前列腺切除标本,病理诊断,,文本型,未见残留肿瘤细胞，病理完全缓解（pCR）,,,,术后病理,LLM提取,论文病例报告,2022-09-08,病理,v1
+c2c1b0fee97ca3b4ea098aa272b27a06,76dc70487d6c9c32671dc3567db31a08,f9a0b1c2-3d4e-5f6a-7b8c-9d0e1f2a3b4c,前列腺切除标本,病理结果,,类别型,病理完全缓解,,无残余肿瘤细胞,,术后病理,LLM提取,论文病例报告,2022-09-08,病理,v1

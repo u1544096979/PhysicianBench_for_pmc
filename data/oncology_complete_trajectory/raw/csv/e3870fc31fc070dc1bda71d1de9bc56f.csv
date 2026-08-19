@@ -1,0 +1,38 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,0b1b8a5e-8c5f-4a1d-b7af-1a2c3b4d5e6f,患者,入院年龄,,数值型,54,54,,岁,,LLM提取,论文病例报告,2019-12-15,入院,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,0b1b8a5e-8c5f-4a1d-b7af-1a2c3b4d5e6f,患者,主诉,,文本型,发现右乳肿物2周,,,,,LLM提取,论文病例报告,2019-12-15,病史,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,a2c3d4e5-f6a7-48b8-9c0d-1e2f3a4b5c6d,患者,查体,,文本型,右乳上象限可触及肿瘤,,,,,LLM提取,论文病例报告,2019-12-15,评估,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,b3c4d5e6-f7a8-49b9-8d0e-1f2a3b4c5d6e,右乳肿物活检,病理诊断,,文本型,非特异性浸润性乳腺癌,,,,超声引导下右乳肿物穿刺活检,LLM提取,论文病例报告,2019-12-15,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,b3c4d5e6-f7a8-49b9-8d0e-1f2a3b4c5d6e,右乳肿物活检,免疫组化,,文本型,ER(70% 弱-中等强度+); PR(40% 弱-中等强度+); HER2(3+); Ki67(80%),,,,,LLM提取,论文病例报告,2019-12-15,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,c4d5e6f7-a8b9-4ac0-9d0f-1a2b3c4d5e6f,右腋窝淋巴结活检,病理诊断,,文本型,癌转移,,,,右腋窝淋巴结穿刺细胞学,LLM提取,论文病例报告,2019-12-15,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,d5e6f7a8-b9c0-4bd1-9e0f-1a2b3c4d5e6f,患者,诊断名称,,类别型,右乳浸润性乳腺癌（cT4N1M0，III期）,,,,,LLM提取,论文病例报告,2019-12-15,诊断,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,e6f7a8b9-c0d1-4ce2-9f0a-1b2c3d4e5f6a,患者,治疗方案,,类别型,新辅助化疗：白蛋白紫杉醇+氟尿嘧啶,,2周期,,,LLM提取,论文病例报告,2020-07-14,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,e6f7a8b9-c0d1-4ce2-9f0a-1b2c3d4e5f6a,患者,治疗方案,,类别型,白蛋白紫杉醇+氟尿嘧啶,,白蛋白紫杉醇125 mg/m2 d1 d8 ivgtt；5-FU 500 mg/m2 d1 ivgtt；21天/周期,,,LLM提取,论文病例报告,2020-07-14,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,f7a8b9c0-d1e2-4df3-9a0b-1c2d3e4f5a6b,PET-CT,影像所见,,文本型,右乳癌，右腋窝淋巴结转移；右乳肿瘤及右腋窝淋巴结较前增大,,,,PET-CT,LLM提取,论文病例报告,2020-08-27,影像,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,f7a8b9c0-d1e2-4df3-9a0b-1c2d3e4f5a6b,PET-CT,影像结论,,文本型,疾病进展（PD）,,SUVmax:右腋窝淋巴结9.1；右乳肿块22.4,,PET-CT,LLM提取,论文病例报告,2020-08-27,影像,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,8a9b0c1d-e2f3-4e05-9a1b-2c3d4e5f6a7b,患者,治疗方案,,类别型,新辅助治疗：白蛋白紫杉醇+卡铂+曲妥珠单抗,,2周期后加帕妥珠单抗再2周期；共4周期,,,LLM提取,论文病例报告,2020-09-01,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,8a9b0c1d-e2f3-4e05-9a1b-2c3d4e5f6a7b,患者,治疗方案,,类别型,白蛋白紫杉醇+卡铂+曲妥珠单抗+帕妥珠单抗,,"白蛋白紫杉醇200 mg d1,d8 ivgtt；卡铂700 mg d1 ivgtt；曲妥珠单抗580 mg首剂，后430 mg ivgtt d1 q21d；帕妥珠单抗首剂840 mg，后420 mg ivgtt d1",,,LLM提取,论文病例报告,2020-09-01,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,8a9b0c1d-e2f3-4e05-9a1b-2c3d4e5f6a7b,患者,疗效评估,,类别型,部分缓解（PR）,,4周期后,,PET-CT,LLM提取,论文病例报告,2020-11-20,评估,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,9b0c1d2e-f3a4-4f16-9a1c-2d3e4f5a6b7c,患者,治疗方案,,类别型,停治,,因经济因素自行停药,,,LLM提取,论文病例报告,2020-12-01,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ac1d2e3f-4a5b-4g17-9a1d-2e3f4a5b6c7d,患者,治疗方案,,类别型,一线治疗：白蛋白紫杉醇+卡培他滨+曲妥珠单抗+帕妥珠单抗,,2周期,,,LLM提取,论文病例报告,2021-09-27,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ac1d2e3f-4a5b-4g17-9a1d-2e3f4a5b6c7d,患者,治疗方案,,类别型,白蛋白紫杉醇+卡培他滨+曲妥珠单抗+帕妥珠单抗,,"白蛋白紫杉醇200 mg d1,d8 ivgtt；卡培他滨1000 mg/m2 d1-d14 bid po；曲妥珠单抗430 mg ivgtt d1 q21d；帕妥珠单抗420 mg ivgtt d1",,,LLM提取,论文病例报告,2021-09-27,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ac1d2e3f-4a5b-4g17-9a1d-2e3f4a5b6c7d,患者,治疗方案,,类别型,多西他赛+曲妥珠单抗+帕妥珠单抗,,因经济因素更换；共2周期,,,LLM提取,论文病例报告,2021-09-27,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ac1d2e3f-4a5b-4g17-9a1d-2e3f4a5b6c7d,患者,影像结论,,文本型,疾病进展（PD）,,双侧腋窝淋巴结增大,,胸部CT,LLM提取,论文病例报告,2021-12-01,影像,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ad2e3f4a-5b6c-4h18-9a1e-2f3a4b5c6d7e,患者,治疗方案,,类别型,二线治疗：卡培他滨+吡咯替尼+曲妥珠单抗+帕妥珠单抗,,4周期,,,LLM提取,论文病例报告,2021-12-27,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ad2e3f4a-5b6c-4h18-9a1e-2f3a4b5c6d7e,患者,治疗方案,,类别型,卡培他滨+吡咯替尼+曲妥珠单抗+帕妥珠单抗,,卡培他滨1000 mg/m2 d1-d14 bid po；吡咯替尼400 mg qd po；曲妥珠单抗430 mg ivgtt d1 q21d；帕妥珠单抗420 mg ivgtt d1,,,LLM提取,论文病例报告,2021-12-27,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ad2e3f4a-5b6c-4h18-9a1e-2f3a4b5c6d7e,患者,治疗方案,,类别型,外用云南白药粉止血,,肿瘤破溃出血时使用,,,LLM提取,论文病例报告,2021-12-27,其他,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,ae3f4a5b-6c7d-4i19-9a1f-2a3b4c5d6e7f,患者,影像结论,,文本型,疾病进展（PD）,,右乳原发灶增大；双侧胸壁、右内乳区、左腋窝新发高代谢淋巴结,,PET-CT,LLM提取,论文病例报告,2022-06-09,影像,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,af4a5b6c-7d8e-4j20-9a1g-2b3c4d5e6f7a,右腋窝淋巴结,病理诊断,,文本型,低分化癌,,,,活检,LLM提取,论文病例报告,2022-06-16,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,af4a5b6c-7d8e-4j20-9a1g-2b3c4d5e6f7a,右腋窝淋巴结,免疫组化,,文本型,ER(3+ 80%); PR(-); HER2(3+); Ki67(+ 2%),,,,,LLM提取,论文病例报告,2022-06-16,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,b05b6c7d-8e9f-4k21-9a1h-2c3d4e5f6a7b,患者,基因检测,,文本型,PIK3CA exon 10 c.1624G>A p.E542K missense mutation,,,,,LLM提取,论文病例报告,2022-03-17,诊断,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,c16c7d8e-9f0a-4l22-9a1i-2d3e4f5a6b7c,患者,治疗方案,,类别型,三线化疗：埃立替康单抗/伊尼妥单抗? + 长春瑞滨+顺铂,,原文为 Inetetamab + Vinorelbine + cisplatin；2周期,,,LLM提取,论文病例报告,2022-03-18,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,c16c7d8e-9f0a-4l22-9a1i-2d3e4f5a6b7c,患者,治疗方案,,类别型,Inetetamab+长春瑞滨+顺铂,,"Inetetamab 550 mg ivgtt d1 q21d；长春瑞滨40 mg ivgtt d1,d5 q21d；顺铂60 mg ivgtt d1 q21d",,,LLM提取,论文病例报告,2022-03-18,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,d27d8e9f-0a1b-4m23-9a1j-2e3f4a5b6c7d,患者,治疗方案,,类别型,四线治疗：RC48（disitamab vedotin）,,2.0 mg/kg，120 mg，d1 q14d；共8周期,,,LLM提取,论文病例报告,2022-07-06,病程,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,d27d8e9f-0a1b-4m23-9a1j-2e3f4a5b6c7d,患者,药品名称,,类别型,RC48（disitamab vedotin）,,120 mg ivgtt d1 q14d,,,LLM提取,论文病例报告,2022-07-06,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,e38e9f0a-1b2c-4n24-9a1k-2f3a4b5c6d7e,患者,疗效评估,,类别型,部分缓解（PR）,,6周期后胸部CT评估,,胸部CT,LLM提取,论文病例报告,2022-10-01,评估,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,f49f0a1b-2c3d-4o25-9a1l-2a3b4c5d6e7f,患者,手术名称,,类别型,右乳改良根治术,,,,,LLM提取,论文病例报告,2022-11-21,手术,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,f49f0a1b-2c3d-4o25-9a1l-2a3b4c5d6e7f,患者,手术结果,,文本型,手术顺利,,,,,LLM提取,论文病例报告,2022-11-21,手术,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,g5a1b2c3-d4e5-4p26-9a1m-2b3c4d5e6f7a,手术标本,病理诊断,,文本型,右乳非特异性浸润癌；右腋窝及锁骨下淋巴结转移癌,,,,术后病理,LLM提取,论文病例报告,2022-11-21,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,g5a1b2c3-d4e5-4p26-9a1m-2b3c4d5e6f7a,手术标本,免疫组化,,文本型,ER(2+ 60%); PR(+ 5%); HER2(2+); Ki67(60%),,HER2 FISH阳性,,,LLM提取,论文病例报告,2022-11-21,病理,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,h6b2c3d4-e5f6-4q27-9a1n-2c3d4e5f6a7b,患者,治疗方案,,类别型,术后维持治疗：曲妥珠单抗+吡咯替尼+阿贝西利+氟维司群,,曲妥珠单抗430 mg ivgtt d1 q21d；吡咯替尼400 mg qd po；阿贝西利50 mg bid po；氟维司群500 mg 肌注,,,LLM提取,论文病例报告,2022-11-21,用药,v1
+e3870fc31fc070dc1bda71d1de9bc56f,337b0232f2ecabb40cf76f3599669923_1,i7c3d4e5-f6a7-4r28-9a1o-2d3e4f5a6b7c,患者,影像结论,,文本型,病情稳定,,术后半年CT：无明显肿大淋巴结,,CT,LLM提取,论文病例报告,2023-07-12,影像,v1

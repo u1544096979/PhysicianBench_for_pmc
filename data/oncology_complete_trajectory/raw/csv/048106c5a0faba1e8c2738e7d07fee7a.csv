@@ -1,0 +1,44 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,0b2f1cb6-3e6c-4a8d-8e9d-2d1b6f5f0c11,患者,入院年龄,,数值型,72,72,,岁,,LLM提取,论文病例报告,2020-05-01,入院,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,9f3c8e3d-8b5b-4f8d-9b58-1f7d0f4f1d21,患者,既往史,,文本型,糖尿病、高血压,,,,,LLM提取,论文病例报告,2020-05-01,病史,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,9f3c8e3d-8b5b-4f8d-9b58-1f7d0f4f1d21,患者,主诉,,文本型,食欲减退、体重下降,,,,,LLM提取,论文病例报告,2020-05-01,病史,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,5e59a53d-2c44-4e5b-8d6b-4c0f5f0b7c31,患者,实验室异常,,文本型,肝功能异常,,,,血液检查,LLM提取,论文病例报告,2020-05-01,检验,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,7fbf8a2d-2f2b-4aa6-9a5f-1a3e3bb2a9c1,CT,影像所见,,文本型,胰头部见约2 cm肿瘤，强化欠佳,,,,CT,LLM提取,论文病例报告,2020-05-01,影像,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,8c5d7c1a-9d6c-4c7e-9d8a-7b1e2d3f4a51,患者,诊断名称,,类别型,可切除胰头癌,,,,,LLM提取,论文病例报告,2020-07-01,诊断,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,8c5d7c1a-9d6c-4c7e-9d8a-7b1e2d3f4a51,患者,肿瘤标志物_CA19-9,,数值型,26.7,26.7,参考范围<37.0,U/ml,,LLM提取,论文病例报告,2020-07-01,检验,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,8c5d7c1a-9d6c-4c7e-9d8a-7b1e2d3f4a51,患者,肿瘤标志物_CEA,,数值型,2.7,2.7,参考范围<5.0,ng/ml,,LLM提取,论文病例报告,2020-07-01,检验,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,d0a6f4d1-2b8a-4f0a-9f3c-1c2d3e4f5a61,EUS,影像所见,,文本型,胰头部见20 mm肿瘤,,,,超声内镜,LLM提取,论文病例报告,2020-07-01,影像,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,e1f7a2b3-4c5d-4e6f-8a7b-9c0d1e2f3a71,EUS-FNA,病理诊断,,文本型,未能明确诊断为癌,,,,超声内镜引导细针穿刺,LLM提取,论文病例报告,2020-07-01,病理,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,8c5d7c1a-9d6c-4c7e-9d8a-7b1e2d3f4a51,患者,诊断名称,,类别型,胰头癌,,可切除,,,LLM提取,论文病例报告,2020-07-01,诊断,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f2a3b4c5-d6e7-48f9-8a0b-1c2d3e4f5a81,患者,治疗方案,,类别型,新辅助化疗,,吉西他滨+S-1,,,LLM提取,论文病例报告,2020-08-01,病程,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f2a3b4c5-d6e7-48f9-8a0b-1c2d3e4f5a81,患者,药品名称,,类别型,吉西他滨,,,,,LLM提取,论文病例报告,2020-08-01,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f2a3b4c5-d6e7-48f9-8a0b-1c2d3e4f5a81,患者,药品名称,,类别型,S-1,,,,,LLM提取,论文病例报告,2020-08-01,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,a3b4c5d6-e7f8-49a0-8b1c-2d3e4f5a6b91,患者,手术名称,,类别型,胰十二指肠切除术（保留幽门胃窦部，SSPPD）,,计划手术,,,LLM提取,论文病例报告,2020-10-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,b4c5d6e7-f8a9-4ab1-8c2d-3e4f5a6b7c01,患者,手术名称,,类别型,部分肝切除术,,S3段肝表面结节切除,,,LLM提取,论文病例报告,2020-10-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,b4c5d6e7-f8a9-4ab1-8c2d-3e4f5a6b7c01,患者,术中所见,,文本型,肝表面S3段见1.5 cm结节，术中诊断为腺癌；未见S3以外远处转移；腹腔冲洗细胞学阴性,,,,,LLM提取,论文病例报告,2020-10-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,b4c5d6e7-f8a9-4ab1-8c2d-3e4f5a6b7c01,患者,手术结果,,文本型,因发现肝转移灶，终止原计划根治性胰十二指肠切除，仅行肝转移灶切除,,,,,LLM提取,论文病例报告,2020-10-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,c5d6e7f8-a9b0-4bc1-8d2e-3f4a5b6c7d11,患者,诊断名称,,类别型,胰腺癌肝转移,,根据临床背景诊断,,,LLM提取,论文病例报告,2020-10-01,诊断,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,d6e7f8a9-b0c1-4cd2-8e3f-4a5b6c7d8e21,患者,治疗方案,,类别型,改良FOLFIRINOX,,术后开始，13个周期，14天一周期，6个月,,,LLM提取,论文病例报告,2020-10-20,病程,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,d6e7f8a9-b0c1-4cd2-8e3f-4a5b6c7d8e21,患者,药品名称,,类别型,氟尿嘧啶,,2400 mg/m2,mg/m2,,LLM提取,论文病例报告,2020-10-20,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,d6e7f8a9-b0c1-4cd2-8e3f-4a5b6c7d8e21,患者,药品名称,,类别型,亚叶酸钙,,200 mg/m2,mg/m2,,LLM提取,论文病例报告,2020-10-20,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,d6e7f8a9-b0c1-4cd2-8e3f-4a5b6c7d8e21,患者,药品名称,,类别型,伊立替康,,150 mg/m2,mg/m2,,LLM提取,论文病例报告,2020-10-20,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,d6e7f8a9-b0c1-4cd2-8e3f-4a5b6c7d8e21,患者,药品名称,,类别型,奥沙利铂,,85 mg/m2,mg/m2,,LLM提取,论文病例报告,2020-10-20,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,e7f8a9b0-c1d2-4de3-8f4a-5b6c7d8e9f31,动态CT,影像所见,,文本型,原发肿瘤无变化，未见新的转移灶,,,,动态增强CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,e7f8a9b0-c1d2-4de3-8f4a-5b6c7d8e9f31,PET-CT,影像所见,,文本型,未见新的转移灶,,,,PET-CT,LLM提取,论文病例报告,2021-05-01,影像,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,e7f8a9b0-c1d2-4de3-8f4a-5b6c7d8e9f31,MRI,影像所见,,文本型,未见新的转移灶,,,,Gd-EOB-DTPA增强MRI,LLM提取,论文病例报告,2021-05-01,影像,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,手术名称,,类别型,胰十二指肠切除术（保留幽门胃窦部，SSPPD）,,转化治疗后实施,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,手术结果,,文本型,术中未见转移灶；因粘连，手术时间657分钟,,失血量2806 ml；输红细胞4 U，冰冻血浆4 U,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,出血量,,数值型,2806,2806,,ml,,LLM提取,论文病例报告,2021-05-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,输血,,文本型,红细胞4单位、冰冻血浆4单位,,,,,LLM提取,论文病例报告,2021-05-01,手术,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,病理分期,,类别型,T3N0M1,,UICC第8版,,,LLM提取,论文病例报告,2021-05-01,病理,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,病理诊断,,文本型,分化良好的腺癌,,Evans IIa-IIb,,病理检查,LLM提取,论文病例报告,2021-05-01,病理,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,胰腺标本,免疫组化,,文本型,CK7阳性、CK20阳性,,,,免疫组化,LLM提取,论文病例报告,2021-05-01,病理,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,肝标本,病理诊断,,文本型,胰腺导管腺癌肝转移,,与原发灶相似,,病理检查,LLM提取,论文病例报告,2021-05-01,病理,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,肝标本,免疫组化,,文本型,CK7阳性、CK20阳性,,,,免疫组化,LLM提取,论文病例报告,2021-05-01,病理,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,治疗方案,,类别型,术后辅助化疗,,S-1，持续1年,,,LLM提取,论文病例报告,2021-05-01,病程,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,药品名称,,类别型,S-1,,术后辅助,,,LLM提取,论文病例报告,2021-05-01,用药,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,不良反应名称,,类别型,肌无力、上睑下垂,,约1年后出现,,,LLM提取,论文病例报告,2022-05-01,不良反应,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,f8a9b0c1-d2e3-4ef4-8f5a-6b7c8d9e0f41,患者,处理措施,,文本型,停止辅助化疗,,,,,LLM提取,论文病例报告,2022-05-01,不良反应,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,a9b0c1d2-e3f4-4f05-8a6b-7c8d9e0f1a51,患者,随访结果,,文本型,门诊每3个月随访；目前无复发，存活,,距离起始治疗5年，距末次手术4年3个月,,,LLM提取,论文病例报告,2025-05-01,病程,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,a9b0c1d2-e3f4-4f05-8a6b-7c8d9e0f1a51,患者,无进展生存期,,数值型,5,5,自开始治疗起,年,,LLM提取,论文病例报告,2025-05-01,病程,v1
+048106c5a0faba1e8c2738e7d07fee7a,fdc0a5be1dae4f42fe6666374161a2eb_1,a9b0c1d2-e3f4-4f05-8a6b-7c8d9e0f1a51,患者,总生存期,,数值型,5,5,截至论文撰写时仍存活,年,,LLM提取,论文病例报告,2025-05-01,病程,v1

@@ -1,0 +1,30 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,6f3f0d85-0f5f-4f7c-9db4-1f9b7f9ed7b1,患者,既往史,,文本型,2006年曾因血栓性状态相关深静脉血栓导致肺栓塞,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,6f3f0d85-0f5f-4f7c-9db4-1f9b7f9ed7b1,患者,既往史,,文本型,存在凝血功能异常状态，伴凝血酶原基因突变,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,c92c1a0b-5c7e-49d0-b6d6-18ed8e8bc3c7,患者,手术名称,,类别型,阴道子宫切除术,,保留附件,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,c92c1a0b-5c7e-49d0-b6d6-18ed8e8bc3c7,患者,手术结果,,文本型,手术标本最终组织学检查阴性,,,,,LLM提取,论文病例报告,2017-12-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,d4d8bdc3-48af-4e0f-b7eb-0560b58c2f57,患者,影像所见,,文本型,盆腔超声检查未见异常,,,,盆腔超声,LLM提取,论文病例报告,2019-06-01,影像,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e0a8b4d6-1f36-4d52-8bc7-50d5a5b0e2f2,患者,主诉,,文本型,无乏力、腹痛或盆腔痛、腹胀等症状,,,,,LLM提取,论文病例报告,2019-12-01,病史,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e0a8b4d6-1f36-4d52-8bc7-50d5a5b0e2f2,患者,查体,,文本型,右腹股沟淋巴结肿大，临床可触及,,,,,LLM提取,论文病例报告,2019-12-01,评估,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f4c9a52b-4e9c-4d9c-a4b2-0b7d5f1c1c89,右腹股沟淋巴结,病理诊断,,文本型,转移性高分级浆液性卵巢癌（Mullerian type）,,WT1、CK7、CK19、PAX8、ER阳性；TTF1、CDX2、CK20阴性,,切除活检,LLM提取,论文病例报告,2019-12-01,病理,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f4c9a52b-4e9c-4d9c-a4b2-0b7d5f1c1c89,右腹股沟淋巴结,标本部位,,类别型,腹股沟淋巴结,,右侧,,切除活检,LLM提取,论文病例报告,2019-12-01,病理,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f4c9a52b-4e9c-4d9c-a4b2-0b7d5f1c1c89,右腹股沟淋巴结,免疫组化,,文本型,WT1、CK7、CK19、PAX8、ER阳性；TTF1、CDX2、CK20阴性,,,,免疫组化,LLM提取,论文病例报告,2019-12-01,病理,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f5b4bb2d-1d6d-4d58-a9f1-3f3a2f0d1e3a,患者,手术名称,,类别型,腹腔镜双侧输卵管卵巢切除术,,,,,LLM提取,论文病例报告,2020-01-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f5b4bb2d-1d6d-4d58-a9f1-3f3a2f0d1e3a,患者,手术名称,,类别型,腹膜活检,,,,,LLM提取,论文病例报告,2020-01-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f5b4bb2d-1d6d-4d58-a9f1-3f3a2f0d1e3a,患者,手术结果,,文本型,最终病理未见疾病证据,,,,,LLM提取,论文病例报告,2020-01-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f6d4d0c2-4d7a-4c0b-b4a5-6d7c2d8c8a11,患者,影像所见,,文本型,18F-FDG PET/CT提示双侧髂血管淋巴结摄取增高,,,,PET/CT,LLM提取,论文病例报告,2020-02-01,影像,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,d8d7b2c6-2d4f-4c6d-9b2a-3f4d5e6f7a88,患者,治疗方案,,类别型,卡铂+紫杉醇,,标准方案，共6个周期,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,d8d7b2c6-2d4f-4c6d-9b2a-3f4d5e6f7a88,患者,周期数,,数值型,6,6,,个周期,,LLM提取,论文病例报告,2020-02-01,用药,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,d8d7b2c6-2d4f-4c6d-9b2a-3f4d5e6f7a88,患者,治疗反应,,类别型,部分缓解,,5月PET/CT提示，7月再次确认,,PET/CT,LLM提取,论文病例报告,2020-05-01,评估,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,b0a8d9e7-1c2f-4d3a-9e0b-8c7d6e5f4a33,患者,查体,,文本型,左腹股沟可触及约4 cm肿块/淋巴结,,,,,LLM提取,论文病例报告,2020-11-01,评估,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,c1d2e3f4-5678-4abc-9def-1234567890ab,患者,影像所见,,文本型,PET/CT提示左腹股沟疾病进展可疑，随后1月PET进一步证实,,,,PET/CT,LLM提取,论文病例报告,2021-01-01,影像,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e2f3a4b5-6789-4cde-abcd-2345678901bc,患者,手术名称,,类别型,诊断性腹腔镜+腹膜活检,,,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e2f3a4b5-6789-4cde-abcd-2345678901bc,患者,手术结果,,文本型,术中未见疾病证据或腹水,,,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e3f4a5b6-7890-4def-bcde-3456789012cd,左腹股沟淋巴结,手术名称,,类别型,左腹股沟淋巴结清扫术,,切除约4 cm肿大粗大淋巴结,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e3f4a5b6-7890-4def-bcde-3456789012cd,左腹股沟淋巴结,手术结果,,文本型,术毕无残余病灶,,,,,LLM提取,论文病例报告,2021-03-01,手术,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e4f5a6b7-8901-4ef0-cdef-4567890123de,左腹股沟淋巴结,病理诊断,,文本型,高分级浆液性卵巢癌（Mullerian type）转移阳性,,腹膜活检均阴性,,病理检查,LLM提取,论文病例报告,2021-03-01,病理,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,e4f5a6b7-8901-4ef0-cdef-4567890123de,腹膜活检标本,病理诊断,,文本型,未见肿瘤证据,,,,病理检查,LLM提取,论文病例报告,2021-03-01,病理,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f7a8b9c0-9012-4f01-def0-5678901234ef,患者,治疗方案,,类别型,聚乙二醇化脂质体多柔比星（PLD）,,铂耐药后使用，持续至2021年9月,,,LLM提取,论文病例报告,2021-03-01,用药,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,f7a8b9c0-9012-4f01-def0-5678901234ef,患者,治疗反应,,类别型,疾病控制/治疗后继续用药至2021年9月,,文中未明确客观缓解,,,LLM提取,论文病例报告,2021-03-01,病程,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,a1b2c3d4-e5f6-47a8-b9c0-112233445566,患者,影像所见,,文本型,PET/CT示左髂外淋巴结摄取增高,,,,PET/CT,LLM提取,论文病例报告,2021-10-01,影像,v1
+f84b1986f5ae70c19f3bcbfd146c34e6,eb89ad81bb71069e8cbbc4956e09bb67,b2c3d4e5-f6a7-48b9-c0d1-223344556677,患者,治疗方案,,类别型,立体定向放疗,,针对受累髂淋巴结；2021年12月完成,,,LLM提取,论文病例报告,2021-10-01,用药,v1

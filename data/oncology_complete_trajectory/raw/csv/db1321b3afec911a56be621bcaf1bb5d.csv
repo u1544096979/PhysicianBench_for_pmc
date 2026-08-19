@@ -1,0 +1,31 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,5e0d8f0c-7f0a-4d10-8ad7-8f2e5b6a3f4e,患者,入院年龄,,数值型,72,72,,岁,,LLM提取,论文病例报告,2012-01-01,病史,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,5e0d8f0c-7f0a-4d10-8ad7-8f2e5b6a3f4e,患者,既往史,,文本型,2012年诊断为酒精性肝硬化。,,,,,LLM提取,论文病例报告,2012-01-01,病史,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,d2c59cb8-9d9b-4c23-b5fa-8fb2f4c0f0f1,患者,诊断名称,,类别型,酒精性肝硬化,,,,,LLM提取,论文病例报告,2012-01-01,诊断,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,8f7cf2f2-5b0d-4c3d-9e3c-6a4d2f4c9a11,患者,诊断名称,,类别型,多发性肝细胞癌,,,,,LLM提取,论文病例报告,2018-01-01,诊断,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,3e8f0a2d-1f1d-4d86-9d3f-0d4e7f2b2f12,患者,治疗方案,,类别型,TACE,,,,,LLM提取,论文病例报告,2018-01-01,病程,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,3e8f0a2d-1f1d-4d86-9d3f-0d4e7f2b2f12,患者,治疗方案,,类别型,质子束治疗,,,,,LLM提取,论文病例报告,2018-04-01,病程,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,c0e9b7a4-6a2e-4c72-8a2d-6c8d7c5a3b21,患者,病程,,文本型,影像学检查未见肝内HCC复发，但出现肝衰竭。,,,,,LLM提取,论文病例报告,2020-02-01,病程,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,c1f7f1a8-7b4c-4d0b-8b1a-4a0a7b6b9f01,患者,手术名称,,类别型,活体肝移植,,,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,c1f7f1a8-7b4c-4d0b-8b1a-4a0a7b6b9f01,患者,手术结果,,文本型,切除肝标本中发现4个结节，为中高分化HCC。,,,,,LLM提取,论文病例报告,2020-02-01,手术,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,9a6d4b3c-1d2e-4f5a-8b7c-2c3d4e5f6a71,患者,药品名称,,类别型,他克莫司,,,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,9a6d4b3c-1d2e-4f5a-8b7c-2c3d4e5f6a71,患者,药品名称,,类别型,吗替麦考酚酯,,,,,LLM提取,论文病例报告,2020-02-01,用药,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,4b5f6a7c-8d9e-4f1a-9b2c-3d4e5f6a7b81,患者,病程,,文本型,2020年3月转至本院进行移植后随访。,,,,,LLM提取,论文病例报告,2020-03-01,病程,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,7c8d9e0f-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,诊断名称,,类别型,胆管吻合口狭窄所致胆管炎,,,,,LLM提取,论文病例报告,2020-04-01,诊断,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,7c8d9e0f-1a2b-4c3d-8e9f-0a1b2c3d4e5f,患者,手术名称,,类别型,经乳头支架置入,,,,,LLM提取,论文病例报告,2020-04-01,手术,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d,肝脏超声/CT,影像所见,,文本型,移植后1年CECT见右叶3个高密度灶，最大径约10 mm，动脉期高强化，门静脉期及平衡期无洗脱；超声未见明显结节，初步考虑动脉门静脉分流。,,,,CECT/US,LLM提取,论文病例报告,2021-02-01,影像,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,病程,,文本型,移植后2年，CT所示高密度灶增大；B超可见右叶约10 mm低回声结节。,,,,,LLM提取,论文病例报告,2022-02-01,病程,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,肝脏超声/CT,影像所见,,文本型,CECT显示右叶3个高密度灶增大；B-mode US见右叶约10 mm低回声结节（S8）。,,,,CECT/B-mode US,LLM提取,论文病例报告,2022-02-01,影像,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,肝脏超声/CEUS,影像所见,,文本型,Sonazoid增强超声示早期血管期高强化，Kupffer期无缺损，未见轮辐状血流模式。,,,,CEUS,LLM提取,论文病例报告,2022-02-01,影像,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e,患者,诊断名称,,类别型,移植后肝肿瘤，疑FNH/HCA，需排除HCC复发,,,,,LLM提取,论文病例报告,2022-02-01,诊断,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,6c7d8e9f-0a1b-4c2d-8e9f-1a2b3c4d5e6f,患者,检验项目,,类别型,AFP,,未升高,,,LLM提取,论文病例报告,2022-02-01,检验,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,6c7d8e9f-0a1b-4c2d-8e9f-1a2b3c4d5e6f,患者,检验项目,,类别型,PIVKA-II,,未升高,,,LLM提取,论文病例报告,2022-02-01,检验,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,6c7d8e9f-0a1b-4c2d-8e9f-1a2b3c4d5e6f,患者,检验项目,,类别型,CEA,,未升高,,,LLM提取,论文病例报告,2022-02-01,检验,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,6c7d8e9f-0a1b-4c2d-8e9f-1a2b3c4d5e6f,患者,检验项目,,类别型,CA19-9,,未升高,,,LLM提取,论文病例报告,2022-02-01,检验,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f4a,肝脏MRI,影像所见,,文本型,EOB-MRI示动脉期高信号，门静脉期和平衡期无洗脱；S8病灶肝胆期内低信号、外高信号，未见中央瘢痕，为非典型表现。,,,,EOB-MRI,LLM提取,论文病例报告,2023-02-01,影像,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5d,患者,手术名称,,类别型,肝肿瘤活检,,,,,LLM提取,论文病例报告,2023-07-01,手术,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5d,患者,病理诊断,,文本型,符合肝细胞结节性增生（FNH）,,,,组织病理学/免疫组化,LLM提取,论文病例报告,2023-07-01,病理,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5d,患者,免疫组化,,文本型,谷氨酰胺合成酶呈“地图样”阳性；血清淀粉样蛋白A阴性；C反应蛋白部分区域可检出；Glypican 3阴性。,,,,免疫染色,LLM提取,论文病例报告,2023-07-01,病理,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,0a1b2c3d-4e5f-4a6b-8c9d-0e1f2a3b4c5d,患者,病理所见,,文本型,肿瘤细胞轻度增多，核浆比高，无明显异型性；见胆管小管增多、小血管、扩张的窦状隙，伴轻度纤维化、炎性细胞浸润和导管反应；未见中央瘢痕、血栓或坏死。,,,,H&E/Silver染色,LLM提取,论文病例报告,2023-07-01,病理,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e,患者,诊断名称,,类别型,肝细胞结节性增生（FNH）,,,,,LLM提取,论文病例报告,2023-07-01,诊断,v1
+db1321b3afec911a56be621bcaf1bb5d,f8deb44b8fd8d89d21ee7ad7d0d707df,c2d3e4f5-a6b7-4c8d-9e0f-1a2b3c4d5e6f,患者,病程,,文本型,截至2024年7月，肿瘤大小保持不变。,,,,,LLM提取,论文病例报告,2024-07-01,病程,v1

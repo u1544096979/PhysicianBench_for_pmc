@@ -1,0 +1,42 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,5b4a9bdb-1f5a-4a6f-8f86-9c6f1c8b1e01,患者,入院年龄,,数值型,19,19,,岁,,LLM提取,论文病例报告,2008-01-01,入院,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,2d3c0f59-5ec8-4a39-8b5b-4b9b0f6b5b2a,患者,主诉,,文本型,进行性视力下降,,,,,LLM提取,论文病例报告,2008-01-01,病史,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,2d3c0f59-5ec8-4a39-8b5b-4b9b0f6b5b2a,患者,现病史,,文本型,2008年因视力逐渐下降就诊于验光师，最初被诊断为双侧高度近视，随后转诊眼科进一步评估以排除视网膜脱离。,,,,,LLM提取,论文病例报告,2008-01-01,病史,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,8e2f5a1f-7d5a-4c57-a9f6-1df0c6e8c0a7,患者,查体,,文本型,双眼前节正常；眼底见近视性改变，包括小视盘和视盘周围萎缩；黄斑正常；未见颅高压症状或局灶神经功能缺损；无肢端肥大症、甲状腺功能异常、肾上腺功能减退/亢进及性腺功能减退体征。,,,,,LLM提取,论文病例报告,2008-01-01,评估,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,a1f2a7d3-3d6f-4f78-9a92-4d9f0c2c8e13,患者,诊断名称,,类别型,双侧高度近视,,,,,LLM提取,论文病例报告,2008-01-01,诊断,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9d7f4f0c-7f3e-49f1-b8d5-5e8d4a0d6c21,双眼,影像所见,,文本型,标准自动视野检查示双眼颞侧视野缺损最明显，提示双颞侧偏盲倾向。,,,,标准自动视野检查,LLM提取,论文病例报告,2010-01-01,影像,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9d7f4f0c-7f3e-49f1-b8d5-5e8d4a0d6c21,脑MRI,影像所见,,文本型,鞍区/斜坡区巨大强化肿块，最大径超过8 cm；向上累及鞍上池并侵入第三脑室；向右颞叶外生性延伸并占位；向后侵及斜坡后部并闭塞脑桥前池；压迫并移位脑干结构；双侧海绵窦段颈内动脉被完全包绕，右侧颈内动脉垂直段及水平段亦受包绕。,,2010年MRI；肿瘤累及右颞叶,,MRI,LLM提取,论文病例报告,2010-01-01,影像,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,Monomeric prolactin,,数值型,794560,794560,参考范围45-375；提示显著升高,mIU/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,Macroprolactin,,类别型,Not significant,,PEG沉淀后结果,,聚乙二醇沉淀,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,IGF-1,,数值型,41.9,41.9,参考范围15.1-46.5,nmol/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,FSH,,数值型,0.3,0.3,参考范围1.6-18,IU/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,LH,,数值型,<0.1,,参考范围2.0-18.0,IU/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,TSH,,数值型,1.33,1.33,参考范围0.3-5.0；文中另述0.27 mIU/L，原文存在不一致,mIU/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,Free T4,,数值型,12.5,12.5,参考范围11-23,pmol/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,Cortisol,,数值型,363,363,10:00采样,nmol/L,,LLM提取,论文病例报告,2010-01-01T10:00,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,3c1b2f45-2e5e-4fd3-8c71-0a8d2d7e9f31,患者血清,Male testosterone,,数值型,<0.4,,参考范围8.4-28.7,nmol/L,,LLM提取,论文病例报告,2010-01-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,7f4b6b7c-56d8-4f7c-9f4f-1c2b3a4d5e6f,患者,诊断名称,,类别型,巨大泌乳素瘤/垂体大腺瘤,,"血清泌乳素794,560 mIU/L；肿瘤最大径>8 cm",,,LLM提取,论文病例报告,2010-01-01,诊断,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,7f4b6b7c-56d8-4f7c-9f4f-1c2b3a4d5e6f,患者,临床分期,,类别型,巨大型,,肿瘤最大径超过8 cm,,,LLM提取,论文病例报告,2010-01-01,诊断,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9b8c7d6e-5f4a-4b3c-9a2d-1e0f2a3b4c5d,患者,药品名称,,类别型,Cabergoline,,超说明书使用；初始高剂量治疗,,,LLM提取,论文病例报告,2010-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9b8c7d6e-5f4a-4b3c-9a2d-1e0f2a3b4c5d,患者,剂量,,数值型,14,14,2 mg once daily；原文称14 mg/week,mg/周,,LLM提取,论文病例报告,2010-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9b8c7d6e-5f4a-4b3c-9a2d-1e0f2a3b4c5d,患者,给药途径,,类别型,口服,,,,,LLM提取,论文病例报告,2010-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,0f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b,患者,治疗方案,,文本型,多学科讨论后予多巴胺受体激动剂卡麦角林（cabergoline）为一线药物治疗；同时启动雄激素替代。,,未行手术/放疗,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9a8b7c6d-5e4f-4a3b-9c2d-1b0a2e3d4c5f,患者,药品名称,,类别型,Testosterone 2% gel,,用于性腺功能减退,,,LLM提取,论文病例报告,2010-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,9a8b7c6d-5e4f-4a3b-9c2d-1b0a2e3d4c5f,患者,剂量,,数值型,2,2,two actuations daily,次/日,,LLM提取,论文病例报告,2010-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,a1b2c3d4-e5f6-4789-abcd-ef0123456789,患者,诊断名称,,类别型,中枢性甲状腺功能减退,,6个月后出现,,,LLM提取,论文病例报告,2010-07-01,诊断,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,a1b2c3d4-e5f6-4789-abcd-ef0123456789,患者,Free T4,,数值型,10.8,10.8,提示中枢性甲减,pmol/L,,LLM提取,论文病例报告,2010-07-01,检验,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,f0e1d2c3-b4a5-4678-9abc-def012345678,患者,药品名称,,类别型,Levothyroxine,,用于中枢性甲状腺功能减退,,,LLM提取,论文病例报告,2010-07-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,b1c2d3e4-f506-4789-abcd-1234567890ab,患者,药品名称,,类别型,Cabergoline,,患者自述可自行加量至3 mg qd，短期曾增至10 mg qd后出现幻觉；长期主要维持14 mg/周,,,LLM提取,论文病例报告,2019-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,b1c2d3e4-f506-4789-abcd-1234567890ab,患者,剂量,,数值型,3,3,患者自我加量；曾短期达10 mg qd,mg/日,,LLM提取,论文病例报告,2019-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,c1d2e3f4-5067-489a-bcde-f1234567890a,患者,不良反应名称,,类别型,幻觉,,与高剂量卡麦角林相关,,,LLM提取,论文病例报告,2019-01-01,不良反应,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,c1d2e3f4-5067-489a-bcde-f1234567890a,患者,不良反应名称,,类别型,冲动控制障碍,,表现为赌博、过度消费等,,,LLM提取,论文病例报告,2013-01-01,不良反应,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,d1e2f3a4-b5c6-4789-abcd-0f1e2d3c4b5a,患者,病程,,文本型,2010年至2024年间长期失访，门诊复诊仅4次、期间仅3次验血；社区GP持续续方卡麦角林；对剂量和疗效监测不足。,,,,,LLM提取,论文病例报告,2010-01-01,病程,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,e1f2a3b4-c5d6-4789-abcd-1234abcd5678,患者,主诉,,文本型,头痛加重、乏力，并伴有过度消费和赌博行为。,,重新就诊于内分泌门诊,,,LLM提取,论文病例报告,2024-01-01,病史,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,e1f2a3b4-c5d6-4789-abcd-1234abcd5678,患者,药品名称,,类别型,Cabergoline,,当时仍在使用14 mg/周,,,LLM提取,论文病例报告,2024-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,e1f2a3b4-c5d6-4789-abcd-1234abcd5678,患者,治疗反应,,类别型,部分缓解,,"血清泌乳素下降至约15,000 mIU/L，仍高于正常范围",,,LLM提取,论文病例报告,2024-01-01,病程,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,f1e2d3c4-b5a6-4789-abcd-567890abcdef,脑MRI,影像所见,,文本型,肿瘤总体明显缩小，残余结节状、实性、强化成分累及蝶窦及颅底骨；右下颞叶见胶质化改变；部分肿瘤延伸入左侧海绵窦。,,2024年12月MRI,,MRI,LLM提取,论文病例报告,2024-12-01,影像,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,aabbccdd-eeff-4012-8899-aabbccddeeff,心脏超声,影像所见,,文本型,未见瓣膜性心脏病或其他结构异常。,,长期高剂量卡麦角林后常规心脏监测首次评估,,经胸超声心动图,LLM提取,论文病例报告,2024-12-01,影像,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,ccddeeff-0011-4234-8899-aabbccddeeff,患者,治疗方案,,文本型,卡麦角林逐渐减量至1 mg每日一次；计划复查脑MRI和血液检查；MDT内考虑替代多巴胺受体激动剂奎那戈利德及再次讨论放疗。,,近期情绪/行为症状改善,,,LLM提取,论文病例报告,2025-01-01,病程,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,ccddeeff-0011-4234-8899-aabbccddeeff,患者,药品名称,,类别型,Cabergoline,,正在下调,,,LLM提取,论文病例报告,2025-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,ccddeeff-0011-4234-8899-aabbccddeeff,患者,剂量,,数值型,1,1,once daily,mg/日,,LLM提取,论文病例报告,2025-01-01,用药,v1
+d4604666b9ceac3dc39aff76021217fe,4cfcb19f0c8e6e293c7f2e768ae6262a,eeff0011-2233-4455-8899-aabbccddeeff,患者,治疗反应,,类别型,冲动控制障碍症状缓解,,减量后赌博和过度消费等行为明显改善/消失,,,LLM提取,论文病例报告,2025-01-01,病程,v1

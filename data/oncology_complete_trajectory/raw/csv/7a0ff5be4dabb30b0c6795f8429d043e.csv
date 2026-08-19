@@ -1,0 +1,57 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1c1a7f5c-6f1d-4f8d-9a9c-3fb4d4f7d1a1,患者,入院年龄,,数值型,23,23,1992年首次出现症状并就诊,岁,,LLM提取,论文病例报告,1992-01-01,入院,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1c1a7f5c-6f1d-4f8d-9a9c-3fb4d4f7d1a1,患者,性别,,类别型,女性,,,,,LLM提取,论文病例报告,1992-01-01,病史,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1c1a7f5c-6f1d-4f8d-9a9c-3fb4d4f7d1a1,患者,既往史,,文本型,有症状性肾结石病史，曾行多次体外冲击波碎石术（ESWL）；产后出现症状。,,,,,LLM提取,论文病例报告,1992-01-01,病史,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1c1a7f5c-6f1d-4f8d-9a9c-3fb4d4f7d1a1,患者,主诉,,文本型,股骨剧烈疼痛、肌无力。,,,,,LLM提取,论文病例报告,1992-01-01,病史,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1f3f2a27-0b1c-4f70-9b8c-61d13e9df2a2,患者,诊断名称,,类别型,原发性甲状旁腺功能亢进,,伴高钙血症,,,LLM提取,论文病例报告,1992-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1f3f2a27-0b1c-4f70-9b8c-61d13e9df2a2,患者,诊断名称,,类别型,右下甲状旁腺腺瘤,,疑似病因,,,LLM提取,论文病例报告,1992-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1f3f2a27-0b1c-4f70-9b8c-61d13e9df2a2,患者,检验项目,,数值型,高钙血症,,,,,LLM提取,论文病例报告,1992-01-01,检验,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,1f3f2a27-0b1c-4f70-9b8c-61d13e9df2a2,患者,检验项目,,类别型,甲状旁腺激素升高,,,,,LLM提取,论文病例报告,1992-01-01,检验,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,8b90f1c4-8d8d-4b6d-9b4d-1f5c4f7f0c31,患者,查体,,文本型,股骨剧烈疼痛，肌无力。,,,,,LLM提取,论文病例报告,1992-01-01,评估,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,a0f3c39c-7c2b-4ad8-8b7e-9b9f9e8e0d11,患者,手术名称,,类别型,右下甲状旁腺切除术,,同时行甲状腺部分切除术（结节性病变）,,,LLM提取,论文病例报告,1993-01-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,a0f3c39c-7c2b-4ad8-8b7e-9b9f9e8e0d11,患者,手术结果,,文本型,切除病变甲状旁腺及部分甲状腺,,,,,LLM提取,论文病例报告,1993-01-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,b2c95e7a-8a75-4d31-8a5d-9d5c1c2b8f44,患者,随访结果,,文本型,术后12年无症状。,,1993年至2006年随访期间,,,LLM提取,论文病例报告,2005-01-01,病程,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,c3d4b7f4-9f6a-4d54-8d5d-1f8d4f7f2a55,患者,主诉,,文本型,右上肢疼痛。,,,,,LLM提取,论文病例报告,2006-01-01,病史,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,c3d4b7f4-9f6a-4d54-8d5d-1f8d4f7f2a55,患者,诊断名称,,类别型,原发性甲状旁腺功能亢进复发,,右下甲状旁腺切除后复发,,,LLM提取,论文病例报告,2006-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,c3d4b7f4-9f6a-4d54-8d5d-1f8d4f7f2a55,患者,病理诊断,,文本型,术中识别为甲状旁腺病样增生（parathyromatosis）。,,,,,LLM提取,论文病例报告,2006-01-01,病理,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,c4e4d8a6-9f9a-4d7f-8d6e-2f9a4f7c2e66,患者,病理诊断,,文本型,甲状旁腺腺瘤样病变伴病理增生和复发。,,Ki-67增殖指数6%,,,LLM提取,论文病例报告,2010-01-01,病理,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4e80-9f7e-3a0b5f8d3f77,患者,病理诊断,,文本型,右侧颈部甲状旁腺腺瘤性病变伴右侧病理增生。,,2014年再次证实；Parafibromin染色阴性,,,LLM提取,论文病例报告,2014-01-01,病理,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4e80-9f7e-3a0b5f8d3f77,患者,检查项目,,类别型,RET原癌基因突变,,阴性（排除MEN2）,,遗传学检查,LLM提取,论文病例报告,2014-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4e80-9f7e-3a0b5f8d3f77,患者,检查项目,,类别型,MEN1综合征,,临床及遗传学分析排除,,遗传学检查,LLM提取,论文病例报告,2014-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4e80-9f7e-3a0b5f8d3f77,患者,检查项目,,类别型,CDC73胚系突变,,阴性,,遗传学检查,LLM提取,论文病例报告,2014-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4e80-9f7e-3a0b5f8d3f77,右肾,影像所见,,文本型,进展期肾钙质沉着症。,,,,超声,LLM提取,论文病例报告,2014-01-01,影像,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4d7f-8d6e-3a0b5f8d3f77,左肾下极,影像所见,,文本型,进展期肾钙质沉着症。,,,,超声,LLM提取,论文病例报告,2014-01-01,影像,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,d5f5e9b7-0a0b-4e80-9f7e-3a0b5f8d3f77,胸廓,影像所见,,文本型,钟形胸廓，提示骨骼发育异常可能。,,,,影像检查,LLM提取,论文病例报告,2014-01-01,影像,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,e6a6fab8-1b1c-4f91-9e8f-4b1c6f9e4f88,患者,诊断名称,,类别型,高钙危象,,血钙约4 mmol/L，PTH较正常高7–23倍,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,e6a6fab8-1b1c-4f91-9e8f-4b1c6f9e4f88,患者,手术名称,,类别型,病理性甲状旁腺组织及病理性增生切除术,,切除位于肌肉和脂肪组织内的病灶,,,LLM提取,论文病例报告,2014-01-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,e6a6fab8-1b1c-4f91-9e8f-4b1c6f9e4f88,患者,药品名称,,类别型,cinacalcet,,首次用于控制血钙,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,e6a6fab8-1b1c-4f91-9e8f-4b1c6f9e4f88,患者,药品名称,,类别型,zoledronic acid,,联合治疗,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,e6a6fab8-1b1c-4f91-9e8f-4b1c6f9e4f88,患者,药品名称,,类别型,calcitonin,,应用但耐受差，出现皮疹,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,e6a6fab8-1b1c-4f91-9e8f-4b1c6f9e4f88,患者,药品名称,,类别型,denosumab,,off-label使用；RANKL抑制剂,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,f7b7gb9c-2c2d-4fa2-9f9g-5c2d7g0f5a99,患者,诊断名称,,类别型,甲状旁腺癌,,术后病理首次明确,,,LLM提取,论文病例报告,2015-11-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,f7b7gb9c-2c2d-4fa2-9f9g-5c2d7g0f5a99,患者,病理诊断,,文本型,甲状旁腺癌，见9个/10高倍视野有丝分裂象。,,chromogranin A和synaptophysin免疫染色阴性；Ki-67为7%–10%,,病理+免疫组化,LLM提取,论文病例报告,2015-11-01,病理,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,f7b7gb9c-2c2d-4fa2-9f9g-5c2d7g0f5a99,患者,病理诊断,,文本型,CDC73/HRPT2体细胞突变,,肿瘤组织中检出,,分子病理,LLM提取,论文病例报告,2015-11-01,病理,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,f7b7gb9c-2c2d-4fa2-9f9g-5c2d7g0f5a99,患者,手术名称,,类别型,复发病灶切除术,,位于右颈静脉与右颈总动脉之间的病灶,,,LLM提取,论文病例报告,2015-11-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,f7b7gb9c-2c2d-4fa2-9f9g-5c2d7g0f5a99,患者,药品名称,,类别型,denosumab,,6个月内2剂,,,LLM提取,论文病例报告,2015-11-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,f7b7gb9c-2c2d-4fa2-9f9g-5c2d7g0f5a99,患者,药品名称,,类别型,vitamin D,,500单位/日,单位/日,,LLM提取,论文病例报告,2015-11-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,g8c8hc0d-3d3e-4gb3-0a0h-6d3e8h1g6baa,患者,诊断名称,,类别型,严重高钙血症,,伴高钙危象威胁,,,LLM提取,论文病例报告,2016-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,g8c8hc0d-3d3e-4gb3-0a0h-6d3e8h1g6baa,患者,药品名称,,类别型,药物治疗,,稳定病情后行放疗计划,,,LLM提取,论文病例报告,2016-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,h9d9id1e-4e4f-4hc4-1b1i-7e4f9i2h7cbb,患者,诊断名称,,类别型,高钙危象,,药物治疗无效，需急诊手术,,,LLM提取,论文病例报告,2016-05-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,h9d9id1e-4e4f-4hc4-1b1i-7e4f9i2h7cbb,患者,手术名称,,类别型,急诊手术切除复发病灶,,肿瘤侵及胸骨柄,,,LLM提取,论文病例报告,2016-05-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,h9d9id1e-4e4f-4hc4-1b1i-7e4f9i2h7cbb,右肺第6段供血动脉,不良反应名称,,类别型,肺栓塞,,术后发生,,,LLM提取,论文病例报告,2016-05-01,不良反应,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,i0e0je2f-5f5g-4id5-2c2j-8f5g0j3i8dcc,患者,手术名称,,类别型,胸骨柄浸润性肿瘤切除术,,肿瘤直径26 mm,mm,,LLM提取,论文病例报告,2016-05-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,i0e0je2f-5f5g-4id5-2c2j-8f5g0j3i8dcc,患者,药品名称,,类别型,zoledronic acid,,加大剂量,,,LLM提取,论文病例报告,2016-05-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,i0e0je2f-5f5g-4id5-2c2j-8f5g0j3i8dcc,患者,药品名称,,类别型,cinacalcet,,加大剂量,,,LLM提取,论文病例报告,2016-05-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,j1f1kf3g-6g6h-4je6-3d3k-9g6h1k4j9edd,患者,手术名称,,类别型,再次切除4个病灶,,3个颈部病灶，1个锁骨后病灶,,,LLM提取,论文病例报告,2016-09-01,手术,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,j1f1kf3g-6g6h-4je6-3d3k-9g6h1k4j9edd,患者,病理诊断,,文本型,CDC73/HRPT2体细胞突变再次证实。,,,,病理,LLM提取,论文病例报告,2016-09-01,病理,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,k2g2lg4h-7h7i-4kf7-4e4l-0h7i2l5k0fee,患者,诊断名称,,类别型,甲状旁腺肿瘤复发,,约1 cm，2个月间隔反复生长,,,LLM提取,论文病例报告,2017-01-01,诊断,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,k2g2lg4h-7h7i-4kf7-4e4l-0h7i2l5k0fee,患者,治疗方案,,类别型,放射治疗,,颈部及纵隔区常规二维放疗33次，2 Gy/次，总剂量66 Gy,,,LLM提取,论文病例报告,2017-01-01,病程,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,k2g2lg4h-7h7i-4kf7-4e4l-0h7i2l5k0fee,患者,治疗反应,,类别型,病情稳定,,复发间隔延长,,,LLM提取,论文病例报告,2017-01-01,评估,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,l3h3mg5i-8i8j-4lg8-5f5m-1i8j3m6l1gff,患者,不良反应名称,,类别型,Staphylococcal sepsis,,导管相关；致严重病情，ECOG 3/4，入住临终关怀,,,LLM提取,论文病例报告,2017-01-01,不良反应,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,l3h3mg5i-8i8j-4lg8-5f5m-1i8j3m6l1gff,患者,分级,,类别型,ECOG 3/4,,,,,LLM提取,论文病例报告,2017-01-01,不良反应,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,l3h3mg5i-8i8j-4lg8-5f5m-1i8j3m6l1gff,患者,处理措施,,文本型,追加药物治疗后逐渐恢复。,,cinacalcet和denosumab,,,LLM提取,论文病例报告,2017-01-01,不良反应,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,m4i4nh6j-9j9k-4mh9-6g6n-2j9k4n7m2hgg,患者,药品名称,,类别型,cinacalcet,,长期控制血钙,,,LLM提取,论文病例报告,2017-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,m4i4nh6j-9j9k-4mh9-6g6n-2j9k4n7m2hgg,患者,药品名称,,类别型,denosumab,,长期控制血钙,,,LLM提取,论文病例报告,2017-01-01,用药,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,n5j5oi7k-0k0l-4ni0-7h7o-3k0l5o8n3ihh,患者,出院诊断,,类别型,甲状旁腺癌,,长期复发性高钙血症,,,LLM提取,论文病例报告,2017-01-01,出院,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,n5j5oi7k-0k0l-4ni0-7h7o-3k0l5o8n3ihh,患者,出院状况,,类别型,稳定,,目前在直接医疗监督下生活正常,,,LLM提取,论文病例报告,2017-01-01,出院,v1
+7a0ff5be4dabb30b0c6795f8429d043e,5d7d80f64eb9567340bbee65238adca8,n5j5oi7k-0k0l-4ni0-7h7o-3k0l5o8n3ihh,患者,出院医嘱,,文本型,长期随访，药物控制血钙，继续cinacalcet和denosumab治疗。,,,,,LLM提取,论文病例报告,2017-01-01,出院,v1

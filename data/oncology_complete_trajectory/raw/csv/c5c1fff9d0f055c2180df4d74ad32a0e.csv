@@ -1,0 +1,39 @@
+case_id,encnt_no,group_id,subject,feature_name,feature_code,feature_type,value,actual_value,extra_value,unit,method,source,_record_source,event_date,category,pipeline_version
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,1d2f6f2a-1f4f-4b46-9c5f-2d7d1f8a4e01,患者,入院年龄,,数值型,66,66,,岁,,LLM提取,论文病例报告,2014-01-01,入院,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,1d2f6f2a-1f4f-4b46-9c5f-2d7d1f8a4e01,患者,入院科室,,文本型,未提及,,,,,LLM提取,论文病例报告,2014-01-01,入院,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,2a8b5a44-1d74-4d58-9b8e-8e7a4d0e6b11,患者,病史,,文本型,既往史：高血压、血脂异常。2014年初因住院后发现前列腺癌。,,,,,LLM提取,论文病例报告,2014-01-01,病史,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,3b1a2f43-ef7f-4f91-9d8f-8f2b1d4c9c21,患者,诊断名称,,类别型,"前列腺腺癌（very high-risk localized prostate cancer, grade group 5）",,T1c cN0 cM0；无转移证据,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,3b1a2f43-ef7f-4f91-9d8f-8f2b1d4c9c21,患者,分期,,类别型,T1c cN0 cM0,,极高危局限性前列腺癌,,,LLM提取,论文病例报告,2014-01-01,诊断,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,4c2c9d51-8a66-4c30-9a6e-7e6c8f5d1a31,血清,PSA,,数值型,25,25,,ng/mL,,LLM提取,论文病例报告,2014-01-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,5d3f0b62-7f1e-4c2e-9d8f-2c4b5f0a7d41,患者,影像所见,,文本型,初诊影像未见转移证据,,,,,LLM提取,论文病例报告,2014-01-01,影像,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,6e4a1c73-8a2f-4d3f-9a8b-3d5c6e1b8f51,患者,治疗方案,,文本型,外照射放疗（external beam radiation therapy）,,未接受ADT；拒绝手术,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,6e4a1c73-8a2f-4d3f-9a8b-3d5c6e1b8f51,患者,手术名称,,类别型,未行手术,,患者拒绝手术,,,LLM提取,论文病例报告,2014-01-01,手术,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,6e4a1c73-8a2f-4d3f-9a8b-3d5c6e1b8f51,患者,用药,,类别型,未行ADT,,初始治疗阶段拒绝,,,LLM提取,论文病例报告,2014-01-01,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,7f5b2d84-9b3c-4e4e-a9b9-4e6d7f2c9a61,患者,治疗反应,,类别型,PSA下降,,最低降至1.5 ng/mL,ng/mL,,LLM提取,论文病例报告,2015-12-01,病程,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,8a6c3e95-ab4d-4f5f-ba9c-5f7e8f3dab71,血清,PSA,,数值型,1.5,1.5,nadir,ng/mL,,LLM提取,论文病例报告,2015-12-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,9b7d4f06-bc5e-4f60-8bad-6f8f9a4ebc81,血清,PSA,,数值型,6.5,6.5,较前升高,ng/mL,,LLM提取,论文病例报告,2017-07-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,ad8e5g17-cd6f-4g71-9caf-7g9fab5fcb91,血清,PSA,,数值型,11.8,11.8,6个月后继续升高,ng/mL,,LLM提取,论文病例报告,2018-01-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,be9f6078-de6f-4h82-9db0-8hab0c6gdc01,血清,PSA,,数值型,26.8,26.8,再次升高,ng/mL,,LLM提取,论文病例报告,2020-06-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,cf0g7189-ef7g-4i93-8ec1-9ib1d7hed112,患者,诊断名称,,类别型,仍考虑初始极高危前列腺癌治疗不足/未达生化复发,,复分期未见转移,,,LLM提取,论文病例报告,2020-06-01,诊断,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,dg1h829a-fg8h-4j04-9fd2-0jc2e8ifie223,患者,治疗方案,,文本型,ADT,,计划持续3年,,,LLM提取,论文病例报告,2020-06-01,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,eh2i93ab-gh9i-4k15-aeg3-1kd3f9jgj334,血清,PSA,,数值型,<0.01,0.01,ADT期间（2020-10至2021-09）,ng/mL,,LLM提取,论文病例报告,2020-10-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,eh2i93ab-gh9i-4k15-aeg3-1kd3f9jgj334,血清,PSA,,数值型,<0.01,0.01,ADT期间（2020-10至2021-09）,ng/mL,,LLM提取,论文病例报告,2021-09-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,fi3j04bc-hi0j-4l26-bfh4-2le4g0kgh445,血清,PSA,,数值型,0.1,0.1,较前升高,ng/mL,,LLM提取,论文病例报告,2021-12-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,gj4k15cd-ij1k-4m37-cgi5-3mf5h1lhi556,血清,PSA,,数值型,0.2,0.2,年底升高,ng/mL,,LLM提取,论文病例报告,2022-12-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,gj4k15cd-ij1k-4m37-cgi5-3mf5h1lhi556,患者,影像所见,,文本型,盆腔MRI示2.2 cm病灶，高度提示复发,,PET-CT未见转移,,MRI/PET-CT,LLM提取,论文病例报告,2022-12-01,影像,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,hj5l26de-jk2l-4n48-dhj6-4ng6i2mij667,患者,影像所见,,文本型,PET-CT未见远处转移,,重分期检查,,PET-CT,LLM提取,论文病例报告,2022-12-01,影像,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,ik6m37ef-kl3m-4o59-eik7-5oh7j3njh778,患者,病程,,文本型,出现尿频、尿急，提示膀胱颈血块，安排膀胱镜检查,,多次随访失访后出现,,,LLM提取,论文病例报告,2023-06-01,病程,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,jk7n48fg-lm4n-4p60-fjl8-6pi8k4okj889,患者,手术名称,,类别型,TURPT/TURP,,原计划于尿路症状加重后安排，最终延迟至2023年6月实施,,,LLM提取,论文病例报告,2023-06-01,手术,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,jk7n48fg-lm4n-4p60-fjl8-6pi8k4okj889,前列腺病灶活检,病理诊断,,文本型,小细胞癌,,提示局部复发并神经内分泌转化,,病理,LLM提取,论文病例报告,2023-06-01,病理,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,jk7n48fg-lm4n-4p60-fjl8-6pi8k4okj889,前列腺病灶活检,免疫组化,,文本型,Synaptophysin阳性，Ki-67 70-80%,,Ki-67增殖活性中等偏高,,免疫组化,LLM提取,论文病例报告,2023-06-01,病理,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,jk7n48fg-lm4n-4p60-fjl8-6pi8k4okj889,前列腺病灶活检,分子标志物,,类别型,AR突变、RB1突变,,,,分子检测,LLM提取,论文病例报告,2023-06-01,病理,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,jk7n48fg-lm4n-4p60-fjl8-6pi8k4okj889,前列腺病灶活检,诊断名称,,类别型,小细胞/高级别神经内分泌癌伴局灶性腺泡腺癌（grade group 5）,,三级医院会诊确认,,病理,LLM提取,论文病例报告,2023-06-01,诊断,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,lm8o59gh-mn5o-4q61-gkm9-7qj9l5plk990,患者,影像所见,,文本型,PET-CT及MRI脑未见远处转移,,复分期结果阴性,,PET-CT/MRI脑,LLM提取,论文病例报告,2023-06-01,影像,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,mn9p60hi-no6p-4r72-hln0-8rk0m6qml101,患者,治疗方案,,文本型,顺铂+依托泊苷,,计划4个周期；顺铂75 mg/m2第1天，依托泊苷80 mg/m2第1-3天，每21天重复,,,LLM提取,论文病例报告,2023-08-29,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,mn9p60hi-no6p-4r72-hln0-8rk0m6qml101,患者,药品名称,,类别型,顺铂,,第1周期成功完成,,,LLM提取,论文病例报告,2023-08-29,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,mn9p60hi-no6p-4r72-hln0-8rk0m6qml101,患者,药品名称,,类别型,依托泊苷,,第1周期成功完成,,,LLM提取,论文病例报告,2023-08-29,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,no0q71ij-op7q-4s83-imn1-9sl1n7rnm212,患者,治疗方案,,文本型,第2周期顺铂+依托泊苷,,于第2天因无法建立静脉通路及担忧脊髓受累而中止,,,LLM提取,论文病例报告,2023-09-26,用药,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,no0q71ij-op7q-4s83-imn1-9sl1n7rnm212,患者,治疗反应,,类别型,治疗中止,,无法建立IV通路,,,LLM提取,论文病例报告,2023-09-26,病程,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,op1r82jk-pq8r-4t94-jnm2-0tm2o8son323,患者,病程,,文本型,因出国数月暂停治疗，后返回门诊时拒绝继续静脉通路、港置入及化疗,,自述无急性不适,,,LLM提取,论文病例报告,2024-01-01,病程,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,pq2s93kl-qr9s-4u05-kon3-1un3p9tpo434,血清,PSA,,数值型,0.54,0.54,较2023-08的0.13上升,ng/mL,,LLM提取,论文病例报告,2024-01-01,检验,v1
+c5c1fff9d0f055c2180df4d74ad32a0e,69fc5eb0e3a8ecfdb9834f5b655be904,qr3t04lm-rs0t-4v16-lpo4-2vo4q0upq545,患者,影像所见,,文本型,再次PET-CT仍未见转移,,截至该次门诊,,PET-CT,LLM提取,论文病例报告,2024-01-01,影像,v1
