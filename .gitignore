@@ -33,3 +33,6 @@ tasks/*/*/tests/__pycache__/
 data/oncology_complete_trajectory/index/*.jsonl
 data/oncology_complete_trajectory/generated/
 data/oncology_complete_trajectory/raw/
+
+# FHIR benchmark data image (2.1G OCI/docker rootfs snapshot — too large + raw FHIR data)
+data/physical-benchmark-fhir-v1/
