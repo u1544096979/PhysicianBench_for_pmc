@@ -349,7 +349,6 @@ def inject_noise(state: GenerationState) -> dict:
     from pipeline.noise_injection.context import build_context
     from pipeline.noise_injection.config import NoiseConfig
     from pipeline.noise_injection.injection import run_injection
-    from pipeline.noise_injection import solvable as _S  # noqa 保留
 
     draft: TaskDraft = state["task_draft"]
     ctx = build_context(
@@ -492,17 +491,11 @@ def _append_noise_to_csv(cleaned_csv: Path, noise_rows: list[dict]) -> None:
     from pipeline.noise_injection.materialize import CSV_FIELDS
     if not noise_rows:
         return
-    existing = set()
-    with cleaned_csv.open("r", encoding="utf-8-sig", newline="") as fh:
-        rd = csv.reader(fh)
-        next(rd, None)  # header
-        for row in rd:
-            existing.add(tuple(row))
     with cleaned_csv.open("a", encoding="utf-8", newline="") as fh:
         wr = csv.DictWriter(fh, fieldnames=list(CSV_FIELDS), extrasaction="ignore")
         for r in noise_rows:
             row = {k: r.get(k, "") for k in CSV_FIELDS}
-            # 追加时校验不与已存在行冲突（避免表头重复）
+            # 追加通过三道闸门的噪声行
             wr.writerow(row)
 
 
