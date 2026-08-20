@@ -1,7 +1,7 @@
 # Spec: OncoBench 评测闭环 v1（17工具 + MiniAgent 考生 + Checkpoint 执行器）
 
 - **日期**: 2026-08-20
-- **状态**: Draft →（用户review后改Approved）
+- **状态**: Approved（2026-08-20 用户批准）
 - **分支**: `feat/task-generation-v2`（继续用）或新开 `feat/eval-loop`
 - **上游依赖**: 任务生成流水线v2（已完成，产出 `tasks/oncology-v2/` 任务包）
 - **范围**: 工具层改造 + 考生agent对接 + 判分执行器 + 2道题闭环验收
