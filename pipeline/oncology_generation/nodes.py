@@ -52,12 +52,36 @@ def _load_case_events(case_id: str, data_root: Path) -> list[dict[str, str]]:
     return events
 
 
-def visible_groups(groups: list[EventGroup], target_group_id: str) -> list[EventGroup]:
-    """截断视图：target 事件组及其后的所有组都不可见."""
+def visible_groups(
+    groups: list[EventGroup],
+    target_group_id: str,
+    answer_event_rows: list[int] | None = None,
+) -> list[EventGroup]:
+    """截断视图。
+
+    - 整组模式（answer_event_rows 为空）：target 事件组及其后所有组不可见（旧行为）
+    - 事件级模式：target 组之前全可见；target 组仅隐藏 answer_event_rows 标记的
+      答案事件，同组的证据性事件（检查所见/测量值/方法）保留给做题者；
+      target 组之后的所有组不可见。
+    """
     idx = next((i for i, g in enumerate(groups) if g.group_id == target_group_id), None)
     if idx is None:
         raise ValueError(f"target group not in timeline: {target_group_id}")
-    return groups[:idx]
+    before = groups[:idx]
+    if not answer_event_rows:
+        return before
+    hide = {str(r) for r in answer_event_rows}
+    target = groups[idx]
+    kept = [
+        ev for ev in target.events
+        if str(ev.get("_source_row", "")) not in hide
+    ]
+    if kept:
+        before = before + [EventGroup(
+            group_id=target.group_id, date=target.date,
+            category=target.category, events=kept,
+        )]
+    return before
 
 
 def literal_leak_check(draft: TaskDraft, visible: list[EventGroup]) -> str | None:
@@ -79,6 +103,9 @@ def literal_leak_check(draft: TaskDraft, visible: list[EventGroup]) -> str | Non
 
 def load_and_timeline(state: GenerationState) -> dict:
     events = _load_case_events(state["case_id"], Path(state["data_root"]))
+    # 注入行号（数据行从1起，与展示给LLM的[n]一致），供事件级截断引用
+    for i, ev in enumerate(events, start=1):
+        ev.setdefault("_source_row", str(i))
     groups = build_event_groups(events)
     return {"events": events, "groups": groups}
 
@@ -150,10 +177,13 @@ def generate_task(state: GenerationState) -> dict:
         else:
             raise ValueError(f"target_group_id 无法唯一定位: {resp.get('target_group_id')}")
 
+    answer_rows_raw = resp.get("answer_event_rows") or []
+    answer_event_rows = [int(r) for r in answer_rows_raw if str(r).strip().isdigit()]
     draft = TaskDraft(
         task_type=label.recommended_type,
         target_group_id=target_group_id,
         target_date=resp.get("target_date", ""),
+        answer_event_rows=answer_event_rows,
         instruction=resp.get("instruction", ""),
         deliverable=resp.get("deliverable", "output/diagnosis_report.md"),
         ground_truth=resp.get("ground_truth", {}),
@@ -177,7 +207,7 @@ def validate_task(state: GenerationState) -> dict:
     client = _client(state)
 
     # 代码级字面泄漏预检（免费，先于LLM）
-    visible = visible_groups(state["groups"], draft.target_group_id)
+    visible = visible_groups(state["groups"], draft.target_group_id, draft.answer_event_rows)
     leak = literal_leak_check(draft, visible)
     if leak:
         validation = ValidationResult(
@@ -247,7 +277,7 @@ def route_after_validate(state: GenerationState) -> str:
 def solve_task(state: GenerationState) -> dict:
     draft: TaskDraft = state["task_draft"]
     client = _client(state)
-    visible = visible_groups(state["groups"], draft.target_group_id)
+    visible = visible_groups(state["groups"], draft.target_group_id, draft.answer_event_rows)
     resp = client.chat_json(
         P.build_solve_prompt(
             instruction=draft.instruction,
@@ -317,7 +347,7 @@ def route_after_evaluate(state: GenerationState) -> str:
 def generate_checkpoints(state: GenerationState) -> dict:
     draft: TaskDraft = state["task_draft"]
     client = _client(state)
-    visible = visible_groups(state["groups"], draft.target_group_id)
+    visible = visible_groups(state["groups"], draft.target_group_id, draft.answer_event_rows)
     categories = sorted({g.category for g in visible if g.category})
     resp = client.chat_json(
         P.build_checkpoint_prompt(
@@ -356,7 +386,7 @@ def materialize(state: GenerationState) -> dict:
     task_dir.mkdir(parents=True, exist_ok=True)
 
     # 最终字面泄漏检测（spec D11；正常流程在validate已预检，此处兜底）
-    visible = visible_groups(state["groups"], draft.target_group_id)
+    visible = visible_groups(state["groups"], draft.target_group_id, draft.answer_event_rows)
     leak = literal_leak_check(draft, visible)
     if leak:
         return _write_review_queue(
@@ -369,6 +399,7 @@ def materialize(state: GenerationState) -> dict:
         source_csv=Path(state["data_root"]) / f"{case_id}.csv",
         cleaned_csv=cleaned_csv,
         target_group_id=draft.target_group_id,
+        answer_event_rows=draft.answer_event_rows or None,
     )
     import os
     os.replace(result.cleaned_csv, cleaned_csv)

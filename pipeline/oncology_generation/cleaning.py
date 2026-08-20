@@ -13,8 +13,16 @@ def materialize_cleaned_case(
     source_csv: Path,
     cleaned_csv: Path,
     target_group_id: str,
+    answer_event_rows: list[int] | None = None,
     cleaned_root: Path | None = None,
 ) -> CleaningResult:
+    """事件级/整组两档清洗。
+
+    - answer_event_rows 为空：整组删除（target组及其后全部删除，旧行为）
+    - answer_event_rows 非空：target组内仅删除答案事件行；target组之后的组仍全部删除。
+      注意：此处行号基于"数据行从1计"（与 nodes.load_and_timeline 注入一致），
+      而本函数读CSV时是从2计（含表头），因此做 +1 对齐。
+    """
     source_csv = Path(source_csv)
     cleaned_csv = Path(cleaned_csv)
     same_path = source_csv.resolve() == cleaned_csv.resolve()
@@ -56,6 +64,16 @@ def materialize_cleaned_case(
     retained_group_ids = {group.group_id for group in groups[:target_index]}
     retained_events = [event for event in events if event.get("group_id", "") in retained_group_ids]
     target_events = groups[target_index].events
+
+    if answer_event_rows:
+        # 事件级：target组内保留证据性事件（行号对齐：CSV含表头，_source_row从2起）
+        hide = {str(r + 1) for r in answer_event_rows}
+        kept_target = [
+            ev for ev in target_events
+            if ev.get("_source_row", "") not in hide
+        ]
+        target_events = [ev for ev in target_events if ev.get("_source_row", "") in hide]
+        retained_events = retained_events + kept_target
 
     cleaned_csv.parent.mkdir(parents=True, exist_ok=True)
     temporary_file = tempfile.NamedTemporaryFile(

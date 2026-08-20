@@ -63,7 +63,8 @@ class EventGroup:
             if tail:
                 parts.append("[" + "; ".join(tail) + "]")
             if parts:
-                lines.append("  - " + " ".join(parts))
+                row_tag = f"[{ev.get('_source_row', '')}] " if ev.get("_source_row") != "" else ""
+                lines.append(f"  - {row_tag}" + " ".join(parts))
         return "\n".join(lines)
 
 
@@ -120,7 +121,10 @@ class TaskDraft:
     instruction: str
     deliverable: str
     ground_truth: dict[str, Any]
-    rationale: str = ""
+    rationale: str
+    # 事件级截断：答案事件在原始CSV中的_source_row列表；
+    # 为空时退回整组删除（兼容旧输出）
+    answer_event_rows: list[int] = field(default_factory=list)
     revision_index: int = 0
     feedback_history: list[str] = field(default_factory=list)
 

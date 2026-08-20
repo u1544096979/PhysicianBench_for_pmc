@@ -55,9 +55,10 @@ GENERATE_PROMPT = """\
 
 请完成：
 1. 从事件组中选择一个最适合作为答案(target)的事件组：它必须是"{type_label}"类任务答案的直接载体（如分期记录/疗效结论/标志物结果/诊断结论），且它之前的事件构成可推理的证据链
-2. 截断点 = 所选事件组中最早事件日期（此日期及之后的数据对做题者不可见）
-3. 基于模板生成instruction（模板中的{{target_date}}用截断点日期替换）
-4. 从所选事件组中提取 ground_truth（用病历记录的客观事实，不要自行推断或补编）
+2. 在所选事件组内，精确标记哪些事件构成答案：把直接写出答案结论的事件行号列入 answer_event_rows（行号=事件明细前的 [数字]）。同组内的检查所见、测量值、方法描述等证据性事件【不列入】，做题者需要靠它们推理出答案
+3. 截断点 = 所选事件组中最早事件日期（此日期及之后的数据对做题者不可见，但 answer_event_rows 标记的答案事件会被单独隐藏，截断点之前仅隐藏这些行）
+4. 基于模板生成instruction（模板中的{{target_date}}用截断点日期替换）
+5. 从答案事件中提取 ground_truth（用病历记录的客观事实，不要自行推断或补编）
 
 注意：
 - 若上一个版本未通过验证，会附上失败反馈，请针对性地换一个target事件组或修改instruction，不要原样重复
@@ -67,6 +68,7 @@ GENERATE_PROMPT = """\
 {{
   "target_group_id": "完整组ID（从事件组列表原样复制）",
   "target_date": "YYYY-MM-DD",
+  "answer_event_rows": [行号1, 行号2, ...],
   "instruction": "完整的instruction文本",
   "deliverable": "output/diagnosis_report.md",
   "ground_truth": {{ ... 按 ground_truth 字段要求 ... }},

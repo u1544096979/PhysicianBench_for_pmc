@@ -116,3 +116,24 @@ def test_literal_leak_check():
                        events=[{"feature_name": "临床分期", "value": "pT2N1M0"}])
     leak2 = N.literal_leak_check(draft_clean, [dup_g])
     assert leak2 is not None
+
+
+def test_event_level_truncation():
+    """事件级截断：答案行隐藏，同组证据行保留."""
+    from pipeline.oncology_generation import nodes as N
+    g = EventGroup(
+        group_id="dddd4444", date="2019-06-01", category="影像",
+        events=[
+            {"_source_row": "1", "feature_name": "影像所见", "value": "双肺病灶较前缩小"},
+            {"_source_row": "2", "feature_name": "影像结论", "value": "部分缓解"},
+            {"_source_row": "3", "feature_name": "测量值", "value": "靶病灶直径总和 42mm->28mm"},
+        ],
+    )
+    vis = N.visible_groups([g], "dddd4444", [2])
+    assert len(vis) == 1 and len(vis[0].events) == 2
+    vals = [e["value"] for e in vis[0].events]
+    assert "部分缓解" not in vals
+    joined = "|".join(vals)
+    assert "双肺病灶较前缩小" in joined and "42mm->28mm" in joined
+    vis2 = N.visible_groups([g], "dddd4444")
+    assert vis2 == []
