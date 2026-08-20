@@ -70,7 +70,7 @@ AGENT_EVAL_MODEL / AGENT_EVAL_API_KEY / AGENT_EVAL_BASE_URL
 │   ├── server.py                        # FastAPI：3 个 API + 静态挂载
 │   └── static/                          # 原生 HTML/JS/CSS 单页
 ├── utils/                      # 诊断评估（exact / semantic / judge）与评测辅助
-└── tests/                      # 60 个单元测试（v2 生成流水线 / 工具 / 数据索引 / 诊断评估）
+└── tests/                      # 75 个单元测试（v2 生成流水线 / 工具 / 数据索引 / 诊断评估 / viewer）
 ```
 
 ## 快速开始
@@ -96,6 +96,11 @@ uv run python -m eval.runner --task-dir tasks/oncology-v2/<case_id>
 # 6. 本地轨迹浏览（一条命令启动，浏览器打开 http://127.0.0.1:8765）
 uv run python -m viewer
 ```
+
+`uv run python -m viewer` 启动本地轨迹浏览服务，浏览器打开 http://127.0.0.1:8765。
+功能：左侧选病例 → 选 run，右侧查看[概览 / Checkpoint 情况 / 完整轨迹时间线 / 交付物报告 / 标准答案 / 病例数据]。
+数据来源为 `tasks/oncology-v2/<case_id>/runs/<时间戳>/` 真实运行产物（只读）；右上角「刷新」手动重读，无自动轮询。
+支持 `VIEWER_ROOT` 环境变量指定其它任务集根目录（默认 `tasks/oncology-v2`）。
 
 ## 任务格式
 
@@ -128,5 +133,5 @@ uv run python -m viewer
 ## 测试
 
 ```bash
-uv run pytest            # 60 个测试：v2 生成流水线 / 工具 / 数据索引 / 诊断评估
+uv run pytest tests/ -q  # 75 个测试：v2 生成流水线 / 工具 / 数据索引 / 诊断评估 / viewer
 ```
