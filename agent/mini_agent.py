@@ -184,8 +184,8 @@ class MiniAgent:
                         tool_result = {"error": f"{type(e).__name__}: {e}"}
                         logger.error("Tool %s error: %s", tool_name, e)
 
-                # Serialize result for the LLM
-                result_str = json.dumps(tool_result, default=str)
+                # Serialize result for the LLM (ensure_ascii=False keeps Chinese readable)
+                result_str = json.dumps(tool_result, ensure_ascii=False, default=str)
 
                 # Truncate tool output sent to the LLM if it exceeds the limit
                 if MAX_TOOL_OUTPUT_LEN and len(result_str) > MAX_TOOL_OUTPUT_LEN:

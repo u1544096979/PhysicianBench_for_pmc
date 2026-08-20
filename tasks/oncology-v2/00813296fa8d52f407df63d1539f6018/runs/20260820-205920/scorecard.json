@@ -1,0 +1,58 @@
+{
+  "case_id": "00813296fa8d52f407df63d1539f6018",
+  "task_type": "T2_response",
+  "agent_model": "qwen3.8",
+  "judge_model": "qwen3.8",
+  "final_message": "报告已保存。以下是评估总结：\n\n---\n\n## 疗效评估结论：**PR（部分缓解）**\n\n### 关键分析：\n\n**患者背景：**\n- 56岁男性，肺腺癌（EGFR G719X+S768I复合突变），伴脑转移、骨转移、鼻窦转移\n- 基线（2021-08-23）：双肺多发结节、斑片及弥漫性肿块+心包积液+胸腔积液\n\n**治疗经过：**\n- 2021-09-04起：顺铂+白蛋白紫杉醇化疗\n- 2021-09-20起：加用福美替尼（EGFR-TKI）\n\n**疗效证据（2021-10-28，治疗约6周）：**\n1. ✅ 双肺弥漫性病灶\"明显退缩\"（较治疗前明显减少）[48]\n2. ✅ 影像评估结论\"部分缓解\"[49]\n3. ✅ 肿瘤标志物：CYFRA21-1恢复正常[45]，CA125下降79%[47]，CEA下降51%[44]\n4. ✅ 无新发病灶\n\n**符合RECIST 1.1 PR标准**：主要可评估病灶显著缩小≥30%，无新发病灶，非完全消退。",
+  "report_excerpt": "# RECIST 1.1 疗效评估报告\n\n## 评估时点：2021-10-28\n\n## 评估时点前主要治疗\n\n- **化疗方案**：2021-09-04起予顺铂60mg d1-d2 + 白蛋白紫杉醇200mg d1,d8（两药联合方案）[32][33][34][35][36]\n- **靶向治疗**：2021-09-20起加用福美替尼80mg 口服 qd（EGFR-TKI，针对EGFR G719X/",
+  "tool_calls": 31,
+  "checkpoint_summary": {
+    "total": 5,
+    "pass": 5,
+    "fail": 0,
+    "error": 0,
+    "score": 1.0
+  },
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_imaging",
+      "layer": "data_retrieval",
+      "description": "查询影像检查以获取基线与随访的病灶变化证据",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "调用了 query_imaging（类别: 影像）"
+    },
+    {
+      "checkpoint_id": "cp2_data_labs",
+      "layer": "data_retrieval",
+      "description": "查询检验结果以获取肿瘤标志物（CEA, CYFRA21-1, CA125）的基线与随访数值",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "调用了 query_lab（类别: 检验）"
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_baseline",
+      "layer": "clinical_reasoning",
+      "description": "是否识别了可评估病灶并建立了治疗前后的对比依据（如CT影像对比或标志物数值对比）",
+      "verdict": "pass",
+      "judge": "llm",
+      "comment": "报告明确识别了可评估病灶并建立了治疗前后的对比依据。在‘可评估病灶情况’章节中，考生列出了‘基线病灶（2021-08-23 CT）’、‘治疗前补充评估（2021-09-06/07）’以及‘评估时病灶（2021-10-28影像）’，形成了完整的时间轴对比。同时，报告提供了具体的标志物数值对比，如‘CEA：77.7→37.9 ng/mL’、‘CYFRA21-1：7.76→3.0 ng/mL’等，并指出‘双肺弥漫性病灶明显退缩，较治疗前明显减少’。这些证据支撑了‘主要靶病灶显著缩小’的推理，符合检查点关于建立影像或标志物对比依据的要求。"
+    },
+    {
+      "checkpoint_id": "cp4_outcome_conclusion",
+      "layer": "outcome_check",
+      "description": "最终疗效结论是否正确判定为PR",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "字段疗效结论匹配期望值（全文匹配）"
+    },
+    {
+      "checkpoint_id": "cp5_doc_structure",
+      "layer": "documentation",
+      "description": "输出文档是否包含所有要求的结构化字段",
+      "verdict": "pass",
+      "judge": "llm",
+      "comment": "报告结构完整，包含了RECIST评估所需的关键结构化字段。具体依据如下：1. 包含【评估时点】：'## 评估时点：2021-10-28'；2. 包含【基线病灶】：'基线病灶（2021-08-23 CT）... 双肺多发结节、斑片及肿块'；3. 包含【评估时病灶】：'评估时病灶（2021-10-28影像）... 双肺弥漫性病灶明显退缩'；4. 包含【疗效结论】：'## 疗效结论：PR（部分缓解）'；5. 包含【判定依据】：'## 判定依据'章节详细列出了靶病灶缩小、无新发病灶等逻辑。所有要求的结构化字段均齐全且格式规范。"
+    }
+  ]
+}

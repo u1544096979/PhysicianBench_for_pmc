@@ -34,5 +34,5 @@ class TrajectoryLogger:
             "content": content,
             "metadata": metadata or {},
         }
-        with open(self.output_path, "a") as f:
-            f.write(json.dumps(entry) + "\n")
+        with open(self.output_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
