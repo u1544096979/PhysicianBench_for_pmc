@@ -1,0 +1,10 @@
+{
+  "case_id": "0093027afb3f5b1f2313d93ffcd33bdf",
+  "applicable_types": [
+    "T2_response",
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T4_diagnosis",
+  "reason": "轨迹中存在明确的病理诊断结论（髓母细胞瘤，WHO IV级），且其前拥有完整的证据链（病史、CT影像、手术记录），符合T4诊断推理的适用条件；虽然存在疗效评估记录（完全缓解），但T4的证据链更为典型和完整。",
+  "review": ""
+}

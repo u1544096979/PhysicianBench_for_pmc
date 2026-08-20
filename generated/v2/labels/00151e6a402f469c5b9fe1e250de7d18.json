@@ -1,0 +1,12 @@
+{
+  "case_id": "00151e6a402f469c5b9fe1e250de7d18",
+  "applicable_types": [
+    "T1_staging",
+    "T2_response",
+    "T3_biomarker",
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T2_response",
+  "reason": "该病例轨迹完整记录了从基线影像到治疗后多次影像及病理的对比过程，明确给出了RECIST评估结论及主要病理缓解（MPR）判定，疗效评估的证据链（基线vs治疗后影像+病理）最为完整且逻辑清晰，最适合构建临床推理任务。",
+  "review": ""
+}

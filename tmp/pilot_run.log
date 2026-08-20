@@ -2,21 +2,21 @@
 任务输出 /home/z/my-project/PhysicianBench_for_pmc/tasks/oncology-v2；中间产物 /home/z/my-project/PhysicianBench_for_pmc/generated/v2
 
 [1/5] case 00151e6a402f469c5b9fe1e250de7d18 ...
-  -> review_queue (推荐类型: T4_diagnosis)
+  -> review_queue (推荐类型: T2_response)
 
 [2/5] case 0015a19f08f333a3517c5ce1a78c747b ...
-  -> persisted (推荐类型: T4_diagnosis)
+  -> review_queue (推荐类型: T1_staging)
 
 [3/5] case 003ef4aadca9dffb1fcddee30c0a6b62 ...
   -> review_queue (推荐类型: T4_diagnosis)
 
 [4/5] case 00813296fa8d52f407df63d1539f6018 ...
-  -> persisted (推荐类型: T4_diagnosis)
+  -> review_queue (推荐类型: T2_response)
 
 [5/5] case 0093027afb3f5b1f2313d93ffcd33bdf ...
   -> review_queue (推荐类型: T4_diagnosis)
 
-========== 完成（233s） ==========
-persisted    2: ['0015a19f08f333a3517c5ce1a78c747b', '00813296fa8d52f407df63d1539f6018']
-review_queue 3: ['00151e6a402f469c5b9fe1e250de7d18', '003ef4aadca9dffb1fcddee30c0a6b62', '0093027afb3f5b1f2313d93ffcd33bdf']
+========== 完成（322s） ==========
+persisted    0: []
+review_queue 5: ['00151e6a402f469c5b9fe1e250de7d18', '0015a19f08f333a3517c5ce1a78c747b', '003ef4aadca9dffb1fcddee30c0a6b62', '00813296fa8d52f407df63d1539f6018', '0093027afb3f5b1f2313d93ffcd33bdf']
 error        0: []
