@@ -13,13 +13,18 @@ _CSV_KEYS = set(CSV_FIELDS)
 
 def _feat_type(category, conv) -> str:
     ft = (conv.get("feature_type") or "").strip()
-    return ft if ft in catalog.FEATURE_TYPES else catalog.CATEGORY_FEATURE_TYPE_FALLBACK[category][0]
+    if ft in catalog.FEATURE_TYPES:
+        return ft
+    fb = catalog.CATEGORY_FEATURE_TYPE_FALLBACK.get(category)
+    if fb:
+        return fb[0]
+    return "文本型"
 
 
 def _row(context, *, category, feature_name, value, unit, event_date,
          subject=None, method=None, feature_type=None, actual_value="",
          extra_value="", layer=None, episode_id=None, feature_code="") -> dict:
-    conv = context.convention_by_category[category]
+    conv = context.convention_by_category.get(category) or {}
     feature_type = feature_type or _feat_type(category, conv)
     cf = {
         "case_id": context.case_id,
