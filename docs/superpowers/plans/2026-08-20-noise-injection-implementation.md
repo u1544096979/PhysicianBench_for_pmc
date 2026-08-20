@@ -67,7 +67,7 @@ scripts/apply_noise.py                # 存量批处理
 - `CaseContext`（`context.py`，frozen dataclass）：`case_id / encnt_no / task_type / target_date / first_event_date / instruction / ground_truth / key_evidence_dates: list[str] / denial_terms: list[str] / convention_by_category: dict[str, dict] / matrix_rows: list[dict]`（raw event dicts，含 group_id/category/subject/feature_name/value/event_date）`;` 以及函数 `build_context(*, case_id, events, task_type, target_group_id, target_date, instruction, ground_truth, answer_event_rows=None, first_event_date=None) -> CaseContext`
 - `prompts.py`：`PROMPT_VERSIONS = {"plan":"v1","judge":"v1"}`、`build_plan_prompt(context, noise_rows, episodes) -> list[dict]`、`build_judge_prompt(context, rows_batch) -> list[dict]`
 - `plan.py`：`NoisePlanner(client)` with `plan(context, *, noise_rows, episodes) -> dict`（返回 `{"layer_a":[...], "episodes":[...]}`）
-- `materialize.py`：`materialize(context, plan) -> list[dict]`（每个行 dict 含 17 个 CSV 字段 + 前缀 `_` 元字段 `_layer/_episode_id`）
+- `materialize.py`：`materialize(context, plan) -> list[dict]`（每个行 dict 含 17 个 CSV 字段 + 元字段 `layer`/`episode_id`（**无下划线前缀**，与真实 CSV 列 `_record_source` 区分））
 - `safety.py`：`run_safety_gate(context, rows) -> (passed: list[dict], rejections: list[dict])`
 - `judge.py`：`NoiseJudge(client)` with `judge(context, rows, batch_size=10) -> (passed, rejections)`
 - `solvable.py`：`check(context, rows, client) -> (ok: bool, detail: str)`
@@ -696,7 +696,7 @@ def test_convention_sampled():
 
 def test_episode_id_preserved_in_meta():
     rows = materialize(_ctx(), PLAN)
-    epis = [r for r in rows if r.get("_episode_id") == "ep1"]
+    epis = [r for r in rows if r.get("episode_id") == "ep1"]
     assert len(epis) == 2
 
 def test_numeric_row_has_unit_and_parseable_value():
