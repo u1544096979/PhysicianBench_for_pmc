@@ -126,6 +126,9 @@ class LLMClient:
             kwargs["parallel_tool_calls"] = parallel_tool_calls
         if reasoning_effort:
             kwargs["extra_body"] = {"reasoning": {"effort": reasoning_effort}}
+        extra_body = getattr(self, "extra_body", None)
+        if extra_body:
+            kwargs["extra_body"] = {**kwargs.get("extra_body", {}), **extra_body}
 
         for attempt in range(MAX_RETRIES + 1):
             try:

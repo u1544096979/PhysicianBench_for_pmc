@@ -139,7 +139,7 @@ def eval_llm_judge(cp: dict[str, Any], report: str, client: LLMClient) -> dict[s
         check_desc=desc, extra_rule=extra, report=report[:6000],
     )}]
     try:
-        resp = client.chat_json(prompt, node="judge", soft_retry=1)
+        resp = client.chat_json(prompt, node="judge")
         verdict = str(resp.get("verdict", "fail")).lower()
         verdict = verdict if verdict in ("pass", "fail") else "fail"
         comment = str(resp.get("comment", ""))[:500]

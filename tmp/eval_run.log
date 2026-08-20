@@ -1,0 +1,10 @@
+
+============================================================
+得分卡: 4/6 pass (score=0.667)
+  ✅ cp1_data_imaging [data_retrieval] 调用了 query_imaging（类别: 影像）
+  ✅ cp2_data_medication [data_retrieval] 调用了 query_medication（类别: 用药）
+  ⚠️  cp3_reasoning_lesion [clinical_reasoning] judge调用失败: LLMClient.chat_json() got an unexpected keyword argument 's
+  ✅ cp4_outcome_conclusion [outcome_check] 字段疗效结论匹配期望值（全文匹配）
+  ✅ cp5_outcome_treatment [outcome_check] 字段评估时点前主要治疗匹配期望值（全文匹配）
+  ⚠️  cp6_doc_structure [documentation] judge调用失败: LLMClient.chat_json() got an unexpected keyword argument 's
+工作目录: tasks/oncology-v2/00151e6a402f469c5b9fe1e250de7d18/runs/

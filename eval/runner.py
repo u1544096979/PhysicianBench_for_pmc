@@ -31,8 +31,10 @@ def _agent_client_from_env() -> AgentLLMClient:
     if base and key:
         http_client = httpx.Client(verify=False, timeout=600)
         inner = OpenAI(base_url=base, api_key=key, http_client=http_client, max_retries=3)
-        client = AgentLLMClient(model_id=f"custom/{model}", api_key=key, base_url=base)
-        client._client = inner
+        client = AgentLLMClient(model_id=model, api_key=key, base_url=base)
+        client.client = inner
+        # qwen3.8 must disable thinking (same lesson as generation side)
+        client.extra_body = {"chat_template_kwargs": {"enable_thinking": False}}
         return client
     return AgentLLMClient(model_id=model)
 

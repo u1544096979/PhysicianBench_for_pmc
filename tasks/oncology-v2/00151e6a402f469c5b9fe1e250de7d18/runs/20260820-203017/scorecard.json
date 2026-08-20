@@ -1,0 +1,66 @@
+{
+  "case_id": "00151e6a402f469c5b9fe1e250de7d18",
+  "task_type": "T2_response",
+  "agent_model": "qwen3.8",
+  "judge_model": "qwen3.8",
+  "final_message": "已完成疗效评估并保存报告。以下是评估摘要：\n\n## 评估结论：**PR（部分缓解）**\n\n### 关键判定逻辑：\n1. **基线**（2023-03-01 [14]）：右上叶肿块 5.0×4.9 cm，右肺门及纵隔淋巴结增大\n2. **治疗**（2023-03-14起 [16-19]）：新辅助阿来替尼 300mg bid\n3. **当前**（2023-08-14 [22]）：右上叶肿块缩小至 3.1×2.0 cm，淋巴结继续缩小\n\n### RECIST 1.1计算：\n- 目标病灶最大径：5.0 cm → 3.1 cm\n- 缩小幅度：(5.0-3.1)/5.0 = **38%** ≥ 30% → **满足PR标准**\n- 非目标病灶（淋巴结）：缩小（改善）\n- 无新发病灶，无远处转移\n\n### 辅助证据：\n- 肿瘤标志物（CEA、CYFRA21-1）显著下降 [23]\n- 临床评估已确认影像学缓解 [21]，且达到手术切除条件 [24]",
+  "report_excerpt": "# RECIST 1.1 疗效评估报告\n\n## 患者概况\n- **诊断**：肺腺癌（右上叶），临床分期 IIIB-N3 (cT2bN3M0) [8][9]\n- **分子标志物**：MIR217HG-ALK重排（NGS），ALK免疫组化阳性 [10][12]\n- **病理**：浸润性腺癌，TTF-1(+)，Napsin A(+)，ALK(+) [11][12]\n\n## 评估时点前主要治疗\n2023-",
+  "tool_calls": 11,
+  "checkpoint_summary": {
+    "total": 6,
+    "pass": 4,
+    "fail": 0,
+    "error": 2,
+    "score": 0.667
+  },
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_imaging",
+      "layer": "data_retrieval",
+      "description": "查询影像类事件以获取基线及随访的病灶尺寸数据",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "调用了 query_imaging（类别: 影像）"
+    },
+    {
+      "checkpoint_id": "cp2_data_medication",
+      "layer": "data_retrieval",
+      "description": "查询用药类事件以确认既往治疗史（ALK抑制剂）",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "调用了 query_medication（类别: 用药）"
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_lesion",
+      "layer": "clinical_reasoning",
+      "description": "识别可评估病灶并对比基线与随访尺寸，计算缩小比例",
+      "verdict": "error",
+      "judge": "llm",
+      "comment": "judge调用失败: LLMClient.chat_json() got an unexpected keyword argument 'soft_retry'"
+    },
+    {
+      "checkpoint_id": "cp4_outcome_conclusion",
+      "layer": "outcome_check",
+      "description": "最终疗效结论判定为PR",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "字段疗效结论匹配期望值（全文匹配）"
+    },
+    {
+      "checkpoint_id": "cp5_outcome_treatment",
+      "layer": "outcome_check",
+      "description": "主要治疗描述准确",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "字段评估时点前主要治疗匹配期望值（全文匹配）"
+    },
+    {
+      "checkpoint_id": "cp6_doc_structure",
+      "layer": "documentation",
+      "description": "输出文档包含所有要求的结构化字段",
+      "verdict": "error",
+      "judge": "llm",
+      "comment": "judge调用失败: LLMClient.chat_json() got an unexpected keyword argument 'soft_retry'"
+    }
+  ]
+}
