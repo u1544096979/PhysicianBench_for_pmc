@@ -95,7 +95,8 @@ def label_recommend(state: GenerationState) -> dict:
         return {"label": LabelResult(**data), "label_skipped": True}
 
     client = _client(state)
-    groups_summary = serialize_groups(state["groups"], full=False)
+    # 标注需要字段级信息才能识别分期/标志物信号（修复：原先只给类别行导致全推T4）
+    groups_summary = serialize_groups(state["groups"], full=True)
     resp = client.chat_json(
         P.build_label_prompt(groups_summary),
         node="label",

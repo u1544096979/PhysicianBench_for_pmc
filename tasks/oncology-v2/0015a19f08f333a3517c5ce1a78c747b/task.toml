@@ -1,6 +1,0 @@
-case_id = "0015a19f08f333a3517c5ce1a78c747b"
-task_type = "T4_diagnosis"
-task_label = "诊断推理"
-target_date = "2016-01-01"
-deliverable = "output/diagnosis_report.md"
-data_file = "cleaned_trajectory.csv"

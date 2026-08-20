@@ -36,16 +36,34 @@ class EventGroup:
         return f"[{self.group_id[:8]}] {self.date or '日期缺失'} {self.category}"
 
     def full_text(self) -> str:
+        """字段级全文：subject/feature_name/value/actual_value/extra_value/unit/method."""
         lines = [self.summary_line()]
         for ev in self.events:
-            feature = ev.get("feature_name", "")
-            value = ev.get("value", "")
-            extra = ev.get("extra_value", "")
-            detail = f"{feature}: {value}" if feature or value else ""
+            subject = (ev.get("subject") or "").strip()
+            feature = (ev.get("feature_name") or "").strip()
+            value = (ev.get("value") or "").strip()
+            actual = (ev.get("actual_value") or "").strip()
+            extra = (ev.get("extra_value") or "").strip()
+            unit = (ev.get("unit") or "").strip()
+            method = (ev.get("method") or "").strip()
+
+            parts: list[str] = []
+            prefix = f"[{subject}] " if subject else ""
+            if feature or value:
+                parts.append(f"{prefix}{feature}: {value}" if value else f"{prefix}{feature}")
+            if actual and actual != value:
+                parts.append(f"(实际值: {actual})")
             if extra:
-                detail = f"{detail} ({extra})" if detail else str(extra)
-            if detail:
-                lines.append(f"  - {detail}")
+                parts.append(f"({extra})")
+            tail = []
+            if method:
+                tail.append(f"方法:{method}")
+            if unit:
+                tail.append(f"单位:{unit}")
+            if tail:
+                parts.append("[" + "; ".join(tail) + "]")
+            if parts:
+                lines.append("  - " + " ".join(parts))
         return "\n".join(lines)
 
 

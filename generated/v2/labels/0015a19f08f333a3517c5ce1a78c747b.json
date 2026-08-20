@@ -1,9 +1,0 @@
-{
-  "case_id": "0015a19f08f333a3517c5ce1a78c747b",
-  "applicable_types": [
-    "T4_diagnosis"
-  ],
-  "recommended_type": "T4_diagnosis",
-  "reason": "轨迹中包含完整的入院、病史、检验、影像及病理事件组，且存在明确的首次诊断事件，证据链完整且答案唯一；缺乏明确的分期编码、多次疗效对比或分子标志物结果记录，故仅适合诊断推理任务。",
-  "review": ""
-}
