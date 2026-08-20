@@ -1,0 +1,243 @@
+// OncoBench 轨迹浏览器 前端逻辑（零构建，原生 JS）
+// spec: 2026-08-21-trajectory-viewer-design.md §4.2 前端
+'use strict';
+
+const state = { caseId: null, runId: null, task: null, run: null, activeTab: 'checkpoints' };
+const $ = (id) => document.getElementById(id);
+
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
+  return r.json();
+}
+
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
+
+function badgeClass(pass, total) {
+  if (total == null || total === 0) return 'badge-empty';
+  if (pass === total) return 'badge-good';
+  if (pass === 0) return 'badge-bad';
+  return 'badge-warn';
+}
+
+// -------------------- 侧边栏 --------------------
+async function loadTasks() {
+  const tasks = await fetchJSON('/api/tasks');
+  const list = $('task-list');
+  list.innerHTML = '';
+  $('sidebar-empty').classList.toggle('hidden', tasks.length > 0);
+  tasks.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'task-item' + (t.case_id === state.caseId ? ' active' : '');
+    btn.innerHTML = `
+      <span class="task-id">${esc(t.case_id.slice(0, 8))}</span>
+      <span class="task-label">${esc(t.task_label || '')}</span>
+      <span class="badge ${badgeClass(t.recent_passed, t.recent_total)}">
+        ${t.recent_passed ?? '—'}/${t.recent_total ?? '—'} · ${t.run_count} run</span>`;
+    btn.onclick = () => selectCase(t.case_id);
+    list.appendChild(btn);
+  });
+}
+
+// -------------------- 概览 + run 选择 --------------------
+function overviewHTML(t) {
+  const run = (t.runs || []).find(r => r.run_id === state.runId) || null;
+  return `
+    <div class="overview">
+      <div class="ov-title">${esc(t.task_label || t.case_id)}
+        <span class="mono">${esc(t.case_id.slice(0, 8))}</span></div>
+      <div class="ov-grid">
+        <div><label>task_type</label><span>${esc(t.task_type || '—')}</span></div>
+        <div><label>target_date</label><span>${esc(t.target_date || '—')}</span></div>
+        <div><label>模型</label><span>${run ? esc(run.agent_model ?? '—') : '—'}</span></div>
+        <div><label>run 时间</label><span class="mono">${run ? esc(run.run_id) : '—'}</span></div>
+        <div><label>总得分</label><span>${run && run.pass_count != null ? esc(run.pass_count) + '/' + esc(run.total_count) : '未完成'}</span></div>
+        <div><label>工具调用</label><span>${run ? esc(run.tool_calls ?? '—') : '—'}</span></div>
+        <div><label>耗时</label><span>${run && run.duration_seconds != null ? run.duration_seconds.toFixed(1) + 's' : '—'}</span></div>
+        <div><label>状态</label><span>${run ? esc(run.status) : '—'}</span></div>
+      </div>
+      <details class="instruction"><summary>Instruction（题干全文）</summary>
+        <div class="md">${t.instruction_html || esc(t.instruction_md)}</div>
+      </details>
+    </div>`;
+}
+
+function renderRunSelector(runs) {
+  const sel = $('run-select');
+  sel.innerHTML = '';
+  sel.classList.toggle('hidden', runs.length === 0);
+  runs.forEach(r => {
+    const chip = document.createElement('button');
+    chip.className = 'run-chip' + (r.run_id === state.runId ? ' active' : '');
+    const score = r.pass_count != null ? `${r.pass_count}/${r.total_count}` : '未完成';
+    chip.textContent = `${r.run_id} · ${r.agent_model || '—'} · ${score}`;
+    chip.onclick = () => selectRun(state.caseId, r.run_id);
+    sel.appendChild(chip);
+  });
+}
+
+// -------------------- 标签页 --------------------
+const TABS = [
+  ['checkpoints', 'Checkpoint 情况'],
+  ['trajectory', '完整轨迹'],
+  ['report', '交付物'],
+  ['groundtruth', '标准答案'],
+  ['csv', '病例数据'],
+];
+
+function renderTabs() {
+  const bar = $('tab-bar');
+  bar.innerHTML = '';
+  TABS.forEach(([key, label]) => {
+    const b = document.createElement('button');
+    b.textContent = label;
+    b.className = key === state.activeTab ? 'tab active' : 'tab';
+    b.onclick = () => { state.activeTab = key; renderTabs(); renderActiveTab(); };
+    bar.appendChild(b);
+  });
+}
+
+function renderActiveTab() {
+  const run = state.run;
+  const sec = $('tab-content');
+  switch (state.activeTab) {
+    case 'checkpoints': sec.innerHTML = checkpointsHTML(run); break;
+    case 'trajectory': sec.innerHTML = trajectoryHTML(run); break;
+    case 'report': sec.innerHTML = reportHTML(run); break;
+    case 'groundtruth': sec.innerHTML = groundTruthHTML(run); break;
+    case 'csv': sec.innerHTML = csvHTML(run); break;
+  }
+}
+
+function checkpointsHTML(run) {
+  const cps = (run && run.checkpoints) || [];
+  if (!cps.length) return '<div class="empty">该 run 无 checkpoint 记录（可能未完成判分）。</div>';
+  return `<div class="table-wrap"><table><thead><tr>
+      <th>checkpoint_id</th><th>layer</th><th>description</th><th>verdict</th><th>judge</th><th>comment</th>
+    </tr></thead><tbody>${cps.map(c => `
+      <tr>
+        <td class="mono">${esc(c.checkpoint_id)}</td>
+        <td>${esc(c.layer)}</td>
+        <td>${esc(c.description)}</td>
+        <td><span class="verdict ${esc(c.verdict)}">${esc(c.verdict)}</span></td>
+        <td>${esc(c.judge)}</td>
+        <td>${esc(c.comment)}</td>
+      </tr>`).join('')}</tbody></table></div>`;
+}
+
+function eventCard(cls, title, ev) {
+  return `<div class="card ${cls}"><div class="card-head">${title}</div><pre>${esc(ev.content)}</pre></div>`;
+}
+
+function trajectoryHTML(run) {
+  if (!run || !run.events.length) return '<div class="empty">该 run 无轨迹事件。</div>';
+  let step = 0;
+  const html = run.events.map(ev => {
+    switch (ev.type) {
+      case 'instruction':
+        return eventCard('instruction', 'Instruction', ev);
+      case 'agent_initialized': {
+        const m = ev.metadata || {};
+        return eventCard('init', `Agent 初始化: ${esc(m.model || '')}`, ev);
+      }
+      case 'llm_response': {
+        step += 1;
+        const m = ev.metadata || {};
+        const tokens = m.completion_tokens != null ? `${m.prompt_tokens || 0}→${m.completion_tokens}` : '';
+        const reasoning = (m.raw_message && m.raw_message.reasoning) || null;
+        return `
+          <div class="card llm">
+            <div class="card-head">LLM 回复 <span class="chip">step ${step}</span>
+              ${tokens ? `<span class="tokens">${esc(tokens)} tokens</span>` : ''}
+              ${m.finish_reason ? `<span class="mono">${esc(m.finish_reason)}</span>` : ''}</div>
+            ${reasoning ? `<details class="reasoning"><summary>reasoning</summary><pre>${esc(reasoning)}</pre></details>` : ''}
+            <details class="llm-body" open><summary>正文（可折叠）</summary><pre>${esc(ev.content)}</pre></details>
+          </div>`;
+      }
+      case 'tool_call': {
+        const m = ev.metadata || {};
+        const input = m.input ? JSON.stringify(m.input, null, 2) : '';
+        const output = String(m.output ?? '');
+        const truncated = output.length > 800;
+        return `
+          <div class="card tool">
+            <div class="card-head">🔧 ${esc(m.tool_name || 'tool')}</div>
+            ${input ? `<pre class="input">入参: ${esc(input)}</pre>` : ''}
+            <details class="output">
+              <summary>返回内容${truncated ? `（截断，全长 ${output.length} 字符）` : ''}</summary>
+              <pre>${esc(truncated ? output.slice(0, 800) : output)}${truncated ? '…' : ''}</pre>
+              ${truncated ? `<details class="full"><summary>展开完整</summary><pre>${esc(output)}</pre></details>` : ''}
+            </details>
+          </div>`;
+      }
+      case 'final_result':
+        return `<div class="card final"><div class="card-head">Final Result</div><pre>${esc(ev.content)}</pre></div>`;
+      default:
+        return `<div class="card other"><div class="card-head">${esc(ev.type)}</div><pre>${esc(JSON.stringify(ev, null, 2))}</pre></div>`;
+    }
+  }).join('');
+  const warn = run.failed_lines > 0 ? `<div class="warn">⚠️ ${run.failed_lines} 行轨迹解析失败（已跳过）</div>` : '';
+  return warn + html;
+}
+
+function reportHTML(run) {
+  if (!run || !run.report_html) return '<div class="empty">该 run 无可交付报告（output/*.md 缺失）。</div>';
+  return `<div class="md report">${run.report_html}</div>`;
+}
+
+function groundTruthHTML(run) {
+  if (!run || run.ground_truth == null) return '<div class="empty">该病例缺少 ground_truth.json。</div>';
+  return `<pre class="json">${esc(JSON.stringify(run.ground_truth, null, 2))}</pre>`;
+}
+
+function csvHTML(run) {
+  if (!run || !run.cleaned_csv_html) return '<div class="empty">该病例缺少 cleaned_trajectory.csv。</div>';
+  return run.cleaned_csv_html;
+}
+
+// -------------------- 流程 --------------------
+async function selectRun(caseId, runId) {
+  state.runId = runId;
+  state.run = await fetchJSON(`/api/tasks/${caseId}/runs/${runId}`);
+  $('overview').innerHTML = overviewHTML(state.task);
+  renderRunSelector((state.task && state.task.runs) || []);
+  renderTabs();
+  renderActiveTab();
+}
+
+async function selectCase(caseId) {
+  state.caseId = caseId;
+  state.runId = null;
+  state.run = null;
+  await loadTasks(); // 更新侧边栏 active 高亮
+  const task = await fetchJSON(`/api/tasks/${caseId}`);
+  state.task = task;
+  if (!task.runs.length) {
+    $('overview').innerHTML = overviewHTML(task);
+    renderRunSelector([]);
+    $('tab-bar').innerHTML = '';
+    $('tab-content').innerHTML = '<div class="empty">该病例暂无 run。运行评测后产物会出现在 runs/ 下。</div>';
+    return;
+  }
+  await selectRun(caseId, task.runs[0].run_id);
+}
+
+async function refresh() {
+  await loadTasks();
+  if (!state.caseId) return;
+  const task = await fetchJSON(`/api/tasks/${state.caseId}`);
+  state.task = task;
+  if (state.runId) await selectRun(state.caseId, state.runId);
+  else if (task.runs.length) await selectRun(state.caseId, task.runs[0].run_id);
+  else $('overview').innerHTML = overviewHTML(task);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  $('refresh-btn').addEventListener('click', () =>
+    refresh().catch(e => { $('tab-content').innerHTML = `<div class="empty">刷新失败：${esc(e.message)}</div>`; }));
+  loadTasks().catch(e => { $('sidebar-empty').textContent = '加载失败：' + e.message; });
+});
