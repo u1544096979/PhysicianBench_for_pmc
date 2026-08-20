@@ -1,146 +1,135 @@
-# PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments
+# PhysicianBench（PMC 版）
 
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white&color=105864)](https://healthrex.github.io/PhysicianBench/)
-[![Paper](https://img.shields.io/badge/Paper-000000?style=for-the-badge&logo=arxiv&logoColor=white&color=B31B1B)](https://arxiv.org/abs/2605.02240)
-[![Trajectory](https://img.shields.io/badge/Trajectory-000000?style=for-the-badge&logo=githubpages&logoColor=white&color=4f46e5)](https://healthrex.github.io/PhysicianBench/#trajectory)
-[![Data](https://img.shields.io/badge/Data-000000?style=for-the-badge&logo=databricks&logoColor=white&color=059669)](https://stanford.redivis.com/datasets/a0ek-0ad8tjsw9)
+基于我们自己的 PMC 肿瘤病例轨迹数据构建的临床诊断 benchmark。
 
----
+每个任务考察的核心能力是：**Agent 只能访问诊断时点之前已公开的病例数据，必须通过工具查询、整合证据，推断出目标诊断结论。**
 
-## Overview
+## 数据
 
-PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. The upstream benchmark contains 100 long-horizon FHIR tasks. This repository copy implements the oncology diagnosis-generation workflow as local, read-only CSV tasks backed exclusively by `data/oncology_complete_trajectory/cleaned/`; it does not include the Docker/FHIR compatibility layer required by upstream `tasks/v1`.
+- **全量数据**：`data/oncology_complete_trajectory/raw/csv/` 下 **1491 例**完整肿瘤病例轨迹（共 64,965 行事件级记录），由 PMC 论文病例报告抽取而来。事件按类别组织：病史、检验、影像、病理、诊断、手术、用药、评估、病程、不良反应、会诊、入院、出院、其他。
+- **小批量验证集（pilot）**：从全量中固定的 **5 个 case**，用于先跑通端到端流程，再扩展全量：
 
-## Main Results
+  | case_id | 状态 |
+  | --- | --- |
+  | `71af50c891bd0e80cd017c8beb2bb446` | 已生成任务 |
+  | `15c35bb60e48e62f9beb9fd127248e03` | 待生成 |
+  | `7df4bd9af484dcec897b2f2726e01db2` | 已生成任务 |
+  | `01864b911256ca7332f7974165d7aeb8` | 待生成 |
+  | `aca554ac1716cf2fb7e2b94d80590e52` | 已生成任务 |
 
-![Model performance ranked by pass@1 success rate](assets/model_comparison.png)
+  > 这 5 个 case 是 1491 例全量数据的**子集**，不是额外数据。批量生成脚本默认就只处理这 5 个。
 
-*Overall model performance on PhysicianBench, ranked by pass@1 success rate.*
+## 核心流程（两阶段模型环境）
 
-## Trajectory Example
-
-![Agent stepping through a PhysicianBench task](assets/trajectory.gif)
-
-*An agent working through a PhysicianBench task (2× speed). Explore the full interactive viewer on the [website](https://healthrex.github.io/PhysicianBench/#trajectory).*
-
-## Setup
-
-### 1. Install Python dependencies
-
-PhysicianBench uses [`uv`](https://docs.astral.sh/uv/) for environment management. If you don't have it yet:
-
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+┌─ 阶段一：任务生成（GENERATION 环境） ─────────────────────────┐
+│  生成模型查看完整病例 → 选择一个诊断性事件组作为答案             │
+│  → 程序移除该事件组及其之后的事件 → 物化 cleaned CSV            │
+│  → 校验（无泄漏 / 可溯源 / 工具约束）→ 导出任务目录             │
+└──────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─ 阶段二：Agent 评测（AGENT_EVAL 环境） ───────────────────────┐
+│  被测 Agent 只能查询 cleaned CSV（目标诊断被移除）              │
+│  → 通过 15 个分类查询工具 + write_file 完成诊断                │
+│  → 交付 output/diagnosis_report.md                            │
+│  → pytest 测试 + 诊断规则评估（exact/semantic）+ LLM judge    │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-Then install project dependencies:
+两个阶段的模型配置完全独立（不同的模型、服务商、参数），通过环境变量区分：
 
 ```bash
+GENERATION_MODEL / GENERATION_API_KEY / GENERATION_BASE_URL
+AGENT_EVAL_MODEL / AGENT_EVAL_API_KEY / AGENT_EVAL_BASE_URL
+```
+
+## 目录结构
+
+```
+├── agent/                      # MiniAgent：LLM 工具调用循环 + trajectory 日志
+├── pipeline/oncology_generation/  # LangGraph 生成流水线（节点 / 图 / 校验 / 泄漏检测）
+├── tools/                      # CSV 分类查询工具、文件工具、FHIR 兼容层
+├── tasks/oncology-v1/<case_id>/    # 生成的任务（instruction + 测试 + ground_truth）
+├── data/oncology_complete_trajectory/
+│   ├── raw/csv/                # 1491 例原始病例（只读，绝不修改）
+│   ├── cleaned/                # Agent 可查询的清洗数据（任务运行输入）
+│   ├── generated/              # 生成中间态与 review_queue.jsonl
+│   ├── index/manifest.json     # 数据清单（文件数 / 行数 / sha256）
+│   └── index/build_index.py    # 只读索引构建
+├── scripts/
+│   ├── generate_oncology_task.py        # 单例任务生成
+│   ├── generate_all_oncology_tasks.py   # 批量生成（默认 5 个 pilot case，失败隔离）
+│   ├── run_task.py                      # 单任务：Agent 运行 + pytest 评测
+│   ├── run_batch_task.sh                # 批量运行（支持 --resume / --n_runs / --model）
+│   ├── run_eval.py                      # 对 job 目录重跑诊断规则评估
+│   ├── score_jobs.py                    # 汇总 pass@k / pass^k / 平均轮次
+│   └── job_manager.py                   # job 目录管理（创建 / resume）
+├── utils/                      # 诊断评估（exact / semantic / judge）与评测辅助
+└── tests/                      # 126 个单元测试（生成 / 运行 / 工具 / 数据 / 评估）
+```
+
+## 快速开始
+
+```bash
+# 1. 安装依赖（Python >= 3.10，使用 uv）
 uv sync
-```
 
-### 2. Prepare oncology CSV data
+# 2. 配置双模型环境
+cp .env.example .env   # 填写 GENERATION_* 和 AGENT_EVAL_*
 
-Local task execution requires a generated task and its matching cleaned case:
+# 3. 构建只读数据索引（可选，生成 manifest）
+uv run python data/oncology_complete_trajectory/index/build_index.py
 
-```text
-tasks/oncology-v1/<case_id>/task.toml
-data/oncology_complete_trajectory/cleaned/<case_id>.csv
-```
+# 4. 生成任务（默认处理 5 个 pilot case，已完成的自动跳过）
+uv run python scripts/generate_all_oncology_tasks.py
+# 指定 case：
+uv run python scripts/generate_all_oncology_tasks.py --case-id <case_id> [<case_id> ...]
 
-The runner never reads `raw/csv` and rejects cleaned files that resolve outside the cleaned directory. See [the oncology data guide](data/oncology_complete_trajectory/README.md) for raw data setup and task generation.
-
-### 3. Configure the two model environments
-
-Copy `.env.example` to `.env` and set separate generation and evaluation credentials:
-
-```bash
-GENERATION_MODEL=your-generation-model
-GENERATION_API_KEY=your-generation-api-key
-GENERATION_BASE_URL=https://your-generation-provider.example/v1
-
-AGENT_EVAL_MODEL=your-agent-eval-model
-AGENT_EVAL_API_KEY=your-agent-eval-api-key
-AGENT_EVAL_BASE_URL=https://your-agent-eval-provider.example/v1
-```
-
-`--model` overrides `AGENT_EVAL_MODEL` for a local run. `API_KEY` and `BASE_URL`
-must be configured together for each stage. When both stage-specific credential
-fields are unset, the existing OpenRouter, Anthropic, or OpenAI backend environment
-variables remain available as fallback.
-
-## Quick Start
-
-### Run a single task
-
-```bash
+# 5. 运行单个任务（Agent 评测 + pytest）
 uv run python scripts/run_task.py tasks/oncology-v1/<case_id> \
-    --data-root data/oncology_complete_trajectory \
-    --reasoning-effort high
+  --model <agent-model> --data-root data/oncology_complete_trajectory
+
+# 6. 批量运行（交互式确认，产物写入 jobs/<batch>/<case_id>/）
+bash scripts/run_batch_task.sh --model <agent-model> --reasoning-effort high
+# 断点续跑：
+bash scripts/run_batch_task.sh --resume jobs/<batch-dir>
+
+# 7. 汇总分数
+uv run python scripts/score_jobs.py jobs/<batch-dir>
+uv run python scripts/score_jobs.py jobs/<batch-dir> --format json
 ```
 
-This will:
-1. Validate `task.toml` contains an oncology `case_id` and cleaned-data contract.
-2. Open only `cleaned/<case_id>.csv` through the read-only CSV tools.
-3. Run the agent and pytest verifier.
-4. Write trajectory, workspace, verifier logs, and metadata to `jobs/<batch>/<task>/`.
+## 任务格式
 
-Evaluation succeeds only when pytest passes and both the deterministic diagnosis
-rule and model judge return `correct`. Partial/incorrect results and evaluator
-errors are preserved in `logs/verifier/diagnosis_eval.json` and produce a non-zero
-runner exit code.
+每个任务目录 `tasks/oncology-v1/<case_id>/` 包含：
 
-The legacy `tasks/v1` commands, `--fhir-image`, and `--port` are intentionally unsupported in this copy. Use an upstream FHIR-enabled checkout for those tasks.
+| 文件 | 说明 |
+| --- | --- |
+| `instruction.md` | 中文诊断指令：当前诊断时点、任务要求、交付物约定 |
+| `task.toml` | 元数据：case_id、cleaned 数据相对路径、标签 |
+| `ground_truth.json` | 目标事件组的完整答案（事件明细 + 源行号溯源） |
+| `tests/test_outputs.py` | pytest 测试：交付物存在性 + ground truth 完整性 |
 
-### Run all generated oncology tasks
+任务目录**不保存病例 CSV**；Agent 运行时通过 `task.toml` 的 `data_root` 相对路径引用 `cleaned/<case_id>.csv`。
+
+## Agent 与工具
+
+被测 Agent（`agent/mini_agent.py`）是一个带防护的 LLM 工具调用循环：最大步数限制、重复错误/重复调用检测、工具输出截断、完整 trajectory 日志。可用工具：
+
+- **15 个分类查询工具**：`search_oncology_<category>`（病史 / 检验 / 影像 / 病理 / 诊断 / 手术 / 用药 / 评估 / 病程 / 不良反应 / 会诊 / 入院 / 出院 / 其他 / 全量），支持 subject / feature / 日期 / group_id 过滤。
+- **`write_file`**：写入 workspace 内的交付文件（如 `output/diagnosis_report.md`）。
+
+每次调用的结果都带 `_source_row` 溯源信息，可回溯到原始 CSV 行。
+
+## 安全设计
+
+- **防泄漏**：生成阶段校验目标诊断片段不得出现在 instruction 中（CJK/ASCII 归一化后比对）；cleaned CSV 移除目标事件组及其之后的事件，Agent 无法直接查到答案。
+- **防路径穿越**：case_id 校验 + cleaned 路径必须落在数据根内 + 拒绝符号链接。
+- **raw 只读**：所有流水线对 `raw/csv` 只读不写；生成失败写入 `generated/review_queue.jsonl`，单个 case 失败不影响其他 case。
+
+## 测试
 
 ```bash
-bash scripts/run_batch_task.sh \
-    --data-root data/oncology_complete_trajectory \
-    --reasoning-effort high
+uv run pytest            # 126 个测试：生成流水线 / 运行契约 / 工具 / 数据索引 / 清洗 / 诊断评估
 ```
-
-Available parameters:
-
-| Flag | Default | Description |
-| --- | --- | --- |
-| `--model`, `-m` | `openai/gpt-5.5` | Model ID. Format depends on backend (see [Configure model API keys](#3-configure-model-api-keys)). |
-| `--reasoning-effort` | `high` | One of `low`, `medium`, `high`. Forwarded to reasoning-capable models. |
-| `--temperature` | api-default | Sampling temperature (omit to use the API default). |
-| `--n_runs` | `1` | Number of independent runs per task — enables `pass@3` / `pass^3` scoring. |
-| `--max-tasks` | `0` (all) | Cap the number of tasks to run, useful for smoke tests. |
-| `--max-steps` | `100` | Max LLM ↔ tool steps per task before the agent is force-stopped. |
-| `--resume` | — | Path to an existing batch job dir; skips already-completed tasks and continues. |
-| `--task-dir` | `tasks/oncology-v1` | Root directory of generated oncology task folders. |
-| `--data-root` | `data/oncology_complete_trajectory` | Dataset root containing `cleaned/<case_id>.csv`. |
-| *(positional args)* | — | Specific oncology `case_id` task directories. If omitted, all tasks under `--task-dir` are run. |
-
-Examples:
-
-```bash
-# Specific cases only
-bash scripts/run_batch_task.sh <case_id> [<case_id> ...]
-
-# Multiple runs per task (for pass@k)
-bash scripts/run_batch_task.sh --model anthropic/claude-opus-4.7 --n_runs 3
-
-# Resume an interrupted batch
-bash scripts/run_batch_task.sh --resume jobs/2026-04-29__03-57-03__openai_gpt-5.5__high__t0
-```
-
-## Citation
-
-```bibtex
-@article{physicianbench2026,
-  title         = {PhysicianBench: Evaluating LLM Agents on Physician Tasks in Real-World EHR Environments},
-  author        = {Ruoqi Liu and Imran Q. Mohiuddin and Austin J. Schoeffler and Kavita Renduchintala and Ashwin Nayak and Prasantha L. Vemu and Shivam C. Vedak and Kameron C. Black and John L. Havlik and Isaac Ogunmola and Stephen P. Ma and Roopa Dhatt and Jonathan H. Chen},
-  year          = {2026},
-  eprint        = {2605.02240},
-  archivePrefix = {arXiv},
-  url           = {https://arxiv.org/abs/2605.02240}
-}
-```
-
-## License
-
-See [LICENSE](LICENSE).
