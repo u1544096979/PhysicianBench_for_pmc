@@ -1,0 +1,64 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_imaging",
+      "layer": "data_retrieval",
+      "description": "查询影像类事件以获取基线及随访的病灶尺寸数据",
+      "eval_method": "category_query",
+      "params": {
+        "category": "影像",
+        "description": "查询影像事件以获取肿瘤大小变化证据"
+      }
+    },
+    {
+      "checkpoint_id": "cp2_data_medication",
+      "layer": "data_retrieval",
+      "description": "查询用药类事件以确认既往治疗史（ALK抑制剂）",
+      "eval_method": "category_query",
+      "params": {
+        "category": "用药",
+        "description": "查询用药事件以确认主要治疗手段"
+      }
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_lesion",
+      "layer": "clinical_reasoning",
+      "description": "识别可评估病灶并对比基线与随访尺寸，计算缩小比例",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "是否识别出右上叶肿块为可评估病灶，并正确对比基线（5.0×4.9 cm）与随访（3.1×2.0 cm）尺寸，得出长径缩小约38%的结论？",
+        "expected": "识别右上叶肿块，基线5.0×4.9 cm，随访3.1×2.0 cm，长径缩小约38%"
+      }
+    },
+    {
+      "checkpoint_id": "cp4_outcome_conclusion",
+      "layer": "outcome_check",
+      "description": "最终疗效结论判定为PR",
+      "eval_method": "field_match",
+      "params": {
+        "field": "疗效结论",
+        "expected": "PR"
+      }
+    },
+    {
+      "checkpoint_id": "cp5_outcome_treatment",
+      "layer": "outcome_check",
+      "description": "主要治疗描述准确",
+      "eval_method": "field_match",
+      "params": {
+        "field": "评估时点前主要治疗",
+        "expected": "ALK抑制剂靶向治疗"
+      }
+    },
+    {
+      "checkpoint_id": "cp6_doc_structure",
+      "layer": "documentation",
+      "description": "输出文档包含所有要求的结构化字段",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "输出文件 output/diagnosis_report.md 是否包含以下四个字段：评估时点前主要治疗、可评估病灶情况、疗效结论、判定依据？",
+        "expected": "包含评估时点前主要治疗、可评估病灶情况、疗效结论、判定依据"
+      }
+    }
+  ]
+}

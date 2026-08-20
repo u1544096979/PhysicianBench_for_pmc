@@ -1,0 +1,6 @@
+case_id = "00813296fa8d52f407df63d1539f6018"
+task_type = "T2_response"
+task_label = "疗效评估"
+target_date = "2021-10-28"
+deliverable = "output/diagnosis_report.md"
+data_file = "cleaned_trajectory.csv"

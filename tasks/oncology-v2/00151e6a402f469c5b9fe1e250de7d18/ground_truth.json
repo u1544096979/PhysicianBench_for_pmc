@@ -1,0 +1,11 @@
+{
+  "task_type": "T2_response",
+  "target_group_id": "c1d2e3f4-5a6b-4c7d-8e9f-0a1b2c3d4e55",
+  "target_date": "2023-08-14",
+  "ground_truth": {
+    "response": "PR",
+    "prior_treatment": "ALK抑制剂靶向治疗",
+    "evidence_summary": "基线右上叶肿块5.0×4.9 cm，治疗后5个月缩小至3.1×2.0 cm，长径缩小约38%，且淋巴结缩小，符合RECIST 1.1部分缓解（PR）标准。"
+  },
+  "rationale": "选择2023-08-14的影像评估组作为目标，因为该组包含明确的疗效评估结论（事件24），且此前有基线（2023-03-01）和3个月（2023-06-14）的影像数据作为对比证据链，符合T2_response任务要求。"
+}

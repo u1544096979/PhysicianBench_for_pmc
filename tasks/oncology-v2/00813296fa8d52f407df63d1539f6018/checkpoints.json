@@ -1,0 +1,64 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_imaging",
+      "layer": "data_retrieval",
+      "description": "查询影像类事件以获取基线与随访的CT/MRI对比证据",
+      "eval_method": "category_query",
+      "params": {
+        "category": "影像",
+        "description": "查询影像事件"
+      }
+    },
+    {
+      "checkpoint_id": "cp2_data_labs",
+      "layer": "data_retrieval",
+      "description": "查询检验类事件以获取肿瘤标志物（CEA, CYFRA21-1, CA125）的变化数据",
+      "eval_method": "category_query",
+      "params": {
+        "category": "检验",
+        "description": "查询检验事件"
+      }
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_lesions",
+      "layer": "clinical_reasoning",
+      "description": "检查是否识别出可评估病灶（双肺弥漫性病灶、脑转移灶）并描述了其缩小情况",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "回答中是否明确指出了可评估病灶（如双肺病灶、脑转移灶）并描述了它们较前缩小或退缩的情况？",
+        "expected": "是，提到了双肺弥漫性病灶明显退缩以及脑转移灶较前缩小"
+      }
+    },
+    {
+      "checkpoint_id": "cp4_outcome_conclusion",
+      "layer": "outcome_check",
+      "description": "检查最终疗效结论是否为PR",
+      "eval_method": "field_match",
+      "params": {
+        "field": "疗效结论",
+        "expected": "PR"
+      }
+    },
+    {
+      "checkpoint_id": "cp5_outcome_treatment",
+      "layer": "outcome_check",
+      "description": "检查评估时点前主要治疗描述是否准确",
+      "eval_method": "field_match",
+      "params": {
+        "field": "评估时点前主要治疗",
+        "expected": "顺铂+白蛋白紫杉醇化疗，后换用福美替尼靶向治疗"
+      }
+    },
+    {
+      "checkpoint_id": "cp6_doc_structure",
+      "layer": "documentation",
+      "description": "检查输出文档是否包含所有要求的结构化字段",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "输出文件是否包含以下四个结构化字段：评估时点前主要治疗、可评估病灶情况、疗效结论、判定依据？",
+        "expected": "包含所有四个字段"
+      }
+    }
+  ]
+}
