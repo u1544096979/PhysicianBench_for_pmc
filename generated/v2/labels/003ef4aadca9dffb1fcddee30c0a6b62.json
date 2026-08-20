@@ -1,0 +1,10 @@
+{
+  "case_id": "003ef4aadca9dffb1fcddee30c0a6b62",
+  "applicable_types": [
+    "T3_biomarker",
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T4_diagnosis",
+  "reason": "轨迹中存在明确的恶性肿瘤诊断结论（原发性浸润性Paget病），且该诊断前有完整的证据链（病史、多次影像检查、手术所见及病理报告），符合T4诊断推理的适用条件；虽然存在分子标志物记录（T3），但诊断推理的证据链更为完整且涵盖了从症状到确诊的全过程。",
+  "review": ""
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "0015a19f08f333a3517c5ce1a78c747b",
+  "applicable_types": [
+    "T1_staging",
+    "T2_response",
+    "T3_biomarker",
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T1_staging",
+  "reason": "轨迹中明确记录了pT3 pN1c的病理分期及临床转移性诊断，且具备完整的影像（MRI示肝转移）、检验（CA19-9升高）及病理（腺癌确诊）证据链，分期判定逻辑清晰且证据最为确凿。",
+  "review": ""
+}

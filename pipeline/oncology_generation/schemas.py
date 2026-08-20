@@ -1,112 +1,259 @@
+"""v2 流水线数据结构（破坏性重写，替代旧版 schemas）."""
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, TypedDict
+from typing import Any, Literal, TypedDict
 
-from tools.csv_event_types import EVENT_COLUMNS
+TaskTypeName = Literal["T1_staging", "T2_response", "T3_biomarker", "T4_diagnosis"]
+TASK_TYPE_VALUES: tuple[str, ...] = ("T1_staging", "T2_response", "T3_biomarker", "T4_diagnosis")
 
-from .leakage import find_leaked_target_values
+# checkpoint 四层
+CheckpointLayer = Literal["data_retrieval", "clinical_reasoning", "outcome_check", "documentation"]
+CHECKPOINT_LAYERS: tuple[str, ...] = (
+    "data_retrieval",
+    "clinical_reasoning",
+    "outcome_check",
+    "documentation",
+)
 
-TRACE_FIELDS = (*EVENT_COLUMNS, "_source_row")
-
-class GenerationState(TypedDict, total=False):
-    case_id: str
-    data_root: Path
-    raw_events: list[dict[str, str]]
-    event_groups: list[EventGroup]
-    target_group_id: str
-    target_events: list[dict[str, str]]
-    task_draft: dict[str, Any]
-    cleaned_path: Path
-    final_cleaned_path: Path
-    validation_errors: list[str]
-    review_status: str
+Severity = Literal["fatal", "major", "minor"]
+EvaluationVerdict = Literal["valid", "inconsistent", "instant_answer", "insufficient_evidence"]
 
 
-@dataclass(frozen=True)
+# ---------------------------------------------------------------------------
+# 事件与事件组
+# ---------------------------------------------------------------------------
+
+@dataclass
 class EventGroup:
     group_id: str
-    event_date: str
-    first_source_row: int
+    date: str
     category: str
-    events: list[dict[str, str]]
+    events: list[dict[str, str]] = field(default_factory=list)
+
+    def summary_line(self) -> str:
+        return f"[{self.group_id[:8]}] {self.date or '日期缺失'} {self.category}"
+
+    def full_text(self) -> str:
+        """字段级全文：subject/feature_name/value/actual_value/extra_value/unit/method."""
+        lines = [self.summary_line()]
+        for ev in self.events:
+            subject = (ev.get("subject") or "").strip()
+            feature = (ev.get("feature_name") or "").strip()
+            value = (ev.get("value") or "").strip()
+            actual = (ev.get("actual_value") or "").strip()
+            extra = (ev.get("extra_value") or "").strip()
+            unit = (ev.get("unit") or "").strip()
+            method = (ev.get("method") or "").strip()
+
+            parts: list[str] = []
+            prefix = f"[{subject}] " if subject else ""
+            if feature or value:
+                parts.append(f"{prefix}{feature}: {value}" if value else f"{prefix}{feature}")
+            if actual and actual != value:
+                parts.append(f"(实际值: {actual})")
+            if extra:
+                parts.append(f"({extra})")
+            tail = []
+            if method:
+                tail.append(f"方法:{method}")
+            if unit:
+                tail.append(f"单位:{unit}")
+            if tail:
+                parts.append("[" + "; ".join(tail) + "]")
+            if parts:
+                row_tag = f"[{ev.get('_source_row', '')}] " if ev.get("_source_row") != "" else ""
+                lines.append(f"  - {row_tag}" + " ".join(parts))
+        return "\n".join(lines)
 
 
-@dataclass(frozen=True)
+def build_event_groups(events: list[dict[str, str]]) -> list[EventGroup]:
+    """按 group_id 分组，保留首次出现顺序；组属性取组内首个非空值."""
+    groups: list[EventGroup] = []
+    index: dict[str, EventGroup] = {}
+    for ev in events:
+        gid = ev.get("group_id", "") or f"_nogroup_{len(groups)}"
+        group = index.get(gid)
+        if group is None:
+            group = EventGroup(
+                group_id=gid,
+                date=ev.get("event_date", ""),
+                category=ev.get("category", ""),
+            )
+            index[gid] = group
+            groups.append(group)
+        group.events.append(ev)
+        if not group.date and ev.get("event_date"):
+            group.date = ev["event_date"]
+        if not group.category and ev.get("category"):
+            group.category = ev["category"]
+    return groups
+
+
+def serialize_groups(groups: list[EventGroup], *, full: bool) -> str:
+    blocks = [g.full_text() if full else g.summary_line() for g in groups]
+    return "\n".join(blocks)
+
+
+# ---------------------------------------------------------------------------
+# ① 标注推荐
+# ---------------------------------------------------------------------------
+
+@dataclass
+class LabelResult:
+    case_id: str
+    applicable_types: list[str]
+    recommended_type: str
+    reason: str
+    review: str = ""  # ③的review_argument，可选
+
+
+# ---------------------------------------------------------------------------
+# ② 任务生成
+# ---------------------------------------------------------------------------
+
+@dataclass
+class TaskDraft:
+    task_type: str
+    target_group_id: str
+    target_date: str
+    instruction: str
+    deliverable: str
+    ground_truth: dict[str, Any]
+    rationale: str
+    # 事件级截断：答案事件在原始CSV中的_source_row列表；
+    # 为空时退回整组删除（兼容旧输出）
+    answer_event_rows: list[int] = field(default_factory=list)
+    revision_index: int = 0
+    feedback_history: list[str] = field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# ③ 静态验证
+# ---------------------------------------------------------------------------
+
+@dataclass
+class ValidationResult:
+    passed: bool
+    leaked: bool
+    answerable: bool
+    unique: bool
+    issues: list[str] = field(default_factory=list)
+    severity: str = "major"  # fatal / major / minor
+
+
+# ---------------------------------------------------------------------------
+# ④ 做题
+# ---------------------------------------------------------------------------
+
+@dataclass
+class SolutionResult:
+    answer: str
+    reasoning_summary: str
+    confidence: str = "medium"
+    cited_groups: list[str] = field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# ⑤ 答案评估
+# ---------------------------------------------------------------------------
+
+@dataclass
+class EvaluationResult:
+    verdict: str  # valid / inconsistent / instant_answer / insufficient_evidence
+    consistent: bool
+    has_reasoning: bool
+    explanation: str = ""
+
+
+# ---------------------------------------------------------------------------
+# ⑥ checkpoint
+# ---------------------------------------------------------------------------
+
+@dataclass
+class Checkpoint:
+    checkpoint_id: str
+    layer: str
+    description: str
+    eval_method: str  # category_query / field_match / llm_judge
+    params: dict[str, Any] = field(default_factory=dict)
+
+
+# ---------------------------------------------------------------------------
+# 失败记录 / 清洗结果
+# ---------------------------------------------------------------------------
+
+@dataclass
+class FailureRecord:
+    stage: str
+    reason_class: str
+    detail: str
+
+
+@dataclass
 class CleaningResult:
     cleaned_csv: Path
     target_group_id: str
     target_events: list[dict[str, str]]
 
 
-def validate_state(state: GenerationState, allowed_tools: set[str] | None = None) -> list[str]:
-    errors: list[str] = []
-    groups = state.get("event_groups", [])
-    target_id = state.get("target_group_id", "")
-    target_group = next((group for group in groups if group.group_id == target_id), None)
-    if target_group is None:
-        errors.append(f"target group does not exist: {target_id}")
-    target_events = state.get("target_events", [])
-    raw_keys = {_event_key(event) for event in state.get("raw_events", [])}
-    untraceable = [_event_key(event) for event in target_events if _event_key(event) not in raw_keys]
-    if untraceable:
-        errors.append(f"target events cannot be traced to raw events: {untraceable}")
-    if target_group is not None:
-        group_keys = {_event_key(event) for event in target_group.events}
-        target_keys = {_event_key(event) for event in target_events}
-        missing = [_event_key(event) for event in target_events if _event_key(event) not in group_keys]
-        if missing:
-            errors.append(f"target events cannot be traced to target group: {missing}")
-        omitted = sorted(group_keys - target_keys)
-        if omitted:
-            errors.append(f"target group rows are missing from target events: {omitted}")
-        if not any(_is_diagnostic_event(event) for event in target_group.events):
-            errors.append("target group has no diagnostic feature_name/value")
+# ---------------------------------------------------------------------------
+# LangGraph State
+# ---------------------------------------------------------------------------
 
-    cleaned_path = state.get("cleaned_path")
-    if cleaned_path is None:
-        errors.append("cleaned path is missing")
-    else:
-        path = Path(cleaned_path)
-        data_root = state.get("data_root")
-        if data_root is None:
-            errors.append("data root is missing")
-            cleaned_root = None
-        else:
-            cleaned_root = (Path(data_root) / "cleaned").resolve()
-            try:
-                path.resolve().relative_to(cleaned_root)
-            except ValueError:
-                errors.append("cleaned output path is outside current data_root/cleaned directory")
-        if not path.is_file():
-            errors.append(f"cleaned file does not exist: {path}")
-        elif cleaned_root is not None:
-            import csv
-            with path.open("r", encoding="utf-8-sig", newline="") as stream:
-                cleaned_groups = {row.get("group_id", "") for row in csv.DictReader(stream)}
-            later_groups = {group.group_id for group in groups if target_group is not None and group.first_source_row >= target_group.first_source_row}
-            leaked = cleaned_groups & later_groups
-            if leaked:
-                errors.append(f"cleaned file contains target or following groups: {sorted(leaked)}")
-
-    task_draft = state.get("task_draft", {})
-    for field in ("selection_rationale", "role", "instruction", "deliverable"):
-        value = task_draft.get(field)
-        if not isinstance(value, str) or not value.strip():
-            errors.append(f"task draft missing required field: {field}")
-    instruction = str(task_draft.get("instruction", ""))
-    source_events = target_group.events if target_group is not None else target_events
-    target_values = [str(event.get("value", "")) for event in source_events if event.get("value", "")]
-    leaked_values = find_leaked_target_values(instruction, target_values)
-    if leaked_values:
-        errors.append(f"task instruction contains target value: {leaked_values}")
-    return errors
+class GenerationState(TypedDict, total=False):
+    """流水线状态容器（TypedDict 供 LangGraph 识别 channel）."""
+    case_id: str
+    data_root: str
+    output_root: str
+    generated_root: str
+    force_relabel: bool
+    events: list[dict[str, str]]
+    groups: list[EventGroup]
+    label: LabelResult | None
+    label_skipped: bool
+    task_draft: TaskDraft | None
+    validation: ValidationResult | None
+    solution: SolutionResult | None
+    evaluation: EvaluationResult | None
+    checkpoints: list[Checkpoint]
+    attempt: int
+    failure_history: list[dict[str, Any]]
+    status: str
+    review_reason: str
+    cleaned_csv: str
+    task_dir: str
 
 
-def _event_key(event: dict[str, str]) -> tuple[tuple[str, str], ...]:
-    return tuple((field, str(event.get(field, ""))) for field in TRACE_FIELDS)
-
-
-def _is_diagnostic_event(event: dict[str, str]) -> bool:
-    return bool(event.get("feature_name", "").strip() and event.get("value", "").strip() and "诊断" in event.get("feature_name", ""))
+def new_state(
+    *,
+    case_id: str,
+    data_root: Path,
+    output_root: Path,
+    generated_root: Path,
+    force_relabel: bool = False,
+) -> GenerationState:
+    return GenerationState(
+        case_id=case_id,
+        data_root=str(data_root),
+        output_root=str(output_root),
+        generated_root=str(generated_root),
+        force_relabel=force_relabel,
+        # runtime
+        events=[],
+        groups=[],
+        label=None,
+        label_skipped=False,
+        task_draft=None,
+        validation=None,
+        solution=None,
+        evaluation=None,
+        checkpoints=[],
+        attempt=0,
+        failure_history=[],
+        status="running",  # running / persisted / review_queue
+        review_reason="",
+        cleaned_csv="",
+        task_dir="",
+    )

@@ -1,0 +1,9 @@
+{
+  "case_id": "0093027afb3f5b1f2313d93ffcd33bdf",
+  "applicable_types": [
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T4_diagnosis",
+  "reason": "轨迹中存在明确的恶性肿瘤诊断结论（髓母细胞瘤，WHO IV级），且该诊断前有完整的证据链（病史、CT影像、手术记录），符合T4诊断推理的存在性标准；轨迹中未包含明确的TNM/FIGO分期编码或分子标志物检测结果，故不适用T1和T3。",
+  "review": ""
+}
