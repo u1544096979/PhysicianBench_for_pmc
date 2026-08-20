@@ -9,8 +9,9 @@ from pipeline.noise_injection.context import build_context
 from pipeline.noise_injection.plan import NoisePlanner
 
 class StubClient:
-    def __init__(self, payload): self.payload = payload
+    def __init__(self, payload): self.payload = payload; self.calls = []
     def chat_json(self, messages, node=None, **_kw):
+        self.calls.append(node)
         return self.payload
 
 def _ctx():
@@ -26,4 +27,5 @@ def test_planner_returns_plan_and_versions():
     assert planner.prompt_version == "v1"
     plan = planner.plan(_ctx(), noise_rows=2, episodes=1)
     assert plan == payload
-    assert len(planner.client.calls) == 1 if hasattr(planner.client,"calls") else True
+    assert len(planner.client.calls) == 1
+    assert planner.client.calls[0] == "noise_plan"
