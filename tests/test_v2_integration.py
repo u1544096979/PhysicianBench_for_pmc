@@ -67,6 +67,19 @@ GOOD_CHECKPOINTS = {
          "eval_method": "llm_judge", "rubric": "含分期字段"},
     ]
 }
+# 噪声注入（evaluate valid 分支总走 inject_noise）：一条安全的病程噪声，日期在病例窗口内
+GOOD_NOISE_PLAN = {
+    "layer_a": [
+        {"category": "病程", "feature_name": "病程", "value": "一般情况可",
+         "event_date": "2018-05-01", "unit": ""},
+    ],
+    "episodes": [],
+}
+GOOD_NOISE_JUDGE = {"related_to_answer": False, "contradicts": False, "reason": "ok"}
+GOOD_NOISE_SOLVE = {"answer": "pT2N1M0", "reasoning_summary": "病理示浸润性导管癌"}
+GOOD_NOISE_EVALUATE = {
+    "verdict": "valid", "consistent": True, "has_reasoning": True, "explanation": "ok",
+}
 
 
 class FakeClient:
@@ -104,6 +117,8 @@ def test_happy_path_persists_task_package(tmp_path):
     fake = FakeClient({
         "label": GOOD_LABEL, "generate": GOOD_GENERATE, "validate": GOOD_VALIDATE,
         "solve": GOOD_SOLVE, "evaluate": GOOD_EVALUATE, "checkpoint": GOOD_CHECKPOINTS,
+        "noise_plan": GOOD_NOISE_PLAN, "noise_judge": GOOD_NOISE_JUDGE,
+        "noise_solve": GOOD_NOISE_SOLVE, "noise_evaluate": GOOD_NOISE_EVALUATE,
     })
     final = _run(tmp_path, case_id, fake)
     assert final["status"] == "persisted"
@@ -129,6 +144,8 @@ def test_validate_fail_then_pass_via_retry(tmp_path):
     fake = FakeClient({
         "label": GOOD_LABEL, "generate": GOOD_GENERATE, "validate": GOOD_VALIDATE,
         "solve": GOOD_SOLVE, "evaluate": GOOD_EVALUATE, "checkpoint": GOOD_CHECKPOINTS,
+        "noise_plan": GOOD_NOISE_PLAN, "noise_judge": GOOD_NOISE_JUDGE,
+        "noise_solve": GOOD_NOISE_SOLVE, "noise_evaluate": GOOD_NOISE_EVALUATE,
     }, fail_nodes=["validate"], fail_times=1)
     final = _run(tmp_path, case_id, fake)
     assert final["status"] == "persisted"
@@ -142,6 +159,8 @@ def test_all_retries_exhausted_goes_review_queue(tmp_path):
     fake = FakeClient({
         "label": GOOD_LABEL, "generate": GOOD_GENERATE, "validate": GOOD_VALIDATE,
         "solve": GOOD_SOLVE, "evaluate": GOOD_EVALUATE, "checkpoint": GOOD_CHECKPOINTS,
+        "noise_plan": GOOD_NOISE_PLAN, "noise_judge": GOOD_NOISE_JUDGE,
+        "noise_solve": GOOD_NOISE_SOLVE, "noise_evaluate": GOOD_NOISE_EVALUATE,
     }, fail_nodes=["validate"], fail_times=99)
     final = _run(tmp_path, case_id, fake)
     assert final["status"] == "review_queue"
@@ -156,6 +175,8 @@ def test_evaluate_fail_routes_back(tmp_path):
     fake = FakeClient({
         "label": GOOD_LABEL, "generate": GOOD_GENERATE, "validate": GOOD_VALIDATE,
         "solve": GOOD_SOLVE, "evaluate": GOOD_EVALUATE, "checkpoint": GOOD_CHECKPOINTS,
+        "noise_plan": GOOD_NOISE_PLAN, "noise_judge": GOOD_NOISE_JUDGE,
+        "noise_solve": GOOD_NOISE_SOLVE, "noise_evaluate": GOOD_NOISE_EVALUATE,
     }, fail_nodes=["evaluate"], fail_times=1)
     final = _run(tmp_path, case_id, fake)
     assert final["status"] == "persisted"
@@ -170,6 +191,8 @@ def test_label_none_goes_review_queue(tmp_path):
                   "reason": "数据太薄"},
         "generate": GOOD_GENERATE, "validate": GOOD_VALIDATE,
         "solve": GOOD_SOLVE, "evaluate": GOOD_EVALUATE, "checkpoint": GOOD_CHECKPOINTS,
+        "noise_plan": GOOD_NOISE_PLAN, "noise_judge": GOOD_NOISE_JUDGE,
+        "noise_solve": GOOD_NOISE_SOLVE, "noise_evaluate": GOOD_NOISE_EVALUATE,
     })
     final = _run(tmp_path, case_id, fake)
     assert final["status"] == "review_queue"
@@ -184,6 +207,8 @@ def test_literal_leak_detected_at_persist(tmp_path):
     fake = FakeClient({
         "label": GOOD_LABEL, "generate": leak_gen, "validate": GOOD_VALIDATE,
         "solve": GOOD_SOLVE, "evaluate": GOOD_EVALUATE, "checkpoint": GOOD_CHECKPOINTS,
+        "noise_plan": GOOD_NOISE_PLAN, "noise_judge": GOOD_NOISE_JUDGE,
+        "noise_solve": GOOD_NOISE_SOLVE, "noise_evaluate": GOOD_NOISE_EVALUATE,
     }, fail_nodes=["validate"], fail_times=0)  # validate全通过
     # 落盘时字面泄漏检测应把状态置为review_queue（materialize失败按review处理）
     final = _run(tmp_path, case_id, fake)

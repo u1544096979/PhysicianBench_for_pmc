@@ -18,6 +18,7 @@ def build_generation_graph() -> StateGraph:
     graph.add_node("validate_task", N.validate_task)
     graph.add_node("solve_task", N.solve_task)
     graph.add_node("evaluate_solution", N.evaluate_solution)
+    graph.add_node("inject_noise", N.inject_noise)
     graph.add_node("generate_checkpoints", N.generate_checkpoints)
     graph.add_node("materialize", N.materialize)
     graph.add_node("persist_failure", N.persist_failure)
@@ -47,11 +48,12 @@ def build_generation_graph() -> StateGraph:
         "evaluate_solution",
         N.route_after_evaluate,
         {
-            "generate_checkpoints": "generate_checkpoints",
+            "inject_noise": "inject_noise",      # valid 分支
             "generate_task": "generate_task",
             "persist_failure": "persist_failure",
         },
     )
+    graph.add_edge("inject_noise", "generate_checkpoints")
     graph.add_edge("generate_checkpoints", "materialize")
     graph.add_edge("materialize", END)
     graph.add_edge("persist_failure", END)

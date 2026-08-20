@@ -334,10 +334,42 @@ def evaluate_solution(state: GenerationState) -> dict:
 def route_after_evaluate(state: GenerationState) -> str:
     evaluation: EvaluationResult | None = state.get("evaluation")
     if evaluation is not None and evaluation.verdict == "valid":
-        return "generate_checkpoints"
+        return "inject_noise"
     if _attempt_exceeded(state):
         return "persist_failure"
     return "generate_task"
+
+
+# ---------------------------------------------------------------------------
+# 节点6.5：噪声注入（核心包 run_injection，含重试阶梯/降级）
+# ---------------------------------------------------------------------------
+
+def inject_noise(state: GenerationState) -> dict:
+    """evaluate valid 分支：调用核心包 run_injection 生成噪声（含重试阶梯）."""
+    from pipeline.noise_injection.context import build_context
+    from pipeline.noise_injection.config import NoiseConfig
+    from pipeline.noise_injection.injection import run_injection
+    from pipeline.noise_injection import solvable as _S  # noqa 保留
+
+    draft: TaskDraft = state["task_draft"]
+    ctx = build_context(
+        case_id=state["case_id"],
+        events=state["events"],
+        task_type=draft.task_type,
+        target_group_id=draft.target_group_id,
+        target_date=draft.target_date,
+        instruction=draft.instruction,
+        ground_truth=draft.ground_truth,
+        answer_event_rows=draft.answer_event_rows,
+    )
+    # 提供给 solvable gate3 的干净可见事件文本（透传 visible_text kwarg；
+    # CaseContext 为 frozen dataclass，不可用 object.__setattr__ 附加属性）
+    visible = visible_groups(state["groups"], draft.target_group_id, draft.answer_event_rows)
+    visible_text = serialize_groups(visible, full=True)
+    client = _client(state)
+    result = run_injection(ctx, NoiseConfig(), client, visible_text=visible_text)
+    update: dict[str, Any] = {"noise_rows": result.rows, "noise_manifest": result.manifest}
+    return update
 
 
 # ---------------------------------------------------------------------------
@@ -437,11 +469,54 @@ def materialize(state: GenerationState) -> dict:
     )
     (task_dir / "task.toml").write_text(toml_text, encoding="utf-8")
 
+    # 追加噪声行 + 写 manifest
+    noise_rows = state.get("noise_rows") or []
+    if noise_rows:
+        _append_noise_to_csv(cleaned_csv, noise_rows)
+    noise_manifest = state.get("noise_manifest")
+    if noise_manifest is not None:
+        (task_dir / "noise_manifest.json").write_text(
+            json.dumps(noise_manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    if state.get("noise_manifest") and state["noise_manifest"].get("final_status") == "degraded_clean":
+        # 降级 → review_queue（任务仍以干净版落盘）
+        _append_review_queue_for_noise(state)
+
     return {
         "status": "persisted",
         "task_dir": str(task_dir),
         "cleaned_csv": str(cleaned_csv),
     }
+
+
+def _append_noise_to_csv(cleaned_csv: Path, noise_rows: list[dict]) -> None:
+    from pipeline.noise_injection.materialize import CSV_FIELDS
+    if not noise_rows:
+        return
+    existing = set()
+    with cleaned_csv.open("r", encoding="utf-8-sig", newline="") as fh:
+        rd = csv.reader(fh)
+        next(rd, None)  # header
+        for row in rd:
+            existing.add(tuple(row))
+    with cleaned_csv.open("a", encoding="utf-8", newline="") as fh:
+        wr = csv.DictWriter(fh, fieldnames=list(CSV_FIELDS), extrasaction="ignore")
+        for r in noise_rows:
+            row = {k: r.get(k, "") for k in CSV_FIELDS}
+            # 追加时校验不与已存在行冲突（避免表头重复）
+            wr.writerow(row)
+
+
+def _append_review_queue_for_noise(state) -> None:
+    queue_path = Path(state["generated_root"]) / "review_queue.jsonl"
+    manifest = state.get("noise_manifest") or {}
+    entry = {
+        "case_id": state["case_id"], "attempt": state.get("attempt", 0),
+        "reason_class": "noise_gate_failed",
+        "detail": manifest.get("degrade_reason") or "noise gates failed",
+    }
+    queue_path.parent.mkdir(parents=True, exist_ok=True)
+    with queue_path.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
 # ---------------------------------------------------------------------------
