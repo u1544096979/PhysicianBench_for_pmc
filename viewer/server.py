@@ -29,7 +29,10 @@ def create_app(root: Path | None = None) -> FastAPI:
     def task_detail(case_id: str):
         if not (scan_root / case_id).is_dir():
             raise HTTPException(status_code=404, detail=f"case 不存在: {case_id}")
-        return asdict(scanner.load_task(scan_root, case_id))
+        try:
+            return asdict(scanner.load_task(scan_root, case_id))
+        except ValueError as e:
+            raise HTTPException(status_code=404, detail=str(e))
 
     @app.get("/api/tasks/{case_id}/runs/{run_id}")
     def run_detail(case_id: str, run_id: str):

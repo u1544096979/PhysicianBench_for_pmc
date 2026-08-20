@@ -87,6 +87,7 @@ const TABS = [
   ['report', '交付物'],
   ['groundtruth', '标准答案'],
   ['csv', '病例数据'],
+  ['taskinfo', '任务信息'],
 ];
 
 function renderTabs() {
@@ -110,6 +111,7 @@ function renderActiveTab() {
     case 'report': sec.innerHTML = reportHTML(run); break;
     case 'groundtruth': sec.innerHTML = groundTruthHTML(run); break;
     case 'csv': sec.innerHTML = csvHTML(run); break;
+    case 'taskinfo': sec.innerHTML = taskInfoHTML(state.task); break;
   }
 }
 
@@ -197,6 +199,26 @@ function groundTruthHTML(run) {
 function csvHTML(run) {
   if (!run || !run.cleaned_csv_html) return '<div class="empty">该病例缺少 cleaned_trajectory.csv。</div>';
   return run.cleaned_csv_html;
+}
+
+function taskInfoHTML(task) {
+  const cps = (task && task.checkpoints) || [];
+  if (!cps.length) return '<div class="empty">该病例无 checkpoint 定义（checkpoints.json 缺失或为空）。</div>';
+  const paramsCell = (p) => {
+    const empty = p == null || (typeof p === 'object' && Object.keys(p).length === 0);
+    return empty ? '<td class="mono">—</td>'
+      : `<td><pre class="json">${esc(JSON.stringify(p, null, 2))}</pre></td>`;
+  };
+  return `<div class="table-wrap"><table><thead><tr>
+      <th>checkpoint_id</th><th>layer</th><th>description</th><th>eval_method</th><th>params</th>
+    </tr></thead><tbody>${cps.map(c => `
+      <tr>
+        <td class="mono">${esc(c.checkpoint_id)}</td>
+        <td>${esc(c.layer)}</td>
+        <td>${esc(c.description)}</td>
+        <td class="mono">${esc(c.eval_method ?? '—')}</td>
+        ${paramsCell(c.params)}
+      </tr>`).join('')}</tbody></table></div>`;
 }
 
 // -------------------- 流程 --------------------

@@ -8,6 +8,8 @@ import json
 import sys
 from pathlib import Path
 
+import pytest
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
@@ -123,6 +125,33 @@ def test_load_run_incomplete(tmp_path):
     assert rd.tool_calls is None
     assert len(rd.events) == 3
     assert rd.duration_seconds == 3.0
+
+
+def test_load_run_skips_valid_non_dict_lines(tmp_path):
+    """合法 JSON 但非 dict 的行（null/list/str）：跳过且不进 failed_lines；真坏行（JSONDecodeError）才计数。"""
+    _write(tmp_path / "caseXXX" / "task.toml", _task_toml("caseXXX", "X", "T1"))
+    run_dir = tmp_path / "caseXXX" / "runs" / "r1"
+    _write(run_dir / "trajectory.json",
+        'null\n'
+        '[1, 2]\n'
+        '"str"\n'
+        '{"type": "instruction", "timestamp": "2026-01-01T00:00:00"}\n'
+        'BAD\n')
+    rd = scanner.load_run(tmp_path, "caseXXX", "r1")
+    assert [e["type"] for e in rd.events] == ["instruction"]
+    assert rd.failed_lines == 1
+
+
+def test_load_task_missing_task_toml_raises_value_error(tmp_path):
+    _write(tmp_path / "caseNoToml" / "instruction.md", "# x")
+    with pytest.raises(ValueError, match="task.toml"):
+        scanner.load_task(tmp_path, "caseNoToml")
+
+
+def test_load_task_invalid_task_toml_raises_value_error(tmp_path):
+    _write(tmp_path / "caseBadToml" / "task.toml", 'case_id = "caseBadToml"\ntask_type = [broken\n')
+    with pytest.raises(ValueError, match="task.toml"):
+        scanner.load_task(tmp_path, "caseBadToml")
 
 
 def test_load_run_missing_dir_returns_empty(tmp_path):

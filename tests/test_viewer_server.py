@@ -91,6 +91,14 @@ def test_run_detail(client):
     assert body["ground_truth"] == {"response": "PR"}
 
 
+def test_case_without_task_toml_404(client, tmp_path):
+    """游离目录（存在但缺 task.toml）：直接 URL 访问应 404 而非 500。"""
+    _write(tmp_path / "caseNoToml" / "instruction.md", "# x")
+    r = client.get("/api/tasks/caseNoToml")
+    assert r.status_code == 404
+    assert "task.toml" in r.json()["detail"]
+
+
 def test_unknown_case_404(client):
     r = client.get("/api/tasks/nope")
     assert r.status_code == 404

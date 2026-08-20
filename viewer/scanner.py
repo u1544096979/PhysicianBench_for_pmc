@@ -229,7 +229,11 @@ def _list_runs(runs_dir: Path) -> list[RunSummary]:
 
 def load_task(root: Path, case_id: str) -> TaskDetail:
     case_dir = root / case_id
-    meta = tomllib.loads((case_dir / "task.toml").read_text(encoding="utf-8"))
+    try:
+        meta = tomllib.loads((case_dir / "task.toml").read_text(encoding="utf-8"))
+    except (OSError, tomllib.TOMLDecodeError) as e:
+        # 游离目录（无 task.toml / 不可读 / 坏 TOML）：纯层抛 ValueError，由 server 映射为 404。
+        raise ValueError(f"case 缺少有效 task.toml: {case_id}") from e
     instruction_raw = _read_text(case_dir / "instruction.md")
     checkpoints = (_read_json(case_dir / "checkpoints.json") or {}).get("checkpoints", []) or []
     return TaskDetail(
