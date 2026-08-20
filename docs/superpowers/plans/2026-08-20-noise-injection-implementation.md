@@ -1622,6 +1622,7 @@ git commit -m "feat(noise): manifest + injection orchestrator with retry ladder"
 
 **Files:**
 - Modify: `pipeline/oncology_generation/schemas.py`（state 字段）、`graph.py`、`nodes.py`
+- Modify: `tests/test_v2_integration.py`（其 FakeClient/script 需补 `noise_plan/noise_judge/noise_solve/noise_evaluate` 回应——graph 在 valid 分支现已总是跑 inject_noise，否则既有持久化路径测试会 KeyError）
 - Test: `tests/test_noise_pipeline.py`（新增）
 
 **Interfaces:** Consumes `run_injection`, `build_context`, `csv_row`, `write_manifest`, `append_review_item`; Produces state fields + `inject_noise` node + materialize 追噪。
