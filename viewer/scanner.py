@@ -9,14 +9,12 @@ from __future__ import annotations
 import csv
 import json
 import tomllib
-from dataclasses import asdict, dataclass, field
+from dataclasses import dataclass, field
 from datetime import datetime
 from html import escape
 from pathlib import Path
 
 import markdown as _md
-
-_MD = _md.Markdown(extensions=["fenced_code"])
 
 
 # ---------------------------------------------------------------- 数据模型
@@ -96,7 +94,9 @@ def _read_json(path: Path) -> dict | None:
 
 
 def _render_md(text: str) -> str:
-    return _MD.convert(text) if text else ""
+    # 每次调用新建 Markdown 实例：模块级共享实例非线程安全，
+    # 同步 FastAPI 端点跑在线程池里，可能并发调用。
+    return _md.markdown(text, extensions=["fenced_code"]) if text else ""
 
 
 def _csv_to_table(path: Path) -> str:
@@ -123,9 +123,15 @@ def _parse_trajectory(path: Path) -> tuple[list[dict], int]:
         if not line.strip():
             continue
         try:
-            events.append(json.loads(line))
+            obj = json.loads(line)
         except json.JSONDecodeError:
             failed += 1
+            continue
+        if not isinstance(obj, dict):
+            # 合法 JSON 但不是对象（null/list/str 等）：跳过，
+            # 保证 events 里每个元素都支持 .get()。
+            continue
+        events.append(obj)
     return events, failed
 
 
