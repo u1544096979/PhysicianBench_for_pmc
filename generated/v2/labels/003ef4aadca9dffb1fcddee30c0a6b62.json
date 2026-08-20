@@ -1,0 +1,9 @@
+{
+  "case_id": "003ef4aadca9dffb1fcddee30c0a6b62",
+  "applicable_types": [
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T4_diagnosis",
+  "reason": "轨迹中存在2021年的明确诊断事件，且此前有2019年的病史、评估及影像记录作为支撑证据链，符合T4诊断推理的适用条件；其他类型如分期、疗效评估或分子标志物在摘要中缺乏明确对应的结果记录或对比依据。",
+  "review": ""
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "00151e6a402f469c5b9fe1e250de7d18",
+  "applicable_types": [
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T4_diagnosis",
+  "reason": "轨迹中存在诊断事件组，且其前有病史、病理和影像等多类证据支撑；其他类型缺少明确分期、疗效结论或分子标志物结果记录。",
+  "review": ""
+}

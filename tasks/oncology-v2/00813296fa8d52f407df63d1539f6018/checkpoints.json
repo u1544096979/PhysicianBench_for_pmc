@@ -1,0 +1,74 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_pathology",
+      "layer": "data_retrieval",
+      "description": "查询病理事件以获取组织学类型和原发灶线索",
+      "eval_method": "category_query",
+      "params": {
+        "category": "病理",
+        "description": "查询病理事件"
+      }
+    },
+    {
+      "checkpoint_id": "cp2_data_imaging",
+      "layer": "data_retrieval",
+      "description": "查询影像事件以确认转移部位（脑、骨、鼻窦）",
+      "eval_method": "category_query",
+      "params": {
+        "category": "影像",
+        "description": "查询影像事件"
+      }
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_primary",
+      "layer": "clinical_reasoning",
+      "description": "基于病理和影像证据，正确推断原发肿瘤部位为肺",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "agent是否根据查询到的证据正确识别原发肿瘤部位为肺？",
+        "expected": "原发肿瘤部位应为肺"
+      }
+    },
+    {
+      "checkpoint_id": "cp4_reasoning_metastasis",
+      "layer": "clinical_reasoning",
+      "description": "基于影像证据，合理推断出脑、骨、鼻窦的转移情况",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "agent是否合理推断出患者存在脑转移、骨转移和鼻窦转移？",
+        "expected": "转移情况应包含脑转移、骨转移、鼻窦转移"
+      }
+    },
+    {
+      "checkpoint_id": "cp5_outcome_primary",
+      "layer": "outcome_check",
+      "description": "检查最终报告中原发肿瘤字段是否正确",
+      "eval_method": "field_match",
+      "params": {
+        "field": "原发肿瘤",
+        "expected": "肺"
+      }
+    },
+    {
+      "checkpoint_id": "cp6_outcome_metastasis",
+      "layer": "outcome_check",
+      "description": "检查最终报告中转移情况字段是否完整且正确",
+      "eval_method": "field_match",
+      "params": {
+        "field": "转移情况",
+        "expected": "脑转移、骨转移、鼻窦转移"
+      }
+    },
+    {
+      "checkpoint_id": "cp7_doc_structure",
+      "layer": "documentation",
+      "description": "检查输出文档是否包含所有要求的结构化字段",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "输出文件 output/diagnosis_report.md 是否包含以下四个结构化字段：原发肿瘤、组织学类型、转移情况、判定依据？",
+        "expected": "必须包含：原发肿瘤、组织学类型、转移情况、判定依据"
+      }
+    }
+  ]
+}

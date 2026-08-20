@@ -1,7 +1,8 @@
 """统一 LLM 客户端（v2 流水线专用）.
 
 从项目根目录 .env 读取配置；自签证书端点自动禁用证书校验；
-支持 json_object 模式与软重试；trace 落盘便于审计成本。
+流式调用避免慢服务器长生成触发读超时；支持 json_object 模式
+与软重试；429 显式退避；trace 落盘便于审计成本。
 """
 from __future__ import annotations
 
@@ -28,7 +29,7 @@ def _load_dotenv(path: Path) -> None:
         os.environ.setdefault(key.strip(), value.strip())
 
 
-_load_dotenv(Path(__file__).resolve().parents[2] / ".env")
+_load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 
 @dataclass
@@ -55,18 +56,17 @@ class LLMClient:
 
     def __post_init__(self) -> None:
         self._semaphore = threading.Semaphore(max(1, self.concurrency))
-        verify = not any(flag in self.base_url for flag in ("43.138.203.19",))
-        # 自签/内网端点统一走 httpx.Client(verify=False)
         insecure = os.environ.get("GEN_LLM_INSECURE", "1") == "1"
+        # 流式模式下 read 超时作用于相邻 chunk 间隔，60s 足够
         http_client = httpx.Client(
             verify=False if insecure else True,
-            timeout=self.timeout,
+            timeout=httpx.Timeout(connect=30, read=60, write=60, pool=self.timeout),
         )
         self._client = OpenAI(
             base_url=self.base_url,
             api_key=self.api_key,
             http_client=http_client,
-            max_retries=2,
+            max_retries=2,  # SDK层仅重试连接类错误
         )
 
     # ------------------------------------------------------------------
@@ -79,7 +79,11 @@ class LLMClient:
         max_tokens: int | None = None,
         soft_retry: int = 1,
     ) -> str:
-        """一次对话调用；json_mode 下若解析失败自动带纠错提示软重试."""
+        """一次对话调用；json_mode 下若解析失败自动带纠错提示软重试.
+
+        - 流式调用累积输出（防慢服务器读超时）
+        - 429/并发限制：显式指数退避，最多额外5次
+        """
         attempt = 0
         payload = list(messages)
         while True:
@@ -95,8 +99,19 @@ class LLMClient:
                     )
                     if json_mode:
                         kwargs["response_format"] = {"type": "json_object"}
-                    resp = self._client.chat.completions.create(**kwargs)
-                content = resp.choices[0].message.content or ""
+                    # 关闭qwen3思考链：防止输出失控（1.5MB思考文本）
+                    kwargs["extra_body"] = {"chat_template_kwargs": {"enable_thinking": False}}
+                    # 流式调用：token边生成边传
+                    kwargs["stream"] = True
+                    chunks: list[str] = []
+                    with self._client.chat.completions.create(**kwargs) as stream:
+                        for event in stream:
+                            delta = None
+                            if getattr(event, "choices", None):
+                                delta = event.choices[0].delta
+                            if delta and delta.content:
+                                chunks.append(delta.content)
+                    content = "".join(chunks)
                 content = content.strip()
                 if json_mode:
                     content = self._strip_code_fence(content)
@@ -105,10 +120,14 @@ class LLMClient:
                 return content
             except Exception as exc:  # noqa: BLE001
                 self._log_trace(node, payload, str(exc), time.time() - started, ok=False, error=str(exc)[:300])
+                err_text = str(exc)
+                is_rate_limit = "429" in err_text or "Concurrency" in err_text
+                if is_rate_limit and attempt <= 5:
+                    time.sleep(min(30 * attempt, 120))
+                    continue
                 if attempt <= soft_retry:
                     payload = payload + [
-                        {"role": "assistant", "content": (messages[-1]["content"] if payload and attempt == 1 else "")[:200]},
-                        {"role": "user", "content": "上次输出不是合法JSON或调用失败。请重新输出，只输出一个合法的JSON对象，不要包含markdown代码块或任何多余文本。"},
+                        {"role": "user", "content": "上次调用失败或输出不是合法JSON。请重新输出，只输出一个合法的JSON对象，不要包含markdown代码块或任何多余文本。"},
                     ]
                     continue
                 raise

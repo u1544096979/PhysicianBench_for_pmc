@@ -1,0 +1,6 @@
+case_id = "00813296fa8d52f407df63d1539f6018"
+task_type = "T4_diagnosis"
+task_label = "诊断推理"
+target_date = "2021-09-07"
+deliverable = "output/diagnosis_report.md"
+data_file = "cleaned_trajectory.csv"

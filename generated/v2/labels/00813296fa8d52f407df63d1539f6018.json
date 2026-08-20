@@ -1,0 +1,9 @@
+{
+  "case_id": "00813296fa8d52f407df63d1539f6018",
+  "applicable_types": [
+    "T4_diagnosis"
+  ],
+  "recommended_type": "T4_diagnosis",
+  "reason": "轨迹中存在2021-09-02的病理报告（8a2f2f1d）和2021-09-02/09-07的诊断事件（9a0e1c2b, 6d8e9f1a），且诊断前具备完整的影像（d8d5c97d, 4f6e1a2b）和检验（7a1a4a4d, c1c4d9b6）证据链，符合T4诊断推理的适用条件。由于轨迹中未明确记录TNM分期编码或明确的疗效评估结论（如CR/PR/PD），T1和T2不适用；虽可能有分子标志物，但摘要中未明确显示具体检测结果字段，故T3证据不足。",
+  "review": ""
+}

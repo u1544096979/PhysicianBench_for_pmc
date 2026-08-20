@@ -1,0 +1,84 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_imaging",
+      "layer": "data_retrieval",
+      "description": "检查agent是否查询了影像类事件，以获取肿瘤位置及转移灶的影像学证据",
+      "eval_method": "category_query",
+      "params": {
+        "category": "影像",
+        "description": "查询影像事件"
+      }
+    },
+    {
+      "checkpoint_id": "cp2_data_history",
+      "layer": "data_retrieval",
+      "description": "检查agent是否查询了病史类事件，以获取患者主诉、既往史及症状线索",
+      "eval_method": "category_query",
+      "params": {
+        "category": "病史",
+        "description": "查询病史事件"
+      }
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_primary",
+      "layer": "clinical_reasoning",
+      "description": "检查agent是否基于病理和影像证据正确推断出原发肿瘤部位为直肠",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "agent是否根据查询到的病理结果（如管状-乳头状腺癌）和影像特征，正确推断原发肿瘤位于直肠？",
+        "expected": "原发肿瘤应判定为直肠"
+      }
+    },
+    {
+      "checkpoint_id": "cp4_reasoning_metastasis",
+      "layer": "clinical_reasoning",
+      "description": "检查agent是否合理推断出存在肝转移，并引用了支持该结论的影像或检验证据",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "agent是否基于影像学发现（如肝脏占位）或肿瘤标志物异常，合理推断出存在肝转移？",
+        "expected": "转移情况应包含肝转移，且推理过程引用了相关证据"
+      }
+    },
+    {
+      "checkpoint_id": "cp5_outcome_primary",
+      "layer": "outcome_check",
+      "description": "检查最终报告中原发肿瘤字段是否与标准答案一致",
+      "eval_method": "field_match",
+      "params": {
+        "field": "原发肿瘤",
+        "expected": "直肠"
+      }
+    },
+    {
+      "checkpoint_id": "cp6_outcome_histology",
+      "layer": "outcome_check",
+      "description": "检查最终报告中组织学类型字段是否与标准答案一致",
+      "eval_method": "field_match",
+      "params": {
+        "field": "组织学类型",
+        "expected": "管状-乳头状腺癌"
+      }
+    },
+    {
+      "checkpoint_id": "cp7_outcome_metastasis",
+      "layer": "outcome_check",
+      "description": "检查最终报告中转移情况字段是否与标准答案一致",
+      "eval_method": "field_match",
+      "params": {
+        "field": "转移情况",
+        "expected": "肝转移"
+      }
+    },
+    {
+      "checkpoint_id": "cp8_doc_structure",
+      "layer": "documentation",
+      "description": "检查输出文档是否包含所有要求的结构化字段（原发肿瘤、组织学类型、转移情况、判定依据）",
+      "eval_method": "llm_judge",
+      "params": {
+        "question": "output/diagnosis_report.md 文件是否包含了以下四个结构化字段：原发肿瘤、组织学类型、转移情况、判定依据？",
+        "expected": "必须包含：原发肿瘤、组织学类型、转移情况、判定依据"
+      }
+    }
+  ]
+}

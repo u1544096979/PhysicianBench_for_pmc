@@ -1,0 +1,11 @@
+{
+  "task_type": "T4_diagnosis",
+  "target_group_id": "c5c8a0d8-cc4b-4d1e-8f3f-1f6c2f4f7c88",
+  "target_date": "2016-01-01",
+  "ground_truth": {
+    "primary_tumor": "直肠",
+    "histology": "管状-乳头状腺癌",
+    "metastasis": "肝转移"
+  },
+  "rationale": "该事件组（c5c8a0d8）记录了初诊时的临床诊断“转移性直肠癌”，且其之前已有完整的证据链：查体发现直肠梗阻性肿瘤（定位原发灶）、MRI显示多发肝转移灶（确认转移）、CA19-9升高（辅助证据）。这符合T4诊断推理任务对“首次明确恶性肿瘤诊断”及“完整证据链”的要求。"
+}
