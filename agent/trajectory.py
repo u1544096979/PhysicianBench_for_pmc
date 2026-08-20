@@ -2,7 +2,7 @@
 JSONL trajectory logger for agent execution.
 
 Each agent step appends one JSON object per line to the trajectory file.
-Consumed by `parse_trajectory.py` and `score_jobs.py` to compute
+Consumed by the trajectory viewer (`viewer/scanner.py`) to compute
 per-task tool-call counts and step-by-step playback.
 """
 
