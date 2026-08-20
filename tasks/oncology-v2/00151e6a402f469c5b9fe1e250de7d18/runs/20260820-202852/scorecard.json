@@ -1,0 +1,66 @@
+{
+  "case_id": "00151e6a402f469c5b9fe1e250de7d18",
+  "task_type": "T2_response",
+  "agent_model": "fake/solver",
+  "judge_model": "none",
+  "final_message": "已完成评估并保存报告。",
+  "report_excerpt": "评估时点前主要治疗：ALK抑制剂靶向治疗\n可评估病灶情况：右上叶肿块\n疗效结论：PR\n判定依据：病灶缩小[14][15]",
+  "tool_calls": 3,
+  "checkpoint_summary": {
+    "total": 6,
+    "pass": 4,
+    "fail": 0,
+    "error": 2,
+    "score": 0.667
+  },
+  "checkpoints": [
+    {
+      "checkpoint_id": "cp1_data_imaging",
+      "layer": "data_retrieval",
+      "description": "查询影像类事件以获取基线及随访的病灶尺寸数据",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "调用了 query_imaging（类别: 影像）"
+    },
+    {
+      "checkpoint_id": "cp2_data_medication",
+      "layer": "data_retrieval",
+      "description": "查询用药类事件以确认既往治疗史（ALK抑制剂）",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "调用了 query_medication（类别: 用药）"
+    },
+    {
+      "checkpoint_id": "cp3_reasoning_lesion",
+      "layer": "clinical_reasoning",
+      "description": "识别可评估病灶并对比基线与随访尺寸，计算缩小比例",
+      "verdict": "error",
+      "judge": "llm",
+      "comment": "未配置裁判LLM"
+    },
+    {
+      "checkpoint_id": "cp4_outcome_conclusion",
+      "layer": "outcome_check",
+      "description": "最终疗效结论判定为PR",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "字段疗效结论匹配期望值（抽取自报告行: PR）"
+    },
+    {
+      "checkpoint_id": "cp5_outcome_treatment",
+      "layer": "outcome_check",
+      "description": "主要治疗描述准确",
+      "verdict": "pass",
+      "judge": "code",
+      "comment": "字段评估时点前主要治疗匹配期望值（抽取自报告行: ALK抑制剂靶向治疗）"
+    },
+    {
+      "checkpoint_id": "cp6_doc_structure",
+      "layer": "documentation",
+      "description": "输出文档包含所有要求的结构化字段",
+      "verdict": "error",
+      "judge": "llm",
+      "comment": "未配置裁判LLM"
+    }
+  ]
+}
