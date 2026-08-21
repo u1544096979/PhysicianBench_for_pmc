@@ -23,17 +23,17 @@ PhysicianBench 要测的不是静态医学问答，而是一个代理在 EHR 中
 | 论文概念 | 本地实现 |
 | --- | --- |
 | 任务指令与交付物 | `tasks/v1/*/instruction.md` |
-| 任务元数据与分类 | `tasks/v1/*/task.toml`、`scripts/task_taxonomy_v1.json` |
+| 任务元数据与分类 | `tasks/v1/*/task.toml` |
 | checkpoint 与 rubric | `tasks/v1/*/tests/test_outputs.py` |
 | 14 个工具的 function-calling schema | `agent/tool_registry.py` |
 | FHIR GET/POST 具体实现 | `tools/fhir_api_functions.py` |
 | 文件交付物写入 | `tools/file_tools.py` |
 | 最小 agent loop | `agent/mini_agent.py`、`agent/llm_client.py` |
 | 系统提示词 | `agent/prompts.py` |
-| 单任务生命周期、Docker、评测 | `scripts/run_task.py` |
-| 批量运行 | `scripts/run_batch_task.sh` |
+| 单任务生命周期、评测（legacy：v1 已删，现为 eval/runner.py） | `scripts/run_task.py`（已删） |
+| 批量运行（legacy：v1 已删，无现行对应） | `scripts/run_batch_task.sh`（已删） |
 | checkpoint 辅助验证 | `utils/eval_helpers.py` |
-| 结果汇总：pass@1、pass@3、pass^3、tool calls | `scripts/score_jobs.py` |
+| 结果汇总 / 轨迹浏览（现为 viewer，`uv run python -m viewer`） | `scripts/score_jobs.py`（已删） |
 
 源码侧共有 100 个任务目录和 100 个 `test_outputs.py`；checkpoint 函数总数为 670。论文中的 14 个工具对应 13 个 FHIR 工具加 1 个 `write_file` 工具。读操作查询患者、Condition、Observation、MedicationRequest、Procedure、DocumentReference、ServiceRequest 和 social history；写操作创建 MedicationRequest、ServiceRequest、Appointment、Communication，并写工作区文件。
 
@@ -56,7 +56,7 @@ gunzip -c ~/data/physical_benchmark_data/physicianbench-fhir-v1.tar.gz | docker 
 2. 再读 `agent/mini_agent.py`，明确每一轮的消息、工具调用、工具结果、轨迹日志和终止条件。
 3. 读 `agent/tool_registry.py` 与 `tools/fhir_api_functions.py`，把 schema 参数对应到 FHIR R4 resource/search 参数。
 4. 读 `utils/eval_helpers.py`，区分“查轨迹/查文件”的混合 grader 与“直接查 FHIR 状态”的 code grader。
-5. 有 Docker 后先只跑一个任务，再跑小批量；最后用 `scripts/score_jobs.py` 汇总。
+5. 有 Docker 后先只跑一个任务，再跑小批量。结果查看用现行入口 `uv run python -m viewer`。（本仓库的 v2 评测闭环入口见 `eval/runner.py`。）
 
 最适合的第一条实验路径：`aortic_aneurysm_cad`。它同时覆盖患者资料检索、影像/实验室综合判断、ServiceRequest 转诊与 CTA、文档写入，能够把论文 Figure 2 的完整链路串起来。
 
@@ -75,6 +75,7 @@ gunzip -c ~/data/physical_benchmark_data/physicianbench-fhir-v1.tar.gz | docker 
 ```bash
 cd /gpfs/flash/home/gwh/code/PhysicianBench
 uv sync
+# legacy：v1 单任务 runner 已删，仅作历史记录
 uv run python scripts/run_task.py tasks/v1/aortic_aneurysm_cad \
   --model openai/gpt-5.5 --reasoning-effort high --max-steps 30
 ```
