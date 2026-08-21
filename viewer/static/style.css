@@ -175,3 +175,21 @@ details.full summary:hover, details.llm-body summary:hover { color: var(--accent
 .md { line-height: 1.7; }
 .md h1, .md h2, .md h3 { font-family: var(--serif); margin: 14px 0 8px; color: var(--ink); }
 .md table { margin: 10px 0; }
+
+/* 时间轴 timeline */
+.timeline { margin-top: 4px; }
+.tl-caption { font-family: var(--serif); font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--gold); margin-bottom: 12px; }
+.tle { display: flex; gap: 14px; position: relative; padding-bottom: 16px; }
+.tle:not(:last-child)::before { content: ''; position: absolute; left: 6px; top: 16px; bottom: 0; width: 1px; background: var(--line); }
+.tle-dot { width: 13px; height: 13px; border-radius: 50%; flex: 0 0 13px; margin-top: 3px; box-shadow: 0 0 0 3px var(--bg); }
+.tle-dot.dot-llm { background: var(--accent); }
+.tle-dot.dot-tool { background: var(--gold); }
+.tle-dot.dot-init { background: #9aa0a6; }
+.tle-dot.dot-final { background: var(--good); }
+.tle-dot.dot-instruction { background: var(--good); }
+.tle-body { flex: 1; min-width: 0; }
+.tle-hd { font-family: var(--serif); font-size: 13px; font-weight: 700; display: flex; align-items: baseline; gap: 6px; }
+.tle-hd .chip { background: #efe8d4; border-radius: 10px; font-size: 10px; padding: 0 7px; font-weight: 400; }
+.tle-sub { font-family: var(--mono); font-size: 10.5px; color: var(--muted); font-weight: 400; }
+.tle details summary { cursor: pointer; font-size: 11px; color: var(--gold); margin-top: 4px; }
+.tle pre, .tle pre.input { margin-top: 4px; }

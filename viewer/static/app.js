@@ -131,59 +131,69 @@ function checkpointsHTML(run) {
       </tr>`).join('')}</tbody></table></div>`;
 }
 
-function eventCard(cls, title, ev) {
-  return `<div class="card ${cls}"><div class="card-head">${title}</div><pre>${esc(ev.content)}</pre></div>`;
-}
-
 function trajectoryHTML(run) {
   if (!run || !run.events.length) return '<div class="empty">该 run 无轨迹事件。</div>';
+  const metaParts = [];
+  if (run.agent_model) metaParts.push(esc(run.agent_model));
+  if (run.tool_calls != null) metaParts.push(`${run.tool_calls} tool calls`);
+  if (run.duration_seconds != null) metaParts.push(run.duration_seconds.toFixed(1) + ' s');
+  const meta = metaParts.length
+    ? `<div class="tl-caption">Trajectory · ${metaParts.join(' · ')}</div>`
+    : '';
+  const items = [];
   let step = 0;
-  const html = run.events.map(ev => {
+  run.events.forEach(ev => {
     switch (ev.type) {
       case 'instruction':
-        return eventCard('instruction', 'Instruction', ev);
+        items.push(tlItem('dot-instruction', 'Instruction', ev.content || '', true));
+        break;
       case 'agent_initialized': {
         const m = ev.metadata || {};
-        return eventCard('init', `Agent 初始化: ${esc(m.model || '')}`, ev);
+        items.push(tlItem('dot-init', 'Agent 初始化', JSON.stringify(m, null, 2), false));
+        break;
       }
       case 'llm_response': {
         step += 1;
         const m = ev.metadata || {};
         const tokens = m.completion_tokens != null ? `${m.prompt_tokens || 0}→${m.completion_tokens}` : '';
         const reasoning = (m.raw_message && m.raw_message.reasoning) || null;
-        return `
-          <div class="card llm">
-            <div class="card-head">LLM 回复 <span class="chip">step ${step}</span>
-              ${tokens ? `<span class="tokens">${esc(tokens)} tokens</span>` : ''}
-              ${m.finish_reason ? `<span class="mono">${esc(m.finish_reason)}</span>` : ''}</div>
-            ${reasoning ? `<details class="reasoning"><summary>reasoning</summary><pre>${esc(reasoning)}</pre></details>` : ''}
-            <details class="llm-body" open><summary>正文（可折叠）</summary><pre>${esc(ev.content)}</pre></details>
-          </div>`;
+        const sub = [];
+        if (tokens) sub.push(`${esc(tokens)} tokens`);
+        if (m.finish_reason) sub.push(esc(m.finish_reason));
+        let inner = '';
+        if (reasoning) inner += `<details class="reasoning"><summary>reasoning</summary><pre>${esc(reasoning)}</pre></details>`;
+        inner += `<details class="llm-body"><summary>正文</summary><pre>${esc(ev.content)}</pre></details>`;
+        items.push(tlItemRaw('dot-llm', `LLM 回复 <span class="chip">step ${step}</span>`, sub.join(' · '), inner));
+        break;
       }
       case 'tool_call': {
         const m = ev.metadata || {};
         const input = m.input ? JSON.stringify(m.input, null, 2) : '';
         const output = String(m.output ?? '');
         const truncated = output.length > 800;
-        return `
-          <div class="card tool">
-            <div class="card-head">🔧 ${esc(m.tool_name || 'tool')}</div>
-            ${input ? `<pre class="input">入参: ${esc(input)}</pre>` : ''}
-            <details class="output">
-              <summary>返回内容${truncated ? `（截断，全长 ${output.length} 字符）` : ''}</summary>
-              <pre>${esc(truncated ? output.slice(0, 800) : output)}${truncated ? '…' : ''}</pre>
-              ${truncated ? `<details class="full"><summary>展开完整</summary><pre>${esc(output)}</pre></details>` : ''}
-            </details>
-          </div>`;
+        let inner = '';
+        if (input) inner += `<pre class="input">入参: ${esc(input)}</pre>`;
+        inner += `<details class="output"><summary>返回内容${truncated ? `（截断，全长 ${output.length} 字符）` : ''}</summary><pre>${esc(truncated ? output.slice(0, 800) : output)}${truncated ? '…' : ''}</pre>${truncated ? `<details class="full"><summary>展开完整</summary><pre>${esc(output)}</pre></details>` : ''}</details>`;
+        items.push(tlItemRaw('dot-tool', `🔧 ${esc(m.tool_name || 'tool')}`, '', inner));
+        break;
       }
       case 'final_result':
-        return `<div class="card final"><div class="card-head">Final Result</div><pre>${esc(ev.content)}</pre></div>`;
+        items.push(tlItem('dot-final', 'Final Result', ev.content || '', true));
+        break;
       default:
-        return `<div class="card other"><div class="card-head">${esc(ev.type)}</div><pre>${esc(JSON.stringify(ev, null, 2))}</pre></div>`;
+        items.push(tlItem('dot-init', esc(ev.type), JSON.stringify(ev, null, 2), false));
     }
-  }).join('');
+  });
   const warn = run.failed_lines > 0 ? `<div class="warn">⚠️ ${run.failed_lines} 行轨迹解析失败（已跳过）</div>` : '';
-  return warn + html;
+  return meta + warn + `<div class="timeline">${items.join('')}</div>`;
+}
+
+function tlItem(dot, title, body, open) {
+  const inner = body ? `<details class="tle-detail" ${open ? 'open' : ''}><summary>正文</summary><pre>${esc(body)}</pre></details>` : '';
+  return tlItemRaw(dot, title, '', inner);
+}
+function tlItemRaw(dot, titleHTML, subText, innerHTML) {
+  return `<div class="tle"><span class="tle-dot ${dot}"></span><div class="tle-body"><div class="tle-hd">${titleHTML}${subText ? `<span class="tle-sub">· ${subText}</span>` : ''}</div>${innerHTML}</div></div>`;
 }
 
 function reportHTML(run) {
