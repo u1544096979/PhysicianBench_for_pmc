@@ -135,8 +135,8 @@ function trajectoryHTML(run) {
   if (!run || !run.events.length) return '<div class="empty">该 run 无轨迹事件。</div>';
   const metaParts = [];
   if (run.agent_model) metaParts.push(esc(run.agent_model));
-  if (run.tool_calls != null) metaParts.push(`${run.tool_calls} tool calls`);
-  if (run.duration_seconds != null) metaParts.push(run.duration_seconds.toFixed(1) + ' s');
+  if (run.tool_calls != null) metaParts.push(`${esc(run.tool_calls)} tool calls`);
+  if (run.duration_seconds != null) metaParts.push(esc(run.duration_seconds.toFixed(1)) + ' s');
   const meta = metaParts.length
     ? `<div class="tl-caption">Trajectory · ${metaParts.join(' · ')}</div>`
     : '';
@@ -145,7 +145,7 @@ function trajectoryHTML(run) {
   run.events.forEach(ev => {
     switch (ev.type) {
       case 'instruction':
-        items.push(tlItem('dot-instruction', 'Instruction', ev.content || '', true));
+        items.push(tlItem('dot-instruction', 'Instruction', ev.content || '', false));
         break;
       case 'agent_initialized': {
         const m = ev.metadata || {};
@@ -178,7 +178,7 @@ function trajectoryHTML(run) {
         break;
       }
       case 'final_result':
-        items.push(tlItem('dot-final', 'Final Result', ev.content || '', true));
+        items.push(tlItem('dot-final', 'Final Result', ev.content || '', false));
         break;
       default:
         items.push(tlItem('dot-init', esc(ev.type), JSON.stringify(ev, null, 2), false));

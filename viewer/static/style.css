@@ -117,20 +117,9 @@ tr:hover { background: rgba(176,141,66,.06); }
 .verdict.fail { color: var(--bad); border-color: var(--bad); background: #f8edea; }
 .verdict.error { color: var(--warn); border-color: var(--warn); background: #f6efdc; }
 
-/* ---------------- 轨迹卡片 ---------------- */
-.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
-        padding: 10px 12px; margin-bottom: 10px; box-shadow: var(--paper-shadow);
-        transition: background .15s, box-shadow .15s; }
-.card:hover { background: #fdf9ef; box-shadow: 0 2px 6px rgba(120,100,60,.14); }
-.card-head { font-weight: 600; font-size: 13px; margin-bottom: 6px; }
+/* ---------------- 徽标 ---------------- */
 .chip { background: rgba(176,141,66,.14); color: var(--muted); border-radius: 10px;
          font-size: 11px; padding: 0 7px; font-weight: 400; }
-.card-head .tokens, .card-head .mono { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.card.tool { border-left: 3px solid var(--gold); }
-.card.llm { border-left: 3px solid var(--accent); }
-.card.final, .card.instruction { border-left: 3px solid var(--good); }
-.card.init { border-left: 3px solid var(--muted); }
-.card.other { border-left: 3px solid var(--line); }
 
 /* ---------------- 代码 / JSON ---------------- */
 pre { white-space: pre-wrap; word-break: break-word; background: #f7f2e6;
@@ -189,7 +178,7 @@ details.full summary:hover, details.llm-body summary:hover { color: var(--accent
 .tle-dot.dot-instruction { background: var(--good); }
 .tle-body { flex: 1; min-width: 0; }
 .tle-hd { font-family: var(--serif); font-size: 13px; font-weight: 700; display: flex; align-items: baseline; gap: 6px; }
-.tle-hd .chip { background: #efe8d4; border-radius: 10px; font-size: 10px; padding: 0 7px; font-weight: 400; }
+.tle-hd .chip { border-radius: 10px; font-size: 10px; padding: 0 7px; font-weight: 400; }
 .tle-sub { font-family: var(--mono); font-size: 10.5px; color: var(--muted); font-weight: 400; }
 .tle details summary { cursor: pointer; font-size: 11px; color: var(--gold); margin-top: 4px; }
 .tle pre, .tle pre.input { margin-top: 4px; }
