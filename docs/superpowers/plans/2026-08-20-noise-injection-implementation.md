@@ -2086,10 +2086,51 @@ def test_integration_real_task_noisy(tmp_path):
         # manifest.rows 与 CSV 行一致
         assert len(res.manifest["rows"]) == len(res.rows)
         evdates = [r["event_date"] for r in res.rows]
-        assert all(gt["target_date"] > d >= ctx.first_even
-t_date"" for d in evdates)  # 全部落在窗口内
+        assert all(gt["target_date"] > d >= ctx.first_event_date for d in evdates)  # 全部落在窗口内
 ```
-> 注：上一步骤 `test_integration_real_task_noisy` 结尾的断言被截断，正确结尾为上面补全的三行。
+
+- [ ] **Step 1b: 补齐两张安全/行为测试（Task 5 / Task 9 延期 minor 落地）**
+
+```python
+# 追加到 tests/test_noise_safety.py：直接覆盖 _literal_leak 清除分支（Task5 延期minor）
+from pipeline.noise_injection.safety import run_safety_gate
+def test_literal_leak_branch_clears_all(tmp_path):
+    from pipeline.noise_injection.context import build_context
+    from pipeline.noise_injection.materialize import _row
+    ev = [{"group_id":"g","category":"入院","feature_name":"x","value":"y","event_date":"2023-01-01"}]
+    ctx = build_context(case_id="c1", events=ev, task_type="T2_response",
+                        target_group_id="g", target_date="2023-03-01",
+                        instruction="i", ground_truth={"response":"部分缓解"})  # GT len>=3
+    rows = [_row(ctx, category="病程", feature_name="病程",
+                 value="疗效为部分缓解", unit="", event_date="2023-02-01", layer="A")]
+    passed, rej = run_safety_gate(ctx, rows)
+    assert passed == []
+    assert any("leak" in str(r.get("reason", "")) or "GT值" in str(r.get("reason", "")) for r in rej)
+```
+
+```python
+# 追加到 tests/test_noise_pipeline.py：降级路径回归（Task9 延期minor）
+def test_pipeline_degraded_clean(tmp_path):
+    from tests.test_noise_pipeline import make_case_csv, FakeClient  # 复用同文件夹具
+    class DegradeClient(FakeClient):
+        def chat_json(self, prompt, node=None, **kw):
+            if node == "noise_evaluate":
+                return {"verdict": "inconsistent", "consistent": False,
+                        "has_reasoning": True, "explanation": "加噪后答案不稳"}
+            return super().chat_json(prompt, node=node, **kw)
+    case_id = "case_deg"
+    N.get_default_client = lambda trace_dir=None: DegradeClient()
+    final = run_case(case_id, data_root=make_case_csv(tmp_path, case_id),
+                     output_root=tmp_path / "tasks", generated_root=tmp_path / "generated")
+    assert final["status"] == "persisted"
+    m = final["noise_manifest"]
+    assert m["final_status"] == "degraded_clean" and m["rows"] == []
+    task_dir = Path(final["task_dir"])
+    assert (task_dir / "noise_manifest.json").exists()
+    assert json.loads((task_dir / "noise_manifest.json").read_text(encoding="utf-8"))["final_status"] == "degraded_clean"
+    queue = (tmp_path / "generated/review_queue.jsonl").read_text(encoding="utf-8")
+    assert "noise_gate_failed" in queue and case_id in queue
+```
 
 - [ ] **Step 2: 全量回归跑通全部测试**
 
