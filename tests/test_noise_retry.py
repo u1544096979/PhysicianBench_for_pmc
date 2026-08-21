@@ -17,7 +17,9 @@ class StubClient:
                  judge_ok=True, fail_solvable_rounds=0):
         self.plan = plan; self.eval_verdict = eval_verdict; self.judge_ok = judge_ok
         self.plan_calls = 0
+        self.calls = []  # node 调用日志（用于断言闸门3是否触发求解/评估）
     def chat_json(self, messages, node=None, **_kw):
+        self.calls.append(node)
         if node == "noise_plan":
             self.plan_calls += 1
             return self.plan
@@ -56,3 +58,17 @@ def test_retry_reduced_params_applied():
             raise AssertionError(node)
     res = run_injection(_ctx(), NoiseConfig(noise_rows=60, episodes=2, max_attempts=2), F())
     assert res.final_status == "degraded_clean"
+
+def test_empty_judged_short_circuits_gate3():
+    # 闸门1+2 拒绝全部行（judge 全拒，含重生成行再判）→ judged 为空 → 闸门3 短路：
+    # final_status 必须是 degraded_clean（而非 0 行的 "noisy"），且绝不触发
+    # noise_solve / noise_evaluate（经 client 调用日志断言）.
+    client = StubClient(judge_ok=False)
+    res = run_injection(_ctx(), NoiseConfig(noise_rows=3, episodes=1, max_attempts=1), client)
+    assert res.final_status == "degraded_clean"
+    assert res.rows == []
+    assert res.degrade_reason == "all noise rows rejected by gates 1-2"
+    assert "noise_judge" in client.calls        # 闸门2 确实执行过（原始+重生成两批）
+    assert client.calls.count("noise_judge") == 2
+    assert "noise_solve" not in client.calls    # 闸门3 短路：不求解
+    assert "noise_evaluate" not in client.calls # 闸门3 短路：不评估

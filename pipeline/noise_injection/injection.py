@@ -36,17 +36,26 @@ def judge_version() -> str:
     return NP.PROMPT_VERSIONS["judge"]
 
 
-def _manifest_rows(rows: list[dict]) -> list[dict]:
-    """从通过闸门的物化行顶层元字段生成 manifest rows（非 csv_fields）."""
-    return [{"group_id": r["group_id"], "layer": r.get("layer", "A"),
-             "episode_id": r.get("episode_id"),
-             "category": r["category"], "feature_name": r["feature_name"],
-             "value": r["value"], "event_date": r["event_date"], "judge": "pass"}
-            for r in rows]
+def _manifest_rows(rows: list[dict], noise_start_row: int | None = None) -> list[dict]:
+    """从通过闸门的物化行顶层元字段生成 manifest rows（非 csv_fields）.
+
+    spec 6.2: csv_row = 最终 noisy CSV 中的绝对 1-based 行号；
+    noise_start_row 为第一条噪声行的绝对行号（调用方按已写入数据行数计算），
+    缺省时退化为噪声块内 0-based 偏移（由调用方（如流水线 materialize 节点）
+    在 CSV 落盘后回填绝对行号）.
+    """
+    out = []
+    for i, r in enumerate(rows):
+        out.append({"group_id": r["group_id"], "layer": r.get("layer", "A"),
+                    "episode_id": r.get("episode_id"),
+                    "csv_row": (noise_start_row + i) if noise_start_row is not None else i,
+                    "category": r["category"], "feature_name": r["feature_name"],
+                    "value": r["value"], "event_date": r["event_date"], "judge": "pass"})
+    return out
 
 
 def run_injection(context, config, client, *, visible_text=None,
-                  full_attempts=None) -> InjectionResult:
+                  full_attempts=None, noise_start_row: int | None = None) -> InjectionResult:
     planner = NoisePlanner(client)
     judge = NoiseJudge(client)
     # 重试阶梯 §4.2：首档满量，后续档减量；full_attempts 截断（调试用）
@@ -69,12 +78,20 @@ def run_injection(context, config, client, *, visible_text=None,
                 regenerated = M.materialize(context, regen_plan)
                 for rr in regenerated:
                     rr["judge_status"] = "pending"
-                rp, rj = judge.judge(context, regenerated,
+                # 重生成行同样先过闸门1规则筛查（出窗日期/标志物/否认冲突/GT字面泄漏），
+                # 规则通过的行才交 LLM 裁判；规则拒绝计入 rule_rejected 汇总
+                reg_passed, reg_rule_rej = run_safety_gate(context, regenerated)
+                g1_rej = g1_rej + reg_rule_rej
+                rp, rj = judge.judge(context, reg_passed,
                                      batch_size=config.judge_batch_size)
                 judged = judged + rp
                 g2_rej = g2_rej + rj
-            # 闸门3：可解性（visible_text 由调用方传入真实可见事件文本）
-            ok, detail = S.check(context, judged, client, visible_text=visible_text)
+            # 闸门3：可解性（visible_text 由调用方传入真实可见事件文本）；
+            # 若闸门1+2 拒绝了全部行则短路，避免 0 行被标成 "noisy"
+            if judged:
+                ok, detail = S.check(context, judged, client, visible_text=visible_text)
+            else:
+                ok, detail = False, "all noise rows rejected by gates 1-2"
             attempts.append({
                 "attempt": idx, "rows_requested": n_rows + n_ep,
                 "rows_passed": len(judged),
@@ -83,7 +100,8 @@ def run_injection(context, config, client, *, visible_text=None,
                 "failure_reason": None if ok else detail,
             })
             if ok:
-                return _build_result(context, config, client, judged, attempts, "noisy")
+                return _build_result(context, config, client, judged, attempts, "noisy",
+                                     noise_start_row=noise_start_row)
             degrade_reason = detail
         except Exception as exc:  # noqa: BLE001 - 单档异常不中断，走后续重试档/降级
             attempts.append({"attempt": idx, "rows_requested": n_rows + n_ep,
@@ -92,11 +110,11 @@ def run_injection(context, config, client, *, visible_text=None,
             degrade_reason = str(exc)
 
     return _build_result(context, config, client, [], attempts, "degraded_clean",
-                         degrade_reason=degrade_reason)
+                         degrade_reason=degrade_reason, noise_start_row=noise_start_row)
 
 
 def _build_result(context, config, client, judged, attempts, final_status,
-                  degrade_reason=None) -> InjectionResult:
+                  degrade_reason=None, noise_start_row: int | None = None) -> InjectionResult:
     """judged=通过闸门的完整行（含 layer/episode_id 元字段）；内部 csv_row 化 + manifest rows."""
     final_rows = [M.csv_row(r) for r in judged]
     manifest = build_manifest(
@@ -107,7 +125,8 @@ def _build_result(context, config, client, judged, attempts, final_status,
             "prompt_versions": {"plan": planner_version(), "judge": judge_version()},
             "model": _model_name(client),
         },
-        attempts=attempts, final_status=final_status, rows=_manifest_rows(judged),
+        attempts=attempts, final_status=final_status,
+        rows=_manifest_rows(judged, noise_start_row),
         degrade_reason=degrade_reason,
     )
     entries = []

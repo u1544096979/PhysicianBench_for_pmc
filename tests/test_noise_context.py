@@ -42,6 +42,32 @@ def test_build_context_fields():
     # 惯例采样：检验→血液
     assert ctx.convention_by_category["检验"]["subject"] == "血液"
 
+def test_denial_paren_history_normalized():
+    # '否认高血压（史）' → 否认项 '高血压'（尾部括注（史）被剥离，而非 '高血压（史）'）
+    ev = [
+        {"group_id":"g0","category":"入院","feature_name":"入院年龄","value":"66","event_date":"2023-03-01"},
+        {"group_id":"g4","category":"病史","feature_name":"既往史",
+         "value":"否认高血压（史）","event_date":"2023-03-01"},
+    ]
+    ctx = build_context(case_id="c1", events=ev, task_type="T2_response",
+                        target_group_id="g0", target_date="2023-08-14",
+                        instruction="评估疗效", ground_truth={"response":"PR"})
+    assert "高血压" in ctx.denial_terms
+    assert "高血压（史）" not in ctx.denial_terms
+
+def test_denial_paren_history_variants():
+    # 半角 '(史)' 与 '（病史）' 括注同样剥离；枚举 '否认 A（史）、B(病史)' 逐项提取
+    ev = [
+        {"group_id":"g0","category":"入院","feature_name":"x","value":"y","event_date":"2023-03-01"},
+        {"group_id":"g4","category":"病史","feature_name":"既往史",
+         "value":"否认糖尿病（史）、冠心病(病史)","event_date":"2023-03-01"},
+    ]
+    ctx = build_context(case_id="c2", events=ev, task_type="T1_staging",
+                        target_group_id="g0", target_date="2023-03-02",
+                        instruction="i", ground_truth={})
+    assert "糖尿病" in ctx.denial_terms
+    assert "冠心病" in ctx.denial_terms
+
 def test_convention_fallback():
     ev = [{"group_id":"g","category":"入院","feature_name":"x","value":"y","event_date":"2023-01-01"}]
     ctx = build_context(case_id="c2", events=ev, task_type="T1_staging",

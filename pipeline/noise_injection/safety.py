@@ -2,7 +2,7 @@ from __future__ import annotations
 import re
 
 from . import catalog
-from .context import CaseContext
+from .context import CaseContext, strip_paren_history
 
 
 def row_text(row: dict) -> str:
@@ -12,8 +12,21 @@ def row_text(row: dict) -> str:
 
 
 def _denial_trigger(text: str, denial_terms) -> str | None:
+    """否认冲突触发：术语与文本两侧均去掉尾部 '（史）'/'(病史)' 括注后再子串匹配.
+
+    例：否认项 '高血压（史）' 提取为 '高血压'，噪声行 '新发高血压（史）' 归一为
+    '新发高血压'，两侧都能命中；'否认高血压、糖尿病史' 的裸 '史' 形式保持原有行为.
+    """
+    base = str(text)
+    norm_base = strip_paren_history(base)
     for t in denial_terms:
-        if t and str(t).strip() and (t in text or t.replace("史", "") in text):
+        tt = str(t).strip()
+        if not tt:
+            continue
+        if tt in base:
+            return t
+        tt_norm = strip_paren_history(tt).rstrip("史").strip()
+        if tt_norm and (tt_norm in norm_base or tt_norm in base):
             return t
     return None
 

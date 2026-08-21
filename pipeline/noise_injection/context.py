@@ -1,5 +1,6 @@
 from __future__ import annotations
 import csv
+import re
 from dataclasses import dataclass, field
 from collections import OrderedDict, defaultdict
 
@@ -19,11 +20,40 @@ class CaseContext:
     convention_by_category: dict = field(default_factory=dict)
     matrix_rows: tuple[dict, ...] = field(default_factory=tuple)  # raw event dicts
     encnt_no: str = ""
+    target_group_id: str = ""
+
+    _FACT_DIGEST_CATEGORIES = ("病史", "诊断", "用药")
+    _FACT_DIGEST_LIMIT = 800
 
     def case_facts_text(self) -> str:
-        """注入给 LLM 的病例事实摘要（避免矛盾噪声，不泄露标准答案值）."""
-        return ("病例ID=%s；评估时点（截断日）=%s；首个事件日期=%s"
-                % (self.case_id, self.target_date, self.first_event_date))
+        """注入给 LLM 的病例事实摘要（避免矛盾噪声，不泄露标准答案值）.
+
+        含：基础信息 + 否认项（denial terms）+ 病例既有 病史/诊断/用药 行紧凑摘要
+        （subject+feature_name+value，总长截断至 800 字符）。不含 ground_truth 值、
+        不含目标组（答案组）行.
+        """
+        parts = ["病例ID=%s；评估时点（截断日）=%s；首个事件日期=%s"
+                 % (self.case_id, self.target_date, self.first_event_date)]
+        if self.denial_terms:
+            parts.append("既往史否认项（噪声不得出现）: " + "、".join(self.denial_terms))
+        lines: list[str] = []
+        for r in self.matrix_rows:
+            if r.get("group_id") == self.target_group_id:
+                continue  # 目标组=答案组，不得进入裁判/求解上下文
+            if r.get("category") not in self._FACT_DIGEST_CATEGORIES:
+                continue
+            subject = str(r.get("subject", "") or "").strip()
+            fn = str(r.get("feature_name", "") or "").strip()
+            val = str(r.get("value", "") or "").strip()
+            if not fn and not val:
+                continue
+            lines.append(" ".join(x for x in (subject, fn, val) if x))
+        if lines:
+            digest = "; ".join(lines)
+            if len(digest) > self._FACT_DIGEST_LIMIT:
+                digest = digest[:self._FACT_DIGEST_LIMIT]
+            parts.append("病例既有事实（病史/诊断/用药摘要）: " + digest)
+        return "\n".join(parts)
 
     def visible_noise_abs_dates(self) -> list[str]:
         return sorted(set(str(r.get("event_date", "")) for r in self.matrix_rows if r.get("event_date")))
@@ -34,9 +64,17 @@ def _first_event(rows) -> str:
     return min(dates) if dates else ""
 
 
+# 尾部括注形式：（史）/(史)/（病史）/(病史)（全角/半角括号）
+_PAREN_HISTORY_RE = re.compile(r"[（(](?:病史|史)[）)]\s*$")
+
+
+def strip_paren_history(text: str) -> str:
+    """去掉词/文本尾部的 '（史）'/'(史)'/'（病史）'/'(病史)' 括注（供提取与匹配共用）."""
+    return _PAREN_HISTORY_RE.sub("", str(text).strip()).strip()
+
+
 def _extract_denials(rows) -> list[str]:
-    """从 病史/诊断 行提取 '否认 X（史）' 的 X，支持 '否认 A、B（史）' 枚举形式."""
-    import re
+    """从 病史/诊断 行提取 '否认 X'/'否认 X（史）' 的 X，支持 '否认 A、B（史）' 枚举形式."""
     terms: list[str] = []
     for r in rows:
         cat = r.get("category", "")
@@ -46,7 +84,8 @@ def _extract_denials(rows) -> list[str]:
                                       ("feature_name", "value", "extra_value", "actual_value")]))
         for m in re.finditer(r"否认\s*([^，。；\s]{1,40})", text):
             for part in re.split(r"[、，,]", m.group(1)):
-                t = part.strip().rstrip("史").strip()
+                # 先去掉尾部（史）/(病史) 括注，再去裸 '史' 后缀
+                t = strip_paren_history(part).rstrip("史").strip()
                 if t and t not in terms and len(t) <= 8:
                     terms.append(t)
     return terms
@@ -123,6 +162,7 @@ def build_context(*, case_id, events, task_type, target_group_id, target_date,
         denial_terms=tuple(_extract_denials(rows)),
         convention_by_category={c: _convention_for(rows, c) for c in catalog.ALLOWED_CATEGORIES},
         matrix_rows=tuple(rows),
+        target_group_id=target_group_id,
     )
     object.__setattr__(ctx, "encnt_no", _first_encnt(rows))
     return ctx

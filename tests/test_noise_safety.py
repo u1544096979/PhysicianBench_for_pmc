@@ -54,6 +54,26 @@ def test_denial_term_scan_rejected():
     passed, rej = run_safety_gate(ctx, rows)
     assert not passed
 
+def test_denial_paren_history_conflict_rejected():
+    # 病例 '否认高血压（史）' → 归一化否认项 '高血压'；
+    # 噪声行 '新发高血压（史）' 命中否认冲突 → run_safety_gate 拒绝
+    ev = [
+        {"group_id":"g0","category":"入院","feature_name":"入院年龄","value":"66","event_date":"2023-03-01"},
+        {"group_id":"g2","category":"病理","feature_name":"CEA","value":"3.1","event_date":"2023-07-02"},
+        {"group_id":"gt","category":"评估","feature_name":"疗效评估","value":"PR","event_date":"2023-08-14"},
+        {"group_id":"g4","category":"病史","feature_name":"既往史",
+         "value":"否认高血压（史）","event_date":"2023-03-01"},
+    ]
+    ctx = build_context(case_id="c1", events=ev, task_type="T2_response",
+                        target_group_id="gt", target_date="2023-08-14",
+                        instruction="评估疗效", ground_truth={"response":"PR"})
+    assert "高血压" in ctx.denial_terms  # 前提：否认项已归一化
+    rows = [_row(ctx, category="病程", feature_name="症状", value="新发高血压（史）", unit="",
+                 event_date="2023-07-01", layer="A")]
+    passed, rej = run_safety_gate(ctx, rows)
+    assert not passed
+    assert any("否认冲突" in str(r.get("reason", "")) for r in rej)
+
 def test_literal_leak_covers_noise():
     ctx = _ctx()  # instruction 不含答案；但噪声行直接写答案应被拒
     rows = [_row(ctx, category="病程", feature_name="病程",

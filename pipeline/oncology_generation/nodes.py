@@ -471,6 +471,15 @@ def materialize(state: GenerationState) -> dict:
     # 追加噪声行 + 写 manifest
     noise_rows = state.get("noise_rows") or []
     if noise_rows:
+        # spec 6.2: manifest 每行 csv_row = 最终 noisy CSV 中的绝对 1-based 行号。
+        # inject_noise 节点先于本节点运行（CSV 尚未落盘），故此处按实际写入的
+        # 干净数据行数回填：表头占第 1 行，首条噪声行 = 干净数据行数 + 2。
+        with cleaned_csv.open("r", encoding="utf-8", newline="") as fh:
+            n_clean_rows = sum(1 for _ in csv.DictReader(fh))
+        manifest = state.get("noise_manifest")
+        if isinstance(manifest, dict):
+            for i, mrow in enumerate(manifest.get("rows") or []):
+                mrow["csv_row"] = n_clean_rows + 2 + i
         _append_noise_to_csv(cleaned_csv, noise_rows)
     noise_manifest = state.get("noise_manifest")
     if noise_manifest is not None:

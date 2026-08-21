@@ -30,6 +30,7 @@ from pipeline.noise_injection.injection import run_injection
 from pipeline.noise_injection.manifest import read_manifest, write_manifest
 from pipeline.noise_injection.materialize import CSV_FIELDS
 from pipeline.oncology_generation.paths import safe_case_path
+from pipeline.oncology_generation.schemas import build_event_groups, serialize_groups
 
 SRC_ROOT = PROJECT_ROOT / "tasks/oncology-v2"
 OUT_ROOT = PROJECT_ROOT / "tasks/oncology-v2-noisy"
@@ -82,6 +83,27 @@ def _task_payload(src_dir: Path):
     return toml, gt, instruction
 
 
+def _load_cleaned(cleaned_path: Path) -> tuple[list[str], list[dict], str]:
+    """读源任务 cleaned_trajectory.csv.
+
+    返回 (fieldnames, 数据行列表, 干净可见事件文本)。
+    可见事件文本按 agent 视角渲染（与流水线 solve 一致）：
+    build_event_groups + serialize_groups(full=True)，_source_row 按 CSV 行号（含表头从2计）.
+    """
+    events: list[dict] = []
+    rows: list[dict] = []
+    with cleaned_path.open("r", encoding="utf-8-sig", newline="") as fh:
+        reader = csv.DictReader(fh)
+        fieldnames = list(reader.fieldnames or CSV_FIELDS)
+        for source_row, row in enumerate(reader, start=2):
+            rows.append(row)
+            event = {k: (v or "") for k, v in row.items() if k}
+            event["_source_row"] = str(source_row)
+            events.append(event)
+    visible_text = serialize_groups(build_event_groups(events), full=True)
+    return fieldnames, rows, visible_text
+
+
 def process_case(case_id: str, *, client, dry_run: bool, noise_dir_exists: bool) -> dict:
     src_dir = SRC_ROOT / safe_case_path(SRC_ROOT, case_id)
     raw = RAW_ROOT / f"{case_id}.csv"
@@ -93,7 +115,15 @@ def process_case(case_id: str, *, client, dry_run: bool, noise_dir_exists: bool)
     ctx = case_from_csv(case_id, raw, task_type=task_type,
                         target_group_id=target_group_id, target_date=target_date,
                         instruction=instruction, ground_truth=ground_truth)
-    result = run_injection(ctx, NoiseConfig(), client, full_attempts=1 if dry_run else None)
+    # 源任务 cleaned csv：数据行 + 干净可见事件文本（闸门3求解必须看到真实可见事件，
+    # 而非 case_facts_text 存根）；noise_start_row = 最终 noisy CSV 中首条噪声行的
+    # 1-based 绝对行号（表头1行 + 原始数据行 + 1）
+    cleaned_src = src_dir / "cleaned_trajectory.csv"
+    fieldnames, orig, visible_text = _load_cleaned(cleaned_src)
+    noise_start_row = len(orig) + 2
+    result = run_injection(ctx, NoiseConfig(), client, visible_text=visible_text,
+                           full_attempts=1 if dry_run else None,
+                           noise_start_row=noise_start_row)
     # 写 review_queue（降级）
     if not dry_run and result.review_queue_entries:
         QUEUE_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -113,13 +143,8 @@ def process_case(case_id: str, *, client, dry_run: bool, noise_dir_exists: bool)
             if not dst.exists():  # 避免每次覆盖造成非幂等
                 dst.write_bytes(src.read_bytes())
     # cleaned：原始行 + 噪声行（原版 cleaned 即"干净版"）
-    cleaned_src = src_dir / "cleaned_trajectory.csv"
     cleaned_dst = out_dir / "cleaned_trajectory.csv"
     if result.rows:
-        with cleaned_src.open("r", encoding="utf-8-sig", newline="") as fh:
-            reader = csv.DictReader(fh)
-            fieldnames = list(reader.fieldnames or CSV_FIELDS)
-            orig = list(reader)
         with cleaned_dst.open("w", encoding="utf-8", newline="") as fh:
             wr = csv.DictWriter(fh, fieldnames=fieldnames, extrasaction="ignore")
             wr.writeheader()
