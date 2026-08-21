@@ -125,7 +125,7 @@ function checkpointsHTML(run) {
         <td class="mono">${esc(c.checkpoint_id)}</td>
         <td>${esc(c.layer)}</td>
         <td>${esc(c.description)}</td>
-        <td><span class="verdict ${esc(c.verdict)}">${esc(c.verdict)}</span></td>
+        <td><span class="verdict ${esc(c.verdict)}">${esc((c.verdict||'').toUpperCase())}</span></td>
         <td>${esc(c.judge)}</td>
         <td>${esc(c.comment)}</td>
       </tr>`).join('')}</tbody></table></div>`;
@@ -193,7 +193,8 @@ function reportHTML(run) {
 
 function groundTruthHTML(run) {
   if (!run || run.ground_truth == null) return '<div class="empty">该病例缺少 ground_truth.json。</div>';
-  return `<pre class="json">${esc(JSON.stringify(run.ground_truth, null, 2))}</pre>`;
+  const pretty = JSON.stringify(run.ground_truth, null, 2);
+  return `<details class="panel" open><summary class="panel-hd">Ground Truth <span class="chip">JSON</span></summary><pre class="json">${esc(pretty)}</pre></details>`;
 }
 
 function csvHTML(run) {
@@ -206,8 +207,10 @@ function taskInfoHTML(task) {
   if (!cps.length) return '<div class="empty">该病例无 checkpoint 定义（checkpoints.json 缺失或为空）。</div>';
   const paramsCell = (p) => {
     const empty = p == null || (typeof p === 'object' && Object.keys(p).length === 0);
-    return empty ? '<td class="mono">—</td>'
-      : `<td><pre class="json">${esc(JSON.stringify(p, null, 2))}</pre></td>`;
+    if (empty) return '<td class="mono">—</td>';
+    const keyCount = Object.keys(p).length;
+    const prettyParams = JSON.stringify(p, null, 2);
+    return `<td><details class="params"><summary>params（${keyCount} 键）</summary><pre class="json">${esc(prettyParams)}</pre></details></td>`;
   };
   return `<div class="table-wrap"><table><thead><tr>
       <th>checkpoint_id</th><th>layer</th><th>description</th><th>eval_method</th><th>params</th>

@@ -103,15 +103,19 @@ th, td { border-bottom: 1px solid var(--line); padding: 6px 10px;
          text-align: left; vertical-align: top; }
 th { background: #f7f1e1; color: var(--muted); font-size: 11px;
      letter-spacing: .04em; position: sticky; top: 0; }
+.table-wrap th { color: var(--gold); text-transform: uppercase;
+                 letter-spacing: .08em; font-weight: 600; }
 tr { transition: background .15s; }
 tr:hover { background: rgba(176,141,66,.06); }
 
-/* ---------------- 判分徽标 ---------------- */
-.verdict { padding: 1px 8px; border-radius: 10px; color: #fffdf8;
-           font-size: 11px; font-weight: 600; letter-spacing: .03em; }
-.verdict.pass { background: var(--good); }
-.verdict.fail { background: var(--bad); }
-.verdict.error { background: var(--warn); }
+/* ---------------- 判分徽标（印章式：描边 + 浅底 + 语义色） ---------------- */
+.verdict { display: inline-block; padding: 2px 8px; border-radius: 3px;
+           border: 1px solid var(--line); font-family: var(--serif);
+           font-size: 10px; font-weight: 600; text-transform: uppercase;
+           letter-spacing: .5px; }
+.verdict.pass { color: var(--good); border-color: var(--good); background: #f2f7f1; }
+.verdict.fail { color: var(--bad); border-color: var(--bad); background: #f8edea; }
+.verdict.error { color: var(--warn); border-color: var(--warn); background: #f6efdc; }
 
 /* ---------------- 轨迹卡片 ---------------- */
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
@@ -119,8 +123,8 @@ tr:hover { background: rgba(176,141,66,.06); }
         transition: background .15s, box-shadow .15s; }
 .card:hover { background: #fdf9ef; box-shadow: 0 2px 6px rgba(120,100,60,.14); }
 .card-head { font-weight: 600; font-size: 13px; margin-bottom: 6px; }
-.card-head .chip { background: rgba(176,141,66,.14); color: var(--muted); border-radius: 10px;
-                   font-size: 11px; padding: 0 7px; font-weight: 400; }
+.chip { background: rgba(176,141,66,.14); color: var(--muted); border-radius: 10px;
+         font-size: 11px; padding: 0 7px; font-weight: 400; }
 .card-head .tokens, .card-head .mono { color: var(--muted); font-size: 11px; margin-left: 6px; }
 .card.tool { border-left: 3px solid var(--gold); }
 .card.llm { border-left: 3px solid var(--accent); }
@@ -134,12 +138,37 @@ pre { white-space: pre-wrap; word-break: break-word; background: #f7f2e6;
       font-family: var(--mono); font-size: 12px; line-height: 1.6; margin: 6px 0 0; }
 pre.json { max-height: 420px; overflow: auto; }
 
-/* ---------------- 折叠面板 ---------------- */
+/* ---------------- 折叠面板（期刊风） ---------------- */
 details.output summary, details.reasoning summary, details.full summary,
 details.llm-body summary {
   cursor: pointer; font-size: 12px; color: var(--muted); transition: color .15s; }
 details.output summary:hover, details.reasoning summary:hover,
 details.full summary:hover, details.llm-body summary:hover { color: var(--accent); }
+
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+         box-shadow: var(--paper-shadow); margin-bottom: 12px; }
+.panel > summary.panel-hd { cursor: pointer; user-select: none; display: flex;
+  align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px dashed transparent;
+  font-family: var(--serif); font-variant: small-caps; font-size: 14px; font-weight: 600;
+  letter-spacing: .03em; color: var(--accent); transition: color .15s; }
+.panel > summary.panel-hd::before { content: "▸"; color: var(--gold); font-size: 11px;
+  transition: transform .15s; }
+.panel > summary.panel-hd::marker, .panel > summary.panel-hd::-webkit-details-marker { display: none; }
+.panel > summary.panel-hd:hover { color: var(--ink); }
+.panel[open] > summary.panel-hd { border-bottom-color: var(--line-dash); }
+.panel[open] > summary.panel-hd::before { transform: rotate(90deg); }
+.panel > pre { margin: 10px 14px 14px; }
+
+/* params 抽屉（任务信息表） */
+.params { margin-top: 2px; }
+.params > summary { cursor: pointer; font-family: var(--serif); font-size: 12px;
+  font-weight: 600; letter-spacing: .02em; color: var(--accent); transition: color .15s; }
+.params > summary::before { content: "▸"; color: var(--gold); display: inline-block;
+  font-size: 11px; margin-right: 6px; transition: transform .15s; }
+.params > summary::marker, .params > summary::-webkit-details-marker { display: none; }
+.params > summary:hover { color: var(--ink); }
+.params[open] > summary::before { transform: rotate(90deg); }
+.params > pre { margin-top: 6px; }
 
 /* ---------------- 提示条 / Markdown ---------------- */
 .warn { color: var(--warn); font-size: 12px; margin-bottom: 10px; }
