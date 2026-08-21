@@ -224,6 +224,8 @@ class GenerationState(TypedDict, total=False):
     review_reason: str
     cleaned_csv: str
     task_dir: str
+    noise_rows: list[dict] | None
+    noise_manifest: dict | None
 
 
 def new_state(
@@ -256,4 +258,6 @@ def new_state(
         review_reason="",
         cleaned_csv="",
         task_dir="",
+        noise_rows=None,
+        noise_manifest=None,
     )

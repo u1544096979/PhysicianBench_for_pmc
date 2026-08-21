@@ -63,16 +63,16 @@ scripts/apply_noise.py                # 存量批处理
 
 **Interfaces 一览（后续任务依赖签名）**：
 - `NoiseConfig(noise_rows=60, episodes=2, retry_reduced=(30,1), max_attempts=3, judge_batch_size=10)`（frozen dataclass，`config.py`）
-- `catalog`：`ALLOWED_CATEGORIES: tuple[str,...]`、`FORBIDDEN_CATEGORIES: tuple[str,...]`、`TUMOR_MARKERS: tuple[str,...]`、`ANTI_TUMOR_DRUG_MARKERS: tuple[str,...]`、`FORBIDDEN_TERMS_BY_CATEGORY: dict[str, tuple[str,...]]`、`SUPPORTIVE_MEDICATIONS: tuple[str,...]`、`LAYER_B_MEDICATIONS: tuple[str,...]`、`FEATURE_NAMES_BY_CATEGORY: dict[str, tuple[str,...]]`、`NORMAL_DEFAULTS_BY_CATEGORY: dict`、`DEFAULT_CONVENTIONS: dict[str, dict]`、`CATEGORY_FEATURE_TYPE_FALLBACK: dict[str, tuple[str,...]]`、`scan_forbidden(text) -> list[str]`
+- `catalog`：`ALLOWED_CATEGORIES: tuple[str,...]`、`FORBIDDEN_CATEGORIES: tuple[str,...]`、`TUMOR_MARKERS: tuple[str,...]`、`ANTI_TUMOR_DRUG_MARKERS: tuple[str,...]`、`FORBIDDEN_TERMS_BY_CATEGORY: dict[str, tuple[str,...]]`、`SUPPORTIVE_MEDICATIONS: tuple[str,...]`、`LAYER_B_MEDICATIONS: tuple[str,...]`、`FEATURE_NAMES_BY_CATEGORY: dict[str, tuple[str,...]]`、`DEFAULT_CONVENTIONS: dict[str, dict]`、`CATEGORY_FEATURE_TYPE_FALLBACK: dict[str, tuple[str,...]]`、`scan_forbidden(text) -> list[str]`
 - `CaseContext`（`context.py`，frozen dataclass）：`case_id / encnt_no / task_type / target_date / first_event_date / instruction / ground_truth / key_evidence_dates: list[str] / denial_terms: list[str] / convention_by_category: dict[str, dict] / matrix_rows: list[dict]`（raw event dicts，含 group_id/category/subject/feature_name/value/event_date）`;` 以及函数 `build_context(*, case_id, events, task_type, target_group_id, target_date, instruction, ground_truth, answer_event_rows=None, first_event_date=None) -> CaseContext`
 - `prompts.py`：`PROMPT_VERSIONS = {"plan":"v1","judge":"v1"}`、`build_plan_prompt(context, noise_rows, episodes) -> list[dict]`、`build_judge_prompt(context, rows_batch) -> list[dict]`
 - `plan.py`：`NoisePlanner(client)` with `plan(context, *, noise_rows, episodes) -> dict`（返回 `{"layer_a":[...], "episodes":[...]}`）
-- `materialize.py`：`materialize(context, plan) -> list[dict]`（每个行 dict 含 17 个 CSV 字段 + 前缀 `_` 元字段 `_layer/_episode_id`）
+- `materialize.py`：`materialize(context, plan) -> list[dict]`（每个行 dict 含 17 个 CSV 字段 + 元字段 `layer`/`episode_id`（**无下划线前缀**，与真实 CSV 列 `_record_source` 区分））
 - `safety.py`：`run_safety_gate(context, rows) -> (passed: list[dict], rejections: list[dict])`
 - `judge.py`：`NoiseJudge(client)` with `judge(context, rows, batch_size=10) -> (passed, rejections)`
 - `solvable.py`：`check(context, rows, client) -> (ok: bool, detail: str)`
 - `manifest.py`：`build_manifest(context, result) -> dict`、`write_manifest(path, manifest)`、`read_manifest(path) -> dict`
-- `injection.py`：`run_injection(context, config, client) -> InjectionResult(final_status, rows, manifest, attempts, review_queue_entries, degrade_reason)`；`InjectionResult` 加 `@property passed_rows`（17 字段行，无 `_` 元字段）
+- `injection.py`：`run_injection(context, config, client, *, visible_text=None, full_attempts=None) -> InjectionResult(final_status, rows, manifest, attempts, review_queue_entries, degrade_reason)`，`rows` 为 17 字段 CSV 行、不含元字段。`visible_text` 为可选的干净可见事件序列化文本，内部透传给 `solvable.check`（实现在 `injection.py`）。
 - `nodes.py`（modify）：`inject_noise(state) -> dict`；`materialize` 追噪
 - `graph.py`（modify）：`evaluate_solution → inject_noise → generate_checkpoints`
 - `scripts/apply_noise.py`：CLI `--dry-run/--resume/--limit/--case-ids/--workers`
@@ -696,7 +696,7 @@ def test_convention_sampled():
 
 def test_episode_id_preserved_in_meta():
     rows = materialize(_ctx(), PLAN)
-    epis = [r for r in rows if r.get("_episode_id") == "ep1"]
+    epis = [r for r in rows if r.get("episode_id") == "ep1"]
     assert len(epis) == 2
 
 def test_numeric_row_has_unit_and_parseable_value():
@@ -1354,9 +1354,9 @@ def test_manifest_roundtrip(tmp_path, ):
     assert loaded["rows"][0]["csv_row"] == 57
 
 def test_build_manifest_degraded_has_empty_rows():
-    res = type("R", (), {"final_status":"degraded_clean","rows":[],"attempts":[],
-                         "degrade_reason":"x","config_snapshot":{}})()
-    m = build_manifest(case_id="c1", task_type="T2_response", result=res)
+    m = build_manifest(case_id="c1", task_type="T2_response", generated_at="t",
+                       config_snapshot={}, attempts=[],
+                       final_status="degraded_clean", rows=[])
     assert m["final_status"] == "degraded_clean" and m["rows"] == []
 ```
 
@@ -1412,12 +1412,11 @@ def test_degraded_clean_when_all_fail():
     assert res.rows == [] and res.degrade_reason
 
 def test_retry_reduced_params_applied():
-    client = StubClient()
-    c = StubClient()
-    # 第一次plan失败（返回空导致pass0 → solvable? 空rows也算通过? ）此处测：让plan在attempt1抛错降级
-    class F: 
+    # 让 noise_plan 在 attempt1 抛错 → 触发降级路径
+    class F:
         def chat_json(self, messages, node=None, **kw):
-            if node=="noise_plan": raise RuntimeError("gen fail")
+            if node == "noise_plan":
+                raise RuntimeError("gen fail")
             raise AssertionError(node)
     res = run_injection(_ctx(), NoiseConfig(noise_rows=60, episodes=2, max_attempts=2), F())
     assert res.final_status == "degraded_clean"
@@ -1491,7 +1490,7 @@ def _model_name(client) -> str:
     return getattr(getattr(client, "_client", None), "model", "") or getattr(client, "model", "unknown")
 
 
-def run_injection(context, config, client, *, full_attempts=None) -> InjectionResult:
+def run_injection(context, config, client, *, visible_text=None, full_attempts=None) -> InjectionResult:
     planner = NoisePlanner(client)
     judge = NoiseJudge(client)
     ladder = [(config.noise_rows, config.episodes)] + [config.retry_reduced] * (config.max_attempts - 1)
@@ -1508,7 +1507,7 @@ def run_injection(context, config, client, *, full_attempts=None) -> InjectionRe
             # gate2：逐行裁判 + 被拒行重生成一次再判，仍拒则丢弃
             judged, g2_rej = judge.judge(context, g1_passed, batch_size=config.judge_batch_size)
             regenerated = []
-            if g2_rej and judged_has_room(judged, n_rows):
+            if g2_rej:
                 regen_plan = planner.plan(context, noise_rows=len(g2_rej), episodes=0)
                 for rr in M.materialize(context, regen_plan):
                     rr["judge_status"] = "pending"
@@ -1516,9 +1515,8 @@ def run_injection(context, config, client, *, full_attempts=None) -> InjectionRe
                 rp, rj = judge.judge(context, regenerated, batch_size=config.judge_batch_size)
                 judged = judged + rp
                 g2_rej = g2_rej + rj
-            # gate3：可解性
-            ok, detail = S.check(context, judged, client,
-                                 visible_text=getattr(context, "_visible_text", None))
+            # gate3：可解性（visible_text 由调用方 Thread 传入：pipeline/脚本提供真实可见事件文本）
+            ok, detail = S.check(context, judged, client, visible_text=visible_text)
             attempts.append({
                 "attempt": idx, "rows_requested": n_rows + n_ep,
                 "rows_passed": len(judged),
@@ -1527,8 +1525,7 @@ def run_injection(context, config, client, *, full_attempts=None) -> InjectionRe
                 "failure_reason": None if ok else detail,
             })
             if ok:
-                final_rows = [M.csv_row(r) for r in judged]
-                return _build_result(context, config, client, final_rows, attempts, "noisy")
+                return _build_result(context, config, client, judged, attempts, "noisy")
             degrade_reason = detail
         except Exception as exc:  # noqa: BLE001
             attempts.append({"attempt": idx, "rows_requested": n_rows + n_ep,
@@ -1540,8 +1537,31 @@ def run_injection(context, config, client, *, full_attempts=None) -> InjectionRe
                          degrade_reason=degrade_reason)
 
 
-def judged_has_room(judged, n_rows):
-    return True
+def _build_result(context, config, client, judged, attempts, final_status,
+                  degrade_reason=None) -> InjectionResult:
+    """judged=通过闸门的完整行（含 layer/episode_id 元字段）；内部 csv_row 化 + _manifest_rows。"""
+    final_rows = [M.csv_row(r) for r in judged]
+    manifest = build_manifest(
+        case_id=context.case_id, task_type=context.task_type,
+        generated_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        config_snapshot={
+            "noise_rows": config.noise_rows, "episodes": config.episodes,
+            "prompt_versions": {"plan": planner_version(), "judge": judge_version()},
+            "model": _model_name(client),
+        },
+        attempts=attempts, final_status=final_status, rows=_manifest_rows(judged),
+        degrade_reason=degrade_reason,
+    )
+    entries = []
+    if final_status == "degraded_clean":
+        entries.append({
+            "case_id": context.case_id, "reason_class": "noise_gate_failed",
+            "detail": degrade_reason or "noise gates all failed",
+            "attempts": attempts,
+        })
+    return InjectionResult(final_status=final_status, rows=final_rows, manifest=manifest,
+                           attempts=attempts, review_queue_entries=entries,
+                           degrade_reason=degrade_reason)
 
 
 def _build_result(context, config, client, final_rows, attempts, final_status,
@@ -1587,36 +1607,6 @@ def _manifest_rows(rows: list[dict]) -> list[dict]:
             for r in rows]
 ```
 
-> 注：`csv_row` 不含 `_layer/_episode_id` 元字段，manifest 的 `.rows` 来自 `_manifest_rows`（读元字段），故 `csv_row` 与 manifest 的 `layer/episode_id` 需在 `_manifest_rows` 前先取出（`rows` 传的是 `judged` 完整行而非 `csv_row`）。`_build_result` 的 `final_rows` 传 `[M.csv_row(r) for r in judged]`，manifest 用 `_manifest_rows(judged)`——为正确取 layer/episode_id，`_build_result` 需同时拿到完整 `judged`。修正：让 `run_injection` 传 `judged` 给 `_build_result`，并在内部 `csv_row` 化。为确保一致性，将签名改为 `_build_result(context, config, client, judged, attempts, final_status, degrade_reason=None)`，内部 `final_rows=[M.csv_row(r) for r in judged]`、`rows=_manifest_rows(judged)`。
-
-- [ ] **Step 4b: 应用签名修正**
-
-```python
-def _build_result(context, config, client, judged, attempts, final_status,
-                  degrade_reason=None) -> InjectionResult:
-    final_rows = [M.csv_row(r) for r in judged]
-    manifest = build_manifest(
-        case_id=context.case_id, task_type=context.task_type,
-        generated_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        config_snapshot={"noise_rows": config.noise_rows, "episodes": config.episodes,
-                         "prompt_versions": {"plan": planner_version(), "judge": judge_version()},
-                         "model": _model_name(client)},
-        attempts=attempts, final_status=final_status, rows=_manifest_rows(judged),
-        degrade_reason=degrade_reason,
-    )
-    entries = []
-    if final_status == "degraded_clean":
-        entries.append({"case_id": context.case_id, "reason_class": "noise_gate_failed",
-                        "detail": degrade_reason or "noise gates all failed", "attempts": attempts})
-    return InjectionResult(final_status=final_status, rows=final_rows, manifest=manifest,
-                           attempts=attempts, review_queue_entries=entries,
-                           degrade_reason=degrade_reason)
-```
-
-并把 `run_injection` 内两处 `_build_result(...)` 调用改为传 `judged`（noisy 分支：ok 时 `return _build_result(context, config, client, judged, attempts, "noisy")`；降级：`return _build_result(context, config, client, [], attempts, "degraded_clean", degrade_reason)`）。
-
-> 说明：`run_injection` 在 attempt 失败后**不保留部分通过行**，而是按 §4.2 重试阶梯整轮重做（更简单、语义清晰）。gate3 失败 → 下一轮用减量参数重新 plan。全部 attempt 用完仍未过 gate3 → `degraded_clean`。
-
 - [ ] **Step 5: Run to verify pass**
 Run: `pytest tests/test_noise_manifest.py tests/test_noise_retry.py -q` → PASS
 
@@ -1632,6 +1622,7 @@ git commit -m "feat(noise): manifest + injection orchestrator with retry ladder"
 
 **Files:**
 - Modify: `pipeline/oncology_generation/schemas.py`（state 字段）、`graph.py`、`nodes.py`
+- Modify: `tests/test_v2_integration.py`（其 FakeClient/script 需补 `noise_plan/noise_judge/noise_solve/noise_evaluate` 回应——graph 在 valid 分支现已总是跑 inject_noise，否则既有持久化路径测试会 KeyError）
 - Test: `tests/test_noise_pipeline.py`（新增）
 
 **Interfaces:** Consumes `run_injection`, `build_context`, `csv_row`, `write_manifest`, `append_review_item`; Produces state fields + `inject_noise` node + materialize 追噪。
@@ -1758,11 +1749,12 @@ def inject_noise(state: GenerationState) -> dict:
         ground_truth=draft.ground_truth,
         answer_event_rows=draft.answer_event_rows,
     )
-    # 提供给 solvable gate3 的干净可见事件文本
+    # 提供给 solvable gate3 的干净可见事件文本（透传 visible_text kwarg；
+    # CaseContext 为 frozen dataclass，不可用 object.__setattr__ 附加属性）
     visible = visible_groups(state["groups"], draft.target_group_id, draft.answer_event_rows)
-    object.__setattr__(ctx, "_visible_text", serialize_groups(visible, full=True))
+    visible_text = serialize_groups(visible, full=True)
     client = _client(state)
-    result = run_injection(ctx, NoiseConfig(), client)
+    result = run_injection(ctx, NoiseConfig(), client, visible_text=visible_text)
     update: dict[str, Any] = {"noise_rows": result.rows, "noise_manifest": result.manifest}
     return update
 
@@ -2094,10 +2086,51 @@ def test_integration_real_task_noisy(tmp_path):
         # manifest.rows 与 CSV 行一致
         assert len(res.manifest["rows"]) == len(res.rows)
         evdates = [r["event_date"] for r in res.rows]
-        assert all(gt["target_date"] > d >= ctx.first_even
-t_date"" for d in evdates)  # 全部落在窗口内
+        assert all(gt["target_date"] > d >= ctx.first_event_date for d in evdates)  # 全部落在窗口内
 ```
-> 注：上一步骤 `test_integration_real_task_noisy` 结尾的断言被截断，正确结尾为上面补全的三行。
+
+- [ ] **Step 1b: 补齐两张安全/行为测试（Task 5 / Task 9 延期 minor 落地）**
+
+```python
+# 追加到 tests/test_noise_safety.py：直接覆盖 _literal_leak 清除分支（Task5 延期minor）
+from pipeline.noise_injection.safety import run_safety_gate
+def test_literal_leak_branch_clears_all(tmp_path):
+    from pipeline.noise_injection.context import build_context
+    from pipeline.noise_injection.materialize import _row
+    ev = [{"group_id":"g","category":"入院","feature_name":"x","value":"y","event_date":"2023-01-01"}]
+    ctx = build_context(case_id="c1", events=ev, task_type="T2_response",
+                        target_group_id="g", target_date="2023-03-01",
+                        instruction="i", ground_truth={"response":"部分缓解"})  # GT len>=3
+    rows = [_row(ctx, category="病程", feature_name="病程",
+                 value="疗效为部分缓解", unit="", event_date="2023-02-01", layer="A")]
+    passed, rej = run_safety_gate(ctx, rows)
+    assert passed == []
+    assert any("leak" in str(r.get("reason", "")) or "GT值" in str(r.get("reason", "")) for r in rej)
+```
+
+```python
+# 追加到 tests/test_noise_pipeline.py：降级路径回归（Task9 延期minor）
+def test_pipeline_degraded_clean(tmp_path):
+    from tests.test_noise_pipeline import make_case_csv, FakeClient  # 复用同文件夹具
+    class DegradeClient(FakeClient):
+        def chat_json(self, prompt, node=None, **kw):
+            if node == "noise_evaluate":
+                return {"verdict": "inconsistent", "consistent": False,
+                        "has_reasoning": True, "explanation": "加噪后答案不稳"}
+            return super().chat_json(prompt, node=node, **kw)
+    case_id = "case_deg"
+    N.get_default_client = lambda trace_dir=None: DegradeClient()
+    final = run_case(case_id, data_root=make_case_csv(tmp_path, case_id),
+                     output_root=tmp_path / "tasks", generated_root=tmp_path / "generated")
+    assert final["status"] == "persisted"
+    m = final["noise_manifest"]
+    assert m["final_status"] == "degraded_clean" and m["rows"] == []
+    task_dir = Path(final["task_dir"])
+    assert (task_dir / "noise_manifest.json").exists()
+    assert json.loads((task_dir / "noise_manifest.json").read_text(encoding="utf-8"))["final_status"] == "degraded_clean"
+    queue = (tmp_path / "generated/review_queue.jsonl").read_text(encoding="utf-8")
+    assert "noise_gate_failed" in queue and case_id in queue
+```
 
 - [ ] **Step 2: 全量回归跑通全部测试**
 
