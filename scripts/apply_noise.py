@@ -4,10 +4,10 @@
     python -m scripts.apply_noise --dry-run
     python -m scripts.apply_noise --limit 20
     python -m scripts.apply_noise --case-ids <id1> <id2>
-    python -m scripts.apply_noise --resume        # 跳过已完成的（noisy 目录已存在 noise_manifest.json）
+    python -m scripts.apply_noise --resume        # 仅跳过已完成的 noisy case
 选项:
     --dry-run    只跑闸门不写盘（静默）
-    --resume     跳过 tasks/oncology-v2-noisy/<id>/ 已存在且为 noisy 的 case
+    --resume     仅跳过已完成且 final_status 为 noisy 的 case（degraded_clean/损坏 manifest 会重试）
     --limit N    最多处理 N 个
     --case-ids   指定 case_id 列表
     --workers 1  默认串行
@@ -27,7 +27,7 @@ from llm.client import get_default_client
 from pipeline.noise_injection.config import NoiseConfig
 from pipeline.noise_injection.context import case_from_csv
 from pipeline.noise_injection.injection import run_injection
-from pipeline.noise_injection.manifest import write_manifest
+from pipeline.noise_injection.manifest import read_manifest, write_manifest
 from pipeline.noise_injection.materialize import CSV_FIELDS
 from pipeline.oncology_generation.paths import safe_case_path
 
@@ -61,6 +61,18 @@ def select_task_ids(src_root: Path, case_ids=None, limit=None) -> list[str]:
     if limit is not None:
         dirs = dirs[:limit]
     return dirs
+
+
+def _is_completed_noisy(noise_dir: Path) -> bool:
+    """仅当 manifest 存在、可读且 final_status == "noisy" 时视为已完成（可跳过）."""
+    path = noise_dir / "noise_manifest.json"
+    if not path.exists():
+        return False
+    try:
+        manifest = read_manifest(path)
+    except (OSError, ValueError):  # 损坏/不可读 manifest 不跳过，重试
+        return False
+    return isinstance(manifest, dict) and manifest.get("final_status") == "noisy"
 
 
 def _task_payload(src_dir: Path):
@@ -131,7 +143,7 @@ def main(argv=None) -> int:
     t0 = time.time()
     for i, cid in enumerate(ids, start=1):
         noise_dir = OUT_ROOT / safe_case_path(OUT_ROOT, cid)
-        completed = (noise_dir / "noise_manifest.json").exists() and args.resume
+        completed = args.resume and _is_completed_noisy(noise_dir)
         if completed:
             stats["skipped"] += 1
             continue
