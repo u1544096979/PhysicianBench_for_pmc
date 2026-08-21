@@ -64,3 +64,26 @@ def test_pipeline_appends_noise_and_writes_manifest(tmp_path):
     assert "一般情况可" in cleaned and "白细胞计数" in cleaned
     # 降级/评审队列不影响主差异：这里应为 noisy
     assert final["noise_manifest"]["rows"]
+
+
+def test_pipeline_degraded_clean(tmp_path):
+    """降级路径回归：noise_evaluate 判 inconsistent → 重试阶梯耗尽 →
+    degraded_clean，任务仍以干净版 persisted，manifest 落盘 + review_queue 记录."""
+    class DegradeClient(FakeClient):
+        def chat_json(self, prompt, node=None, **kw):
+            if node == "noise_evaluate":
+                return {"verdict": "inconsistent", "consistent": False,
+                        "has_reasoning": True, "explanation": "加噪后答案不稳"}
+            return super().chat_json(prompt, node=node, **kw)
+    case_id = "case_deg"
+    N.get_default_client = lambda trace_dir=None: DegradeClient()
+    final = run_case(case_id, data_root=make_case_csv(tmp_path, case_id),
+                     output_root=tmp_path / "tasks", generated_root=tmp_path / "generated")
+    assert final["status"] == "persisted"
+    m = final["noise_manifest"]
+    assert m["final_status"] == "degraded_clean" and m["rows"] == []
+    task_dir = Path(final["task_dir"])
+    assert (task_dir / "noise_manifest.json").exists()
+    assert json.loads((task_dir / "noise_manifest.json").read_text(encoding="utf-8"))["final_status"] == "degraded_clean"
+    queue = (tmp_path / "generated/review_queue.jsonl").read_text(encoding="utf-8")
+    assert "noise_gate_failed" in queue and case_id in queue

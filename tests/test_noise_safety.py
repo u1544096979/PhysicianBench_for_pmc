@@ -66,3 +66,16 @@ def test_row_text_joined():
              unit="×10^9/L", event_date="2023-07-01", layer="A")
     t = row_text(r)
     assert "白细胞计数" in t and "5.2" in t
+
+
+def test_literal_leak_branch_clears_all(tmp_path):
+    """直接覆盖 _literal_leak 清除分支：GT 值(len>=3)字面出现 → 清空全部行."""
+    ev = [{"group_id":"g","category":"入院","feature_name":"x","value":"y","event_date":"2023-01-01"}]
+    ctx = build_context(case_id="c1", events=ev, task_type="T2_response",
+                        target_group_id="g", target_date="2023-03-01",
+                        instruction="i", ground_truth={"response":"部分缓解"})  # GT len>=3
+    rows = [_row(ctx, category="病程", feature_name="病程",
+                 value="结论为部分缓解", unit="", event_date="2023-02-01", layer="A")]
+    passed, rej = run_safety_gate(ctx, rows)
+    assert passed == []
+    assert any("leak" in str(r.get("reason", "")) or "GT值" in str(r.get("reason", "")) for r in rej)
